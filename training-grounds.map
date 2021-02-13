@@ -18,7 +18,7 @@ F 8455
 
 G 0
 
-I 3
+I 1
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -253,23 +253,15 @@ T {} { } {}
 
 
 R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    2} {ne} {ne} {3} {0} {} {1.000} {} {0.00}
-E {    4} {sw} {#delay 0 {southw;#map read trails-around-midgaard.map;#map goto 5;map_show;#variable map_current trails-around-midgaard.map}} {12} {0} {} {1.000} {} {0.00}
+E {    2} {w} {#delay 0 {west;#map read king-welmars-castle.map;#map goto 3;map_show;#variable map_current king-welmars-castle.map}} {8} {0} {} {1.000} {} {0.00}
+E {    3} {e} {#delay 0 {op east;east}} {2} {0} {} {1.000} {} {0.00}
 
-R {    2} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    1} {sw} {sw} {12} {0} {} {1.000} {} {0.00}
-E {    3} {ne} {ne} {3} {0} {} {1.000} {} {0.00}
+R {    2} {1026} {} {} { } {} {} {} {} {} {1.000} {}
+E {    1} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R {    3} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    2} {sw} {sw} {12} {0} {} {1.000} {} {0.00}
-E {    5} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {    6} {e} {#delay 0 {east;#map read training-grounds.map;#map goto 1;map_show;#variable map_current training-grounds.map}} {2} {0} {} {1.000} {} {0.00}
+E {    1} {w} {#delay 0 {op west;west}} {8} {0} {} {1.000} {} {0.00}
+E {    4} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
-R {    4} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
-E {    1} {ne} {ne} {3} {0} {} {1.000} {} {0.00}
-
-R {    5} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    3} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {    6} {1026} {} {} { } {} {} {} {} {} {1.000} {}
+R {    4} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    3} {w} {w} {8} {0} {} {1.000} {} {0.00}

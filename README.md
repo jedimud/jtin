@@ -18,7 +18,9 @@ Unicode maps for Jedimud generated with TinTin++.
 
 `[M]` Guild Master
 
-`(@)` Map Exit
+`[&]` Innkeeper
+
+`↖ ↑ ↗ ← · → ↙ ↓ ↘` Map Exit
 
 `[ ]+` Exit Up
 
