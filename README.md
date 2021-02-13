@@ -4,6 +4,22 @@ Unicode maps for Jedimud generated with TinTin++.
 
 ![](example.gif)
 
+## Legend
+
+`[ ]` Basic Room
+
+`[$]` Bank
+
+`[#]` Shop/Vendor
+
+`[%]` Fountain
+
+`(@)` Map Exit
+
+`[ ]+` Exit Up
+
+`[ ]-` Exit Down
+
 ## Usage
 
 **show map**
@@ -56,4 +72,5 @@ Unicode maps for Jedimud generated with TinTin++.
     map_hide;
     map_show;
     #variable map_current midgaard.map;
-}`
+}
+````
