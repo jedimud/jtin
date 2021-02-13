@@ -18,7 +18,7 @@ F 263
 
 G 0
 
-I 38
+I 177
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -1007,9 +1007,25 @@ E {  161} {s} {s} {4} {0} {} {1.000} {} {0.00}
 R {  177} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   88} {d} {d} {32} {0} {} {1.000} {} {0.00}
 E {  179} {s} {#delay 0 {#map goto 115}} {4} {0} {} {1.000} {} {0.00}
+E {  180} {n} {#delay 0 {trans factory;#map read froboz-factory.map;#map goto 1;map_show;#variable map_current froboz-factory.map}} {1} {0} {} {1.000} {} {0.00}
+E {  181} {e} {#delay 0 {trans crystal;#map read crystal-caves.map;#map goto 1;map_show;#variable map_current crystal-caves.map}} {2} {0} {} {1.000} {} {0.00}
+E {  182} {w} {#delay 0 {trans mistamere;#map read castle-mistamere.map;#map goto 1;map_show;#variable map_current castle-mistamere.map}} {8} {0} {} {1.000} {} {0.00}
+E {  183} {u} {#delay 0 {trans zoo;#map read midgaard-zoo.map;#map goto 1;map_show;#variable map_current midgaard-zoo.map}} {16} {0} {} {1.000} {} {0.00}
 
-R {  178} {2} {} {} { } {} {} {} {} {} {1.000} {}
+R {  178} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  115} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {  179} {2} {} {} { } {} {} {} {} {} {1.000} {}
+R {  179} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  177} {n} {n} {1} {0} {} {1.000} {} {0.00}
+
+R {  180} {1026} {} {} { } {} {} {} {} {} {1.000} {}
+E {  177} {s} {s} {4} {0} {} {1.000} {} {0.00}
+
+R {  181} {1026} {} {} { } {} {} {} {} {} {1.000} {}
+E {  177} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R {  182} {1026} {} {} { } {} {} {} {} {} {1.000} {}
+E {  177} {e} {e} {2} {0} {} {1.000} {} {0.00}
+
+R {  183} {1026} {} {} { } {} {} {} {} {} {1.000} {}
+E {  177} {d} {d} {32} {0} {} {1.000} {} {0.00}
