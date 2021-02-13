@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2E0C}
 L {UNICODE GRAPHICS} {NE} {\u2E1D}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -254,8 +254,7 @@ T {} { } {}
 
 R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    2} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {    5} {e} {#delay 0 {east;#map read trails-around-midgaard.map;#map goto 8;map_show;#variable map_current trails-around-midgaard.map}} {2} {0} {} {1.000} {} {0.00}
-E {    6} {w} {w} {8} {0} {} {1.000} {} {0.00}
+E {    4} {s} {#delay 0 {south;#map read midgaard.map;#map goto 135;map_show;#variable map_current midgaard.map}} {4} {0} {} {1.000} {} {0.00}
 
 R {    2} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    1} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -263,13 +262,6 @@ E {    3} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R {    3} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    2} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {    4} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {    4} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    3} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {    5} {32} {} {} {@} {} {} {} {} {} {1.000} {}
-E {    1} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {    6} {32} {} {} {@} {} {} {} {} {} {1.000} {}
-E {    1} {e} {e} {2} {0} {} {1.000} {} {0.00}
+R {    4} {32} {} {} {@} {} {} {} {} {} {1.000} {}
+E {    1} {n} {n} {1} {0} {} {1.000} {} {0.00}

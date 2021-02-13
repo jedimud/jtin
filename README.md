@@ -6,13 +6,17 @@ Unicode maps for Jedimud generated with TinTin++.
 
 ## Legend
 
-`[ ]` Basic Room
+`[ ]` Basic Path
 
 `[$]` Bank
 
 `[#]` Shop/Vendor
 
 `[%]` Fountain
+
+`[D]` Donation
+
+`[M]` Guild Master
 
 `(@)` Map Exit
 
