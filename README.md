@@ -56,4 +56,4 @@ Then create a session using the `jedimud.tin` file
 
 | Zone     | Issues   | 
 | -------- | -------- |
-| Midgaard | jedimud/tintin-maps/#1 |
+| Midgaard | [jedimud/tintin-maps/#1] |
