@@ -55,4 +55,5 @@ Then create a session using the `jedimud.tin` file
 ## Zones
 
 | Zone     | Issues   | 
+| -------- | -------- |
 | Midgaard | #1 #2 #3 |
