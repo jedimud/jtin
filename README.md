@@ -52,3 +52,7 @@ Then create a session using the `jedimud.tin` file
 | `room_recall`   | Change room to recall symbol                        |
 | `room_donation` | Change room to donation symbol                      |
 
+## Zones
+
+| Zone     | Issues   | 
+| Midgaard | #1 #2 #3 |
