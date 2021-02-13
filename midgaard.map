@@ -18,7 +18,7 @@ F 263
 
 G 0
 
-I 11
+I 135
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -764,7 +764,7 @@ R {  119} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  120} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  132} {n} {#delay 0 {north;#map read midgaard-cleric-guild.map;#map goto 1;map_show;#variable map_current midgaard-cleric-guild.map}} {1} {0} {} {1.000} {} {0.00}
 E {  133} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  142} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E {  142} {s} {#delay 0 {south;#map read midgaard-sohei-guild.map;#map goto 1;map_show;#variable map_current midgaard-sohei-guild.map}} {4} {0} {} {1.000} {} {0.00}
 
 R {  120} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  119} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -820,7 +820,7 @@ R {  133} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  119} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  134} {n} {#delay 0 {north;#map read midgaard-jedi-guild.map;#map goto 1;map_show;#variable map_current midgaard-jedi-guild.map}} {1} {0} {} {1.000} {} {0.00}
 E {  135} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  141} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E {  141} {s} {#delay 0 {south;#map read midgaard-bard-guild.map;#map goto 1;map_show;#variable map_current midgaard-bard-guild.map}} {4} {0} {} {1.000} {} {0.00}
 
 R {  134} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  133} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -829,7 +829,7 @@ R {  135} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  133} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  136} {n} {#delay 0 {north;#map read midgaard-paladin-guild.map;#map goto 1;map_show;#variable map_current midgaard-paladin-guild.map}} {1} {0} {} {1.000} {} {0.00}
 E {  137} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  140} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E {  140} {s} {#delay 0 {south;#map read midgaard-mage-guild.map;#map goto 1;map_show;#variable map_current midgaard-mage-guild.map}} {4} {0} {} {1.000} {} {0.00}
 
 R {  136} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  135} {s} {s} {4} {0} {} {1.000} {} {0.00}
