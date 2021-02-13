@@ -60,3 +60,6 @@ Then create a session using the `jedimud.tin` file
 
 * [feature] Add an awesome feature ([#1][i1])
 * [bug] Finally fixed this stupid bug ([#2][i2])
+
+[i19]: https://github.com/user/repo/issues/19
+[i33]: https://github.com/user/repo/issues/33
