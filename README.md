@@ -57,3 +57,6 @@ Then create a session using the `jedimud.tin` file
 | Zone     | Issues   | 
 | -------- | -------- |
 | Midgaard | [#1](/../../issues/1) |
+
+* [feature] Add an awesome feature ([#1][i1])
+* [bug] Finally fixed this stupid bug ([#2][i2])
