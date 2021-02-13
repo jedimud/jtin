@@ -2,7 +2,7 @@
 
 Unicode maps for Jedimud generated with TinTin++.
 
-![](example.gif)
+![](midgaard.png)
 
 ## Legend
 
