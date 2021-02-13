@@ -42,24 +42,36 @@
     #map write $map_current;
 }
 
-#alias map_exit {
+#alias room_exit {
     #map roomflag hide on
 }
 
-#alias map_shop {
+#alias room_shop {
     #map set roomsymbol #;
 }
 
-#alias map_inn {
+#alias room_inn {
     #map set roomsymbol &;
 }
 
-#alias map_master {
+#alias room_master {
     #map set roomsymbol M;
 }
 
-#alias map_danger {
-    #map roomflag avoid;
+#alias room_fountain {
+    #map set roomsymbol %;
+}
+
+#alias room_bank {
+    #map set roomsymbol $;
+}
+
+#alias room_recall {
+    #map set roomsymbol *;
+}
+
+#alias room_donation {
+    #map set roomsymbol D;
 }
 
 #alias open_midgaard {
