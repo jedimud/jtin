@@ -2,7 +2,7 @@
 
 Unicode maps for Jedimud generated with TinTin++.
 
-![](midgaard.png)
+![](docs/midgaard.png)
 
 ## Legend
 
@@ -52,14 +52,3 @@ Then create a session using the `jedimud.tin` file
 | `room_recall`   | Change room to recall symbol                        |
 | `room_donation` | Change room to donation symbol                      |
 
-## Zones
-
-| Zone     | Issues   | 
-| -------- | -------- |
-| Midgaard | [#1](/../../issues/1) |
-
-* [feature] Add an awesome feature ([#1][i1])
-* [bug] Finally fixed this stupid bug ([#2][i2])
-
-[i1]: https://github.com/user/repo/issues/1
-[i2]: https://github.com/user/repo/issues/2
