@@ -6,8 +6,8 @@
 }
 
 #alias map_show {
-    #split 0 1 0 -80;
-    #map offset 1 81 -1 -1;
+    #split 0 1 0 -90;
+    #map offset 1 91 -1 -1;
 }
 
 #alias map_hide {
@@ -81,6 +81,21 @@
     map_hide;
     map_show;
     #variable map_current midgaard.map;
+}
+
+#alias opa {
+    open east;
+    open west;
+    open north;
+    open south;
+    open up;
+    open down;
+    open northe;
+    open northw;
+    open southe;
+    open southw;
+    where;
+    look;
 }
 
 open_midgaard
