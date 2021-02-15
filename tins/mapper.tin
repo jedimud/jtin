@@ -1,9 +1,6 @@
 #variable map_current midgaard.map
 
-#alias rc {
-    c 'group recall';
-    open_midgaard;
-}
+#NOP ----- MAP FUNCTIONS -----
 
 #alias map_show {
     #split 0 1 0 -90;
@@ -42,6 +39,18 @@
     #map write maps/$map_current;
 }
 
+#alias map_open {
+    #map read maps/%1.map; 
+    #map goto 1; 
+    #map flag static on;
+    map_hide;
+    map_show;
+    #variable map_current %1.map;
+}
+
+
+#NOP ----- ROOM ATTRIBUTES -----
+
 #alias room_exit {
     #map roomflag hide on
 }
@@ -73,29 +82,3 @@
 #alias room_donation {
     #map set roomsymbol D;
 }
-
-#alias open_midgaard {
-    #map read maps/midgaard.map; 
-    #map goto 1; 
-    #map flag static on;
-    map_hide;
-    map_show;
-    #variable map_current midgaard.map;
-}
-
-#alias opa {
-    open east;
-    open west;
-    open north;
-    open south;
-    open up;
-    open down;
-    open northe;
-    open northw;
-    open southe;
-    open southw;
-    where;
-    look;
-}
-
-open_midgaard
