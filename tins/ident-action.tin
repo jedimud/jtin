@@ -1,0 +1,409 @@
+#nop ----- ERROR HANDLING -----
+
+#high {^You are too experienced to need %1.} {Red}
+#action {^You are too experienced to need %1.} {
+    log_error;
+}
+#high {^Your class cannot use %1.$} {Red}
+#action {^Your class cannot use %1.$} {
+    log_error;
+}
+
+#alias log_error {
+    #showme <caf>Possible incomplete identify record logged. Try slotting an item and reciting again.;
+    #line log logs/ident.log {ERROR - IGNORE THIS RECORD};
+}
+
+#nop ----- SCROLL OUTPUT -----
+
+#action {^You recite a scroll of identify which dissolves.$} {
+    #showme <caf>capturing identify scroll;
+}
+
+#high {^You feel informed:} {reverse}
+#action {^You feel informed:} {
+    #line log logs/ident.log {-----};
+    check_wield;
+}
+
+#high {^Object '%1', Item type: %2} {reverse}
+#action {^Object '%1', Item type: %2} {
+    #line log logs/ident.log {Object '%1', Item type: %2}
+}
+
+#high {^Item will give you following abilities: %1} {reverse}
+#action {^Item will give you following abilities: %1} {
+    #line log logs/ident.log {Item will give you following abilities: %1}
+}
+
+#high {^Item is: %1} {reverse}
+#action {^Item is: %1} {
+    #line log logs/ident.log {Item is: %1}
+}
+
+#high {^Weight: %1} {reverse}
+#action {^Weight: %1} {
+    #line log logs/ident.log {Weight: %1}
+}
+
+#high {^Damage Dice is '%1' for an average per-round damage of %2.%3.$} {reverse}
+#action {^Damage Dice is '%1' for an average per-round damage of %2.%3.$} {
+    #line log logs/ident.log {Damage Dice is '%1' for an average per-round damage of %2.%3.}
+}
+
+#high {^AC-apply is %1} {reverse}
+#action {^AC-apply is %1} {
+    #line log logs/ident.log {AC-apply is %1}
+}
+
+#high {^This %1 casts: %2} {reverse}
+#action {^This %1 casts: %2} {
+    #line log logs/ident.log {This %1 casts: %2}
+}
+
+#high {^Damage Dice is '%1D%2' This weapon currently has %3 of a maximum %4 charges.} {reverse}
+#action {^Damage Dice is '%1D%2' This weapon currently has %3 of a maximum %4 charges.} {
+    #line log logs/ident.log {Damage Dice is '%1D%2' This weapon currently has %3 of a maximum %4 charges.}
+}
+
+#high {^It has %1 maximum charges and %2 remaining.} {reverse}
+#action {^It has %1 maximum charges and %2 remaining.} {
+    #line log logs/ident.log {It has %1 maximum charges and %2 remaining.}
+}
+
+#high {^This item has a maximum level of %1.} {reverse}
+#action {^This item has a maximum level of %1.} {
+    #line log logs/ident.log {This item has a maximum level of %1.}
+}
+
+#high {^Can affect you as :} {reverse}
+#action {^Can affect you as :} {
+    #line log logs/ident.log {Can affect you as :}
+}
+
+#high {^   Affects: %1} {reverse}
+#action {^   Affects: %1} {
+    #line log logs/ident.log {   Affects: %1}
+}
+
+#high {^It can hold approximately %1} {reverse}
+#action {^It can hold approximately %1} {
+    #line log logs/ident.log {It can hold approximately %1}
+}
+
+
+#nop ----- ITEM SLOT -----
+
+#nop ----- try to wear -----
+
+#alias check_wear {
+    wear $ident_tag;
+}
+
+#high {^You can't wear %1.$} {reverse}
+#action {^You can't wear %1.$} {
+    check_hold;
+}
+
+
+#nop ----- arms -----
+
+#high {^You wear %1 on your arms.$} {reverse}
+#action {^You wear %1 on your arms.$} {
+    remove $ident_tag;
+    capture_arms;
+}
+
+#high {^You're already wearing something on your arms.$} {reverse}
+#action {^You're already wearing something on your arms.$} {
+    capture_arms;
+}
+
+#alias capture_arms {
+    #line log logs/ident.log {Item slot: Arms};
+    check_hold;
+}
+
+
+#nop ----- on body -----
+
+#high {^You wear %1 on your body.$} {reverse}
+#action {^You wear %1 on your body.$} {
+    rem $ident_tag;
+    capture_on_body;
+}
+
+#high {^You're already wearing something on your body.$} {reverse}
+#action {^You're already wearing something on your body.$} { 
+    capture_on_body;
+}
+
+#alias capture_on_body {
+    #line log logs/ident.log {Item slot: On Body};
+    check_hold;
+}
+
+
+#nop ----- hands -----
+
+#high {^You put %1 on your hands.$} {reverse}
+#action {^You put %1 on your hands.$} {
+    rem $ident_tag;
+    capture_hands;
+}
+
+#high {^You're already wearing something on your hands.$} {reverse}
+#action {^You're already wearing something on your hands.$} {
+    capture_hands;
+}
+
+#alias capture_hands {
+    #line log logs/ident.log {Item slot: Hands};
+    check_hold;
+}
+
+
+#nop ----- feet -----
+
+#high {^You wear %1 on your feet.} {reverse}
+#action {^You wear shimmering sandals on your feet.$} {
+    rem $ident_tag;
+    capture_feet;
+}
+
+#high {^You're already wearing something on your feet.$} {reverse}
+#action {^You're already wearing something on your feet.$} {
+    capture_feet;
+}
+
+#alias capture_feet {
+    #line log logs/ident.log {Item slot: Feet};
+    check_hold;
+}
+
+
+#nop ----- wrist -----
+
+#high {^You put %1 on around your %2 wrist.} {reverse}
+#action {^You put %1 on around your %2 wrist.} {
+    rem $ident_tag;
+    capture_wrist;
+}
+
+#high {^You're already wearing something around both of your wrists.$} {reverse}
+#action {^You're already wearing something around both of your wrists.$} {
+    capture_wrist;
+}
+
+#alias capture_wrist {
+    #line log logs/ident.log {Item slot: Wrist};
+    check_hold;
+}
+
+
+#nop ----- ring -----
+
+#high {^You slide %1 on to your %2 ring finger.$} {reverse}
+#action {^You slide %1 on to your %2 ring finger.$} {
+    rem $ident_tag;
+    capture_ring;
+}
+
+#high {^You're already wearing something on both of your ring fingers.$} {reverse}
+#action {^You're already wearing something on both of your ring fingers.$} {
+    capture_ring;
+}
+
+#alias capture_ring {
+    #line log logs/ident.log {Item slot: Ring};
+    check_hold;
+}
+
+
+#nop ----- about body -----
+
+#high {^You wear %1 around your body.$} {reverse}
+#action {^You wear %1 around your body.$} {
+    rem $ident_tag;
+    capture_about_body;
+}
+
+#high {^You're already wearing something about your body.$} {reverse}
+#action {^You're already wearing something about your body.$} {
+    capture_about_body;
+}
+
+#alias capture_about_body {
+    #line log logs/ident.log {Item slot: About Body};
+    check_hold;
+}
+
+
+#nop ----- head -----
+
+#high {^You wear %1on your head.$} {reverse}
+#action {^You wear %1 on your head.$} {
+    rem $ident_tag;
+    capture_head;
+}
+
+#high {^You're already wearing something on your head.$} {reverse}
+#action {^You're already wearing something on your head.$} {
+    capture_head;
+}
+
+#alias capture_head {
+    #line log logs/ident.log {Item slot: Head};
+    check_hold;
+}
+
+
+#nop ----- legs -----
+
+#high {^You put %1 on your legs.$} {reverse}
+#action {^You put %1 on your legs.$} {
+    rem $ident_tag;
+    capture_legs;
+}
+
+#high {^You're already wearing something on your legs.$} {reverse}
+#action {^You're already wearing something on your legs.$} {
+    capture_legs;
+}
+
+#alias capture_legs {
+    #line log logs/ident.log {Item slot: Legs};
+    check_hold;
+}
+
+
+#nop ----- neck -----
+
+#high {^You wear %1 around your neck.$} {reverse}
+#action {^You wear %1 around your neck.$} {
+    rem $ident_tag;
+    capture_neck;
+}
+
+#high {^You can't wear anything else around your neck.$} {reverse}
+#action {^You can't wear anything else around your neck.$} {
+    capture_neck;
+}
+
+#alias capture_neck {
+    #line log logs/ident.log {Item slot: Neck};
+    check_hold;
+}
+
+
+#nop ----- shield -----
+
+#high {^You start to use %1 as a shield.$} {reverse}
+#action {^You start to use %1 as a shield.$} {
+    rem $ident_tag;
+    capture_shield;
+}
+
+#high {^You're already using a shield.$} {reverse}
+#action {^You're already using a shield.$} {
+    capture_shield;
+}
+
+#alias capture_shield {
+    #line log logs/ident.log {Item slot: Shield};
+    check_hold;
+}
+
+
+#nop ----- waist -----
+
+#high {^You wear %1 around your waist.$} {reverse}
+#action {^You wear %1 around your waist.$} {
+    rem $ident_tag;
+    capture_waist;
+}
+
+#high {^You already have something around your waist.$} {reverse}
+#action {^You already have something around your waist.$} {
+    capture_waist;
+}
+
+#alias capture_waist {
+    #line log logs/ident.log {Item slot: Waist};
+    check_hold;
+}
+
+
+#nop ----- light -----
+
+#high {^You light %1 and hold it.$} {reverse} 
+#action {^You light %1 and hold it.$} {
+    rem $ident_tag;
+    capture_light;
+}
+
+#high {^You're already using a light.$} {reverse}
+#action {^You're already using a light.$} {
+    capture_light;
+}
+
+#alias capture_light {
+    #line log logs/ident.log {Item slot: Light};
+    unload_action;
+}
+
+
+#nop ----- try to wield -----
+
+#alias check_wield {
+    wield $ident_tag;
+}
+
+#high {^You wield %1.$} {reverse}
+#action {^You wield %1.$} {
+    rem $ident_tag;
+    capture_wield;
+}
+
+#high {^You can't wield that.$} {reverse}
+#action {^You can't wield that.$} {
+    check_wear;
+}
+
+#high {^You're already wielding a weapon.$} {reverse}
+#action {^You're already wielding a weapon.$} {
+    capture_wield;
+}
+
+#alias capture_wield {
+    #line log logs/ident.log {Item slot: Weapon};
+    check_wear;
+}
+
+
+#nop ----- try to hold -----
+
+#alias check_hold {
+    hold $ident_tag;
+}
+
+#high {^You can't hold that.$} {reverse}
+#action {^You can't hold that.$} {
+    unload_action;
+}
+
+#high {^You grab %1.$} {reverse}
+#action {^You grab %1.$} {
+    rem $ident_tag;
+    capture_hold;
+}
+
+#high {^You're already holding something.$} {reverse}
+#action {^You're already holding something.$} {
+    capture_hold;
+}
+
+#alias capture_hold {
+    #line log logs/ident.log {Item slot: Hold};
+    unload_action;
+}
