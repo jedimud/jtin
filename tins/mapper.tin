@@ -1,0 +1,101 @@
+#variable map_current midgaard.map
+
+#alias rc {
+    c 'group recall';
+    open_midgaard;
+}
+
+#alias map_show {
+    #split 0 1 0 -90;
+    #map offset 1 91 -1 -1;
+}
+
+#alias map_hide {
+    #split;
+    #map offset;
+}
+
+#alias map_create {
+    #map create;
+    #map goto 1;
+    #map flag VTmap on;
+    #map flag UnicodeGraphics on;
+    #map flag direction on;
+    map_hide;
+    map_show;
+    #map legend {unicode graphics} { { } {\u2198} {\u2197} {>} {\u2199} {\u2E0C\u2E0D} {\uFF0F} {>\u2E0D} {\u2196} {\uFF3C} {\u2E1D\u2E1C} {>\u2E1C} {<} {\u2E0C<} {\u2E1D<} {><} {-} {\u2191} {\u2193} {\u2502} {+} {\u2192} {\u2190} {\u2500} {[} {(} {]} {)} }
+}
+
+#alias map_edit {
+    #showme edit-mode enabled for $map_current;
+    #map sync maps/$map_current;
+    #map flag static off;
+}
+
+#alias map_read {
+    #showme read-only enabled for $map_current;
+    #map flag static on;
+}
+
+#alias map_save {
+    #showme saving $map_current;
+    #map write maps/$map_current;
+}
+
+#alias room_exit {
+    #map roomflag hide on
+}
+
+#alias room_shop {
+    #map set roomsymbol #;
+}
+
+#alias room_inn {
+    #map set roomsymbol &;
+}
+
+#alias room_master {
+    #map set roomsymbol M;
+}
+
+#alias room_fountain {
+    #map set roomsymbol %;
+}
+
+#alias room_bank {
+    #map set roomsymbol $;
+}
+
+#alias room_recall {
+    #map set roomsymbol *;
+}
+
+#alias room_donation {
+    #map set roomsymbol D;
+}
+
+#alias open_midgaard {
+    #map read maps/midgaard.map; 
+    #map goto 1; 
+    #map flag static on;
+    map_hide;
+    map_show;
+    #variable map_current midgaard.map;
+}
+
+#alias opa {
+    open east;
+    open west;
+    open north;
+    open south;
+    open up;
+    open down;
+    open northe;
+    open northw;
+    open southe;
+    open southw;
+    where;
+    look;
+}
+
+open_midgaard
