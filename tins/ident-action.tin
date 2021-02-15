@@ -377,7 +377,7 @@
 
 #alias capture_wield {
     #line log logs/ident.log {Item slot: Weapon};
-    check_wear;
+    check_hold;
 }
 
 
