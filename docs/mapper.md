@@ -4,6 +4,8 @@
 
 # Unicode Mapper
 
+Small unicode maps loaded into the right `#split` of TinTin++. 
+
 ## Usage
 
 Load mapper tin as class at TinTin++ startup.
