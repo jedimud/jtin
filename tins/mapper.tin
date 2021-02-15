@@ -45,7 +45,7 @@
     #map flag static on;
     map_hide;
     map_show;
-    #variable map_current %1.map;
+    #variable map_current {%1.map};
 }
 
 

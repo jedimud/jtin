@@ -1,7 +1,7 @@
-#action {The corpse of %1 seems to be empty.} {
-    #line log loot.log {%1,,$map_current};
+#action {^The corpse of %1 seems to be empty.$} {
+    #line log logs/loot.log {%1,,$map_current};
 }
 
-#action {You get %1 from the corpse of %2.} {
-    #line log loot.log {%1,%2,$map_current};
+#action {^You get %1 from the corpse of %2.$} {
+    #line log logs/loot.log {%1,%2,$map_current};
 }
