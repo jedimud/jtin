@@ -1,0 +1,151 @@
+#alias ident {
+    recite identify %1;
+    wear %1;
+    wield %1;
+    hold %1;
+}
+
+#high {You feel informed:} {reverse}
+#action {You feel informed:} {
+    #line log ident.log {-----};
+}
+
+#high {Object '%1', Item type: %2} {reverse}
+#action {Object '%1', Item type: %2} {
+    #line log ident.log {Object '%1', Item type: %2}
+}
+
+#high {Item will give you following abilities: %1} {reverse}
+#action {Item will give you following abilities: %1} {
+    #line log ident.log {Item will give you following abilities: %1}
+}
+
+#high {Item is: %1} {reverse}
+#action {Item is: %1} {
+    #line log ident.log {Item is: %1}
+}
+
+#high {Weight: %1} {reverse}
+#action {Weight: %1} {
+    #line log ident.log {Weight: %1}
+}
+
+#high {Damage Dice is '%1' for an average per-round damage of %2.%3.} {reverse}
+#action {Damage Dice is '%1' for an average per-round damage of %2.%3.} {
+    #line log ident.log {Damage Dice is '%1' for an average per-round damage of %2.%3.}
+}
+
+#high {AC-apply is %1} {reverse}
+#action {AC-apply is %1} {
+    #line log ident.log {AC-apply is %1}
+}
+
+#high {This %1 casts: %2} {reverse}
+#action {This %1 casts: %2} {
+    #line log ident.log {This %1 casts: %2}
+}
+
+#high {Damage Dice is '%1D%2' This weapon currently has %3 of a maximum %4 charges.} {reverse}
+#action {Damage Dice is '%1D%2' This weapon currently has %3 of a maximum %4 charges.} {
+    #line log ident.log {Damage Dice is '%1D%2' This weapon currently has %3 of a maximum %4 charges.}
+}
+
+#high {It has %1 maximum charges and %2 remaining.} {reverse}
+#action {It has %1 maximum charges and %2 remaining.} {
+    #line log ident.log {It has %1 maximum charges and %2 remaining.}
+}
+
+#high {This item has a maximum level of %1.} {reverse}
+#action {This item has a maximum level of %1.} {
+    #line log ident.log {This item has a maximum level of %1.}
+}
+
+#high {Can affect you as :} {reverse}
+#action {Can affect you as :} {
+    #line log ident.log {Can affect you as :}
+}
+
+#high {   Affects: %1} {reverse}
+#action {   Affects: %1} {
+    #line log ident.log {   Affects: %1}
+}
+
+#high {It can hold approximately %1} {reverse}
+#action {It can hold approximately %1} {
+    #line log ident.log {It can hold approximately %1}
+}
+
+#high {You're already wearing something on your arms.} {reverse}
+#action {You're already wearing something on your arms.} {
+    #line log ident.log {ItemSlot: Arms}
+}
+
+#high {You're already wearing something on your hands.} {reverse}
+#action {You're already wearing something on your hands.} {
+    #line log ident.log {ItemSlot: Hands}
+}
+
+#high {You're already wearing something on your feet.} {reverse}
+#action {You're already wearing something on your feet.} {
+    #line log ident.log {ItemSlot: Feet}
+}
+
+#high {You're already wearing something around both of your wrists.} {reverse}
+#action {You're already wearing something around both of your wrists.} {
+    #line log ident.log {ItemSlot: Wrist}
+}
+
+#high {You're already wearing something on both of your ring fingers.} {reverse}
+#action {You're already wearing something on both of your ring fingers.} {
+    #line log ident.log {ItemSlot: Ring}
+}
+
+#high {You're already using a light.} {reverse}
+#action {You're already using a light.} {
+    #line log ident.log {ItemSlot: Light}
+}
+
+#high {You're already wearing something about your body.} {reverse}
+#action {You're already wearing something about your body.} {
+    #line log ident.log {ItemSlot: About Body}
+}
+
+#high {You're already wearing something on your head.} {reverse}
+#action {You're already wearing something on your head.} {
+    #line log ident.log {ItemSlot: Head}
+}
+
+#high {You're already wearing something on your body.} {reverse}
+#action {You're already wearing something on your body.} { 
+    #line log ident.log {ItemSlot: On Body}
+}
+
+#high {You're already wearing something on your legs.} {reverse}
+#action {You're already wearing something on your legs.} {
+    #line log ident.log {ItemSlot: Legs}
+}
+
+#high {You can't wear anything else around your neck.} {reverse}
+#action {You can't wear anything else around your neck.} {
+    #line log ident.log {ItemSlot: Neck}
+}
+
+#high {You're already using a shield.} {reverse}
+#action {You're already using a shield.} {
+    #line log ident.log {ItemSlot: Shield}
+}
+
+#high {You already have something around your waist.} {reverse}
+#action {You already have something around your waist.} {
+    #line log ident.log {ItemSlot: Waist}
+}
+
+#high {You're already wielding a weapon.} {reverse}
+#action {You're already wielding a weapon.} {
+    #line log ident.log {ItemSlot: Weapon}
+}
+
+#high {You're already holding something.} {reverse}
+#action {You're already holding something.} {
+    #line log ident.log {ItemSlot: Hold}
+}

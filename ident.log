@@ -1,0 +1,109 @@
+-----
+Object 'a combat jumpsuit', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 4, Value: 20000, Rent: 5000, Min. level: 10
+AC-apply is 6
+Can affect you as :
+   Affects: DAMROLL By 1
+ItemSlot: About Body
+-----
+Object 'a laurel crown', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG BLESS !EVIL !MAGE !CLER !PAL !APAL !JEDI !SOHEI LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 1, Value: 300000, Rent: 6000, Min. level: 20
+AC-apply is 10
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: STR By 2
+ItemSlot: Head
+-----
+Object 'a suit of gleaming silver platemail', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS !EVIL !NEUTRAL !MAGE !CLER !THF !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 40, Value: 150000, Rent: 10000, Min. level: 15
+AC-apply is 30
+Can affect you as :
+   Affects: HIT By 15
+   Affects: DAMROLL By 1
+ItemSlot: On Body
+ItemSlot: Feet
+-----
+Object 'Greaves of Valour', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM INVIS !NEUTRAL !MAGE !CLER !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 10, Value: 10000, Rent: 2000, Min. level: 16
+AC-apply is 14
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: INT By -3
+ItemSlot: Legs
+-----
+Object 'a tower shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !MAGE !CLER !THF LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 15, Value: 15000, Rent: 1000, Min. level: 16
+AC-apply is 8
+Can affect you as :
+   Affects: STR By 1
+   Affects: DAMROLL By 1
+ItemSlot: Shield
+-----
+Object 'a rainbow-colored feather boa', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 1, Value: 200000, Rent: 1750, Min. level: 0
+AC-apply is 10
+Can affect you as :
+   Affects: STR By 1
+   Affects: DEX By 1
+ItemSlot: Waist
+-----
+Object 'a purple heart medallion', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS !MAGE !CLER !PAL !APAL !JEDI !SOHEI LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 2, Value: 500000, Rent: 5000, Min. level: 15
+AC-apply is 4
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HIT By 5
+ItemSlot: Neck
+-----
+Object 'a dart', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !CLER UNIQUE 
+Weight: 1, Value: 5, Rent: 0, Min. level: 0
+Damage Dice is '1D2' for an average per-round damage of 1.5.
+ItemSlot: Weapon
+ItemSlot: Weapon
+ItemSlot: Hold
+-----
+Object 'a crossbow', Item type: FIRE-WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA !BARD UNIQUE 
+Weight: 20, Value: 5000, Rent: 5000, Min. level: 5
+Damage Dice is '5D3' This weapon currently has 11 of a maximum 5 charges.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 2
+-----
+Object 'a leather belt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !DONATE UNIQUE 
+Weight: 2, Value: 100, Rent: 50, Min. level: 0
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: MANA_REGEN By 10
+ItemSlot: Waist
+-----
+Object 'a leather belt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !DONATE UNIQUE 
+Weight: 2, Value: 100, Rent: 50, Min. level: 0
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: MANA_REGEN By 10
+This item has a maximum level of 8.
+ItemSlot: Waist
