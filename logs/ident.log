@@ -1296,3 +1296,106 @@ Item slot: Weapon
 Forged by a master blacksmith this sword is of an excellent quality.
 
 
+-----
+Object 'a steel key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+This steel key has been around for a very long time.  The edges are worn and 
+rounded, and there are slight dents and dings as well.
+
+
+-----
+Object 'a key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+A heavy, dark-green key with a tiny symbol engraved on its side.
+The symbol has long been worn away as this key is very, VERY old.
+
+
+-----
+Object 'a mine key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 1, Rent: 1000000, Min. level: 0
++++++
+ 
+An old, rusty key that has seen many years in the dark, dusty mine
+shaft.
+
+
+-----
+Object 'a castle key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+You hold in your hands a key of intricate design.  Considering
+who you just got this key from and what it looks like, you are
+sure that only a dwarf could have made such an impressive piece
+of artwork out of just a simple key. There are more than a couple
+gems inlaid within the handle.  The ones that you recognize
+immediately are 3 rubies, 4 sapphires, 2 topaz and a giant diamond
+set in the middle.  There are also markings down the key all the
+way to the tip.  You can't quite make out what they say and they
+give you kind of an inferior feeling.  The gems in the handle and
+the polish which someone took obvious care to give this key makes you 
+think it is of some importance. 
+
+
+-----
+Object 'a note', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 0, Value: 1, Rent: 1, Min. level: 0
++++++
+ 
+  This note seems of utmost importance, as it has the stamp of the
+  Queen on it!  It says:
+    To Anyone,
+      I have lost my birth control pills, and I will reward anyone who
+      finds them.  Without them I will have many unwanted children.
+      You should be able to find the keys (YES, KEYS) to the castle,
+      since none of my servants fight for anything anymore, and one
+      of them should be around the store room, where I lost it, so
+      examine the area carefully, since the dust is very thick there.
+      But who cares about fighting?  I'm a lover, not a fighter.
+       The last time I saw the other key was on a barrack dwarf.
+  Signed, The Queen.
+
+
+-----
+Object 'a bright golden key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+Almost glowing with your touch, this key is extremely tiny
+and is almost lost in the palm of your hand.  You can only
+imagine what type of lock this key fits into.
+
+
+-----
+Object 'a silvery cloak', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 5300, Rent: 1250, Min. level: 0
+AC-apply is 4
+Can affect you as :
+   Affects: SAVE_SPELL By 3
+Item slot: About Body
++++++
+ 
+This cloak is fashioned of a dark cloth with a silvery finish that glints 
+and sparkles in the light as it moves.  It would make a beautiful, if not 
+sturdy, addition to your wardrobe.  Just don't try sneaking around while 
+wearing it; you'd stand out like a beacon.
+
+
