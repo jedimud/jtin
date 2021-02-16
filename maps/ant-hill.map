@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -253,10 +253,10 @@ T {} { } {}
 
 
 R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    2} {n} {#delay 0 {north;#map read maps/trails-near-midgaard.map;#map goto 7;map_show;#variable map_current trails-near-midgaard.map}} {1} {0} {} {1.000} {} {0.00}
+E {    2} {n} {room_link_action {north} {trails-near-midgaard} {7}} {1} {0} {} {1.000} {} {0.00}
 E {    3} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {    2} {8226} {} {} {@} {} {} {} {} {} {1.000} {}
+R {    2} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {    1} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {    3} {0} {} {} { } {} {} {} {} {} {1.000} {}

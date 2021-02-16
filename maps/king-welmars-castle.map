@@ -254,7 +254,7 @@ T {} { } {}
 
 R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    2} {ne} {ne} {3} {0} {} {1.000} {} {0.00}
-E {    4} {sw} {#delay 0 {southw;#map read maps/trails-around-midgaard.map;#map goto 5;map_show;#variable map_current trails-around-midgaard.map}} {12} {0} {} {1.000} {} {0.00}
+E {    4} {sw} {room_link_action {southwest} {trails-around-midgaard} {5}} {12} {0} {} {1.000} {} {0.00}
 
 R {    2} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    1} {sw} {sw} {12} {0} {} {1.000} {} {0.00}
@@ -263,7 +263,7 @@ E {    3} {ne} {ne} {3} {0} {} {1.000} {} {0.00}
 R {    3} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    2} {sw} {sw} {12} {0} {} {1.000} {} {0.00}
 E {    5} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {    6} {e} {#delay 0 {east;#map read maps/training-grounds.map;#map goto 1;map_show;#variable map_current training-grounds.map}} {2} {0} {} {1.000} {} {0.00}
+E {    6} {e} {room_link_action {east} {training-grounds} {1}} {2} {0} {} {1.000} {} {0.00}
 
 R {    4} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {    1} {ne} {ne} {3} {0} {} {1.000} {} {0.00}

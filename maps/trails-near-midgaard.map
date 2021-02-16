@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -263,7 +263,7 @@ R {    3} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    1} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {    4} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {    8} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {    9} {s} {#delay 0 {south;#map read maps/miden-nir.map;#map goto 1;map_show;#variable map_current miden-nir.map}} {4} {0} {} {1.000} {} {0.00}
+E {    9} {s} {room_link_action {south} {miden-nir} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {    4} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    3} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -276,18 +276,18 @@ E {    6} {e} {e} {2} {0} {} {1.000} {} {0.00}
 R {    6} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    5} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {    7} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   10} {n} {#delay 0 {north;#map read maps/enfan-city.map;#map goto 1;map_show;#variable map_current enfan-city.map}} {1} {0} {} {1.000} {} {0.00}
+E {   10} {n} {room_link_action {north} {enfan-city} {1}} {1} {0} {} {1.000} {} {0.00}
 
 R {    7} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    6} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   11} {s} {#delay 0 {south;#map read maps/ant-hill.map;#map goto 1;map_show;#variable map_current ant-hill.map}} {4} {0} {} {1.000} {} {0.00}
+E {   11} {s} {room_link_action {south} {ant-hill} {1}} {4} {0} {} {1.000} {} {0.00}
 E {    7} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R {    8} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    3} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {   12} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {    9} {8226} {} {} {@} {} {} {} {} {} {1.000} {}
+R {    9} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {    3} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R {   10} {9250} {} {} {@} {} {} {} {} {} {1.000} {}

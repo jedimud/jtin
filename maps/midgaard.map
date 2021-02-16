@@ -736,7 +736,7 @@ E {  124} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  109} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   37} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  110} {w} {#delay 0 {west;#map read maps/haon-dor.map;#map goto 1;map_show;#variable map_current haon-dor.map}} {8} {0} {} {1.000} {} {0.00}
+E {  110} {w} {room_link_action {west} {haon-dor} {1}} {8} {0} {} {1.000} {} {0.00}
 E {  111} {n} {#delay 0 {north;#map read maps/trails-around-midgaard.map;#map goto 9;map_show;#variable map_current trails-around-midgaard.map}} {1} {0} {} {1.000} {} {0.00}
 
 R {  110} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
@@ -769,7 +769,7 @@ E {  157} {n} {n} {1} {0} {} {1.000} {} {0.00}
 R {  117} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  118} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  121} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  126} {n} {#delay 0 {north;#map read maps/cheers.map;#map goto 1;map_show;#variable map_current cheers.map}} {1} {0} {} {1.000} {} {0.00}
+E {  126} {n} {room_link_action {north} {cheers} {1}} {1} {0} {} {1.000} {} {0.00}
 E {  131} {s} {#delay 0 {south;#map read maps/midgaard-ninja-guild.map;#map goto 1;map_show;#variable map_current midgaard-ninja-guild.map}} {4} {0} {} {1.000} {} {0.00}
 
 R {  118} {4104} {} {} { } {} {} {} {} {} {1.000} {}
@@ -1035,7 +1035,7 @@ R {  184} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  192} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  185} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  188} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  191} {s} {#delay 0 {south;#map read maps/balor.map;#map goto 1;map_show;#variable map_current balor.map}} {4} {0} {} {1.000} {} {0.00}
+E {  191} {s} {room_link_action {south} {balor} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  185} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  184} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -1054,8 +1054,8 @@ E {  189} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R {  189} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  188} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  190} {e} {#delay 0 {east;#map read maps/great-eastern-desert.map;#map goto 1;map_show;#variable map_current great-eastern-desert.map}} {2} {0} {} {1.000} {} {0.00}
-E {  193} {s} {#delay 0 {south;#map read maps/camelot.map;#map goto 1;map_show;#variable map_current camelot.map}} {4} {0} {} {1.000} {} {0.00}
+E {  190} {e} {room_link_action {east} {great-eastern-desert} {1}} {2} {0} {} {1.000} {} {0.00}
+E {  193} {s} {room_link_action {south} {camelot} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  190} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  189} {w} {w} {8} {0} {} {1.000} {} {0.00}
