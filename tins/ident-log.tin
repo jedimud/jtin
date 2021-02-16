@@ -9,11 +9,26 @@
         check_description $ident_tag;
         #delay {0.5} {
             #showme <caf>identify scroll output captured;
-            #class ident-action clear;
+            clear_action;
         }
     }
 }
 
+#alias clear_action {
+    #class ident-action clear;
+}
+
 #high {^You don't seem to have an identify.$} {Red}
+#action {^You don't seem to have an identify.$} {
+    clear_action;
+}
 
 #high {^There is nothing to here to affect with a scroll of identify.$} {Red}
+#action {^There is nothing to here to affect with a scroll of identify.$} {
+    clear_action;
+}
+
+#action {^As you recite the last word, there is a brilliant flash of light} {
+    #showme <119>Cannot use identify scroll in !magic room;
+    clear_action;
+}

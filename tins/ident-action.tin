@@ -18,7 +18,7 @@
 #alias log_error {
     #showme <caf>Possible incomplete identify record logged. Try slotting an item and reciting again.;
     #line log logs/ident.log {ERROR - IGNORE THIS RECORD};
-    unload_action;
+    clear_action;
 }
 
 #nop ----- SCROLL OUTPUT -----
