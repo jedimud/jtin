@@ -579,3 +579,266 @@ Item slot: Head
 +++++
  
 A hat made of blue cloth.  It looks very comfortable.
+-----
+Object 'key chain', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+This bunch of keys is about as large as the hand of any enfan you've seen 
+so far. You wonder where all the locks to fit each key are?
+
+
+-----
+Object 'a long sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !DONATE UNIQUE 
+Weight: 8, Value: 600, Rent: 200, Min. level: 0
+Damage Dice is '1D8' for an average per-round damage of 4.5.
+Item slot: Weapon
++++++
+ 
+A standard and serviceable blade, double-edged for slashing, sturdy 
+guard, well balanced, and a good non-slip grip.
+
+
+-----
+Object 'black tunic', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 100, Rent: 100, Min. level: 0
+AC-apply is 3
+Item slot: About Body
++++++
+ 
+This tunic looks like it was discarded about a century ago. It was once 
+beautiful, a nice weave, black with a gold trim, but it's long since lost 
+any luster, and looks like it should go to the dump rather than the wash.
+
+
+-----
+Object 'high heels', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 100, Rent: 100, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: HEIGHT By 3
+Item slot: Feet
++++++
+ 
+These shoes probably once graced the feet of a noble lady, but they're 
+now broken and dirty, one heel at an angle.
+
+
+-----
+Object 'opal bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 8000, Rent: 4000, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: CON By 1
+   Affects: DAMROLL By -2
+Item slot: Wrist
++++++
+ 
+The smoothness of this bracelet captures the admiration of all who see it.
+
+
+-----
+Object 'metallic shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !BARD UNIQUE 
+Weight: 10, Value: 1000, Rent: 200, Min. level: 0
+AC-apply is 5
+Can affect you as :
+   Affects: SAVE_SPELL By -2
+Item slot: Shield
++++++
+ 
+Hundreds of nearly blood red sapphires seemed to have grown together 
+to make this shield.  As you look closer you notice that each
+sapphire glows with an inner light.  The light draws you in 
+and beckons you and replaces the light that was once in your
+eyes.
+
+
+-----
+Object 'a pair of strange boots', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 3500, Rent: 1200, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: STR By 1
+Item slot: Feet
++++++
+ 
+These boots are strange in a way that defies description, but seeing that 
+this is a description, I'll see what I can do. They're sort of...well,  
+they're more... no, it's just that they're... ahh, I give up. They're 
+strange. 
+-----
+Object 'galactic claymore', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 16, Value: 2000, Rent: 700, Min. level: 0
+Damage Dice is '5D4' for an average per-round damage of 12.5.
+Can affect you as :
+   Affects: WIS By -2
+   Affects: HIT By 5
+Item slot: Weapon
++++++
+ 
+Like most claymores, this sword has a two-handed grip and gently tapers 
+from base to tip. Its guard is angled forward to trap an opponent's 
+sword sliding up the blade, and the engraving upon the quillons is 
+exquisite, though of a design unlike any you've seen elsewhere.
+
+
+-----
+Object 'a silvery blue wand', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF !WAR !NINJA UNIQUE 
+Weight: 1, Value: 5000, Rent: 2500, Min. level: 0
+This WAND casts: lightning bolt of level 10
+It has 3 maximum charges and 3 remaining.
+Item slot: Hold
++++++
+ 
+This small wand appears to change color as you move it around.  
+The color changes from newly polished silver, to the color of heat
+treated steel.  You can not make out the meaning of the mystic 
+runes carved into the surface.
+
+
+-----
+Object 'a pair of bracers', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !THF !NINJA !BARD UNIQUE 
+Weight: 3, Value: 3300, Rent: 950, Min. level: 0
+AC-apply is 5
+Item slot: Arms
++++++
+ 
+You see well-made pair of iron bracers.  The well-polished surface has
+many nicks and scratches.
+ (glowing)
+
+-----
+Object 'a small ruby ring', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: LIMITED UNIQUE 
+Weight: 1, Value: 12000, Rent: 6000, Min. level: 0
+Can affect you as :
+   Affects: HIT By 15
+   Affects: HITROLL By -2
+Item slot: Ring
++++++
+ 
+What a ROCK!  The diamond on this ring is HUGE! It's raised about an inch
+and a half from the band, and it shines brighter than most light bulbs!
+
+
+-----
+Object 'a small helmet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE UNIQUE 
+Weight: 5, Value: 600, Rent: 400, Min. level: 0
+AC-apply is 8
+Can affect you as :
+   Affects: INT By 2
+   Affects: DEX By -3
+Item slot: Head
++++++
+ 
+This helmet is well made.  It is small and comes to a point at the top.
+The metal is well polished and oiled.
+
+
+-----
+Object 'a snake headed whip', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !GOOD LIMITED UNIQUE 
+Weight: 16, Value: 2000, Rent: 800, Min. level: 0
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Can affect you as :
+   Affects: HITROLL By 1
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a noble's longsword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER UNIQUE 
+Weight: 8, Value: 2200, Rent: 850, Min. level: 0
+Damage Dice is '1D10' for an average per-round damage of 5.5.
+Can affect you as :
+   Affects: HITROLL By 1
+Item slot: Weapon
++++++
+ 
+This longsword appears to be of fine workmanship.  The hilt is made of 
+ornate silver and the handle is wrapped in colored and tooled leather.  
+The adamantite blade has ornate scribe work etched into it.
+
+
+-----
+Object 'a snake headed whip', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !GOOD LIMITED UNIQUE 
+Weight: 16, Value: 2000, Rent: 800, Min. level: 0
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Can affect you as :
+   Affects: HITROLL By 1
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a small helmet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE UNIQUE 
+Weight: 5, Value: 600, Rent: 400, Min. level: 0
+AC-apply is 8
+Can affect you as :
+   Affects: INT By 2
+   Affects: DEX By -3
+Item slot: Head
++++++
+ 
+This helmet is well made.  It is small and comes to a point at the top.
+The metal is well polished and oiled.
+
+
+-----
+Object 'a black longsword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !DROP !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 14, Value: 6400, Rent: 3200, Min. level: 0
+Damage Dice is '2D7' for an average per-round damage of 8.0.
+Item slot: Weapon
++++++
+ 
+This longsword appears to be very old and shows signs of frequent use.
+It has been well cared for, but you notice that there are no added
+decorative markings anywhere.  The metal of the blade must be naturally
+black because it is uniformly black even along the edge where it has 
+been sharpened countless times.
+ (glowing)
+
+-----
+Object 'a snake headed whip', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !GOOD LIMITED UNIQUE 
+Weight: 14, Value: 1500, Rent: 600, Min. level: 0
+Damage Dice is '1D9' for an average per-round damage of 5.0.
+Can affect you as :
+   Affects: HITROLL By -1
+   Affects: DAMROLL By 2
+Item slot: Weapon
++++++
+ 
+This whip seems to be made of leather.  Three of the strands that make
+up the whip have snake heads at the ends.  The snake heads have nasty
+looking fangs protruding from them.  You notice that the whip has some
+rather ornate markings on the handle.
+ (glowing)
+
