@@ -1,6 +1,6 @@
 #variable map_current midgaard.map
 
-#NOP ----- MAP FUNCTIONS -----
+#nop ----- MAP FUNCTIONS -----
 
 #alias map_show {
     #split 0 1 0 -90;
@@ -13,6 +13,7 @@
 }
 
 #alias map_create {
+    print_mapper_msg {creating new map: %1};
     #map create;
     #map goto 1;
     #map flag VTmap on;
@@ -20,21 +21,25 @@
     #map flag direction on;
     map_hide;
     map_show;
-    #map legend {unicode graphics} { { } {\u2198} {\u2197} {>} {\u2199} {\u2E0C\u2E0D} {\uFF0F} {>\u2E0D} {\u2196} {\uFF3C} {\u2E1D\u2E1C} {>\u2E1C} {<} {\u2E0C<} {\u2E1D<} {><} {-} {\u2191} {\u2193} {\u2502} {+} {\u2192} {\u2190} {\u2500} {[} {(} {]} {)} }
+    #map legend {unicode graphics} { { } {\u2198} {\u2197} {>} {\u2199} {\u2E0C\u2E0D} {\uFF0F} {>\u2E0D} {\u2196} {\uFF3C} {\u2E1D\u2E1C} {>\u2E1C} {<} {\u2E0C<} {\u2E1D<} {><} {-} {\u2191} {\u2193} {\u2502} {+} {\u2192} {\u2190} {\u2500} {[} {(} {]} {)} };
+    #write maps/%1.map
 }
 
 #alias map_edit {
+    print_mapper_msg {setting map to edit-mode: $map_current};
     #showme edit-mode enabled for $map_current;
     #map sync maps/$map_current;
     #map flag static off;
 }
 
 #alias map_read {
+    print_mapper_msg {setting map to read-only: $map_current};
     #showme read-only enabled for $map_current;
     #map flag static on;
 }
 
 #alias map_save {
+    print_mapper_msg {saving map: $map_current};
     #showme saving $map_current;
     #map write maps/$map_current;
 }
@@ -43,13 +48,45 @@
     #map read maps/%1.map; 
     #map goto 1; 
     #map flag static on;
-    map_hide;
-    map_show;
     #variable map_current {%1.map};
+    map_show;
 }
 
+#nop ----- MAP EXITS -----
 
-#NOP ----- ROOM ATTRIBUTES -----
+#nop room_link e midgaard 109
+#alias room_link {
+    #var path {};
+    #switch {"%1"} {
+        #case "e" {#var path east};
+        #case "w" {#var path west};
+        #case "n" {#var path north};
+        #case "s" {#var path south};
+        #case "ne" {#var path northeast};
+        #case "nw" {#var path northwest};
+        #case "se" {#var path southeast};
+        #case "sw" {#var path southwest};
+        #case "u" {#var path up};
+        #case "d" {#var path down};
+        #default {#var path rest};
+    };
+    #map exit %1 command {room_link_action {$path} {%2} {%3}};
+    #showme {};
+    print_mapper_msg {added room link: $path %2 %3};
+}
+
+#alias room_link_action {
+    #delay {0} {
+        %1;
+        #map read maps/%2.map;
+        #map goto %3;
+        map_show;
+        #variable map_current %2.map;
+        print_mapper_msg {now entering $map_current};
+    };
+}
+
+#nop ----- ROOM ATTRIBUTES -----
 
 #alias room_exit {
     #map roomflag hide on
@@ -81,4 +118,11 @@
 
 #alias room_donation {
     #map set roomsymbol D;
+}
+
+#nop ----- utility -----
+
+#alias print_mapper_msg {
+    #showme <afc>[MAPPER] %1;
+    #showme { };
 }
