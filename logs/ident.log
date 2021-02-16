@@ -1,4 +1,51 @@
 -----
+Object 'a Mark IV Phaser Rifle', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM LIMITED !RENT 
+Weight: 10, Value: 0, Rent: 0, Min. level: 0
+Damage Dice is '6D6' for an average per-round damage of 21.0.
+Can affect you as :
+   Affects: HITROLL By 10
+Item slot: Weapon
+ 
+This is a high efficiency energy weapon capable of doing great damage.
+It has a solenite stock with a laser targeting and guidance system which
+virtually ensures target destruction.  On closer inspection, however,
+it doesn't appear to be a genuine Frobozomatic, but a cheap knockoff.
+It seems to be rather cheaply made and probably won't hold up to hard
+use for very long.
+ (glowing) (humming)
+
+-----
+Object 'a pair of onyx memorial stones', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: INVIS BLESS !EVIL !MAGE LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 10, Value: 25000, Rent: 5250, Min. level: 5
+Can affect you as :
+   Affects: WIS By 2
+   Affects: MANA_REGEN By 5
+Item slot: On Body
+Item slot: Hold
+ 
+These two flawless onyx stones have been mounted in perfectly executed
+gold filigree settings and engraved like a seal with the names of the
+sons of Israel.
+ (invisible) (insured)
+
+-----
+Object 'a Prismatic Jewel', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM INVIS MAG !DROP !THF !WAR !NINJA LIMITED !DONATE !RANGER !JUNK UNIQUE INSURED 
+Weight: 1, Value: 12000, Rent: 1450, Min. level: 13
+Can affect you as :
+   Affects: HIT_REGEN By 5
+   Affects: MANA_REGEN By 8
+Item slot: Light
+ 
+It is a multi-faceted jewel that emits a glow that could pierce any darkness.
+ (invisible) (glowing) (humming) (insured)
+
+-----
 Object 'a combat jumpsuit', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
 Item is: GLOW INVIS LIMITED !DONATE !JUNK UNIQUE INSURED 
@@ -6,104 +53,452 @@ Weight: 4, Value: 20000, Rent: 5000, Min. level: 10
 AC-apply is 6
 Can affect you as :
    Affects: DAMROLL By 1
-ItemSlot: About Body
+Item slot: About Body
+ 
+You see a paratrooper's combat jumpsuit. The jumpsuit is made of standard
+issue green and black camouflage-print material. There is a small name plate
+affixed near the chest pocket and a pair of rank designation epaulets are 
+sewn in on the shoulder flaps. The one-piece garment is light but tough,
+and it looks like it will surely protect you from the worst dangers.
+ (invisible) (glowing) (insured)
+
 -----
-Object 'a laurel crown', Item type: ARMOR
+Object 'a glittering diamond ring', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
-Item is: GLOW INVIS MAG BLESS !EVIL !MAGE !CLER !PAL !APAL !JEDI !SOHEI LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
-Weight: 1, Value: 300000, Rent: 6000, Min. level: 20
-AC-apply is 10
+Item is: INVIS !EVIL !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 2, Value: 4000, Rent: 2000, Min. level: 15
+AC-apply is 0
 Can affect you as :
+   Affects: MANA By 6
    Affects: DAMROLL By 1
-   Affects: STR By 2
-ItemSlot: Head
+Item slot: Ring
+ 
+What a ROCK!  The diamond on this ring is HUGE! It's raised about an inch
+and a half from the band, and it shines brighter than most light bulbs!
+ (invisible) (insured)
+
 -----
-Object 'a suit of gleaming silver platemail', Item type: ARMOR
+Object 'an amulet of stasis', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
-Item is: GLOW INVIS !EVIL !NEUTRAL !MAGE !CLER !THF !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
-Weight: 40, Value: 150000, Rent: 10000, Min. level: 15
-AC-apply is 30
+Item is: GLOW INVIS MAG !EVIL LIMITED !DONATE !RANGER !JUNK UNIQUE INSURED 
+Weight: 1, Value: 6000, Rent: 1000, Min. level: 0
+AC-apply is 5
 Can affect you as :
-   Affects: HIT By 15
-   Affects: DAMROLL By 1
-ItemSlot: On Body
-ItemSlot: Feet
+   Affects: HIT_REGEN By 5
+   Affects: MANA_REGEN By 10
+Item slot: Neck
+ 
+The amulet is a simple pebble of amber with some kind of leaf trapped
+within.  As you hold it, your hand numbs, and then begins to feel better.
+ (invisible) (glowing) (insured)
+
 -----
-Object 'Greaves of Valour', Item type: ARMOR
+Object 'an embroidered fine silk shirt', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
-Item is: HUM INVIS !NEUTRAL !MAGE !CLER !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
-Weight: 10, Value: 10000, Rent: 2000, Min. level: 16
-AC-apply is 14
+Item is: GLOW INVIS MAG !DONATE !JUNK UNIQUE INSURED 
+Weight: 1, Value: 10, Rent: 300, Min. level: 5
+AC-apply is 36
 Can affect you as :
-   Affects: DAMROLL By 1
-   Affects: INT By -3
-ItemSlot: Legs
+   Affects: DEX By 2
+   Affects: CHARISMA By 1
+Item slot: On Body
+Item slot: Hold
+ 
+This silk shirt is a multilayered silk shirt extravagantly
+embroidered.  The silk layers are very strong and form an
+excellent armor which is as quiet as it is attractive.  The
+buttons are carved ivory.
+ (invisible) (glowing) (insured)
+
 -----
-Object 'a tower shield', Item type: ARMOR
+Object 'a triple helical gold bracelet', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
-Item is: INVIS !MAGE !CLER !THF LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
-Weight: 15, Value: 15000, Rent: 1000, Min. level: 16
-AC-apply is 8
+Item is: GLOW INVIS !THF !WAR !NINJA !DONATE !JUNK UNIQUE INSURED 
+Weight: 1, Value: 50, Rent: 0, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: MANA_REGEN By 2
+Item slot: Wrist
+ 
+Three separate bands of gold have been perfectly intertwined together in 
+the manner of a triple helix, to form this beautiful bracelet.
+ (invisible) (glowing) (insured)
+
+-----
+Object 'an old leather belt', Item type: WORN
+Item will give you following abilities:  INVIS 
+Item is: INVIS !DONATE !JUNK UNIQUE INSURED 
+Weight: 2, Value: 5000, Rent: 1600, Min. level: 0
 Can affect you as :
    Affects: STR By 1
-   Affects: DAMROLL By 1
-ItemSlot: Shield
+   Affects: WIS By 1
+Item slot: Waist
+ 
+It has obviously been used a lot, but is still in a good shape.
+Strange runes are inscribed on the inside of the belt, but you
+are unable to make anything of them. 
+ (invisible) (insured)
+
 -----
-Object 'a rainbow-colored feather boa', Item type: ARMOR
+Object 'the Sapphire Shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG !MAGE !SOHEI LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 7, Value: 7500, Rent: 1200, Min. level: 15
+AC-apply is 6
+Can affect you as :
+   Affects: DEX By -1
+   Affects: DAMROLL By 1
+Item slot: Shield
+Item slot: Shield
+ 
+Hundreds of nearly blood red sapphires seemed to have grown together 
+to make this shield.  As you look closer you notice that each
+sapphire glows with an inner light.  The light draws you in 
+and beckons you and replaces the light that was once in your
+eyes.
+ (invisible) (glowing) (insured)
+
+-----
+Object 'leather sleeves', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
 Item is: GLOW INVIS MAG LIMITED !DONATE !JUNK UNIQUE INSURED 
-Weight: 1, Value: 200000, Rent: 1750, Min. level: 0
-AC-apply is 10
+Weight: 10, Value: 2000, Rent: 3000, Min. level: 5
+AC-apply is 5
 Can affect you as :
-   Affects: STR By 1
-   Affects: DEX By 1
-ItemSlot: Waist
+   Affects: MANA_REGEN By 5
+   Affects: CHARISMA By 1
+Item slot: Arms
+ 
+The leather has been dyed an attractive reddish-brown color, and a simple
+knotwork design accents the sides of the sleeves.  They look like they would
+be utilitarian, albeit not tremendously valuable.
+ (invisible) (glowing) (insured)
+
 -----
-Object 'a purple heart medallion', Item type: ARMOR
+Object 'a pair of scaly gloves', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
-Item is: GLOW INVIS !MAGE !CLER !PAL !APAL !JEDI !SOHEI LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
-Weight: 2, Value: 500000, Rent: 5000, Min. level: 15
+Item is: GLOW INVIS MAG !THF !WAR !NINJA LIMITED !DONATE !RANGER !JUNK UNIQUE INSURED 
+Weight: 3, Value: 2000, Rent: 4275, Min. level: 16
+AC-apply is 6
+Can affect you as :
+   Affects: MANA By 5
+   Affects: MANA_REGEN By 3
+Item slot: Hands
+ 
+These gloves are crafted from a deep cobalt blue leather covered with 
+iridescent purple-blue scales.  Perhaps it is dragon hide, or perhaps it 
+came from some creature even more fantastic. The leather is comfortably 
+supple and the surface against your skin is as soft as the finest 
+suede.
+ (invisible) (glowing) (insured)
+
+-----
+Object 'shimmering sandals', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 3, Value: 50000, Rent: 10000, Min. level: 15
 AC-apply is 4
 Can affect you as :
-   Affects: DAMROLL By 1
-   Affects: HIT By 5
-ItemSlot: Neck
+   Affects: WIS By 2
+   Affects: MANA_REGEN By 8
+Item slot: Feet
+ 
+You see what you think is an ordinary pair of thonged sandals, embedded
+with bright white beads. But wait! What trick is this? The sandals seem to
+be flickering in and out of existence.
+ (invisible) (insured)
+
 -----
-Object 'a dart', Item type: WEAPON
+Object 'mystical silk leggings', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
-Item is: !CLER UNIQUE 
-Weight: 1, Value: 5, Rent: 0, Min. level: 0
-Damage Dice is '1D2' for an average per-round damage of 1.5.
-ItemSlot: Weapon
-ItemSlot: Weapon
-ItemSlot: Hold
+Item is: GLOW HUM INVIS MAG !DROP BLESS !THF !WAR !NINJA LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 3, Value: 1000000, Rent: 5000, Min. level: 15
+AC-apply is 30
+Can affect you as :
+   Affects: MANA By 15
+   Affects: MANA_REGEN By 5
+Item slot: Legs
+ 
+At first glance they look like simple silk pants, suitable for lounging
+or wearing as a comfortable layer under a tunic or robe -- but on closer
+inspection, it becomes clear that there is more to these leggings than
+initially meets the eye.  Arcane sigils adorn the sides and hems, and 
+the silk, although fluid in your hands, seems to emit a crackling energy.
+ (invisible) (glowing) (humming) (insured)
+
 -----
-Object 'a crossbow', Item type: FIRE-WEAPON
+Object 'a wizard's hat', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
-Item is: !MAGE !CLER !THF !NINJA !BARD UNIQUE 
-Weight: 20, Value: 5000, Rent: 5000, Min. level: 5
-Damage Dice is '5D3' This weapon currently has 11 of a maximum 5 charges.
+Item is: INVIS MAG !THF !WAR !NINJA LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 5, Value: 65625, Rent: 18000, Min. level: 10
+AC-apply is 12
+Can affect you as :
+   Affects: INT By 3
+Item slot: Head
+ 
+A hat made of blue cloth.  It looks very comfortable.
+ (invisible) (insured)
+
+-----
+Object 'a Hover Board', Item type: AIRSHIP
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM INVIS MAG !DONATE !JUNK UNIQUE INSURED 
+Weight: 5, Value: 10000, Rent: 1000, Min. level: 0
+Can affect you as :
+   Affects: CON By 2
+Item slot: Feet
+ 
+Upon examining this marvelous, deep blue, aeronautical wonder,
+you find a tag which reads:
+
+********************************************************
+*                 Hoverboards Inc.                     *
+*                 ----------------                     *
+*  Distributed in conjunction with JediMUD, America    *
+* Net, and the Bardic College.  1616 High Street, MID. *
+*   Made and Designed by Froboz Corporate Engineers    *
+*                All rights reserved...                *
+*     DO NOT REMOVE THIS TAG UNDER PENALTY OF LAW!     *
+********************************************************
+ (invisible) (glowing) (humming) (insured)
+
+-----
+Object 'cracked black urn', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !DONATE !JUNK UNIQUE INSURED 
+Weight: 40, Value: 5000, Rent: 1000, Min. level: 0
+It can hold approximately 1000 units.
+ 
+Nearly crackling with power from ages of use, this oversized crock-pot
+has finally cracked down the side to about halfway to the base from 
+the lip.  Looking within, it looks far too deep for its own size.  
+You could probably fit the local giant in there, if he'd fit through 
+the top.
+ (invisible) (insured)
+
+-----
+Object 'a scroll of identify', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE ASSM 
+Weight: 1, Value: 2000, Rent: 250, Min. level: 0
+This SCROLL casts:  Level 12 of identify
+Item slot: Hold
+ 
+The scroll has a magic formula drawn upon it:
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+The scroll contains the following spell:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+identify            
+
+
+-----
+Object 'a pair of golden soleae', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS !THF !WAR !PAL !APAL !NINJA LIMITED !RANGER UNIQUE 
+Weight: 1, Value: 10000, Rent: 750, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: MANA By 15
+   Affects: INT By 1
+Item slot: Feet
+ 
+This pair of sandals seems to be nothing more than a thick leather sole and a
+complicated set of very thin laces - one nigh unmanageable mess for each foot. 
+How are you supposed to put these on?  The edges of the soles are heavily 
+embossed with a pattern of vines and leaves.  Fitted amongst the vines, in the 
+deep, leaf-shaped depressions in the leather, are tiny ivy leaves made of the 
+purest gold, which are attached to the sandals by some unknown method.  The
+laces themselves are also, amazingly, made of pure gold.  A subtle weave of the
+finest gold threads has been used to construct the baffling array of straps by
+which the sandal is kept on one's foot.  Despite the strange construction, they
+look as if they would be extremely comfortable; for some reason, they seem to
+be exactly the right size.  Doubtless some sort of magic is at work here, for
+just looking at these sandals makes your mind feel a little more awakened. One
+would be wise to remember, however, that gifts from the Goddess are not to be
+taken lightly. Once received, they are not to be spurned. Once spurned, they
+are never to be regained.
+ (glowing)
+
+-----
+Object 'a block of krrf', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: INVIS UNIQUE 
+Weight: 5, Value: 2000, Rent: 12, Min. level: 0
+It can hold approximately 50 units of liquid.
+ 
+This block is about the size of a brick. It's solid black, with the 
+manufacturer's stamp on the top.
+ (invisible)
+
+-----
+Object 'a serving of chicken parmesan', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 5, Min. level: 0
+ 
+Your mouth waters as you examine this casserole -- juicy chicken breast,
+savory magic mushrooms, tender rice, the finest Vidalia onions, and
+luscious parmesan cheese, all baked together in a delectably creamy sauce
+enhanced with fresh herbs and the best white wine in the land. Deirdre's
+devoted husband, the renowned Thanateros, has truly worked great magic
+in tweaking the 'create food' spell to bring you her mud-renowned specialty,
+this spectacularly delicious dish, instead of the same old plain, boring,
+not-even-properly-sauteed magic mushrooms!
+
+
+-----
+Object 'a leather band watch', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG BLESS !WAR !PAL !APAL LIMITED UNIQUE 
+Weight: 2, Value: 12500, Rent: 3750, Min. level: 15
+Can affect you as :
+   Affects: CHARISMA By 2
+   Affects: MOVE_REGEN By 10
+Item slot: Wrist
+ 
+This leather watchband is quite utilitarian in appearance. It somehow seems
+streamlined for speed.
+ (invisible)
+
+-----
+Object 'an ornately crafted gold wedding ring', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: INVIS UNIQUE 
+Weight: 0, Value: 210, Rent: 250, Min. level: 0
+Can affect you as :
+   Affects: CON By 2
+Item slot: Ring
+ 
+You see a simple yet beautifully crafted wedding band. The goldsmith has
+taken a lot of effort to adorn the ring with ornate designs and patterns
+around its circumference. On the inside of the ring, you see an 
+incomplete inscription which says, "With love..........." 
+ (invisible)
+
+-----
+Object 'dwarven gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !MAGE !JEDI UNIQUE 
+Weight: 2, Value: 400, Rent: 100, Min. level: 0
+AC-apply is 4
+Can affect you as :
+   Affects: CON By 1
+   Affects: DEX By -1
+Item slot: Hands
+ 
+These gloves are crafted from a deep cobalt blue leather covered with 
+iridescent purple-blue scales.  Perhaps it is dragon hide, or perhaps it 
+came from some creature even more fantastic. The leather is comfortably 
+supple and the surface against your skin is as soft as the finest 
+suede.
+ (invisible)
+
+-----
+Object 'McGriff's bat', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: HUM INVIS MAG !EVIL !NEUTRAL !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 10, Value: 10, Rent: 12000, Min. level: 15
+Damage Dice is '5D5' for an average per-round damage of 15.0.
+Can affect you as :
+   Affects: DAMROLL By 3
+   Affects: HITROLL By 3
+Item slot: Weapon
+ 
+This bat looks AWFULLY powerful...better be careful with it.
+ (invisible) (humming) (insured)
+
+-----
+Object 'a Bardic Ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER UNIQUE 
+Weight: 1, Value: 10000, Rent: 2000, Min. level: 0
+AC-apply is 2
 Can affect you as :
    Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Ring
+ 
+You see nothing special.
+
+-----
+Object 'a golden ring', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 4000, Rent: 500, Min. level: 0
+Can affect you as :
+   Affects: INT By 1
+Item slot: Ring
+ 
+It's just a simple golden ring.  It looks good on you and you feel more 
+dressed up wearing it.
+
+
+-----
+Object 'Dragon Claws', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM !EVIL !MAGE !CLER !THF LIMITED !RANGER !BARD UNIQUE 
+Weight: 5, Value: 15000, Rent: 4000, Min. level: 15
+AC-apply is 6
+Can affect you as :
    Affects: DAMROLL By 2
+   Affects: DEX By -1
+Item slot: Hands
+ 
+The large, black claws of a massive red dragon which are still
+held together by thick dragonhide.  They look like normal gloves
+except that they only have four fingers.
+ (humming)
+
 -----
-Object 'a leather belt', Item type: ARMOR
+Object 'a kabuto', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
-Item is: HUM MAG !DONATE UNIQUE 
-Weight: 2, Value: 100, Rent: 50, Min. level: 0
-AC-apply is 3
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !NINJA !JEDI !SOHEI LIMITED UNIQUE 
+Weight: 5, Value: 50000, Rent: 10000, Min. level: 15
+AC-apply is 14
+Can affect you as :
+   Affects: CON By 2
+   Affects: MANA_REGEN By 8
+Item slot: Head
+ 
+This odd-shaped helmet looks as if it came from the distant lands of the
+orient.  Its pointed brim and decorative designs would be admired by
+most common folk.
+
+
+-----
+Object 'a red loincloth', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM !EVIL LIMITED UNIQUE 
+Weight: 18, Value: 10000, Rent: 3500, Min. level: 0
+AC-apply is 12
+Can affect you as :
+   Affects: MOVE_REGEN By 5
+   Affects: STR By 1
+Item slot: Waist
+ 
+This reddish-dyed, silky material is about five feet long
+and about a foot wide. It hardly seems appropriate for
+covering oneself and seems a bit drafty to wear.
+ (humming)
+
+-----
+Object 'a worn dagger', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !CLER UNIQUE 
+Weight: 1, Value: 5000, Rent: 1000, Min. level: 15
+Damage Dice is '1D6' for an average per-round damage of 3.5.
 Can affect you as :
    Affects: HITROLL By 2
-   Affects: MANA_REGEN By 10
-ItemSlot: Waist
------
-Object 'a leather belt', Item type: ARMOR
-Item will give you following abilities:  NOBITS 
-Item is: HUM MAG !DONATE UNIQUE 
-Weight: 2, Value: 100, Rent: 50, Min. level: 0
-AC-apply is 3
-Can affect you as :
-   Affects: HITROLL By 2
-   Affects: MANA_REGEN By 10
-This item has a maximum level of 8.
-ItemSlot: Waist
+   Affects: DAMROLL By 1
+Item slot: Weapon
+ 
+This dagger is no longer razor-sharp or even attractive; it has been too 
+badly worn by years of use.  It looks like it was once a valuable weapon, 
+however, and it may still have some usefulness left in it.
+
+

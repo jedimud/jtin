@@ -407,3 +407,22 @@
     #line log logs/ident.log {Item slot: Hold};
     unload_action;
 }
+
+
+#nop ----- capture description -----
+
+#alias check_description {
+	capture_multiline >;
+	look %0;
+    #delay {1} {
+        #line log logs/ident.log {$lines};
+    }
+}
+
+#alias {capture_multiline} {
+	#var capture_till {%0};
+	#var line { };
+	#var lines { };
+	#class multiline_capture read tins/multiline_capture.tin;
+}
+

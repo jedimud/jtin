@@ -5,9 +5,12 @@
 }
 
 #alias unload_action {
-    #delay {1} {
-        #showme <caf>identify scroll output captured;
-        #class ident-action clear;
+    #delay {0.5} {
+        check_description $ident_tag;
+        #delay {0.5} {
+            #showme <caf>identify scroll output captured;
+            #class ident-action clear;
+        }
     }
 }
 

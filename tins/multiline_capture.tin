@@ -1,0 +1,8 @@
+#action {~%0} {
+	#var line {%0};
+	#var lines {${lines}\n${line}};
+} {9}
+
+#action {$capture_till} {
+	#class multiline_capture kill;
+} {1}
