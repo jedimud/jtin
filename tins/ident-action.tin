@@ -15,6 +15,11 @@
     log_error;
 }
 
+#high {^You are zapped by %1 and instantly drop it.$} {Red}
+#action {^You are zapped by %1 and instantly drop it.$} {
+    log_error;
+}
+
 #alias log_error {
     #showme <119>Possible incomplete identify record logged. Try slotting an item and reciting again.;
     #line log logs/ident.log {ERROR - IGNORE THIS RECORD};
