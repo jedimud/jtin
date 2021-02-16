@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -1054,7 +1054,7 @@ E {  189} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R {  189} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  188} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  190} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E {  190} {e} {#delay 0 {east;#map read maps/great-eastern-desert.map;#map goto 1;map_show;#variable map_current great-eastern-desert.map}} {2} {0} {} {1.000} {} {0.00}
 E {  193} {s} {#delay 0 {south;#map read maps/camelot.map;#map goto 1;map_show;#variable map_current camelot.map}} {4} {0} {} {1.000} {} {0.00}
 
 R {  190} {1026} {} {} { } {} {} {} {} {} {1.000} {}
@@ -1067,5 +1067,5 @@ R {  192} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  184} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  152} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {  193} {2} {} {} { } {} {} {} {} {} {1.000} {}
+R {  193} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  189} {n} {n} {1} {0} {} {1.000} {} {0.00}
