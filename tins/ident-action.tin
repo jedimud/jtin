@@ -4,14 +4,21 @@
 #action {^You are too experienced to need %1.} {
     log_error;
 }
+
 #high {^Your class cannot use %1.$} {Red}
 #action {^Your class cannot use %1.$} {
+    log_error;
+}
+
+#high {^It's too heavy for you to use.$} {reverse}
+#action {^It's too heavy for you to use.$} {
     log_error;
 }
 
 #alias log_error {
     #showme <caf>Possible incomplete identify record logged. Try slotting an item and reciting again.;
     #line log logs/ident.log {ERROR - IGNORE THIS RECORD};
+    unload_action;
 }
 
 #nop ----- SCROLL OUTPUT -----
