@@ -28,15 +28,19 @@
 
 #nop ----- scroll wrapper -----
 
+#variable ident_state {}
+
 #action {^You recite a scroll of identify which dissolves.$} {
     #showme <caf>capturing identify scroll;
 }
 
 #alias check_description {
+    #variable ident_state {description};
     #delay {0.5} {
         check_description_wrapper $ident_tag;
         #delay {0.5} {
             #showme <caf>identify scroll output captured;
+            #unvar ident_state;
             clear_action;
         }
     }
@@ -121,12 +125,17 @@
 #nop ----- try to wear -----
 
 #alias check_wear {
+    #variable ident_state {wear};
     wear $ident_tag;
 }
 
 #high {^You can't wear %1.$} {reverse}
 #action {^You can't wear %1.$} {
-    check_hold;
+    #if {"$ident_state"=="wear"} {
+        check_hold;
+    } {
+        check_description;
+    };
 }
 
 
@@ -380,6 +389,7 @@
 #nop ----- try to wield -----
 
 #alias check_wield {
+    #variable ident_state {wield};
     wield $ident_tag;
 }
 
@@ -408,6 +418,7 @@
 #nop ----- try to hold -----
 
 #alias check_hold {
+    #variable ident_state {hold};
     hold $ident_tag;
 }
 
