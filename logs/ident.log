@@ -1215,3 +1215,84 @@ The entire rim and edge of the scimitar's handle is bedecked in a gorgeous
 array of stones and precious metals.
  (glowing)
 
+-----
+Object 'a white prayer robe', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !DONATE UNIQUE 
+Weight: 8, Value: 100, Rent: 10, Min. level: 0
+AC-apply is 1
+Item slot: About Body
++++++
+ 
+The white prayer robe has long, flowing sleeves that brush the ground
+and a deep cowl.  The emblem of the Midgaard church is sewn to the
+right breast.
+
+
+-----
+Object 'a waybread', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 50, Rent: 25, Min. level: 0
++++++
+ 
+The waybread is the traditional food of elves when travelling. They call it
+lembas.  It is said to refresh the weary traveler greatly.
+
+
+-----
+Object 'an opal potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 10, Value: 25000, Rent: 0, Min. level: 0
+This POTION casts:  Level 15 of sanctuary remove poison cause serious
++++++
+ 
+This potion has been made by grinding a large number of opals to dust 
+and mixing with water, wine and whiskey (single malt, of course). It's 
+probably going to taste terrible.
+
+
+-----
+Object 'a gold key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+This key seems to have stood the test of time well. Once you've rubbed 
+some of the grime off, it shines with a gleam you'd know anywhere. The 
+only question remains, do you melt it down, or try to find the lock it 
+belongs to? 
+
+
+-----
+Object 'opal ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10000, Rent: 5000, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: MANA By -10
+   Affects: HIT By 10
+Item slot: Ring
++++++
+ 
+A large opal is set in a simple silver band, and to be honest, it doesn't 
+look that good. There are a couple of flaws in the opal, the setting is 
+amateur, and for that matter, silver isn't the best setting for an opal 
+anyway. You could probably pawn it for a good meal, though.
+
+
+-----
+Object 'a steel longsword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 10, Value: 4900, Rent: 450, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Item slot: Weapon
++++++
+ 
+Forged by a master blacksmith this sword is of an excellent quality.
+
+
