@@ -68,7 +68,7 @@
         #case "sw" {#var path southwest};
         #case "u" {#var path up};
         #case "d" {#var path down};
-        #default {#var path rest};
+        #default {#var path %1};
     };
     #map exit %1 command {room_link_action {$path} {%2} {%3}};
     #showme {};
