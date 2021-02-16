@@ -21,11 +21,23 @@
     clear_action;
 }
 
-#nop ----- SCROLL OUTPUT -----
+#nop ----- scroll wrapper -----
 
 #action {^You recite a scroll of identify which dissolves.$} {
     #showme <caf>capturing identify scroll;
 }
+
+#alias check_description {
+    #delay {0.5} {
+        check_description_wrapper $ident_tag;
+        #delay {0.5} {
+            #showme <caf>identify scroll output captured;
+            clear_action;
+        }
+    }
+}
+
+#nop ----- scroll output -----
 
 #high {^You feel informed:} {reverse}
 #action {^You feel informed:} {
@@ -356,7 +368,7 @@
 
 #alias capture_light {
     #line log logs/ident.log {Item slot: Light};
-    unload_action;
+    check_description;
 }
 
 
@@ -396,7 +408,7 @@
 
 #high {^You can't hold that.$} {reverse}
 #action {^You can't hold that.$} {
-    unload_action;
+    check_description;
 }
 
 #high {^You grab %1.$} {reverse}
@@ -412,13 +424,13 @@
 
 #alias capture_hold {
     #line log logs/ident.log {Item slot: Hold};
-    unload_action;
+    check_description;
 }
 
 
 #nop ----- capture description -----
 
-#alias check_description {
+#alias check_description_wrapper {
 	capture_multiline >;
 	look %0;
     #delay {1} {

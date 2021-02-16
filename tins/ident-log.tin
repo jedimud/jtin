@@ -4,16 +4,6 @@
     recite identify %1;
 }
 
-#alias unload_action {
-    #delay {0.5} {
-        check_description $ident_tag;
-        #delay {0.5} {
-            #showme <caf>identify scroll output captured;
-            clear_action;
-        }
-    }
-}
-
 #alias clear_action {
     #class ident-action clear;
 }
