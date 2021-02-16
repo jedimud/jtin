@@ -10,13 +10,13 @@
     log_error;
 }
 
-#high {^It's too heavy for you to use.$} {reverse}
+#high {^It's too heavy for you to use.$} {Red}
 #action {^It's too heavy for you to use.$} {
     log_error;
 }
 
 #alias log_error {
-    #showme <caf>Possible incomplete identify record logged. Try slotting an item and reciting again.;
+    #showme <119>Possible incomplete identify record logged. Try slotting an item and reciting again.;
     #line log logs/ident.log {ERROR - IGNORE THIS RECORD};
     clear_action;
 }
