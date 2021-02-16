@@ -502,3 +502,35 @@ badly worn by years of use.  It looks like it was once a valuable weapon,
 however, and it may still have some usefulness left in it.
 
 
+-----
+Object 'a small bright green hat', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DROP UNIQUE 
+Weight: 1, Value: 200, Rent: 50, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: MOVE_REGEN By 5
+   Affects: HEIGHT By 20
+Item slot: Head
+ 
+This small green hat is made of soft yet sturdy cloth.  The style is 
+not anything you have seen before.
+
+
+-----
+Object 'a snake headed whip', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !GOOD LIMITED UNIQUE 
+Weight: 10, Value: 4900, Rent: 2500, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Can affect you as :
+   Affects: STR By 1
+   Affects: INT By -1
+Item slot: Weapon
+ 
+This whip appears to be made of the finest leather.  Five of the 
+strands that make up the whip have snake heads at the ends.  The 
+snake heads appear to be the heads of rattlesnakes.  The handle
+fits comfortably into your hand.
+ (glowing)
+
