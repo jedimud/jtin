@@ -415,6 +415,7 @@
 	capture_multiline >;
 	look %0;
     #delay {1} {
+        #line log logs/ident.log {+++++};
         #line log logs/ident.log {$lines};
     }
 }
