@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -253,7 +253,7 @@ T {} { } {}
 
 
 R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    2} {n} {#delay 0 {north;#map read maps/midgaard.map;#map goto 135;map_show;#variable map_current midgaard.map}} {1} {0} {} {1.000} {} {0.00}
+E {    2} {n} {room_link_action {north} {midgaard} {135}} {1} {0} {} {1.000} {} {0.00}
 E {    3} {u} {u} {16} {0} {} {1.000} {} {0.00}
 
 R {    2} {1026} {} {} { } {} {} {} {} {} {1.000} {}

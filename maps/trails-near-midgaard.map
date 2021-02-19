@@ -18,7 +18,7 @@ F 8455
 
 G 0
 
-I 3
+I 1
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -253,7 +253,7 @@ T {} { } {}
 
 
 R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    2} {w} {#delay 0 {west;#map read maps/midgaard.map;#map goto 102;map_show;#variable map_current midgaard.map}} {8} {0} {} {1.000} {} {0.00}
+E {    2} {w} {room_link_action {west} {midgaard} {102}} {8} {0} {} {1.000} {} {0.00}
 E {    3} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R {    2} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
@@ -298,7 +298,7 @@ E {    7} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R {   12} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    8} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   13} {n} {#delay 0 {north;#map read maps/moria.map;#map goto 1;map_show;#variable map_current moria.map}} {1} {0} {} {1.000} {} {0.00}
+E {   13} {n} {room_link_action {north} {moria} {1}} {1} {0} {} {1.000} {} {0.00}
 
 R {   13} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {   12} {s} {s} {4} {0} {} {1.000} {} {0.00}

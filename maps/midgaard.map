@@ -18,7 +18,7 @@ F 263
 
 G 0
 
-I 189
+I 133
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -258,7 +258,7 @@ E {   34} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {   55} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {   29} {sw} {sw} {12} {0} {} {1.000} {} {0.00}
 E {   30} {se} {se} {6} {0} {} {1.000} {} {0.00}
-E {   26} {w} {#delay 0 {open west;west;#map read maps/midgaard-temple.map;#map goto 1;map_show;#variable map_current midgaard-temple.map}} {8} {0} {} {1.000} {} {0.00}
+E {   26} {w} {room_link_action {open west;west} {midgaard-temple} {1}} {8} {0} {} {1.000} {} {0.00}
 E {   88} {u} {u} {16} {0} {} {1.000} {} {0.00}
 
 R {    2} {0} {} {} { } {} {} {} {} {} {1.000} {}
@@ -539,7 +539,7 @@ E {   59} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  100} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {   97} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {   92} {u} {open up;up} {16} {0} {} {1.000} {} {0.00}
-E {  112} {n} {#delay 0 {north;#map read maps/trails-around-midgaard.map;#map goto 1;map_show;#variable map_current trails-around-midgaard.map}} {1} {0} {} {1.000} {} {0.00}
+E {  112} {n} {room_link_action {north} {trails-around-midgaard} {1}} {1} {0} {} {1.000} {} {0.00}
 
 R {   61} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  100} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -582,7 +582,7 @@ E {   69} {e} {e} {2} {0} {} {1.000} {} {0.00}
 R {   71} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   54} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {   73} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  101} {n} {#delay 0 {north;#map read maps/midgaard-dark-tower.map;#map goto 1;map_show;#variable map_current midgaard-dark-tower.map}} {1} {0} {} {1.000} {} {0.00}
+E {  101} {n} {room_link_action {north} {midgaard-dark-tower} {1}} {1} {0} {} {1.000} {} {0.00}
 
 R {   72} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  160} {u} {u} {16} {0} {} {1.000} {} {0.00}
@@ -708,8 +708,8 @@ E {   71} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  102} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   40} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  103} {n} {#delay 0 {north;#map read maps/trails-around-midgaard.map;#map goto 7;map_show;#variable map_current trails-around-midgaard.map}} {1} {0} {} {1.000} {} {0.00}
-E {  104} {e} {#delay 0 {east;#map read maps/trails-near-midgaard.map;#map goto 1;map_show;#variable map_current trails-near-midgaard.map}} {2} {0} {} {1.000} {} {0.00}
+E {  103} {n} {room_link_action {north} {trails-around-midgaard} {7}} {1} {0} {} {1.000} {} {0.00}
+E {  104} {e} {room_link_action {east} {trails-near-midgaard} {1}} {2} {0} {} {1.000} {} {0.00}
 
 R {  103} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  102} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -737,7 +737,7 @@ E {  124} {s} {s} {4} {0} {} {1.000} {} {0.00}
 R {  109} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   37} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  110} {w} {room_link_action {west} {haon-dor} {1}} {8} {0} {} {1.000} {} {0.00}
-E {  111} {n} {#delay 0 {north;#map read maps/trails-around-midgaard.map;#map goto 9;map_show;#variable map_current trails-around-midgaard.map}} {1} {0} {} {1.000} {} {0.00}
+E {  111} {n} {room_link_action {north} {trails-around-midgaard} {9}} {1} {0} {} {1.000} {} {0.00}
 
 R {  110} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  109} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -760,7 +760,7 @@ E {    7} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
 R {  115} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   88} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {  178} {n} {#delay 0 {#map goto 177}} {1} {0} {} {1.000} {} {0.00}
+E {  178} {n} {#delay {0} {#map goto 177}} {1} {0} {} {1.000} {} {0.00}
 
 R {  116} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  113} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -770,7 +770,7 @@ R {  117} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  118} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  121} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  126} {n} {room_link_action {north} {cheers} {1}} {1} {0} {} {1.000} {} {0.00}
-E {  131} {s} {#delay 0 {south;#map read maps/midgaard-ninja-guild.map;#map goto 1;map_show;#variable map_current midgaard-ninja-guild.map}} {4} {0} {} {1.000} {} {0.00}
+E {  131} {s} {room_link_action {south} {midgaard-ninja-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  118} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  117} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -778,9 +778,9 @@ E {   35} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R {  119} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  120} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  132} {n} {#delay 0 {north;#map read maps/midgaard-cleric-guild.map;#map goto 1;map_show;#variable map_current midgaard-cleric-guild.map}} {1} {0} {} {1.000} {} {0.00}
+E {  132} {n} {room_link_action {north} {midgaard-cleric-guild} {1}} {1} {0} {} {1.000} {} {0.00}
 E {  133} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  142} {s} {#delay 0 {south;#map read maps/midgaard-sohei-guild.map;#map goto 1;map_show;#variable map_current midgaard-sohei-guild.map}} {4} {0} {} {1.000} {} {0.00}
+E {  142} {s} {room_link_action {south} {midgaard-sohei-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  120} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  119} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -789,14 +789,14 @@ E {   35} {w} {w} {8} {0} {} {1.000} {} {0.00}
 R {  121} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  117} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  122} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  127} {n} {#delay 0 {north;#map read maps/home-of-bravoman.map;#map goto 1;map_show;#variable map_current home-of-bravoman.map}} {1} {0} {} {1.000} {} {0.00}
-E {  130} {s} {#delay 0 {south;#map read maps/midgaard-warrior-guild.map;#map goto 1;map_show;#variable map_current midgaard-warrior-guild.map}} {4} {0} {} {1.000} {} {0.00}
+E {  127} {n} {room_link_action {north} {home-of-bravoman} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  130} {s} {room_link_action {south} {midgaard-warrior-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  122} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  121} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  123} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  128} {n} {#delay 0 {north;#map read maps/midgaard-antipaladin-guild.map;#map goto 1;map_show;#variable map_current midgaard-antipaladin-guild.map}} {1} {0} {} {1.000} {} {0.00}
-E {  129} {s} {#delay 0 {south;#map read maps/midgaard-thief-guild.map;#map goto 1;map_show;#variable map_current midgaard-thief-guild.map}} {4} {0} {} {1.000} {} {0.00}
+E {  128} {n} {room_link_action {north} {midgaard-antipaladin-guild} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  129} {s} {room_link_action {south} {midgaard-thief-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  123} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  122} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -834,18 +834,18 @@ E {  119} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  133} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  119} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  134} {n} {#delay 0 {north;#map read maps/midgaard-jedi-guild.map;#map goto 1;map_show;#variable map_current midgaard-jedi-guild.map}} {1} {0} {} {1.000} {} {0.00}
+E {  134} {n} {room_link_action {north} {midgaard-jedi-guild} {1}} {1} {0} {} {1.000} {} {0.00}
 E {  135} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  141} {s} {#delay 0 {south;#map read maps/midgaard-bard-guild.map;#map goto 1;map_show;#variable map_current midgaard-bard-guild.map}} {4} {0} {} {1.000} {} {0.00}
+E {  141} {s} {room_link_action {south} {midgaard-bard-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  134} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  133} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  135} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  133} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  136} {n} {#delay 0 {north;#map read maps/midgaard-paladin-guild.map;#map goto 1;map_show;#variable map_current midgaard-paladin-guild.map}} {1} {0} {} {1.000} {} {0.00}
+E {  136} {n} {room_link_action {north} {midgaard-paladin-guild} {1}} {1} {0} {} {1.000} {} {0.00}
 E {  137} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  140} {s} {#delay 0 {south;#map read maps/midgaard-mage-guild.map;#map goto 1;map_show;#variable map_current midgaard-mage-guild.map}} {4} {0} {} {1.000} {} {0.00}
+E {  140} {s} {room_link_action {south} {midgaard-mage-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  136} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  135} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -877,7 +877,7 @@ E {  144} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  144} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  143} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {  146} {e} {#delay 0 {east;#map read maps/peaceful-grove.map;#map goto 1;map_show;#variable map_current peaceful-grove.map}} {2} {0} {} {1.000} {} {0.00}
+E {  146} {e} {room_link_action {east} {peaceful-grove} {1}} {2} {0} {} {1.000} {} {0.00}
 E {  147} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  145} {0} {} {} { } {} {} {} {} {} {1.000} {}
@@ -940,7 +940,7 @@ E {   88} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  160} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  113} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   72} {d} {#delay 0 {down;#map read maps/midgaard-sewers.map;#map goto 1;map_show;#variable map_current midgaard-sewers.map}} {32} {0} {} {1.000} {} {0.00}
+E {   72} {d} {room_link_action {down} {midgaard-sewers} {1}} {32} {0} {} {1.000} {} {0.00}
 
 R {  161} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  162} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -982,7 +982,7 @@ E {  169} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  169} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  168} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {  170} {s} {#delay 0 {south;#map read maps/southern-midgaard.map;#map goto 1;map_show;#variable map_current southern-midgaard.map}} {4} {0} {} {1.000} {} {0.00}
+E {  170} {s} {room_link_action {south} {southern-midgaard} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  170} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  169} {n} {n} {1} {0} {} {1.000} {} {0.00}
@@ -1007,11 +1007,11 @@ E {  161} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  177} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   88} {d} {d} {32} {0} {} {1.000} {} {0.00}
-E {  179} {s} {#delay 0 {#map goto 115}} {4} {0} {} {1.000} {} {0.00}
-E {  180} {n} {#delay 0 {trans factory;#map read maps/froboz-factory.map;#map goto 1;map_show;#variable map_current froboz-factory.map}} {1} {0} {} {1.000} {} {0.00}
-E {  181} {e} {#delay 0 {trans crystal;#map read maps/crystal-caves.map;#map goto 1;map_show;#variable map_current crystal-caves.map}} {2} {0} {} {1.000} {} {0.00}
-E {  182} {w} {#delay 0 {trans mistamere;#map read maps/castle-mistamere.map;#map goto 1;map_show;#variable map_current castle-mistamere.map}} {8} {0} {} {1.000} {} {0.00}
-E {  183} {u} {#delay 0 {trans zoo;#map read maps/midgaard-zoo.map;#map goto 1;map_show;#variable map_current midgaard-zoo.map}} {16} {0} {} {1.000} {} {0.00}
+E {  179} {s} {#delay {0} {#map goto 115}} {4} {0} {} {1.000} {} {0.00}
+E {  180} {n} {#delay {0} {trans factory;#map read maps/froboz-factory.map;#map goto 1;map_show;#variable map_current froboz-factory.map}} {1} {0} {} {1.000} {} {0.00}
+E {  181} {e} {#delay {0} {trans crystal;#map read maps/crystal-caves.map;#map goto 1;map_show;#variable map_current crystal-caves.map}} {2} {0} {} {1.000} {} {0.00}
+E {  182} {w} {#delay {0} {trans mistamere;#map read maps/castle-mistamere.map;#map goto 1;map_show;#variable map_current castle-mistamere.map}} {8} {0} {} {1.000} {} {0.00}
+E {  183} {u} {#delay {0} {trans zoo;#map read maps/midgaard-zoo.map;#map goto 1;map_show;#variable map_current midgaard-zoo.map}} {16} {0} {} {1.000} {} {0.00}
 
 R {  178} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  115} {s} {s} {4} {0} {} {1.000} {} {0.00}

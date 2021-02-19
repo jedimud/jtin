@@ -18,7 +18,7 @@ F 8455
 
 G 0
 
-I 5
+I 1
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -255,8 +255,8 @@ T {} { } {}
 R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    2} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {    4} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   10} {n} {#delay 0 {north;#map read maps/northern-plains.map;#map goto 1;map_show;#variable map_current northern-plains.map}} {1} {0} {} {1.000} {} {0.00}
-E {   11} {s} {#delay 0 {south;#map read maps/midgaard.map;#map goto 60;map_show;#variable map_current midgaard.map}} {4} {0} {} {1.000} {} {0.00}
+E {   10} {n} {room_link_action {north} {northern-plains} {1}} {1} {0} {} {1.000} {} {0.00}
+E {   11} {s} {room_link_action {south} {midgaard} {60}} {4} {0} {} {1.000} {} {0.00}
 
 R {    2} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    1} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -281,16 +281,16 @@ E {    7} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {    7} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    6} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   13} {s} {#delay 0 {south;#map read maps/midgaard.map;#map goto 102;map_show;#variable map_current midgaard.map}} {4} {0} {} {1.000} {} {0.00}
+E {   13} {s} {room_link_action {south} {midgaard} {102}} {4} {0} {} {1.000} {} {0.00}
 
 R {    8} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    3} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {    9} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   14} {w} {#delay 0 {west;#map read maps/shire-village.map;#map goto 1;map_show;#variable map_current shire-village.map}} {8} {0} {} {1.000} {} {0.00}
+E {   14} {w} {room_link_action {west} {shire-village} {1}} {8} {0} {} {1.000} {} {0.00}
 
 R {    9} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    8} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   12} {s} {#delay 0 {south;#map read maps/midgaard.map;#map goto 109;map_show;#variable map_current midgaard.map}} {4} {0} {} {1.000} {} {0.00}
+E {   12} {s} {room_link_action {south} {midgaard} {109}} {4} {0} {} {1.000} {} {0.00}
 
 R {   10} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {    1} {s} {s} {4} {0} {} {1.000} {} {0.00}
