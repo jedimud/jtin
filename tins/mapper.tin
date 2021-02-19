@@ -121,6 +121,10 @@
     #map set roomsymbol D;
 }
 
+#alias room_aggro {
+    #map roomflag avoid on;
+}
+
 #nop ----- utility -----
 
 #alias print_mapper_msg {

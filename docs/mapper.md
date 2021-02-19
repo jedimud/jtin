@@ -18,7 +18,8 @@ Load mapper tin as class at TinTin++ startup.
 
 | Symbol              | Description   |
 | ------------------- | ------------- |
-| `[ ]`               |  Basic Path   |
+| `[ ]`</span>        |  Basic Path   |
+| <span style="color:red">`[ ]`</span> |  Aggro Room |
 | `[$]`               |  Bank         |
 | `[M]`               |  Guild Master |
 | `[*]`               |  Recall/Login |
@@ -51,4 +52,5 @@ Load mapper tin as class at TinTin++ startup.
 | `room_bank`          | Change room to bank symbol |
 | `room_recall`        | Change room to recall symbol |
 | `room_donation`      | Change room to donation symbol |
+| `room_aggro`         | Change room to aggro |
 
