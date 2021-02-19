@@ -2017,12 +2017,175 @@ AC-apply is 5
 Can affect you as :
    Affects: MOVE By 15
    Affects: DAMROLL By 1
+Item slot: Feet
++++++
+ 
+These are hooves much like the ones you would see on any four-legged
+animal except for the fact that they happen not to be attached to any such
+creature. Moreover, they appear to be flawless in every detail: The hoof
+part is made of a dark blue material that looks, and feels quite resistant
+to any trauma that might be bestowed on it. The footwear continues upward
+from the hoof a few inches to reveal a large patch of fur. Further
+examination reveals a strap mechanism that  secures the hooves snugly to
+the wearer's feet. You turn the hooves over to reveal huge bull prints:
+Whoever their owner was once was no one to mess with.
+ (invisible) (glowing) (insured)
+
 -----
-Object 'the Titanic Hooves of Taurus', Item type: ARMOR
+Object 'Dragon Claws', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
-Item is: GLOW INVIS MAG !EVIL !MAGE !THF !APAL !NINJA LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
-Weight: 10, Value: 10000, Rent: 5000, Min. level: 10
+Item is: HUM INVIS !EVIL !MAGE !CLER !THF LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 5, Value: 15000, Rent: 4000, Min. level: 15
+AC-apply is 6
+Can affect you as :
+   Affects: DAMROLL By 2
+   Affects: DEX By -1
+Item slot: Hands
++++++
+ 
+The large, black claws of a massive red dragon which are still
+held together by thick dragonhide.  They look like normal gloves
+except that they only have four fingers.
+ (invisible) (humming) (insured)
+
+-----
+Object 'the Titanic Arm plates of Hercules', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG !EVIL !MAGE !CLER !THF !APAL !NINJA LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 10, Value: 2000, Rent: 4000, Min. level: 10
 AC-apply is 5
 Can affect you as :
-   Affects: MOVE By 15
+   Affects: STR By 1
    Affects: DAMROLL By 1
+Item slot: Arms
++++++
+ 
+You see nothing special. (invisible) (glowing) (insured)
+
+-----
+Object 'a tower shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !MAGE !CLER !THF LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 15, Value: 15000, Rent: 1000, Min. level: 16
+AC-apply is 8
+Can affect you as :
+   Affects: STR By 1
+   Affects: DAMROLL By 1
+Item slot: Shield
++++++
+ 
+A huge, rectangular shield enameled white with a green sword
+painted on its face as a coat of arms.  It looks very heavy.
+ (invisible) (insured)
+
+-----
+Object 'a combat jumpsuit', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 4, Value: 20000, Rent: 5000, Min. level: 10
+AC-apply is 6
+Can affect you as :
+   Affects: DAMROLL By 1
+Item slot: About Body
++++++
+ 
+You see a paratrooper's combat jumpsuit. The jumpsuit is made of standard
+issue green and black camouflage-print material. There is a small name plate
+affixed near the chest pocket and a pair of rank designation epaulets are 
+sewn in on the shoulder flaps. The one-piece garment is light but tough,
+and it looks like it will surely protect you from the worst dangers.
+ (invisible) (glowing) (insured)
+
+-----
+Object 'a rainbow-colored feather boa', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 1, Value: 200000, Rent: 1750, Min. level: 0
+AC-apply is 10
+Can affect you as :
+   Affects: STR By 1
+   Affects: DEX By 1
+Item slot: Waist
++++++
+ 
+It's a large feather boa, colorful as the rainbow: red, orange, yellow, 
+green, blue, and purple.  How stylish!
+ (invisible) (glowing) (insured)
+
+-----
+Object 'a heavy golden bracer set with topaz', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !EVIL !MAGE !CLER LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 1, Value: 4500, Rent: 6000, Min. level: 14
+AC-apply is 1
+Can affect you as :
+   Affects: MOVE By -5
+   Affects: DAMROLL By 2
+Item slot: Wrist
++++++
+ 
+The soft gold of the bracer has been exquisitely worked into
+the semblance of twisting, ethereal flames.  The masterful
+worksmanship of the bracer is enhanced by the dancing flecks
+of bright amber that flicker within the rough chunks of fiery topaz
+that have been set into the ornate design.
+ (invisible) (insured)
+
+-----
+Object 'Giant Golden Sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !EVIL !MAGE !CLER !THF !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 20, Value: 50000, Rent: 10000, Min. level: 12
+Damage Dice is '3D8' for an average per-round damage of 13.5.
+Can affect you as :
+   Affects: DAMROLL By 3
+   Affects: STR By 2
+Item slot: Weapon
+Item slot: Hold
++++++
+ 
+You see a beautifully crafted sword, made of pure gold.  The size of
+this sword is so big, you wonder if maybe a giant used it.  It looks like
+it would take considerable strength to use this sword.
+ (invisible) (insured)
+
+-----
+Object 'a Thalosian War Axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !NEUTRAL !MAGE !CLER !THF !NINJA LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 24, Value: 25000, Rent: 12000, Min. level: 16
+Damage Dice is '4D7' for an average per-round damage of 16.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 2
+Item slot: Weapon
++++++
+ 
+The war axe is really more of a massive polearm than an axe.
+It has a immense crescent-shaped blade decorated with mystical
+symbols of the Thalosian church.  The blade is attached to
+a stout, six foot long pole with rings and metal rivets.
+Cruelly hooked spikes bristle from the back of the blade,
+doubtless intended as a device for dragging horsemen from 
+astride their mounts.  Red and white cloth streamers are tied to 
+the end of the stave, beyond the rings that attach the blade to the 
+wooden handle. 
+ (invisible) (insured)
+
+
+-----
+Object 'a polished steel shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !EVIL !NEUTRAL GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 4, Value: 7500, Rent: 600, Min. level: 0
+AC-apply is 4
+Item slot: Shield
++++++
+ 
+Smooth and circular. this fine steel shield is relatively new as only
+a few dents mar its surface and the finish is still gleaming. The edges
+have been tightly rolled backward for added strength and durability
+while two adjustable leather straps secure the shield to one's arm
+below the elbow and above the wrist, leaving the hand free. 
+
+
