@@ -11,3 +11,5 @@
 }
 
 #high {^%1: you can't carry that many items.} {Red}
+
+#high {^%1: you can't carry that much weight} {Red}
