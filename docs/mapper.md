@@ -19,7 +19,7 @@ Load mapper tin as class at TinTin++ startup.
 | Symbol              | Description   |
 | ------------------- | ------------- |
 | `[ ]`</span>        |  Basic Path   |
-| <span style="color:red">`[ ]`</span> |  Aggro Room |
+| <span style="color:red"><pre>[ ]</pre></span> |  Aggro Room |
 | `[$]`               |  Bank         |
 | `[M]`               |  Guild Master |
 | `[*]`               |  Recall/Login |
