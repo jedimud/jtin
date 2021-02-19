@@ -9,3 +9,5 @@
 #alias capture_loot_log {
     #line log logs/loot.log {%1,%2,$map_current};
 }
+
+#high {^%1: you can't carry that many items.} {Red}
