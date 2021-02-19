@@ -36,9 +36,9 @@
 
 #alias check_description {
     #variable ident_state {description};
-    #delay {0.5} {
+    #delay {0.25} {
         check_description_wrapper $ident_tag;
-        #delay {0.5} {
+        #delay {1} {
             #showme <caf>identify scroll output captured;
             #unvar ident_state;
             clear_action;
