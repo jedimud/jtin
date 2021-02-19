@@ -199,7 +199,7 @@
 #nop ----- feet -----
 
 #high {^You wear %1 on your feet.} {reverse}
-#action {^You wear shimmering sandals on your feet.$} {
+#action {^You wear %1 on your feet.$} {
     rem $ident_tag;
     capture_feet;
 }
