@@ -1399,3 +1399,630 @@ sturdy, addition to your wardrobe.  Just don't try sneaking around while
 wearing it; you'd stand out like a beacon.
 
 
+-----
+Object 'a key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+A heavy, dark-green key with a tiny symbol engraved on its side.
+The symbol has long been worn away as this key is very, VERY old.
+
+
+-----
+Object 'a mine key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 1, Rent: 1000000, Min. level: 0
++++++
+ 
+[22;38;5;93midentify scroll output captured
+An old, rusty key that has seen many years in the dark, dusty mine
+shaft.
+
+
+-----
+Object 'a castle key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+You hold in your hands a key of intricate design.  Considering
+who you just got this key from and what it looks like, you are
+sure that only a dwarf could have made such an impressive piece
+of artwork out of just a simple key. There are more than a couple
+gems inlaid within the handle.  The ones that you recognize
+immediately are 3 rubies, 4 sapphires, 2 topaz and a giant diamond
+set in the middle.  There are also markings down the key all the
+way to the tip.  You can't quite make out what they say and they
+give you kind of an inferior feeling.  The gems in the handle and
+the polish which someone took obvious care to give this key makes you 
+think it is of some importance. 
+
+
+-----
+Object 'a bright golden key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+[22;38;5;93midentify scroll output captured
+Almost glowing with your touch, this key is extremely tiny
+and is almost lost in the palm of your hand.  You can only
+imagine what type of lock this key fits into.
+
+
+-----
+Object 'an old key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+As you are searching your latest victim, you almost cut your finger
+on what looks like an old piece of rusted metal.  You are about to
+toss it aside when a glint of something catches your eye.  You examine
+it more closely and realize that the glint you saw came from a partial
+piece of garnet.  From the looks of it, someone tried to pry the stone
+out of its socket and only came away with most of it.  You think it
+might have been a dagger at first, but are not convinced of that.  The 
+dents on what you think is the blade just might be the teeth of a key.
+
+
+-----
+Object 'a gold key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+This key seems to have stood the test of time well. Once you've rubbed 
+some of the grime off, it shines with a gleam you'd know anywhere. The 
+only question remains, do you melt it down, or try to find the lock it 
+belongs to? 
+
+
+-----
+Object 'an old key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+The black on this key has faded to a dull grey, it's so old. Dust and dirt 
+cling to cracks in its surface, and you despair of ever being able to use 
+it to open any lock again.
+
+
+-----
+Object 'dwarven plate mail', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 4, Value: 1000, Rent: 200, Min. level: 0
+AC-apply is 12
+Item slot: On Body
++++++
+ 
+Glimmering in the sunlight, this plate mail was once worn by
+a great dwarven hero.  Now it lies still, nearly forgotten,
+along with its master.
+
+
+-----
+Object 'a red wyvern scale bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM UNIQUE 
+Weight: 3, Value: 1500, Rent: 1000, Min. level: 0
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 1
+Item slot: Wrist
++++++
+ 
+This circlet of red scales must have been hard to come by, wyverns aren't
+known to part very willingly with their skin.
+ (glowing) (humming)
+
+-----
+Object 'an ornate hairbrush', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !BARD UNIQUE 
+Weight: 3, Value: 100, Rent: 30, Min. level: 0
+Damage Dice is '1D3' for an average per-round damage of 2.0.
+Item slot: Weapon
++++++
+ 
+A silver-handled hairbrush with soft bristles made to brush fine hair.
+If you have thick hair, don't even think about using this brush.
+
+
+-----
+Object 'a wicked knife', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !CLER UNIQUE 
+Weight: 5, Value: 300, Rent: 250, Min. level: 5
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Can affect you as :
+   Affects: HITROLL By 1
+Item slot: Weapon
+Item slot: Hold
++++++
+ 
+This is a murderer's knife, pure and simple.
+
+
+-----
+Object 'a slingshot', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !CLER UNIQUE 
+Weight: 2, Value: 25, Rent: 2, Min. level: 0
+Damage Dice is '2D2' for an average per-round damage of 3.0.
+Can affect you as :
+   Affects: HITROLL By 5
+Item slot: Weapon
++++++
+ 
+A child's weapon, nothing more.
+
+
+-----
+Object 'a bowl of soup', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 1, Min. level: 0
+Item slot: Hold
++++++
+ 
+It looks like garden vegetable soup, and it smells good, too.
+
+-----
+Object 'a ring of the guardian', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM INVIS NEUTRAL !THF !NINJA UNIQUE 
+Weight: 2, Value: 1500, Rent: 5500, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HIT By 2
+Item slot: Ring
++++++
+ 
+The strange symbols seem to be in a magical language unknown to you.
+ (invisible) (humming)
+
+-----
+Object 'a shot of whiskey', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 2, Min. level: 0
+It can hold approximately 1 units of liquid.
+Item slot: Hold
++++++
+ 
+Whew!  Looks like potent stuff!
+
+
+-----
+Object 'a glass of beer', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 5, Rent: 0, Min. level: 0
+It can hold approximately 1 units of liquid.
+Item slot: Hold
++++++
+ 
+A nice glass filled with 'Mr. Beer' brand beer.
+
+
+-----
+Object 'a glass of mead', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 8, Rent: 1, Min. level: 0
+It can hold approximately 1 units of liquid.
+Item slot: Hold
++++++
+ 
+It smells strongly of honey, and the color is a perfectly clear 
+brilliant gold -- it looks absolutely delicious.  The frost condensing 
+on the outside of the glass suggests that it's really cold, too.  
+Compared to the various run-of-the-mill drinks you expect to find 
+around here, this is sheer ambrosia.
+
+
+-----
+Object 'a plate of jumbalaya', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 20, Rent: 2, Min. level: 0
+Item slot: Hold
++++++
+ 
+Shrimp, rice, sausage, and lots and LOTS of cayenne pepper!
+Whew!
+
+
+-----
+Object 'a long sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !DONATE UNIQUE 
+Weight: 8, Value: 600, Rent: 60, Min. level: 0
+Damage Dice is '1D8' for an average per-round damage of 4.5.
+Item slot: Weapon
++++++
+ 
+Hey, it's a sword! You know! You've seen 'em before! It's a long thick
+piece of metal with a point at the top for those hard-to-do piercing jobs,
+and a blunt piece of metal at the end so that you won't end up 
+shishkebabbed on your own weapon. Very easy to come by, very effective! 
+
+
+-----
+Object 'the amulet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 2, Value: 6000, Rent: 3000, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: CON By 1
++++++
+ 
+The amulet is a simple pebble of amber with some kind of leaf trapped
+within.  As you hold it, your hand numbs, and then begins to feel better.
+
+
+-----
+Object 'a magic mushroom', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 50, Rent: 25, Min. level: 0
++++++
+ 
+Other than the slight sparkle of residual magic about it, this appears to
+be an utterly ordinary edible mushroom.  It might be very tasty sauteed
+with some nice onions or baked into a scrumptious casserole, but even 
+plain and uncooked, it will make a tasty, healthy, filling meal.
+
+
+-----
+Object 'a box of birth control pills', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 300, Rent: 30, Min. level: 0
++++++
+ 
+They are in a circular container, and there are numbers corresponding
+to the day that they are to be taken.  You can tell they haven't been
+used for a while.
+
+
+-----
+Object 'a silver mirror', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT !BARD UNIQUE 
+Weight: 10, Value: 15000, Rent: 0, Min. level: 0
+This WAND casts: clone of level 0
+Item slot: Hold
++++++
+ 
+A mirror made of the finest silver in all the land.  As you
+gaze at the reflection, you wonder if it really shows who
+you are inside.
+
+
+-----
+Object 'a Jester's Staff', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF UNIQUE 
+Weight: 5, Value: 1000, Rent: 1092, Min. level: 0
+Damage Dice is '6D2' for an average per-round damage of 9.0.
+Item slot: Weapon
++++++
+ 
+You see nothing special.
+
+-----
+Object 'a sturdy axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 20, Value: 2000, Rent: 2500, Min. level: 10
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Can affect you as :
+   Affects: HITROLL By -2
+   Affects: STR By 2
+ERROR - IGNORE THIS RECORD
+-----
+Object 'Bevgul', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: EVIL !MAGE !CLER !THF !WAR !PAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 8, Value: 7100, Rent: 4150, Min. level: 0
+Damage Dice is '3D2' for an average per-round damage of 4.5.
+Can affect you as :
+   Affects: DAMROLL By 2
+Item slot: Weapon
++++++
+ 
+A long, thin board with rusty spikes pounded into it.  The
+spikes are tipped with dried blood and ichor from many battles.
+Only a truly despicable soul would use this vicious weapon in
+combat!
+
+
+-----
+Object 'a two handed sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER UNIQUE 
+Weight: 10, Value: 500, Rent: 150, Min. level: 10
+Damage Dice is '2D6' for an average per-round damage of 7.0.
+Item slot: Weapon
++++++
+ 
+[22;38;5;93midentify scroll output captured
+It's just your typical, normal, everyday two handed sword! What did you 
+expect? 
+
+
+-----
+Object 'the Crystal Sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !GOOD !MAGE !CLER UNIQUE 
+Weight: 10, Value: 10000, Rent: 5000, Min. level: 0
+Damage Dice is '6D2' for an average per-round damage of 9.0.
+Can affect you as :
+   Affects: HITROLL By -2
+   Affects: DAMROLL By 2
+Item slot: Weapon
++++++
+ 
+You see a crystaline sword floating before you.
+ (glowing) (humming)
+
+-----
+Object 'a pitch black potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG UNIQUE 
+Weight: 1, Value: 1800, Rent: 900, Min. level: 0
+This POTION casts:  Level 20 of energy drain
++++++
+ 
+You see a small pitch black potion. It has a label which reads, "Drink 
+me!"
+ (invisible)
+
+-----
+Object 'a pike', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 20, Value: 500, Rent: 500, Min. level: 10
+Damage Dice is '2D6' for an average per-round damage of 7.0.
+Can affect you as :
+   Affects: HIT By 1
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a hammer', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE UNIQUE 
+Weight: 3, Value: 1800, Rent: 360, Min. level: 0
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Item slot: Weapon
++++++
+ 
+This hammer was forged from the strongest of metals a long, long
+time ago.  The methods used in the creation of this hammer have
+been long forgotten, so cherish your newfound weapon, and take
+good care of it.
+
+
+-----
+Object 'an immense bastard sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 30, Value: 7500, Rent: 7500, Min. level: 15
+Damage Dice is '2D6' for an average per-round damage of 7.0.
+Can affect you as :
+   Affects: STR By 2
+   Affects: ARMOR By 10
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a serrated dagger', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 3, Value: 3000, Rent: 1000, Min. level: 5
+Damage Dice is '5D2' for an average per-round damage of 7.5.
+Item slot: Weapon
++++++
+ 
+This is a VERY nasty looking blade, the serrated edges look like they would
+do a lot of damage!
+
+
+-----
+Object 'an immense bastard sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 30, Value: 7500, Rent: 7500, Min. level: 15
+Damage Dice is '2D6' for an average per-round damage of 7.0.
+Can affect you as :
+   Affects: STR By 2
+   Affects: ARMOR By 10
+Item slot: Weapon
++++++
+ 
+You see a beautifully crafted sword, made of pure gold.  The size of
+this sword is so big, you wonder if maybe a giant used it.  It looks like
+it would take considerable strength to use this sword.
+
+
+-----
+Object 'a pike', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 20, Value: 500, Rent: 500, Min. level: 10
+Damage Dice is '2D6' for an average per-round damage of 7.0.
+Can affect you as :
+   Affects: HIT By 1
+Item slot: Weapon
++++++
+ 
+It's heavy, but not a bad weapon!
+
+
+-----
+Object 'a mace', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !SOHEI UNIQUE 
+Weight: 5, Value: 1000, Rent: 2000, Min. level: 0
+Damage Dice is '1D10' for an average per-round damage of 5.5.
+Item slot: Weapon
++++++
+ 
+Maces, the weapons of choice for clerics around the globe!  The
+gods of clerics worldwide have declared that they are averse to
+the sight of blood being spilled in their names by their followers.
+They are pleased much more by the sight of bashed-in skulls and
+broken bones caused by the sacred application of blunt weapons
+to their blasphemous enemies.  This one seems an apt candidate
+for infidel-bashing.
+
+
+-----
+Object 'a sturdy axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 20, Value: 2000, Rent: 2500, Min. level: 10
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Can affect you as :
+   Affects: HITROLL By -2
+   Affects: STR By 2
+Item slot: Weapon
++++++
+ 
+This axe is so shiny, you'd swear someone has licked it clean!
+ (glowing)
+
+-----
+Object 'a tarnished emerald ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3000, Rent: 390, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: HIT By 1
+   Affects: DAMROLL By 1
+Item slot: Ring
++++++
+ 
+A thin band of tarnished silver set with a tiny chip of emerald.
+The ring is unremarkable.
+
+
+-----
+Object 'the Sceptre of Might', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM INVIS MAG !EVIL LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 4, Value: 20000, Rent: 10000, Min. level: 20
+Can affect you as :
+   Affects: HITROLL By 3
+   Affects: DAMROLL By 2
+Item slot: Light
++++++
+ 
+A blued-steel sceptre, just over a foot in length, which
+flares out at the top. In the top of the sceptre is set a
+large, glowing green orb, which swirls with many colours,
+and appears to be the source of light for this strange
+object.
+ (invisible) (glowing) (humming) (insured)
+
+-----
+Object 'a tarnished brass ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !EVIL !APAL !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 1, Value: 10000, Rent: 900, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Ring
++++++
+ 
+The band of this brass ring is broad and deeply etches with stylized
+images, perhaps waves.  There is no stone set into its surface.
+ (invisible) (insured)
+
+-----
+Object 'a purple heart medallion', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS !MAGE !CLER !PAL !APAL !JEDI !SOHEI LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 2, Value: 500000, Rent: 5000, Min. level: 15
+AC-apply is 4
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HIT By 5
+Item slot: Neck
++++++
+ 
+An exquisite medallion made out of sterling silver in the shape of a star
+seems to be attached to an expensive purple ribbon. The ribbon is long
+enough for it to be worn around the neck and the medal itself is polished
+immaculately. On closer examination of the writing around the edges, you
+notice that it is an honorary award given to those individuals who have
+shown exceptional bravery during combat. 
+ (invisible) (glowing) (insured)
+
+-----
+Object 'a suit of gleaming silver platemail', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS !EVIL !NEUTRAL !MAGE !CLER !THF !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 40, Value: 150000, Rent: 10000, Min. level: 15
+AC-apply is 30
+Can affect you as :
+   Affects: HIT By 15
+   Affects: DAMROLL By 1
+Item slot: On Body
++++++
+ 
+A heavy suit of platemail made from highly polished silver.  Only
+a true holy warrior would wear armor such as this.
+ (invisible) (glowing) (insured)
+
+
+-----
+Object 'Greaves of Valour', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM INVIS !NEUTRAL !MAGE !CLER !DONATE !RANGER !BARD !JUNK UNIQUE INSURED 
+Weight: 10, Value: 10000, Rent: 2000, Min. level: 16
+AC-apply is 14
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: INT By -3
+Item slot: Legs
++++++
+ 
+A pair of ornately decorated steel greaves are lying here.  They
+are covered with images of battle and feature the valorious deeds
+of several well-known heros.
+ (invisible) (humming) (insured)
+
+-----
+Object 'the Titanic Hooves of Taurus', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG !EVIL !MAGE !THF !APAL !NINJA LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 10, Value: 10000, Rent: 5000, Min. level: 10
+AC-apply is 5
+Can affect you as :
+   Affects: MOVE By 15
+   Affects: DAMROLL By 1
+-----
+Object 'the Titanic Hooves of Taurus', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG !EVIL !MAGE !THF !APAL !NINJA LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 10, Value: 10000, Rent: 5000, Min. level: 10
+AC-apply is 5
+Can affect you as :
+   Affects: MOVE By 15
+   Affects: DAMROLL By 1
