@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -255,7 +255,7 @@ T {} { } {}
 R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    2} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {    3} {n} {open north;north} {1} {0} {} {1.000} {} {0.00}
-E {   12} {s} {s} {4} {0} {} {1.000} {} {0.00}
+E {   12} {s} {room_link_action {south} {great-eastern-desert} {35}} {4} {0} {} {1.000} {} {0.00}
 
 R {    2} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    1} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -295,5 +295,5 @@ E {   11} {n} {n} {1} {0} {} {1.000} {} {0.00}
 R {   11} {0} {} {} {%} {} {} {} {} {} {1.000} {}
 E {   10} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {   12} {2} {} {} { } {} {} {} {} {} {1.000} {}
+R {   12} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {    1} {n} {n} {1} {0} {} {1.000} {} {0.00}
