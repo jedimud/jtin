@@ -1278,7 +1278,9 @@ class TestItemParser(unittest.TestCase):
         self.assertTrue(item.__eq__(actual))
 
     def read_item_from_file(self, fname):
-        return ItemParser().parse_file("py/item-parse/test-items/" + fname + ".txt")[-1]
+        ip = ItemParser()
+        lines = ip.read_file("py/item-parse/test-items/" + fname + ".txt")
+        return ip.parse_file(lines)[-1]
 
 
 if __name__ == '__main__':

@@ -8,13 +8,17 @@ from item_align import ItemAlign
 from item_spell import ItemSpell
 from item import Item
 import json
+import os
 
 
 class ItemParser():
 
-    def parse_file(self, fname):
-        lines = self.read_log(fname)
+    def parse_and_archive_file(self, fname):
+        lines = self.read_file(fname)
+        self.parse_file(lines)
+        self.write_file(fname, lines)
 
+    def parse_file(self, lines):
         line_break = "-----"
         desc_break = "+++++"
         error_break = "ERROR - IGNORE THIS RECORD"
@@ -335,11 +339,20 @@ class ItemParser():
             str(item.liq_units) + " units of liquid."
         assert line == parsed, "[" + line + "] != [" + parsed + "]"
 
-    def read_log(self, fname):
+    def read_file(self, fname):
         with open(fname) as f:
             lines = [line.rstrip() for line in f]
+            f.close()
             return lines
+
+    def write_file(self, fname, lines):
+        with open(fname + ".arc", "a") as f:
+            for line in lines:
+                f.write(line)
+                f.write("\r")
+            f.close()
+        os.remove(fname)
 
 
 if __name__ == '__main__':
-    ItemParser().parse_file("logs/ident.log")
+    ItemParser().parse_and_archive_file("logs/ident.log")
