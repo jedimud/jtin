@@ -1,0 +1,10 @@
+Object 'the Pinball Wizard hat', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI LIMITED !RANGER !BARD UNIQUE 
+Weight: 2, Value: 15000, Rent: 7500, Min. level: 12
+AC-apply is 8
+Can affect you as :
+   Affects: MANA By 8
+   Affects: INT By 1
+Item slot: Head
+-----

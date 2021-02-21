@@ -1,0 +1,9 @@
+Object 'a shiny breast plate', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 50, Value: 40000, Rent: 12000, Min. level: 12
+AC-apply is 25
+Can affect you as :
+   Affects: ARMOR By -4
+Item slot: On Body
+-----

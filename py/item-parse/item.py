@@ -7,6 +7,7 @@ from item_slot import ItemSlot
 class Item():
 
     def __init__(self):
+
         self.name = str()
         self.type = ItemType
         self.ability = ItemAbility
@@ -20,6 +21,7 @@ class Item():
 
         self.ac = None
 
+        self.slots = []
         self.affects = {}
 
         self.units = None
@@ -33,5 +35,3 @@ class Item():
         self.dice_face = None
         self.dice_count = None
         self.average_dmg = None
-
-        self.slots = []

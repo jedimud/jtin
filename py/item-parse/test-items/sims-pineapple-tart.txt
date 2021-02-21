@@ -1,0 +1,5 @@
+Object 'Sim's Pineapple Tart', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 20, Rent: 10, Min. level: 0
+-----

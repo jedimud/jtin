@@ -1,0 +1,9 @@
+Object 'Ben Kenobi's medallion', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 8500, Rent: 8000, Min. level: 0
+Can affect you as :
+   Affects: WIS By 3
+   Affects: MANA By 15
+Item slot: Neck
+-----

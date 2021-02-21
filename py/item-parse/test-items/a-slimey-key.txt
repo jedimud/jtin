@@ -1,0 +1,5 @@
+Object 'a slimey key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 1, Rent: 100, Min. level: 0
+-----

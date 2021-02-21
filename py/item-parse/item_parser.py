@@ -17,20 +17,24 @@ class ItemParser():
 
         line_break = "-----"
         desc_break = "+++++"
+        error_break = "ERROR - IGNORE THIS RECORD"
         sub_lines = []
         items = []
         is_desc = False
         for line in lines:
-            if line_break in line:
+            if error_break == line:
+                is_desc = False
+                sub_lines.clear()
+            elif line_break == line:
                 items.append(self.parse_lines(sub_lines))
                 sub_lines.clear()
                 is_desc = False
-            elif desc_break in line:
+            elif desc_break == line:
                 is_desc = True
             elif not is_desc:
                 sub_lines.append(line)
 
-        print("parsed items: " + str(items.__len__()))
+        return items
 
     def parse_lines(self, lines):
         item = Item()
@@ -54,6 +58,8 @@ class ItemParser():
             self.parse_affects(line, item)
         elif line.startswith("Item slot: "):
             self.parse_slot(line, item)
+        elif line.startswith("Damage Dice is '") and line.endswith(" charges."):
+            self.parse_spell_damage_dice(line, item)
         elif line.startswith("Damage Dice is '"):
             self.parse_damage_dice(line, item)
         elif line.startswith("AC-apply is "):
@@ -177,13 +183,53 @@ class ItemParser():
 
     def parse_damage_dice(self, line, item):
         """Damage Dice is '6D6' for an average per-round damage of 21.0."""
-        item.dice_count = 6
-        item.dice_face = 6
-        item.average_dmg = 21.0
+        count = line[16:]
+        i = count.find("D")
+        item.dice_count = count[:i]
+
+        face = line[16:]
+        i = face.find("D") + 1
+        face = face[i:]
+        i = face.find("'")
+        item.dice_face = face[:i]
+
+        i = line.find("damage of ") + 10
+        avg = line[i:]
+        i = avg.rfind(".")
+        item.average_dmg = avg[:i]
 
         parsed = "Damage Dice is '" + str(item.dice_count) + \
             "D" + str(item.dice_face) + "' for an average per-round damage of " + \
             str(item.average_dmg) + "."
+        assert line == parsed, "[" + line + "] != [" + parsed + "]"
+
+    def parse_spell_damage_dice(self, line, item):
+        """Damage Dice is '3D5' This weapon currently has 15 of a maximum 6 charges."""
+
+        count = line[16:]
+        i = count.find("D")
+        item.dice_count = count[:i]
+
+        face = line[16:]
+        i = face.find("D") + 1
+        face = face[i:]
+        i = face.find("'")
+        item.dice_face = face[:i]
+
+        i = line.find(" maximum ") + 9
+        max = line[i:]
+        i = max.find(" charges.")
+        max = max[:i]
+        item.charge_remain = max
+
+        i = line.find(" currently has ") + 15
+        remain = line[i:]
+        i = remain.find(" of a ")
+        item.charge_remain = remain[:i]
+
+        parsed = "Damage Dice is '" + str(item.dice_count) + "D" + str(item.dice_face) + \
+            "' This weapon currently has " + str(item.charge_remain) + \
+            " of a maximum " + str(item.charge_max) + " charges."
         assert line == parsed, "[" + line + "] != [" + parsed + "]"
 
     def parse_ac_apply(self, line, item):
@@ -223,7 +269,6 @@ class ItemParser():
         while spells.__len__() > 0:
             found = False
             for sp in list(ItemSpell):
-                print(" checking " + sp.value)
                 if (spells.startswith(sp.value)):
                     item.spells.append(sp)
                     i = sp.value.__len__()
@@ -290,34 +335,11 @@ class ItemParser():
             str(item.liq_units) + " units of liquid."
         assert line == parsed, "[" + line + "] != [" + parsed + "]"
 
-
-#         // This WAND casts: invisible of level 12
-#         else if (line.startsWith("This WAND casts:")) {
-#             parseWeaponCastsLine(line, "WAND", item);
-#         }
-
-#         // This POTION casts: Level 12 of detect invisibility detect invisibility
-#         else if (line.startsWith("This POTION casts: Level ")) {
-#             parseItemCastsLine(line, "POTION", item);
-#         }
-
-#         // This SCROLL casts: Level 12 of word of recall control weather control weather
-#         else if (line.startsWith("This SCROLL casts: Level ")) {
-#             parseItemCastsLine(line, "SCROLL", item);
-#         }
-
-#         // Damage Dice is '3D5' This weapon currently has 15 of a maximum 6 charges.
-#         else if (line.startsWith("Damage Dice") && line.contains("charges")) {
-#             parseFireWeaponDiceLine(line, item);
-#         }
-
     def read_log(self, fname):
         with open(fname) as f:
             lines = [line.rstrip() for line in f]
-            lines.pop(0)
             return lines
 
 
 if __name__ == '__main__':
-    # ItemParser().parse_file("logs/ident.log")
-    ItemParser().parse_file("logs/item.txt")
+    ItemParser().parse_file("logs/ident.log")

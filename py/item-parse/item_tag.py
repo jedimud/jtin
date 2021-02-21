@@ -3,6 +3,7 @@ from enum import Enum, unique
 
 @unique
 class ItemTag(Enum):
+
     BLESS = "BLESS"
     GLOW = "GLOW"
     HUM = "HUM"

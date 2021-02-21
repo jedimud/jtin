@@ -410,7 +410,7 @@
 }
 
 #alias capture_wield {
-    #line log logs/ident.log {Item slot: Weapon};
+    #line log logs/ident.log {Item slot: Wield};
     check_hold;
 }
 

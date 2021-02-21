@@ -1,0 +1,10 @@
+Object 'a man's diamond ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW EVIL MAG !GOOD !THF !WAR !PAL !NINJA LIMITED UNIQUE 
+Weight: 2, Value: 4000, Rent: 4000, Min. level: 15
+AC-apply is 0
+Can affect you as :
+   Affects: MANA By 6
+   Affects: DAMROLL By 1
+Item slot: Ring
+-----

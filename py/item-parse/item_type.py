@@ -3,6 +3,7 @@ from enum import Enum, unique
 
 @unique
 class ItemType(Enum):
+
     AIRSHIP = "AIRSHIP"
     ARMOR = "ARMOR"
     BOAT = "BOAT"
@@ -17,9 +18,9 @@ class ItemType(Enum):
     WORN = "WORN"
     LIGHT = "LIGHT"
     WEAPON = "WEAPON"
-    # KEY = "KEY"
-    # FIRE_WEAPON = "FIRE-WEAPON"
+    KEY = "KEY"
+    FIRE_WEAPON = "FIRE-WEAPON"
     TREASURE = "TREASURE"
-    # MISSILE = "MISSILE"
-    # TRASH = "TRASH"
-    # NOTE = "NOTE"
+    MISSILE = "MISSILE"
+    TRASH = "TRASH"
+    NOTE = "NOTE"

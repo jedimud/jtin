@@ -6,7 +6,7 @@ Weight: 10, Value: 0, Rent: 0, Min. level: 0
 Damage Dice is '6D6' for an average per-round damage of 21.0.
 Can affect you as :
    Affects: HITROLL By 10
-Item slot: Weapon
+Item slot: Wield
 +++++
 
 This is a high efficiency energy weapon capable of doing great damage.
@@ -430,7 +430,7 @@ Damage Dice is '5D5' for an average per-round damage of 15.0.
 Can affect you as :
    Affects: DAMROLL By 3
    Affects: HITROLL By 3
-Item slot: Weapon
+Item slot: Wield
 +++++
 
 This bat looks AWFULLY powerful...better be careful with it.
@@ -524,7 +524,7 @@ Damage Dice is '1D6' for an average per-round damage of 3.5.
 Can affect you as :
    Affects: HITROLL By 2
    Affects: DAMROLL By 1
-Item slot: Weapon
+Item slot: Wield
 +++++
 
 This dagger is no longer razor-sharp or even attractive; it has been too 
@@ -557,7 +557,7 @@ Damage Dice is '3D4' for an average per-round damage of 7.5.
 Can affect you as :
    Affects: STR By 1
    Affects: INT By -1
-Item slot: Weapon
+Item slot: Wield
 +++++
 
 This whip appears to be made of the finest leather.  Five of the 
@@ -596,7 +596,7 @@ Item will give you following abilities:  NOBITS
 Item is: !MAGE !CLER !DONATE UNIQUE 
 Weight: 8, Value: 600, Rent: 200, Min. level: 0
 Damage Dice is '1D8' for an average per-round damage of 4.5.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 A standard and serviceable blade, double-edged for slashing, sturdy 
@@ -689,7 +689,7 @@ Damage Dice is '5D4' for an average per-round damage of 12.5.
 Can affect you as :
    Affects: WIS By -2
    Affects: HIT By 5
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 Like most claymores, this sword has a two-handed grip and gently tapers 
@@ -775,7 +775,7 @@ Weight: 8, Value: 2200, Rent: 850, Min. level: 0
 Damage Dice is '1D10' for an average per-round damage of 5.5.
 Can affect you as :
    Affects: HITROLL By 1
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This longsword appears to be of fine workmanship.  The hilt is made of 
@@ -814,7 +814,7 @@ Item will give you following abilities:  NOBITS
 Item is: GLOW MAG !DROP !MAGE !CLER !THF !NINJA UNIQUE 
 Weight: 14, Value: 6400, Rent: 3200, Min. level: 0
 Damage Dice is '2D7' for an average per-round damage of 8.0.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This longsword appears to be very old and shows signs of frequent use.
@@ -833,7 +833,7 @@ Damage Dice is '1D9' for an average per-round damage of 5.0.
 Can affect you as :
    Affects: HITROLL By -1
    Affects: DAMROLL By 2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of leather.  Three of the strands that make
@@ -851,7 +851,7 @@ Damage Dice is '1D9' for an average per-round damage of 5.0.
 Can affect you as :
    Affects: HITROLL By -1
    Affects: DAMROLL By 2
-Item slot: Weapon
+Item slot: Wield
 ERROR - IGNORE THIS RECORD
 -----
 Object 'a snake headed whip', Item type: WEAPON
@@ -862,7 +862,7 @@ Damage Dice is '1D9' for an average per-round damage of 5.0.
 Can affect you as :
    Affects: HITROLL By -1
    Affects: DAMROLL By 2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of leather.  Three of the strands that make
@@ -880,7 +880,7 @@ Damage Dice is '3D4' for an average per-round damage of 7.5.
 Can affect you as :
    Affects: STR By 1
    Affects: INT By -1
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip appears to be made of the finest leather.  Five of the 
@@ -906,7 +906,7 @@ Weight: 16, Value: 22608, Rent: 13500, Min. level: 0
 Damage Dice is '4D4' for an average per-round damage of 10.0.
 Can affect you as :
    Affects: STR By 2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of some type of skin; it is too fine to be
@@ -925,7 +925,7 @@ Damage Dice is '1D9' for an average per-round damage of 5.0.
 Can affect you as :
    Affects: HITROLL By -1
    Affects: DAMROLL By 2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of leather.  Three of the strands that make
@@ -942,7 +942,7 @@ Weight: 16, Value: 2000, Rent: 800, Min. level: 0
 Damage Dice is '2D4' for an average per-round damage of 5.0.
 Can affect you as :
    Affects: HITROLL By 1
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 [22;38;5;93midentify scroll output captured
@@ -960,7 +960,7 @@ Damage Dice is '2D6' for an average per-round damage of 7.0.
 Can affect you as :
    Affects: HITROLL By 2
    Affects: DAMROLL By -2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of leather.  Four of the strands that make
@@ -977,7 +977,7 @@ Weight: 16, Value: 2000, Rent: 800, Min. level: 0
 Damage Dice is '2D4' for an average per-round damage of 5.0.
 Can affect you as :
    Affects: HITROLL By 1
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of leather.  Two of the strands that make up
@@ -994,7 +994,7 @@ Damage Dice is '2D6' for an average per-round damage of 7.0.
 Can affect you as :
    Affects: HITROLL By 2
    Affects: DAMROLL By -2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of leather.  Four of the strands that make
@@ -1011,7 +1011,7 @@ Weight: 16, Value: 2000, Rent: 800, Min. level: 0
 Damage Dice is '2D4' for an average per-round damage of 5.0.
 Can affect you as :
    Affects: HITROLL By 1
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of leather.  Two of the strands that make up
@@ -1028,7 +1028,7 @@ Damage Dice is '3D4' for an average per-round damage of 7.5.
 Can affect you as :
    Affects: STR By 1
    Affects: INT By -1
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip appears to be made of the finest leather.  Five of the 
@@ -1045,7 +1045,7 @@ Weight: 16, Value: 2000, Rent: 800, Min. level: 0
 Damage Dice is '2D4' for an average per-round damage of 5.0.
 Can affect you as :
    Affects: HITROLL By 1
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of leather.  Two of the strands that make up
@@ -1062,7 +1062,7 @@ Damage Dice is '1D9' for an average per-round damage of 5.0.
 Can affect you as :
    Affects: HITROLL By -1
    Affects: DAMROLL By 2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This whip seems to be made of leather.  Three of the strands that make
@@ -1182,7 +1182,7 @@ Item will give you following abilities:  NOBITS
 Item is: !MAGE !CLER !DONATE UNIQUE 
 Weight: 3, Value: 250, Rent: 25, Min. level: 0
 Damage Dice is '1D6' for an average per-round damage of 3.5.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This sword is about 2 1/2 feet long and has a shiny blade.  The hilt is
@@ -1208,7 +1208,7 @@ Item will give you following abilities:  NOBITS
 Item is: GLOW !EVIL !MAGE !CLER UNIQUE 
 Weight: 5, Value: 5000, Rent: 250, Min. level: 0
 Damage Dice is '7D1' for an average per-round damage of 7.0.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 The entire rim and edge of the scimitar's handle is bedecked in a gorgeous
@@ -1290,7 +1290,7 @@ Item will give you following abilities:  NOBITS
 Item is: !MAGE !CLER UNIQUE 
 Weight: 10, Value: 4900, Rent: 450, Min. level: 0
 Damage Dice is '3D4' for an average per-round damage of 7.5.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 Forged by a master blacksmith this sword is of an excellent quality.
@@ -1533,7 +1533,7 @@ Item will give you following abilities:  NOBITS
 Item is: !BARD UNIQUE 
 Weight: 3, Value: 100, Rent: 30, Min. level: 0
 Damage Dice is '1D3' for an average per-round damage of 2.0.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 A silver-handled hairbrush with soft bristles made to brush fine hair.
@@ -1548,7 +1548,7 @@ Weight: 5, Value: 300, Rent: 250, Min. level: 5
 Damage Dice is '2D5' for an average per-round damage of 6.0.
 Can affect you as :
    Affects: HITROLL By 1
-Item slot: Weapon
+Item slot: Wield
 Item slot: Hold
 +++++
  
@@ -1563,7 +1563,7 @@ Weight: 2, Value: 25, Rent: 2, Min. level: 0
 Damage Dice is '2D2' for an average per-round damage of 3.0.
 Can affect you as :
    Affects: HITROLL By 5
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 A child's weapon, nothing more.
@@ -1652,7 +1652,7 @@ Item will give you following abilities:  NOBITS
 Item is: !MAGE !CLER !DONATE UNIQUE 
 Weight: 8, Value: 600, Rent: 60, Min. level: 0
 Damage Dice is '1D8' for an average per-round damage of 4.5.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 Hey, it's a sword! You know! You've seen 'em before! It's a long thick
@@ -1720,7 +1720,7 @@ Item will give you following abilities:  NOBITS
 Item is: MAG !THF UNIQUE 
 Weight: 5, Value: 1000, Rent: 1092, Min. level: 0
 Damage Dice is '6D2' for an average per-round damage of 9.0.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 You see nothing special.
@@ -1743,7 +1743,7 @@ Weight: 8, Value: 7100, Rent: 4150, Min. level: 0
 Damage Dice is '3D2' for an average per-round damage of 4.5.
 Can affect you as :
    Affects: DAMROLL By 2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 A long, thin board with rusty spikes pounded into it.  The
@@ -1758,7 +1758,7 @@ Item will give you following abilities:  NOBITS
 Item is: MAG !MAGE !CLER UNIQUE 
 Weight: 10, Value: 500, Rent: 150, Min. level: 10
 Damage Dice is '2D6' for an average per-round damage of 7.0.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 [22;38;5;93midentify scroll output captured
@@ -1775,7 +1775,7 @@ Damage Dice is '6D2' for an average per-round damage of 9.0.
 Can affect you as :
    Affects: HITROLL By -2
    Affects: DAMROLL By 2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 You see a crystaline sword floating before you.
@@ -1808,7 +1808,7 @@ Item will give you following abilities:  NOBITS
 Item is: !MAGE UNIQUE 
 Weight: 3, Value: 1800, Rent: 360, Min. level: 0
 Damage Dice is '2D5' for an average per-round damage of 6.0.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This hammer was forged from the strongest of metals a long, long
@@ -1833,7 +1833,7 @@ Item will give you following abilities:  NOBITS
 Item is: !MAGE !CLER UNIQUE 
 Weight: 3, Value: 3000, Rent: 1000, Min. level: 5
 Damage Dice is '5D2' for an average per-round damage of 7.5.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This is a VERY nasty looking blade, the serrated edges look like they would
@@ -1849,7 +1849,7 @@ Damage Dice is '2D6' for an average per-round damage of 7.0.
 Can affect you as :
    Affects: STR By 2
    Affects: ARMOR By 10
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 You see a beautifully crafted sword, made of pure gold.  The size of
@@ -1865,7 +1865,7 @@ Weight: 20, Value: 500, Rent: 500, Min. level: 10
 Damage Dice is '2D6' for an average per-round damage of 7.0.
 Can affect you as :
    Affects: HIT By 1
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 It's heavy, but not a bad weapon!
@@ -1877,7 +1877,7 @@ Item will give you following abilities:  NOBITS
 Item is: !MAGE !THF !SOHEI UNIQUE 
 Weight: 5, Value: 1000, Rent: 2000, Min. level: 0
 Damage Dice is '1D10' for an average per-round damage of 5.5.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 Maces, the weapons of choice for clerics around the globe!  The
@@ -1898,7 +1898,7 @@ Damage Dice is '2D5' for an average per-round damage of 6.0.
 Can affect you as :
    Affects: HITROLL By -2
    Affects: STR By 2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 This axe is so shiny, you'd swear someone has licked it clean!
@@ -2140,7 +2140,7 @@ Damage Dice is '3D8' for an average per-round damage of 13.5.
 Can affect you as :
    Affects: DAMROLL By 3
    Affects: STR By 2
-Item slot: Weapon
+Item slot: Wield
 Item slot: Hold
 +++++
  
@@ -2158,7 +2158,7 @@ Damage Dice is '4D7' for an average per-round damage of 16.0.
 Can affect you as :
    Affects: HITROLL By 2
    Affects: DAMROLL By 2
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 The war axe is really more of a massive polearm than an axe.

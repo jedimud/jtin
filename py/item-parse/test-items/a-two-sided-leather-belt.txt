@@ -1,0 +1,10 @@
+Object 'a two sided leather belt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 1, Value: 50, Rent: 0, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: STR By 1
+   Affects: CHARISMA By 1
+Item slot: Waist
+-----

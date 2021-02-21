@@ -1,0 +1,10 @@
+Object 'a Paladin's Shield of Faith', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !EVIL !NEUTRAL GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 20, Value: 3000, Rent: 150, Min. level: 6
+AC-apply is 5
+Can affect you as :
+   Affects: HIT By 5
+   Affects: HIT_REGEN By 2
+Item slot: Shield
+-----

@@ -14,8 +14,7 @@ class ItemAffect(Enum):
     ARMOR = "ARMOR"
 
     AGE = "AGE"
-
-    # public Integer height;
+    HEIGHT = "HEIGHT"
 
     HITROLL = "HITROLL"
     DAMROLL = "DAMROLL"
@@ -29,4 +28,4 @@ class ItemAffect(Enum):
     MOV = "MOVE"
     MOVE_REGEN = "MOVE_REGEN"
 
-        # public Integer saveSpell;
+    SAVE_SPELL = "SAVE_SPELL"

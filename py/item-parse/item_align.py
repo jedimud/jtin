@@ -10,5 +10,5 @@ class ItemAlign(Enum):
     NEUTRAL = "NEUTRAL"
     NO_NEUTRAL = "!NEUTRAL"
 
-    # GOOD = "GOOD"
+    GOOD = "GOOD"
     NO_GOOD = "!GOOD"

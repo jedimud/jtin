@@ -1,0 +1,9 @@
+Object 'metallic shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !BARD UNIQUE 
+Weight: 10, Value: 1000, Rent: 200, Min. level: 0
+AC-apply is 5
+Can affect you as :
+   Affects: SAVE_SPELL By -2
+Item slot: Shield
+-----

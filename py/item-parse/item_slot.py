@@ -17,5 +17,5 @@ class ItemSlot(Enum):
     HANDS = "Hands"
     WAIST = "Waist"
     LIGHT = "Light"
-    WEAPON = "Weapon"
-    # SHIELD = "Shield"
+    WIELD = "Wield"
+    SHIELD = "Shield"
