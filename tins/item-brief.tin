@@ -1,0 +1,25 @@
+#sub {(invisible)} {}
+#sub {(glowing)} {}
+#sub {(humming)} {}
+#sub {(insured)} {}
+
+#action {^<offhand wield>} {#line gag}
+
+#action {^<worn on feet>       %2} {
+    #script {item} {sh -c './sh/item-brief.sh "%2"'};
+    #line ignore #show <worn on feet>       <afc>$item[1] <acf>$item[2];
+    #line gag;
+    #unvar $item;
+}
+
+#action {^You are carrying:} {
+    #class item-brief-action read tins/item-brief-action.tin;
+    #delay {0.5} {
+        end_item_brief;
+    };
+}
+
+#alias end_item_brief {
+    #class item-brief-action kill;
+    #class item-brief-action clear;
+}

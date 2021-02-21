@@ -10,7 +10,7 @@ Line-delimited log of `scroll of identify` outputs. Items are additionally teste
 
 Load tin as class at TinTin++ startup.
 
-`#class mapper read tins/ident-log.tin`
+`#class ident-log read tins/ident-log.tin`
 
 Run alias on item in inventory.
 

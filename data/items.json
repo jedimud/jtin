@@ -1,0 +1,8 @@
+{
+    "a Hover Board": {
+        "description": {
+            "inventory": "ml 0, +2con, airship(feet)",
+            "equipped": "ml 0, +2con"
+        }
+    }
+}

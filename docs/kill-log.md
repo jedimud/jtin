@@ -10,7 +10,7 @@ Real-time, comma-delimited log of NPC kills.
 
 Load kill-log tin as class at TinTin++ startup.
 
-`#class mapper read tins/kill-log.tin`
+`#class kill-log read tins/kill-log.tin`
 
 > [Mapper](mapper.md) is required to properly capture zone where NPC was killed.
 

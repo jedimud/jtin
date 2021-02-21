@@ -1,0 +1,12 @@
+#action {^%1} {
+    #regex {%1} {^%+>} {
+        end_item_brief;
+    } {
+        #line ignore #script {item} {sh -c './sh/item-brief.sh "%1"'};
+        #if {"$item[3]" != ""} {
+            #line ignore #show <afc>$item[1] <acf>$item[3]<099>;
+            #line ignore #line gag;
+        };
+        #nop #unvar $item;
+    }
+} {9}

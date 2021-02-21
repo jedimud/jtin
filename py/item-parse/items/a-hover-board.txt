@@ -1,0 +1,8 @@
+Object 'a Hover Board', Item type: AIRSHIP
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM INVIS MAG !DONATE !JUNK UNIQUE INSURED 
+Weight: 5, Value: 10000, Rent: 1000, Min. level: 0
+Can affect you as :
+   Affects: CON By 2
+Item Slot: Feet
+-----
