@@ -4,14 +4,14 @@ from enum import Enum, unique
 @unique
 class ItemAlign(Enum):
 
-    EVIL = "EVIL", "e!"
-    NO_EVIL = "!EVIL", "!e"
+    EVIL = "EVIL", "E!"
+    NO_EVIL = "!EVIL", "!E"
 
-    NEUTRAL = "NEUTRAL", "n!"
-    NO_NEUTRAL = "!NEUTRAL", "!n"
+    NEUTRAL = "NEUTRAL", "N!"
+    NO_NEUTRAL = "!NEUTRAL", "!N"
 
-    GOOD = "GOOD", "g!"
-    NO_GOOD = "!GOOD", "!g"
+    GOOD = "GOOD", "G!"
+    NO_GOOD = "!GOOD", "!G"
 
     def __new__(cls, *args, **kwds):
         obj = object.__new__(cls)
