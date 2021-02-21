@@ -21,8 +21,9 @@ class ItemParser():
             pass
 
         if lines.__len__() > 0:
-            self.parse_file(lines)
-            # self.write_file(fname, lines)
+            items = self.parse_file(lines)
+            self.write_brief(items)
+            self.write_file(fname, lines)
 
     def parse_file(self, lines):
         line_break = "-----"
@@ -376,14 +377,14 @@ class ItemParser():
             elif type(tag) == ItemClass:
                 class_tag = tag.brief
 
-        if align_tag == "" and class_tag == "":
-            rests = rests + "!rests "
-        elif align_tag == "":
-            rests = rests + "!" + class_tag + " !rests "
-        elif class_tag == "":
-            rests = rests + "!rests " + align_tag
-        else:
-            rests = rests + "!" + class_tag + " " + align_tag
+        if class_tag != "":
+            rests = rests + "!" + class_tag + " "
+
+        if align_tag != "":
+            rests = rests + align_tag
+
+        if rests == "":
+            rests = "!rests "
 
         item.brief_eq = item.brief_eq + rests
         item.brief_inv = item.brief_inv + rests
@@ -419,7 +420,12 @@ class ItemParser():
 
         # type
         if item.type != "":
-            item.brief_inv = item.brief_inv + item.type.brief
+            if item.type == ItemType.CONTAINER:
+                item.brief_inv = item.brief_inv + item.type.brief + "(+" + str(item.units) + ") "
+            elif item.type == ItemType.LIQ_CONTAINER:
+                item.brief_inv = item.brief_inv + item.type.brief + "(+" + str(item.liq_units) + ") "
+            else:
+                item.brief_inv = item.brief_inv + item.type.brief
 
         # slots
         if item.slots.__len__() > 0:
@@ -431,6 +437,17 @@ class ItemParser():
             slots = "(" + slots + ")"
 
             item.brief_inv = item.brief_inv + slots
+
+    def write_brief(self, items):
+        briefs = {}
+        for item in items:
+            description = {}
+            description["inventory"] = item.brief_inv
+            description["equipped"] = item.brief_eq
+            briefs[item.name] = {}
+            briefs[item.name]["description"] = description
+        with open('data/item-briefs.json', 'w') as f:
+            json.dump(briefs, f)
 
     def read_file(self, fname):
         with open(fname) as f:
