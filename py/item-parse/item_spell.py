@@ -8,6 +8,7 @@ class ItemSpell(Enum):
     CALL_LIGHTNING = "call lightning"
     CAUSE_SERIOUS = "cause serious"
     CHARM_PERSON = "charm person"
+    CLONE = "clone"
     CONTROL_WEATHER = "control weather"
     CURE_BLIND = "cure blind"
     CURE_CRITIC = "cure critic"

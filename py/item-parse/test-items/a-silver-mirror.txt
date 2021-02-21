@@ -1,0 +1,12 @@
+-----
+Object 'a silver mirror', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT !BARD UNIQUE 
+Weight: 10, Value: 15000, Rent: 0, Min. level: 0
+This WAND casts: clone of level 0
+Item slot: Hold
++++++
+ 
+A mirror made of the finest silver in all the land.  As you
+gaze at the reflection, you wonder if it really shows who
+you are inside.

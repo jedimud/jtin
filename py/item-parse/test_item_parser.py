@@ -11,6 +11,7 @@ from item_class import ItemClass
 from item_align import ItemAlign
 from item_spell import ItemSpell
 
+
 class TestItemParser(unittest.TestCase):
 
     def test_upper(self):
@@ -19,7 +20,6 @@ class TestItemParser(unittest.TestCase):
         self.assertEqual(item.name, "a Hover Board")
         self.assertEqual(item.type, ItemType.AIRSHIP)
         self.assertEqual(item.ability, ItemAbility.NOBITS)
-
 
     def test_parseFile__a_hover_board(self):
         actual = self.read_item_from_file("a-hover-board")
@@ -44,9 +44,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.FEET)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_red_wyvern_scale_bracelet(self):
         actual = self.read_item_from_file("a-red-wyvern-scale-bracelet")
 
@@ -71,9 +69,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.WRIST)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_dinosaur_skin_cape(self):
         actual = self.read_item_from_file("a-dinosaur-skin-cape")
 
@@ -96,9 +92,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.ABOUT_BODY)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__some_spiked_sleeves(self):
         actual = self.read_item_from_file("some-spiked-sleeves")
 
@@ -119,9 +113,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.ARMS)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_garnet_ring(self):
         actual = self.read_item_from_file("a-garnet-ring")
 
@@ -141,9 +133,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.RING)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_ring_of_delusion(self):
         actual = self.read_item_from_file("a-ring-of-delusion")
 
@@ -166,9 +156,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_ring_of_the_guardian(self):
         actual = self.read_item_from_file("a-ring-of-the-guardian")
 
@@ -192,9 +180,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.RING)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_gallery_champion_crown(self):
         actual = self.read_item_from_file("a-gallery-champion-crown")
 
@@ -216,9 +202,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HEAD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_set_of_smooth_leggings(self):
         actual = self.read_item_from_file("a-set-of-smooth-leggings")
 
@@ -237,9 +221,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.LEGS)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_white_leather_dress(self):
         actual = self.read_item_from_file("a-white-leather-dress")
 
@@ -263,9 +245,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.ON_BODY)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__ben_kenobis_medallion(self):
         actual = self.read_item_from_file("ben-kenobis-medallion")
 
@@ -283,9 +263,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.NECK)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_pair_of_thin_white_gloves(self):
         actual = self.read_item_from_file("a-pair-of-thin-white-gloves")
 
@@ -308,9 +286,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HANDS)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_two_sided_leather_belt(self):
         actual = self.read_item_from_file("a-two-sided-leather-belt")
 
@@ -331,9 +307,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.WAIST)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__the_map_makers_compass(self):
         actual = self.read_item_from_file("the-map-makers-compass")
 
@@ -355,9 +329,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.LIGHT)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__an_old_leather_belt(self):
         actual = self.read_item_from_file("an-old-leather-belt")
 
@@ -379,9 +351,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.WAIST)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__julians_blade(self):
         actual = self.read_item_from_file("julians-blade")
 
@@ -409,9 +379,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.WIELD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_paladins_shield_of_faith(self):
         actual = self.read_item_from_file("a-paladins-shield-of-faith")
 
@@ -449,9 +417,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.SHIELD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_raft(self):
         actual = self.read_item_from_file("a-raft")
 
@@ -471,9 +437,7 @@ class TestItemParser(unittest.TestCase):
         item.minLevel = 0
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_mands_diamond_ring(self):
         actual = self.read_item_from_file("a-mans-diamond-ring")
 
@@ -505,9 +469,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.RING)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_yellow_potion(self):
         actual = self.read_item_from_file("a-yellow-potion")
 
@@ -529,9 +491,7 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.BLINDNESS)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_scroll_of_recall(self):
         actual = self.read_item_from_file("a-scroll-of-recall")
 
@@ -555,9 +515,7 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.CONTROL_WEATHER)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__sims_pineapple_tart(self):
         actual = self.read_item_from_file("sims-pineapple-tart")
 
@@ -575,9 +533,7 @@ class TestItemParser(unittest.TestCase):
         item.minLevel = 0
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_sturdy_beltpack(self):
         actual = self.read_item_from_file("a-sturdy-beltpack")
 
@@ -597,9 +553,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.WAIST)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_block_of_krrf(self):
         actual = self.read_item_from_file("a-block-of-krrf")
 
@@ -619,9 +573,7 @@ class TestItemParser(unittest.TestCase):
         item.liqUnits = 50
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_pebble(self):
         actual = self.read_item_from_file("a-pebble")
 
@@ -649,9 +601,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_shroud_of_mist(self):
         actual = self.read_item_from_file("a-shroud-of-mist")
 
@@ -680,9 +630,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_golden_amulet(self):
         actual = self.read_item_from_file("a-golden-amulet")
 
@@ -716,9 +664,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_blue_potion(self):
         actual = self.read_item_from_file("a-blue-potion")
 
@@ -742,9 +688,7 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.CURE_SERIOUS)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__the_medallion_of_enchantment(self):
         actual = self.read_item_from_file("the-medallion-of-enchantment")
 
@@ -783,9 +727,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_hell_stone(self):
         actual = self.read_item_from_file("a-hell-stone")
 
@@ -811,9 +753,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_small_vial(self):
         actual = self.read_item_from_file("a-small-vial")
 
@@ -834,9 +774,7 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.SENSE_LIFE)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__the_pinball_wizard_hat(self):
         actual = self.read_item_from_file("the-pinball-wizard-hat")
 
@@ -871,9 +809,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HEAD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_wand_of_invisibility(self):
         actual = self.read_item_from_file("a-wand-of-invisibility")
 
@@ -898,9 +834,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_yellow_potion_of_see_invisible(self):
         actual = self.read_item_from_file("a-yellow-potion-of-see-invisible")
 
@@ -926,9 +860,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_shiny_breast_plate(self):
         actual = self.read_item_from_file("a-shiny-breast-plate")
 
@@ -958,9 +890,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.ON_BODY)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_slimey_key(self):
         actual = self.read_item_from_file("a-slimey-key")
 
@@ -978,9 +908,7 @@ class TestItemParser(unittest.TestCase):
         item.minLevel = 0
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_longbow(self):
         actual = self.read_item_from_file("a-longbow")
 
@@ -1004,9 +932,7 @@ class TestItemParser(unittest.TestCase):
         item.diceCount = 3
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_small_bright_green_hat(self):
         actual = self.read_item_from_file("a-small-bright-green-hat")
 
@@ -1030,9 +956,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HEAD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_silvery_blue_wand(self):
         actual = self.read_item_from_file("a-silvery-blue-wand")
 
@@ -1060,9 +984,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_blood_red_potion(self):
         actual = self.read_item_from_file("a-blood-red-potion")
 
@@ -1086,9 +1008,7 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.CURE_CRITIC)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_pitch_black_potion(self):
         actual = self.read_item_from_file("a-pitch-black-potion")
 
@@ -1110,9 +1030,7 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.ENERGY_DRAIN)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_stupid_bardic_colleges_t_shirt(self):
         actual = self.read_item_from_file("a-stupid-bardic-colleges-t-shirt")
 
@@ -1148,9 +1066,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.ON_BODY)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_shining_black_ninja_star(self):
         actual = self.read_item_from_file("a-shining-black-ninja-star")
 
@@ -1176,9 +1092,7 @@ class TestItemParser(unittest.TestCase):
         item.minLevel = 0
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__an_opal_potion(self):
         actual = self.read_item_from_file("an-opal-potion")
 
@@ -1202,9 +1116,7 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.CAUSE_SERIOUS)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__metallic_shield(self):
         actual = self.read_item_from_file("metallic-shield")
 
@@ -1227,9 +1139,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.SHIELD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_small_leaflet(self):
         actual = self.read_item_from_file("a-small-leaflet")
 
@@ -1247,9 +1157,7 @@ class TestItemParser(unittest.TestCase):
         item.minLevel = 0
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_scroll_of_identify(self):
         actual = self.read_item_from_file("a-scroll-of-identify")
 
@@ -1273,9 +1181,7 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__the_head_of_medusa(self):
         actual = self.read_item_from_file("the-head-of-medusa")
 
@@ -1296,14 +1202,12 @@ class TestItemParser(unittest.TestCase):
         item.spellLevel = 27
         item.spells.append(ItemSpell.PETRIFICATION)
         item.chargeMax = 2
-        item.chargeRemain= 2
+        item.chargeRemain = 2
 
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_large_icon(self):
         actual = self.read_item_from_file("a-large-icon")
 
@@ -1325,14 +1229,12 @@ class TestItemParser(unittest.TestCase):
         item.spellLevel = 35
         item.spells.append(ItemSpell.MAGIC_MISSILE)
         item.chargeMax = 10
-        item.chargeRemain= 10
+        item.chargeRemain = 10
 
         item.slots.append(ItemSlot.HOLD)
 
         self.assertTrue(item.__eq__(actual))
-    
 
-    
     def test_parseFile__a_crumbled_piece_of_paper(self):
         actual = self.read_item_from_file("a-crumpled-piece-of-paper")
 
@@ -1349,7 +1251,31 @@ class TestItemParser(unittest.TestCase):
         item.minLevel = 0
 
         self.assertTrue(item.__eq__(actual))
-    
+
+    def test_parseFile__a_silver_mirror(self):
+        actual = self.read_item_from_file("a-silver-mirror")
+
+        item = Item()
+        item.name = "a silver mirror"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemClass.NO_BARD)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 10
+        item.value = 15000
+        item.rent = 0
+        item.minLevel = 0
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.CLONE)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assertTrue(item.__eq__(actual))
 
     def read_item_from_file(self, fname):
         return ItemParser().parse_file("py/item-parse/test-items/" + fname + ".txt")[-1]
