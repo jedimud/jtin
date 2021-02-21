@@ -2,29 +2,38 @@ import json
 import sys
 
 
-def find_item(fname):
+def find_item(item_name, insure_tag):
     with open("data/item-briefs.json") as f:
         data = json.load(f)
 
-    if fname in data:
-        print(fname)
-        print(data[fname]['description']['equipped'])
-        print(data[fname]['description']['inventory'])
+    if item_name in data:
+        print(item_name)
+        print(data[item_name]['description']['equipped'])
+        print(data[item_name]['description']['inventory'])
+        print()
+        print(insure_tag)
     else:
-        print(fname)
+        print(item_name)
         print()
         print()
+        print()
+        print(insure_tag)
 
 
 def main():
-    fname = sys.argv[1]
-    fname = fname.replace("(invisible)", "")
-    fname = fname.replace("(insured)", "")
-    fname = fname.replace("(glowing)", "")
-    fname = fname.replace("(humming)", "")
-    fname = fname.strip()
+    item_name = sys.argv[1]
 
-    find_item(fname)
+    insure_tag = ""
+    if "(insured)" in item_name:
+        insure_tag = "(insured)"
+
+    item_name = item_name.replace("(invisible)", "")
+    item_name = item_name.replace("(insured)", "")
+    item_name = item_name.replace("(glowing)", "")
+    item_name = item_name.replace("(humming)", "")
+    item_name = item_name.strip()
+
+    find_item(item_name, insure_tag)
 
 
 if __name__ == "__main__":

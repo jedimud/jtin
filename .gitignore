@@ -3,3 +3,4 @@ __pycache__/
 
 # tintin
 *.tin
+!tins/*.tin

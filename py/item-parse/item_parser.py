@@ -438,6 +438,9 @@ class ItemParser():
 
             item.brief_inv = item.brief_inv + slots
 
+        item.brief_inv = item.brief_inv.strip()
+        item.brief_eq = item.brief_eq.strip()
+
     def write_brief(self, items):
         briefs = {}
         for item in items:

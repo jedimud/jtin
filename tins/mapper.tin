@@ -128,6 +128,6 @@
 #nop ----- utility -----
 
 #alias print_mapper_msg {
-    #showme <afc>[MAPPER] %1;
-    #showme { };
+    #line ignore #showme <afc>[MAPPER] %1;
+    #line ignore #showme { };
 }
