@@ -3,7 +3,7 @@ import sys
 
 
 def find_item(fname):
-    with open("data/items.json") as f:
+    with open("data/item-briefs.json") as f:
         data = json.load(f)
 
     if fname in data:

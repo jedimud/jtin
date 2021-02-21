@@ -14,9 +14,15 @@ import os
 class ItemParser():
 
     def parse_and_archive_file(self, fname):
-        lines = self.read_file(fname)
-        self.parse_file(lines)
-        self.write_file(fname, lines)
+        lines = []
+        try:
+            lines = self.read_file(fname)
+        except:
+            pass
+
+        if lines.__len__() > 0:
+            self.parse_file(lines)
+            # self.write_file(fname, lines)
 
     def parse_file(self, lines):
         line_break = "-----"
@@ -30,7 +36,9 @@ class ItemParser():
                 is_desc = False
                 sub_lines.clear()
             elif line_break == line:
-                items.append(self.parse_lines(sub_lines))
+                if (sub_lines.__len__() > 0):
+                    item = self.parse_lines(sub_lines)
+                    items.append(item)
                 sub_lines.clear()
                 is_desc = False
             elif desc_break == line:
@@ -44,6 +52,10 @@ class ItemParser():
         item = Item()
         for line in lines:
             self.parse_line(line, item)
+
+        self.validate(item)
+        self.parse_brief(item)
+
         return item
 
     def parse_line(self, line, item):
@@ -338,6 +350,87 @@ class ItemParser():
         parsed = "It can hold approximately " + \
             str(item.liq_units) + " units of liquid."
         assert line == parsed, "[" + line + "] != [" + parsed + "]"
+
+    def validate(self, item):
+        assert item.name != ""
+        assert item.type != ""
+
+    def parse_brief(self, item):
+        # level
+        lev = ""
+        if item.min_level != None:
+            lev = "mL " + str(item.min_level) + " "
+            if item.max_level != None:
+                lev = lev + "-" + str(item.max_level) + " "
+
+        item.brief_eq = item.brief_eq + lev
+        item.brief_inv = item.brief_inv + lev
+
+        # class + align
+        rests = ""
+        class_tag = ""
+        align_tag = ""
+        for tag in item.tags:
+            if type(tag) == ItemAlign:
+                align_tag = align_tag + tag.brief + " "
+            elif type(tag) == ItemClass:
+                class_tag = tag.brief
+
+        if align_tag == "" and class_tag == "":
+            rests = rests + "!rests "
+        elif align_tag == "":
+            rests = rests + "!" + class_tag + " !rests "
+        elif class_tag == "":
+            rests = rests + "!rests " + align_tag
+        else:
+            rests = rests + "!" + class_tag + " " + align_tag
+
+        item.brief_eq = item.brief_eq + rests
+        item.brief_inv = item.brief_inv + rests
+
+        # weapon
+        if item.dice_face != None and int(item.dice_face) > 0 and item.type != ItemType.FIRE_WEAPON:
+            wpn = str(item.dice_count) + "D" + str(item.dice_face) + \
+                "(" + str(item.average_dmg) + ") "
+            item.brief_eq = item.brief_eq + wpn
+            item.brief_inv = item.brief_inv + wpn
+
+        # affects
+        if item.slots.__len__() > 0:
+            affects = ""
+            for affect in list(item.affects.items()):
+                if int(affect[1]) > 0:
+                    affects = affects + "+" + affect[1] + affect[0].brief + " "
+                elif int(affect[1]) < 0:
+                    affects = affects + affect[1] + affect[0].brief + " "
+
+            item.brief_eq = item.brief_eq + affects
+            item.brief_inv = item.brief_inv + affects
+
+        # ac and other attributes
+        if item.ac != None and int(item.ac) > 0:
+            ac = "+" + str(item.ac) + "ac "
+            item.brief_eq = item.brief_eq + ac
+            item.brief_inv = item.brief_inv + ac
+        if item.ac != None and int(item.ac) < 0:
+            ac = "-" + str(item.ac) + "ac "
+            item.brief_eq = item.brief_eq + ac
+            item.brief_inv = item.brief_inv + ac
+
+        # type
+        if item.type != "":
+            item.brief_inv = item.brief_inv + item.type.brief
+
+        # slots
+        if item.slots.__len__() > 0:
+            slots = ""
+            for slot in item.slots:
+                if slots != "":
+                    slots = slots + ", "
+                slots = slots + slot.brief
+            slots = "(" + slots + ")"
+
+            item.brief_inv = item.brief_inv + slots
 
     def read_file(self, fname):
         with open(fname) as f:

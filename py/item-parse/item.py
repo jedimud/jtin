@@ -35,3 +35,6 @@ class Item():
         self.dice_face = None
         self.dice_count = None
         self.average_dmg = None
+
+        self.brief_inv = str()
+        self.brief_eq = str()
