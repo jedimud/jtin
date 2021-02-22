@@ -24,3 +24,8 @@ The `(insured)` flag can be toggled on/off with alias `item_brief toggle insured
 
 ![](item-brief-insured.png)
 
+**Toggle sacrifice points**
+
+Instead of the standard item-brief, a sac point brief can be toggled with `item_brief toggle sac`.
+
+![](item-brief-sac.png)
