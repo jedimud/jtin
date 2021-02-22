@@ -38,3 +38,10 @@ luac.out
 *.i*86
 *.x86_64
 *.hex
+
+# Python
+__pycache__
+
+# TinTin++
+*.tin
+!/tins/*.tin
