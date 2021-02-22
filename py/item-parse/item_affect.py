@@ -4,39 +4,40 @@ from enum import Enum, unique
 @unique
 class ItemAffect(Enum):
 
-    CON = "CON", "con"
-    STR = "STR", "str"
-    INT = "INT", "int"
-    WIS = "WIS", "wis"
-    DEX = "DEX", "dex"
-    CHARISMA = "CHARISMA", "cha"
+    CON = "CON", "con", True
+    STR = "STR", "str", True
+    INT = "INT", "int", True
+    WIS = "WIS", "wis", True
+    DEX = "DEX", "dex", True
+    CHARISMA = "CHARISMA", "cha", True
 
-    ARMOR = "ARMOR", "arm"
+    ARMOR = "ARMOR", "arm", False
 
-    AGE = "AGE", "age"
-    HEIGHT = "HEIGHT", "height"
+    AGE = "AGE", "age", False
+    HEIGHT = "HEIGHT", "height", False
 
-    HITROLL = "HITROLL", "hit"
-    DAMROLL = "DAMROLL", "dam"
+    HITROLL = "HITROLL", "hit", True
+    DAMROLL = "DAMROLL", "dam", True
 
-    MANA = "MANA", "mn"
-    MANA_REGEN = "MANA_REGEN", "mnR"
+    MANA = "MANA", "mn", True
+    MANA_REGEN = "MANA_REGEN", "mnR", False
 
-    HIT = "HIT", "hp"
-    HIT_REGEN = "HIT_REGEN", "hpR"
+    HIT = "HIT", "hp", True
+    HIT_REGEN = "HIT_REGEN", "hpR", False
 
-    MOV = "MOVE", "mv"
-    MOVE_REGEN = "MOVE_REGEN", "mvR"
+    MOV = "MOVE", "mv", True
+    MOVE_REGEN = "MOVE_REGEN", "mvR", False
 
-    SAVE_SPELL = "SAVE_SPELL", "ss"
+    SAVE_SPELL = "SAVE_SPELL", "ss", False
 
     def __new__(cls, *args, **kwds):
         obj = object.__new__(cls)
         obj._value_ = args[0]
         return obj
 
-    def __init__(self, _: str, brief: str = None):
+    def __init__(self, _: str, brief: str = None, sac: bool = False):
         self._brief_ = brief
+        self._sac_ = sac
 
     def __str__(self):
         return self.value
@@ -44,3 +45,7 @@ class ItemAffect(Enum):
     @property
     def brief(self):
         return self._brief_
+
+    @property
+    def sac(self):
+        return self._sac_

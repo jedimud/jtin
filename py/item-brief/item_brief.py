@@ -10,14 +10,16 @@ def find_item(item_name, insure_tag):
         print(item_name)
         print(data[item_name]['description']['equipped'])
         print(data[item_name]['description']['inventory'])
-        print()
+        print(data[item_name]['description']['sac'])
         print(insure_tag)
+        print(data[item_name]['description']['limited'])
     else:
         print(item_name)
         print()
         print()
         print()
         print(insure_tag)
+        print()
 
 
 def main():

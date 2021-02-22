@@ -33,7 +33,9 @@ class ItemParser():
         items = []
         is_desc = False
         for line in lines:
-            if error_break == line:
+            if line.strip().__len__() == 0:
+                pass
+            elif error_break == line:
                 is_desc = False
                 sub_lines.clear()
             elif line_break == line:
@@ -419,27 +421,45 @@ class ItemParser():
             item.brief_inv = item.brief_inv + ac
 
         # type
-        if item.type != "":
-            if item.type == ItemType.CONTAINER:
-                item.brief_inv = item.brief_inv + item.type.brief + "(+" + str(item.units) + ") "
-            elif item.type == ItemType.LIQ_CONTAINER:
-                item.brief_inv = item.brief_inv + item.type.brief + "(+" + str(item.liq_units) + ") "
-            else:
-                item.brief_inv = item.brief_inv + item.type.brief
+        if item.type == ItemType.CONTAINER:
+            item.brief_inv = item.brief_inv + \
+                item.type.brief + "(+" + str(item.units) + ") "
+        elif item.type == ItemType.LIQ_CONTAINER:
+            item.brief_inv = item.brief_inv + item.type.brief + \
+                "(+" + str(item.liq_units) + ") "
+        else:
+            item.brief_inv = item.brief_inv + item.type.brief
 
         # slots
-        if item.slots.__len__() > 0:
-            slots = ""
-            for slot in item.slots:
-                if slots != "":
-                    slots = slots + ", "
-                slots = slots + slot.brief
-            slots = "(" + slots + ")"
+        if item.type != ItemType.LIGHT:
+            if item.slots.__len__() > 0:
+                slots = ""
+                for slot in item.slots:
+                    if slots != "":
+                        slots = slots + ", "
+                    slots = slots + slot.brief
+                slots = "(" + slots + ")"
 
-            item.brief_inv = item.brief_inv + slots
+                item.brief_inv = item.brief_inv + slots
 
         item.brief_inv = item.brief_inv.strip()
         item.brief_eq = item.brief_eq.strip()
+
+        # sac
+        sac = 0
+        for affect in list(item.affects.items()):
+            if (affect[0].sac):
+                sac = sac + int(affect[1])
+
+        if sac > 0:
+            item.brief_sac = "+" + str(sac) + " sac "
+        elif sac <= 0:
+            item.brief_sac = str(sac) + " sac "
+
+        for tag in item.tags:
+            if tag == ItemTag.LIMITED:
+                item.brief_limited = item.brief_limited + "(L)"
+                break
 
     def write_brief(self, items):
         briefs = {}
@@ -447,6 +467,8 @@ class ItemParser():
             description = {}
             description["inventory"] = item.brief_inv
             description["equipped"] = item.brief_eq
+            description["sac"] = item.brief_sac
+            description["limited"] = item.brief_limited
             briefs[item.name] = {}
             briefs[item.name]["description"] = description
         with open('data/item-briefs.json', 'w') as f:

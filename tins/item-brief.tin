@@ -4,8 +4,6 @@
 
 #action {^<offhand wield>} {#line gag}
 
-
-
 #alias {item_brief} {
     #if {"%1" == "toggle"} {
         #if {"%2" == "insured"} {
@@ -17,11 +15,24 @@
                 print_item_brief_msg {toggling on (insured) tag}
             };
             item_brief_load_actions;
-        } {
-            print_item_brief_msg {what?! Try: item_brief toggle insured};
+        };
+
+        #elseif {"%2" == "sac"} {
+            #if {"$item_brief_sac" == "true"} {
+                #var {item_brief_sac} {false};
+                print_item_brief_msg {toggling off sac briefs};
+            } {
+                #var {item_brief_sac} {true};
+                print_item_brief_msg {toggling on sac briefs};
+            };
+            item_brief_load_actions;
+        };
+        
+        #else {
+            print_item_brief_msg {what?! Try: item_brief toggle [insured | sac ]};
         };
     } {
-        print_item_brief_msg {what?! Try: item_brief toggle insured};
+        print_item_brief_msg {what?! Try: item_brief toggle [ insured | sac ]};
     };
 }
 
@@ -63,5 +74,6 @@
 #nop ----- default on load -----
 
 #var {item_brief_insured_tag} {true}
+#var {item_brief_sac} {false}
 item_brief_load_actions
 

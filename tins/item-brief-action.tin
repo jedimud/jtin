@@ -4,13 +4,19 @@
     } {
         #line ignore #script {item} {sh -c './sh/item-brief.sh "%1"'};
         #if {"$item[3]" != ""} {
-            #if {"$item_brief_insured_tag" == "true"} {
+            #if {"$item_brief_sac" == "true"} {
+                #line ignore #show <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>
+            };
+
+            #elseif {"$item_brief_insured_tag" == "true"} {
                 #if {"$item[5]" == "(insured)"} {
                     #line ignore #show <afc>$item[1] <acf>$item[3]<fca> (I)<099>;
                 } {
                     #line ignore #show <afc>$item[1] <acf>$item[3]<fca><099>;
                 }
-            } {
+            };
+            
+            #else {
                 #line ignore #show <afc>$item[1] <acf>$item[3]<099>;
             };
             #line ignore #line gag;

@@ -38,3 +38,5 @@ class Item():
 
         self.brief_inv = str()
         self.brief_eq = str()
+        self.brief_sac = str()
+        self.brief_limited = str()
