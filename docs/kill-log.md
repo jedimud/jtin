@@ -21,14 +21,14 @@ Load kill-log tin as class at TinTin++ startup.
 ## Sample Output
 
 ````
-The Sailor,midgaard.map
-The Janitor,midgaard.map
-The green enfan,enfan-city.map
-The message bot,midgaard-thief-guild.map
-The Assassin,midgaard-thief-guild.map
-The Knight,midgaard-warrior-guild.map
-The Ninja Lord,midgaard-ninja-guild.map
-Izumo No Okumi,midgaard-ninja-guild.map
-A citizen of Midgaard,midgaard.map
-Welmar's Ranger,midgaard.map
+The Sailor,midgaard
+The Janitor,midgaard
+The green enfan,enfan-city
+The message bot,midgaard-thief-guild
+The Assassin,midgaard-thief-guild
+The Knight,midgaard-warrior-guild
+The Ninja Lord,midgaard-ninja-guild
+Izumo No Okumi,midgaard-ninja-guild
+A citizen of Midgaard,midgaard
+Welmar's Ranger,midgaard
 ````

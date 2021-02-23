@@ -22,12 +22,12 @@ Load loot-log tin as class at TinTin++ startup.
 ## Sample Output
 
 ````
-the Knight,,midgaard-warrior-guild.map
-the Ninja Lord,,midgaard-ninja-guild.map
-a wooden Dynasty shield,Izumo No Okumi,midgaard-ninja-guild.map
-a red silk armband,Izumo No Okumi,midgaard-ninja-guild.map
-a black Shinobi Shozoku shirt,Izumo No Okumi,midgaard-ninja-guild.map
-a gold Ryo coin on a rawhide string,Izumo No Okumi,midgaard-ninja-guild.map
-a little pile of gold coins,a citizen of Midgaard,midgaard.map
-a long sword,Welmar's Ranger,midgaard.map
+the Knight,,midgaard-warrior-guild
+the Ninja Lord,,midgaard-ninja-guild
+a wooden Dynasty shield,Izumo No Okumi,midgaard-ninja-guild
+a red silk armband,Izumo No Okumi,midgaard-ninja-guild
+a black Shinobi Shozoku shirt,Izumo No Okumi,midgaard-ninja-guild
+a gold Ryo coin on a rawhide string,Izumo No Okumi,midgaard-ninja-guild
+a little pile of gold coins,a citizen of Midgaard,midgaard
+a long sword,Welmar's Ranger,midgaard
 ````

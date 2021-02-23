@@ -1,4 +1,4 @@
-#variable map_current midgaard.map
+#variable map_current midgaard
 
 #nop ----- MAP FUNCTIONS -----
 
@@ -22,14 +22,14 @@
     map_hide;
     map_show;
     #map legend {unicode graphics} { { } {\u2198} {\u2197} {>} {\u2199} {\u2E0C\u2E0D} {\uFF0F} {>\u2E0D} {\u2196} {\uFF3C} {\u2E1D\u2E1C} {>\u2E1C} {<} {\u2E0C<} {\u2E1D<} {><} {-} {\u2191} {\u2193} {\u2502} {+} {\u2192} {\u2190} {\u2500} {[} {(} {]} {)} };
-    #variable map_current %1.map;
+    #variable map_current %1;
     #map write maps/%1.map;
 }
 
 #alias map_edit {
     print_mapper_msg {setting map to edit-mode: $map_current};
     #showme edit-mode enabled for $map_current;
-    #map sync maps/$map_current;
+    #map sync maps/$map_current.map;
     #map flag static off;
 }
 
@@ -42,14 +42,14 @@
 #alias map_save {
     print_mapper_msg {saving map: $map_current};
     #showme saving $map_current;
-    #map write maps/$map_current;
+    #map write maps/$map_current.map;
 }
 
 #alias map_open {
     #map read maps/%1.map; 
     #map goto 1; 
     #map flag static on;
-    #variable map_current {%1.map};
+    #variable map_current {%1};
     map_show;
 }
 
@@ -82,7 +82,7 @@
         #map read maps/%2.map;
         #map goto %3;
         map_show;
-        #variable map_current %2.map;
+        #variable map_current %2;
         print_mapper_msg {now entering $map_current};
     };
 }

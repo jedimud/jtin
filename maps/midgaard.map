@@ -1004,10 +1004,10 @@ E {  161} {s} {s} {4} {0} {} {1.000} {} {0.00}
 R {  177} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   88} {d} {d} {32} {0} {} {1.000} {} {0.00}
 E {  179} {s} {#delay {0} {#map goto 115}} {4} {0} {} {1.000} {} {0.00}
-E {  180} {n} {#delay {0} {trans factory;#map read maps/froboz-factory.map;#map goto 1;map_show;#variable map_current froboz-factory.map}} {1} {0} {} {1.000} {} {0.00}
-E {  181} {e} {#delay {0} {trans crystal;#map read maps/crystal-caves.map;#map goto 1;map_show;#variable map_current crystal-caves.map}} {2} {0} {} {1.000} {} {0.00}
-E {  182} {w} {#delay {0} {trans mistamere;#map read maps/castle-mistamere.map;#map goto 1;map_show;#variable map_current castle-mistamere.map}} {8} {0} {} {1.000} {} {0.00}
-E {  183} {u} {#delay {0} {trans zoo;#map read maps/midgaard-zoo.map;#map goto 1;map_show;#variable map_current midgaard-zoo.map}} {16} {0} {} {1.000} {} {0.00}
+E {  180} {n} {#delay {0} {trans factory;#map read maps/froboz-factory.map;#map goto 1;map_show;#variable map_current froboz-factory}} {1} {0} {} {1.000} {} {0.00}
+E {  181} {e} {#delay {0} {trans crystal;#map read maps/crystal-caves.map;#map goto 1;map_show;#variable map_current crystal-caves}} {2} {0} {} {1.000} {} {0.00}
+E {  182} {w} {#delay {0} {trans mistamere;#map read maps/castle-mistamere.map;#map goto 1;map_show;#variable map_current castle-mistamere}} {8} {0} {} {1.000} {} {0.00}
+E {  183} {u} {#delay {0} {trans zoo;#map read maps/midgaard-zoo.map;#map goto 1;map_show;#variable map_current midgaard-zoo}} {16} {0} {} {1.000} {} {0.00}
 
 R {  178} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  115} {s} {s} {4} {0} {} {1.000} {} {0.00}
