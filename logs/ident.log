@@ -2189,3 +2189,38 @@ while two adjustable leather straps secure the shield to one's arm
 below the elbow and above the wrist, leaving the hand free. 
 
 
+-----
+Object 'a huge key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold
++++++
+ 
+Holding this large key with both hands, you wonder if you will be
+able to fit it in your bag.
+
+
+-----
+Object 'a delicious-looking lobster', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 100, Rent: 10, Min. level: 0
++++++
+ 
+Looking at this tasty morsel, your mouth begins to water. You can't wait
+to crack the shell and appease your rumbling stomach.
+
+
+-----
+Object 'some Russian caviar', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 250, Rent: 20, Min. level: 0
++++++
+ 
+A spoon of small-grained, grey Sevruga Malossol caviar
+is arranged artfully on a toast triangle and garnished
+with a touch of sour cream.
+
+
