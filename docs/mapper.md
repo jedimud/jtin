@@ -43,6 +43,8 @@ Load mapper tin as class at TinTin++ startup.
 | `map_save`           | Save current map to disc |
 | `map_open %1`        | Open map and center on map entrance, where %1=name of map |
 | `room_link %1 %2 %3` | Link rooms between maps, where %1=direction, %2=map to link to, %3=room to link to |
+| `room_door %1`       | Open door then move towards path |
+| `room_lock %1`       | Unlock door, open door, then move towards path |
 | `room_exit`          | Change room to one-way path |
 | `room_shop`          | Change room to shop symbol |
 | `room_inn`           | Change room to innkeeper symbol |

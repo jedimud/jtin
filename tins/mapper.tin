@@ -87,6 +87,58 @@
     };
 }
 
+#alias room_door {
+    #if {"%1" == "e"} {
+        #map exit e command {open east;east};
+        print_mapper_msg {added door to east};
+    };
+
+    #elseif {"%1" == "w"} {
+        #map exit w command {open west;west};
+        print_mapper_msg {added door to west};
+    };
+
+    #elseif {"%1" == "n"} {
+        #map exit n command {open north;north};
+        print_mapper_msg {added door to north};
+    };
+
+    #elseif {"%1" == "s"} {
+        #map exit s command {open south;south};
+        print_mapper_msg {added door to south};
+    };
+
+    #else {
+        print_mapper_msg {what?!}
+    }
+}
+
+#alias room_lock {
+    #if {"%1" == "e"} {
+        #map exit e command {unl east;open east;east};
+        print_mapper_msg {added locked-door to east};
+    };
+
+    #elseif {"%1" == "w"} {
+        #map exit w command {unl west;open west;west};
+        print_mapper_msg {added locked-oor to west};
+    };
+
+    #elseif {"%1" == "n"} {
+        #map exit n command {unl north;open north;north};
+        print_mapper_msg {added locked-door to north};
+    };
+
+    #elseif {"%1" == "s"} {
+        #map exit s command {unl south;open south;south};
+        print_mapper_msg {added locked-door to south};
+    };
+
+    #else {
+        print_mapper_msg {what?!}
+    }
+}
+
 #nop ----- ROOM ATTRIBUTES -----
 
 #alias room_exit {
