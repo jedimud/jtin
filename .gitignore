@@ -45,3 +45,4 @@ __pycache__
 # TinTin++
 *.tin
 !/tins/*.tin
+!/maps/*.tin
