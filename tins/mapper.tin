@@ -1,5 +1,3 @@
-#variable map_current midgaard
-
 #nop ----- MAP FUNCTIONS -----
 
 #alias map_show {
@@ -175,6 +173,46 @@
 
 #alias room_aggro {
     #map roomflag avoid on;
+}
+
+#alias room_water {
+    #map set roomcolor <acf>
+}
+
+#alias room_fog {
+    #if {"%1" == "s"} {
+        #map dig s;
+        #map mov s;
+        #map roomflag fog;
+        #map mov n;
+        print_mapper_msg {added unmapped room to south};
+    };
+    #elseif {"%1" == "n"} {
+        #map dig n;
+        #map mov n;
+        #map roomflag fog;
+        #map mov s;
+        print_mapper_msg {added unmapped room to north};
+    };
+    #elseif {"%1" == "w"} {
+        #map dig w;
+        #map mov w;
+        #map roomflag fog;
+        #map mov e;
+        print_mapper_msg {added unmapped room to east};
+    };
+    #elseif {"%1" == "e"} {
+        #map dig e;
+        #map mov e;
+        #map roomflag fog;
+        #map mov w;
+        print_mapper_msg {added unmapped room to west};
+    };
+
+    #else {
+        print_mapper_msg {what?!}
+    };
+
 }
 
 #nop ----- utility -----
