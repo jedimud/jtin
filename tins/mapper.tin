@@ -77,12 +77,16 @@
 #alias room_link_action {
     #delay {0} {
         %1;
-        #map read maps/%2.map;
-        #map goto %3;
-        map_show;
-        #variable map_current %2;
-        mapper_print_msg {now entering $map_current};
+        room_link_map %2 %3
     };
+}
+
+#alias room_link_map {
+    #map read maps/%1.map;
+    #map goto %2;
+    map_show;
+    #variable map_current %1;
+    mapper_print_msg {now entering $map_current};
 }
 
 #alias room_door {
@@ -132,6 +136,16 @@
         mapper_print_msg {added locked-door to south};
     };
 
+    #elseif {"%1" == "u"} {
+        #map exit u command {unl up;open up;up};
+        mapper_print_msg {added locked-door to up};
+    };
+
+    #elseif {"%1" == "d"} {
+        #map exit d command {unl down;open down;down};
+        mapper_print_msg {added locked-door to down};
+    };
+
     #else {
         mapper_print_msg {what?!}
     }
@@ -172,7 +186,7 @@
 }
 
 #alias room_aggro {
-    #map roomflag avoid on;
+    #map set roomcolor <fca>
 }
 
 #alias room_water {
@@ -220,6 +234,12 @@
         mapper_print_msg {what?!}
     };
 
+}
+
+#nop ----- galaxy wagon -----
+
+#action {^Inside the traveling wagon} {
+    room_link_map galaxy 1;
 }
 
 #nop ----- utility -----
