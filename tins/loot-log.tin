@@ -13,3 +13,15 @@
 #high {^%1: you can't carry that many items.} {Red}
 
 #high {^%1: you can't carry that much weight} {Red}
+
+
+#nop ----- utility -----
+
+#alias loot_log_print_msg {
+    #showme <afc>[LOOT-LOG] %1;
+}
+
+
+#nop ----- startup -----
+
+loot_log_print_msg loaded

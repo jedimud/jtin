@@ -22,3 +22,10 @@
     #showme <119>Cannot use identify scroll in !magic room;
     clear_action;
 }
+
+
+#nop ----- utility -----
+
+#alias ident_log_print_msg {
+    #showme <afc>[IDENT-LOG] %1;
+}

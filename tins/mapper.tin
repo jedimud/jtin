@@ -11,7 +11,7 @@
 }
 
 #alias map_create {
-    print_mapper_msg {creating new map: %1};
+    mapper_print_msg {creating new map: %1};
     #map create;
     #map goto 1;
     #map flag VTmap on;
@@ -25,20 +25,20 @@
 }
 
 #alias map_edit {
-    print_mapper_msg {setting map to edit-mode: $map_current};
+    mapper_print_msg {setting map to edit-mode: $map_current};
     #showme edit-mode enabled for $map_current;
     #map sync maps/$map_current.map;
     #map flag static off;
 }
 
 #alias map_read {
-    print_mapper_msg {setting map to read-only: $map_current};
+    mapper_print_msg {setting map to read-only: $map_current};
     #showme read-only enabled for $map_current;
     #map flag static on;
 }
 
 #alias map_save {
-    print_mapper_msg {saving map: $map_current};
+    mapper_print_msg {saving map: $map_current};
     #showme saving $map_current;
     #map write maps/$map_current.map;
 }
@@ -71,7 +71,7 @@
     };
     #map exit %1 command {room_link_action {$path} {%2} {%3}};
     #showme {};
-    print_mapper_msg {added room link: $path %2 %3};
+    mapper_print_msg {added room link: $path %2 %3};
 }
 
 #alias room_link_action {
@@ -81,59 +81,59 @@
         #map goto %3;
         map_show;
         #variable map_current %2;
-        print_mapper_msg {now entering $map_current};
+        mapper_print_msg {now entering $map_current};
     };
 }
 
 #alias room_door {
     #if {"%1" == "e"} {
         #map exit e command {open east;east};
-        print_mapper_msg {added door to east};
+        mapper_print_msg {added door to east};
     };
 
     #elseif {"%1" == "w"} {
         #map exit w command {open west;west};
-        print_mapper_msg {added door to west};
+        mapper_print_msg {added door to west};
     };
 
     #elseif {"%1" == "n"} {
         #map exit n command {open north;north};
-        print_mapper_msg {added door to north};
+        mapper_print_msg {added door to north};
     };
 
     #elseif {"%1" == "s"} {
         #map exit s command {open south;south};
-        print_mapper_msg {added door to south};
+        mapper_print_msg {added door to south};
     };
 
     #else {
-        print_mapper_msg {what?!}
+        mapper_print_msg {what?!}
     }
 }
 
 #alias room_lock {
     #if {"%1" == "e"} {
         #map exit e command {unl east;open east;east};
-        print_mapper_msg {added locked-door to east};
+        mapper_print_msg {added locked-door to east};
     };
 
     #elseif {"%1" == "w"} {
         #map exit w command {unl west;open west;west};
-        print_mapper_msg {added locked-oor to west};
+        mapper_print_msg {added locked-oor to west};
     };
 
     #elseif {"%1" == "n"} {
         #map exit n command {unl north;open north;north};
-        print_mapper_msg {added locked-door to north};
+        mapper_print_msg {added locked-door to north};
     };
 
     #elseif {"%1" == "s"} {
         #map exit s command {unl south;open south;south};
-        print_mapper_msg {added locked-door to south};
+        mapper_print_msg {added locked-door to south};
     };
 
     #else {
-        print_mapper_msg {what?!}
+        mapper_print_msg {what?!}
     }
 }
 
@@ -185,39 +185,49 @@
         #map mov s;
         #map roomflag fog;
         #map mov n;
-        print_mapper_msg {added unmapped room to south};
+        mapper_print_msg {added unmapped room to south};
     };
     #elseif {"%1" == "n"} {
         #map dig n;
         #map mov n;
         #map roomflag fog;
         #map mov s;
-        print_mapper_msg {added unmapped room to north};
+        mapper_print_msg {added unmapped room to north};
     };
     #elseif {"%1" == "w"} {
         #map dig w;
         #map mov w;
         #map roomflag fog;
         #map mov e;
-        print_mapper_msg {added unmapped room to east};
+        mapper_print_msg {added unmapped room to west};
     };
     #elseif {"%1" == "e"} {
         #map dig e;
         #map mov e;
         #map roomflag fog;
         #map mov w;
-        print_mapper_msg {added unmapped room to west};
+        mapper_print_msg {added unmapped room to east};
+    };
+    #elseif {"%1" == "se"} {
+        #map dig se;
+        #map mov se;
+        #map roomflag fog;
+        #map mov nw;
+        mapper_print_msg {added unmapped room to south-east};
     };
 
     #else {
-        print_mapper_msg {what?!}
+        mapper_print_msg {what?!}
     };
 
 }
 
 #nop ----- utility -----
 
-#alias print_mapper_msg {
+#alias mapper_print_msg {
     #showme <afc>[MAPPER] %1;
-    #showme { };
 }
+
+#nop ----- startup -----
+
+mapper_print_msg loaded
