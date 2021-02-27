@@ -229,6 +229,21 @@
         #map mov nw;
         mapper_print_msg {added unmapped room to south-east};
     };
+    #elseif {"%1" == "nw"} {
+        #map dig nw;
+        #map mov nw;
+        #map roomflag fog;
+        #map mov se;
+        mapper_print_msg {added unmapped room to north-west};
+    };
+    #elseif {"%1" == "ne"} {
+        #map dig ne;
+        #map mov ne;
+        #map roomflag fog;
+        #map mov sw;
+        mapper_print_msg {added unmapped room to north-east};
+    };
+
 
     #else {
         mapper_print_msg {what?!}
