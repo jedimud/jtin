@@ -2810,3 +2810,445 @@ Item slot: Weapon
 This bat looks AWFULLY powerful...better be careful with it.
  (invisible) (humming) (insured)
 
+-----
+Object 'a bone club', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE UNIQUE 
+Weight: 2, Value: 1000, Rent: 250, Min. level: 0
+Damage Dice is '2D3' for an average per-round damage of 4.0.
+Item slot: Weapon
++++++
+ 
+This crudely carved club was carved from the upper arm bone of a 
+human.
+
+
+-----
+Object 'animal hide armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE UNIQUE 
+Weight: 10, Value: 1000, Rent: 200, Min. level: 0
+AC-apply is 9
+Item slot: On Body
++++++
+ 
+This makeshift patchwork of animal hide can actually be worn as armor.
+
+
+-----
+Object 'a small vial', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 200, Rent: 50, Min. level: 0
+This POTION casts:  Level 15 of sense life
++++++
+ 
+-----
+Object 'a pair of flesh boots', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DROP !GOOD UNIQUE 
+Weight: 8, Value: 2000, Rent: 500, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: MOVE By -50
+   Affects: STR By 2
+Item slot: Feet
++++++
+ 
+These old worn boots are made from a rather tough material: Human flesh!
+
+
+-----
+Object 'a steel bastard sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 16, Value: 5000, Rent: 1800, Min. level: 0
+Damage Dice is '2D7' for an average per-round damage of 8.0.
+Can affect you as :
+   Affects: HITROLL By -1
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a crumpled piece of paper', Item type: NOTE
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1, Rent: 100000, Min. level: 0
++++++
+ 
+It's blank.
+
+-----
+Object 'a large finger bone', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+A large finger bone that has been cut with notches on one end.
+
+
+-----
+Object 'a human thigh bone', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 20, Value: 80, Rent: 20, Min. level: 0
+Damage Dice is '1D5' for an average per-round damage of 3.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a human scalp', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: !DROP UNIQUE 
+Weight: 10, Value: 1, Rent: 1, Min. level: 0
++++++
+ 
+Some poor soul lost his head over these goblins, LITERALLY.
+
+
+-----
+Object 'a pair of flesh arm greaves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !DROP !GOOD !MAGE UNIQUE 
+Weight: 7, Value: 1000, Rent: 400, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By -1
+Item slot: Arms
++++++
+ 
+These arm covers are made from a tough material: Human flesh!
+ (glowing)
+
+-----
+Object 'a large wooden club', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 16, Value: 2700, Rent: 500, Min. level: 0
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Can affect you as :
+   Affects: HITROLL By -1
+   Affects: DAMROLL By 1
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a worn black robe', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !NEUTRAL UNIQUE 
+Weight: 10, Value: 4000, Rent: 2000, Min. level: 0
+AC-apply is 3
+Can affect you as :
+   Affects: HIT By 10
+   Affects: MOVE By -20
+Item slot: About Body
++++++
+ 
+This foul smelling robe has seen many better days.
+
+
+-----
+Object 'a ring of yellowish bone', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !PAL !BARD UNIQUE 
+Weight: 1, Value: 10000, Rent: 900, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Ring
++++++
+ 
+A large finger bone that has been cut with notches on one end.
+
+
+-----
+Object 'a damp black robe', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP !GOOD UNIQUE 
+Weight: 10, Value: 5300, Rent: 1000, Min. level: 0
+AC-apply is 4
+Can affect you as :
+   Affects: HIT By 15
+   Affects: INT By -1
+Item slot: About Body
++++++
+ 
+This coarse material appears to be covered in some sticky fluid. Perhaps
+that is what gives it the dried blood color.
+
+
+-----
+Object 'a purple potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 10000, Rent: 5000, Min. level: 0
+This POTION casts:  Level 17 of blindness sanctuary poison
+Item slot: Hold
++++++
+ 
+It looks rather strange!
+
+
+-----
+Object 'a sacrificial bone kris', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !DROP !GOOD !CLER !NINJA UNIQUE 
+Weight: 5, Value: 12000, Rent: 4000, Min. level: 0
+Damage Dice is '3D7' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: DEX By -2
+   Affects: DAMROLL By 2
+Item slot: Weapon
++++++
+ 
+This wicked looking blade has a recurving tapered blade to it. Evil
+seems to ooze from it.
+
+
+-----
+Object 'a yellow and green ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 30, Value: 100, Rent: 50, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: STR By -2
+Item slot: Ring
+Item slot: Hold
++++++
+ 
+You see nothing special.
+
+-----
+Object 'animal hide armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE UNIQUE 
+Weight: 10, Value: 1000, Rent: 200, Min. level: 0
+AC-apply is 9
+Item slot: On Body
++++++
+ 
+This makeshift patchwork of animal hide can actually be worn as armor.
+
+
+-----
+Object 'a bone knife', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !CLER UNIQUE 
+Weight: 2, Value: 50, Rent: 10, Min. level: 0
+Damage Dice is '1D4' for an average per-round damage of 2.5.
+Item slot: Weapon
++++++
+ 
+This crudely carved knife looks like it was carved from an arm bone
+of something; perhaps human.
+
+
+-----
+Object 'a pair of Mohican boots', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !JEDI LIMITED !BARD UNIQUE 
+Weight: 0, Value: 2500, Rent: 500, Min. level: 10
+Can affect you as :
+   Affects: MOVE By 15
+   Affects: DAMROLL By 1
+Item slot: Feet
++++++
+ 
+These boots have clearly seen a lot of use, but they've been well-cared 
+for.  The soles are tough but supple, perfectly suited to the demands of 
+extended walking or complex swordplay.
+
+
+-----
+Object 'SquirtGun', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !THF !WAR !PAL !APAL !RANGER !BARD UNIQUE 
+Weight: 2, Value: 10, Rent: 100, Min. level: 0
+Damage Dice is '6D1' for an average per-round damage of 6.0.
+Item slot: Weapon
++++++
+ 
+What a find!  You're holding a Super Soaker 10,000, the best water gun on
+the toy market. This unique squirtgun holds several gallons of water via
+the waterpack held on one's back, is lightweight, and can shoot up to a
+distance of 100 feet.
+
+
+-----
+Object 'a Toy Chest', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 10, Value: 10, Rent: 500, Min. level: 0
+It can hold approximately 200 units.
++++++
+ 
+It looks like your ordinary run-of-the-mill durable wooden toy chest
+complete with rolling wheels. However, if you examine it closely, you might
+find a hidden cache built into the bottom for those important items, like
+those super duper CrackerJack decoder rings.
+
+
+-----
+Object 'a Kaeliburger', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 20, Rent: 10, Min. level: 0
+Item slot: Hold
++++++
+ 
+Enough to make your mouth water thinking about it, this tasty, juicy,
+though somewhat greasy cheeseburger comes with all the fixin's. 
+Mmmmmmmm.
+
+
+-----
+Object 'your memoir', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: !THF !WAR !NINJA !SOHEI LIMITED UNIQUE 
+Weight: 5, Value: 3000, Rent: 1500, Min. level: 10
+Can affect you as :
+   Affects: CHARISMA By 2
+Item slot: Hold
++++++
+ 
+You are looking at your life in book form.  If you were to meet your maker
+today, this would be your life story, recorded for all to read.
+
+
+-----
+Object 'a fountain pen', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: HUM !PURGE UNIQUE 
+Weight: 1, Value: 80, Rent: 10, Min. level: 0
+Damage Dice is '1D5' for an average per-round damage of 3.0.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Weapon
++++++
+ 
+You see a small worn-down fountain pen leaking with ink.
+ (humming)
+
+-----
+Object 'Sword of Vengeance', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL !MAGE !CLER !THF !NINJA !JEDI !SOHEI LIMITED UNIQUE 
+Weight: 18, Value: 15000, Rent: 7500, Min. level: 15
+Damage Dice is '5D3' for an average per-round damage of 10.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'the Amulet of Agamotto', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !DROP !GOOD UNIQUE 
+Weight: 4, Value: 5000, Rent: 2500, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: MANA By 10
+   Affects: HIT By -15
++++++
+ 
+The amulet is a simple pebble of amber with some kind of leaf trapped
+within.  As you hold it, your hand numbs, and then begins to feel better.
+ (glowing)
+
+-----
+Object 'the golden bough', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !RENT 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
++++++
+ 
+It's a beautiful golden branch just aching to be touched.
+ (glowing)
+
+-----
+Object 'the Head of Medusa', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 10, Value: 20000, Rent: 7500, Min. level: 15
+This WAND casts: petrification of level 27
+It has 2 maximum charges and 2 remaining.
+Item slot: Hold
++++++
+ 
+Even after being severed from the body for centuries, this head is in
+excellent condition.  The snakes that pose like the hairs on this head 
+are dormant, but could come to life at any moment.  Never look into the 
+eyes of Medusa or you'll turn to stone, and only a good-hearted cleric 
+walking past would be able to undo the spell.  Luckily for you, the eyes 
+on this head happen to be closed for the moment.
+
+
+-----
+Object 'a Bloodsoaked Ribbon', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !THF !WAR !PAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 3, Value: 5000, Rent: 2500, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: MANA By 10
+   Affects: CHARISMA By -3
+Item slot: Head
++++++
+ 
+This stiff, red piece of ribbon used to be pink and used as a tieback
+for a girl's hair.  One can only imagine what happened for it to
+become soaked with blood.
+
+
+-----
+Object 'Robe of Prophecy', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG !NEUTRAL !THF !WAR !NINJA !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 12, Value: 10000, Rent: 5000, Min. level: 14
+Can affect you as :
+   Affects: MANA By 10
+   Affects: WIS By 1
+Item slot: About Body
++++++
+ 
+You see nothing special.
+
+-----
+Object 'a broken stick', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 3, Value: 750, Rent: 350, Min. level: 0
+This WAND casts: magic missile of level 20
+It has 2 maximum charges and 2 remaining.
+Item slot: Hold
++++++
+ 
+A small broken off branch.
+
+-----
+Object 'a human thigh bone', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 20, Value: 80, Rent: 20, Min. level: 0
+Damage Dice is '1D5' for an average per-round damage of 3.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a human skin shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !BARD UNIQUE 
+Weight: 15, Value: 50, Rent: 25, Min. level: 0
+AC-apply is 2
+Item slot: Shield
++++++
+ 
+A round shield made from human skin and bound in iron.
+
+
+-----
+Object 'a cooking ladle', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 80, Rent: 25, Min. level: 0
+Damage Dice is '1D5' for an average per-round damage of 3.0.
+Item slot: Weapon
++++++
+ 
+Come on...Everyone knows what a cooking ladle looks like, it's a
+big spoon!
+
+
