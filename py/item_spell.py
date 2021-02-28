@@ -24,6 +24,7 @@ class ItemSpell(Enum):
     LIGHTNING_BOLT = "lightning bolt"
     MAGIC_MISSILE = "magic missile"
     PETRIFICATION = "petrification"
+    POISON = "poison"
     REJUVENTATE = "rejuvenate"
     REMOVE_POISON = "remove poison"
     SANCTUARY = "sanctuary"

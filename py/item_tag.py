@@ -17,3 +17,4 @@ class ItemTag(Enum):
     NO_JUNK = "!JUNK"
     ASSM = "ASSM"
     NO_RENT = "!RENT"
+    NO_PURGE = "!PURGE"

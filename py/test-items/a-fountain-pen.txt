@@ -1,0 +1,15 @@
+Object 'a fountain pen', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: HUM !PURGE UNIQUE 
+Weight: 1, Value: 80, Rent: 10, Min. level: 0
+Damage Dice is '1D5' for an average per-round damage of 3.0.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Wield
++++++
+ 
+You see a small worn-down fountain pen leaking with ink.
+ (humming)
+
+-----

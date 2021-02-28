@@ -74,7 +74,7 @@ class ItemBrief():
                 for key in affect:
                     if int(affect[key]) > 0:
                         affects = affects + '+' + \
-                            affect[key] + ItemAffect[key].brief + ' '
+                            str(affect[key]) + ItemAffect[key].brief + ' '
 
             item['brief_eq'] = item['brief_eq'] + affects
             item['brief_inv'] = item['brief_inv'] + affects

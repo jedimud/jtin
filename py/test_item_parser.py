@@ -1333,6 +1333,59 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_purple_potion(self):
+        actual = self.read_item_from_file("a-purple-potion")
+
+        item = Item()
+        item.name = "a purple potion"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 10000
+        item.rent = 5000
+        item.min_level = 0
+
+        item.spells.append(ItemSpell.BLINDNESS)
+        item.spells.append(ItemSpell.SANCTUARY)
+        item.spells.append(ItemSpell.POISON)
+        item.spell_level = 17
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_fountain_pen(self):
+        actual = self.read_item_from_file("a-fountain-pen")
+
+        item = Item()
+        item.name = 'a fountain pen'
+        item.type = ItemType.WEAPON
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.HUM)
+        item.tags.append(ItemTag.NO_PURGE)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 80
+        item.rent = 10
+        item.min_level = 0
+
+        item.affects[ItemAffect.HITROLL] = 1
+        item.affects[ItemAffect.DAMROLL] = 1
+
+        item.average_dmg = 3.0
+        item.dice_count = 1
+        item.dice_face = 5
+
+        item.slots.append(ItemSlot.WIELD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
