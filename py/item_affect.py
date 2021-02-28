@@ -25,7 +25,7 @@ class ItemAffect(Enum):
     HIT = "HIT", "hp", True
     HIT_REGEN = "HIT_REGEN", "hpR", False
 
-    MOV = "MOVE", "mv", True
+    MOVE = "MOVE", "mv", True
     MOVE_REGEN = "MOVE_REGEN", "mvR", False
 
     SAVE_SPELL = "SAVE_SPELL", "ss", False
@@ -49,3 +49,4 @@ class ItemAffect(Enum):
     @property
     def sac(self):
         return self._sac_
+        
