@@ -55,6 +55,10 @@ class ItemParser():
             elif not is_desc:
                 sub_lines.append(line)
 
+        if (sub_lines.__len__() > 0):
+            item = self.parse_lines(sub_lines)
+            items.append(item)
+
         return items
 
     def parse_lines(self, lines):
