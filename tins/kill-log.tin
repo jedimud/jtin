@@ -1,3 +1,10 @@
 #action {^%1 is dead! R.I.P.$} {
     #line log logs/kill.log {%1,$map_current};
 }
+
+
+#nop ----- utility -----
+
+#alias kill_log_print_msg {
+    #showme <afc>[KILL-LOG] %1;
+}

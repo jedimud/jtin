@@ -1,5 +1,3 @@
-#variable map_current midgaard.map
-
 #nop ----- MAP FUNCTIONS -----
 
 #alias map_show {
@@ -13,7 +11,7 @@
 }
 
 #alias map_create {
-    print_mapper_msg {creating new map: %1};
+    mapper_print_msg {creating new map: %1};
     #map create;
     #map goto 1;
     #map flag VTmap on;
@@ -22,34 +20,34 @@
     map_hide;
     map_show;
     #map legend {unicode graphics} { { } {\u2198} {\u2197} {>} {\u2199} {\u2E0C\u2E0D} {\uFF0F} {>\u2E0D} {\u2196} {\uFF3C} {\u2E1D\u2E1C} {>\u2E1C} {<} {\u2E0C<} {\u2E1D<} {><} {-} {\u2191} {\u2193} {\u2502} {+} {\u2192} {\u2190} {\u2500} {[} {(} {]} {)} };
-    #variable map_current %1.map;
+    #variable map_current %1;
     #map write maps/%1.map;
 }
 
 #alias map_edit {
-    print_mapper_msg {setting map to edit-mode: $map_current};
+    mapper_print_msg {setting map to edit-mode: $map_current};
     #showme edit-mode enabled for $map_current;
-    #map sync maps/$map_current;
+    #map sync maps/$map_current.map;
     #map flag static off;
 }
 
 #alias map_read {
-    print_mapper_msg {setting map to read-only: $map_current};
+    mapper_print_msg {setting map to read-only: $map_current};
     #showme read-only enabled for $map_current;
     #map flag static on;
 }
 
 #alias map_save {
-    print_mapper_msg {saving map: $map_current};
+    mapper_print_msg {saving map: $map_current};
     #showme saving $map_current;
-    #map write maps/$map_current;
+    #map write maps/$map_current.map;
 }
 
 #alias map_open {
     #map read maps/%1.map; 
     #map goto 1; 
     #map flag static on;
-    #variable map_current {%1.map};
+    #variable map_current {%1};
     map_show;
 }
 
@@ -73,18 +71,84 @@
     };
     #map exit %1 command {room_link_action {$path} {%2} {%3}};
     #showme {};
-    print_mapper_msg {added room link: $path %2 %3};
+    mapper_print_msg {added room link: $path %2 %3};
 }
 
 #alias room_link_action {
     #delay {0} {
         %1;
-        #map read maps/%2.map;
-        #map goto %3;
-        map_show;
-        #variable map_current %2.map;
-        print_mapper_msg {now entering $map_current};
+        room_link_map %2 %3
     };
+}
+
+#alias room_link_map {
+    #map read maps/%1.map;
+    #map goto %2;
+    map_show;
+    #variable map_current %1;
+    mapper_print_msg {now entering $map_current};
+}
+
+#alias room_door {
+    #if {"%1" == "e"} {
+        #map exit e command {open east;east};
+        mapper_print_msg {added door to east};
+    };
+
+    #elseif {"%1" == "w"} {
+        #map exit w command {open west;west};
+        mapper_print_msg {added door to west};
+    };
+
+    #elseif {"%1" == "n"} {
+        #map exit n command {open north;north};
+        mapper_print_msg {added door to north};
+    };
+
+    #elseif {"%1" == "s"} {
+        #map exit s command {open south;south};
+        mapper_print_msg {added door to south};
+    };
+
+    #else {
+        mapper_print_msg {what?!}
+    }
+}
+
+#alias room_lock {
+    #if {"%1" == "e"} {
+        #map exit e command {unl east;open east;east};
+        mapper_print_msg {added locked-door to east};
+    };
+
+    #elseif {"%1" == "w"} {
+        #map exit w command {unl west;open west;west};
+        mapper_print_msg {added locked-oor to west};
+    };
+
+    #elseif {"%1" == "n"} {
+        #map exit n command {unl north;open north;north};
+        mapper_print_msg {added locked-door to north};
+    };
+
+    #elseif {"%1" == "s"} {
+        #map exit s command {unl south;open south;south};
+        mapper_print_msg {added locked-door to south};
+    };
+
+    #elseif {"%1" == "u"} {
+        #map exit u command {unl up;open up;up};
+        mapper_print_msg {added locked-door to up};
+    };
+
+    #elseif {"%1" == "d"} {
+        #map exit d command {unl down;open down;down};
+        mapper_print_msg {added locked-door to down};
+    };
+
+    #else {
+        mapper_print_msg {what?!}
+    }
 }
 
 #nop ----- ROOM ATTRIBUTES -----
@@ -122,12 +186,83 @@
 }
 
 #alias room_aggro {
-    #map roomflag avoid on;
+    #map set roomcolor <fca>
+}
+
+#alias room_water {
+    #map set roomcolor <acf>
+}
+
+#alias room_fog {
+    #if {"%1" == "s"} {
+        #map dig s;
+        #map mov s;
+        #map roomflag fog;
+        #map mov n;
+        mapper_print_msg {added unmapped room to south};
+    };
+    #elseif {"%1" == "n"} {
+        #map dig n;
+        #map mov n;
+        #map roomflag fog;
+        #map mov s;
+        mapper_print_msg {added unmapped room to north};
+    };
+    #elseif {"%1" == "w"} {
+        #map dig w;
+        #map mov w;
+        #map roomflag fog;
+        #map mov e;
+        mapper_print_msg {added unmapped room to west};
+    };
+    #elseif {"%1" == "e"} {
+        #map dig e;
+        #map mov e;
+        #map roomflag fog;
+        #map mov w;
+        mapper_print_msg {added unmapped room to east};
+    };
+    #elseif {"%1" == "se"} {
+        #map dig se;
+        #map mov se;
+        #map roomflag fog;
+        #map mov nw;
+        mapper_print_msg {added unmapped room to south-east};
+    };
+    #elseif {"%1" == "nw"} {
+        #map dig nw;
+        #map mov nw;
+        #map roomflag fog;
+        #map mov se;
+        mapper_print_msg {added unmapped room to north-west};
+    };
+    #elseif {"%1" == "ne"} {
+        #map dig ne;
+        #map mov ne;
+        #map roomflag fog;
+        #map mov sw;
+        mapper_print_msg {added unmapped room to north-east};
+    };
+
+
+    #else {
+        mapper_print_msg {what?!}
+    };
+
+}
+
+#nop ----- galaxy wagon -----
+
+#action {^Inside the traveling wagon} {
+    room_link_map galaxy 1;
 }
 
 #nop ----- utility -----
 
-#alias print_mapper_msg {
-    #line ignore #showme <afc>[MAPPER] %1;
-    #line ignore #showme { };
+#alias mapper_print_msg {
+    #showme <afc>[MAPPER] %1;
 }
+
+#nop ----- startup -----
+
+mapper_print_msg loaded
