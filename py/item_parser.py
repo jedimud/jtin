@@ -6,6 +6,7 @@ from item_slot import ItemSlot
 from item_class import ItemClass
 from item_align import ItemAlign
 from item_spell import ItemSpell
+from item_race import ItemRace
 from item import Item
 from item_data import ItemData
 import json
@@ -148,6 +149,13 @@ class ItemParser():
                 pass
 
             try:
+                tag = ItemRace(token)
+                item.tags.append(tag)
+                found = True
+            except:
+                pass
+
+            try:
                 tag = ItemAlign(token)
                 item.tags.append(tag)
                 found = True
@@ -200,7 +208,11 @@ class ItemParser():
 
     def parse_slot(self, line, item):
         """Item slot: Feet"""
-        item.slots.append(ItemSlot(line[11:]))
+        slot = ItemSlot(line[11:])
+        if not item.slots.__contains__(slot):
+            item.slots.append(slot)
+        else:
+            raise Exception
 
         parsed = "Item slot: " + item.slots[-1].value
         assert line == parsed, "[" + line + "] != [" + parsed + "]"

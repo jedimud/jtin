@@ -1,0 +1,13 @@
+Object 'a Huge Plastic Mustache', Item type: ARMOR
+Item will give you following abilities:  NOBITS
+Item is: INVIS !MAGE !CLER !PAL !APAL !JEDI !SOHEI !DONATE !BARD !JUNK UNIQUE !HUMAN !ELF !DWARF !ORC !HALF-ORC !GOBLIN !URUKHAI INSURED !HALF_ELF
+Weight: 1, Value: 5000, Rent: 0, Min. level: 15
+AC-apply is 0
+Can affect you as :
+   Affects: DEX By 1
+   Affects: HITROLL By 3
+Item slot: Face
++++++
+
+You see nothing special. (invisible) (insured)
+-----

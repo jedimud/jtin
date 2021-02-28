@@ -13,6 +13,7 @@ class ItemSlot(Enum):
     HEAD = "Head", "head"
     LEGS = "Legs", "legs"
     ON_BODY = "On Body", "on body"
+    FACE = "Face", "face"
     NECK = "Neck", "neck"
     HANDS = "Hands", "hands"
     WAIST = "Waist", "waist"

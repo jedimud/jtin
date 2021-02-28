@@ -176,6 +176,24 @@
     check_hold;
 }
 
+#nop ----- face -----
+
+#high {^You put %1 on your face.$} {reverse}
+#action {^You put %1 on your face.$} {
+    rem $ident_tag;
+    capture_face;
+}
+
+#high {^You're already wearing something on your face.$} {reverse}
+#action {^You're already wearing something on your face.$} { 
+    capture_face;
+}
+
+#alias capture_face {
+    #line log logs/ident.log {Item slot: Face};
+    check_hold;
+}
+
 
 #nop ----- hands -----
 

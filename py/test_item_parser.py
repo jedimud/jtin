@@ -11,7 +11,7 @@ from item_class import ItemClass
 from item_align import ItemAlign
 from item_spell import ItemSpell
 from item_affect import ItemAffect
-
+from item_race import ItemRace
 
 class TestItemParser(unittest.TestCase):
 
@@ -1383,6 +1383,50 @@ class TestItemParser(unittest.TestCase):
         item.dice_face = 5
 
         item.slots.append(ItemSlot.WIELD)
+
+        self.assert_equals(item, actual)
+
+
+    def test_parse_file__a_huge_plastic_mustache(self):
+        actual = self.read_item_from_file("a-huge-plastic-mustache")
+
+        item = Item()
+        item.name = "a Huge Plastic Mustache"
+        item.type = ItemType.ARMOR
+        item.ability = ItemAbility.NOBITS
+
+# Item is:  ! ! ! ! ! ! ! ! !  !HUMAN !ELF !DWARF !ORC !HALF-ORC !GOBLIN !URUKHAI INSURED !HALF_ELF
+        item.tags.append(ItemTag.INVIS)
+        item.tags.append(ItemClass.NO_MAGE)
+        item.tags.append(ItemClass.NO_CLER)
+        item.tags.append(ItemClass.NO_PAL)
+        item.tags.append(ItemClass.NO_APAL)
+        item.tags.append(ItemClass.NO_JEDI)
+        item.tags.append(ItemClass.NO_SOHEI)
+        item.tags.append(ItemTag.NO_DONATE)
+        item.tags.append(ItemClass.NO_BARD)
+        item.tags.append(ItemTag.NO_JUNK)
+        item.tags.append(ItemTag.UNIQUE)
+        item.tags.append(ItemRace.NO_HUMAN)
+        item.tags.append(ItemRace.NO_ELF)
+        item.tags.append(ItemRace.NO_DWARF)
+        item.tags.append(ItemRace.NO_ORC)
+        item.tags.append(ItemRace.NO_HALF_ORC)
+        item.tags.append(ItemRace.NO_GOBLIN)
+        item.tags.append(ItemRace.NO_URUKHAI)
+        item.tags.append(ItemTag.INSURED)
+        item.tags.append(ItemRace.NO_HALF_ELF)
+
+        item.weight = 1
+        item.value = 5000
+        item.rent = 0
+        item.min_level = 15
+        item.ac = 0
+
+        item.affects[ItemAffect.DEX] = 1
+        item.affects[ItemAffect.HITROLL] = 3
+
+        item.slots.append(ItemSlot.FACE)
 
         self.assert_equals(item, actual)
 
