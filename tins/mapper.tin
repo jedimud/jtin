@@ -133,7 +133,7 @@
 
     #elseif {"%1" == "w"} {
         #map exit w command {unl west;open west;west};
-        mapper_print_msg {added locked-oor to west};
+        mapper_print_msg {added locked-door to west};
     };
 
     #elseif {"%1" == "n"} {
