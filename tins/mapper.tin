@@ -110,6 +110,16 @@
         mapper_print_msg {added door to south};
     };
 
+    #elseif {"%1" == "nw"} {
+        #map exit nw command {open northw;northw};
+        mapper_print_msg {added door to north-west};
+    };
+
+    #elseif {"%1" == "se"} {
+        #map exit se command {open southe;southe};
+        mapper_print_msg {added door to south-east};
+    };
+
     #else {
         mapper_print_msg {what?!}
     }
@@ -243,7 +253,53 @@
         #map mov sw;
         mapper_print_msg {added unmapped room to north-east};
     };
+    #elseif {"%1" == "sw"} {
+        #map dig sw;
+        #map mov sw;
+        #map roomflag fog;
+        #map mov ne;
+        mapper_print_msg {added unmapped room to south-west};
+    };
 
+    #else {
+        mapper_print_msg {what?!}
+    };
+
+}
+
+#alias room_loop {
+    #if {"%1" == "s"} {
+        #map dig s;
+        #map mov s;
+        #map roomflag hide;
+        #map mov n;
+        #map exit s command {#delay 0 {south;#map move n}};
+        mapper_print_msg {added infinite loop to south};
+    };
+    #elseif {"%1" == "n"} {
+        #map dig n;
+        #map mov n;
+        #map roomflag hide;
+        #map mov s;
+        #map exit n command {#delay 0 {north;#map move s}};
+        mapper_print_msg {added infinite loop to north};
+    };
+    #elseif {"%1" == "w"} {
+        #map dig w;
+        #map mov w;
+        #map roomflag hide;
+        #map mov e;
+        #map exit w command {#delay 0 {west;#map move e}};
+        mapper_print_msg {added infinite loop to west};
+    };
+    #elseif {"%1" == "e"} {
+        #map dig e;
+        #map mov e;
+        #map roomflag hide;
+        #map mov w;
+        #map exit e command {#delay 0 {east;#map move w}};
+        mapper_print_msg {added infinite loop to east};
+    };
 
     #else {
         mapper_print_msg {what?!}
