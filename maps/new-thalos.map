@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8454
+F 8455
 
 G 0
 
-I 83
+I 24
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -360,8 +360,9 @@ R {   23} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   14} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {   24} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
-R {   24} {1048576} {} {} { } {} {} {} {} {} {1.000} {}
+R {   24} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   23} {n} {n} {1} {0} {} {1.000} {} {0.00}
+E {   85} {d} {room_link_action {down} {trails-around-new-thalos} {56}} {32} {0} {} {1.000} {} {0.00}
 
 R {   25} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   14} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -591,3 +592,6 @@ E {   84} {e} {room_link_action {open east;east} {trails-near-new-thalos} {1}} {
 
 R {   84} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {   83} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R {   85} {2} {} {} { } {} {} {} {} {} {1.000} {}
+E {   24} {u} {u} {16} {0} {} {1.000} {} {0.00}
