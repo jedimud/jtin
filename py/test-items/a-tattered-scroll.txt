@@ -1,0 +1,18 @@
+Object 'a tattered scroll', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 10, Value: 10000, Rent: 5000, Min. level: 0
+This SCROLL casts:  Level 24 of enchant weapon
+Item slot: Hold
++++++
+ 
+This piece of parchment looks like it has been well used -- in a war zone.  
+The lower portion is torn at an awkward angle, and you can see bits 
+of a spell left where the tear wasn't complete.  You hope the rest 
+of it's useful.
+The scroll contains the following spell:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+enchant weapon      
+
+
+-----

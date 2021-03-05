@@ -1,0 +1,12 @@
+Object 'a rod made of polished stone', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: MAG GOOD !APAL !NINJA UNIQUE 
+Weight: 10, Value: 65700, Rent: 5000, Min. level: 0
+This STAFF casts: calm of level 20
+It has 2 maximum charges and 2 remaining.
+Item slot: Hold
++++++
+ 
+As you reach closer to examine it, the rod begins to vibrate.
+
+

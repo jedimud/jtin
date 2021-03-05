@@ -29,6 +29,7 @@ class ItemAffect(Enum):
     MOVE_REGEN = "MOVE_REGEN", "mvR", False
 
     SAVE_SPELL = "SAVE_SPELL", "ss", False
+    SAVE_BREATH = "SAVE_BREATH", "sb", False
 
     def __new__(cls, *args, **kwds):
         obj = object.__new__(cls)

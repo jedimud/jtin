@@ -13,6 +13,7 @@ from item_spell import ItemSpell
 from item_affect import ItemAffect
 from item_race import ItemRace
 
+
 class TestItemParser(unittest.TestCase):
 
     def test_upper(self):
@@ -1386,7 +1387,6 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
-
     def test_parse_file__a_huge_plastic_mustache(self):
         actual = self.read_item_from_file("a-huge-plastic-mustache")
 
@@ -1395,7 +1395,6 @@ class TestItemParser(unittest.TestCase):
         item.type = ItemType.ARMOR
         item.ability = ItemAbility.NOBITS
 
-# Item is:  ! ! ! ! ! ! ! ! !  !HUMAN !ELF !DWARF !ORC !HALF-ORC !GOBLIN !URUKHAI INSURED !HALF_ELF
         item.tags.append(ItemTag.INVIS)
         item.tags.append(ItemClass.NO_MAGE)
         item.tags.append(ItemClass.NO_CLER)
@@ -1427,6 +1426,111 @@ class TestItemParser(unittest.TestCase):
         item.affects[ItemAffect.HITROLL] = 3
 
         item.slots.append(ItemSlot.FACE)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_tattered_scroll(self):
+        actual = self.read_item_from_file("a-tattered-scroll")
+
+        item = Item()
+        item.name = "a tattered scroll"
+        item.type = ItemType.SCROLL
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 10
+        item.value = 10000
+        item.rent = 5000
+        item.min_level = 0
+
+        item.spell_level = 24
+        item.spells.append(ItemSpell.ENCHANT_WEAPON)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_sturdy_iron_shield(self):
+        actual = self.read_item_from_file("a-sturdy-iron-shield")
+
+        item = Item()
+        item.name = "a sturdy iron shield"
+        item.type = ItemType.ARMOR
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.GLOW)
+        item.tags.append(ItemClass.NO_MAGE)
+        item.tags.append(ItemClass.NO_THF)
+        item.tags.append(ItemClass.NO_NINJA)
+        item.tags.append(ItemClass.NO_BARD)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 5
+        item.value = 5000
+        item.rent = 1250
+        item.min_level = 10
+
+        item.ac = 7
+
+        item.affects[ItemAffect.SAVE_BREATH] = -2
+        item.affects[ItemAffect.SAVE_SPELL] = -2
+
+        item.slots.append(ItemSlot.SHIELD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_peaceful_potion(self):
+        actual = self.read_item_from_file("a-peaceful-potion")
+
+        item = Item()
+        item.name = "a peaceful potion"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 17542
+        item.rent = 5625
+        item.min_level = 0
+
+        item.spell_level = 10
+        item.spells.append(ItemSpell.PROTECTION_FROM_EVIL)
+        item.spells.append(ItemSpell.PROTECTION_FROM_GOOD)
+        item.spells.append(ItemSpell.INVISIBLE)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_rod_made_of_polished_stone(self):
+        actual = self.read_item_from_file("a-rod-made-of-polished-stone")
+
+        item = Item()
+        item.name = "a rod made of polished stone"
+        item.type = ItemType.STAFF
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemAlign.GOOD)
+        item.tags.append(ItemClass.NO_APAL)
+        item.tags.append(ItemClass.NO_NINJA)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 10
+        item.value = 65700
+        item.rent = 5000
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.CALM)
+        item.charge_max = 2
+        item.charge_remain = 2
+
+        item.slots.append(ItemSlot.HOLD)
 
         self.assert_equals(item, actual)
 
