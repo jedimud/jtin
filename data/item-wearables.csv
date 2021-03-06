@@ -30,12 +30,14 @@ a bloody pickaxe,,Wield,,,0,,,,X,X,,,,X,X,X,X,X,X,X,X,X,,,,,,,,,,-2,,,,,,,
 a combat jumpsuit,,About Body,,,10,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,1,,,,,,,,6
 a damp black robe,,About Body,,,0,,,,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,-1,,,,,,,,15,,,,,,4
 a dark green cloak,,About Body,,,12,,,X,X,X,,X,X,,,X,X,,X,X,,,,,,,,,,,,,,,15,,,,4
+a devilish pitchfork,,Wield,,,13,,,,X,X,,,,X,X,,X,X,X,X,X,,,,,,,-2,,,1,,,,,,,,
 a fine silk sash,,Waist,,,0,,,,X,X,,X,X,X,X,X,X,X,X,X,X,X,,-1,,,,,,,,,,,,,30,,3
 a fountain pen,,Wield,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,1,1,,,,,,,
 a garnet ring,,Ring,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,10,,,-4,1
 a garnet-set leather shield,,Shield,,,0,,,X,X,X,,X,X,,X,X,X,,X,X,X,X,,,,1,,,,,,,,,,,,,4
 a glittering diamond ring,,Ring,,,15,,,X,X,,,X,X,,,,,,,,X,,,,,,,,,,1,,,,6,,,,
 a golden ring,,Ring,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,1,,,,,,,,,,,,,,
+a grey feather,,Neck,,,12,,,,X,X,,,,X,X,,X,X,X,X,X,,,,,,,,,,,,,,,,,,6
 a heavy golden bracer set with topaz,,Wrist,,,14,,,X,X,,,,,X,X,X,X,X,X,X,X,,,,,,,,,,2,,,,,,-5,,1
 a human skin shield,,Shield,,,0,,,X,X,X,,,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,,2
 a kabuto,,Head,,,15,,,X,X,X,,,,,,,X,,,,X,X,,,,,,2,,,,,,,,8,,,14
@@ -46,6 +48,7 @@ a leather belt,,Waist,,,3,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,1,,,,-1,,,,,,,,,,,2
 a loaf of cram,,,Hold,,10,,,X,X,X,,,,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,3,,,
 a mahout's loincloth,,Waist,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,1,,,1,,,,,,,,,,,,
 a mahout's studded leather gauntlets,,Hands,,,0,,,X,X,X,,,X,X,X,X,X,X,X,X,X,X,,,-1,,,1,,,,,,,,,,,3
+a ninja-to,,Wield,,,15,,,X,X,X,,,,,,,,X,,,X,X,,,,,,,,,,,12,8,,,,,
 a noble's longsword,,Wield,,,0,,,X,X,X,,,,X,X,X,X,X,X,X,X,X,,,,,,,,,,1,,,,,,,
 a pair of Mohican boots,,Feet,,,10,,,,X,X,,X,X,X,X,X,X,X,,X,X,,,,,,,,,,1,,,,,,15,,
 a pair of bracers,,Arms,,,0,,,X,X,X,,,X,,X,X,X,,X,X,X,,,,,,,,,,,,,,,,,,5
@@ -55,6 +58,7 @@ a pair of golden soleae,,Feet,,,0,,,X,X,X,,X,X,,,,,,X,X,,X,,,1,,,,,,,,,,15,,,,2
 a pair of iron boots,,Feet,,,0,,,X,X,X,,,X,,X,X,X,,X,X,,,,,,,-1,,,,,-1,,,,,,,5
 a pair of iron gauntlets,,Hands,,,0,,,X,X,X,,,X,,X,X,X,,X,X,X,,,,,,,,,,1,-3,,,,,,,5
 a pair of onyx memorial stones,,On Body,Hold,,5,,,X,X,,,,X,X,X,X,X,X,X,X,X,X,,,,2,,,,,,,,,,5,,,
+a pair of owl claws,,Wield,,,8,,,X,X,X,,,,X,X,,,X,,,X,,,,,-3,,,,,1,,,,,,,,
 a pair of scaly gloves,,Hands,,,16,,,X,X,X,,X,X,,,X,X,,X,X,,X,,,,,,,,,,,,,5,3,,,6
 a pair of strange boots,,Feet,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,1,,,,,,,,,,,,,,,2
 a pearly white stone,,,Hold,,7,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,1,,,,,,,
@@ -74,6 +78,7 @@ a ringmail vest,,On Body,,,0,,,X,X,X,,,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,,,9
 a robe of imperial purple,,About Body,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,1,,,,,-1,,,,,,,,5
 a sacrificial bone kris,,Wield,,,0,,,,X,X,,X,,X,X,X,X,,X,X,X,X,,,,,-2,,,,2,,,,,,,,
 a sailor's cap,,Head,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,8
+"a sandy, silk turban",,Head,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,4
 a scavenger's stick,,Wield,Hold,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,2,2,,,,,,,
 a set of iron leggings,,Legs,,,0,,,X,X,X,,,X,,X,X,X,,X,X,,,,,,,-1,,,,,-1,,,,,,,14
 a shield,,Shield,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,7
@@ -118,6 +123,7 @@ an iron helm,,Head,,,0,,,X,X,X,,,X,,X,X,X,,X,X,X,,,,,,,,,,,-2,,,,,,,10
 an old leather belt,,Waist,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,1,,1,,,,,,,,,,,,,
 an ornate necklace,,Neck,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,1,,,,,,,,,-20,,1
 an ornately crafted gold wedding ring,,Ring,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,2,,,,,,,,,,,
+an owl's pendant,,Neck,,,0,20,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,1,,,,,-1,,,,,,,,
 animal hide armor,,On Body,,,0,,,X,X,X,,,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,9
 black tunic,,About Body,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,3
 dwarven gloves,,Hands,,,0,,,X,X,X,,,X,X,X,X,X,X,,X,X,X,,,,,-1,1,,,,,,,,,,,4
@@ -130,15 +136,18 @@ mystical silk leggings,,Legs,,,15,,,X,X,X,,X,X,,,X,X,,X,X,X,,,,,,,,,,,,,,15,5,,,
 ninja hand claws,,Hands,,,8,,,X,X,X,,,,,,,,X,,,,,,,,1,,,,,1,,,,,,,,1
 opal bracelet,,Wrist,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,1,,,-2,,,,,,,,
 opal ring,,Ring,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,10,,-10,,,,
+ornate mithril leggings,,Legs,,,14,20,,X,X,X,,,X,,X,X,X,,X,,,,,,,,,1,,,,,4,,,,,,16
 shimmering sandals,,Feet,,,15,,,X,X,X,,,X,,,,,,,,X,X,,,,2,,,,,,,,,,8,,,4
 some iron sleeves,,Arms,,,0,,,X,X,X,,,X,,X,X,X,,X,X,,,,,,,1,,,,1,,,,,,,,9
 some spiked sleeves,,Arms,,,0,,,X,X,X,,,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,-1,,,,,,,2
 sturdy boots,,Feet,,,0,,,,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,5,,,,,,3
+the Chanting Necklace,,Neck,,,0,,,X,,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,1,,,,,,,,,,1
 the Crocodile's Tear,,Light,,,15,,,X,X,X,,,,X,X,,,X,X,X,X,X,,,,,,,,,,,,,10,5,,,
 the Crystal Sword,,Wield,,,0,,,,X,X,,,,X,X,X,X,X,X,X,X,X,,,,,,,,,2,-2,,,,,,,
 the Great Dipper of the Skies,,Wield,,,0,,,X,X,X,,,,X,X,X,X,X,X,X,X,X,,,,,,,,,2,2,,,,,,,
 the Icon of Atrii,,,Hold,,0,,,X,,X,,X,X,X,,X,X,X,X,X,X,X,,2,,,,,,,,,,,,,,,
 the Ring of Dignity,,Ring,,,10,,,X,X,,,X,X,X,X,X,X,X,X,X,X,X,,,1,,,,,,,,,,10,,,,
+the Ring of al-Hakim,,Ring,,,5,,,X,X,X,,X,X,X,X,,X,X,,X,X,X,,,2,,,,,,,,,,15,,,,2
 the Sapphire Shield,,Shield,,,15,,,X,X,X,,,X,X,X,X,X,X,X,,X,,,,,,-1,,,,1,,,,,,,,6
 the Sceptre of Might,,Light,,,20,,,X,X,,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,2,3,,,,,,,
 the Sting of Scorpio,,Wield,,,15,,,X,X,,,X,,X,X,X,,X,X,X,X,X,,,,,,,,,1,2,,,,,,,
@@ -152,4 +161,6 @@ the Titanic Scale of Libra,,Shield,,,10,,,X,X,X,,,X,,X,X,,,X,X,X,,,,,,,,,,,,-30,
 the Titanic Shell of Cancer,,On Body,,,10,,,X,X,,,X,X,X,X,X,X,X,X,X,X,X,,,,,-1,,,,,,,,,,,,20
 the Titanic Skin of Leo,,About Body,,,10,,,X,X,,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,9
 the Titanic Tail of Pisces,,Legs,,,10,,,X,X,,,X,X,X,X,X,X,X,X,X,X,X,,,,,-2,,,,,,,,,,,,12
+the Tome of the Village,,,Hold,,12,,,X,X,X,,X,X,X,X,,,X,X,X,X,X,,,,,,,,,,,4,,6,,,,
+the black owl ring,,Ring,,,5,,,X,X,X,,,,X,,,,X,X,X,,,,,,,,,,,,,,,,,,,4
 your memoir,,,Hold,,10,,,X,X,X,,X,X,,,X,X,,X,,X,X,,,,,,,2,,,,,,,,,,

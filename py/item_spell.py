@@ -36,4 +36,6 @@ class ItemSpell(Enum):
     SENSE_LIFE = "sense life"
     SLEEP = "sleep"
     STRENGTH = "strength"
+    TELEPORT = "teleport"
+    WATERWALK = "waterwalk"
     WORD_OF_RECALL = "word of recall"

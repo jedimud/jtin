@@ -1558,6 +1558,52 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__the_ontological_musings_of_wealtheo(self):
+        actual = self.read_item_from_file("the-ontological-musings-of-wealtheo")
+
+        item = Item()
+        item.name = "the Ontological Musings of Wealtheo"
+        item.type = ItemType.SCROLL
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 10
+        item.rent = 7000
+        item.min_level = 0
+
+        item.spell_level = 15
+        item.spells.append(ItemSpell.SANCTUARY)
+        item.spells.append(ItemSpell.TELEPORT)
+        item.spells.append(ItemSpell.TELEPORT)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_dark_jug_of_white_fluid(self):
+        actual = self.read_item_from_file("a-dark-jug-of-white-fluid")
+
+        item = Item()
+        item.name = "a dark jug of white fluid"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 3
+        item.value = 200
+        item.rent = 2500
+        item.min_level = 0
+
+        item.spell_level = 12
+        item.spells.append(ItemSpell.REJUVENTATE)
+        item.spells.append(ItemSpell.REJUVENTATE)
+        item.spells.append(ItemSpell.WATERWALK)
+
+        self.assert_equals(item, actual)
+        
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

@@ -1,0 +1,6 @@
+Object 'the Ontological Musings of Wealtheo', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 10, Rent: 7000, Min. level: 0
+This SCROLL casts:  Level 15 of sanctuary teleport teleport
+-----
