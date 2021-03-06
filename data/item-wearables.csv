@@ -3,9 +3,11 @@ Bevgul,,Wield,,,0,,,X,X,X,,,,,,,X,X,,,,,,,,,,,,,2,,,,,,,,
 Bracelet of Disease,,Wrist,,,12,,,X,X,X,,X,X,,,X,X,X,X,X,X,X,,,,,,,,,,1,,,8,,,,
 Brass Claws,,Hands,,,5,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,1,,,,,,,,5
 Dragon Claws,,Hands,,,15,,,X,X,,,,,,X,X,X,X,X,X,,,,,,,-1,,,,2,,,,,,,,6
+Emerald Stone,,,Hold,,10,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,15,,,,,,
 Giant Golden Sword,,Wield,Hold,,12,,,X,X,,,,,,X,X,,,,,,,,2,,,,,,,3,,,,,,,,
 Greaves of Valour,,Legs,,,16,,,X,,X,,,,X,X,X,X,X,X,X,,,,,-3,,,,,,1,,,,,,,,14
 McGriff's bat,,Wield,,,15,,,X,,,,,X,,,,,,,,,,,,,,,,,,3,3,,,,,,,
+Merlin's Mage Bracers,,Wrist,,,0,,,X,X,,,X,,,,,,,,X,,,,,,,,,,,,,,,20,,,,5
 Robe of Prophecy,,About Body,,,14,,,X,,X,,X,X,,,X,X,,X,,,,,,,1,,,,,,,,,10,,,,
 War Helmet,,Head,,,10,,,X,X,X,,,,,X,X,X,,,,X,,,,,,,,,,,,10,5,,,,,10
 a Bardic Ring,,Ring,,,0,,,X,X,X,,,,,,,,,,,,X,,,,,,,,,1,1,,,,,,,2
@@ -14,8 +16,10 @@ a Hover Board,,Feet,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,2,,,,,,,,,,,
 a Huge Plastic Mustache,,Face,,,15,,,X,X,X,,,,X,X,,,X,,,X,,,,,,1,,,,,3,,,,,,,
 a Mark IV Phaser Rifle,,Wield,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,10,,,,,,,
 a Prismatic Jewel,,Light,,,13,,,X,X,X,,X,X,,,X,X,,X,X,,X,,,,,,,,,,,,5,,8,,,
+a Teardrop Pendant,,Neck,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,1,1,,,,,,,,,,,,,
 a Thalosian War Axe,,Wield,,,16,,,X,,X,,,,,X,X,X,,X,X,X,,,,,,,,,,2,2,,,,,,,
 a black silk robe,,About Body,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,,,,5
+a black staff,,,Hold,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,-3,,,,,,,
 a blackened iron kite shield,,Shield,,,0,,,,,X,,,,,,,X,,,,,,,,,,,,,,,,,,,,,,4
 a blazing black dagger,,Wield,,,12,,,X,X,X,,,,X,,,,X,,,X,X,,,,,2,,,,2,,,,,,,,
 a combat jumpsuit,,About Body,,,10,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,1,,,,,,,,6
@@ -74,6 +78,7 @@ a spyglass,,,Hold,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,2,,,,,,,,,,,,,
 a sturdy axe,,Wield,,,10,,,X,X,X,,,,,X,X,X,,X,X,X,X,,2,,,,,,,,-2,,,,,,,
 a sturdy iron shield,,Shield,,,10,,,X,X,X,,,X,,X,X,X,,X,X,X,,,,,,,,,,,,,,,,,,7
 a suit of gleaming silver platemail,,On Body,,,15,,,X,,,,,,,X,X,,,,,,,,,,,,,,,1,,15,,,,,,30
+a talisman of innocent blood,,Neck,,,12,,,,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,-2,,,15,,,,5
 a tarnished brass ring,,Ring,,,0,,,X,X,,,X,X,X,X,X,,X,X,X,X,,,,,,,,,,1,1,,,,,,,2
 a tarnished emerald ring,,Ring,,,0,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,1,,1,,,,,,1
 a thin leather bracelet,,Wrist,,,5,,,X,X,X,,X,X,X,X,X,X,X,X,X,X,X,,,,,,,,,,,,,5,,,,

@@ -67,6 +67,7 @@ class ItemParser():
             self.parse_line(line, item)
 
         self.validate(item)
+        self.update_sac(item)
 
         return item
 
@@ -377,6 +378,11 @@ class ItemParser():
     def validate(self, item):
         assert item.name != ""
         assert item.type != ""
+
+    def update_sac(self, item):
+        for aff in list(item.affects.items()):
+            if ItemAffect(aff[0]).sac:
+                item.sac = item.sac + int(aff[1])
 
     def read_file(self, fname):
         with open(fname) as f:

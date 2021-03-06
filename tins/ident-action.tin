@@ -37,7 +37,7 @@
 #alias check_description {
     #variable ident_state {description};
     #delay {0.25} {
-        check_description_wrapper $ident_tag;
+        #nop check_description_wrapper $ident_tag;
         #delay {1} {
             #showme <caf>identify scroll output captured;
             #unvar ident_state;
@@ -337,7 +337,7 @@
 }
 
 #high {^You can't wear anything else around your neck.$} {reverse}
-#action {^You can't wear anything else around your neck.$} {
+#action {You can't wear anything else around your neck.} {
     capture_neck;
 }
 

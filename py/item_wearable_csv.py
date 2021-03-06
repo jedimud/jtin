@@ -8,7 +8,7 @@ import os
 import csv
 
 
-class ItemCSV():
+class ItemWearableCSV():
 
     def __init__(self):
         self.item_data = ItemData()
@@ -145,4 +145,4 @@ class ItemCSV():
 
 
 if __name__ == '__main__':
-    ItemCSV().write_to_file()
+    ItemWearableCSV().write_to_file()

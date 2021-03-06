@@ -40,6 +40,8 @@ class Item():
         self.dice_count = None
         self.average_dmg = None
 
+        self.sac = int()
+        
         self.brief_inv = str()
         self.brief_eq = str()
         self.brief_sac = str()
@@ -94,5 +96,7 @@ class Item():
         item['dice_face'] = self.dice_face
         item['dice_count'] = self.dice_count
         item['average_dmg'] = self.average_dmg
+
+        item['sac'] = self.sac
 
         return item

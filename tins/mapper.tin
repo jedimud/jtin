@@ -120,6 +120,16 @@
         mapper_print_msg {added door to south-east};
     };
 
+    #elseif {"%1" == "u"} {
+        #map exit u command {open up;up};
+        mapper_print_msg {added door to up};
+    };
+
+    #elseif {"%1" == "d"} {
+        #map exit d command {open down;down};
+        mapper_print_msg {added door to down};
+    };
+
     #else {
         mapper_print_msg {what?!}
     }

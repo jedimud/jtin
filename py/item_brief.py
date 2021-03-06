@@ -116,11 +116,7 @@ class ItemBrief():
         item['brief_eq'] = item['brief_eq'].strip()
 
         # sac
-        sac = 0
-        for affect in item['affects']:
-            for key in affect:
-                if ItemAffect[key].sac:
-                    sac = sac + int(affect[key])
+        sac = item['sac']
 
         if sac > 0:
             item['brief_sac'] = '+' + str(sac) + ' sac '
