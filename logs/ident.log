@@ -1,0 +1,82 @@
+-----
+Object 'a ring of polished hematite', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 0, Value: 100, Rent: 50, Min. level: 0
+Can affect you as :
+   Affects: CON By 2
+This item has a maximum level of 10.
+Item slot: Ring
+-----
+Object 'a loaf of bread', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 15, Rent: 10, Min. level: 0
+-----
+Object 'a potion of healing', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 5, Value: 100, Rent: 50, Min. level: 0
+This POTION casts:  Level 16 of cure critic
+This item has a maximum level of 10.
+Item slot: Hold
+-----
+Object 'a small dart', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 1500, Rent: 750, Min. level: 0
+This WAND casts: sleep of level 6
+Item slot: Hold
+-----
+Object 'a pile of summoning sand', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 2, Value: 2000, Rent: 20, Min. level: 0
+-----
+Object 'a Midgaard Zoo souvenir bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !DONATE UNIQUE 
+Weight: 1, Value: 100, Rent: 50, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 1
+This item has a maximum level of 8.
+Item slot: Wrist
+Item slot: Hold
+-----
+Object 'a white potion of "Froboz" (tm) liquid curing', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 1, Value: 100, Rent: 50, Min. level: 0
+This POTION casts:  Level 12 of remove poison cure light
+This item has a maximum level of 10.
+Item slot: Hold
+-----
+Object 'a glowing red sphere', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !DONATE UNIQUE 
+Weight: 1, Value: 60, Rent: 10, Min. level: 0
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: HIT By 10
+This item has a maximum level of 8.
+Item slot: Light
+-----
+Object 'a glowing blue sphere', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !DONATE UNIQUE 
+Weight: 1, Value: 60, Rent: 10, Min. level: 0
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: MANA By 10
+This item has a maximum level of 8.
+Item slot: Light
+-----
+Object 'a golden potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 1, Value: 100, Rent: 50, Min. level: 0
+This POTION casts:  Level 12 of heal
+This item has a maximum level of 10.
+Item slot: Hold
