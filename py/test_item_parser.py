@@ -1534,6 +1534,30 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_murky_grey_vial(self):
+        actual = self.read_item_from_file("a-murky-grey-vial")
+
+        item = Item()
+        item.name = "a murky grey vial"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.HUM)
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.NO_DROP)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 250
+        item.rent = 62
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.HARM)
+        item.spells.append(ItemSpell.SLEEP)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
