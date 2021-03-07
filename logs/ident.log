@@ -80,3 +80,148 @@ Weight: 1, Value: 100, Rent: 50, Min. level: 0
 This POTION casts:  Level 12 of heal
 This item has a maximum level of 10.
 Item slot: Hold
+-----
+Object 'a small bronze key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RENT !DONATE !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'a metal wristguard', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: CON By 1
+Item slot: Wrist
+-----
+Object 'a training mace', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: HUM !MAGE !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 0
+Damage Dice is '4D3' for an average per-round damage of 8.0.
+Can affect you as :
+   Affects: WIS By 1
+Item slot: Wield
+-----
+Object 'SquirtGun', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !THF !WAR !PAL !APAL !RANGER !BARD UNIQUE 
+Weight: 2, Value: 10, Rent: 100, Min. level: 0
+Damage Dice is '6D3' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 2
+Item slot: Wield
+-----
+Object 'a golden mask', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 2, Value: 300, Rent: 70, Min. level: 0
+AC-apply is 3
+Can affect you as :
+   Affects: INT By -1
+   Affects: ARMOR By 1
+Item slot: Head
+-----
+Object 'a Fireblade of Mars', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !GOOD !MAGE !CLER UNIQUE 
+Weight: 10, Value: 4400, Rent: 900, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Item slot: Wield
+-----
+Object 'the gate key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'the Crown of Divinity', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG BLESS UNIQUE 
+Weight: 15, Value: 1000, Rent: 250, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: CON By 1
+Item slot: Head
+-----
+Object 'the Shield of Galahad', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS !EVIL !MAGE !BARD UNIQUE 
+Weight: 4, Value: 7000, Rent: 1350, Min. level: 0
+AC-apply is 7
+Can affect you as :
+   Affects: HIT By 10
+   Affects: HITROLL By -2
+Item slot: Shield
+-----
+Object 'a pair of blue boots', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 2245, Rent: 350, Min. level: 0
+AC-apply is 4
+Can affect you as :
+   Affects: MOVE By 20
+   Affects: MANA By -10
+Item slot: Feet
+-----
+Object 'Red belt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 475, Rent: 50, Min. level: 0
+AC-apply is 3
+Item slot: Waist
+-----
+Object 'a pair of white gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE UNIQUE 
+Weight: 4, Value: 1000, Rent: 250, Min. level: 0
+AC-apply is -2
+Can affect you as :
+   Affects: HITROLL By 1
+Item slot: Hands
+-----
+Object 'a bright silver key with inlaid diamonds', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RENT !DONATE !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'a lightsaber', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 3
+Damage Dice is '5D3' for an average per-round damage of 10.0.
+Can affect you as :
+   Affects: HIT By 5
+Item slot: Wield
+-----
+Object 'a bronze 1-point Quest Token', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS UNIQUE 
+Weight: 1, Value: 50000, Rent: 100, Min. level: 0
+Item slot: Hold
+-----
+Object 'a sharp katana', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 3
+Damage Dice is '5D3' for an average per-round damage of 10.0.
+Can affect you as :
+   Affects: CON By 1
+Item slot: Wield
+-----
+Object 'a slimey pair of gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL !DONATE UNIQUE 
+Weight: 4, Value: 3000, Rent: 600, Min. level: 8
+AC-apply is 3
+Item slot: Hands
+-----
+Object 'a slimey breast plate', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL !MAGE !DONATE !RANGER UNIQUE 
+Weight: 20, Value: 6000, Rent: 1200, Min. level: 8
+AC-apply is 18
+Item slot: On Body
