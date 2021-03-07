@@ -225,3 +225,131 @@ Item is: !NEUTRAL !MAGE !DONATE !RANGER UNIQUE
 Weight: 20, Value: 6000, Rent: 1200, Min. level: 8
 AC-apply is 18
 Item slot: On Body
+-----
+Object 'a small silver ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !THF !WAR !NINJA UNIQUE 
+Weight: 1, Value: 50, Rent: 0, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: INT By 1
+Item slot: Ring
+-----
+Object 'rusty chain mail armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 10, Value: 750, Rent: 17, Min. level: 0
+AC-apply is 9
+Item slot: On Body
+-----
+Object 'a large vial', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 14, Value: 8000, Rent: 4000, Min. level: 0
+This POTION casts:  Level 15 of cure critic
+-----
+Object 'a silver whistle', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM UNIQUE 
+Weight: 1, Value: 50, Rent: 0, Min. level: 0
+Can affect you as :
+   Affects: DAMROLL By 3
+   Affects: HITROLL By 2
+Item slot: Hold
+-----
+Object 'a rusty helmet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 250, Rent: 12, Min. level: 0
+AC-apply is 4
+Item slot: Head
+-----
+Object 'leggings of initiation', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 3
+AC-apply is 20
+Can affect you as :
+   Affects: MANA_REGEN By 2
+Item slot: Legs
+-----
+Object 'a shiny violin stick', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 3
+Damage Dice is '5D3' for an average per-round damage of 10.0.
+Can affect you as :
+   Affects: CHARISMA By 1
+Item slot: Wield
+-----
+Object 'a pair of thick black gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 3
+AC-apply is 2
+Can affect you as :
+   Affects: DAMROLL By 1
+Item slot: Hands
+-----
+Object 'the master's boots', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !PAL !APAL !JEDI !SOHEI !BARD UNIQUE 
+Weight: 1, Value: 50, Rent: 0, Min. level: 3
+AC-apply is 3
+Can affect you as :
+   Affects: DEX By 2
+   Affects: STR By 1
+Item slot: Feet
+-----
+Object 'some lightweight boots', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !THF !WAR !NINJA UNIQUE 
+Weight: 1, Value: 50, Rent: 0, Min. level: 3
+AC-apply is 3
+Can affect you as :
+   Affects: MANA_REGEN By 2
+Item slot: Feet
+-----
+Object 'a pair of gauntlets', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !THF !NINJA !BARD UNIQUE 
+Weight: 2, Value: 3300, Rent: 950, Min. level: 0
+AC-apply is 5
+Can affect you as :
+   Affects: STR By 2
+Item slot: Hands
+-----
+Object 'a commoner's longsword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER UNIQUE 
+Weight: 6, Value: 1102, Rent: 400, Min. level: 0
+Damage Dice is '1D8' for an average per-round damage of 4.5.
+Can affect you as :
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a wooden stick', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 4, Value: 35000, Rent: 8000, Min. level: 0
+This WAND casts: fly of level 20
+It has 4 maximum charges and 4 remaining.
+Item slot: Hold
+-----
+Object 'a blue blood filled stomach', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 5000, Rent: 1000, Min. level: 0
+It can hold approximately 5 units of liquid.
+-----
+Object 'a silver chain', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 800, Rent: 100, Min. level: 0
+Item slot: Neck
+-----
+Object 'the heart of a star', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !EVIL UNIQUE 
+Weight: 1, Value: 0, Rent: 2500, Min. level: 0
+Item slot: Light
