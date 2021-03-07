@@ -329,6 +329,42 @@
     #showme <afc>[MAPPER] %1;
 }
 
+#alias opa {
+    open east;
+    open west;
+    open north;
+    open south;
+    open up;
+    open down;
+    open northe;
+    open northw;
+    open southe;
+    open southw;
+    where;
+    look;
+}
+
+#alias show_colors {
+    #showme <aaa> aaa<baa> baa<caa> caa<daa> daa<eaa> eaa<faa> faa<ada> ada<bda> bda<cda> cda<dda> dda<eda> eda<fda> fda;
+    #showme <aab> aab<bab> bab<cab> cab<dab> dab<eab> eab<fab> fab<adb> adb<bdb> bdb<cdb> cdb<ddb> ddb<edb> edb<fdb> fdb;
+    #showme <aac> aac<bac> bac<cac> cac<dac> dac<eac> eac<fac> fac<adc> adc<bdc> bdc<cdc> cdc<ddc> ddc<edc> edc<fdc> fdc;
+    #showme <aad> aad<bad> bad<cad> cad<dad> dad<ead> ead<fad> fad<add> add<bdd> bdd<cdd> cdd<ddd> ddd<edd> edd<fdd> fdd;
+    #showme <aae> aae<bae> bae<cae> cae<dae> dae<eae> eae<fae> fae<ade> ade<bde> bde<cde> cde<dde> dde<ede> ede<fde> fde;
+    #showme <aaf> aaf<baf> baf<caf> caf<daf> daf<eaf> eaf<faf> faf<adf> adf<bdf> bdf<cdf> cdf<ddf> ddf<edf> edf<fdf> fdf;
+    #showme <aba> aba<bba> bba<cba> cba<dba> dba<eba> eba<fba> fba<aea> aea<bea> bea<cea> cea<dea> dea<eea> eea<fea> fea;
+    #showme <abb> abb<bbb> bbb<cbb> cbb<dbb> dbb<ebb> ebb<fbb> fbb<aeb> aeb<beb> beb<ceb> ceb<deb> deb<eeb> eeb<feb> feb;
+    #showme <abc> abc<bbc> bbc<cbc> cbc<dbc> dbc<ebc> ebc<fbc> fbc<aec> aec<bec> bec<cec> cec<dec> dec<eec> eec<fec> fec;
+    #showme <abd> abd<bbd> bbd<cbd> cbd<dbd> dbd<ebd> ebd<fbd> fbd<aed> aed<bed> bed<ced> ced<ded> ded<eed> eed<fed> fed;
+    #showme <abe> abe<bbe> bbe<cbe> cbe<dbe> dbe<ebe> ebe<fbe> fbe<aee> aee<bee> bee<cee> cee<dee> dee<eee> eee<fee> fee;
+    #showme <abf> abf<bbf> bbf<cbf> cbf<dbf> dbf<ebf> ebf<fbf> fbf<aef> aef<bef> bef<cef> cef<def> def<eef> eef<fef> fef;
+    #showme <aca> aca<bca> bca<cca> cca<dca> dca<eca> eca<fca> fca<afa> afa<bfa> bfa<cfa> cfa<dfa> dfa<efa> efa<ffa> ffa;
+    #showme <acb> acb<bcb> bcb<ccb> ccb<dcb> dcb<ecb> ecb<fcb> fcb<afb> afb<bfb> bfb<cfb> cfb<dfb> dfb<efb> efb<ffb> ffb;
+    #showme <acc> acc<bcc> bcc<ccc> ccc<dcc> dcc<ecc> ecc<fcc> fcc<afc> afc<bfc> bfc<cfc> cfc<dfc> dfc<efc> efc<ffc> ffc;
+    #showme <acd> acd<bcd> bcd<ccd> ccd<dcd> dcd<ecd> ecd<fcd> fcd<afd> afd<bfd> bfd<cfd> cfd<dfd> dfd<efd> efd<ffd> ffd;
+    #showme <ace> ace<bce> bce<cce> cce<dce> dce<ece> ece<fce> fce<afe> afe<bfe> bfe<cfe> cfe<dfe> dfe<efe> efe<ffe> ffe;
+    #showme <acf> acf<bcf> bcf<ccf> ccf<dcf> dcf<ecf> ecf<fcf> fcf<aff> aff<bff> bff<cff> cff<dff> dff<eff> eff<fff> fff;
+}
+
 #nop ----- startup -----
 
 mapper_print_msg loaded
