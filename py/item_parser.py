@@ -18,7 +18,7 @@ class ItemParser():
     def __init__(self):
         self.item_data = ItemData()
 
-    def parse_and_archive_file(self, fname):
+    def read_and_parse_file(self, fname):
         lines = []
         try:
             lines = self.read_file(fname)
@@ -27,9 +27,7 @@ class ItemParser():
 
         if lines.__len__() > 0:
             items = self.parse_file(lines)
-            existingItems = self.item_data.load_items()
-            self.item_data.write_item_json(items, existingItems)
-            self.archive_data(fname, lines)
+            self.item_data.write_item_json(items)
 
     def parse_file(self, lines):
         line_break = "-----"
@@ -409,4 +407,4 @@ class ItemParser():
 
 
 if __name__ == '__main__':
-    ItemParser().parse_and_archive_file("logs/ident.log")
+    ItemParser().read_and_parse_file("logs/ident.log")

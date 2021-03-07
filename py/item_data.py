@@ -11,9 +11,10 @@ class ItemData():
         except:
             return []
 
-    def write_item_json(self, items, existing_items):
+    def write_item_json(self, items):
+        items_arr = []
         for item in items:
-            existing_items.append(item.__dict__())
+            items_arr.append(item.__dict__())
 
         with open('data/items.json', 'w+') as f:
-            json.dump(existing_items, f)
+            json.dump(items_arr, f)

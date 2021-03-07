@@ -1559,7 +1559,8 @@ class TestItemParser(unittest.TestCase):
         self.assert_equals(item, actual)
 
     def test_parse_file__the_ontological_musings_of_wealtheo(self):
-        actual = self.read_item_from_file("the-ontological-musings-of-wealtheo")
+        actual = self.read_item_from_file(
+            "the-ontological-musings-of-wealtheo")
 
         item = Item()
         item.name = "the Ontological Musings of Wealtheo"
@@ -1603,7 +1604,85 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.WATERWALK)
 
         self.assert_equals(item, actual)
-        
+
+    def test_parse_file__a_white_potion_of_froboz_liquid_curing(self):
+        actual = self.read_item_from_file(
+            "a-white-potion-of-froboz-liquid-curing")
+
+        item = Item()
+        item.name = "a white potion of \"Froboz\" (tm) liquid curing"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 100
+        item.rent = 50
+        item.min_level = 0
+        item.max_level = 10
+
+        item.spell_level = 12
+        item.spells.append(ItemSpell.REMOVE_POISON)
+        item.spells.append(ItemSpell.CURE_LIGHT)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_golden_potion(self):
+        actual = self.read_item_from_file("a-golden-potion")
+
+        item = Item()
+        item.name = "a golden potion"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 100
+        item.rent = 50
+        item.min_level = 0
+        item.max_level = 10
+
+        item.spell_level = 12
+        item.spells.append(ItemSpell.HEAL)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+
+    def test_parse_file__a_wooden_stick(self):
+        actual = self.read_item_from_file("a-wooden-stick")
+
+        item = Item()
+        item.name = "a wooden stick"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 4
+        item.value = 35000
+        item.rent = 8000
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.FLY)
+        item.charge_max = 4
+        item.charge_remain = 4
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
