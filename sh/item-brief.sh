@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 py/item-brief/item_brief_find.py "$*"
+python3 py/item_brief_find.py "$*"

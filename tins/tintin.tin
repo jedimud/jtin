@@ -20,8 +20,9 @@
     ident_log_print_msg loaded
 }
 
-#nop #class item-brief clear;
-#nop #class item-brief read tins/item-brief.tin;
+#class item-brief clear;
+#class item-brief read tins/item-brief.tin;
+
 #nop #var {item_brief_insured_tag} {false};
 #nop item_brief_load_actions;
 
