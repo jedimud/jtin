@@ -1657,7 +1657,6 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
-
     def test_parse_file__a_wooden_stick(self):
         actual = self.read_item_from_file("a-wooden-stick")
 

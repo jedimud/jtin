@@ -55,7 +55,7 @@ __pycache__
 *.tin
 !/tins/*.tin
 !/maps/*.tin
-/data/**
+/data
 
 # Excel
 *.xlsx

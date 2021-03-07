@@ -1,5 +1,6 @@
 import json
 
+
 class ItemData():
 
     def load_items(self):
