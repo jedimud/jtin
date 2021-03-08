@@ -2,7 +2,8 @@
     #regex {%1} {^%+>} {
         end_item_brief;
     } {
-        #line ignore #script {item} {sh -c './sh/item-brief.sh "%1"'};
+        item_brief_find {%1};
+
         #if {"$item[3]" != ""} {
             #if {"$item_brief_sac" == "true"} {
                 #line ignore #show <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>
@@ -21,5 +22,7 @@
             };
             #line ignore #line gag;
         };
+
+        #unvar item;
     }
 } {9}

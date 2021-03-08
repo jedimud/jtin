@@ -71,6 +71,12 @@
     }
 }
 
+#alias item_brief_find {
+    #var item_name {"%1"};
+    #replace item_name {'} {_};
+    #script {item} {sh -c './sh/item-brief_find.sh $item_name'};
+}
+
 #nop ----- default on load -----
 
 #var {item_brief_insured_tag} {true}

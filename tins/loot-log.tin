@@ -21,7 +21,3 @@
     #showme <afc>[LOOT-LOG] %1;
 }
 
-
-#nop ----- startup -----
-
-loot_log_print_msg loaded

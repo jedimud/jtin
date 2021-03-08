@@ -365,6 +365,4 @@
     #showme <acf> acf<bcf> bcf<ccf> ccf<dcf> dcf<ecf> ecf<fcf> fcf<aff> aff<bff> bff<cff> cff<dff> dff<eff> eff<fff> fff;
 }
 
-#nop ----- startup -----
 
-mapper_print_msg loaded

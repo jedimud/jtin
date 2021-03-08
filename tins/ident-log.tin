@@ -6,6 +6,7 @@
 
 #alias clear_action {
     #class ident-action clear;
+    #unvar ident_tag;
 }
 
 #high {^You don't seem to have an identify.$} {Red}

@@ -25,6 +25,8 @@ def find_item(item_name, insure_tag):
 def main():
     item_name = sys.argv[1]
 
+    item_name = item_name.replace("_", "'")
+
     insure_tag = ""
     if "(insured)" in item_name:
         insure_tag = "(insured)"
