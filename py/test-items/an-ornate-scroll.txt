@@ -1,0 +1,7 @@
+Object 'an ornate scroll', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 2, Value: 7000, Rent: 3500, Min. level: 0
+This SCROLL casts:  Level 18 of fireblast fireblast ice storm
+Item slot: Hold
+-----

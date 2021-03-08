@@ -1682,6 +1682,32 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__an_ornate_scroll(self):
+        actual = self.read_item_from_file("an-ornate-scroll")
+
+        item = Item()
+        item.name = "an ornate scroll"
+        item.type = ItemType.SCROLL
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 2
+        item.value = 7000
+        item.rent = 3500
+        item.min_level = 0
+
+        item.spell_level = 18
+        item.spells.append(ItemSpell.FIREBLAST)
+        item.spells.append(ItemSpell.FIREBLAST)
+        item.spells.append(ItemSpell.ICE_STORM)
+        
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
