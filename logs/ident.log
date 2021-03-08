@@ -6741,3 +6741,99 @@ Object 'a crumpled piece of paper', Item type: NOTE
 Item will give you following abilities:  NOBITS 
 Item is: UNIQUE 
 Weight: 1, Value: 1, Rent: 100000, Min. level: 0
+-----
+Object 'a pair of flesh leg greaves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !DROP !GOOD !NEUTRAL !MAGE UNIQUE 
+Weight: 6, Value: 100, Rent: 50, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HITROLL By -1
+   Affects: DAMROLL By -1
+Item slot: Legs
++++++
+ 
+The mottled purple color of these greaves makes you wonder what beast
+this skin was from.  You're better off not knowing...
+ (glowing)
+
+-----
+Object 'Sword of Vengeance', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL !MAGE !CLER !THF !NINJA !JEDI !SOHEI LIMITED UNIQUE 
+Weight: 18, Value: 15000, Rent: 7500, Min. level: 15
+Damage Dice is '5D3' for an average per-round damage of 10.0.
+Item slot: Weapon
++++++
+ 
+You see nothing special.
+
+-----
+Object 'a human thigh bone', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 20, Value: 80, Rent: 20, Min. level: 0
+Damage Dice is '1D5' for an average per-round damage of 3.0.
+Item slot: Weapon
++++++
+ 
+You know what a human thigh bone looks like.
+
+
+-----
+Object 'a large pike', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 16, Value: 3000, Rent: 1000, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Can affect you as :
+   Affects: STR By -1
+   Affects: HITROLL By 1
+Item slot: Weapon
++++++
+ 
+A long pole topped with a curved blade (scimitar-like).
+
+
+-----
+Object 'a dented crown', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DROP UNIQUE 
+Weight: 10, Value: 5000, Rent: 2540, Min. level: 0
+AC-apply is 8
+Can affect you as :
+   Affects: WIS By 2
+   Affects: CON By -1
+Item slot: Head
++++++
+ 
+This "royal" crown looks more like an iron dog collar than anything
+else.
+
+
+-----
+Object 'a suit of rusting chainmail', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 20, Value: 1000, Rent: 200, Min. level: 0
+AC-apply is 12
+Item slot: On Body
++++++
+ 
+This was, at one time, a fine suit of chain armor. Now, it is rusted
+to the point of near uselessness.
+
+
+-----
+Object 'a holey majestic cloak', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !THF !WAR !NINJA LIMITED !RANGER !BARD UNIQUE 
+Weight: 5, Value: 5000, Rent: 7500, Min. level: 15
+AC-apply is 3
+Can affect you as :
+   Affects: STR By -1
+   Affects: DAMROLL By 1
++++++
+ 
+This worn piece of cloth is more hole than whole.
+
