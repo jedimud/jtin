@@ -6837,3 +6837,85 @@ Can affect you as :
  
 This worn piece of cloth is more hole than whole.
 
+-----
+Object 'Froboz's robe', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 5, Value: 10000, Rent: 3500, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -3
+   Affects: DAMROLL By 1
+Item slot: On Body
+-----
+Object 'a prototype wand', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF !WAR !NINJA UNIQUE 
+Weight: 6, Value: 7000, Rent: 3500, Min. level: 0
+This WAND casts: fireball of level 15
+It has 3 maximum charges and 3 remaining.
+Can affect you as :
+   Affects: STR By -2
+   Affects: SAVE_SPELL By -4
+Item slot: Hold
+-----
+Object 'an opal key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'an ornate scroll', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 2, Value: 7000, Rent: 3500, Min. level: 0
+This SCROLL casts:  Level 18 of fireblast fireblast ice storm
+Item slot: Hold
+-----
+Object 'a plain scroll', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 2, Value: 1000, Rent: 500, Min. level: 0
+This SCROLL casts:  Level 15 of charm person
+Item slot: Hold
+-----
+Object 'a yellow potion of see invisible, by "Froboz, Inc"(tm)', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 1, Value: 500, Rent: 250, Min. level: 0
+This POTION casts:  Level 12 of detect invisibility detect invisibility detect invisibility
+Item slot: Hold
+-----
+Object 'a pair of leather sandals', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 50, Rent: 10, Min. level: 0
+AC-apply is 2
+Item slot: Feet
+-----
+Object 'a flask', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 8, Value: 250, Rent: 125, Min. level: 0
+This POTION casts:  Level 9 of blindness curse cause serious
+-----
+Object 'the quenched sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 16, Value: 4900, Rent: 1000, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Item slot: Wield
+Item slot: Hold
+-----
+Object 'a staff of sleep', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF !WAR !NINJA UNIQUE 
+Weight: 7, Value: 6500, Rent: 1625, Min. level: 0
+This STAFF casts: sleep of level 12
+It has 2 maximum charges and 2 remaining.
+Item slot: Hold
+-----
+Object 'a long sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !DONATE UNIQUE 
+Weight: 8, Value: 600, Rent: 60, Min. level: 0
+Damage Dice is '1D8' for an average per-round damage of 4.5.
+Item slot: Wield
