@@ -1,0 +1,8 @@
+Object 'a sturdy beltpack', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 5000, Rent: 1000, Min. level: 0
+It can hold approximately 200 units.
+Can affect you as :
+Item slot: Waist
+-----

@@ -1,0 +1,12 @@
+Object 'a golden amulet', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD !THF !WAR !PAL !NINJA UNIQUE 
+Weight: 2, Value: 4000, Rent: 1500, Min. level: 9
+This STAFF casts: call lightning of level 20
+It has 3 maximum charges and 3 remaining.
+Can affect you as :
+   Affects: MANA By 11
+   Affects: HITROLL By -1
+Item slot: Neck
+Item slot: Hold
+-----

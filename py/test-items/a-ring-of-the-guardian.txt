@@ -1,0 +1,10 @@
+Object 'a ring of the guardian', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM INVIS NEUTRAL !THF !NINJA UNIQUE 
+Weight: 2, Value: 1500, Rent: 5500, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HIT By 2
+Item slot: Ring
+-----

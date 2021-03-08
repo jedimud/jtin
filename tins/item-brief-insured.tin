@@ -1,0 +1,167 @@
+#sub { (insured)} {<fca> (I)<099>}
+
+#action {^<used as light>      %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <used as light>      <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <used as light>      <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn on finger>     %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn on finger>     <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on finger>     <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn around neck>   %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn around neck>   <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn around neck>   <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn on body>       %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn on body>       <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on body>       <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn on head>       %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn on head>       <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on head>       <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn on legs>       %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn on legs>       <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on legs>       <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn on feet>       %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn on feet>       <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on feet>       <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn on hands>      %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn on hands>      <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on hands>      <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn on arms>       %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn on arms>       <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on arms>       <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn as shield>     %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn as shield>     <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn as shield>     <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn about body>    %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn about body>    <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn about body>    <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn about waist>   %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn about waist>   <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn about waist>   <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn around wrist>  %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <worn around wrist>  <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn around wrist>  <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<wielded>            %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <wielded>            <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <wielded>            <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<held>               %2 (insured)} {
+    item_brief_find {%2};
+    #if {"$item_brief_sac" == "true"} {
+        #line ignore #show <held>               <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <held>               <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}

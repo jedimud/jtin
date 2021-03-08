@@ -1,0 +1,30 @@
+#high {^You knock %1 to the ground with your pummel!$} {reverse}
+#action {^You knock %1 to the ground with your pummel!$} {
+    #ney #showme <acf>successful pummel, ready to pummel again;
+    @perform_pummel{};
+}
+
+#high {^You try to pummel %1 but miss.$} {reverse}
+#action {^You try to pummel %1 but miss.$} {
+    #ney #showme <acf>failed to pummel, trying again;
+    @perform_pummel{};
+}
+
+#variable pummel_action not_pending;
+
+#function perform_pummel {
+    #if {"$pummel_action"=="pending"} { 
+        #nop #ney #showme <acf> cannot pummel, already pending;
+    } {
+        #nop #ney #showme <acf> pummeling;
+        #variable pummel_action pending;
+        #tsu pummel;
+    };
+    #return;
+}
+
+#action {^%1 is dead! R.I.P.} {
+    #unvar pummel_action;
+}
+
+#nop TODO reset on rip, calm, summon

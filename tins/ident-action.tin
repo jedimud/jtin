@@ -37,7 +37,7 @@
 #alias check_description {
     #variable ident_state {description};
     #delay {0.25} {
-        check_description_wrapper $ident_tag;
+        #nop check_description_wrapper $ident_tag;
         #delay {1} {
             #showme <caf>identify scroll output captured;
             #unvar ident_state;
@@ -173,6 +173,24 @@
 
 #alias capture_on_body {
     #line log logs/ident.log {Item slot: On Body};
+    check_hold;
+}
+
+#nop ----- face -----
+
+#high {^You put %1 on your face.$} {reverse}
+#action {^You put %1 on your face.$} {
+    rem $ident_tag;
+    capture_face;
+}
+
+#high {^You're already wearing something on your face.$} {reverse}
+#action {^You're already wearing something on your face.$} { 
+    capture_face;
+}
+
+#alias capture_face {
+    #line log logs/ident.log {Item slot: Face};
     check_hold;
 }
 
@@ -319,7 +337,7 @@
 }
 
 #high {^You can't wear anything else around your neck.$} {reverse}
-#action {^You can't wear anything else around your neck.$} {
+#action {You can't wear anything else around your neck.} {
     capture_neck;
 }
 
@@ -410,7 +428,7 @@
 }
 
 #alias capture_wield {
-    #line log logs/ident.log {Item slot: Weapon};
+    #line log logs/ident.log {Item slot: Wield};
     check_hold;
 }
 

@@ -1,0 +1,10 @@
+Object 'a Dinosaur skin cape', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !DONATE !JUNK UNIQUE INSURED 
+Weight: 10, Value: 50, Rent: 5000, Min. level: 10
+AC-apply is 10
+Can affect you as :
+   Affects: DEX By -1
+   Affects: DAMROLL By 1
+Item slot: About Body
+-----

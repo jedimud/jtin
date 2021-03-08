@@ -1,0 +1,10 @@
+Object 'a pair of thin white gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DROP !NEUTRAL !MAGE !JEDI UNIQUE 
+Weight: 2, Value: 500, Rent: 250, Min. level: 0
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By -1
+   Affects: DAMROLL By 1
+Item slot: Hands
+-----

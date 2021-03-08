@@ -1,0 +1,86 @@
+#nop ------- AUTO-DISARM ------- 
+#nop ------- AUTO-DISARM VERY HARD ------- 
+
+#high {%1 hits you very hard.} { reverse; }
+#action {%1 hits you very hard.} { @perform_disarm{}; }
+
+#high {%1 strikes you very hard.} { reverse; }
+#action {%1 strikes you very hard.} { @perform_disarm{}; }
+
+#high {%1 hammers you very hard.} { reverse; }
+#action {%1 hammers you very hard.} { @perform_disarm{}; }
+
+#high {%1 chops you very hard.} { reverse; }
+#action {%1 chops you very hard.} { @perform_disarm{}; }
+
+#high {%1 blasts you very hard.} { reverse; }
+#action {%1 blasts you very hard.} { @perform_disarm{}; }
+
+
+#nop ------- AUTO-DISARM EXTREMELY HARD ------- 
+
+#high {%1 hits you extremely hard.} { reverse; }
+#action {%1 hits you extremely hard.} { @perform_disarm{}; }
+
+#high {%1 strikes you extremely hard.} { reverse; }
+#action {%1 strikes you extremely hard.} { @perform_disarm{}; }
+
+#high {%1 hammers you extremely hard.} { reverse; }
+#action {%1 hammers you extremely hard.} { @perform_disarm{}; }
+
+#high {%1 chops you extremely hard.} { reverse; }
+#action {%1 chops you extremely hard.} { @perform_disarm{}; }
+
+#high {%1 blasts you extremely hard.} { reverse; }
+#action {%1 blasts you extremely hard.} { @perform_disarm{}; }
+
+
+#nop ------- AUTO-DISARM DECIMATES ------- 
+
+#high {%1 decimates you to small fragments with %2 hit.} { reverse; }
+#action {%1 decimates you to small fragments with %2 hit.} { @perform_disarm{}; }
+
+#high {%1 decimates you to small fragments with %2 strike.} { reverse; }
+#action {%1 decimates you to small fragments with %2 strike.} { @perform_disarm{}; }
+
+#high {%1 decimates you to small fragments with %2 hammer.} { reverse; }
+#action {%1 decimates you to small fragments with %2 hammer.} { @perform_disarm{}; }
+
+#high {%1 decimates you to small fragments with %2 chop.} { reverse; }
+#action {%1 decimates you to small fragments with %2 chop.} { @perform_disarm{}; }
+
+#high {%1 decimates you to small fragments with %2 blast.} { reverse; }
+#action {%1 decimates you to small fragments with %2 blast.} { @perform_disarm{}; }
+
+
+#nop ------- AUTO-DISARM PERFORM ------- 
+
+#variable disarm_action not_pending;
+
+#action {Your attempt ends in a disarming failure!} {
+    #nop #ney #showme <acf>disarm failed, trying again;
+    #variable disarm_action not_pending;
+    disarm;
+    #return;
+}
+
+#action {You disarm %1 with lightning efficiency!} {
+    #nop #ney #showme <acf>successful disarm, ready to check again;
+    #variable disarm_action not_pending;
+}
+
+#function perform_disarm {
+    #if {"$disarm_action"=="pending"} { 
+        #ney #showme <acf> can't disarm, already pending $disarm_action;
+    } {
+        #ney #showme <acf> disarming;
+        #variable disarm_action pending;
+        disarm;
+    };
+    #return;
+}
+
+#action {%1 is dead} { 
+    #nop #ney #showme <acf> reset;
+    #variable disarm_action not_pending; 
+}

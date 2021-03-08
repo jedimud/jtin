@@ -1,0 +1,9 @@
+Object 'a stupid bardic colleges T-shirt', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !DROP !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RENT !DONATE !RANGER !BARD 
+Weight: 3, Value: 0, Rent: 0, Min. level: 16
+Can affect you as :
+   Affects: MANA_REGEN By 5
+   Affects: MOVE By -99
+Item slot: On Body
+-----

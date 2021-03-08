@@ -1,11 +1,13 @@
 #alias mapper_load {
     #class mapper clear;
     #class mapper read tins/mapper.tin;
+    mapper_print_msg loaded
 }
 
 #alias loot_log_load {
     #class loot-log clear;
     #class loot-log read tins/loot-log.tin;
+    loot_log_print_msg loaded
 }
 
 #alias kill_log_load {
@@ -20,10 +22,11 @@
     ident_log_print_msg loaded
 }
 
-#nop #class item-brief clear;
-#nop #class item-brief read tins/item-brief.tin;
-#nop #var {item_brief_insured_tag} {false};
-#nop item_brief_load_actions;
+#alias item_brief_load {
+    #class item-brief clear;
+    #class item-brief read tins/item-brief.tin;
+    print_item_brief_msg loaded
+}
 
 #nop ----- startup -----
 
@@ -31,3 +34,4 @@ mapper_load;
 loot_log_load;
 kill_log_load;
 ident_log_load;
+item_brief_load;

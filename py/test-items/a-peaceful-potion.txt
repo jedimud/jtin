@@ -1,0 +1,13 @@
+Object 'a peaceful potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 17542, Rent: 5625, Min. level: 0
+This POTION casts:  Level 10 of protection from evil protection from good invisible
+Item slot: Hold
++++++
+ 
+An inscription on the vial reads, 'For safe journeys and the protection 
+of the spirit.'
+
+
+-----

@@ -1,0 +1,5 @@
+Object 'a shining black ninja star', Item type: MISSILE
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !WAR !PAL !APAL !JEDI LIMITED !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1250, Rent: 625, Min. level: 0
+-----

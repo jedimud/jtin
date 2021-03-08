@@ -1,0 +1,16 @@
+Object 'a sturdy iron shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !THF !NINJA !BARD UNIQUE 
+Weight: 5, Value: 5000, Rent: 1250, Min. level: 10
+AC-apply is 7
+Can affect you as :
+   Affects: SAVE_BREATH By -2
+   Affects: SAVE_SPELL By -2
+Item slot: Shield
++++++
+ 
+This would make a fine addition to your inventory. It looks
+like a very strong, trustworthy shield.
+ (glowing)
+
+-----

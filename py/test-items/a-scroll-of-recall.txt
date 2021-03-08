@@ -1,0 +1,6 @@
+Object 'a scroll of recall', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE ASSM 
+Weight: 4, Value: 2400, Rent: 600, Min. level: 0
+This SCROLL casts:  Level 12 of word of recall control weather control weather
+-----

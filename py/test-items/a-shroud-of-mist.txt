@@ -1,0 +1,9 @@
+Object 'a shroud of mist', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS GOOD !RENT UNIQUE 
+Weight: 1, Value: 2500, Rent: 25, Min. level: 0
+This WAND casts: rejuvenate of level 5
+It has 3 maximum charges and 3 remaining.
+Item slot: About Body
+Item slot: Hold
+-----

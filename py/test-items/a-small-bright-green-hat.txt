@@ -1,0 +1,10 @@
+Object 'a small bright green hat', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DROP UNIQUE 
+Weight: 1, Value: 200, Rent: 50, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: MOVE_REGEN By 5
+   Affects: HEIGHT By 20
+Item slot: Head
+-----

@@ -1,0 +1,13 @@
+Object 'the medallion of enchantment', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: GLOW EVIL MAG !GOOD !THF !WAR !PAL !NINJA !RANGER !BARD UNIQUE 
+Weight: 3, Value: 40000, Rent: 250, Min. level: 14
+This STAFF casts: charm person of level 14
+It has 1 maximum charges and 1 remaining.
+Can affect you as :
+   Affects: CHARISMA By 1
+   Affects: MANA_REGEN By 1
+This item has a maximum level of 20.
+Item slot: Neck
+Item slot: Hold
+-----

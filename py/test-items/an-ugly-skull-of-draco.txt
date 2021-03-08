@@ -1,0 +1,14 @@
+Object 'an ugly skull of Draco', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !DROP UNIQUE 
+Weight: 20, Value: 10000, Rent: 3000, Min. level: 0
+This WAND casts: fireball of level 15
+It has 3 maximum charges and 3 remaining.
+Item slot: Hold
++++++
+ 
+This extremely large skull seems to glow with a strange power as
+you turn it from side to side.
+ (humming)
+
+-----

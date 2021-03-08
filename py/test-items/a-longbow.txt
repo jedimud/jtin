@@ -1,0 +1,7 @@
+Object 'a longbow', Item type: FIRE-WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !CLER UNIQUE 
+Weight: 9, Value: 10000, Rent: 5000, Min. level: 13
+It has 6 maximum charges and 15 remaining.
+Damage Dice is '3D5' This weapon currently has 15 of a maximum 6 charges.
+-----

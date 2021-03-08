@@ -10,7 +10,7 @@ Real-time, comma-delimited log of items looted from corpses.
 
 Load loot-log tin as class at TinTin++ startup.
 
-`#class mapper read tins/loot-log.tin`
+`#class loot-log read tins/loot-log.tin`
 
 > [Mapper](mapper.md) is required to properly capture zone where corpse was looted.
 
