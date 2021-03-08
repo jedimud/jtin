@@ -1,5 +1,5 @@
 #action {^The corpse of %1 seems to be empty.$} {
-    capture_loot_log {%1} {};
+    capture_loot_log {} {%1};
 }
 
 #action {^You get %1 from the corpse of %2.$} {
