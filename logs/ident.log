@@ -6763,7 +6763,7 @@ Item will give you following abilities:  NOBITS
 Item is: !NEUTRAL !MAGE !CLER !THF !NINJA !JEDI !SOHEI LIMITED UNIQUE 
 Weight: 18, Value: 15000, Rent: 7500, Min. level: 15
 Damage Dice is '5D3' for an average per-round damage of 10.0.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 You see nothing special.
@@ -6774,7 +6774,7 @@ Item will give you following abilities:  NOBITS
 Item is: UNIQUE 
 Weight: 20, Value: 80, Rent: 20, Min. level: 0
 Damage Dice is '1D5' for an average per-round damage of 3.0.
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 You know what a human thigh bone looks like.
@@ -6789,7 +6789,7 @@ Damage Dice is '3D4' for an average per-round damage of 7.5.
 Can affect you as :
    Affects: STR By -1
    Affects: HITROLL By 1
-Item slot: Weapon
+Item slot: Wield
 +++++
  
 A long pole topped with a curved blade (scimitar-like).
