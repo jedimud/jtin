@@ -39,6 +39,7 @@ class ItemSpell(Enum):
     REMOVE_POISON = "remove poison"
     SANCTUARY = "sanctuary"
     SENSE_LIFE = "sense life"
+    SLAY = "slay"
     SLEEP = "sleep"
     STRENGTH = "strength"
     TELEPORT = "teleport"
