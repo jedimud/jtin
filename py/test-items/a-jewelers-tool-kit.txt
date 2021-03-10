@@ -1,0 +1,5 @@
+Object 'a jewelers tool kit', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: !LOCATE 
+Weight: 1, Value: 10, Rent: 0, Min. level: 0
+-----
