@@ -26,5 +26,3 @@
 #action {^%1 is dead! R.I.P.} {
     #unvar pummel_action;
 }
-
-#nop TODO reset on rip, calm, summon
