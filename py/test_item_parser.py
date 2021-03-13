@@ -1703,12 +1703,12 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.FIREBLAST)
         item.spells.append(ItemSpell.FIREBLAST)
         item.spells.append(ItemSpell.ICE_STORM)
-        
+
         item.slots.append(ItemSlot.HOLD)
 
         self.assert_equals(item, actual)
 
-    def test_parse_file__a_gleaming_golden_horn(self):    
+    def test_parse_file__a_gleaming_golden_horn(self):
         actual = self.read_item_from_file("a-gleaming-golden-horn")
 
         item = Item()
@@ -1730,12 +1730,12 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.SLAY)
         item.charge_remain = 3
         item.charge_max = 3
-        
+
         item.slots.append(ItemSlot.HOLD)
 
         self.assert_equals(item, actual)
 
-    def test_parse_file__a_jewelers_tool_kit(self):    
+    def test_parse_file__a_jewelers_tool_kit(self):
         actual = self.read_item_from_file("a-jewelers-tool-kit")
 
         item = Item()
@@ -1752,7 +1752,7 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
-    def test_parse_file__a_globe_artichoke(self):    
+    def test_parse_file__a_globe_artichoke(self):
         actual = self.read_item_from_file("a-globe-artichoke")
 
         item = Item()
@@ -1766,6 +1766,36 @@ class TestItemParser(unittest.TestCase):
         item.value = 30
         item.rent = 30
         item.min_level = 0
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__the_staff_of_the_black_bishop(self):
+        actual = self.read_item_from_file("the-staff-of-the-black-bishop")
+
+        item = Item()
+        item.name = "the Staff of the Black Bishop"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.GLOW)
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemAlign.NO_GOOD)
+        item.tags.append(ItemClass.NO_THF)
+        item.tags.append(ItemClass.NO_WAR)
+        item.tags.append(ItemClass.NO_NINJA)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 3
+        item.value = 18500
+        item.rent = 7500
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.CAUSE_CRITIC)
+        item.charge_remain = 3
+        item.charge_max = 3
+
+        item.slots.append(ItemSlot.HOLD)
 
         self.assert_equals(item, actual)
 

@@ -1,0 +1,8 @@
+Object 'the Staff of the Black Bishop', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !GOOD !THF !WAR !NINJA UNIQUE 
+Weight: 3, Value: 18500, Rent: 7500, Min. level: 0
+This WAND casts: cause critic of level 20
+It has 3 maximum charges and 3 remaining.
+Item slot: Hold
+-----
