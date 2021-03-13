@@ -1799,6 +1799,29 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_clear_potion(self):
+        actual = self.read_item_from_file("a-clear-potion")
+
+        item = Item()
+        item.name = "a clear potion"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 2
+        item.value = 2500
+        item.rent = 1200
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.DETECT_ALIGNMENT)
+        item.spells.append(ItemSpell.DETECT_INVISIBILITY)
+        item.spells.append(ItemSpell.DETECT_MAGIC)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

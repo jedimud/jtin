@@ -1,0 +1,6 @@
+Object 'a clear potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 2, Value: 2500, Rent: 1200, Min. level: 0
+This POTION casts:  Level 20 of detect alignment detect invisibility detect magic
+-----

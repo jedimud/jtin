@@ -7745,3 +7745,116 @@ Item will give you following abilities:  NOBITS
 Item is: !DONATE UNIQUE 
 Weight: 1, Value: 10, Rent: 25, Min. level: 0
 Item slot: Light
+-----
+Object 'a small bottle of dried poison ivy', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 5, Rent: 100, Min. level: 0
+-----
+Object 'a blank piece of parchment', Item type: NOTE
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 1000, Rent: 2, Min. level: 0
+-----
+Object 'a strange amulet', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 1, Value: 10000, Rent: 5000, Min. level: 0
+Can affect you as :
+   Affects: MANA By 10
+Item slot: Neck
+-----
+Object 'a druish staff', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 4, Value: 30, Rent: 15, Min. level: 0
+Item slot: Hold
+-----
+Object 'a scroll titled 'jhyfrdow'', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF !WAR !NINJA UNIQUE 
+Weight: 1, Value: 200, Rent: 100, Min. level: 0
+This SCROLL casts:  Level 11 of earthquake
+-----
+Object 'a strange template', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF !WAR !NINJA UNIQUE 
+Weight: 1, Value: 1000, Rent: 500, Min. level: 0
+This SCROLL casts:  Level 15 of energy drain curse
+Item slot: Hold
+-----
+Object 'a clear potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 2, Value: 2500, Rent: 1200, Min. level: 0
+This POTION casts:  Level 20 of detect alignment detect invisibility detect magic
+-----
+Object 'woolen sleeves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG LIMITED UNIQUE 
+Weight: 10, Value: 2000, Rent: 3000, Min. level: 5
+AC-apply is 5
+Can affect you as :
+   Affects: MANA By 4
+   Affects: MANA_REGEN By 4
+Item slot: Arms
+-----
+Object 'a slimey helmet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL !MAGE !DONATE UNIQUE 
+Weight: 6, Value: 5000, Rent: 1000, Min. level: 8
+AC-apply is 10
+Item slot: Head
+-----
+Object 'a pair of supple leather sleeves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !RANGER !BARD UNIQUE 
+Weight: 4, Value: 50, Rent: 7, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: DEX By 2
+Item slot: Arms
+-----
+Object 'a divine light of revelation', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW BLESS !EVIL !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 500, Rent: 25, Min. level: 8
+Can affect you as :
+   Affects: INT By 1
+   Affects: WIS By 1
+Item slot: Light
+-----
+Object 'a white hooded prayer cloak', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 8, Value: 200, Rent: 10, Min. level: 9
+Can affect you as :
+   Affects: WIS By 1
+   Affects: ARMOR By -6
+Item slot: About Body
+-----
+Object 'consecrated bread', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 50, Rent: 12, Min. level: 0
+Item slot: Hold
+-----
+Object 'Sword of the spirit', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 15, Value: 2000, Rent: 100, Min. level: 9
+Damage Dice is '3D7' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 4
+   Affects: MOVE_REGEN By 2
+Item slot: Wield
+-----
+Object 'Girdle of truth', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG BLESS !EVIL !NEUTRAL !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 6, Value: 2000, Rent: 100, Min. level: 7
+AC-apply is 6
+Can affect you as :
+   Affects: HIT By 5
+   Affects: STR By 1
+Item slot: Waist
