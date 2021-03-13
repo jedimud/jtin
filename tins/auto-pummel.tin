@@ -10,6 +10,12 @@
     @perform_pummel{};
 }
 
+#high {^%1 assists you!$} {reverse}
+#action {^%1 assists you!$} {
+    #ney #showme <acf>ready to pummel, queuing one up;
+    @perform_pummel{};
+}
+
 #variable pummel_action not_pending;
 
 #function perform_pummel {
