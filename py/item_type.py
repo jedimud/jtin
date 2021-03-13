@@ -24,6 +24,7 @@ class ItemType(Enum):
     MISSILE = "MISSILE", "missile"
     TRASH = "TRASH", "trash"
     NOTE = "NOTE", "note"
+    UNDEFINED = "UNDEFINED", "undefined"
 
     def __new__(cls, *args, **kwds):
         obj = object.__new__(cls)

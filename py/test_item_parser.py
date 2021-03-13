@@ -1822,6 +1822,24 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_jedimud_metropolitan_shuttle_token(self):
+        actual = self.read_item_from_file("a-jedimud-metropolitan-shuttle-token")
+
+        item = Item()
+        item.name = "a JediMud Metropolitan shuttle token"
+        item.type = ItemType.UNDEFINED
+        item.ability = ItemAbility.NOBITS
+       
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 0
+        item.value = 500
+        item.rent = 0
+        item.min_level = 0
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

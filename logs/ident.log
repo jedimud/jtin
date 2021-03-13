@@ -7858,3 +7858,94 @@ Can affect you as :
    Affects: HIT By 5
    Affects: STR By 1
 Item slot: Waist
+-----
+Object 'Staff of Power', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: HUM !THF !WAR !NINJA UNIQUE 
+Weight: 7, Value: 69000, Rent: 20000, Min. level: 13
+This STAFF casts: earthquake of level 40
+It has 3 maximum charges and 3 remaining.
+Item slot: Hold
+-----
+Object 'a mining pick', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: BLESS !MAGE !CLER UNIQUE 
+Weight: 1, Value: 525, Rent: 100, Min. level: 0
+Damage Dice is '2D3' for an average per-round damage of 4.0.
+Item slot: Wield
+-----
+Object 'a chunk of coal', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 1, Rent: 1, Min. level: 0
+Item slot: Hold
+-----
+Object 'a sharpened shank of metal', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 3, Value: 200, Rent: 10, Min. level: 7
+Damage Dice is '7D3' for an average per-round damage of 14.0.
+Can affect you as :
+   Affects: HITROLL By 3
+   Affects: DEX By 1
+Item slot: Wield
+-----
+Object 'a bull's-eye lantern', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 5, Value: 50, Rent: 100, Min. level: 8
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: MOVE_REGEN By 4
+Item slot: Light
+-----
+Object 'a soft black cloak', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 3, Value: 6000, Rent: 200, Min. level: 7
+Can affect you as :
+   Affects: CON By 2
+   Affects: HIT_REGEN By 3
+Item slot: About Body
+-----
+Object 'a set of brass knuckles', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 4, Value: 5000, Rent: 100, Min. level: 9
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Ring
+-----
+Object 'a wide belt', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 3, Value: 800, Rent: 1600, Min. level: 7
+It can hold approximately 150 units.
+Can affect you as :
+   Affects: CON By 1
+   Affects: STR By 1
+Item slot: Waist
+-----
+Object 'a JediMud Metropolitan shuttle token', Item type: UNDEFINED
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 0, Value: 500, Rent: 0, Min. level: 0
+-----
+Object 'a dwarven club', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 700, Rent: 140, Min. level: 0
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Item slot: Wield
+-----
+Object 'a coiled dragon ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !WAR !PAL !APAL !NINJA !SOHEI LIMITED UNIQUE 
+Weight: 5, Value: 50000, Rent: 10000, Min. level: 15
+AC-apply is 3
+Can affect you as :
+   Affects: WIS By 1
+   Affects: HIT_REGEN By 4
+Item slot: Ring
