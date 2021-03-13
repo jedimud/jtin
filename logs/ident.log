@@ -7949,3 +7949,100 @@ Can affect you as :
    Affects: WIS By 1
    Affects: HIT_REGEN By 4
 Item slot: Ring
+-----
+Object 'an illuminated lantern', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 5, Value: 5000, Rent: 250, Min. level: 7
+Can affect you as :
+   Affects: HIT_REGEN By 2
+   Affects: INT By 1
+Item slot: Light
+-----
+Object 'a black silk Hakama', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 15, Value: 10000, Rent: 500, Min. level: 7
+AC-apply is 3
+Can affect you as :
+   Affects: HIT By 10
+   Affects: HIT_REGEN By 2
+Item slot: About Body
+-----
+Object 'a Judan Obi belt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 4, Value: 5000, Rent: 250, Min. level: 8
+AC-apply is 6
+Can affect you as :
+   Affects: STR By 1
+   Affects: DEX By 1
+Item slot: Waist
+-----
+Object 'a Manriki chain', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 7, Value: 10000, Rent: 500, Min. level: 7
+Damage Dice is '2D11' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: STR By 1
+   Affects: DEX By 1
+Item slot: Wield
+-----
+Object 'a bottle of daiginjo-shu sake', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: BLESS !MAGE !CLER !THF !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 5, Value: 2000, Rent: 100, Min. level: 8
+It can hold approximately 40 units of liquid.
+Item slot: Hold
+-----
+Object 'a small loaf of desecrated bread', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: EVIL !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 50, Rent: 7, Min. level: 0
+Item slot: Hold
+-----
+Object 'a dark orb of hell fire', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: HUM EVIL MAG !GOOD !NEUTRAL !MAGE !CLER !THF !WAR !PAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 5000, Rent: 125, Min. level: 0
+Can affect you as :
+   Affects: STR By 1
+   Affects: WIS By 1
+Item slot: Light
+-----
+Object 'a floor length black cape with blood red trim', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: EVIL MAG !MAGE !CLER !THF !WAR !PAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 1000, Rent: 50, Min. level: 9
+Can affect you as :
+   Affects: ARMOR By -6
+   Affects: WIS By 1
+Item slot: About Body
+-----
+Object 'an armored girdle', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: EVIL !GOOD !NEUTRAL !MAGE !CLER !THF !WAR !PAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 10, Value: 800, Rent: 20, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: STR By 1
+   Affects: HIT By 5
+Item slot: Waist
+-----
+Object 'a wicked-looking axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: EVIL MAG !GOOD !NEUTRAL !MAGE !CLER !THF !WAR !PAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 5, Value: 2000, Rent: 50, Min. level: 9
+Damage Dice is '3D7' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 4
+   Affects: MOVE_REGEN By 2
+Item slot: Wield
+-----
+Object 'a steel longsword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 10, Value: 4900, Rent: 450, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Item slot: Wield
