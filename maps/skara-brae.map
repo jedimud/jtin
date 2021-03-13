@@ -18,7 +18,7 @@ F 8455
 
 G 0
 
-I 37
+I 31
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -548,7 +548,7 @@ E {   82} {s} {s} {4} {0} {} {1.000} {} {0.00}
 R {   73} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   37} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {   74} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   75} {d} {d} {32} {0} {} {1.000} {} {0.00}
+E {   75} {d} {room_link_action {down} {skara-brae-thief-guild} {1}} {32} {0} {} {1.000} {} {0.00}
 
 R {   74} {1048576} {} {} { } {} {} {} {} {} {1.000} {}
 E {   73} {w} {w} {8} {0} {} {1.000} {} {0.00}

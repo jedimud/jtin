@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -525,7 +525,6 @@ E {   56} {n} {#delay 0 {north;#map goto 55}} {1} {0} {} {1.000} {} {0.00}
 E {   78} {e} {#delay 0 {enter mausoleum;#map goto 78}} {2} {0} {} {1.000} {} {0.00}
 E {   68} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {   62} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   82} {ne} {ne} {3} {0} {} {1.000} {} {0.00}
 
 R {   65} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   62} {n} {n} {1} {0} {} {1.000} {} {0.00}
@@ -589,6 +588,3 @@ E {   81} {e} {e} {2} {0} {} {1.000} {} {0.00}
 R {   81} {0} {<fca>} {} { } {} {} {} {} {} {1.000} {}
 E {   80} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {   79} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   82} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   64} {sw} {sw} {12} {0} {} {1.000} {} {0.00}
