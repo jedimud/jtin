@@ -1,6 +1,6 @@
 # tintin-data
 
-TinTin++ scripts for jedimud.
+Collection of TinTin++ scripts for JediMUD.
 
 * [Unicode maps](docs/mapper.md)
 * [Item Brief](docs/item-brief.md)

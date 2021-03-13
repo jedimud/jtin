@@ -1,37 +1,35 @@
 #alias mapper_load {
     #class mapper clear;
     #class mapper read tins/mapper.tin;
-    mapper_print_msg loaded
+    mapper_print_msg enabled;
 }
 
 #alias loot_log_load {
     #class loot-log clear;
     #class loot-log read tins/loot-log.tin;
-    loot_log_print_msg loaded
+    loot_log_print_msg enabled;
 }
 
 #alias kill_log_load {
     #class kill-log clear;
     #class kill-log read tins/kill-log.tin;
-    kill_log_print_msg loaded
+    kill_log_print_msg enabled;
 }
 
 #alias ident_log_load {
     #class ident-log clear;
     #class ident-log read tins/ident-log.tin;
-    ident_log_print_msg loaded
+    ident_log_print_msg enabled;
 }
 
 #alias item_brief_load {
     #class item-brief clear;
     #class item-brief read tins/item-brief.tin;
-    print_item_brief_msg loaded
+    print_item_brief_msg enabled;
 }
 
-#nop ----- startup -----
-
-mapper_load;
-loot_log_load;
-kill_log_load;
-ident_log_load;
-item_brief_load;
+#alias auto_buff_load {
+    #class auto-buff clear;
+    #class auto-buff read tins/auto-buff.tin;
+    auto_buff_print_console_info enabled;
+}

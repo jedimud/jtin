@@ -53,7 +53,6 @@
 
 #nop ----- MAP EXITS -----
 
-#nop room_link e midgaard 109
 #alias room_link {
     #var path {};
     #switch {"%1"} {
