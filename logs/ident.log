@@ -8046,3 +8046,39 @@ Item is: !MAGE !CLER UNIQUE
 Weight: 10, Value: 4900, Rent: 450, Min. level: 0
 Damage Dice is '3D4' for an average per-round damage of 7.5.
 Item slot: Wield
+-----
+Object 'a loaf of challah', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 15, Rent: 7, Min. level: 0
+-----
+Object 'a small apple-filled pastry', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 3, Rent: 1, Min. level: 0
+-----
+Object 'a Scooby Snack', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 50, Rent: 25, Min. level: 0
+-----
+Object 'a loaf of sourdough bread', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 15, Rent: 10, Min. level: 0
+-----
+Object 'a Danish pastry', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 10, Rent: 5, Min. level: 0
+-----
+Object 'a bowl of chicken soup', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 1, Min. level: 0
+Item slot: Hold
+-----
+Object 'a croissant', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0

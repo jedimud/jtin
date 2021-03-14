@@ -1,3 +1,0 @@
-#alias jt_ab_print_state {
-    #showme <fac>* <adf>AUTO BUFF: <afc>console;
-}

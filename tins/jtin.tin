@@ -1,5 +1,10 @@
 #alias jt_print_message {
-    #showme <aef>jt :: %1;
+    #if {"$jt_t_window" == ""} {
+        #showme <aef>$jt_t_name :: %1;
+    }; 
+    #else {
+        $jt_t_window #showme <aef>$jt_t_name :: %1;
+    }
 }
 
 #alias jt_print_message_with_buffer {
@@ -11,11 +16,11 @@
     #showme ;
     #showme <aef>[jt] JediMUD TinTin++;
     #showme ;
+    jt_t_print_state;
+    #showme ;
     jt_m_print_state;
     #showme ;
     jt_ib_print_state;
-    #showme ;
-    jt_ab_print_state;
     #showme ;
     jt_dl_print_state;
     #showme ;
@@ -31,12 +36,61 @@
     #elseif {"%1" == "map"} {
         jt_m {%2};
     };
+    #elseif {"%1" == "toon"} {
+        jt_t {%2} {%3};
+    };
     #elseif {"%1" == "item-brief"} {
         jt_ib {%2};
     };
+    #elseif {"%1" == "data-logs"} {
+        jt_dl {%2} {%3};
+    };
     #else {
-        jt_print_message_with_buffer {<efc>unknown command, try :: jt (state|map|item-brief)};
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt (toon|state|map|item-brief|data-logs)};
     }
+}
+
+
+#nop ----- toon-configure -----
+
+
+#alias jt_t {
+    #if {"%1" == "name"} {
+        #if {"%2" != ""} {
+            jt_t_print_msg {name :: <efc>$jt_t_name};
+            #var jt_t_name {%2};
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt toon name <value>};
+        }
+    };
+    #elseif {"%1" == "window"} {
+        #if {"%2" != ""} {
+            jt_t_print_msg {window :: <efc>$jt_t_window};
+            #var jt_t_window {%2};
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt toon window <value>};
+        }
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt toon (name|window)};
+    }
+}
+
+#alias jt_t_default {
+    #var jt_t_name {jt};
+    #var jt_t_window {};
+}
+
+#alias jt_t_print_state {
+    #showme <fac>* <adf>TOON;
+    #showme <fac>  + <aef>Name: <afc>$jt_t_name;
+    #showme <fac>  + <aef>Window: <afc>$jt_t_window;
+}
+
+#alias jt_t_print_msg {
+    jt_print_message_with_buffer {toon :: %1}
 }
 
 
@@ -50,11 +104,130 @@
 #nop ----- data-logs -----
 
 
-#class jtin-data-logs kill;
-#class jtin-data-logs read tins/jtin-data-logs.tin;
+#alias jt_dl {
+    #if {"%1" == "identify"} {
+        #if {"%2" == "enabled"} {
+            #var jt_dl_i enabled;
+            jt_dl_i_load;
+            jt_dl_i_print_msg <afc>enabled;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_dl_i disabled;
+            jt_dl_i_unload;
+            jt_dl_i_print_msg <fca>disabled;
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt data-logs identify (enabled|disabled)};
+        }
+    };
+    #elseif {"%1" == "kill"} {
+        #if {"%2" == "enabled"} {
+            #var jt_dl_k enabled;
+            jt_dl_k_load;
+            jt_dl_k_print_msg <afc>enabled;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_dl_k disabled;
+            jt_dl_k_unload;
+            jt_dl_k_print_msg <fca>disabled;
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt data-logs kill (enabled|disabled)};
+        }
+    };
+    #elseif {"%1" == "loot"} {
+        #if {"%2" == "enabled"} {
+            #var jt_dl_l enabled;
+            jt_dl_l_load;
+            jt_dl_l_print_msg <afc>enabled;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_dl_l disabled;
+            jt_dl_l_unload;
+            jt_dl_l_print_msg <fca>disabled;
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt data-logs loot (enabled|disabled)};
+        }
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt data-logs (identify|kill|loot)};
+    }
+}
+
+#alias jt_dl_i_load {
+    #class jtin-data-logs-identify kill;
+    #class jtin-data-logs-identify read tins/jtin-data-logs-identify.tin;
+}
+
+#alias jt_dl_i_unload {
+    #class jtin-data-logs-identify kill;
+}
+
+#alias jt_dl_k_load {
+    #class jtin-data-logs-kill kill;
+    #class jtin-data-logs-kill read tins/jtin-data-logs-kill.tin;
+}
+
+#alias jt_dl_k_unload {
+    #class jtin-data-logs-kill kill;
+}
+
+#alias jt_dl_l_load {
+    #class jtin-data-logs-loot kill;
+    #class jtin-data-logs-loot read tins/jtin-data-logs-loot.tin;
+}
+
+#alias jt_dl_l_unload {
+    #class jtin-data-logs-loot kill;
+}
+
+#alias jt_dl_default {
+    #var jt_dl_i disabled;
+    #var jt_dl_k disabled;
+    #var jt_dl_l disabled;
+}
+
+#alias jt_dl_print_state {
+    #showme <fac>* <adf>DATA LOGS;
+    #if {"$jt_dl_i" == "enabled"} {
+        #showme <fac>  + <aef>Identify: <afc>$jt_dl_i;
+    } {
+        #showme <fac>  + <aef>Identify: <fca>$jt_dl_i;
+    };
+
+    #if {"$jt_dl_k" == "enabled"} {
+        #showme <fac>  + <aef>Kill: <afc>$jt_dl_k;
+    } {
+        #showme <fac>  + <aef>Kill: <fca>$jt_dl_k;
+    };
+
+    #if {"$jt_dl_l" == "enabled"} {
+        #showme <fac>  + <aef>Loot: <afc>$jt_dl_l;
+    } {
+        #showme <fac>  + <aef>Loot: <fca>$jt_dl_l;
+    };
+}
+
+#alias jt_dl_i_print_msg {
+    jt_dl_print_msg {identify :: %1}
+}
+
+#alias jt_dl_k_print_msg {
+    jt_dl_print_msg {kill :: %1}
+}
+
+#alias jt_dl_l_print_msg {
+    jt_dl_print_msg {loot :: %1}
+}
+
+#alias jt_dl_print_msg {
+    jt_print_message_with_buffer {data-logs :: %1}
+}
 
 
 #nop ----- item-brief -----
+
 
 #alias jt_ib {
     #if {"%1" == "disabled"} {
@@ -72,7 +245,7 @@
         jt_ib_load_insured;
     };
     #else {
-        jt_ib_print_msg {<efc>unknown command, try :: jt item-brief (stats|insured|sac|disabled)};
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt item-brief (stats|insured|sac|disabled)};
     }
 }
 
@@ -117,6 +290,7 @@
     jt_print_message_with_buffer {item-brief :: %1}
 }
 
+
 #nop ----- mapper -----
 
 
@@ -128,7 +302,7 @@
         jt_m_unload;
     };
     #else {
-        jt_m_print_msg {<efc>unknown command, try :: jt map (enabled|disabled)};
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt map (enabled|disabled)};
     }
 }
 
@@ -163,14 +337,10 @@
 }
 
 
-#nop ----- auto-buff -----
-
-
-#class jtin-auto-buff kill;
-#class jtin-auto-buff read tins/jtin-auto-buff.tin;
-
-
 #nop ----- startup -----
 
+
+jt_t_default
 jt_m_default;
 jt_ib_default;
+jt_dl_default
