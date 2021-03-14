@@ -1,0 +1,6 @@
+#alias jt_dl_print_state {
+    #showme <fac>* <adf>DATA LOGS;
+    #showme <fac>  + <aef>Identify: <afc>enabled;
+    #showme <fac>  + <aef>Kill: <afc>enabled;
+    #showme <fac>  + <aef>Loot: <afc>enabled;
+}

@@ -18,7 +18,7 @@ F 263
 
 G 0
 
-I 139
+I 1
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -257,7 +257,7 @@ E {    2} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {   55} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {   29} {sw} {sw} {12} {0} {} {1.000} {} {0.00}
 E {   30} {se} {se} {6} {0} {} {1.000} {} {0.00}
-E {   26} {w} {room_link_action {open west;west} {midgaard-temple} {1}} {8} {0} {} {1.000} {} {0.00}
+E {   26} {w} {jt_m_link_action {open west;west} {midgaard-temple} {1}} {8} {0} {} {1.000} {} {0.00}
 E {   88} {u} {u} {16} {0} {} {1.000} {} {0.00}
 E {  195} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
@@ -544,7 +544,7 @@ E {   59} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {  100} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {   97} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {   92} {u} {open up;up} {16} {0} {} {1.000} {} {0.00}
-E {  112} {n} {room_link_action {north} {trails-around-midgaard} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  112} {n} {jt_m_link_action {north} {trails-around-midgaard} {1}} {1} {0} {} {1.000} {} {0.00}
 
 R {   61} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  100} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -587,7 +587,7 @@ E {   69} {e} {e} {2} {0} {} {1.000} {} {0.00}
 R {   71} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   54} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {   73} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  101} {n} {room_link_action {north} {midgaard-dark-tower} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  101} {n} {jt_m_link_action {north} {midgaard-dark-tower} {1}} {1} {0} {} {1.000} {} {0.00}
 
 R {   72} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  160} {u} {u} {16} {0} {} {1.000} {} {0.00}
@@ -713,8 +713,8 @@ E {   71} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  102} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   40} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  103} {n} {room_link_action {north} {trails-around-midgaard} {7}} {1} {0} {} {1.000} {} {0.00}
-E {  104} {e} {room_link_action {east} {trails-near-midgaard} {1}} {2} {0} {} {1.000} {} {0.00}
+E {  103} {n} {jt_m_link_action {north} {trails-around-midgaard} {7}} {1} {0} {} {1.000} {} {0.00}
+E {  104} {e} {jt_m_link_action {east} {trails-near-midgaard} {1}} {2} {0} {} {1.000} {} {0.00}
 
 R {  103} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  102} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -741,8 +741,8 @@ E {  124} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  109} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   37} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  110} {w} {room_link_action {west} {haon-dor} {1}} {8} {0} {} {1.000} {} {0.00}
-E {  111} {n} {room_link_action {north} {trails-around-midgaard} {9}} {1} {0} {} {1.000} {} {0.00}
+E {  110} {w} {jt_m_link_action {west} {haon-dor} {1}} {8} {0} {} {1.000} {} {0.00}
+E {  111} {n} {jt_m_link_action {north} {trails-around-midgaard} {9}} {1} {0} {} {1.000} {} {0.00}
 
 R {  110} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  109} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -774,8 +774,8 @@ E {  157} {n} {n} {1} {0} {} {1.000} {} {0.00}
 R {  117} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  118} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  121} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  126} {n} {room_link_action {north} {cheers} {1}} {1} {0} {} {1.000} {} {0.00}
-E {  131} {s} {room_link_action {south} {midgaard-ninja-guild} {1}} {4} {0} {} {1.000} {} {0.00}
+E {  126} {n} {jt_m_link_action {north} {cheers} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  131} {s} {jt_m_link_action {south} {midgaard-ninja-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  118} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  117} {w} {w} {8} {0} {} {1.000} {} {0.00}
@@ -783,9 +783,9 @@ E {   35} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R {  119} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  120} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  132} {n} {room_link_action {north} {midgaard-cleric-guild} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  132} {n} {jt_m_link_action {north} {midgaard-cleric-guild} {1}} {1} {0} {} {1.000} {} {0.00}
 E {  133} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  142} {s} {room_link_action {south} {midgaard-sohei-guild} {1}} {4} {0} {} {1.000} {} {0.00}
+E {  142} {s} {jt_m_link_action {south} {midgaard-sohei-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  120} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {  119} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -794,14 +794,14 @@ E {   35} {w} {w} {8} {0} {} {1.000} {} {0.00}
 R {  121} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  117} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  122} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  127} {n} {room_link_action {north} {home-of-bravoman} {1}} {1} {0} {} {1.000} {} {0.00}
-E {  130} {s} {room_link_action {south} {midgaard-warrior-guild} {1}} {4} {0} {} {1.000} {} {0.00}
+E {  127} {n} {jt_m_link_action {north} {home-of-bravoman} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  130} {s} {jt_m_link_action {south} {midgaard-warrior-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  122} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  121} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  123} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  128} {n} {room_link_action {north} {midgaard-antipaladin-guild} {1}} {1} {0} {} {1.000} {} {0.00}
-E {  129} {s} {room_link_action {south} {midgaard-thief-guild} {1}} {4} {0} {} {1.000} {} {0.00}
+E {  128} {n} {jt_m_link_action {north} {midgaard-antipaladin-guild} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  129} {s} {jt_m_link_action {south} {midgaard-thief-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  123} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  122} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -839,18 +839,18 @@ E {  119} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  133} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  119} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  134} {n} {room_link_action {north} {midgaard-jedi-guild} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  134} {n} {jt_m_link_action {north} {midgaard-jedi-guild} {1}} {1} {0} {} {1.000} {} {0.00}
 E {  135} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  141} {s} {room_link_action {south} {midgaard-bard-guild} {1}} {4} {0} {} {1.000} {} {0.00}
+E {  141} {s} {jt_m_link_action {south} {midgaard-bard-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  134} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  133} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  135} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  133} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  136} {n} {room_link_action {north} {midgaard-paladin-guild} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  136} {n} {jt_m_link_action {north} {midgaard-paladin-guild} {1}} {1} {0} {} {1.000} {} {0.00}
 E {  137} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  140} {s} {room_link_action {south} {midgaard-mage-guild} {1}} {4} {0} {} {1.000} {} {0.00}
+E {  140} {s} {jt_m_link_action {south} {midgaard-mage-guild} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  136} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  135} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -882,7 +882,7 @@ E {  144} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  144} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  143} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {  146} {e} {room_link_action {east} {peaceful-grove} {1}} {2} {0} {} {1.000} {} {0.00}
+E {  146} {e} {jt_m_link_action {east} {peaceful-grove} {1}} {2} {0} {} {1.000} {} {0.00}
 E {  147} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  145} {0} {} {} { } {} {} {} {} {} {1.000} {}
@@ -895,13 +895,13 @@ R {  147} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  144} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  148} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  151} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {  156} {n} {room_link_action {north} {midgaard-soothesayers-shop} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  156} {n} {jt_m_link_action {north} {midgaard-soothesayers-shop} {1}} {1} {0} {} {1.000} {} {0.00}
 
 R {  148} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  147} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {  149} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  152} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {  154} {n} {room_link_action {north} {midgaard-tabard-inn} {1}} {1} {0} {} {1.000} {} {0.00}
+E {  154} {n} {jt_m_link_action {north} {midgaard-tabard-inn} {1}} {1} {0} {} {1.000} {} {0.00}
 
 R {  149} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  148} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -945,7 +945,7 @@ E {   88} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
 R {  160} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  113} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   72} {d} {room_link_action {down} {midgaard-sewers} {1}} {32} {0} {} {1.000} {} {0.00}
+E {   72} {d} {jt_m_link_action {down} {midgaard-sewers} {1}} {32} {0} {} {1.000} {} {0.00}
 
 R {  161} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  162} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -987,7 +987,7 @@ E {  169} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  169} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {  168} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {  170} {s} {room_link_action {south} {southern-midgaard} {1}} {4} {0} {} {1.000} {} {0.00}
+E {  170} {s} {jt_m_link_action {south} {southern-midgaard} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  170} {9250} {} {} {@} {} {} {} {} {} {1.000} {}
 E {  169} {n} {n} {1} {0} {} {1.000} {} {0.00}
@@ -1013,10 +1013,10 @@ E {  161} {s} {s} {4} {0} {} {1.000} {} {0.00}
 R {  177} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {   88} {d} {d} {32} {0} {} {1.000} {} {0.00}
 E {  179} {s} {#delay {0} {#map goto 115}} {4} {0} {} {1.000} {} {0.00}
-E {  180} {n} {#delay {0} {trans factory;#map read maps/froboz-factory.map;#map goto 1;map_show;#variable map_current froboz-factory}} {1} {0} {} {1.000} {} {0.00}
-E {  181} {e} {#delay {0} {trans crystal;#map read maps/crystal-caves.map;#map goto 1;map_show;#variable map_current crystal-caves}} {2} {0} {} {1.000} {} {0.00}
-E {  182} {w} {#delay {0} {trans mistamere;#map read maps/castle-mistamere.map;#map goto 1;map_show;#variable map_current castle-mistamere}} {8} {0} {} {1.000} {} {0.00}
-E {  183} {u} {#delay {0} {trans zoo;#map read maps/midgaard-zoo.map;#map goto 1;map_show;#variable map_current midgaard-zoo}} {16} {0} {} {1.000} {} {0.00}
+E {  180} {n} {#delay {0} {trans factory;#map read maps/froboz-factory.map;#map goto 1;map_show;#variable jt_m_current froboz-factory}} {1} {0} {} {1.000} {} {0.00}
+E {  181} {e} {#delay {0} {trans crystal;#map read maps/crystal-caves.map;#map goto 1;map_show;#variable jt_m_current crystal-caves}} {2} {0} {} {1.000} {} {0.00}
+E {  182} {w} {#delay {0} {trans mistamere;#map read maps/castle-mistamere.map;#map goto 1;map_show;#variable jt_m_current castle-mistamere}} {8} {0} {} {1.000} {} {0.00}
+E {  183} {u} {#delay {0} {trans zoo;#map read maps/midgaard-zoo.map;#map goto 1;map_show;#variable jt_m_current midgaard-zoo}} {16} {0} {} {1.000} {} {0.00}
 
 R {  178} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  115} {s} {s} {4} {0} {} {1.000} {} {0.00}
@@ -1040,7 +1040,7 @@ R {  184} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
 E {  192} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {  185} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {  188} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  191} {s} {room_link_action {south} {balor} {1}} {4} {0} {} {1.000} {} {0.00}
+E {  191} {s} {jt_m_link_action {south} {balor} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  185} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
 E {  184} {e} {e} {2} {0} {} {1.000} {} {0.00}
@@ -1059,8 +1059,8 @@ E {  189} {e} {e} {2} {0} {} {1.000} {} {0.00}
 
 R {  189} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
 E {  188} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {  190} {e} {room_link_action {east} {great-eastern-desert} {1}} {2} {0} {} {1.000} {} {0.00}
-E {  193} {s} {room_link_action {south} {camelot} {1}} {4} {0} {} {1.000} {} {0.00}
+E {  190} {e} {jt_m_link_action {east} {great-eastern-desert} {1}} {2} {0} {} {1.000} {} {0.00}
+E {  193} {s} {jt_m_link_action {south} {camelot} {1}} {4} {0} {} {1.000} {} {0.00}
 
 R {  190} {1026} {} {} { } {} {} {} {} {} {1.000} {}
 E {  189} {w} {w} {8} {0} {} {1.000} {} {0.00}

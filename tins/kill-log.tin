@@ -1,5 +1,5 @@
 #action {^%1 is dead! R.I.P.$} {
-    #line log logs/kill.log {%1,$map_current};
+    #line log logs/kill.log {%1,$jt_m_current};
 }
 
 

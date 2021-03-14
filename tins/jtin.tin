@@ -1,0 +1,119 @@
+#var jt_logo {<aef>jt}
+
+#alias jt_print_message {
+    #showme $jt_logo :: %1;
+}
+
+#alias jt_print_message_with_buffer {
+    #showme ;
+    jt_print_message {%1};
+    #showme ;
+}
+
+#alias jt_print_state {
+    #showme ;
+    #showme $jt_logo;
+    #showme ;
+    jt_m_print_state;
+    #showme ;
+    jt_ab_print_state;
+    #showme ;
+    jt_ib_print_state;
+    #showme ;
+    jt_dl_print_state;
+    #showme ;
+    jt_at_print_state;
+    #showme ;
+    #cr;
+}
+
+#alias jt {
+    #if {"%1" == "state"} {
+        jt_print_state;
+    };
+    #elseif {"%1" == "map"} {
+        jt_map {%2};
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt (state|map)};
+    }
+}
+
+
+#nop ----- auto-tank -----
+
+
+#class jtin-auto-tank clear;
+#class jtin-auto-tank read tins/jtin-auto-tank.tin;
+
+
+#nop ----- data-logs -----
+
+
+#class jtin-data-logs clear;
+#class jtin-data-logs read tins/jtin-data-logs.tin;
+
+
+#nop ----- item-brief -----
+
+
+#class jtin-item-brief clear;
+#class jtin-item-brief read tins/jtin-item-brief.tin;
+
+
+#nop ----- mapper -----
+
+
+#alias jt_map {
+    #if {"%1" == "enable"} {
+        jt_m_load;
+    };
+    #elseif {"%1" == "disable"} {
+        jt_m_unload;
+    };
+    #else {
+        jt_m_print_msg {<efc>unknown command, try :: jt map (enable|disable)};
+    }
+}
+
+#alias jt_m_default {
+    #var jt_m_state disabled;
+}
+
+#alias jt_m_unload {
+    jt_m_hide;
+    jt_m_print_msg {<fca>disabled};
+    #class jtin-mapper kill;
+    #var jt_m_state disabled;
+}
+
+#alias jt_m_load {
+    #class jtin-mapper kill;
+    #class jtin-mapper read tins/jtin-mapper.tin;
+    #var jt_m_state enabled;
+    jt_m_print_msg {<afc>enabled};
+}
+
+#alias jt_m_print_state {
+    #if {"$jt_m_state" == "enabled"} {
+        #showme <fac>* <adf>MAP: <afc>$jt_m_state;
+    } {
+        #showme <fac>* <adf>MAP: <fca>$jt_m_state;
+    }
+}
+
+#alias jt_m_print_msg {
+    jt_print_message_with_buffer {map :: %1}
+}
+
+
+#nop ----- auto-buff -----
+
+
+#class jtin-auto-buff clear;
+#class jtin-auto-buff read tins/jtin-auto-buff.tin;
+
+
+#nop ----- startup -----
+
+jt_m_default;
