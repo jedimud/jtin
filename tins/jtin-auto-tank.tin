@@ -1,8 +1,0 @@
-#alias jt_at_print_state {
-    #showme <fac>* <adf>AUTO TANK;
-    #showme <fac>  + <aef>Auto-Buff: <fca>enabled;
-    #showme <fac>  + <aef>Auto-Disarm: <fca>disabled;
-    #showme <fac>  + <aef>Auto-Grapple: <fca>disabled;
-    #showme <fac>  + <aef>Auto-Pummel: <afc>enabled;
-    #showme <fac>  + <aef>Auto-Rescue: <afc>enabled;
-}

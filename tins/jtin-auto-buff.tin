@@ -1,0 +1,39 @@
+#nop ----- buffs -----
+
+#action {^The detect invisible wears off.$} {jt_at_ab_lost {DETECT INVISIBILITY}}
+#action {^The aura around your body fades.$} {jt_at_ab_lost {SANCTUARY}}
+#action {^Your infravision fades.$} {jt_at_ab_lost {INFRAVISION}}
+#action {^You feel less righteous.$} {jt_at_ab_lost {BLESS}}
+#action {^You feel less prepared for combat.$} {jt_at_ab_lost {AID}}
+#action {^Your skin softens.$} {jt_at_ab_lost {STONE SKIN}}
+#action {^You feel less protected from the rigors of the world.$} {jt_at_ab_lost {ARMOR}}
+#action {^You feel less protected from good.$} {jt_at_ab_lost {PROTECTION FROM GOOD}}
+#action {^You feel less protected from evil.$} {jt_at_ab_lost {PROTECTION FROM EVIL}}
+
+#nop ----- debuffs -----
+
+
+
+#nop ----- print -----
+
+#alias jt_at_ab_lost {
+    jt_at_ab_print_msg_warn {>> LOST %1 <<};
+}
+
+#alias jt_at_ab_print_msg_info {
+    #if {"$jt_at_ab_state" == "console"} {
+        jt_at_ab_print_msg {<afc>%1};
+    };
+    #elseif {"$jt_at_ab_state" == "group"} {
+        gsay @C%1;
+    }
+}
+
+#alias jt_at_ab_print_msg_warn {
+    #if {"$jt_at_ab_state" == "console"} {
+        jt_at_ab_print_msg {<faa>%1};
+    };
+    #elseif {"$jt_at_ab_state" == "group"} {
+        gsay @R%1;
+    }
+}

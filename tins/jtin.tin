@@ -1,9 +1,9 @@
 #alias jt_print_message {
     #if {"$jt_t_window" == ""} {
-        #showme <aef>$jt_t_name :: %1;
+        #showme {<aef>$jt_t_name :: %1};
     }; 
     #else {
-        $jt_t_window #showme <aef>$jt_t_name :: %1;
+        $jt_t_window #showme {<aef>$jt_t_name :: %1};
     }
 }
 
@@ -45,8 +45,11 @@
     #elseif {"%1" == "data-logs"} {
         jt_dl {%2} {%3};
     };
+    #elseif {"%1" == "auto-tank"} {
+        jt_at {%2} {%3};
+    };
     #else {
-        jt_print_message_with_buffer {<efc>unknown command, try :: jt (toon|state|map|item-brief|data-logs)};
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt (toon|state|map|item-brief|data-logs|auto-tank)};
     }
 }
 
@@ -66,7 +69,7 @@
     };
     #elseif {"%1" == "window"} {
         #if {"%2" != ""} {
-            jt_t_print_msg {window :: <efc>$jt_t_window};
+            jt_t_print_msg {window :: <efc>%2};
             #var jt_t_window {%2};
         };
         #else {
@@ -97,8 +100,66 @@
 #nop ----- auto-tank -----
 
 
-#class jtin-auto-tank clear;
-#class jtin-auto-tank read tins/jtin-auto-tank.tin;
+#alias jt_at {
+    #if {"%1" == "auto-buff"} {
+        #if {"%2" == "console"} {
+            #var jt_at_ab_state %2;
+            jt_at_ab_load;
+            jt_at_ab_print_msg <afc>%2;
+        };
+        #elseif {"%2" == "group"} {
+            #var jt_at_ab_state %2;
+            jt_at_ab_load;
+            jt_at_ab_print_msg <afc>%2;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_at_ab_state %2;
+            jt_at_ab_unload;
+            jt_at_ab_print_msg <fca>%2;
+        };
+        #else {
+           jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff (console|group|disabled)}; 
+        }
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank (auto-buff)};
+    }
+}
+
+#alias jt_at_print_state {
+    #showme <fac>* <adf>AUTO TANK;
+    #if {"$jt_at_ab_state" == "disabled"} {
+        #showme <fac>  + <aef>Auto-Buff: <fca>disabled;
+    } {
+        #showme <fac>  + <aef>Auto-Buff: <afc>$jt_at_ab_state;
+    };
+    
+    #showme <fac>  + <aef>Auto-Disarm: <fca>disabled;
+    #showme <fac>  + <aef>Auto-Grapple: <fca>disabled;
+    #showme <fac>  + <aef>Auto-Pummel: <afc>enabled;
+    #showme <fac>  + <aef>Auto-Rescue: <afc>enabled;
+}
+
+#alias jt_at_default {
+    #var jt_at_ab_state disabled;
+}
+
+#alias jt_at_ab_unload {
+    #class jtin-auto-buff kill;
+}
+
+#alias jt_at_ab_load {
+    #class jtin-auto-buff kill;
+    #class jtin-auto-buff read tins/jtin-auto-buff.tin;
+}
+
+#alias jt_at_ab_print_msg {
+    jt_at_print_msg {auto-buff :: %1}
+}
+
+#alias jt_at_print_msg {
+    jt_print_message_with_buffer {auto-tank :: %1}
+}
 
 
 #nop ----- data-logs -----
@@ -343,4 +404,5 @@
 jt_t_default
 jt_m_default;
 jt_ib_default;
-jt_dl_default
+jt_dl_default;
+jt_at_default;
