@@ -8082,3 +8082,31 @@ Object 'a croissant', Item type: FOOD
 Item will give you following abilities:  NOBITS 
 Item is: UNIQUE 
 Weight: 1, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'the White King's Sceptre', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: HUM INVIS MAG !EVIL UNIQUE 
+Weight: 2, Value: 50000, Rent: 10000, Min. level: 0
+Can affect you as :
+   Affects: STR By 2
+   Affects: HITROLL By -1
+Item slot: Hold
+-----
+Object 'a can of spinach', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 1500, Rent: 750, Min. level: 0
+This POTION casts:  Level 0 of strength
+Can affect you as :
+   Affects: STR By 1
+   Affects: ARMOR By 2
+Item slot: Hold
+-----
+Object 'tarnished scalemail leggings', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !GOOD !MAGE !CLER !PAL !JEDI !SOHEI LIMITED !BARD UNIQUE 
+Weight: 6, Value: 10000, Rent: 1750, Min. level: 14
+AC-apply is 30
+Can affect you as :
+   Affects: HIT_REGEN By 8
+Item slot: Legs
