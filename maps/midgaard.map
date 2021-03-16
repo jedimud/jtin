@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -260,6 +260,7 @@ E {   30} {se} {se} {6} {0} {} {1.000} {} {0.00}
 E {   26} {w} {jt_m_link_action {open west;west} {midgaard-temple} {1}} {8} {0} {} {1.000} {} {0.00}
 E {   88} {u} {u} {16} {0} {} {1.000} {} {0.00}
 E {  195} {e} {e} {2} {0} {} {1.000} {} {0.00}
+E {  196} {d} {#delay {0} {down; #map goto 2}} {32} {0} {} {1.000} {} {0.00}
 
 R {    2} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    1} {n} {n} {1} {0} {} {1.000} {} {0.00}
@@ -1081,3 +1082,6 @@ E {   29} {s} {s} {4} {0} {} {1.000} {} {0.00}
 
 R {  195} {0} {} {} {D} {} {} {} {} {} {1.000} {}
 E {    1} {w} {w} {8} {0} {} {1.000} {} {0.00}
+
+R {  196} {0} {} {} { } {} {} {} {} {} {1.000} {}
+E {    1} {u} {u} {16} {0} {} {1.000} {} {0.00}
