@@ -1,18 +1,54 @@
 #nop ----- buffs -----
 
-#action {^The detect invisible wears off.$} {jt_at_ab_lost {DETECT INVISIBILITY}}
-#action {^The aura around your body fades.$} {jt_at_ab_lost {SANCTUARY}}
-#action {^Your infravision fades.$} {jt_at_ab_lost {INFRAVISION}}
-#action {^You feel less righteous.$} {jt_at_ab_lost {BLESS}}
-#action {^You feel less prepared for combat.$} {jt_at_ab_lost {AID}}
-#action {^Your skin softens.$} {jt_at_ab_lost {STONE SKIN}}
-#action {^You feel less protected from the rigors of the world.$} {jt_at_ab_lost {ARMOR}}
-#action {^You feel less protected from good.$} {jt_at_ab_lost {PROTECTION FROM GOOD}}
-#action {^You feel less protected from evil.$} {jt_at_ab_lost {PROTECTION FROM EVIL}}
+#action {^The aura around your body fades.$} {
+    jt_at_ab_lost {SANCTUARY};
+    #var t_b_sanc false;
+}
+#action {^You are glowing with a bright light!$} { #var t_b_sanc true; }
+#action {^You start glowing.$} { #var t_b_sanc true; }
+
+
+#action {^Your skin softens.$} {
+    jt_at_ab_lost {STONE SKIN};
+    #var t_b_stone false;
+}
+#action {^You feel your skin harden.$} { #var t_b_stone true; }
+#action {^Your skin is hardened!$} { #var t_b_stone true; }
+
+
+#action {^The detect invisible wears off.$} {
+    jt_at_ab_lost {DETECT INVISIBILITY};
+}
+#action {^Your infravision fades.$} {
+    jt_at_ab_lost {INFRAVISION};
+}
+#action {^You feel less righteous.$} {
+    jt_at_ab_lost {BLESS};
+}
+#action {^You feel less prepared for combat.$} {
+    jt_at_ab_lost {AID};
+}
+#action {^You feel less protected from the rigors of the world.$} {
+    jt_at_ab_lost {ARMOR}'
+}
+#action {^You feel less protected from good.$} {
+    jt_at_ab_lost {PROTECTION FROM GOOD};
+}
+#action {^You feel less protected from evil.$} {
+    jt_at_ab_lost {PROTECTION FROM EVIL};
+}
+#action {^You sense red and green auras disappearing from your vision.$} {
+    jt_at_ab_lost {DETECT ALIGNMENT};
+}
 
 #nop ----- debuffs -----
 
+#nop ----- enabled -----
 
+#nop You feel your skin harden. -- stone skin
+#nop You start glowing. -- sanc
+#nop You feel ready for combat!  -- aid
+#nop You feel righteous. -- bless
 
 #nop ----- print -----
 
@@ -37,3 +73,66 @@
         gsay @R%1;
     }
 }
+
+#nop ----- combat -----
+
+#alias jt_at_ab_combat_default {
+    #list t_b_block clear;
+    #list t_b_warn clear;
+
+    #var t_b_sanc false;
+    #var t_b_sanc_mode block;
+
+    #var t_b_stone false;
+    #var t_b_stone_mode block;
+}
+
+#alias jt_at_ab_combat_perform {
+    #if {"$t_b_sanc" != "true"} {
+        #if {"$t_b_sanc_mode" == "block"} {
+            #list t_b_block add {SANCTUARY};
+        };
+        #else {
+            #list t_b_warn add {SANCTUARY};
+        };
+    };
+
+    #if {"$t_b_stone" != "true"} {
+        #if {"$t_b_stone_mode" == "block"} {
+            #list t_b_block add {STONE SKIN};
+        };
+        #else {
+            #list t_b_warn add {STONE SKIN};
+        };
+    };
+
+    #list t_b_block size t_b_block_size;
+    #list t_b_warn size t_b_warn_size;
+
+    #if {$t_b_block_size > 0} {
+        #var t_b_block_msg {};
+        #foreach {$t_b_block[%*]} {t_b_blocker} {#var t_b_block_msg {$t_b_block_msg $t_b_blocker}};
+        jt_at_ab_print_msg_warn { >> MISSING$t_b_block_msg << };
+        #unvar t_b_blocker;
+        #unvar t_b_block_msg;
+    };
+
+    #else {
+        #if {$t_b_warn_size > 0} {
+            #var t_b_warn_msg {};
+            #foreach {$t_b_warn[%*]} {t_b_warner} {#var t_b_warn_msg {$t_b_warn_msg $t_b_warner}};
+            jt_at_ab_print_msg_info { >> MISSING$t_b_warn_msg << };
+            #unvar t_b_warn;
+            #unvar t_b_warn_msg;
+        };
+
+        #send {%1};
+    };
+
+    #list t_b_block clear;
+    #unvar t_b_block_size;
+    #list t_b_warn clear;
+    #unvar t_b_warn_size;
+}
+
+jt_at_ab_combat_default;

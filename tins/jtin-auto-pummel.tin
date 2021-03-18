@@ -1,0 +1,35 @@
+#high {^You knock %1 to the ground with your pummel!$} {reverse}
+#action {^You knock %1 to the ground with your pummel!$} {
+    jt_print_message {<acf>successful pummel, ready to pummel again};
+    #var jt_at_ap_action not_pending;
+    @jt_at_ap_perform{};
+}
+
+#high {^You try to pummel %1 but miss.$} {reverse}
+#action {^You try to pummel %1 but miss.$} {
+    jt_print_message {<acf>failed to pummel, trying again};
+    #var jt_at_ap_action not_pending;
+    @jt_at_ap_perform{};
+}
+
+#high {^%1 assists you!$} {reverse}
+#action {^%1 assists you!$} {
+    jt_print_message {<acf>ready to pummel, queuing one up};
+    @jt_at_ap_perform{};
+}
+
+#variable jt_at_ap_action not_pending;
+
+#function jt_at_ap_perform {
+    #if {"$jt_at_ap_action"=="pending"} { 
+        #nop jt_print_message {<acf> cannot pummel, already pending};
+    } {
+        #variable jt_at_ap_action pending;
+        pummel;
+    };
+    #return;
+}
+
+#action {^%1 is dead! R.I.P.} {
+    #unvar jt_at_ap_action;
+}

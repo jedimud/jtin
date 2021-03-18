@@ -121,8 +121,20 @@
            jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff (console|group|disabled)}; 
         }
     };
+    #elseif {"%1" == "auto-pummel"} {
+        #if {"%2" == "enabled"} {
+            #var jt_at_ap_state %2;
+            jt_at_ap_load;
+            jt_at_ap_print_msg <afc>%2;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_at_ap_state %2;
+            jt_at_ap_unload;
+            jt_at_ap_print_msg <fca>%2;
+        };
+    };
     #else {
-        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank (auto-buff)};
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank (auto-buff|auto-pummel)};
     }
 }
 
@@ -134,18 +146,28 @@
         #showme <fac>  + <aef>Auto-Buff: <afc>$jt_at_ab_state;
     };
     
+    #if {"$jt_at_ap_state" == "disabled"} {
+        #showme <fac>  + <aef>Auto-Pummel: <fca>disabled;
+    } {
+        #showme <fac>  + <aef>Auto-Pummel: <afc>$jt_at_ap_state;
+    };
+
     #showme <fac>  + <aef>Auto-Disarm: <fca>disabled;
     #showme <fac>  + <aef>Auto-Grapple: <fca>disabled;
-    #showme <fac>  + <aef>Auto-Pummel: <afc>enabled;
-    #showme <fac>  + <aef>Auto-Rescue: <afc>enabled;
+    #showme <fac>  + <aef>Auto-Rescue: <fca>disabled;
 }
 
 #alias jt_at_default {
     #var jt_at_ab_state disabled;
+    #var jt_at_ap_state disabled;
 }
 
 #alias jt_at_ab_unload {
     #class jtin-auto-buff kill;
+}
+
+#alias jt_at_ap_unload {
+    #class jtin-auto-pummel kill;
 }
 
 #alias jt_at_ab_load {
@@ -153,8 +175,17 @@
     #class jtin-auto-buff read tins/jtin-auto-buff.tin;
 }
 
+#alias jt_at_ap_load {
+    #class jtin-auto-pummel kill;
+    #class jtin-auto-pummel read tins/jtin-auto-pummel.tin;
+}
+
 #alias jt_at_ab_print_msg {
     jt_at_print_msg {auto-buff :: %1}
+}
+
+#alias jt_at_ap_print_msg {
+    jt_at_print_msg {auto-pummel :: %1}
 }
 
 #alias jt_at_print_msg {
