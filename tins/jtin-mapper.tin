@@ -12,7 +12,7 @@
         jt_m_hide;
     };
     #elseif {"%1" == "create"} {
-        jt_m_create;
+        jt_m_create %2;
     };
     #elseif {"%1" == "edit"} {
         jt_m_edit;
