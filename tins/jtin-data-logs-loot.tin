@@ -19,14 +19,14 @@
     #line log logs/loot.log {%1,%2,$jt_m_current};
 }
 
-#action {^%1: you can't carry that many items} {
+#action {^%1: you can't carry that many items.$} {
     jt_dl_l_print_msg {<fca>inventory full};
 }
 
-#action {^%1: you can't carry that much weight} {
+#action {^%1: you can't carry that much weight.$} {
     jt_dl_l_print_msg {<fca>inventory full};
 }
 
-#action {^%1: you can't hold any more items} {
+#action {^%1: you can't hold any more items.$} {
     jt_dl_l_print_msg {<fca>inventory full};
 }
