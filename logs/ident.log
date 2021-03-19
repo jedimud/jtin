@@ -8228,3 +8228,107 @@ Can affect you as :
    Affects: MANA_REGEN By -5
    Affects: CHARISMA By 1
 Item slot: Head
+-----
+Object 'a spider shaped dagger', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW EVIL MAG !CLER !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 20000, Rent: 12000, Min. level: 12
+Damage Dice is '5D5' for an average per-round damage of 15.0.
+Can affect you as :
+   Affects: DEX By -2
+   Affects: DAMROLL By 2
+Item slot: Wield
+-----
+Object 'the flaming whip', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM !GOOD !THF !PAL !APAL !NINJA !JEDI !SOHEI LIMITED UNIQUE 
+Weight: 16, Value: 20000, Rent: 15000, Min. level: 15
+Damage Dice is '4D5' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 2
+Item slot: Wield
+-----
+Object 'the Balor's talisman', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !GOOD !NEUTRAL UNIQUE 
+Weight: 10, Value: 8000, Rent: 4000, Min. level: 0
+Can affect you as :
+   Affects: STR By 1
+   Affects: CON By -1
+Item slot: Neck
+-----
+Object 'a magical wand', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG BLESS !THF !WAR !NINJA UNIQUE 
+Weight: 1, Value: 12000, Rent: 6250, Min. level: 0
+This WAND casts: fireball of level 15
+It has 4 maximum charges and 4 remaining.
+Item slot: Hold
+-----
+Object 'a small obsidian wand', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !EVIL !THF !WAR !NINJA UNIQUE 
+Weight: 2, Value: 1500, Rent: 750, Min. level: 0
+This WAND casts: cause light of level 20
+It has 2 maximum charges and 2 remaining.
+Item slot: Hold
+-----
+Object 'a rusty flail', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 11, Value: 900, Rent: 360, Min. level: 0
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Can affect you as :
+   Affects: HITROLL By -1
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a light green potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG BLESS UNIQUE 
+Weight: 2, Value: 5000, Rent: 2500, Min. level: 0
+This POTION casts:  Level 20 of rejuvenate remove curse
+-----
+Object 'a swirling potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM INVIS MAG BLESS UNIQUE 
+Weight: 2, Value: 200, Rent: 150, Min. level: 0
+This POTION casts:  Level 20 of detect magic
+-----
+Object 'the Scales of Justice', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !EVIL !THF !APAL UNIQUE 
+Weight: 10, Value: 15000, Rent: 1100, Min. level: 0
+Can affect you as :
+   Affects: INT By 1
+   Affects: WIS By 2
+Item slot: Hold
+-----
+Object 'a thin tin bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 2, Value: 5000, Rent: 2500, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: SAVE_SPELL By -1
+   Affects: MOVE By 10
+Item slot: Wrist
+-----
+Object 'a curved black blade', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !DROP !GOOD !MAGE !CLER UNIQUE 
+Weight: 5, Value: 3500, Rent: 1300, Min. level: 0
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Can affect you as :
+   Affects: HITROLL By 1
+Item slot: Wield
+-----
+Object 'a light crossbow', Item type: FIRE-WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER UNIQUE 
+Weight: 15, Value: 4400, Rent: 1760, Min. level: 0
+Damage Dice is '6D5' This weapon currently has 11 of a maximum 5 charges.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By -2

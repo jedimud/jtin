@@ -1840,6 +1840,61 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_small_obsidian_wand(self):
+        actual = self.read_item_from_file("a-small-obsidian-wand")
+
+        item = Item()
+        item.name = "a small obsidian wand"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.GLOW)
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemAlign.NO_EVIL)
+        item.tags.append(ItemClass.NO_THF)
+        item.tags.append(ItemClass.NO_WAR)
+        item.tags.append(ItemClass.NO_NINJA)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 2
+        item.value = 1500
+        item.rent = 750
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.CAUSE_LIGHT)
+        item.charge_max = 2
+        item.charge_remain = 2
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_light_green_potion(self):
+        actual = self.read_item_from_file("a-light-green-potion")
+
+        item = Item()
+        item.name = "a light green potion"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.GLOW)
+        item.tags.append(ItemTag.HUM)
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.BLESS)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 2
+        item.value = 5000
+        item.rent = 2500
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.REJUVENTATE)
+        item.spells.append(ItemSpell.REMOVE_CURSE)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
