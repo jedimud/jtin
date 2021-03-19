@@ -100,7 +100,7 @@ Small unicode maps loaded into the right `#split`.
 | `[%]`               |  Fountain     |
 | `[ ]+`              |  Exit up      |
 | `[ ]-`              |  Exit down    |
-| `↖ ↑ ↗ ← · → ↙ ↓ ↘` | One-way path  |
+| `↖ ↑ ↗ ← → ↙ ↓ ↘` | One-way path  |
 
 ## Aliases
 
@@ -192,7 +192,7 @@ Item slot: Hold
 
 ### Update Data
 
-#### item_parser 
+**item_parser**
 
 Parses `ident.log` and converts to `json`. Used by other scripts for additional filtering, sorting, and searching.
 
@@ -200,7 +200,7 @@ Parses `ident.log` and converts to `json`. Used by other scripts for additional 
 
 Output: `data/items.json`
 
-#### item_brief
+**item_brief**
 
 Convert items into distinct map of short descriptions. Used by `jt item-brief` to markup items inline.
 
@@ -208,7 +208,7 @@ Convert items into distinct map of short descriptions. Used by `jt item-brief` t
 
 Output: `data/item-briefs.json`
 
-#### item_wearable_csv
+**item_wearable_csv**
 
 Convert wearbable items into `csv` for importing into Excel.
 
@@ -216,7 +216,7 @@ Convert wearbable items into `csv` for importing into Excel.
 
 Output: `data/item-wearables.csv`
 
-#### item_sac_csv
+**item_sac_csv**
 
 Convert items into `csv`, with emphasis on sac value only. Useful for importing into Excel.
 
