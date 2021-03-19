@@ -192,37 +192,12 @@ Item slot: Hold
 
 ### Update Data
 
-**item_parser**
-
-Parses `ident.log` and converts to `json`. Used by other scripts for additional filtering, sorting, and searching.
-
-`python3 py/item_parser.py`
-
-Output: `data/items.json`
-
-**item_brief**
-
-Convert items into distinct map of short descriptions. Used by `jt item-brief` to markup items inline.
-
-`python3 py/item_brief.py`
-
-Output: `data/item-briefs.json`
-
-**item_wearable_csv**
-
-Convert wearbable items into `csv` for importing into Excel.
-
-`python3 py/item_wearable_csv.py`
-
-Output: `data/item-wearables.csv`
-
-**item_sac_csv**
-
-Convert items into `csv`, with emphasis on sac value only. Useful for importing into Excel.
-
-`python3 py/item_sac_csv.py`
-
-Output: `data/item-sac.csv`
+| Command | Description | Output |
+| --------| ------- | ------ |
+| Parse `ident.log` and convert to `json`. Used by other scripts for additional filtering, sorting, and searching. | `python3 py/item_parser.py` | `data/items.json` |
+| Convert items into distinct map of short descriptions. Used by `jt item-brief` to markup items inline. | `python3 py/item_brief.py` | `data/item-briefs.json` |
+| Convert wearbable items into `csv` for importing into Excel. | `python3 py/item_wearable_csv.py` | `data/item-wearables.csv` |
+| Convert items into `csv`, with emphasis on sac value only. Useful for importing into Excel. | `python3 py/item_sac_csv.py` | `data/item-sac.csv` |
 
 
 ## Loot Log
