@@ -275,10 +275,67 @@ a big pile of gold coins,the snarling greza officer,wandering-ship
 
 ## Auto Buff
 
+Notify off buff/debuff changes and prevent combat when tank buffs are missing.
+
+### Usage
+
+`jt auto-tank auto-buff <state>`
+
+**`state`**
+* `console`: send warning messages to target window, as configured by `jt toon window`
+* `group`: send warning messages to `groupsay`
+* `disabled`: don't send warning messages
+
+> Note: `group` is slower than `console` due to combat and spell lag. 
+
+### Configure
+
+`jt auto-tank auto-buff set <buff> <state>`
+
+**`buff`**
+* `sanctuary`:
+* `stone-skin`:
+* `aid`:
+* `bless`:
+* `armor`:
+
+**`state`**
+* `block`:
+* `warn`:
+* `disabled`:
+
+// TODO
+
+jt auto-tank auto-buff console;
+jt auto-tank auto-buff set sanctuary block
+jt auto-tank auto-buff set stone-skin block
+jt auto-tank auto-buff set aid warn
+jt auto-tank auto-buff set bless warn
+jt auto-tank auto-buff set armor warn
+
 ## Auto Pummel
+
+Perform pummel when:
+  1) Another player assists you, or
+  2) Previous pummel fails, or
+  3) Previous pummel is successful
+
+### Usage
+
+`jt auto-tank auto-pummel <state>`
+
+**`state`**
+* `enabled`: perform auto-pummel
+* `disbaled`: or don't
 
 ## Auto Disarm
 
+> Coming soon!
+
 ## Auto Grapple
 
+> Coming soon!
+
 ## Auto Rescue
+
+> Coming soon!
