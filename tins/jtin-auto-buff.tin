@@ -1,4 +1,4 @@
-#nop ----- buffs -----
+#nop ----- buffs with action -----
 
 #action {^The aura around your body fades.$} {
     jt_at_ab_lost {SANCTUARY};
@@ -29,17 +29,21 @@
 }
 #action {^You feel righteous.$} { #var t_b_bless true; }
 
+#action {^You feel less protected from the rigors of the world.$} {
+     #var t_b_armor false;
+    jt_at_ab_lost {ARMOR}'
+}
+#action {^You are protected by magical armor.$} { #var t_b_armor true; }
+#action {^You feel someone protecting you.$} { #var t_b_armor true; }
 
 
+#nop ----- buffs with message only -----
 
 #action {^The detect invisible wears off.$} {
     jt_at_ab_lost {DETECT INVISIBILITY};
 }
 #action {^Your infravision fades.$} {
     jt_at_ab_lost {INFRAVISION};
-}
-#action {^You feel less protected from the rigors of the world.$} {
-    jt_at_ab_lost {ARMOR}'
 }
 #action {^You feel less protected from good.$} {
     jt_at_ab_lost {PROTECTION FROM GOOD};
@@ -77,24 +81,91 @@
     }
 }
 
-#nop ----- combat -----
+#nop ----- configure -----
+
+#alias jt_at_ab_state {
+    #showme <adf>AUTO-BUFF;
+    #showme <fac>  + <aef>Sanctuary: @jt_at_ab_get_mode{$t_b_sanc_mode};
+    #showme <fac>  + <aef>Stone Skin: @jt_at_ab_get_mode{$t_b_stone_mode};
+    #showme <fac>  + <aef>Aid: @jt_at_ab_get_mode{$t_b_aid_mode};
+    #showme <fac>  + <aef>Bless: @jt_at_ab_get_mode{$t_b_bless_mode};
+    #showme <fac>  + <aef>Armor: @jt_at_ab_get_mode{$t_b_armor_mode};
+}
+
+#function jt_at_ab_get_mode {
+    #if {"%1" == "block"} {
+        #return {<afc>block};
+    };
+    #elseif {"%1" == "warn"} {
+        #return {<efc>warn}
+    };
+    #else {
+        #return {<fca>disabled}
+    };
+}
+
+#alias jt_at_ab_set_mode {
+    #if {"%1" == "sanctuary"} {
+        #if {"%2" == "block"} { #var t_b_sanc_mode block; jt_at_ab_print_msg {sanctuary :: @jt_at_ab_get_mode{$t_b_sanc_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_sanc_mode warn; jt_at_ab_print_msg {sanctuary :: @jt_at_ab_get_mode{$t_b_sanc_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_sanc_mode disabled; jt_at_ab_print_msg {sanctuary :: @jt_at_ab_get_mode{$t_b_sanc_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #elseif {"%1" == "stone-skin"} {
+        #if {"%2" == "block"} { #var t_b_stone_mode block; jt_at_ab_print_msg {stone-skin :: @jt_at_ab_get_mode{$t_b_stone_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_stone_mode warn; jt_at_ab_print_msg {stone-skin :: @jt_at_ab_get_mode{$t_b_stone_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_stone_mode disabled; jt_at_ab_print_msg {stone-skin :: @jt_at_ab_get_mode{$t_b_stone_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #elseif {"%1" == "aid"} {
+        #if {"%2" == "block"} { #var t_b_aid_mode block; jt_at_ab_print_msg {aid :: @jt_at_ab_get_mode{$t_b_aid_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_aid_mode warn; jt_at_ab_print_msg {aid :: @jt_at_ab_get_mode{$t_b_aid_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_aid_mode disabled; jt_at_ab_print_msg {aid :: @jt_at_ab_get_mode{$t_b_aid_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #elseif {"%1" == "bless"} {
+        #if {"%2" == "block"} { #var t_b_bless_mode block; jt_at_ab_print_msg {bless :: @jt_at_ab_get_mode{$t_b_bless_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_bless_mode warn; jt_at_ab_print_msg {bless :: @jt_at_ab_get_mode{$t_b_bless_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_bless_mode disabled; jt_at_ab_print_msg {bless :: @jt_at_ab_get_mode{$t_b_bless_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #elseif {"%1" == "armor"} {
+        #if {"%2" == "block"} { #var t_b_armor_mode block; jt_at_ab_print_msg {armor :: @jt_at_ab_get_mode{$t_b_armor_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_armor_mode warn; jt_at_ab_print_msg {armor :: @jt_at_ab_get_mode{$t_b_armor_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_armor_mode disabled; jt_at_ab_print_msg {armor :: @jt_at_ab_get_mode{$t_b_armor_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set (sanctuary|stone-skin|aid|bless|armor)};
+    };
+}
 
 #alias jt_at_ab_combat_default {
     #list t_b_block clear;
     #list t_b_warn clear;
 
     #var t_b_sanc false;
-    #var t_b_sanc_mode block;
+    #var t_b_sanc_mode disabled;
 
     #var t_b_stone false;
-    #var t_b_stone_mode block;
+    #var t_b_stone_mode disabled;
 
     #var t_b_aid false;
-    #var t_b_aid_mode block;
+    #var t_b_aid_mode disabled;
 
     #var t_b_bless false;
-    #var t_b_bless_mode block;
+    #var t_b_bless_mode disabled;
+
+    #var t_b_armor false;
+    #var t_b_armor_mode disabled;
 }
+
+#nop ----- combat -----
 
 #alias jt_at_ab_combat_perform {
     #if {"$t_b_sanc" != "true"} {
@@ -130,6 +201,15 @@
         };
         #else {
             #list t_b_warn add {BLESS};
+        };
+    };
+
+    #if {"$t_b_armor" != "true"} {
+        #if {"$t_b_armor_mode" == "block"} {
+            #list t_b_armor add {ARMOR};
+        };
+        #else {
+            #list t_b_warn add {ARMOR};
         };
     };
 

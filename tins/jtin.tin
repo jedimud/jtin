@@ -46,7 +46,7 @@
         jt_dl {%2} {%3};
     };
     #elseif {"%1" == "auto-tank"} {
-        jt_at {%2} {%3};
+        jt_at {%2} {%3} {%4} {%5};
     };
     #else {
         jt_print_message_with_buffer {<efc>unknown command, try :: jt (toon|state|map|item-brief|data-logs|auto-tank)};
@@ -117,8 +117,24 @@
             jt_at_ab_unload;
             jt_at_ab_print_msg <fca>%2;
         };
+        #elseif {"%2" == "set"} {
+            #if {"$jt_at_ab_state" == "disabled"} {
+                jt_at_ab_print_msg <fca>disabled;
+            };
+            #else {
+                jt_at_ab_set_mode {%3} {%4};
+            };
+        };
+        #elseif {"%2" == "state"} {
+            #if {"$jt_at_ab_state" == "disabled"} {
+                jt_at_ab_print_msg <fca>disabled;
+            };
+            #else {
+                jt_at_ab_state;
+            };
+        };
         #else {
-           jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff (console|group|disabled)}; 
+           jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff (console|group|disabled|state|set)}; 
         }
     };
     #elseif {"%1" == "auto-pummel"} {
