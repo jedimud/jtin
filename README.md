@@ -14,7 +14,7 @@ Check the current state of loaded features.
 
 `jt state`
 
-**Output**
+**Sample Output**
 
 ````
 [jt] JediMUD TinTin++
@@ -165,9 +165,7 @@ Run alias on item in inventory.
 
 `ident krrf`
 
-> The item being scanned and `scroll of identify` must both be in inventory
-
-`logs/ident.log`
+Output: `logs/ident.log`
 
 ````
 -----
@@ -200,9 +198,79 @@ Item slot: Hold
 | Convert items into `csv`, with emphasis on sac value only. Useful for importing into Excel. | `py/item_sac_csv.py` | `data/item-sac.csv` |
 
 
+## Kill Log
+
+Comma-delimited log of NPC deaths. 
+
+> Note: if multi-boxing, enable loot logging only on one `#session`, otherwise duplicate log entries will occur.
+
+### Usage
+
+`jt data-logs kill <state>`
+
+**`state`**
+* `enabled`: log NPC deaths
+* `disabled`: or don't
+
+### Log Format
+
+`{npc},{map}`
+
+> Note: if `jt map` is not enabled, then `{map}` will be logged as `unknown`
+
+### Sample Output
+
+`logs/kill.log`
+
+````
+The Sailor,midgaard
+The Janitor,midgaard
+The green enfan,enfan-city
+The message bot,midgaard-thief-guild
+The Assassin,midgaard-thief-guild
+The Knight,midgaard-warrior-guild
+The Ninja Lord,midgaard-ninja-guild
+Izumo No Okumi,midgaard-ninja-guild
+A citizen of Midgaard,midgaard
+Welmar's Ranger,midgaard
+````
+
 ## Loot Log
 
-## Kill Log
+Comma-delimited log of items looted from corpses.
+
+> Note: can be used by both `#session` while multi-boxing
+
+### Usage
+
+`jt data-logs loot <state>`
+
+**`state`**
+* `enabled`: log corpse loot
+* `disabled`: or don't
+
+### Log Format
+
+`{npc},{item},{map}`
+> Note: If corpse is empty, then `{item}` is logged empty
+
+> Note: if `jt map` is not enabled, then `{map}` will be logged as `unknown`
+
+### Sample Output
+
+`logs/loot.log`
+
+````
+the Knight,,midgaard-warrior-guild
+the Ninja Lord,,midgaard-ninja-guild
+a wooden Dynasty shield,Izumo No Okumi,midgaard-ninja-guild
+a red silk armband,Izumo No Okumi,midgaard-ninja-guild
+a black Shinobi Shozoku shirt,Izumo No Okumi,midgaard-ninja-guild
+a gold Ryo coin on a rawhide string,Izumo No Okumi,midgaard-ninja-guild
+a little pile of gold coins,a citizen of Midgaard,midgaard
+a long sword,Welmar's Ranger,midgaard
+````
+
 
 # Auto Tank
 
