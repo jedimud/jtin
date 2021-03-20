@@ -1,0 +1,455 @@
+#alias jt_print_message {
+    #if {"$jt_t_window" == ""} {
+        #showme {<aef>$jt_t_name :: %1};
+    }; 
+    #else {
+        $jt_t_window #showme {<aef>$jt_t_name :: %1};
+    }
+}
+
+#alias jt_print_message_with_buffer {
+    jt_print_message {%1};
+    #showme ;
+}
+
+#alias jt_print_state {
+    #showme ;
+    #showme <aef>[jt] JediMUD TinTin++;
+    #showme ;
+    jt_t_print_state;
+    #showme ;
+    jt_m_print_state;
+    #showme ;
+    jt_ib_print_state;
+    #showme ;
+    jt_dl_print_state;
+    #showme ;
+    jt_at_print_state;
+    #showme ;
+    #cr;
+}
+
+#alias jt {
+    #if {"%1" == "state"} {
+        jt_print_state;
+    };
+    #elseif {"%1" == "map"} {
+        jt_m {%2};
+    };
+    #elseif {"%1" == "toon"} {
+        jt_t {%2} {%3};
+    };
+    #elseif {"%1" == "item-brief"} {
+        jt_ib {%2};
+    };
+    #elseif {"%1" == "data-logs"} {
+        jt_dl {%2} {%3};
+    };
+    #elseif {"%1" == "auto-tank"} {
+        jt_at {%2} {%3} {%4} {%5};
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt (toon|state|map|item-brief|data-logs|auto-tank)};
+    }
+}
+
+
+#nop ----- toon-configure -----
+
+
+#alias jt_t {
+    #if {"%1" == "name"} {
+        #if {"%2" != ""} {
+            jt_t_print_msg {name :: <efc>$jt_t_name};
+            #var jt_t_name {%2};
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt toon name <value>};
+        }
+    };
+    #elseif {"%1" == "window"} {
+        #if {"%2" != ""} {
+            jt_t_print_msg {window :: <efc>%2};
+            #var jt_t_window {%2};
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt toon window <value>};
+        }
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt toon (name|window)};
+    }
+}
+
+#alias jt_t_default {
+    #var jt_t_name {jt};
+    #var jt_t_window {};
+}
+
+#alias jt_t_print_state {
+    #showme <fac>* <adf>TOON;
+    #showme <fac>  + <aef>Name: <afc>$jt_t_name;
+    #showme <fac>  + <aef>Window: <afc>$jt_t_window;
+}
+
+#alias jt_t_print_msg {
+    jt_print_message_with_buffer {toon :: %1}
+}
+
+
+#nop ----- auto-tank -----
+
+
+#alias jt_at {
+    #if {"%1" == "auto-buff"} {
+        #if {"%2" == "console"} {
+            #var jt_at_ab_state %2;
+            jt_at_ab_load;
+            jt_at_ab_print_msg <afc>%2;
+        };
+        #elseif {"%2" == "group"} {
+            #var jt_at_ab_state %2;
+            jt_at_ab_load;
+            jt_at_ab_print_msg <afc>%2;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_at_ab_state %2;
+            jt_at_ab_unload;
+            jt_at_ab_print_msg <fca>%2;
+        };
+        #elseif {"%2" == "set"} {
+            #if {"$jt_at_ab_state" == "disabled"} {
+                jt_at_ab_print_msg <fca>disabled;
+            };
+            #else {
+                jt_at_ab_set_mode {%3} {%4};
+            };
+        };
+        #elseif {"%2" == "state"} {
+            #if {"$jt_at_ab_state" == "disabled"} {
+                jt_at_ab_print_msg <fca>disabled;
+            };
+            #else {
+                jt_at_ab_state;
+            };
+        };
+        #else {
+           jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff (console|group|disabled|state|set)}; 
+        }
+    };
+    #elseif {"%1" == "auto-pummel"} {
+        #if {"%2" == "enabled"} {
+            #var jt_at_ap_state %2;
+            jt_at_ap_load;
+            jt_at_ap_print_msg <afc>%2;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_at_ap_state %2;
+            jt_at_ap_unload;
+            jt_at_ap_print_msg <fca>%2;
+        };
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank (auto-buff|auto-pummel)};
+    }
+}
+
+#alias jt_at_print_state {
+    #showme <fac>* <adf>AUTO TANK;
+    #if {"$jt_at_ab_state" == "disabled"} {
+        #showme <fac>  + <aef>Auto-Buff: <fca>disabled;
+    } {
+        #showme <fac>  + <aef>Auto-Buff: <afc>$jt_at_ab_state;
+    };
+    
+    #if {"$jt_at_ap_state" == "disabled"} {
+        #showme <fac>  + <aef>Auto-Pummel: <fca>disabled;
+    } {
+        #showme <fac>  + <aef>Auto-Pummel: <afc>$jt_at_ap_state;
+    };
+
+    #showme <fac>  + <aef>Auto-Disarm: <fca>disabled;
+    #showme <fac>  + <aef>Auto-Grapple: <fca>disabled;
+    #showme <fac>  + <aef>Auto-Rescue: <fca>disabled;
+}
+
+#alias jt_at_default {
+    #var jt_at_ab_state disabled;
+    #var jt_at_ap_state disabled;
+}
+
+#alias jt_at_ab_unload {
+    #class jtin-auto-buff kill;
+}
+
+#alias jt_at_ap_unload {
+    #class jtin-auto-pummel kill;
+}
+
+#alias jt_at_ab_load {
+    #class jtin-auto-buff kill;
+    #class jtin-auto-buff read tins/jtin-auto-buff.tin;
+}
+
+#alias jt_at_ap_load {
+    #class jtin-auto-pummel kill;
+    #class jtin-auto-pummel read tins/jtin-auto-pummel.tin;
+}
+
+#alias jt_at_ab_print_msg {
+    jt_at_print_msg {auto-buff :: %1}
+}
+
+#alias jt_at_ap_print_msg {
+    jt_at_print_msg {auto-pummel :: %1}
+}
+
+#alias jt_at_print_msg {
+    jt_print_message_with_buffer {auto-tank :: %1}
+}
+
+
+#nop ----- data-logs -----
+
+
+#alias jt_dl {
+    #if {"%1" == "identify"} {
+        #if {"%2" == "enabled"} {
+            #var jt_dl_i enabled;
+            jt_dl_i_load;
+            jt_dl_i_print_msg <afc>enabled;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_dl_i disabled;
+            jt_dl_i_unload;
+            jt_dl_i_print_msg <fca>disabled;
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt data-logs identify (enabled|disabled)};
+        }
+    };
+    #elseif {"%1" == "kill"} {
+        #if {"%2" == "enabled"} {
+            #var jt_dl_k enabled;
+            jt_dl_k_load;
+            jt_dl_k_print_msg <afc>enabled;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_dl_k disabled;
+            jt_dl_k_unload;
+            jt_dl_k_print_msg <fca>disabled;
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt data-logs kill (enabled|disabled)};
+        }
+    };
+    #elseif {"%1" == "loot"} {
+        #if {"%2" == "enabled"} {
+            #var jt_dl_l enabled;
+            jt_dl_l_load;
+            jt_dl_l_print_msg <afc>enabled;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_dl_l disabled;
+            jt_dl_l_unload;
+            jt_dl_l_print_msg <fca>disabled;
+        };
+        #else {
+            jt_print_message_with_buffer {<efc>unknown command, try :: jt data-logs loot (enabled|disabled)};
+        }
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt data-logs (identify|kill|loot)};
+    }
+}
+
+#alias jt_dl_i_load {
+    #class jtin-data-logs-identify kill;
+    #class jtin-data-logs-identify read tins/jtin-data-logs-identify.tin;
+}
+
+#alias jt_dl_i_unload {
+    #class jtin-data-logs-identify kill;
+}
+
+#alias jt_dl_k_load {
+    #class jtin-data-logs-kill kill;
+    #class jtin-data-logs-kill read tins/jtin-data-logs-kill.tin;
+}
+
+#alias jt_dl_k_unload {
+    #class jtin-data-logs-kill kill;
+}
+
+#alias jt_dl_l_load {
+    #class jtin-data-logs-loot kill;
+    #class jtin-data-logs-loot read tins/jtin-data-logs-loot.tin;
+}
+
+#alias jt_dl_l_unload {
+    #class jtin-data-logs-loot kill;
+}
+
+#alias jt_dl_default {
+    #var jt_dl_i disabled;
+    #var jt_dl_k disabled;
+    #var jt_dl_l disabled;
+}
+
+#alias jt_dl_print_state {
+    #showme <fac>* <adf>DATA LOGS;
+    #if {"$jt_dl_i" == "enabled"} {
+        #showme <fac>  + <aef>Identify: <afc>$jt_dl_i;
+    } {
+        #showme <fac>  + <aef>Identify: <fca>$jt_dl_i;
+    };
+
+    #if {"$jt_dl_k" == "enabled"} {
+        #showme <fac>  + <aef>Kill: <afc>$jt_dl_k;
+    } {
+        #showme <fac>  + <aef>Kill: <fca>$jt_dl_k;
+    };
+
+    #if {"$jt_dl_l" == "enabled"} {
+        #showme <fac>  + <aef>Loot: <afc>$jt_dl_l;
+    } {
+        #showme <fac>  + <aef>Loot: <fca>$jt_dl_l;
+    };
+}
+
+#alias jt_dl_i_print_msg {
+    jt_dl_print_msg {identify :: %1}
+}
+
+#alias jt_dl_k_print_msg {
+    jt_dl_print_msg {kill :: %1}
+}
+
+#alias jt_dl_l_print_msg {
+    jt_dl_print_msg {loot :: %1}
+}
+
+#alias jt_dl_print_msg {
+    jt_print_message_with_buffer {data-logs :: %1}
+}
+
+
+#nop ----- item-brief -----
+
+
+#alias jt_ib {
+    #if {"%1" == "disabled"} {
+        jt_ib_unload;
+    };
+    #elseif {"%1" == "stats"} {
+        jt_ib_load %1;
+        jt_ib_load_stats;
+    };
+    #elseif {"%1" == "sac"} {
+        jt_ib_load %1;
+    };
+    #elseif {"%1" == "insured"} {
+        jt_ib_load %1;
+        jt_ib_load_insured;
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt item-brief (stats|insured|sac|disabled)};
+    }
+}
+
+#alias jt_ib_default {
+    #var jt_ib_state disabled;
+}
+
+#alias jt_ib_unload {
+    jt_ib_print_msg {<fca>disabled};
+    #class jtin-item-brief kill;
+    #class jtin-item-brief-equip kill;
+    #class jtin-item-brief-insured kill;
+    #var jt_ib_state disabled;
+}
+
+#alias jt_ib_load {
+    #class jtin-item-brief kill;
+    #class jtin-item-brief read tins/jtin-item-brief.tin;
+    #var jt_ib_state %1;
+    jt_ib_print_msg {<afc>$jt_ib_state};
+}
+
+#alias jt_ib_load_insured {
+    #class jtin-item-brief-equip kill;
+    #class jtin-item-brief-insured read tins/jtin-item-brief-insured.tin;
+}
+
+#alias jt_ib_load_stats {
+    #class jtin-item-brief-insured kill;
+    #class jtin-item-brief-equip read tins/jtin-item-brief-equip.tin;
+}
+
+#alias jt_ib_print_state {
+    #if {"$jt_ib_state" == "disabled"} {
+        #showme <fac>* <adf>ITEM-BRIEF: <fca>$jt_ib_state;
+    } {
+        #showme <fac>* <adf>ITEM-BRIEF: <afc>$jt_ib_state;
+    }
+}
+
+#alias jt_ib_print_msg {
+    jt_print_message_with_buffer {item-brief :: %1}
+}
+
+
+#nop ----- mapper -----
+
+
+#alias jt_m {
+    #if {"%1" == "enabled"} {
+        jt_m_load;
+    };
+    #elseif {"%1" == "disabled"} {
+        jt_m_unload;
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt map (enabled|disabled)};
+    }
+}
+
+#alias jt_m_default {
+    #var jt_m_state disabled;
+}
+
+#alias jt_m_unload {
+    jt_m_hide;
+    jt_m_print_msg {<fca>disabled};
+    #class jtin-mapper kill;
+    #var jt_m_state disabled;
+}
+
+#alias jt_m_load {
+    #class jtin-mapper kill;
+    #class jtin-mapper read tins/jtin-mapper.tin;
+    #var jt_m_state enabled;
+    jt_m_print_msg {<afc>enabled};
+}
+
+#alias jt_m_print_state {
+    #if {"$jt_m_state" == "enabled"} {
+        #showme <fac>* <adf>MAP: <afc>$jt_m_state;
+    } {
+        #showme <fac>* <adf>MAP: <fca>$jt_m_state;
+    }
+}
+
+#alias jt_m_print_msg {
+    jt_print_message_with_buffer {map :: %1}
+}
+
+
+#nop ----- startup -----
+
+
+jt_t_default
+jt_m_default;
+jt_ib_default;
+jt_dl_default;
+jt_at_default;

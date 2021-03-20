@@ -1,0 +1,245 @@
+#nop ----- buffs with action -----
+
+#action {^The aura around your body fades.$} {
+    jt_at_ab_lost {SANCTUARY};
+    #var t_b_sanc false;
+}
+#action {^You are glowing with a bright light!$} { #var t_b_sanc true; }
+#action {^You start glowing.$} { #var t_b_sanc true; }
+
+
+#action {^Your skin softens.$} {
+    jt_at_ab_lost {STONE SKIN};
+    #var t_b_stone false;
+}
+#action {^You feel your skin harden.$} { #var t_b_stone true; }
+#action {^Your skin is hardened!$} { #var t_b_stone true; }
+
+
+#action {^You feel less prepared for combat.$} {
+    jt_at_ab_lost {AID};
+    #var t_b_aid false;
+}
+#action {^You feel ready for combat!$} { #var t_b_aid true; }
+
+
+#action {^You feel less righteous.$} {
+    jt_at_ab_lost {BLESS};
+    #var t_b_bless false;
+}
+#action {^You feel righteous.$} { #var t_b_bless true; }
+
+#action {^You feel less protected from the rigors of the world.$} {
+     #var t_b_armor false;
+    jt_at_ab_lost {ARMOR}'
+}
+#action {^You are protected by magical armor.$} { #var t_b_armor true; }
+#action {^You feel someone protecting you.$} { #var t_b_armor true; }
+
+
+#nop ----- buffs with message only -----
+
+#action {^The detect invisible wears off.$} {
+    jt_at_ab_lost {DETECT INVISIBILITY};
+}
+#action {^Your infravision fades.$} {
+    jt_at_ab_lost {INFRAVISION};
+}
+#action {^You feel less protected from good.$} {
+    jt_at_ab_lost {PROTECTION FROM GOOD};
+}
+#action {^You feel less protected from evil.$} {
+    jt_at_ab_lost {PROTECTION FROM EVIL};
+}
+#action {^You sense red and green auras disappearing from your vision.$} {
+    jt_at_ab_lost {DETECT ALIGNMENT};
+}
+
+#nop ----- debuffs -----
+
+#nop ----- print -----
+
+#alias jt_at_ab_lost {
+    jt_at_ab_print_msg_warn {>> LOST %1 <<};
+}
+
+#alias jt_at_ab_print_msg_info {
+    #if {"$jt_at_ab_state" == "console"} {
+        jt_at_ab_print_msg {<afc>%1};
+    };
+    #elseif {"$jt_at_ab_state" == "group"} {
+        gsay @C%1;
+    }
+}
+
+#alias jt_at_ab_print_msg_warn {
+    #if {"$jt_at_ab_state" == "console"} {
+        jt_at_ab_print_msg {<faa>%1};
+    };
+    #elseif {"$jt_at_ab_state" == "group"} {
+        gsay @R%1;
+    }
+}
+
+#nop ----- configure -----
+
+#alias jt_at_ab_state {
+    #showme <adf>AUTO-BUFF;
+    #showme <fac>  + <aef>Sanctuary: @jt_at_ab_get_mode{$t_b_sanc_mode};
+    #showme <fac>  + <aef>Stone Skin: @jt_at_ab_get_mode{$t_b_stone_mode};
+    #showme <fac>  + <aef>Aid: @jt_at_ab_get_mode{$t_b_aid_mode};
+    #showme <fac>  + <aef>Bless: @jt_at_ab_get_mode{$t_b_bless_mode};
+    #showme <fac>  + <aef>Armor: @jt_at_ab_get_mode{$t_b_armor_mode};
+}
+
+#function jt_at_ab_get_mode {
+    #if {"%1" == "block"} {
+        #return {<afc>block};
+    };
+    #elseif {"%1" == "warn"} {
+        #return {<efc>warn}
+    };
+    #else {
+        #return {<fca>disabled}
+    };
+}
+
+#alias jt_at_ab_set_mode {
+    #if {"%1" == "sanctuary"} {
+        #if {"%2" == "block"} { #var t_b_sanc_mode block; jt_at_ab_print_msg {sanctuary :: @jt_at_ab_get_mode{$t_b_sanc_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_sanc_mode warn; jt_at_ab_print_msg {sanctuary :: @jt_at_ab_get_mode{$t_b_sanc_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_sanc_mode disabled; jt_at_ab_print_msg {sanctuary :: @jt_at_ab_get_mode{$t_b_sanc_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #elseif {"%1" == "stone-skin"} {
+        #if {"%2" == "block"} { #var t_b_stone_mode block; jt_at_ab_print_msg {stone-skin :: @jt_at_ab_get_mode{$t_b_stone_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_stone_mode warn; jt_at_ab_print_msg {stone-skin :: @jt_at_ab_get_mode{$t_b_stone_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_stone_mode disabled; jt_at_ab_print_msg {stone-skin :: @jt_at_ab_get_mode{$t_b_stone_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #elseif {"%1" == "aid"} {
+        #if {"%2" == "block"} { #var t_b_aid_mode block; jt_at_ab_print_msg {aid :: @jt_at_ab_get_mode{$t_b_aid_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_aid_mode warn; jt_at_ab_print_msg {aid :: @jt_at_ab_get_mode{$t_b_aid_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_aid_mode disabled; jt_at_ab_print_msg {aid :: @jt_at_ab_get_mode{$t_b_aid_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #elseif {"%1" == "bless"} {
+        #if {"%2" == "block"} { #var t_b_bless_mode block; jt_at_ab_print_msg {bless :: @jt_at_ab_get_mode{$t_b_bless_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_bless_mode warn; jt_at_ab_print_msg {bless :: @jt_at_ab_get_mode{$t_b_bless_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_bless_mode disabled; jt_at_ab_print_msg {bless :: @jt_at_ab_get_mode{$t_b_bless_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #elseif {"%1" == "armor"} {
+        #if {"%2" == "block"} { #var t_b_armor_mode block; jt_at_ab_print_msg {armor :: @jt_at_ab_get_mode{$t_b_armor_mode}}; };
+        #elseif {"%2" == "warn"} { #var t_b_armor_mode warn; jt_at_ab_print_msg {armor :: @jt_at_ab_get_mode{$t_b_armor_mode}}; };
+        #elseif {"%2" == "disabled"} { #var t_b_armor_mode disabled; jt_at_ab_print_msg {armor :: @jt_at_ab_get_mode{$t_b_armor_mode}}; };
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+    };
+
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set (sanctuary|stone-skin|aid|bless|armor)};
+    };
+}
+
+#alias jt_at_ab_combat_default {
+    #list t_b_block clear;
+    #list t_b_warn clear;
+
+    #var t_b_sanc false;
+    #var t_b_sanc_mode disabled;
+
+    #var t_b_stone false;
+    #var t_b_stone_mode disabled;
+
+    #var t_b_aid false;
+    #var t_b_aid_mode disabled;
+
+    #var t_b_bless false;
+    #var t_b_bless_mode disabled;
+
+    #var t_b_armor false;
+    #var t_b_armor_mode disabled;
+}
+
+#nop ----- combat -----
+
+#alias jt_at_ab_combat_perform {
+    #if {"$t_b_sanc" != "true"} {
+        #if {"$t_b_sanc_mode" == "block"} {
+            #list t_b_block add {SANCTUARY};
+        };
+        #else {
+            #list t_b_warn add {SANCTUARY};
+        };
+    };
+
+    #if {"$t_b_stone" != "true"} {
+        #if {"$t_b_stone_mode" == "block"} {
+            #list t_b_block add {STONE SKIN};
+        };
+        #else {
+            #list t_b_warn add {STONE SKIN};
+        };
+    };
+
+    #if {"$t_b_aid" != "true"} {
+        #if {"$t_b_aid_mode" == "block"} {
+            #list t_b_block add {AID};
+        };
+        #else {
+            #list t_b_warn add {AID};
+        };
+    };
+
+    #if {"$t_b_bless" != "true"} {
+        #if {"$t_b_bless_mode" == "block"} {
+            #list t_b_block add {BLESS};
+        };
+        #else {
+            #list t_b_warn add {BLESS};
+        };
+    };
+
+    #if {"$t_b_armor" != "true"} {
+        #if {"$t_b_armor_mode" == "block"} {
+            #list t_b_armor add {ARMOR};
+        };
+        #else {
+            #list t_b_warn add {ARMOR};
+        };
+    };
+
+    #list t_b_block size t_b_block_size;
+    #list t_b_warn size t_b_warn_size;
+
+    #if {$t_b_block_size > 0} {
+        #var t_b_block_msg {};
+        #foreach {$t_b_block[%*]} {t_b_blocker} {#var t_b_block_msg {$t_b_block_msg $t_b_blocker}};
+        jt_at_ab_print_msg_warn { >> MISSING$t_b_block_msg << };
+        #unvar t_b_blocker;
+        #unvar t_b_block_msg;
+    };
+
+    #else {
+        #if {$t_b_warn_size > 0} {
+            #var t_b_warn_msg {};
+            #foreach {$t_b_warn[%*]} {t_b_warner} {#var t_b_warn_msg {$t_b_warn_msg $t_b_warner}};
+            jt_at_ab_print_msg_info { >> MISSING$t_b_warn_msg << };
+            #unvar t_b_warn;
+            #unvar t_b_warn_msg;
+        };
+
+        #send {%1};
+    };
+
+    #list t_b_block clear;
+    #unvar t_b_block_size;
+    #list t_b_warn clear;
+    #unvar t_b_warn_size;
+}
+
+jt_at_ab_combat_default;

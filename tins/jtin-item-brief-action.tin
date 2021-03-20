@@ -1,15 +1,15 @@
 #action {^%1} {
     #regex {%1} {^%+>} {
-        end_item_brief;
+        jt_ib_end_markup;
     } {
-        item_brief_find {%1};
+        jt_ib_find {%1};
 
         #if {"$item[3]" != ""} {
-            #if {"$item_brief_sac" == "true"} {
+            #if {"$jt_ib_state" == "sac"} {
                 #line ignore #show <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>
             };
 
-            #elseif {"$item_brief_insured_tag" == "true"} {
+            #elseif {"$jt_ib_state" == "insured"} {
                 #if {"$item[5]" == "(insured)"} {
                     #line ignore #show <afc>$item[1] <acf>$item[3]<fca> (I)<099>;
                 } {

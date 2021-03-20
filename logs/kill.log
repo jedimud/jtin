@@ -807,16 +807,16 @@ Punketah,abandoned-ship
 The Captain,abandoned-ship
 The fox,trails-around-skara-brae
 The fox,trails-around-skara-brae
-The bloodworm,floodland
-The porter,floodland
-The donkey,floodland
-The porter,floodland
-The donkey,floodland
-A traveling merchant,floodland
-The traveling woman,floodland
-The hermit,floodland
-Arsenius,floodland
-The hermit,floodland
+The bloodworm,floodlands
+The porter,floodlands
+The donkey,floodlands
+The porter,floodlands
+The donkey,floodlands
+A traveling merchant,floodlands
+The traveling woman,floodlands
+The hermit,floodlands
+Arsenius,floodlands
+The hermit,floodlands
 An eel,dragon-sea
 Punketah,abandoned-ship
 The Captain,abandoned-ship
@@ -824,85 +824,85 @@ An eel,dragon-sea
 An eel,dragon-sea
 The Beggar,skara-brae
 The smuggler,skara-brae
-The lurking serpent,floodland
-The surmin,floodland
-The traveling woman,floodland
-A jackal,floodland
-A jackal,floodland
-The elven wanderer,floodland
-A jackal,floodland
-The hellhound,floodland
-A wandering rogue,floodland
-A traveling merchant,floodland
-A jackal,floodland
-A lost child,floodland
-The tortoise,floodland
+The lurking serpent,floodlands
+The surmin,floodlands
+The traveling woman,floodlands
+A jackal,floodlands
+A jackal,floodlands
+The elven wanderer,floodlands
+A jackal,floodlands
+The hellhound,floodlands
+A wandering rogue,floodlands
+A traveling merchant,floodlands
+A jackal,floodlands
+A lost child,floodlands
+The tortoise,floodlands
 Punketah,abandoned-ship
-The fox,floodland
-A jackal,floodland
-A gravely wounded minotaur,floodland
-A jackal,floodland
-The hellhound,floodland
-The bloodworm,floodland
-Prosper,floodland
-The tortoise,floodland
-The tortoise,floodland
-The surmin,floodland
-A swamp-rat,floodland
-The surmin,floodland
-The troll,floodland
-A swamp-rat,floodland
-The bloodworm,floodland
-A swamp-rat,floodland
-The bloodworm,floodland
-A blind eel,floodland
-The soldier,floodland
-The soldier,floodland
-The soldier,floodland
-The soldier,floodland
-The Venerable Fzort,floodland
-Y'Gael,floodland
-A swamp-rat,floodland
-A traveling merchant,floodland
-A rich merchant,floodland
-A rich merchant,floodland
-A rich merchant,floodland
-A lost child,floodland
-A lost child,floodland
-The donkey,floodland
-The porter,floodland
-A traveling merchant,floodland
-A traveling merchant,floodland
-A servant,floodland
-The donkey,floodland
-A servant,floodland
-A servant,floodland
-A servant,floodland
-The donkey,floodland
-The stable-hand,floodland
-The porter,floodland
-The stable-hand,floodland
-The pilgrim,floodland
-A servant,floodland
-The porter,floodland
-The pilgrim,floodland
-The troll,floodland
-The surmin,floodland
-A traveling merchant,floodland
-The porter,floodland
-The donkey,floodland
-The porter,floodland
-The donkey,floodland
-A swamp-rat,floodland
-The lurking serpent,floodland
-The lurking serpent,floodland
-The bloodworm,floodland
-A swamp-rat,floodland
-A swamp-rat,floodland
-A swamp-rat,floodland
-A swamp-rat,floodland
-The basalt idol,floodland
-The hellhound,floodland
+The fox,floodlands
+A jackal,floodlands
+A gravely wounded minotaur,floodlands
+A jackal,floodlands
+The hellhound,floodlands
+The bloodworm,floodlands
+Prosper,floodlands
+The tortoise,floodlands
+The tortoise,floodlands
+The surmin,floodlands
+A swamp-rat,floodlands
+The surmin,floodlands
+The troll,floodlands
+A swamp-rat,floodlands
+The bloodworm,floodlands
+A swamp-rat,floodlands
+The bloodworm,floodlands
+A blind eel,floodlands
+The soldier,floodlands
+The soldier,floodlands
+The soldier,floodlands
+The soldier,floodlands
+The Venerable Fzort,floodlands
+Y'Gael,floodlands
+A swamp-rat,floodlands
+A traveling merchant,floodlands
+A rich merchant,floodlands
+A rich merchant,floodlands
+A rich merchant,floodlands
+A lost child,floodlands
+A lost child,floodlands
+The donkey,floodlands
+The porter,floodlands
+A traveling merchant,floodlands
+A traveling merchant,floodlands
+A servant,floodlands
+The donkey,floodlands
+A servant,floodlands
+A servant,floodlands
+A servant,floodlands
+The donkey,floodlands
+The stable-hand,floodlands
+The porter,floodlands
+The stable-hand,floodlands
+The pilgrim,floodlands
+A servant,floodlands
+The porter,floodlands
+The pilgrim,floodlands
+The troll,floodlands
+The surmin,floodlands
+A traveling merchant,floodlands
+The porter,floodlands
+The donkey,floodlands
+The porter,floodlands
+The donkey,floodlands
+A swamp-rat,floodlands
+The lurking serpent,floodlands
+The lurking serpent,floodlands
+The bloodworm,floodlands
+A swamp-rat,floodlands
+A swamp-rat,floodlands
+A swamp-rat,floodlands
+A swamp-rat,floodlands
+The basalt idol,floodlands
+The hellhound,floodlands
 A citizen of Midgaard,midgaard
 A citizen of Midgaard,midgaard
 An eel,dragon-sea
@@ -2718,29 +2718,29 @@ A murderer,new-thalos-jails
 A murderer,new-thalos-jails
 The Prison Guard,new-thalos-jails
 The jailor,new-thalos-jails
-The White Rook,chess-board
-The White Knight,chess-board
-A White Bishop,chess-board
-A Pawn of the White Court,chess-board
-The White Queen,chess-board
-The White King,chess-board
-A White Bishop,chess-board
-The White Knight,chess-board
-The White Rook,chess-board
-The Black Rook,chess-board
-The Black Knight,chess-board
-A Black Bishop,chess-board
-The Black King,chess-board
-The Black Queen,chess-board
-A Black Bishop,chess-board
-The Black Knight,chess-board
-The Black Rook,chess-board
-A Pawn of the White Court,chess-board
-A Pawn of the Black Court,chess-board
-A Pawn of the Black Court,chess-board
-A Pawn of the White Court,chess-board
-A Pawn of the Black Court,chess-board
-A Pawn of the Black Court,chess-board
+The White Rook,chessboard
+The White Knight,chessboard
+A White Bishop,chessboard
+A Pawn of the White Court,chessboard
+The White Queen,chessboard
+The White King,chessboard
+A White Bishop,chessboard
+The White Knight,chessboard
+The White Rook,chessboard
+The Black Rook,chessboard
+The Black Knight,chessboard
+A Black Bishop,chessboard
+The Black King,chessboard
+The Black Queen,chessboard
+A Black Bishop,chessboard
+The Black Knight,chessboard
+The Black Rook,chessboard
+A Pawn of the White Court,chessboard
+A Pawn of the Black Court,chessboard
+A Pawn of the Black Court,chessboard
+A Pawn of the White Court,chessboard
+A Pawn of the Black Court,chessboard
+A Pawn of the Black Court,chessboard
 The Sohei Guard,midgaard-sohei-guild
 The Guard,midgaard-bard-guild
 The message bot,midgaard
@@ -2801,15 +2801,15 @@ A rotting zombie,miden-nir-extension
 The goblin chief,miden-nir-extension
 The goblin,miden-nir
 The ent,miden-nir
-The White Rook,chess-board
-The White Knight,chess-board
-A White Bishop,chess-board
-The White Queen,chess-board
-The White King,chess-board
-A White Bishop,chess-board
-The White Knight,chess-board
-The White Rook,chess-board
-A Pawn of the White Court,chess-board
+The White Rook,chessboard
+The White Knight,chessboard
+A White Bishop,chessboard
+The White Queen,chessboard
+The White King,chessboard
+A White Bishop,chessboard
+The White Knight,chessboard
+The White Rook,chessboard
+A Pawn of the White Court,chessboard
 The alley cat,new-thalos
 The skinny kid,new-thalos
 The skinny kid,amusement-park
@@ -3257,3 +3257,692 @@ Hattori Hanzo,skara-brae-ninja-guild
 The Red Sash,skara-brae
 The message bot,skara-brae
 The Ticket Taker,skara-brae
+The rat,midgaard
+A citizen of Midgaard,midgaard
+The green enfan,enfan-city
+The grey enfan,enfan-city
+The grey enfan,enfan-city
+The grey enfan,enfan-city
+The grey enfan,enfan-city
+The grey enfan,enfan-city
+The blue enfan,enfan-city
+The blue enfan,enfan-city
+The blue enfan,enfan-city
+The blue enfan,enfan-city
+The yellow enfan,enfan-city
+The grey enfan,enfan-city
+The black enfan,enfan-city
+The gargoyle,enfan-city
+The giant,dwarven-kingdom
+A dwarven worker,dwarven-kingdom
+A dwarven worker,dwarven-kingdom
+A dwarven worker,dwarven-kingdom
+A dwarven worker,dwarven-kingdom
+The giant,dwarven-kingdom
+A dwarven worker,dwarven-kingdom
+A dwarven worker,dwarven-kingdom
+The weaponsmaster,drow-city
+The drow priestess,drow-city
+The drow warrior noble,drow-city
+The drow mage noble,drow-city
+The Matron Mother,drow-city
+The drow master,drow-city
+The Drow commoner,drow-city
+Farlenian,wayhouse
+Zoe,wayhouse
+Werith,wayhouse
+Farlenian,wayhouse
+Alice the Goon,new-thalos
+Wimpy,new-thalos
+Popeye,new-thalos
+The Nymph Queen,new-thalos-palace
+The Nymph King,new-thalos-palace
+The gardener,new-thalos-palace
+The pegasus,new-thalos-palace
+The vulture,new-thalos-palace
+The Royal Guard,new-thalos-palace
+A eunuch,new-thalos-palace
+A eunuch,new-thalos-palace
+A eunuch,new-thalos-palace
+A eunuch,new-thalos-palace
+The jailor,new-thalos-jails
+The Prison Guard,new-thalos-jails
+Petty crime offender,new-thalos-jails
+Petty crime offender,new-thalos-jails
+The Prison Guard,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+The skinny kid,new-thalos
+The White Rook,chessboard
+The White Knight,chessboard
+A White Bishop,chessboard
+The White Queen,chessboard
+The White King,chessboard
+A White Bishop,chessboard
+The White Knight,chessboard
+The White Rook,chessboard
+A Pawn of the White Court,chessboard
+The Black Rook,chessboard
+The Black Knight,chessboard
+A Black Bishop,chessboard
+The Black King,chessboard
+The Black Queen,chessboard
+A Black Bishop,chessboard
+The Black Knight,chessboard
+The Black Rook,chessboard
+A Pawn of the Black Court,chessboard
+The jailor,new-thalos-jails
+The Prison Guard,new-thalos-jails
+The Prison Guard,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+A thief,new-thalos-jails
+A murderer,new-thalos-jails
+A murderer,new-thalos-jails
+The Nymph King,new-thalos-palace
+The Nymph Queen,new-thalos-palace
+The lamia,new-thalos-thief-guild
+Aruncus the Druid,northern-plains
+Sorbus the Hermit,northern-plains
+Matty,northern-plains
+Luxan,northern-plains
+The Innkeeper,northern-plains
+Shudde-M'ell,northern-plains
+The drider,great-eastern-desert
+A citizen of Midgaard,midgaard
+A citizen of Midgaard,midgaard
+The watch commander,midgaard
+Aruncus the Druid,northern-plains
+Sorbus the Hermit,northern-plains
+The citizen,northern-plains
+Matty,northern-plains
+The grocer,shire-village
+The blacksmith,shire-village
+The shopkeeper,shire-village
+The Thain,shire-village
+The Elven Wizard,shire-village
+The Keeper of the Ring,shire-village
+The dwarven prince,shire-village
+The elven warrior,shire-village
+A bull,shire-village
+A halfling youth,shire-village
+A halfling youth,shire-village
+A chicken,shire-village
+A chicken,shire-village
+A chicken,shire-village
+A chicken,shire-village
+A chicken,shire-village
+A chicken,shire-village
+A horse,shire-village
+A horse,shire-village
+A horse,shire-village
+A horse,shire-village
+A cow,shire-village
+A cow,shire-village
+A cow,shire-village
+A pig,shire-village
+A pig,shire-village
+A pig,shire-village
+A pig,shire-village
+A pig,shire-village
+Farmer Gamgee,shire-village
+A country bumpkin,shire-village
+Lordchi the Sorcerer,midgaard-mage-guild
+The Paladin Guard,midgaard-paladin-guild
+The librarian,midgaard-temple
+The deacon,midgaard-temple
+A vicar,midgaard-temple
+A grump,camelot
+A grump,camelot
+A grump,camelot
+A grump,camelot
+A grump,camelot
+A grump,camelot
+A grump,camelot
+A grump,camelot
+Morgan LeFay,camelot
+A grump,camelot
+A grump,camelot
+Sir Lancelot,camelot
+The canon,midgaard-temple
+The chaplain,midgaard-temple
+The expositor,midgaard-temple
+The green enfan,enfan-city
+The grey enfan,enfan-city
+The grey enfan,enfan-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The drow priestess,drow-city
+The drow mage noble,drow-city
+The drow warrior noble,drow-city
+The drow warrior noble,drow-city
+The drow mage noble,drow-city
+The drow priestess,drow-city
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The bishop,midgaard-temple
+The Paladin Guard,midgaard-paladin-guild
+The Cityguard,midgaard-paladin-guild
+The Jedi Guard,midgaard-jedi-guild
+Yagli,midgaard-cleric-guild
+Pitt the bouncer,midgaard-cleric-guild
+The Cityguard,midgaard-cleric-guild
+The Jedi Guard,midgaard-jedi-guild
+R2D2,midgaard-jedi-guild
+The Paladin Guard,midgaard-paladin-guild
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The drow mage noble,drow-city
+The drow warrior noble,drow-city
+The Sailor,midgaard
+Lordchi the Sorcerer,midgaard-mage-guild
+The Astrologer,midgaard-mage-guild
+The Sohei Guard,midgaard-sohei-guild
+The Ninja Lord,midgaard-ninja-guild
+The Ninja Lord,midgaard-ninja-guild
+Izumo No Okumi,midgaard-ninja-guild
+The Knight,midgaard-warrior-guild
+Welmar's Ranger,midgaard-thief-guild
+The Assassin,midgaard-thief-guild
+The AntiPaladin Guard,midgaard-antipaladin-guild
+Rebecca Howe,cheers
+Sam,cheers
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+The Bat,midgaard-temple
+Lilith,cheers
+Woody,cheers
+Cliff Claven,cheers
+Carla,cheers
+Jonathan Hill,cheers
+Frasier,cheers
+Paul,cheers
+Norm,cheers
+Yagli,midgaard-cleric-guild
+Pitt the bouncer,midgaard-cleric-guild
+The Jedi Guard,midgaard-jedi-guild
+The Paladin Guard,midgaard-paladin-guild
+The Paladin guild shopkeeper,midgaard-paladin-guild
+The goblin slave,drow-city
+The Drow commoner,drow-city
+The Matron Mother,drow-city
+The drow mage noble,drow-city
+The drow mage noble,drow-city
+The drow priestess,drow-city
+The drow warrior noble,drow-city
+The drow warrior noble,drow-city
+The drow priestess,drow-city
+The Matron Mother,drow-city
+The Drow commoner,drow-city
+The drow warrior noble,drow-city
+The drow mage noble,drow-city
+The drow priestess,drow-city
+The Matron Mother,drow-city
+The Sailor,midgaard
+Lordchi the Sorcerer,midgaard-mage-guild
+The Guard,midgaard-bard-guild
+The Sohei Guard,midgaard-sohei-guild
+Yagli,midgaard-cleric-guild
+Pitt the bouncer,midgaard-cleric-guild
+The Jedi Guard,midgaard-jedi-guild
+The Paladin Guard,midgaard-paladin-guild
+The Paladin guild shopkeeper,midgaard-paladin-guild
+The Ninja Lord,midgaard-ninja-guild
+The Knight,midgaard-warrior-guild
+The Assassin,midgaard-thief-guild
+The goblin slave,drow-city
+The drow priestess,drow-city
+The drow mage noble,drow-city
+The drow warrior noble,drow-city
+The AntiPaladin Guard,midgaard-antipaladin-guild
+A citizen of Midgaard,midgaard
+The goblin,miden-nir
+The ent,miden-nir
+Yagli,midgaard-cleric-guild
+Pitt the bouncer,midgaard-cleric-guild
+Sorbus the Hermit,northern-plains
+Aruncus the Druid,northern-plains
+Matty,northern-plains
+Luxan,northern-plains
+The Innkeeper,northern-plains
+The Sailor,midgaard
+The goblin slave,drow-city
+The goblin slave,drow-city
+The Drow commoner,drow-city
+The Matron Mother,drow-city
+The Drow commoner,drow-city
+The Matron Mother,drow-city
+The Matron Mother,drow-city
+The drow master,drow-city
+The drow master,drow-city
+The Matron Mother,drow-city
+The drow priestess,drow-city
+The drow warrior noble,drow-city
+The drow mage noble,drow-city
+The drow warrior noble,drow-city
+The drow mage noble,drow-city
+The drow priestess,drow-city
+The Drow commoner,drow-city
+The weaponsmaster,drow-city
+The weaponsmaster,drow-city
+The yochlol,drow-city
+The Ninja Lord,midgaard-ninja-guild
+The Cityguard,midgaard-ninja-guild
+The Knight,midgaard-warrior-guild
+The Assassin,midgaard-thief-guild
+The Mercenary,midgaard-thief-guild
+The Drunk,midgaard-antipaladin-guild
+The AntiPaladin Guard,midgaard-antipaladin-guild
+Frasier,cheers
+The gargoyle,enfan-city
+The black enfan,enfan-city
+The green enfan,enfan-city
+The green enfan,enfan-city
+The purple enfan,enfan-city
+The yellow enfan,enfan-city
+Welmar's Ranger,midgaard-cleric-guild
+Yagli,midgaard-cleric-guild
+The message bot,midgaard-cleric-guild
+Pitt the bouncer,midgaard-cleric-guild
+The rat,midgaard
+Lilith,cheers
+Woody,cheers
+Norm,cheers
+Rebecca Howe,cheers
+Sam,cheers
+Carla,cheers
+Paul,cheers
+Jonathan Hill,cheers
+Frasier,cheers
+The dracolich,great-eastern-desert
+The Knight,midgaard-warrior-guild
+Welmar's Ranger,midgaard-cleric-guild
+The Mercenary,midgaard-cleric-guild
+Yagli,midgaard-cleric-guild
+The Sohei Guard,midgaard-sohei-guild
+The Guard,midgaard-bard-guild
+The goblin slave,drow-city
+The goblin slave,drow-city
+The drow master,drow-city
+The Matron Mother,drow-city
+The drow master,drow-city
+The Matron Mother,drow-city
+The drow priestess,drow-city
+The drow warrior noble,drow-city
+The drow mage noble,drow-city
+The drow priestess,drow-city
+The drow warrior noble,drow-city
+The drow mage noble,drow-city
+The Matron Mother,drow-city
+The Drow commoner,drow-city
+The drow master,drow-city
+The Matron Mother,drow-city
+The weaponsmaster,drow-city
+The yochlol,drow-city
+The Drow commoner,drow-city
+The Jedi Guard,midgaard-jedi-guild
+The Mercenary,midgaard-paladin-guild
+The Paladin Guard,midgaard-paladin-guild
+The Paladin guild shopkeeper,midgaard-paladin-guild
+The Paladin Guard,midgaard-paladin-guild
+The Jedi Guard,midgaard-jedi-guild
+Yagli,midgaard-cleric-guild
+The Mercenary,midgaard-cleric-guild
+Pitt the bouncer,midgaard-cleric-guild
+The AntiPaladin Guard,midgaard-antipaladin-guild
+The Assassin,midgaard-thief-guild
+The Knight,midgaard-warrior-guild
+The Ninja Lord,midgaard-ninja-guild
+Izumo No Okumi,midgaard-ninja-guild
+The green enfan,enfan-city
+The gargoyle,enfan-city
+The black enfan,enfan-city
+The ent,miden-nir
+The goblin,miden-nir
+The goblin,miden-nir
+The goblin chief,miden-nir-extension
+A bound spirit,miden-nir-extension
+A bound spirit,miden-nir-extension
+Yamus, the necromancer,miden-nir-extension
+An armored wraith,miden-nir-extension
+An armored wraith,miden-nir-extension
+An armored wraith,miden-nir-extension
+An armored wraith,miden-nir-extension
+An angry spirit,miden-nir-extension
+A ghost,miden-nir-extension
+A ghost,miden-nir-extension
+A ghost,miden-nir-extension
+A ghost,miden-nir-extension
+A ghost,miden-nir-extension
+An angry spirit,miden-nir-extension
+An angry spirit,miden-nir-extension
+An angry spirit,miden-nir-extension
+A ghost,miden-nir-extension
+Lord Elgan,miden-nir-extension
+An angry spirit,miden-nir-extension
+An angry spirit,miden-nir-extension
+A ghost,miden-nir-extension
+A ghost,miden-nir-extension
+Carla,cheers
+Woody,cheers
+Lilith,cheers
+Jonathan Hill,cheers
+Rebecca Howe,cheers
+Paul,cheers
+Sam,cheers
+Frasier,cheers
+Norm,cheers
+The weaponsmaster,drow-city
+The Matron Mother,drow-city
+The drow master,drow-city
+The drow master,drow-city
+The Drow commoner,drow-city
+The Matron Mother,drow-city
+The Matron Mother,drow-city
+The drow master,drow-city
+The Matron Mother,drow-city
+The weaponsmaster,drow-city
+The yochlol,drow-city
+The Ninja Lord,midgaard-ninja-guild
+The Knight,midgaard-warrior-guild
+The Mercenary,midgaard-thief-guild
+The Cityguard,midgaard-thief-guild
+The Assassin,midgaard-thief-guild
+The AntiPaladin Guard,midgaard-antipaladin-guild
+Yagli,midgaard-cleric-guild
+Pitt the bouncer,midgaard-cleric-guild
+The Jedi Guard,midgaard-jedi-guild
+The Paladin Guard,midgaard-paladin-guild
+The Paladin guild shopkeeper,midgaard-paladin-guild
+Lordchi the Sorcerer,midgaard-mage-guild
+The Guard,midgaard-bard-guild
+The Sohei Guard,midgaard-sohei-guild
+The green enfan,enfan-city
+The gargoyle,enfan-city
+The grey enfan,enfan-city
+The grey enfan,enfan-city
+The grey enfan,enfan-city
+The grey enfan,enfan-city
+The black enfan,enfan-city
+The purple enfan,enfan-city
+The green enfan,enfan-city
+The green enfan,enfan-city
+The green enfan,enfan-city
+The purple enfan,enfan-city
+The green enfan,enfan-city
+The yellow enfan,enfan-city
+Welmar's Ranger,midgaard
+The Mercenary,midgaard
+The Sailor,midgaard
+The Black Dragon,balor
+A Priest,balor
+A Priest,balor
+A Priest,balor
+A Priest,balor
+A High Priest,balor
+A Priest,balor
+The mighty beholder,old-thalos
+The lamia,old-thalos
+The horned lizard,old-thalos
+The stone golem,old-thalos
+The stone golem,old-thalos
+The stone golem,old-thalos
+The lamia,lich_tower
+A small vegepygmy,lich-tower
+A small vegepygmy,lich-tower
+A small vegepygmy,lich-tower
+A small vegepygmy,lich-tower
+A small vegepygmy,lich-tower
+A small vegepygmy,lich-tower
+The Spectral Captain,lich-tower
+A small vegepygmy,lich-tower
+A small vegepygmy,lich-tower
+The Ghast,lich-tower
+The Ghast,lich-tower
+The Ghast,lich-tower
+The Ghast,lich-tower
+A Ghoul,lich-tower
+A Ghoul,lich-tower
+A Ghoul,lich-tower
+A Ghoul,lich-tower
+The Ghast,lich-tower
+The Ghast,lich-tower
+A Ghoul,lich-tower
+A Ghoul,lich-tower
+A Ghoul,lich-tower
+A Ghoul,lich-tower
+A Ghoul,lich-tower
+A Ghoul,lich-tower
+The Demon,lich-tower
+Tsutey,lich-tower
+A Giant Lizard,lich-tower
+The Trapper,lich-tower
+An Earth Elemental,balor
+A Fire Elemental,balor
+An Air Elemental,balor
+A Water Elemental,balor
+An Elven warrior,balor
+An Elven warrior,balor
+The Drow Maiden,balor
+The Drow Maiden,balor
+The Drow Maiden,balor
+The Drow Maiden,balor
+The Drow Maiden,balor
+The Balor,balor
+The message bot,midgaard
+The Mercenary,midgaard
+Welmar's Ranger,midgaard
+An eel,dragon-sea
+A citizen of Midgaard,midgaard
+The message bot,unknown
+The message bot,midgaard
+The Janitor,midgaard
+The high priest,midgaard-temple
+The Sailor,midgaard
+The Paladin Guard,midgaard-paladin-guild
+The Paladin guild shopkeeper,midgaard-paladin-guild
+The Jedi Guard,midgaard-jedi-guild
+The Cityguard,midgaard-cleric-guild
+The Mercenary,midgaard-cleric-guild
+Yagli,midgaard-cleric-guild
+The Sohei Guard,midgaard-sohei-guild
+The Sailor,midgaard
+The Cityguard,midgaard
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The goblin slave,drow-city
+The drow master,drow-city
+The weaponsmaster,drow-city
+The Matron Mother,drow-city
+The Matron Mother,drow-city
+The Matron Mother,drow-city
+The drow master,drow-city
+The Matron Mother,drow-city
+The Drow commoner,drow-city
+The weaponsmaster,drow-city
+The Drow commoner,drow-city
+The Drow commoner,drow-city
+The yochlol,drow-city
+The high priest,midgaard-temple
+Rebecca Howe,cheers
+Woody,cheers
+Lilith,cheers
+Jonathan Hill,cheers
+Sam,cheers
+Paul,cheers
+Frasier,cheers
+Carla,cheers
+Norm,cheers
+The Ninja Lord,midgaard-ninja-guild
+The Knight,midgaard-warrior-guild
+The Mercenary,midgaard-warrior-guild
+The Assassin,midgaard-thief-guild
+Welmar's Ranger,midgaard-antipaladin-guild
+The AntiPaladin Guard,midgaard-antipaladin-guild
+The Mercenary,midgaard
+Lordchi the Sorcerer,midgaard-mage-guild
+Farlenian,wayhouse
+Werith,wayhouse
+Zoe,wayhouse
+The lamia,old-thalos
+The lamia,old-thalos
+The mighty beholder,old-thalos
+The lamia,old-thalos
+The stone golem,old-thalos
+The stone golem,old-thalos
+The lamia,old-thalos
+The stone golem,old-thalos
+The lamia,old-thalos
+The lamia,old-thalos
+The lamia,old-thalos
+The lamia,old-thalos
+A kobold scavenger,old-thalos
+The lamia,old-thalos
+The lamia,old-thalos
+The lamia,old-thalos
+The Paladin Guard,midgaard-paladin-guild
+The Paladin guild shopkeeper,midgaard-paladin-guild
+The Jedi Guard,midgaard-jedi-guild
+Yagli,midgaard-cleric-guild
+The Sohei Guard,midgaard-sohei-guild
+The Ninja Lord,midgaard-ninja-guild
+The Knight,midgaard-warrior-guild
+The Mercenary,midgaard-warrior-guild
+The message bot,midgaard-warrior-guild
+The message bot,midgaard-thief-guild
+The Assassin,midgaard-thief-guild
+The AntiPaladin Guard,midgaard-antipaladin-guild
+The message bot,midgaard
+The Sailor,midgaard
+The Mercenary,midgaard
+The high priest,midgaard-temple
+Sorbus the Hermit,northern-plains
+Aruncus the Druid,northern-plains
+Matty,northern-plains
+Luxan,northern-plains
+The Innkeeper,northern-plains
+Shudde-M'ell,northern-plains
+The weaponsmaster,drow-city
+The Matron Mother,drow-city
+The drow master,drow-city
+The Matron Mother,drow-city
+The Matron Mother,drow-city
+The drow master,drow-city
+The Drow commoner,drow-city
+The Matron Mother,drow-city
+The weaponsmaster,drow-city
+The yochlol,drow-city
+Farlenian,wayhouse
+Werith,wayhouse
+The mighty beholder,old-thalos
+The stone golem,old-thalos
+The stone golem,old-thalos
+The stone golem,old-thalos
+The gargoyle,enfan-city
+The black enfan,enfan-city
+The green enfan,enfan-city
+The goblin,miden-nir
+The goblin,miden-nir
+The giant,dwarven-kingdom
+A dwarven guard,dwarven-kingdom
+A wraith,dwarven-kingdom
+The Hide & Tooth storekeeper,dwarven-kingdom
+Granite Head the baker,dwarven-kingdom
+The dwarven doctor,dwarven-kingdom
+The dwarf,dwarven-kingdom
+The dwarf,dwarven-kingdom
+The dwarf,dwarven-kingdom
+The dwarf,dwarven-kingdom
+The dwarf,dwarven-kingdom
+The giant,dwarven-kingdom
+A dwarven guard,dwarven-kingdom
+The giant snake,dwarven-kingdom
+The giant snake,dwarven-kingdom
+The mazekeeper,dwarven-kingdom
+The Ninja Lord,midgaard-ninja-guild
+Frasier,cheers
+Woody,cheers
+Lilith,cheers
+Jonathan Hill,cheers
+Carla,cheers
+Rebecca Howe,cheers
+Paul,cheers
+Norm,cheers
+Sam,cheers
+The Knight,midgaard-warrior-guild
+The message bot,midgaard-thief-guild
+The Mercenary,midgaard-thief-guild
+The Janitor,midgaard-thief-guild
+The Assassin,midgaard-thief-guild
+The Mercenary,midgaard
+The AntiPaladin Guard,midgaard-antipaladin-guild
+The goblin,miden-nir
+The goblin,miden-nir
+The goblin,miden-nir
+The goblin,miden-nir
+The goblin,miden-nir
+The ent,miden-nir
+The goblin chief,miden-nir-extension
+Yamus, the necromancer,miden-nir-extension
+A bound spirit,miden-nir-extension
+A bound spirit,miden-nir-extension
+Deloria,miden-nir-extension
+An insect swarm,miden-nir-extension
+A poisonous frog,miden-nir-extension
+An insect swarm,midgaard

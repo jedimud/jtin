@@ -1,0 +1,35 @@
+#nop ----- gag unused lines and flags -----
+
+#sub { (invisible)} {}
+#sub { (glowing)} {}
+#sub { (humming)} {}
+#action {^<offhand wield>} {#line gag}
+
+
+#nop ----- markup items with stats -----
+
+
+#action {^You are carrying:} {
+    jt_ib_start_markup
+}
+
+#action {^%1 (carried):} {
+    jt_ib_start_markup
+}
+
+#alias jt_ib_start_markup {
+    #class jtin-item-brief-action read tins/jtin-item-brief-action.tin;
+    #delay {0.25} {
+        jt_ib_end_markup;
+    };
+}
+
+#alias jt_ib_end_markup {
+    #class jtin-item-brief-action kill;
+}
+
+#alias jt_ib_find {
+    #var jt_ib_item_name {"%1"};
+    #replace jt_ib_item_name {'} {_};
+    #script {item} {sh -c './sh/item-brief-find.sh $jt_ib_item_name'};
+}
