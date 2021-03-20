@@ -8332,3 +8332,71 @@ Damage Dice is '6D5' This weapon currently has 11 of a maximum 5 charges.
 Can affect you as :
    Affects: HITROLL By 2
    Affects: DAMROLL By -2
+-----
+Object 'a black velvet eyepatch', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL UNIQUE 
+Weight: 1, Value: 2500, Rent: 375, Min. level: 5
+AC-apply is 2
+Can affect you as :
+   Affects: WIS By 2
+   Affects: DEX By -2
+Item slot: Head
+-----
+Object 'a handsome black fedora', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !NEUTRAL UNIQUE 
+Weight: 3, Value: 5500, Rent: 500, Min. level: 5
+AC-apply is 0
+Can affect you as :
+   Affects: ARMOR By 10
+   Affects: HIT By 5
+Item slot: Head
+-----
+Object 'a crossbow', Item type: FIRE-WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA !BARD UNIQUE 
+Weight: 20, Value: 5000, Rent: 5000, Min. level: 5
+Damage Dice is '5D3' This weapon currently has 11 of a maximum 5 charges.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 2
+-----
+Object 'a pale blue stone', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 10, Value: 10000, Rent: 5000, Min. level: 7
+Can affect you as :
+   Affects: STR By 1
+Item slot: Hold
+-----
+Object 'an iridescent stone', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 10, Value: 15000, Rent: 7500, Min. level: 10
+Can affect you as :
+   Affects: HIT By 15
+   Affects: MANA By -20
+Item slot: Hold
+-----
+Object 'a pink and green stone', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 10, Value: 1000, Rent: 500, Min. level: 0
+Can affect you as :
+   Affects: HITROLL By -5
+Item slot: Hold
+-----
+Object 'an engraved ivory seal', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'a scarlet and blue stone', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 10, Value: 10000, Rent: 5000, Min. level: 7
+Can affect you as :
+   Affects: INT By 1
+Item slot: Hold
