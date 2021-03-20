@@ -261,14 +261,13 @@ Comma-delimited log of items looted from corpses.
 `logs/loot.log`
 
 ````
-the Knight,,midgaard-warrior-guild
-the Ninja Lord,,midgaard-ninja-guild
-a wooden Dynasty shield,Izumo No Okumi,midgaard-ninja-guild
-a red silk armband,Izumo No Okumi,midgaard-ninja-guild
-a black Shinobi Shozoku shirt,Izumo No Okumi,midgaard-ninja-guild
-a gold Ryo coin on a rawhide string,Izumo No Okumi,midgaard-ninja-guild
-a little pile of gold coins,a citizen of Midgaard,midgaard
-a long sword,Welmar's Ranger,midgaard
+an enormous mound of gold coins,Shudde-M'ell,northern-plains
+woolen sleeves,Shudde-M'ell,northern-plains
+a clear potion,Shudde-M'ell,northern-plains
+a strange template,Shudde-M'ell,northern-plains
+,the pile of slime,wandering-ship
+a big pile of gold coins,the snarling greza officer,wandering-ship
+,the snarling greza officer,wandering-ship
 ````
 
 
