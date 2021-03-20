@@ -196,7 +196,7 @@ Total: **89** maps, **3329** Rooms, **7092** paths
 | Mines of Moria | moria | :o: Partial Map |
 | Monastery | monastery | :o: Partial Map |
 | Necromancer's Tower | - | :x: Not Found |
-| New Thalos | new-thalos<br>new-thalos-cleric-guild<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-thief-guild<br>trails-around-new-thalos<br>trails-near-new-thalos | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:o: Partial Map<br>:white_check_mark: Complete<br> |
+| New Thalos | new-thalos<br>new-thalos-cleric-guild<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-thief-guild<br>trails-around-new-thalos<br>trails-near-new-thalos | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:o: Partial Map<br>:o: Partial Map<br>:white_check_mark: Complete<br> |
 | Nightmire | nightmire | :o: Partial Map |
 | Northern Plains | northern-plains | :white_check_mark: Complete |
 | Old Thalos | old-thalos | :white_check_mark: Complete |
