@@ -127,6 +127,108 @@ Small unicode maps loaded into the right `#split`.
 | `room donation`                | Change current room to donation symbol |
 | `room aggro`                   | Change current room to aggro color |
 
+## Status
+
+| Zone | Map | Status |
+| ---- | --- | ------ |
+| Abandoned Cathedral | - | :x: Not Found |
+| Abandoned Ship and Deep Forest | abandoned-ship | :white_check_mark: Complete |
+| Abyss | abyss | Initial Link |
+| Algodon's Pyramid of Doom | doom | Initial Link |
+| Amber Forest of Arden | - | Not Found |
+| Amusement Park | amusement-park | :o: Partial Map |
+| Andrus' Toy Land | - | Not Found |
+| Anthill | ant-hill | Initial Link |
+| Arachnos | - | Not Found |
+| Aralu | aralu | Initial Link |
+| Arcadia | arcadia | Initial Link |
+| Arctic Empire | - | Not Found |
+| Arctica | arctica | Partial Map |
+| Area Near Skara Brae | trails-around-skara-brae | Partial Map |
+| Balor's Domain | balor | Complete |
+| Bardic Colleges | bardic-colleges | Initial Link |
+| Camelot | camelot | Partial Map |
+| Castle Mistamere | castle-mistamere | Initial Link |
+| Catacombs | - | Not Found |
+| Cedar Estate Mansion | cedar-estate | Initial Link |
+| Cheer's Bar | cheers | Complete |
+| Corsair Citadel | - | Not Found |
+| Crystal Caves | crystal-caves | Partial Map |
+| Donner's Den | - | Not Found |
+| Dragon City | - | Not Found |
+| Dragon Sea | dragon-sea | Partial Map |
+| Drake Isle | - | Not Found |
+| Drow City | drow-city | Complete |
+| Dwarven Kingdom | dwarven-kingdom | Complete |
+| Elven Village Ruins | - | Not Found |
+| Emerald Maze | emerald-maze | Initial Link |
+| Enfan City | enfan-city | Partial Map |
+| Floodlands | floodlands | Complete |
+| Forest of Haon-Dor | haon-dor | Partial Map |
+| Froboz's Factory | froboz-factory | Initial Link |
+| Galaxy | galaxy | Partial Map |
+| Goblinsville Under the Mountain | goblinsville | Complete |
+| Golden Pagoda | - | Not Found |
+| Goth Camps | - | Not Found |
+| Great Chessboard | chessboard | Complete |
+| Great Eastern Desert | great-eastern-desert | Partial Map |
+| Great Pyramid | - | Not Found |
+| Gyles Keep | - | Not Found |
+| Hell | - | Not Found |
+| Hellas | hellas | Initial Link |
+| High Tower of Sorcery | high-tower-of-sorcery | Initial Link |
+| Imperial Ravenna | ravenna | Partial Map |
+| King Welmar's Castle | king-welmars-castle | Partial Map |
+| Lich's Tower | lich-tower | Partial Map |
+| Lost Isle of Shaedar | - | Not Found |
+| Mahn-Tor | - | Not Found |
+| Marshland | - | Not Found |
+| Marshland Cemetary | - | Not Found |
+| Metro | - | Not Found |
+| Miden'Nir | miden-nir | Complete |
+| Miden'Nir Extension | miden-nir-extension | Complete |
+| Midgaard | midgaard<br>midgaard-antipaladin-guild<br>midgaard-bard-guild<br>midgaard-cleric-guild<br>midgaard-jedi-guild<br>midgaard-mage-guild<br>midgaard-ninja-guild<br>midgaard-paladin-guild<br>midgaard-sohei-guild<br>midgaard-thief-guild<br>midgaard-warrior-guild | Complete<br>Complete<br>Complete<br>Complete<br>Complete<br>Complete<br>Complete<br>Complete<br>Complete<br>Complete<br>Complete<br> |
+| Midgaard Sewers | midgaard-sewers | Initial Link |
+| Midgaard Temple Complex | midgaard-temple | Complete |
+| Midgaard Zoo | midgaard-zoo | Complete |
+| Mines of Moria | moria | Partial Map |
+| Monastery | monastery | Partial Map |
+| Necromancer's Tower | - | Not Found |
+| New Thalos | new-thalos<br>new-thalos-cleric-guild<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-thief-guild<br>trails-around-new-thalos<br>trails-near-new-thalos | Partial Map<br>Complete<br>Complete<br>Complete<br>Complete<br>Partial Map<br>Complete<br> |
+| Nightmire | nightmire | Partial Map |
+| Northern Plains | northern-plains | Complete |
+| Old Thalos | old-thalos | Complete |
+| Parliament of Owls | owlery | Partial Map |
+| Player's Keeps | midgaard-home-of-bravoman<br>midgaard-soothesayers-shop<br>midgaard-dark-tower<br>midgaard-peaceful-grove<br>midgaard-tabard-inn | Complete<br>Complete<br>Complete<br>Complete<br>Complete<br> |
+| Refuge and Asylum | refuge-and-asylum | Initial Link |
+| Rhyoden Kingdom | - | Not Found |
+| River Island of Minos | river-island-of-minos | Initial Link |
+| Rome | rome | Initial Link |
+| Sanctuary City | sanctuary | Partial Map |
+| Scipio Dreaming | - | Not Found |
+| Sea of Dreams | - | Not Found |
+| Sesame Street | sesame-street | Initial Link |
+| Shadow Rift | - | Not Found |
+| Shadow Storm | - | Not Found |
+| Shire Village | shire-village | Complete |
+| Sieged Castle | sieged-castle | Partial Map |
+| Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild | Partial Map<br>Complete<br>Complete<br>Complete<br>Complete<br>Complete<br> |
+| Southern Part of Midgaard | southern-midgaard | Partial Map |
+| Star Wars | - | Not Found |
+| Straight Path | - | Not Found |
+| Three of Swords | - | Not Found |
+| Three of Swords, Darkspine Mountains | - | Not Found |
+| Trails Around Midgaard | trails-around-midgaard | Complete |
+| Trails Near Midgaard | trails-near-midgaard | Complete |
+| Training Grounds | training-grounds | Complete |
+| Troglodyte Caves | - | Not Found |
+| Underworld | underworld | Partial Map |
+| Valhalla | valhalla | Initial Link |
+| Wamphyri Aerie | wamphyri-aerie | Complete |
+| Wandering Greza Ship | wandering-ship | Complete |
+| Weeden | - | Not Found |
+| Werith's Wayhouse | wayhouse | Complete |
+
 
 # Item Brief
 
