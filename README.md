@@ -129,6 +129,8 @@ Small unicode maps loaded into the right `#split`.
 
 ## Status
 
+Total: **89** maps, **3329** Rooms, **7092** paths
+
 | Zone | Map | Status |
 | ---- | --- | ------ |
 | Abandoned Cathedral | - | :x: Not Found |
