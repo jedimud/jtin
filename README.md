@@ -293,25 +293,16 @@ Notify off buff/debuff changes and prevent combat when tank buffs are missing.
 `jt auto-tank auto-buff set <buff> <state>`
 
 **`buff`**
-* `sanctuary`:
-* `stone-skin`:
-* `aid`:
-* `bless`:
-* `armor`:
+* `sanctuary`
+* `stone-skin`
+* `aid`
+* `bless`
+* `armor`
 
 **`state`**
-* `block`:
-* `warn`:
-* `disabled`:
-
-// TODO
-
-jt auto-tank auto-buff console;
-jt auto-tank auto-buff set sanctuary block
-jt auto-tank auto-buff set stone-skin block
-jt auto-tank auto-buff set aid warn
-jt auto-tank auto-buff set bless warn
-jt auto-tank auto-buff set armor warn
+* `block`: prevent player from attacking
+* `warn`: allow player to attack, but send alert message
+* `disabled`: do nothing
 
 ## Auto Pummel
 
