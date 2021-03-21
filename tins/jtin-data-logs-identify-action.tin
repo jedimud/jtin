@@ -41,6 +41,7 @@
         jt_dl_i_print_msg {<efc>identify scroll output captured};
         #unvar jt_dl_i_state;
         jt_dl_i_clear_action;
+        jt_ib_refresh;
     }
 }
 

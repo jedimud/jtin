@@ -373,6 +373,7 @@
     #class jtin-item-brief kill;
     #class jtin-item-brief read tins/jtin-item-brief.tin;
     #var jt_ib_state %1;
+    jt_ib_refresh;
     jt_ib_print_msg {<afc>$jt_ib_state};
 }
 
@@ -384,6 +385,14 @@
 #alias jt_ib_load_stats {
     #class jtin-item-brief-insured kill;
     #class jtin-item-brief-equip read tins/jtin-item-brief-equip.tin;
+}
+
+#alias jt_ib_refresh {
+    #if {"$jt_ib_state" != "disabled"} {
+        #script {temp} {sh -c './sh/item-brief-update.sh'};
+        jt_ib_print_msg {<afc>data refreshed};
+        #unvar temp;
+    };
 }
 
 #alias jt_ib_print_state {
