@@ -216,6 +216,15 @@
     #list t_b_block size t_b_block_size;
     #list t_b_warn size t_b_warn_size;
 
+    #if {$t_b_warn_size > 0} {  
+        #var t_b_warn_msg {};
+        #foreach {$t_b_warn[%*]} {t_b_warner} {#var t_b_warn_msg {$t_b_warn_msg $t_b_warner}};
+        jt_at_ab_print_msg_info { >> MISSING$t_b_warn_msg << };
+        #unvar t_b_warn;
+        #unvar t_b_warn_msg;
+    };
+
+
     #if {$t_b_block_size > 0} {
         #var t_b_block_msg {};
         #foreach {$t_b_block[%*]} {t_b_blocker} {#var t_b_block_msg {$t_b_block_msg $t_b_blocker}};
@@ -225,14 +234,6 @@
     };
 
     #else {
-        #if {$t_b_warn_size > 0} {
-            #var t_b_warn_msg {};
-            #foreach {$t_b_warn[%*]} {t_b_warner} {#var t_b_warn_msg {$t_b_warn_msg $t_b_warner}};
-            jt_at_ab_print_msg_info { >> MISSING$t_b_warn_msg << };
-            #unvar t_b_warn;
-            #unvar t_b_warn_msg;
-        };
-
         #send {%1};
     };
 
