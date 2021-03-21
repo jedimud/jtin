@@ -125,7 +125,7 @@ class ItemBrief():
 
         item['brief_limited'] = ''
         for tag in item['tags']:
-            if tag == ItemTag.LIMITED:
+            if ItemTag(tag) == ItemTag.LIMITED:
                 item['brief_limited'] = '(L)'
                 break
 
