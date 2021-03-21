@@ -42,11 +42,11 @@ class ItemBrief():
         rests = ''
         class_tag = ''
         align_tag = ''
-        for tag in item['tags']:
-            if type(tag) == ItemAlign:
-                align_tag = align_tag + tag['brief'] + ' '
-            elif type(tag) == ItemClass:
-                class_tag = tag['brief']
+        for tag in item['align']:
+            align_tag = align_tag + ItemAlign(tag).brief + ' '
+
+        for tag in item['class']:
+            class_tag = class_tag + ItemClass(tag).brief
 
         if class_tag != '':
             rests = rests + '!' + class_tag + ' '
