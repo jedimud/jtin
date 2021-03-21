@@ -1,0 +1,4 @@
+#class jtin clear;
+#class jtin read tins/jtin.tin;
+#showme ;
+jt_print_message_with_buffer {<aff>loaded, enter 'jt' for more options};
