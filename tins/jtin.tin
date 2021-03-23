@@ -148,9 +148,27 @@
             jt_at_ap_unload;
             jt_at_ap_print_msg <fca>%2;
         };
+        #else {
+           jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-pummel (enabled|disabled)}; 
+        }
+    };
+    #elseif {"%1" == "auto-disarm"} {
+        #if {"%2" == "enabled"} {
+            #var jt_at_di_state %2;
+            jt_at_di_load;
+            jt_at_di_print_msg <afc>%2;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_at_di_state %2;
+            jt_at_di_unload;
+            jt_at_di_print_msg <fca>%2;
+        };
+        #else {
+           jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-disarm (enabled|disabled)}; 
+        }
     };
     #else {
-        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank (auto-buff|auto-pummel)};
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank (auto-buff|auto-pummel|auto-disarm)};
     }
 }
 
@@ -168,7 +186,12 @@
         #showme <fac>  + <aef>Auto-Pummel: <afc>$jt_at_ap_state;
     };
 
-    #showme <fac>  + <aef>Auto-Disarm: <fca>disabled;
+    #if {"$jt_at_di_state" == "disabled"} {
+        #showme <fac>  + <aef>Auto-Disarm: <fca>disabled;
+    } {
+        #showme <fac>  + <aef>Auto-Disarm: <afc>$jt_at_di_state;
+    };
+
     #showme <fac>  + <aef>Auto-Grapple: <fca>disabled;
     #showme <fac>  + <aef>Auto-Rescue: <fca>disabled;
 }
@@ -176,6 +199,7 @@
 #alias jt_at_default {
     #var jt_at_ab_state disabled;
     #var jt_at_ap_state disabled;
+    #var jt_at_di_state disabled;
 }
 
 #alias jt_at_ab_unload {
@@ -184,6 +208,10 @@
 
 #alias jt_at_ap_unload {
     #class jtin-auto-pummel kill;
+}
+
+#alias jt_at_di_unload {
+    #class jtin-auto-disarm kill;
 }
 
 #alias jt_at_ab_load {
@@ -196,12 +224,21 @@
     #class jtin-auto-pummel read tins/jtin-auto-pummel.tin;
 }
 
+#alias jt_at_di_load {
+    #class jtin-auto-disarm kill;
+    #class jtin-auto-disarm read tins/jtin-auto-disarm.tin;
+}
+
 #alias jt_at_ab_print_msg {
     jt_at_print_msg {auto-buff :: %1}
 }
 
 #alias jt_at_ap_print_msg {
     jt_at_print_msg {auto-pummel :: %1}
+}
+
+#alias jt_at_di_print_msg {
+    jt_at_print_msg {auto-disarm :: %1}
 }
 
 #alias jt_at_print_msg {
