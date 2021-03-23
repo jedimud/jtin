@@ -53,6 +53,7 @@ __pycache__
 
 # TinTin++
 *.tin
+!j.tin
 !/tins/*.tin
 !/maps/*.tin
 /data
