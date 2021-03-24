@@ -425,7 +425,17 @@ Perform pummel when:
 
 ## Auto Disarm
 
-> Coming soon!
+Perform disarm when:
+  1) NPC hits you very hard, extremely hard, decimates you, or
+  2) Previous disarm fails
+
+### Usage
+
+`jt auto-tank auto-disarm <state>`
+
+**`state`**
+* `enabled`: perform auto-disarm
+* `disbaled`: or don't
 
 ## Auto Grapple
 
