@@ -85,7 +85,7 @@ class ItemBrief():
             item['brief_eq'] = item['brief_eq'] + ac
             item['brief_inv'] = item['brief_inv'] + ac
         if item['ac'] != None and int(item['ac']) < 0:
-            ac = '-' + str(item['ac']) + 'ac '
+            ac = str(item['ac']) + 'ac '
             item['brief_eq'] = item['brief_eq'] + ac
             item['brief_inv'] = item['brief_inv'] + ac
 
