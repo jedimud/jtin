@@ -138,7 +138,7 @@ Total: **89** maps, **3329** Rooms, **7092** paths
 | Abyss | abyss | :link: Initial Link |
 | Algodon's Pyramid of Doom | doom | :link: Initial Link |
 | Amber Forest of Arden | - | :x: Not Found |
-| Amusement Park | amusement-park | :o: Partial Map |
+| Amusement Park | amusement-park | :white_check_mark: Complete |
 | Andrus' Toy Land | - | :x: Not Found |
 | Anthill | ant-hill | :link: Initial Link |
 | Arachnos | - | :x: Not Found |
