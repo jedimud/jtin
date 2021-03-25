@@ -247,7 +247,19 @@
 #nop ----- specialty room actions -----
 
 
+#nop -- universe
 #action {^Inside the traveling wagon} {
     room_link_map galaxy 1;
 }
+
+#nop -- underworld
+#action {^You travel across the river Styx.$} {
+    #map mov n;
+}
+
+#nop -- underworld
+#action {^You finish your journey across the river.$} {
+    #map mov n;
+}
+
 
