@@ -8681,3 +8681,201 @@ Item is: !MAGE UNIQUE
 Weight: 2, Value: 1000, Rent: 750, Min. level: 4
 AC-apply is 8
 Item slot: Head
+-----
+Object 'a wrench', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3000, Rent: 750, Min. level: 0
+Damage Dice is '3D3' for an average per-round damage of 6.0.
+Can affect you as :
+   Affects: HITROLL By -1
+Item slot: Wield
+-----
+Object 'the jumpsuit of delving', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3000, Rent: 750, Min. level: 5
+AC-apply is 6
+Can affect you as :
+   Affects: INT By 1
+   Affects: CON By 1
+Item slot: On Body
+-----
+Object 'a useless wand', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1000, Rent: 500, Min. level: 0
+This WAND casts: clone of level 30
+-----
+Object 'a useless wand', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1000, Rent: 500, Min. level: 0
+This WAND casts: clone of level 30
+It has 1 maximum charge and 0 remaining.
+-----
+Object 'a black satin robe', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3000, Rent: 750, Min. level: 5
+AC-apply is 6
+Can affect you as :
+   Affects: MANA By 3
+   Affects: HIT By 2
+Item slot: On Body
+-----
+Object 'the engineer tunic', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3000, Rent: 750, Min. level: 3
+Can affect you as :
+   Affects: SAVE_BREATH By 1
+Item slot: On Body
+-----
+Object 'a trowel', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3000, Rent: 750, Min. level: 0
+Damage Dice is '3D2' for an average per-round damage of 4.5.
+Can affect you as :
+   Affects: HITROLL By 1
+Item slot: Wield
+-----
+Object 'an official marriage license', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 25000, Rent: 15, Min. level: 0
+Item slot: Hold
+-----
+Object 'a double breasted tuxedo jacket', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 2000, Rent: 200, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -3
+Item slot: About Body
+-----
+Object 'a white silk shirt', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 1500, Rent: 150, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -1
+Item slot: On Body
+-----
+Object 'a pair of pants for the tuxedo', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 800, Rent: 80, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -1
+Item slot: Legs
+-----
+Object 'a bow tie', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 100, Rent: 10, Min. level: 0
+Item slot: Neck
+-----
+Object 'a cummerbund', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 100, Rent: 10, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -1
+Item slot: Waist
+-----
+Object 'a white bridal headdress', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 500, Rent: 50, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -2
+Item slot: Head
+-----
+Object 'a lovely white wedding gown', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 3000, Rent: 300, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -3
+Item slot: On Body
+-----
+Object 'a pair of white silk stockings', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 500, Rent: 50, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -1
+Item slot: Legs
+-----
+Object 'a strong iron box', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 250, Value: 100, Rent: 37, Min. level: 0
+It can hold approximately 300 units.
+-----
+Object 'a pair of strong shoulder pads', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !SOHEI UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 3
+AC-apply is 3
+Can affect you as :
+   Affects: STR By 1
+   Affects: CON By 1
+Item slot: Arms
+-----
+Object 'some heavy metal armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 4, Value: 50, Rent: 0, Min. level: 5
+AC-apply is 15
+Can affect you as :
+   Affects: DAMROLL By 1
+Item slot: On Body
+-----
+Object 'a Knight's longsword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA !JEDI !SOHEI !BARD UNIQUE 
+Weight: 4, Value: 50, Rent: 0, Min. level: 3
+Damage Dice is '5D3' for an average per-round damage of 10.0.
+Can affect you as :
+   Affects: HIT_REGEN By 5
+Item slot: Wield
+-----
+Object 'a garland of deep red roses', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 500, Rent: 37, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HIT By 7
+   Affects: HITROLL By 1
+Item slot: Head
+-----
+Object 'a holey majestic cloak', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !THF !WAR !NINJA LIMITED !RANGER !BARD UNIQUE 
+Weight: 5, Value: 5000, Rent: 7500, Min. level: 15
+AC-apply is 3
+Can affect you as :
+   Affects: STR By -1
+   Affects: DAMROLL By 1
+Item slot: Neck
+-----
+Object 'a leather change belt', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: LIMITED UNIQUE 
+Weight: 20, Value: 3000, Rent: 900, Min. level: 0
+It can hold approximately 100 units.
+Can affect you as :
+   Affects: ARMOR By -4
+Item slot: Waist
+-----
+Object 'a plain gold wedding ring', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 10000, Rent: 2000, Min. level: 0
+Can affect you as :
+   Affects: CON By 1
+Item slot: Ring

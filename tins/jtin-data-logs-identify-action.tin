@@ -98,6 +98,11 @@
     #line log logs/ident.log {It has %1 maximum charges and %2 remaining.}
 }
 
+#high {^It has %1 maximum charge and %2 remaining.} {reverse}
+#action {^It has %1 maximum charge and %2 remaining.} {
+    #line log logs/ident.log {It has %1 maximum charge and %2 remaining.}
+}
+
 #high {^This item has a maximum level of %1.} {reverse}
 #action {^This item has a maximum level of %1.} {
     #line log logs/ident.log {This item has a maximum level of %1.}

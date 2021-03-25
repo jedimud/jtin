@@ -1822,13 +1822,14 @@ class TestItemParser(unittest.TestCase):
         self.assert_equals(item, actual)
 
     def test_parse_file__a_jedimud_metropolitan_shuttle_token(self):
-        actual = self.read_item_from_file("a-jedimud-metropolitan-shuttle-token")
+        actual = self.read_item_from_file(
+            "a-jedimud-metropolitan-shuttle-token")
 
         item = Item()
         item.name = "a JediMud Metropolitan shuttle token"
         item.type = ItemType.UNDEFINED
         item.ability = ItemAbility.NOBITS
-       
+
         item.tags.append(ItemTag.NO_RENT)
         item.tags.append(ItemTag.UNIQUE)
 
@@ -1894,7 +1895,6 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
-
     def test_parse_file__a_pair_of_workmens_gloves(self):
         actual = self.read_item_from_file("a-pair-of-workmens-gloves")
 
@@ -1916,6 +1916,28 @@ class TestItemParser(unittest.TestCase):
         item.affects[ItemAffect.CON] = 1
 
         item.slots.append(ItemSlot.HANDS)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_useless_wand(self):
+        actual = self.read_item_from_file("a-useless-wand")
+
+        item = Item()
+        item.name = "a useless wand"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 1000
+        item.rent = 500
+        item.min_level = 0
+
+        item.spell_level = 30
+        item.spells.append(ItemSpell.CLONE)
+        item.charge_max = 1
+        item.charge_remain = 0
 
         self.assert_equals(item, actual)
 
