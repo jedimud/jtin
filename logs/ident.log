@@ -8400,3 +8400,284 @@ Weight: 10, Value: 10000, Rent: 5000, Min. level: 7
 Can affect you as :
    Affects: INT By 1
 Item slot: Hold
+-----
+Object 'a gnarled twig', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG BLESS UNIQUE 
+Weight: 10, Value: 750, Rent: 93, Min. level: 0
+This WAND casts: protection from evil of level 15
+It has 3 maximum charges and 3 remaining.
+Can affect you as :
+   Affects: HITROLL By -3
+Item slot: Hold
+-----
+Object 'a dusty rose stone', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 10, Value: 2000, Rent: 1000, Min. level: 5
+Can affect you as :
+   Affects: ARMOR By -1
+Item slot: Hold
+-----
+Object 'silver-laced gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL !MAGE !CLER !THF !WAR !NINJA !JEDI !SOHEI LIMITED !BARD UNIQUE 
+Weight: 1, Value: 2000, Rent: 8550, Min. level: 14
+AC-apply is 6
+Can affect you as :
+   Affects: DEX By 1
+   Affects: WIS By 1
+Item slot: Hands
+-----
+Object 'a glowing suit of banded mail', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 40, Value: 62500, Rent: 5500, Min. level: 0
+AC-apply is 21
+Can affect you as :
+   Affects: DEX By 2
+Item slot: On Body
+-----
+Object 'a black dragonscale shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW NEUTRAL !MAGE !THF !WAR !NINJA !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 4, Value: 20000, Rent: 0, Min. level: 16
+AC-apply is 3
+Can affect you as :
+   Affects: MANA_REGEN By 1
+Item slot: Shield
+-----
+Object 'giant Froot Loops', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG UNIQUE 
+Weight: 10, Value: 2000, Rent: 750, Min. level: 0
+AC-apply is 10
+Can affect you as :
+   Affects: STR By 1
+   Affects: DEX By -2
+Item slot: Legs
+-----
+Object 'a sap', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !PAL !APAL !JEDI UNIQUE 
+Weight: 6, Value: 1000, Rent: 275, Min. level: 7
+Damage Dice is '1D6' for an average per-round damage of 3.5.
+Item slot: Wield
+Item slot: Hold
+-----
+Object 'a stone', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG UNIQUE 
+Weight: 20, Value: 0, Rent: 1500, Min. level: 0
+Damage Dice is '1D4' for an average per-round damage of 2.5.
+Can affect you as :
+   Affects: HITROLL By 3
+   Affects: DAMROLL By 3
+Item slot: Wield
+Item slot: Hold
+-----
+Object 'Dark Spiked Collar', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: NEUTRAL !BARD UNIQUE 
+Weight: 2, Value: 25000, Rent: 15000, Min. level: 10
+Can affect you as :
+   Affects: MANA By 10
+   Affects: HITROLL By 1
+Item slot: Neck
+-----
+Object 'a belt of braided wyvern hide', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG LIMITED UNIQUE 
+Weight: 1, Value: 3000, Rent: 1500, Min. level: 10
+AC-apply is 3
+Can affect you as :
+   Affects: DEX By 2
+Item slot: Waist
+-----
+Object 'Han Solo's hand blaster', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !DONATE UNIQUE 
+Weight: 5, Value: 1000, Rent: 1550, Min. level: 3
+Damage Dice is '2D9' for an average per-round damage of 10.0.
+Item slot: Wield
+-----
+Object 'the monstrous key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 10, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a pair of clown shoes', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 5, Value: 6000, Rent: 625, Min. level: 5
+AC-apply is 3
+Can affect you as :
+   Affects: MOVE By 7
+   Affects: CHARISMA By -2
+Item slot: Feet
+-----
+Object 'a baseball cap', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 150, Rent: 12, Min. level: 0
+Item slot: Head
+-----
+Object 'a black vampire's cloak', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !GOOD UNIQUE 
+Weight: 4, Value: 22000, Rent: 6250, Min. level: 8
+AC-apply is 4
+Can affect you as :
+   Affects: WIS By 1
+   Affects: CHARISMA By -1
+Item slot: About Body
+-----
+Object 'Gavel of Minos', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: MAG !EVIL !THF !WAR !NINJA !SOHEI LIMITED !RANGER UNIQUE 
+Weight: 5, Value: 15000, Rent: 7500, Min. level: 10
+Can affect you as :
+   Affects: MANA By 15
+Item slot: Hold
+-----
+Object 'a t-shirt declaring 'I Rode the Demon Carousel!'', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 500, Rent: 75, Min. level: 0
+AC-apply is 9
+Item slot: On Body
+-----
+Object 'a cup', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 2, Rent: 2, Min. level: 0
+It can hold approximately 1 units of liquid.
+-----
+Object 'a cup of coffee', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 7, Rent: 5, Min. level: 0
+It can hold approximately 8 units of liquid.
+-----
+Object 'a china cup', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 5, Rent: 5, Min. level: 0
+It can hold approximately 8 units of liquid.
+-----
+Object 'a key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'the cryptic letter', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 30, Rent: 75, Min. level: 0
+-----
+Object 'a sterling silver anniversary band', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 210, Rent: 250, Min. level: 0
+Item slot: Ring
+-----
+Object 'a diamond engagement ring', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 7000, Rent: 1500, Min. level: 0
+Can affect you as :
+   Affects: CON By 1
+Item slot: Ring
+-----
+Object 'a lovely pearl necklace', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 3000, Rent: 300, Min. level: 0
+Can affect you as :
+   Affects: MANA By 5
+Item slot: Neck
+-----
+Object 'a stunning diamond bracelet', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 5000, Rent: 1250, Min. level: 0
+Can affect you as :
+   Affects: DAMROLL By 1
+Item slot: Wrist
+-----
+Object 'a pair of white high heels', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 900, Rent: 90, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -3
+   Affects: HEIGHT By 10
+Item slot: Feet
+-----
+Object 'a pair of white high heels', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 900, Rent: 90, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -3
+   Affects: HEIGHT By 10
+Item slot: Feet
+-----
+Object 'a pair of leather dress shoes', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 500, Rent: 50, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -1
+Item slot: Feet
+-----
+Object 'a pair of leather boots', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 500, Rent: 50, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -3
+   Affects: HEIGHT By 2
+Item slot: Feet
+-----
+Object 'a pair of leather sandals', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 0, Value: 300, Rent: 30, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -2
+Item slot: Feet
+-----
+Object 'a gold trimmed invitation', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 0, Value: 600, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'an invitation trimmed with blue foil', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 0, Value: 300, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'a pair of workmen's gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3000, Rent: 750, Min. level: 3
+AC-apply is 2
+Can affect you as :
+   Affects: SAVE_PETRI By -1
+   Affects: CON By 1
+Item slot: Hands
+-----
+Object 'a battered hard hat', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE UNIQUE 
+Weight: 2, Value: 1000, Rent: 750, Min. level: 4
+AC-apply is 8
+Item slot: Head
