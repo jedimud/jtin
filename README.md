@@ -129,7 +129,7 @@ Small unicode maps loaded into the right `#split`.
 
 ## Status
 
-Total: **89** maps, **3329** Rooms, **7092** paths
+Total: **89** maps, **3640** Rooms, **7772** paths
 
 | Zone | Map | Status |
 | ---- | --- | ------ |
