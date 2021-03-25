@@ -8879,3 +8879,147 @@ Weight: 0, Value: 10000, Rent: 2000, Min. level: 0
 Can affect you as :
    Affects: CON By 1
 Item slot: Ring
+-----
+Object 'a blazing sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG NEUTRAL !MAGE !CLER LIMITED UNIQUE 
+Weight: 10, Value: 5000, Rent: 450, Min. level: 5
+Damage Dice is '6D4' for an average per-round damage of 15.0.
+Can affect you as :
+   Affects: HIT By -5
+Item slot: Wield
+-----
+Object 'a faded armband', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 1, Value: 15, Rent: 25, Min. level: 0
+Can affect you as :
+   Affects: CHARISMA By 2
+   Affects: CON By -1
+Item slot: Arms
+-----
+Object 'the Key to the Gates', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW BLESS GOOD UNIQUE 
+Weight: 1, Value: 1000, Rent: 250, Min. level: 0
+Damage Dice is '0D0' for an average per-round damage of 0.0.
+Can affect you as :
+   Affects: INT By 2
+Item slot: Hold
+-----
+Object 'a burnt history', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 10, Rent: 250, Min. level: 0
+Can affect you as :
+   Affects: WIS By 2
+Item slot: Hold
+-----
+Object 'an ethereal flame', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW GOOD !CLER !THF !WAR LIMITED UNIQUE 
+Weight: 1, Value: 5, Rent: 1250, Min. level: 0
+Can affect you as :
+   Affects: MANA By 8
+   Affects: HIT_REGEN By 10
+Item slot: Light
+-----
+Object 'a charred ember', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !GOOD !CLER !THF !WAR LIMITED UNIQUE 
+Weight: 1, Value: 5, Rent: 1250, Min. level: 0
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: MANA By 10
+Item slot: Light
+-----
+Object 'a cheap goblet of watered ale', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 10, Value: 10, Rent: 3, Min. level: 0
+It can hold approximately 8 units of liquid.
+-----
+Object 'a dried sausage', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 20, Rent: 20, Min. level: 0
+-----
+Object 'a handful of roasted chestnuts', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 10, Rent: 10, Min. level: 0
+-----
+Object 'a wheel of green cheese', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 5, Rent: 0, Min. level: 0
+-----
+Object 'a serving of spermyse', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 0, Min. level: 0
+-----
+Object 'a ball of fresh mozzarella cheese', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 25, Rent: 0, Min. level: 0
+-----
+Object 'a small chunk of rewen', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 0, Min. level: 0
+-----
+Object 'a belt of intellect', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 10, Value: 1200, Rent: 150, Min. level: 8
+AC-apply is 4
+Can affect you as :
+   Affects: INT By 1
+   Affects: STR By -1
+Item slot: Waist
+-----
+Object 'a chunk of gorgonzola', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 15, Rent: 0, Min. level: 0
+-----
+Object 'a silvery mage cloak', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 2000, Rent: 250, Min. level: 9
+AC-apply is 5
+Can affect you as :
+   Affects: INT By 2
+   Affects: STR By -1
+Item slot: About Body
+-----
+Object 'a slightly crooked magician's staff', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 4, Value: 5000, Rent: 112, Min. level: 7
+Damage Dice is '3D7' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 3
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a flaming orb', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 0, Value: 8000, Rent: 100, Min. level: 7
+Can affect you as :
+   Affects: MANA_REGEN By 3
+   Affects: HITROLL By 2
+Item slot: Light
+-----
+Object 'a cake of feta cheese', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 20, Rent: 1, Min. level: 0
+-----
+Object 'chicken 'n cheese', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 20, Rent: 2, Min. level: 0
+Item slot: Hold
