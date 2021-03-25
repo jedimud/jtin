@@ -249,7 +249,7 @@
 
 #nop -- universe
 #action {^Inside the traveling wagon} {
-    room_link_map galaxy 1;
+    map open galaxy 1;
 }
 
 #nop -- underworld
