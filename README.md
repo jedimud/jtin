@@ -164,7 +164,7 @@ Total: **89** maps, **3329** Rooms, **7092** paths
 | Dwarven Kingdom | dwarven-kingdom | :white_check_mark: Complete |
 | Elven Village Ruins | - | :x: Not Found |
 | Emerald Maze | emerald-maze | :link: Initial Link |
-| Enfan City | enfan-city | :o: Partial Map |
+| Enfan City | enfan-city | :white_check_mark: Complete |
 | Floodlands | floodlands | :white_check_mark: Complete |
 | Forest of Haon-Dor | haon-dor | :o: Partial Map |
 | Froboz's Factory | froboz-factory | :link: Initial Link |
@@ -180,7 +180,7 @@ Total: **89** maps, **3329** Rooms, **7092** paths
 | Hellas | hellas | :link: Initial Link |
 | High Tower of Sorcery | high-tower-of-sorcery | :link: Initial Link |
 | Imperial Ravenna | ravenna | :o: Partial Map |
-| King Welmar's Castle | king-welmars-castle | :o: Partial Map |
+| King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete |
 | Lich's Tower | lich-tower | :o: Partial Map |
 | Lost Isle of Shaedar | - | :x: Not Found |
 | Mahn-Tor | - | :x: Not Found |
@@ -190,7 +190,7 @@ Total: **89** maps, **3329** Rooms, **7092** paths
 | Miden'Nir | miden-nir | :white_check_mark: Complete |
 | Miden'Nir Extension | miden-nir-extension | :white_check_mark: Complete |
 | Midgaard | midgaard<br>midgaard-antipaladin-guild<br>midgaard-bard-guild<br>midgaard-cleric-guild<br>midgaard-jedi-guild<br>midgaard-mage-guild<br>midgaard-ninja-guild<br>midgaard-paladin-guild<br>midgaard-sohei-guild<br>midgaard-thief-guild<br>midgaard-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> |
-| Midgaard Sewers | midgaard-sewers | :link: Initial Link |
+| Midgaard Sewers | midgaard-sewers | :white_check_mark: Complete |
 | Midgaard Temple Complex | midgaard-temple | :white_check_mark: Complete |
 | Midgaard Zoo | midgaard-zoo | :white_check_mark: Complete |
 | Mines of Moria | moria | :o: Partial Map |
@@ -215,7 +215,7 @@ Total: **89** maps, **3329** Rooms, **7092** paths
 | Shire Village | shire-village | :white_check_mark: Complete |
 | Sieged Castle | sieged-castle | :o: Partial Map |
 | Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> |
-| Southern Part of Midgaard | southern-midgaard | :o: Partial Map |
+| Southern Part of Midgaard | southern-midgaard | :white_check_mark: Complete |
 | Star Wars | - | :x: Not Found |
 | Straight Path | - | :x: Not Found |
 | Three of Swords | - | :x: Not Found |
