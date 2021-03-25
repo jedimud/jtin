@@ -43,7 +43,6 @@ class TestItemParser(unittest.TestCase):
         item.rent = 1000
         item.min_level = 0
         item.affects[ItemAffect.CON] = 2
-        # item.constitution = 2
         item.slots.append(ItemSlot.FEET)
 
         self.assert_equals(item, actual)
@@ -1892,6 +1891,31 @@ class TestItemParser(unittest.TestCase):
         item.spell_level = 20
         item.spells.append(ItemSpell.REJUVENTATE)
         item.spells.append(ItemSpell.REMOVE_CURSE)
+
+        self.assert_equals(item, actual)
+
+
+    def test_parse_file__a_pair_of_workmens_gloves(self):
+        actual = self.read_item_from_file("a-pair-of-workmens-gloves")
+
+        item = Item()
+        item.name = "a pair of workmen's gloves"
+        item.type = ItemType.ARMOR
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 3000
+        item.rent = 750
+        item.min_level = 3
+
+        item.ac = 2
+
+        item.affects[ItemAffect.SAVE_PETRI] = -1
+        item.affects[ItemAffect.CON] = 1
+
+        item.slots.append(ItemSlot.HANDS)
 
         self.assert_equals(item, actual)
 
