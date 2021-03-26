@@ -4,6 +4,7 @@ from enum import Enum, unique
 @unique
 class ItemSpell(Enum):
 
+    BLESS = "bless"
     BLINDNESS = "blindness"
     CALL_LIGHTNING = "call lightning"
     CALM = "calm"
@@ -35,6 +36,7 @@ class ItemSpell(Enum):
     INVISIBLE = "invisible"
     LIGHTNING_BOLT = "lightning bolt"
     MAGIC_MISSILE = "magic missile"
+    MAGICAL_VESTMENT = "magical vestment"
     PETRIFICATION = "petrification"
     POISON = "poison"
     PROTECTION_FROM_EVIL = "protection from evil"

@@ -1,0 +1,8 @@
+Object 'a goose quill', Item type: PEN
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 200, Rent: 200, Min. level: 0
+Can affect you as :
+   Affects: INT By 1
+Item slot: Hold
+-----
