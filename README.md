@@ -156,6 +156,7 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Cheer's Bar | cheers | :white_check_mark: Complete |
 | Corsair Citadel | corsair-citadel | :link: Initial Link |
 | Crystal Caves | crystal-caves | :o: Partial Map |
+| Darkspine Mountains | darkspine-mountains | :link: Initial Link |
 | Donner's Den | donners-den | :white_check_mark: Complete |
 | Dragon City | - | :x: Not Found |
 | Dragon Sea | dragon-sea | :o: Partial Map |
@@ -194,7 +195,7 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Mines of Moria | moria | :o: Partial Map |
 | Monastery | monastery | :o: Partial Map |
 | Necromancer's Tower | - | :x: Not Found |
-| New Thalos | new-thalos<br>new-thalos-cleric-guild<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-thief-guild<br>trails-around-new-thalos<br>trails-near-new-thalos | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:o: Partial Map<br>:o: Partial Map<br>:white_check_mark: Complete<br> |
+| New Thalos | new-thalos<br>trails-around-new-thalos<br>trails-near-new-thalos<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-perrywinkle-drive<br>new-thalos-thief-guild<br>new-thalos-cleric-guild<br>new-thalos-paladin-guild<br>new-thalos-antipaladin-guild<br>new-thalos-jedi-guild<br>new-thalos-sohei-guild<br>new-thalos-ninja-guild<br>new-thalos-bard-guild<br>new-thalos-mage-guild<br>new-thalos-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete |
 | Nightmire | nightmire | :o: Partial Map |
 | Northern Plains | northern-plains | :white_check_mark: Complete |
 | Old Thalos | old-thalos | :white_check_mark: Complete |
