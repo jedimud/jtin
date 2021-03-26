@@ -1941,6 +1941,55 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_piece_of_battered_parchment(self):
+        actual = self.read_item_from_file("a-piece-of-battered-parchment")
+
+        item = Item()
+        item.name = "a piece of battered parchment"
+        item.type = ItemType.SCROLL
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.NO_DONATE)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 4000
+        item.rent = 0
+        item.min_level = 0
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.BLESS)
+        item.spells.append(ItemSpell.MAGICAL_VESTMENT)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+
+    def test_parse_file__a_goose_quill(self):
+        actual = self.read_item_from_file("a-goose-quill")
+
+        item = Item()
+        item.name = "a goose quill"
+        item.type = ItemType.PEN
+        item.ability = ItemAbility.NOBITS
+       
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 200
+        item.rent = 200
+        item.min_level = 0
+
+        item.affects[ItemAffect.INT] = 1
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
