@@ -335,7 +335,7 @@ class ItemParser():
         item.charge_remain = int(remain[:i])
 
         parsed = "It has " + str(item.charge_max) + \
-            " maximum charges and " + str(item.charge_remain) + " remaining."
+            " maximum charge" + ("s" if item.charge_remain > 0 else "") + " and " + str(item.charge_remain) + " remaining."
         assert line == parsed, "[" + line + "] != [" + parsed + "]"
 
     def parse_max_level(self, line, item):

@@ -1,0 +1,10 @@
+Object 'a pair of workmen's gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3000, Rent: 750, Min. level: 3
+AC-apply is 2
+Can affect you as :
+   Affects: SAVE_PETRI By -1
+   Affects: CON By 1
+Item slot: Hands
+-----

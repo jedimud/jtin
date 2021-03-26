@@ -154,12 +154,13 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Catacombs | - | :x: Not Found |
 | Cedar Estate Mansion | cedar-estate | :link: Initial Link |
 | Cheer's Bar | cheers | :white_check_mark: Complete |
-| Corsair Citadel | - | :x: Not Found |
+| Corsair Citadel | corsair-citadel | :link: Initial Link |
 | Crystal Caves | crystal-caves | :o: Partial Map |
-| Donner's Den | - | :x: Not Found |
+| Darkspine Mountains | darkspine-mountains | :link: Initial Link |
+| Donner's Den | donners-den | :white_check_mark: Complete |
 | Dragon City | - | :x: Not Found |
 | Dragon Sea | dragon-sea | :o: Partial Map |
-| Drake Isle | - | :x: Not Found |
+| Drake Isle | drake-isle | :o: Partial Map |
 | Drow City | drow-city | :white_check_mark: Complete |
 | Dwarven Kingdom | dwarven-kingdom | :white_check_mark: Complete |
 | Elven Village Ruins | - | :x: Not Found |
@@ -175,7 +176,7 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Great Chessboard | chessboard | :white_check_mark: Complete |
 | Great Eastern Desert | great-eastern-desert | :o: Partial Map |
 | Great Pyramid | - | :x: Not Found |
-| Gyles Keep | - | :x: Not Found |
+| Gyles Keep | gyles-keep | :link: Initial Link  |
 | Hell | - | :x: Not Found |
 | Hellas | hellas | :link: Initial Link |
 | High Tower of Sorcery | high-tower-of-sorcery | :link: Initial Link |
@@ -184,8 +185,6 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Lich's Tower | lich-tower | :o: Partial Map |
 | Lost Isle of Shaedar | - | :x: Not Found |
 | Mahn-Tor | - | :x: Not Found |
-| Marshland | - | :x: Not Found |
-| Marshland Cemetary | - | :x: Not Found |
 | Metro | - | :x: Not Found |
 | Miden'Nir | miden-nir | :white_check_mark: Complete |
 | Miden'Nir Extension | miden-nir-extension | :white_check_mark: Complete |
@@ -196,7 +195,7 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Mines of Moria | moria | :o: Partial Map |
 | Monastery | monastery | :o: Partial Map |
 | Necromancer's Tower | - | :x: Not Found |
-| New Thalos | new-thalos<br>new-thalos-cleric-guild<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-thief-guild<br>trails-around-new-thalos<br>trails-near-new-thalos | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:o: Partial Map<br>:o: Partial Map<br>:white_check_mark: Complete<br> |
+| New Thalos | new-thalos<br>trails-around-new-thalos<br>trails-near-new-thalos<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-perrywinkle-drive<br>new-thalos-thief-guild<br>new-thalos-cleric-guild<br>new-thalos-paladin-guild<br>new-thalos-antipaladin-guild<br>new-thalos-jedi-guild<br>new-thalos-sohei-guild<br>new-thalos-ninja-guild<br>new-thalos-bard-guild<br>new-thalos-mage-guild<br>new-thalos-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete |
 | Nightmire | nightmire | :o: Partial Map |
 | Northern Plains | northern-plains | :white_check_mark: Complete |
 | Old Thalos | old-thalos | :white_check_mark: Complete |
@@ -214,10 +213,10 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Shadow Storm | - | :x: Not Found |
 | Shire Village | shire-village | :white_check_mark: Complete |
 | Sieged Castle | sieged-castle | :o: Partial Map |
-| Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> |
+| Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild<br>skara-brae-mage-guild | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> |
 | Southern Part of Midgaard | southern-midgaard | :white_check_mark: Complete |
 | Star Wars | - | :x: Not Found |
-| Straight Path | - | :x: Not Found |
+| Straight Path | straight-path | :white_check_mark: Complete |
 | Three of Swords | - | :x: Not Found |
 | Three of Swords, Darkspine Mountains | - | :x: Not Found |
 | Trails Around Midgaard | trails-around-midgaard | :white_check_mark: Complete |
@@ -228,7 +227,7 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Valhalla | valhalla | :link: Initial Link |
 | Wamphyri Aerie | wamphyri-aerie | :white_check_mark: Complete |
 | Wandering Greza Ship | wandering-ship | :white_check_mark: Complete |
-| Weeden | - | :x: Not Found |
+| Weeden | weeden | :link: Initial Link |
 | Werith's Wayhouse | wayhouse | :white_check_mark: Complete |
 
 

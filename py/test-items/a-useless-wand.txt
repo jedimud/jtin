@@ -1,0 +1,7 @@
+Object 'a useless wand', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1000, Rent: 500, Min. level: 0
+This WAND casts: clone of level 30
+It has 1 maximum charge and 0 remaining.
+-----
