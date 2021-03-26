@@ -9323,3 +9323,51 @@ Object 'a dusty old manuscript', Item type: OTHER
 Item will give you following abilities:  NOBITS 
 Item is: LIMITED !RENT UNIQUE 
 Weight: 0, Value: 100, Rent: 100, Min. level: 0
+-----
+Object 'a holy seal', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'an old moth-eaten cape', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 40, Rent: 40, Min. level: 1
+It can hold approximately 3 units.
+Can affect you as :
+   Affects: DEX By -1
+   Affects: CON By 1
+Item slot: About Body
+-----
+Object 'a dusty old skeleton', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !RENT !DONATE UNIQUE 
+Weight: 71, Value: 0, Rent: 0, Min. level: 0
+It can hold approximately 10 units.
+-----
+Object 'a crumbling jacket', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 5, Rent: 2, Min. level: 0
+Item slot: On Body
+-----
+Object 'a frail, blackened skeleton', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !RENT !DONATE UNIQUE 
+Weight: 102, Value: 0, Rent: 0, Min. level: 0
+It can hold approximately 10 units.
+-----
+Object 'a corpselight', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !DROP !GOOD !PAL !JEDI LIMITED !DONATE !BARD UNIQUE 
+Weight: 2, Value: 2500, Rent: 2500, Min. level: 8
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HIT By -3
+Item slot: Light
+-----
+Object 'a casket', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !RENT !DONATE UNIQUE 
+Weight: 100, Value: 0, Rent: 0, Min. level: 0
+It can hold approximately 100 units.
