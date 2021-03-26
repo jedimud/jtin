@@ -137,7 +137,7 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Abandoned Ship and Deep Forest | abandoned-ship | :white_check_mark: Complete |
 | Abyss | abyss | :link: Initial Link |
 | Algodon's Pyramid of Doom | doom | :link: Initial Link |
-| Amber Forest of Arden | - | :x: Not Found |
+| Amber Forest of Arden | amber-forest | :link: Initial Link |
 | Amusement Park | amusement-park | :white_check_mark: Complete |
 | Andrus' Toy Land | - | :x: Not Found |
 | Anthill | ant-hill | :link: Initial Link |
@@ -151,7 +151,6 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Bardic Colleges | bardic-colleges | :link: Initial Link |
 | Camelot | camelot | :o: Partial Map |
 | Castle Mistamere | castle-mistamere | :link: Initial Link |
-| Catacombs | - | :x: Not Found |
 | Cedar Estate Mansion | cedar-estate | :link: Initial Link |
 | Cheer's Bar | cheers | :white_check_mark: Complete |
 | Corsair Citadel | corsair-citadel | :link: Initial Link |
@@ -163,7 +162,7 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Drake Isle | drake-isle | :o: Partial Map |
 | Drow City | drow-city | :white_check_mark: Complete |
 | Dwarven Kingdom | dwarven-kingdom | :white_check_mark: Complete |
-| Elven Village Ruins | - | :x: Not Found |
+| Elven Village Ruins | old-elven-village | :link: Initial Link |
 | Emerald Maze | emerald-maze | :link: Initial Link |
 | Enfan City | enfan-city | :white_check_mark: Complete |
 | Floodlands | floodlands | :white_check_mark: Complete |
@@ -193,8 +192,7 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Midgaard Temple Complex | midgaard-temple | :white_check_mark: Complete |
 | Midgaard Zoo | midgaard-zoo | :white_check_mark: Complete |
 | Mines of Moria | moria | :o: Partial Map |
-| Monastery | monastery | :o: Partial Map |
-| Necromancer's Tower | - | :x: Not Found |
+| Monastery | monastery | :white_check_mark: Complete |
 | New Thalos | new-thalos<br>trails-around-new-thalos<br>trails-near-new-thalos<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-perrywinkle-drive<br>new-thalos-thief-guild<br>new-thalos-cleric-guild<br>new-thalos-paladin-guild<br>new-thalos-antipaladin-guild<br>new-thalos-jedi-guild<br>new-thalos-sohei-guild<br>new-thalos-ninja-guild<br>new-thalos-bard-guild<br>new-thalos-mage-guild<br>new-thalos-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete |
 | Nightmire | nightmire | :o: Partial Map |
 | Northern Plains | northern-plains | :white_check_mark: Complete |
@@ -217,8 +215,6 @@ Total: **89** maps, **3640** Rooms, **7772** paths
 | Southern Part of Midgaard | southern-midgaard | :white_check_mark: Complete |
 | Star Wars | - | :x: Not Found |
 | Straight Path | straight-path | :white_check_mark: Complete |
-| Three of Swords | - | :x: Not Found |
-| Three of Swords, Darkspine Mountains | - | :x: Not Found |
 | Trails Around Midgaard | trails-around-midgaard | :white_check_mark: Complete |
 | Trails Near Midgaard | trails-near-midgaard | :white_check_mark: Complete |
 | Training Grounds | training-grounds | :white_check_mark: Complete |
