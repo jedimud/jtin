@@ -1967,7 +1967,6 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
-
     def test_parse_file__a_goose_quill(self):
         actual = self.read_item_from_file("a-goose-quill")
 
@@ -1975,7 +1974,7 @@ class TestItemParser(unittest.TestCase):
         item.name = "a goose quill"
         item.type = ItemType.PEN
         item.ability = ItemAbility.NOBITS
-       
+
         item.tags.append(ItemTag.MAG)
         item.tags.append(ItemTag.UNIQUE)
 
@@ -1985,6 +1984,56 @@ class TestItemParser(unittest.TestCase):
         item.min_level = 0
 
         item.affects[ItemAffect.INT] = 1
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_scroll_of_combat(self):
+        actual = self.read_item_from_file("a-scroll-of-combat")
+
+        item = Item()
+        item.name = "a scroll of Combat"
+        item.type = ItemType.SCROLL
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 2500
+        item.rent = 1250
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.STRENGTH)
+        item.spells.append(ItemSpell.AID)
+        item.spells.append(ItemSpell.BLINDNESS)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_snowball(self):
+        actual = self.read_item_from_file("a-snowball")
+
+        item = Item()
+        item.name = "a snowball"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 750
+        item.rent = 400
+        item.min_level = 0
+
+        item.spell_level = 15
+        item.spells.append(ItemSpell.CHILL_TOUCH)
+        item.charge_max = 1
+        item.charge_remain = 1
 
         item.slots.append(ItemSlot.HOLD)
 

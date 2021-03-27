@@ -324,6 +324,8 @@ class ItemParser():
 
     def parse_charge(self, line, item):
         """It has 3 maximum charges and 3 remaining."""
+        """It has 1 maximum charge and 1 remaining."""
+        """It has 1 maximum charges and 1 remaining."""
 
         max = line[7:]
         i = max.find(" maximum")
@@ -335,7 +337,8 @@ class ItemParser():
         item.charge_remain = int(remain[:i])
 
         parsed = "It has " + str(item.charge_max) + \
-            " maximum charge" + ("s" if item.charge_remain > 0 else "") + " and " + str(item.charge_remain) + " remaining."
+            " maximum charge" + ("s" if item.type == ItemType.STAFF or item.charge_remain >
+                                 1 else "") + " and " + str(item.charge_remain) + " remaining."
         assert line == parsed, "[" + line + "] != [" + parsed + "]"
 
     def parse_max_level(self, line, item):
