@@ -139,7 +139,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Algodon's Pyramid of Doom | doom | :link: Initial Link |
 | Amber Forest of Arden | amber-forest | :link: Initial Link |
 | Amusement Park | amusement-park | :white_check_mark: Complete |
-| Andrus' Toy Land | - | :x: Not Found |
+| Andrus' Toy Land | andrus-toy-land | :o: Partial Map |
 | Anthill | ant-hill | :link: Initial Link |
 | Arachnos | - | :x: Not Found |
 | Aralu | aralu | :link: Initial Link |
@@ -183,7 +183,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete |
 | Lich's Tower | lich-tower | :o: Partial Map |
 | Lost Isle of Shaedar | - | :x: Not Found |
-| Mahn-Tor | - | :x: Not Found |
+| Mahn-Tor | mahn-tor | :link: Initial Link |
 | Metro | - | :x: Not Found |
 | Miden'Nir | miden-nir | :white_check_mark: Complete |
 | Miden'Nir Extension | miden-nir-extension | :white_check_mark: Complete |
