@@ -135,7 +135,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | ---- | --- | ------ |
 | Abandoned Cathedral | - | :x: Not Found |
 | Abandoned Ship and Deep Forest | abandoned-ship | :white_check_mark: Complete |
-| Abyss | abyss | :link: Initial Link |
+| Abyss | abyss | :o: Partial Map |
 | Algodon's Pyramid of Doom | doom | :link: Initial Link |
 | Amber Forest of Arden | amber-forest | :link: Initial Link |
 | Amusement Park | amusement-park | :white_check_mark: Complete |
@@ -144,7 +144,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Arachnos | - | :x: Not Found |
 | Aralu | aralu | :link: Initial Link |
 | Arcadia | arcadia | :link: Initial Link |
-| Arctic Empire | - | :x: Not Found |
+| Arctic Empire | arctic-empire | :white_check_mark: Complete |
 | Arctica | arctica | :o: Partial Map |
 | Area Near Skara Brae | trails-around-skara-brae | :o: Partial Map |
 | Balor's Domain | balor | :white_check_mark: Complete |
@@ -181,7 +181,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | High Tower of Sorcery | high-tower-of-sorcery | :link: Initial Link |
 | Imperial Ravenna | ravenna | :o: Partial Map |
 | King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete |
-| Lich's Tower | lich-tower | :o: Partial Map |
+| Lich's Tower | lich-tower | :white_check_mark: Complete |
 | Lost Isle of Shaedar | - | :x: Not Found |
 | Mahn-Tor | mahn-tor | :link: Initial Link |
 | Metro | - | :x: Not Found |
