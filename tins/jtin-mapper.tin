@@ -262,4 +262,12 @@
     #map mov n;
 }
 
-
+#nop -- toyland
+#action {^You enter the toybox.$} {
+    #if {"$jt_m_current" == "new-thalos"} {
+        map open andrus-toy-land 1;
+    };
+    #else {
+        map open new-thalos 29;
+    }
+}
