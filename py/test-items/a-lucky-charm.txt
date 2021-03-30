@@ -1,0 +1,9 @@
+Object 'a lucky charm', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1000, Rent: 500, Min. level: 0
+Can affect you as :
+   Affects: SAVE_ROD By -2
+   Affects: SAVE_SPELL By -2
+Item slot: Neck
+-----

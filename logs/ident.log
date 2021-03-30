@@ -9660,3 +9660,147 @@ Item is: !MAGE UNIQUE
 Weight: 20, Value: 2700, Rent: 540, Min. level: 0
 Damage Dice is '2D5' for an average per-round damage of 6.0.
 Item slot: Wield
+-----
+Object 'a leather band watch', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !WAR !PAL !APAL LIMITED UNIQUE 
+Weight: 2, Value: 12500, Rent: 3750, Min. level: 15
+Can affect you as :
+   Affects: CHARISMA By 2
+   Affects: MOVE_REGEN By 10
+Item slot: Wrist
+-----
+Object 'leather mage pants', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS !CLER !THF !WAR !PAL !APAL !NINJA !JEDI LIMITED !RANGER !BARD UNIQUE 
+Weight: 3, Value: 10000, Rent: 500, Min. level: 10
+AC-apply is 30
+Can affect you as :
+   Affects: MANA By 10
+Item slot: Legs
+-----
+Object 'a leather band watch', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !WAR !PAL !APAL LIMITED UNIQUE 
+Weight: 2, Value: 20500, Rent: 7500, Min. level: 15
+Can affect you as :
+   Affects: MOVE_REGEN By 10
+Item slot: Wrist
+-----
+Object 'a small rusty key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'a Pair of Light Blue Shorts', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 2000, Rent: 0, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: STR By -1
+   Affects: CON By -1
+Item slot: Legs
+-----
+Object 'a stone', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !DONATE !JUNK UNIQUE INSURED 
+Weight: 20, Value: 0, Rent: 1500, Min. level: 0
+Damage Dice is '1D4' for an average per-round damage of 2.5.
+Can affect you as :
+   Affects: HITROLL By 3
+   Affects: DAMROLL By 3
+Item slot: Wield
+Item slot: Hold
+-----
+Object 'a leather band watch', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !WAR !PAL !APAL LIMITED UNIQUE 
+Weight: 2, Value: 20500, Rent: 7500, Min. level: 15
+Can affect you as :
+   Affects: MOVE_REGEN By 10
+Item slot: Wrist
+-----
+Object 'a black leather uniform', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 12, Value: 900, Rent: 300, Min. level: 0
+AC-apply is 30
+Item slot: On Body
+-----
+Object 'a curved dagger', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 200, Rent: 20, Min. level: 0
+Damage Dice is '2D3' for an average per-round damage of 4.0.
+Item slot: Wield
+-----
+Object 'a panel of a triptych', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: GLOW UNIQUE 
+Weight: 5, Value: 1000, Rent: 100, Min. level: 10
+Item slot: Hold
+-----
+Object 'a 2-handed battle axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA !SOHEI UNIQUE 
+Weight: 18, Value: 2700, Rent: 900, Min. level: 10
+Damage Dice is '5D2' for an average per-round damage of 7.5.
+Item slot: Wield
+-----
+Object 'a piece of salmon', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 50, Rent: 10, Min. level: 0
+-----
+Object 'a piece of codfish', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 10, Rent: 10, Min. level: 0
+-----
+Object 'a shot of whiskey', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 2, Min. level: 0
+It can hold approximately 1 units of liquid.
+Item slot: Hold
+-----
+Object 'a flail', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 16, Value: 1500, Rent: 350, Min. level: 0
+Damage Dice is '2D6' for an average per-round damage of 7.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a lantern', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 75, Rent: 30, Min. level: 0
+Item slot: Light
+-----
+Object 'a lucky charm', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1000, Rent: 500, Min. level: 0
+Can affect you as :
+   Affects: SAVE_ROD By -2
+   Affects: SAVE_SPELL By -2
+Item slot: Neck
+-----
+Object 'a piece of salted meat', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 25, Rent: 2, Min. level: 0
+-----
+Object 'a Practice Sword of the Righteous', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !DONATE !RANGER !BARD UNIQUE 
+Weight: 8, Value: 0, Rent: 5, Min. level: 0
+Damage Dice is '1D8' for an average per-round damage of 4.5.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Wield

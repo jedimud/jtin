@@ -2039,6 +2039,28 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_lucky_charm(self):
+        actual = self.read_item_from_file("a-lucky-charm")
+
+        item = Item()
+        item.name = "a lucky charm"
+        item.type = ItemType.OTHER
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 1000
+        item.rent = 500
+        item.min_level = 0
+
+        item.affects[ItemAffect.SAVE_ROD] = -2
+        item.affects[ItemAffect.SAVE_SPELL] = -2
+
+        item.slots.append(ItemSlot.NECK)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
