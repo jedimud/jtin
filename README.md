@@ -223,7 +223,8 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Valhalla | valhalla | :link: Initial Link |
 | Wamphyri Aerie | wamphyri-aerie | :white_check_mark: Complete |
 | Wandering Greza Ship | wandering-ship | :white_check_mark: Complete |
-| Weeden | weeden | :link: Initial Link |
+| Weeden | weeden | :white_check_mark: Complete |
+| Weeden Undeground | weeden-underground | :white_check_mark: Complete |
 | Werith's Wayhouse | wayhouse | :white_check_mark: Complete |
 
 
