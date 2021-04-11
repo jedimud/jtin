@@ -51,6 +51,7 @@ class ItemSpell(Enum):
     SLAY = "slay"
     SLEEP = "sleep"
     STRENGTH = "strength"
+    STONE_SKIN = "stone skin"
     TELEPORT = "teleport"
     WATERWALK = "waterwalk"
     WORD_OF_RECALL = "word of recall"

@@ -2061,6 +2061,44 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_potion_of_stone_skin(self):
+        actual = self.read_item_from_file("a-potion-of-stone-skin")
+
+        item = Item()
+        item.name = "a potion of stone skin"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.GLOW)
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemClass.NO_MAGE)
+        item.tags.append(ItemClass.NO_CLER)
+        item.tags.append(ItemClass.NO_THF)
+        item.tags.append(ItemClass.NO_PAL)
+        item.tags.append(ItemClass.NO_APAL)
+        item.tags.append(ItemClass.NO_NINJA)
+        item.tags.append(ItemClass.NO_JEDI)
+        item.tags.append(ItemClass.NO_SOHEI)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.NO_DONATE)
+        item.tags.append(ItemClass.NO_RANGER)
+        item.tags.append(ItemClass.NO_BARD)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 2000
+        item.rent = 250
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.STONE_SKIN)
+        item.spells.append(ItemSpell.CAUSE_LIGHT)
+        item.spells.append(ItemSpell.CURE_LIGHT)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
