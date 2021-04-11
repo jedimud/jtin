@@ -211,7 +211,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Shadow Storm | - | :x: Not Found |
 | Shire Village | shire-village | :white_check_mark: Complete |
 | Sieged Castle | sieged-castle | :o: Partial Map |
-| Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild<br>skara-brae-mage-guild | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> |
+| Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild<br>skara-brae-mage-guild<br>skara-brae-sohe-guild<br>skara-brae-jedi-guild<br>skara-brae-warrior-guild | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete |
 | Southern Part of Midgaard | southern-midgaard | :white_check_mark: Complete |
 | Star Wars | - | :x: Not Found |
 | Straight Path | straight-path | :white_check_mark: Complete |
