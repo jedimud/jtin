@@ -10144,3 +10144,287 @@ It can hold approximately 200 units of liquid.
 Can affect you as :
    Affects: CHARISMA By 2
 Item slot: Hold
+-----
+Object 'an orange', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 8, Rent: 4, Min. level: 0
+-----
+Object 'an apple', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 5, Rent: 1, Min. level: 0
+-----
+Object 'a melon', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 8, Rent: 1, Min. level: 0
+-----
+Object 'a carrot', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 4, Rent: 2, Min. level: 0
+-----
+Object 'a potato', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 4, Value: 6, Rent: 4, Min. level: 0
+-----
+Object 'a burlap sack', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 20, Rent: 2, Min. level: 0
+It can hold approximately 50 units.
+-----
+Object 'a candle', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 5, Rent: 0, Min. level: 0
+Item slot: Light
+-----
+Object 'a cast-iron pot', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 10, Value: 100, Rent: 10, Min. level: 0
+It can hold approximately 10 units.
+-----
+Object 'a mining pick', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 50, Rent: 50, Min. level: 0
+Damage Dice is '1D4' for an average per-round damage of 2.5.
+Item slot: Wield
+-----
+Object 'a crate', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 50, Value: 100, Rent: 10, Min. level: 0
+It can hold approximately 100 units.
+-----
+Object 'a bowl of venison stew', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 10, Rent: 2, Min. level: 0
+-----
+Object 'a glass of beer', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 5, Rent: 0, Min. level: 0
+It can hold approximately 3 units of liquid.
+-----
+Object 'a mug of Stanneg ale', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 8, Rent: 1, Min. level: 0
+It can hold approximately 5 units of liquid.
+-----
+Object 'a shot', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 2, Min. level: 0
+It can hold approximately 1 units of liquid.
+-----
+Object 'a plate of fried potatoes', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 5, Rent: 1, Min. level: 0
+-----
+Object 'a hunting bow', Item type: FIRE-WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 6, Value: 400, Rent: 20, Min. level: 5
+Damage Dice is '1D5' This weapon currently has 11 of a maximum 0 charges.
+Can affect you as :
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a shot', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 2, Min. level: 0
+It can hold approximately 1 units of liquid.
+-----
+Object 'a jeweled collar', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 10000, Rent: 7000, Min. level: 0
+Can affect you as :
+   Affects: ARMOR By -2
+   Affects: HIT By 5
+Item slot: Neck
+-----
+Object 'a small crude key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT !DONATE UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a red dragonscale shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW NEUTRAL !MAGE !THF !WAR !NINJA !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 4, Value: 20000, Rent: 0, Min. level: 16
+AC-apply is 3
+Can affect you as :
+   Affects: MANA_REGEN By 1
+Item slot: Shield
+-----
+Object 'a horned viking helmet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: BLESS !MAGE !CLER !NINJA !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 75, Rent: 12, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: CON By 1
+   Affects: DEX By -1
+Item slot: Head
+-----
+Object 'an iron bustier', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GOOD !MAGE !CLER !THF !APAL !NINJA !DONATE !RANGER !BARD UNIQUE 
+Weight: 6, Value: 1500, Rent: 275, Min. level: 5
+AC-apply is 30
+Can affect you as :
+   Affects: DEX By -1
+   Affects: HIT By 5
+Item slot: On Body
+-----
+Object 'a pair of shadowy gauntlets', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !DONATE UNIQUE 
+Weight: 2, Value: 750, Rent: 75, Min. level: 0
+AC-apply is 5
+Can affect you as :
+   Affects: DEX By -2
+   Affects: HIT By 5
+Item slot: Hands
+-----
+Object 'a huge bloody axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL !MAGE !CLER !THF !RANGER !BARD UNIQUE 
+Weight: 5, Value: 2500, Rent: 350, Min. level: 5
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HITROLL By 1
+Item slot: Wield
+-----
+Object 'a cloak of shadows', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !GOOD !WAR !PAL !APAL !JEDI !DONATE UNIQUE 
+Weight: 4, Value: 2500, Rent: 375, Min. level: 5
+AC-apply is -5
+Can affect you as :
+   Affects: ARMOR By 10
+   Affects: CHARISMA By -2
+Item slot: About Body
+-----
+Object 'a pair of viking armlets', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL UNIQUE 
+Weight: 2, Value: 2000, Rent: 375, Min. level: 1
+AC-apply is 5
+Can affect you as :
+   Affects: CON By 1
+   Affects: CHARISMA By -1
+Item slot: Arms
+-----
+Object 'a ring made of polished turbonium', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !EVIL !MAGE !CLER !RANGER !BARD UNIQUE 
+Weight: 1, Value: 2000, Rent: 250, Min. level: 5
+AC-apply is 2
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HITROLL By 1
+Item slot: Ring
+-----
+Object 'a pair of white leather, knee high boots', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !EVIL LIMITED UNIQUE 
+Weight: 2, Value: 2500, Rent: 375, Min. level: 5
+AC-apply is 5
+Can affect you as :
+   Affects: MOVE By 5
+   Affects: MOVE_REGEN By 5
+Item slot: Feet
+-----
+Object 'a gleaming golden horn', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !RENT UNIQUE 
+Weight: 1, Value: 1500, Rent: 750, Min. level: 5
+This WAND casts: slay of level 20
+It has 3 maximum charges and 3 remaining.
+Item slot: Hold
+-----
+Object 'a sword with a pale blue blade', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: HUM !NEUTRAL !MAGE !CLER !SOHEI !DONATE !RANGER !BARD UNIQUE 
+Weight: 5, Value: 1500, Rent: 375, Min. level: 5
+Damage Dice is '2D3' for an average per-round damage of 4.0.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a viking sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !SOHEI !DONATE UNIQUE 
+Weight: 3, Value: 150, Rent: 25, Min. level: 0
+Damage Dice is '1D8' for an average per-round damage of 4.5.
+Item slot: Wield
+-----
+Object 'a viking shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 3, Value: 150, Rent: 25, Min. level: 0
+AC-apply is 3
+Item slot: Shield
+-----
+Object 'the Key to the Black Treasury', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !GOOD !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'the Wrath of Allah', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !DROP NEUTRAL !THF !WAR !APAL !NINJA !JEDI LIMITED !RANGER !BARD UNIQUE 
+Weight: 14, Value: 10, Rent: 17500, Min. level: 15
+Damage Dice is '6D4' for an average per-round damage of 15.0.
+Can affect you as :
+   Affects: DAMROLL By 3
+   Affects: MANA By 15
+Item slot: Wield
+-----
+Object 'the Wrath of Allah', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !DROP NEUTRAL !THF !WAR !APAL !NINJA !JEDI LIMITED !RANGER !BARD UNIQUE 
+Weight: 14, Value: 10, Rent: 17500, Min. level: 15
+Damage Dice is '6D4' for an average per-round damage of 15.0.
+Can affect you as :
+   Affects: DAMROLL By 3
+   Affects: MANA By 15
+Item slot: Wield
+-----
+Object 'the Wrath of Allah', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !DROP NEUTRAL !THF !WAR !APAL !NINJA !JEDI LIMITED !RANGER !BARD UNIQUE 
+Weight: 14, Value: 10, Rent: 17500, Min. level: 15
+Damage Dice is '6D4' for an average per-round damage of 15.0.
+Can affect you as :
+   Affects: DAMROLL By 3
+   Affects: MANA By 15
+Item slot: Wield
+-----
+Object 'the Black King's Sceptre', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: HUM INVIS MAG !GOOD UNIQUE 
+Weight: 2, Value: 50000, Rent: 10000, Min. level: 0
+Can affect you as :
+   Affects: STR By 2
+   Affects: HITROLL By -1
+Item slot: Hold
+-----
+Object 'a crowbar', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 10, Value: 0, Rent: 0, Min. level: 0
