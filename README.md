@@ -135,16 +135,16 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | ---- | --- | ------ |
 | Abandoned Cathedral | - | :x: Not Found |
 | Abandoned Ship and Deep Forest | abandoned-ship | :white_check_mark: Complete |
-| Abyss | abyss | :link: Initial Link |
+| Abyss | abyss | :o: Partial Map |
 | Algodon's Pyramid of Doom | doom | :link: Initial Link |
 | Amber Forest of Arden | amber-forest | :link: Initial Link |
 | Amusement Park | amusement-park | :white_check_mark: Complete |
-| Andrus' Toy Land | - | :x: Not Found |
+| Andrus' Toy Land | andrus-toy-land | :o: Partial Map |
 | Anthill | ant-hill | :link: Initial Link |
-| Arachnos | - | :x: Not Found |
+| Arachnos | arachnos | :o: Partial Map |
 | Aralu | aralu | :link: Initial Link |
 | Arcadia | arcadia | :link: Initial Link |
-| Arctic Empire | - | :x: Not Found |
+| Arctic Empire | arctic-empire | :white_check_mark: Complete |
 | Arctica | arctica | :o: Partial Map |
 | Area Near Skara Brae | trails-around-skara-brae | :o: Partial Map |
 | Balor's Domain | balor | :white_check_mark: Complete |
@@ -155,7 +155,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Cheer's Bar | cheers | :white_check_mark: Complete |
 | Corsair Citadel | corsair-citadel | :link: Initial Link |
 | Crystal Caves | crystal-caves | :o: Partial Map |
-| Darkspine Mountains | darkspine-mountains | :link: Initial Link |
+| Darkspine Mountains | darkspine-mountains | :o: Partial Map |
 | Donner's Den | donners-den | :white_check_mark: Complete |
 | Dragon City | - | :x: Not Found |
 | Dragon Sea | dragon-sea | :o: Partial Map |
@@ -166,25 +166,25 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Emerald Maze | emerald-maze | :link: Initial Link |
 | Enfan City | enfan-city | :white_check_mark: Complete |
 | Floodlands | floodlands | :white_check_mark: Complete |
-| Forest of Haon-Dor | haon-dor | :o: Partial Map |
+| Forest of Haon-Dor | haon-dor | :white_check_mark: Complete |
 | Froboz's Factory | froboz-factory | :link: Initial Link |
-| Galaxy | galaxy | :o: Partial Map |
+| Galaxy | galaxy | :white_check_mark: Complete |
 | Goblinsville Under the Mountain | goblinsville | :white_check_mark: Complete |
 | Golden Pagoda | - | :x: Not Found |
 | Goth Camps | - | :x: Not Found |
 | Great Chessboard | chessboard | :white_check_mark: Complete |
 | Great Eastern Desert | great-eastern-desert | :o: Partial Map |
 | Great Pyramid | - | :x: Not Found |
-| Gyles Keep | gyles-keep | :link: Initial Link  |
+| Gyles Keep | gyles-keep | :white_check_mark: Complete |
 | Hell | - | :x: Not Found |
 | Hellas | hellas | :link: Initial Link |
 | High Tower of Sorcery | high-tower-of-sorcery | :link: Initial Link |
 | Imperial Ravenna | ravenna | :o: Partial Map |
 | King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete |
-| Lich's Tower | lich-tower | :o: Partial Map |
+| Lich's Tower | lich-tower | :white_check_mark: Complete |
 | Lost Isle of Shaedar | - | :x: Not Found |
-| Mahn-Tor | - | :x: Not Found |
-| Metro | - | :x: Not Found |
+| Mahn-Tor | mahn-tor | :link: Initial Link |
+| Metro | metro | :link: Initial Link |
 | Miden'Nir | miden-nir | :white_check_mark: Complete |
 | Miden'Nir Extension | miden-nir-extension | :white_check_mark: Complete |
 | Midgaard | midgaard<br>midgaard-antipaladin-guild<br>midgaard-bard-guild<br>midgaard-cleric-guild<br>midgaard-jedi-guild<br>midgaard-mage-guild<br>midgaard-ninja-guild<br>midgaard-paladin-guild<br>midgaard-sohei-guild<br>midgaard-thief-guild<br>midgaard-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> |
@@ -210,20 +210,22 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Shadow Rift | - | :x: Not Found |
 | Shadow Storm | - | :x: Not Found |
 | Shire Village | shire-village | :white_check_mark: Complete |
-| Sieged Castle | sieged-castle | :o: Partial Map |
-| Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild<br>skara-brae-mage-guild | :o: Partial Map<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> |
+| Sieged Castle | sieged-castle | :white_check_mark: Complete |
+| Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild<br>skara-brae-mage-guild<br>skara-brae-sohe-guild<br>skara-brae-jedi-guild<br>skara-brae-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete |
 | Southern Part of Midgaard | southern-midgaard | :white_check_mark: Complete |
 | Star Wars | - | :x: Not Found |
 | Straight Path | straight-path | :white_check_mark: Complete |
+| Three of Swords | three-of-swords | :o: Partial Map | 
 | Trails Around Midgaard | trails-around-midgaard | :white_check_mark: Complete |
 | Trails Near Midgaard | trails-near-midgaard | :white_check_mark: Complete |
 | Training Grounds | training-grounds | :white_check_mark: Complete |
 | Troglodyte Caves | - | :x: Not Found |
-| Underworld | underworld | :o: Partial Map |
+| Underworld | underworld | :white_check_mark: Complete |
 | Valhalla | valhalla | :link: Initial Link |
 | Wamphyri Aerie | wamphyri-aerie | :white_check_mark: Complete |
 | Wandering Greza Ship | wandering-ship | :white_check_mark: Complete |
-| Weeden | weeden | :link: Initial Link |
+| Weeden | weeden | :white_check_mark: Complete |
+| Weeden Undeground | weeden-underground | :white_check_mark: Complete |
 | Werith's Wayhouse | wayhouse | :white_check_mark: Complete |
 
 

@@ -1,0 +1,9 @@
+Object 'a huge trunk', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !MORT !JUNK UNIQUE 
+Weight: 20, Value: 0, Rent: 0, Min. level: 0
+It can hold approximately 500 units.
+Can affect you as :
+   Affects: HIT By 50
+   Affects: MANA By 50
+-----

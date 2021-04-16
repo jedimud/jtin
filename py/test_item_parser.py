@@ -1967,7 +1967,6 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
-
     def test_parse_file__a_goose_quill(self):
         actual = self.read_item_from_file("a-goose-quill")
 
@@ -1975,7 +1974,7 @@ class TestItemParser(unittest.TestCase):
         item.name = "a goose quill"
         item.type = ItemType.PEN
         item.ability = ItemAbility.NOBITS
-       
+
         item.tags.append(ItemTag.MAG)
         item.tags.append(ItemTag.UNIQUE)
 
@@ -1989,6 +1988,141 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.HOLD)
 
         self.assert_equals(item, actual)
+
+    def test_parse_file__a_scroll_of_combat(self):
+        actual = self.read_item_from_file("a-scroll-of-combat")
+
+        item = Item()
+        item.name = "a scroll of Combat"
+        item.type = ItemType.SCROLL
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 2500
+        item.rent = 1250
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.STRENGTH)
+        item.spells.append(ItemSpell.AID)
+        item.spells.append(ItemSpell.BLINDNESS)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_snowball(self):
+        actual = self.read_item_from_file("a-snowball")
+
+        item = Item()
+        item.name = "a snowball"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 750
+        item.rent = 400
+        item.min_level = 0
+
+        item.spell_level = 15
+        item.spells.append(ItemSpell.CHILL_TOUCH)
+        item.charge_max = 1
+        item.charge_remain = 1
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_lucky_charm(self):
+        actual = self.read_item_from_file("a-lucky-charm")
+
+        item = Item()
+        item.name = "a lucky charm"
+        item.type = ItemType.OTHER
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 1000
+        item.rent = 500
+        item.min_level = 0
+
+        item.affects[ItemAffect.SAVE_ROD] = -2
+        item.affects[ItemAffect.SAVE_SPELL] = -2
+
+        item.slots.append(ItemSlot.NECK)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_potion_of_stone_skin(self):
+        actual = self.read_item_from_file("a-potion-of-stone-skin")
+
+        item = Item()
+        item.name = "a potion of stone skin"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.GLOW)
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemClass.NO_MAGE)
+        item.tags.append(ItemClass.NO_CLER)
+        item.tags.append(ItemClass.NO_THF)
+        item.tags.append(ItemClass.NO_PAL)
+        item.tags.append(ItemClass.NO_APAL)
+        item.tags.append(ItemClass.NO_NINJA)
+        item.tags.append(ItemClass.NO_JEDI)
+        item.tags.append(ItemClass.NO_SOHEI)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.NO_DONATE)
+        item.tags.append(ItemClass.NO_RANGER)
+        item.tags.append(ItemClass.NO_BARD)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 2000
+        item.rent = 250
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.STONE_SKIN)
+        item.spells.append(ItemSpell.CAUSE_LIGHT)
+        item.spells.append(ItemSpell.CURE_LIGHT)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_huge_trunk(self):
+        actual = self.read_item_from_file("a-huge-trunk")
+
+        item = Item()
+        item.name = "a huge trunk"
+        item.type = ItemType.CONTAINER
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.NO_MORT)
+        item.tags.append(ItemTag.NO_JUNK)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 20
+        item.value = 0
+        item.rent = 0
+        item.min_level = 0
+
+        item.units = 500
+
+        item.affects[ItemAffect.HIT] = 50
+        item.affects[ItemAffect.MANA] = 50
+
+        self.assert_equals(item, actual)
+
 
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
