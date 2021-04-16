@@ -2099,6 +2099,31 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_huge_trunk(self):
+        actual = self.read_item_from_file("a-huge-trunk")
+
+        item = Item()
+        item.name = "a huge trunk"
+        item.type = ItemType.CONTAINER
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.NO_MORT)
+        item.tags.append(ItemTag.NO_JUNK)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 20
+        item.value = 0
+        item.rent = 0
+        item.min_level = 0
+
+        item.units = 500
+
+        item.affects[ItemAffect.HIT] = 50
+        item.affects[ItemAffect.MANA] = 50
+
+        self.assert_equals(item, actual)
+
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

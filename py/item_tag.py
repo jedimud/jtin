@@ -20,3 +20,4 @@ class ItemTag(Enum):
     NO_RENT = "!RENT"
     NO_PURGE = "!PURGE"
     NOBITS = "NOBITS"
+    NO_MORT = "!MORT"
