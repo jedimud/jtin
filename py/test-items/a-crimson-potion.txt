@@ -1,0 +1,9 @@
+Object 'a crimson potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+This POTION casts:  Level 0 of armor bless magical vestment
+Can affect you as :
+   Affects: ARMOR By -4
+Item slot: Hold
+-----

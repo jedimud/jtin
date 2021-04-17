@@ -2123,6 +2123,102 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_crimson_potion(self):
+        actual = self.read_item_from_file("a-crimson-potion")
+
+        item = Item()
+        item.name = "a crimson potion"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 0
+        item.value = 0
+        item.rent = 0
+        item.min_level = 0
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.ARMOR)
+        item.spells.append(ItemSpell.BLESS)
+        item.spells.append(ItemSpell.MAGICAL_VESTMENT)
+
+        item.affects[ItemAffect.ARMOR] = -4
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_crystal_vial(self):
+        actual = self.read_item_from_file("a-crystal-vial")
+
+        item = Item()
+        item.name = "a crystal vial"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 1000
+        item.rent = 500
+        item.min_level = 0
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.SANCTUARY)
+        item.spells.append(ItemSpell.WEB)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__an_ebony_cross(self):
+        actual = self.read_item_from_file("an-ebony-cross")
+
+        item = Item()
+        item.name = "an ebony cross"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 0
+        item.value = 3000
+        item.rent = 1500
+        item.min_level = 0
+
+        item.spell_level = 15
+        item.spells.append(ItemSpell.DISPEL_EVIL)
+        item.charge_max = 4
+        item.charge_remain = 4
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_faded_scroll(self):
+        actual = self.read_item_from_file("a-faded-scroll")
+
+        item = Item()
+        item.name = "a faded scroll"
+        item.type = ItemType.SCROLL
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 15000
+        item.rent = 0
+        item.min_level = 0
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.ENCHANT_ARMOR)
+        item.spells.append(ItemSpell.GROUP_INVISIBIILITY)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
 
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)

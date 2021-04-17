@@ -1,0 +1,7 @@
+Object 'a faded scroll', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 15000, Rent: 0, Min. level: 0
+This SCROLL casts:  Level 0 of enchant armor group invisibility
+Item slot: Hold
+-----

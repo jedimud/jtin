@@ -1,0 +1,7 @@
+Object 'a crystal vial', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1000, Rent: 500, Min. level: 0
+This POTION casts:  Level 0 of sanctuary web
+Item slot: Hold
+-----

@@ -10470,3 +10470,226 @@ Can affect you as :
    Affects: DEX By 1
    Affects: DAMROLL By 1
 Item slot: Waist
+-----
+Object 'the black amulet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM INVIS UNIQUE 
+Weight: 3, Value: 10000, Rent: 5000, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: DEX By -1
+   Affects: HIT By 15
+Item slot: Neck
+-----
+Object 'a black trident', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM !DROP !GOOD !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 20, Value: 6000, Rent: 2400, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Can affect you as :
+   Affects: DEX By 2
+   Affects: STR By -2
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a black trident', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM !GOOD !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 20, Value: 6000, Rent: 2400, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Can affect you as :
+   Affects: DEX By 2
+   Affects: STR By -2
+Item slot: Wield
+-----
+Object 'a rusted scimitar', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 10, Value: 50, Rent: 10, Min. level: 0
+Damage Dice is '1D5' for an average per-round damage of 3.0.
+Item slot: Wield
+-----
+Object 'a flaming staff', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: !THF !WAR !NINJA UNIQUE 
+Weight: 20, Value: 15000, Rent: 7000, Min. level: 0
+This STAFF casts: control weather of level 30
+It has 5 maximum charges and 5 remaining.
+Item slot: Hold
+-----
+Object 'a sphere of invulnerability', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM INVIS MAG !DROP BLESS !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 10, Value: 27000, Rent: 10000, Min. level: 10
+AC-apply is 5
+Can affect you as :
+   Affects: SAVE_BREATH By -10
+   Affects: SAVE_SPELL By -10
+Item slot: Shield
+-----
+Object 'a shirt made of fiend hide', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE UNIQUE 
+Weight: 5, Value: 1000, Rent: 250, Min. level: 0
+AC-apply is 9
+Item slot: On Body
+-----
+Object 'a skirt made of fiend hide', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE UNIQUE 
+Weight: 5, Value: 2000, Rent: 600, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: STR By 1
+Item slot: Legs
+-----
+Object 'a flaming staff made of white onyx', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !GOOD !THF !WAR !PAL !NINJA !JEDI LIMITED !RANGER !BARD UNIQUE 
+Weight: 10, Value: 10000, Rent: 4000, Min. level: 10
+Damage Dice is '2D6' for an average per-round damage of 7.0.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: MANA By 25
+Item slot: Wield
+-----
+Object 'a poisoner's ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 0, Value: 3000, Rent: 300, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: DEX By 1
+Item slot: Ring
+-----
+Object 'Padded leather armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 10, Value: 250, Rent: 25, Min. level: 3
+AC-apply is 9
+Item slot: On Body
+-----
+Object 'a broken dagger', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !CLER UNIQUE 
+Weight: 5, Value: 600, Rent: 50, Min. level: 5
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Can affect you as :
+   Affects: HITROLL By 3
+Item slot: Wield
+-----
+Object 'a necklace of amber beads', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 3000, Rent: 150, Min. level: 4
+AC-apply is 1
+Can affect you as :
+   Affects: MANA By 9
+   Affects: MOVE By 2
+Item slot: Neck
+-----
+Object 'a crimson potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+This POTION casts:  Level 0 of armor bless magical vestment
+Can affect you as :
+   Affects: ARMOR By -4
+Item slot: Hold
+-----
+Object 'a crystal vial', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1000, Rent: 500, Min. level: 0
+This POTION casts:  Level 0 of sanctuary web
+Item slot: Hold
+-----
+Object 'a crimson potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+This POTION casts:  Level 0 of armor bless magical vestment
+Can affect you as :
+   Affects: ARMOR By -4
+Item slot: Hold
+-----
+Object 'a necklace of fine pearls', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF !WAR !NINJA UNIQUE 
+Weight: 1, Value: 50, Rent: 0, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: HIT By 5
+   Affects: MANA By 5
+Item slot: Neck
+-----
+Object 'Tattered clerical robe', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 50, Rent: 5, Min. level: 3
+AC-apply is 3
+Item slot: About Body
+-----
+Object 'an ebony cross', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 3000, Rent: 1500, Min. level: 0
+This WAND casts: dispel evil of level 15
+It has 4 maximum charges and 4 remaining.
+Item slot: Hold
+-----
+Object 'an obsidian vial', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 30000, Rent: 0, Min. level: 0
+This POTION casts:  Level 0 of sanctuary cure critic
+Item slot: Hold
+-----
+Object 'a faded scroll', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 15000, Rent: 0, Min. level: 0
+This SCROLL casts:  Level 0 of enchant armor group invisibility
+Item slot: Hold
+-----
+Object 'a blue linen robe', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !THF !WAR !PAL !APAL !NINJA !RANGER UNIQUE 
+Weight: 3, Value: 1000, Rent: 50, Min. level: 6
+Can affect you as :
+   Affects: MANA By 7
+   Affects: SAVE_SPELL By -1
+Item slot: About Body
+-----
+Object 'a suit of banded mail', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 25, Value: 18000, Rent: 2300, Min. level: 0
+AC-apply is 21
+Item slot: On Body
+-----
+Object 'a short sword with a wire bound hilt', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 5, Value: 5000, Rent: 1000, Min. level: 7
+Damage Dice is '3D6' for an average per-round damage of 10.5.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By -1
+Item slot: Wield
+-----
+Object 'a creamy white pearl', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS UNIQUE 
+Weight: 2, Value: 1000, Rent: 50, Min. level: 0
+Can affect you as :
+   Affects: WIS By 2
+Item slot: Hold
+-----
+Object 'a Black Pearl', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !DROP UNIQUE 
+Weight: 2, Value: 10, Rent: 1000, Min. level: 5
+Can affect you as :
+   Affects: MANA By 5
+Item slot: Light
