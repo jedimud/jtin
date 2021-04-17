@@ -84,7 +84,7 @@ Small unicode maps loaded into the right `#split`.
 
 **`state`**
 * `enabled`: Allow maps to be loaded
-* `disabled`:  
+* `disabled`: Close and unload mapping features
 
 ## Legend
 
@@ -129,13 +129,13 @@ Small unicode maps loaded into the right `#split`.
 
 ## Status
 
-Total: **109** maps, **4226** Rooms, **9022** paths
+Total: **125** maps, **5005** Rooms, **10000+** paths
 
 | Zone | Map | Status |
 | ---- | --- | ------ |
 | Abandoned Cathedral | - | :x: Not Found |
 | Abandoned Ship and Deep Forest | abandoned-ship | :white_check_mark: Complete |
-| Abyss | abyss | :o: Partial Map |
+| Abyss | abyss | :white_check_mark: Complete |
 | Algodon's Pyramid of Doom | doom | :link: Initial Link |
 | Amber Forest of Arden | amber-forest | :link: Initial Link |
 | Amusement Park | amusement-park | :white_check_mark: Complete |
@@ -159,7 +159,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Donner's Den | donners-den | :white_check_mark: Complete |
 | Dragon City | - | :x: Not Found |
 | Dragon Sea | dragon-sea | :o: Partial Map |
-| Drake Isle | drake-isle | :o: Partial Map |
+| Drake Isle | drake-isle<br>drake-isle-fortress<br>drake-isle-interior | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:o: Partial Map |
 | Drow City | drow-city | :white_check_mark: Complete |
 | Dwarven Kingdom | dwarven-kingdom | :white_check_mark: Complete |
 | Elven Village Ruins | old-elven-village | :link: Initial Link |
@@ -182,7 +182,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Imperial Ravenna | ravenna | :o: Partial Map |
 | King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete |
 | Lich's Tower | lich-tower | :white_check_mark: Complete |
-| Lost Isle of Shaedar | - | :x: Not Found |
+| Lost Isle of Shaedar | :link: Initial Link |
 | Mahn-Tor | mahn-tor | :link: Initial Link |
 | Metro | metro | :link: Initial Link |
 | Miden'Nir | miden-nir | :white_check_mark: Complete |
