@@ -177,7 +177,7 @@ Total: **125** maps, **5005** Rooms, **10000+** paths
 | Great Pyramid | - | :x: Not Found |
 | Gyles Keep | gyles-keep | :white_check_mark: Complete |
 | Hell | - | :x: Not Found |
-| Hellas | hellas | :link: Initial Link |
+| Hellas | hellas | :white_check_mark: Complete |
 | High Tower of Sorcery | high-tower-of-sorcery | :link: Initial Link |
 | Imperial Ravenna | ravenna | :o: Partial Map |
 | King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete |

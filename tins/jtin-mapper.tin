@@ -271,3 +271,8 @@
         map open new-thalos 29;
     }
 }
+
+#nop -- hellas
+#action {You pull down the lever, and the tension on the chain} {
+    #map goto 10;
+}
