@@ -131,102 +131,102 @@ Small unicode maps loaded into the right `#split`.
 
 Total: **125** maps, **5005** Rooms, **10000+** paths
 
-| Zone | Map | Status |
-| ---- | --- | ------ |
-| Abandoned Cathedral | - | :x: Not Found |
-| Abandoned Ship and Deep Forest | abandoned-ship | :white_check_mark: Complete |
-| Abyss | abyss | :white_check_mark: Complete |
-| Algodon's Pyramid of Doom | doom | :link: Initial Link |
-| Amber Forest of Arden | amber-forest | :link: Initial Link |
-| Amusement Park | amusement-park | :white_check_mark: Complete |
-| Andrus' Toy Land | andrus-toy-land | :o: Partial Map |
-| Anthill | ant-hill | :link: Initial Link |
-| Arachnos | arachnos | :o: Partial Map |
-| Aralu | aralu | :link: Initial Link |
-| Arcadia | arcadia | :link: Initial Link |
-| Arctic Empire | arctic-empire | :white_check_mark: Complete |
-| Arctica | arctica | :o: Partial Map |
-| Area Near Skara Brae | trails-around-skara-brae | :o: Partial Map |
-| Balor's Domain | balor | :white_check_mark: Complete |
-| Bardic Colleges | bardic-colleges | :link: Initial Link |
-| Camelot | camelot | :o: Partial Map |
-| Castle Mistamere | castle-mistamere | :link: Initial Link |
-| Cedar Estate Mansion | cedar-estate | :link: Initial Link |
-| Cheer's Bar | cheers | :white_check_mark: Complete |
-| Corsair Citadel | corsair-citadel | :link: Initial Link |
-| Crystal Caves | crystal-caves | :o: Partial Map |
-| Darkspine Mountains | darkspine-mountains | :o: Partial Map |
-| Donner's Den | donners-den | :white_check_mark: Complete |
-| Dragon City | - | :x: Not Found |
-| Dragon Sea | dragon-sea | :o: Partial Map |
-| Drake Isle | drake-isle<br>drake-isle-fortress<br>drake-isle-interior | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:o: Partial Map |
-| Drow City | drow-city | :white_check_mark: Complete |
-| Dwarven Kingdom | dwarven-kingdom | :white_check_mark: Complete |
-| Elven Village Ruins | old-elven-village | :link: Initial Link |
-| Emerald Maze | emerald-maze | :link: Initial Link |
-| Enfan City | enfan-city | :white_check_mark: Complete |
-| Floodlands | floodlands | :white_check_mark: Complete |
-| Forest of Haon-Dor | haon-dor | :white_check_mark: Complete |
-| Froboz's Factory | froboz-factory | :link: Initial Link |
-| Galaxy | galaxy | :white_check_mark: Complete |
-| Goblinsville Under the Mountain | goblinsville | :white_check_mark: Complete |
-| Golden Pagoda | - | :x: Not Found |
-| Goth Camps | - | :x: Not Found |
-| Great Chessboard | chessboard | :white_check_mark: Complete |
-| Great Eastern Desert | great-eastern-desert | :o: Partial Map |
-| Great Pyramid | - | :x: Not Found |
-| Gyles Keep | gyles-keep | :white_check_mark: Complete |
-| Hell | - | :x: Not Found |
-| Hellas | hellas | :white_check_mark: Complete |
-| High Tower of Sorcery | high-tower-of-sorcery | :link: Initial Link |
-| Imperial Ravenna | ravenna | :o: Partial Map |
-| King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete |
-| Lich's Tower | lich-tower | :white_check_mark: Complete |
-| Lost Isle of Shaedar | :link: Initial Link |
-| Mahn-Tor | mahn-tor | :link: Initial Link |
-| Metro | metro | :link: Initial Link |
-| Miden'Nir | miden-nir | :white_check_mark: Complete |
-| Miden'Nir Extension | miden-nir-extension | :white_check_mark: Complete |
-| Midgaard | midgaard<br>midgaard-antipaladin-guild<br>midgaard-bard-guild<br>midgaard-cleric-guild<br>midgaard-jedi-guild<br>midgaard-mage-guild<br>midgaard-ninja-guild<br>midgaard-paladin-guild<br>midgaard-sohei-guild<br>midgaard-thief-guild<br>midgaard-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> |
-| Midgaard Sewers | midgaard-sewers | :white_check_mark: Complete |
-| Midgaard Temple Complex | midgaard-temple | :white_check_mark: Complete |
-| Midgaard Zoo | midgaard-zoo | :white_check_mark: Complete |
-| Mines of Moria | moria | :o: Partial Map |
-| Monastery | monastery | :white_check_mark: Complete |
-| New Thalos | new-thalos<br>trails-around-new-thalos<br>trails-near-new-thalos<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-perrywinkle-drive<br>new-thalos-thief-guild<br>new-thalos-cleric-guild<br>new-thalos-paladin-guild<br>new-thalos-antipaladin-guild<br>new-thalos-jedi-guild<br>new-thalos-sohei-guild<br>new-thalos-ninja-guild<br>new-thalos-bard-guild<br>new-thalos-mage-guild<br>new-thalos-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete |
-| Nightmire | nightmire | :o: Partial Map |
-| Northern Plains | northern-plains | :white_check_mark: Complete |
-| Old Thalos | old-thalos | :white_check_mark: Complete |
-| Parliament of Owls | owlery | :o: Partial Map |
-| Player's Keeps | midgaard-home-of-bravoman<br>midgaard-soothesayers-shop<br>midgaard-dark-tower<br>midgaard-peaceful-grove<br>midgaard-tabard-inn | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> |
-| Refuge and Asylum | refuge-and-asylum | :link: Initial Link |
-| Rhyoden Kingdom | - | :x: Not Found |
-| River Island of Minos | river-island-of-minos | :link: Initial Link |
-| Rome | rome | :link: Initial Link |
-| Sanctuary City | sanctuary | :o: Partial Map |
-| Scipio Dreaming | - | :x: Not Found |
-| Sea of Dreams | - | :x: Not Found |
-| Sesame Street | sesame-street | :link: Initial Link |
-| Shadow Rift | - | :x: Not Found |
-| Shadow Storm | - | :x: Not Found |
-| Shire Village | shire-village | :white_check_mark: Complete |
-| Sieged Castle | sieged-castle | :white_check_mark: Complete |
-| Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild<br>skara-brae-mage-guild<br>skara-brae-sohe-guild<br>skara-brae-jedi-guild<br>skara-brae-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete |
-| Southern Part of Midgaard | southern-midgaard | :white_check_mark: Complete |
-| Star Wars | - | :x: Not Found |
-| Straight Path | straight-path | :white_check_mark: Complete |
-| Three of Swords | three-of-swords | :o: Partial Map | 
-| Trails Around Midgaard | trails-around-midgaard | :white_check_mark: Complete |
-| Trails Near Midgaard | trails-near-midgaard | :white_check_mark: Complete |
-| Training Grounds | training-grounds | :white_check_mark: Complete |
-| Troglodyte Caves | - | :x: Not Found |
-| Underworld | underworld | :white_check_mark: Complete |
-| Valhalla | valhalla | :link: Initial Link |
-| Wamphyri Aerie | wamphyri-aerie | :white_check_mark: Complete |
-| Wandering Greza Ship | wandering-ship | :white_check_mark: Complete |
-| Weeden | weeden | :white_check_mark: Complete |
-| Weeden Undeground | weeden-underground | :white_check_mark: Complete |
-| Werith's Wayhouse | wayhouse | :white_check_mark: Complete |
+| Zone | Map | Status | Path | 
+| ---- | --- | ------ | ---- | 
+| Abandoned Cathedral | - | :x: Not Found | :x: |
+| Abandoned Ship and Deep Forest | abandoned-ship | :white_check_mark: Complete | :x: |
+| Abyss | abyss | :white_check_mark: Complete | :x: |
+| Algodon's Pyramid of Doom | doom | :link: Initial Link | :x: |
+| Amber Forest of Arden | amber-forest | :link: Initial Link | :x: |
+| Amusement Park | amusement-park | :white_check_mark: Complete | :x: |
+| Andrus' Toy Land | andrus-toy-land | :o: Partial Map | :x: |
+| Anthill | ant-hill | :link: Initial Link | :x: |
+| Arachnos | arachnos | :o: Partial Map | :x: |
+| Aralu | aralu | :link: Initial Link |:x: |
+| Arcadia | arcadia | :link: Initial Link | :x: |
+| Arctic Empire | arctic-empire | :white_check_mark: Complete | :x: |
+| Arctica | arctica | :o: Partial Map | :x: |
+| Area Near Skara Brae | trails-around-skara-brae | :o: Partial Map | :x: |
+| Balor's Domain | balor | :white_check_mark: Complete | :x: |
+| Bardic Colleges | bardic-colleges | :link: Initial Link | :x: |
+| Camelot | camelot | :o: Partial Map | :x: |
+| Castle Mistamere | castle-mistamere | :link: Initial Link | :x: |
+| Cedar Estate Mansion | cedar-estate | :link: Initial Link | :x: |
+| Cheer's Bar | cheers | :white_check_mark: Complete | :x: |
+| Corsair Citadel | corsair-citadel | :link: Initial Link | :x: |
+| Crystal Caves | crystal-caves | :o: Partial Map | :x: |
+| Darkspine Mountains | darkspine-mountains | :o: Partial Map | :x: |
+| Donner's Den | donners-den | :white_check_mark: Complete | :x: |
+| Dragon City | - | :x: Not Found | :x: |
+| Dragon Sea | dragon-sea | :o: Partial Map | :x: |
+| Drake Isle | drake-isle<br>drake-isle-fortress<br>drake-isle-interior |:white_check_mark: Complete<br>:white_check_mark: Complete<br>:o: Partial Map | :x:<br>:x:<br>:x: |
+| Drow City | drow-city | :white_check_mark: Complete | :x: |
+| Dwarven Kingdom | dwarven-kingdom | :white_check_mark: Complete | :x: |
+| Elven Village Ruins | old-elven-village | :link: Initial Link | :x: |
+| Emerald Maze | emerald-maze | :link: Initial Link | :x: |
+| Enfan City | enfan-city | :white_check_mark: Complete | :x: |
+| Floodlands | floodlands | :white_check_mark: Complete | :x: |
+| Forest of Haon-Dor | haon-dor | :white_check_mark: Complete | :white_check_mark: midgaard |
+| Froboz's Factory | froboz-factory | :link: Initial Link | :x: |
+| Galaxy | galaxy | :white_check_mark: Complete | :x: |
+| Goblinsville Under the Mountain | goblinsville | :white_check_mark: Complete | :x: |
+| Golden Pagoda | - | :x: Not Found | :x: |
+| Goth Camps | - | :x: Not Found | :x: |
+| Great Chessboard | chessboard | :white_check_mark: Complete | :x: |
+| Great Eastern Desert | great-eastern-desert | :o: Partial Map | :x: |
+| Great Pyramid | - | :x: Not Found | :x: |
+| Gyles Keep | gyles-keep | :white_check_mark: Complete | :x: |
+| Hell | - | :x: Not Found | :x: |
+| Hellas | hellas | :white_check_mark: Complete | :x: |
+| High Tower of Sorcery | high-tower-of-sorcery | :link: Initial Link | :x: |
+| Imperial Ravenna | ravenna | :o: Partial Map | :x: |
+| King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete | :x: |
+| Lich's Tower | lich-tower | :white_check_mark: Complete | :x: |
+| Lost Isle of Shaedar | lost-isle-of-shaedar |:link: Initial Link | :x: |
+| Mahn-Tor | mahn-tor | :link: Initial Link | :x: |
+| Metro | metro | :link: Initial Link | :x: |
+| Miden'Nir | miden-nir | :white_check_mark: Complete | :x: |
+| Miden'Nir Extension | miden-nir-extension | :white_check_mark: Complete | :x: |
+| Midgaard | midgaard<br>midgaard-antipaladin-guild<br>midgaard-bard-guild<br>midgaard-cleric-guild<br>midgaard-jedi-guild<br>midgaard-mage-guild<br>midgaard-ninja-guild<br>midgaard-paladin-guild<br>midgaard-sohei-guild<br>midgaard-thief-guild<br>midgaard-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> | :x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br> |
+| Midgaard Sewers | midgaard-sewers | :white_check_mark: Complete | :x: |
+| Midgaard Temple Complex | midgaard-temple | :white_check_mark: Complete | :x: |
+| Midgaard Zoo | midgaard-zoo | :white_check_mark: Complete | :x: |
+| Mines of Moria | moria | :o: Partial Map | :x: |
+| Monastery | monastery | :white_check_mark: Complete | :x: |
+| New Thalos | new-thalos<br>trails-around-new-thalos<br>trails-near-new-thalos<br>new-thalos-jails<br>new-thalos-palace<br>new-thalos-perrywinkle-drive<br>new-thalos-thief-guild<br>new-thalos-cleric-guild<br>new-thalos-paladin-guild<br>new-thalos-antipaladin-guild<br>new-thalos-jedi-guild<br>new-thalos-sohei-guild<br>new-thalos-ninja-guild<br>new-thalos-bard-guild<br>new-thalos-mage-guild<br>new-thalos-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete | :x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br> |
+| Nightmire | nightmire | :o: Partial Map | :x: |
+| Northern Plains | northern-plains | :white_check_mark: Complete | :x: |
+| Old Thalos | old-thalos | :white_check_mark: Complete | :x: |
+| Parliament of Owls | owlery | :o: Partial Map | :x: |
+| Player's Keeps | midgaard-home-of-bravoman<br>midgaard-soothesayers-shop<br>midgaard-dark-tower<br>midgaard-peaceful-grove<br>midgaard-tabard-inn | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br> | :x:<br>:x:<br>:x:<br>:x:<br>:x:<br> |
+| Refuge and Asylum | refuge-and-asylum | :link: Initial Link | :x: |
+| Rhyoden Kingdom | - | :x: Not Found | :x: |
+| River Island of Minos | river-island-of-minos | :link: Initial Link | :x: |
+| Rome | rome | :link: Initial Link | :x: |
+| Sanctuary City | sanctuary | :o: Partial Map | :x: |
+| Scipio Dreaming | - | :x: Not Found | :x: |
+| Sea of Dreams | - | :x: Not Found | :x: |
+| Sesame Street | sesame-street | :link: Initial Link | :x: |
+| Shadow Rift | - | :x: Not Found | :x: |
+| Shadow Storm | - | :x: Not Found | :x: |
+| Shire Village | shire-village | :white_check_mark: Complete | :x: |
+| Sieged Castle | sieged-castle | :white_check_mark: Complete | :x: |
+| Skara Brae | skara-brae<br>skara-brae-antipaladin-guild<br>skara-brae-cleric-guild<br>skara-brae-ninja-guild<br>skara-brae-paladin-guild<br>skara-brae-thief-guild<br>skara-brae-mage-guild<br>skara-brae-sohe-guild<br>skara-brae-jedi-guild<br>skara-brae-warrior-guild | :white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete<br>:white_check_mark: Complete | :x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br>:x:<br> |
+| Southern Part of Midgaard | southern-midgaard | :white_check_mark: Complete | :x: |
+| Star Wars | - | :x: Not Found | :x: |
+| Straight Path | straight-path | :white_check_mark: Complete | :x: |
+| Three of Swords | three-of-swords | :o: Partial Map | :x: |
+| Trails Around Midgaard | trails-around-midgaard | :white_check_mark: Complete | :x: |
+| Trails Near Midgaard | trails-near-midgaard | :white_check_mark: Complete | :x: |
+| Training Grounds | training-grounds | :white_check_mark: Complete | :x: |
+| Troglodyte Caves | - | :x: Not Found | :x: |
+| Underworld | underworld | :white_check_mark: Complete | :x: |
+| Valhalla | valhalla | :link: Initial Link | :x: |
+| Wamphyri Aerie | wamphyri-aerie | :white_check_mark: Complete | :x: |
+| Wandering Greza Ship | wandering-ship | :white_check_mark: Complete | :x: |
+| Weeden | weeden | :white_check_mark: Complete | :x: |
+| Weeden Undeground | weeden-underground | :white_check_mark: Complete | :x: |
+| Werith's Wayhouse | wayhouse | :white_check_mark: Complete | :x: |
 
 
 # Item Brief
