@@ -11128,3 +11128,25 @@ Can affect you as :
    Affects: CHARISMA By 2
    Affects: MOVE_REGEN By 10
 Item slot: Wrist
+-----
+Object 'the Ring of Rhyoden', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !RENT UNIQUE 
+Weight: 1, Value: 160, Rent: 11, Min. level: 0
+Can affect you as :
+   Affects: HITROLL By -3
+   Affects: HIT By -15
+Item slot: Ring
+-----
+Object 'a badly chewed red rubber ball', Item type: DEVICE
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'a pair of black metal leg plates', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: BLESS GOOD !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 6, Value: 9000, Rent: 450, Min. level: 0
+AC-apply is 14
+Item slot: Legs
