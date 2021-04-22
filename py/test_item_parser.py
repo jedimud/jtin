@@ -2220,6 +2220,31 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_wand_of_mobility(self):
+        actual = self.read_item_from_file("a-wand-of-mobility")
+
+        item = Item()
+        item.name = "a wand of mobility"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 2
+        item.value = 5500
+        item.rent = 1375
+        item.min_level = 0
+
+        item.spell_level = 12
+        item.spells.append(ItemSpell.REMOVE_PARALYSIS)
+        item.charge_max = 3
+        item.charge_remain = 3
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
