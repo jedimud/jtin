@@ -13,7 +13,7 @@
     #if {"$jt_p_zone_paths[$jt_m_current][$jt_p_current_vnum][paths][%1]" == ""} {
         jt_p_unknown_path;
     } {
-        #path unzip $jt_p_zone_paths[$jt_m_current][$jt_p_current_vnum][paths][%1];
+        #path unzip $jt_p_zone_paths[$jt_m_current][$jt_p_current_vnum][paths][%1][path];
         #path run {0.1};
     }
 }
@@ -27,15 +27,22 @@
         #var jt_p_current_vnum {$t[vnum]};
         #unvar t;
         #foreach {*jt_p_zone_paths[$jt_m_current][%*]} {i} {
-            #showme ;
-            #showme <fac>* <adf>$jt_p_zone_paths[$jt_m_current][$i][name] ($i);
-            #foreach {*jt_p_zone_paths[$jt_m_current][$i][paths][%*]} {j} {
-                #if {$i == $jt_p_current_vnum} {
-                    #showme <fac>  + <aef>$j <afc>$jt_p_zone_paths[$jt_m_current][$i][paths][$j];
-                } {
-                    #showme <fac>  + <aef>$j <fca>disabled;
+            #if {$i == $jt_p_current_vnum} {
+                #showme ;
+                #showme <adf>$jt_p_zone_paths[$jt_m_current][$i][name] ($i);
+                #foreach {*jt_p_zone_paths[$jt_m_current][$i][paths][%*]} {j} {
+                    #showme <ecc>  $j<aef> $jt_p_zone_paths[$jt_m_current][$i][paths][$j][name] <afc>$jt_p_zone_paths[$jt_m_current][$i][paths][$j][path];
                 }
-            }
+            };
+        };
+        #showme ;
+        #foreach {*jt_p_zone_paths[$jt_m_current][%*]} {i} {
+            #if {$i != $jt_p_current_vnum} {
+                #showme <adf>$jt_p_zone_paths[$jt_m_current][$i][name] ($i) <fca>(disabled);
+                #nop #foreach {*jt_p_zone_paths[$jt_m_current][$i][paths][%*]} {j} {
+                #nop     #showme <ecc>  $j<aef> $jt_p_zone_paths[$jt_m_current][$i][paths][$j][name] <fca>disabled;
+                #nop }
+            };
         };
         #unvar jt_p_current_vnum;
     }
@@ -51,7 +58,10 @@
         {6}{
             {name}{The Dark Pit}
             {paths}{
-                {balor}{1u3n1d1n;ne;1u3w4u3w}
+                {elf}{
+                    {name}{The Dark Doorway}
+                    {path}{1u3n1d1n;ne;1u3w4u3w}
+                }
             }
         }
     }
@@ -59,15 +69,27 @@
         {9}{
             {name}{The Beach}
             {paths}{
-                {elves}{3w4s2d}
-                {midgaard}{9n2w6n}
+                {elf}{
+                    {name}{The Dark Doorway}
+                    {path}{3w4s2d}
+                }
+                {lev}{
+                    {name}{The Levee}
+                    {path}{8n}
+                }
             }
         }
         {38}{
             {name}{The Dark Doorway}
             {paths}{
-                {abyss}{3e4d3e1d;sw;1s1u3s1d}
-                {beach}{3u3n3e}
+                {aby}{
+                    {name}{The Abyss}
+                    {path}{3e4d3e1d;sw;1s1u3s1d}
+                }
+                {bea}{
+                    {name}{The Beach}
+                    {path}{3u3n3e}
+                }
             }
         }
     }
@@ -75,7 +97,14 @@
         {1}{
             {name}{City Entrance}
             {paths}{
-                {midgaard}{2u1s1u1s4w2n2w6n}
+                {lev}{
+                    {name}{The Levee}
+                    {path}{2u1s1u1s4w1n}
+                }
+                {ged} {
+                    {name}{Greater Eastern Desert}
+                    {path}{2u1s1u1s6e}
+                }
             }
         }
     }
@@ -83,7 +112,10 @@
         {1}{
             {name}{Path to Dwarven Village}
             {paths}{
-                {midgaard}{1u1n7w4n}
+                {tp}{
+                    {name}{Turning Point}
+                    {path}{1u1n}
+                }
             }
         }
     }
@@ -91,7 +123,10 @@
         {9}{
             {name}{Ershteep Road}
             {paths}{
-                {midgaard}{1e1s2e3s10w4n}
+                {tp}{
+                    {name}{Turning Point}
+                    {path}{1e1s2e3s3w}
+                }
             }
         }
     }
@@ -99,7 +134,33 @@
         {1}{
             {name}{Cave Entrance}
             {paths}{
-                {haon-dor}{5e3n1e2n2e1n}
+                {hao}{
+                    {name}{Haon-Dor}
+                    {path}{5e3n1e2n2e1n}
+                }
+            }
+        }
+    }
+    {great-eastern-desert} {
+        {31}{
+            {name}{The Great Eastern Desert}
+            {paths}{
+                {nt}{
+                    {name}{ New Thalos}
+                    {path}{1e10n}
+                }
+                {way}{
+                    {name}{The Wayhouse}
+                    {path}{nw;2s1e}
+                }
+                {rom}{
+                    {name}{Rome}
+                    {path}{TODO}
+                }
+                {ot}{
+                    {name}{ Old Thalos}
+                    {path}{TODO}
+                }
             }
         }
     }
@@ -107,9 +168,18 @@
         {10}{
             {name}{A narrow trail through the deep, dark forest}
             {paths}{
-                {midgaard}{14e4n}
-                {goblinsville}{1s2w2s1w3s5w}
-                {underworld}{1s2w2s1w3s2w6s3w10n}
+                {mid}{
+                    {name}{Temple of Midgaard}
+                    {path}{14e4n}
+                }
+                {gob}{
+                    {name}{Goblinsville}
+                    {path}{1s2w2s1w3s5w}
+                }
+                {unw}{
+                    {name}{Underworld}
+                    {path}{1s2w2s1w3s2w6s3w10n}
+                }
             }
         }
     }
@@ -117,7 +187,68 @@
         {3}{
             {name}{On the King's Road outside the Castle}
             {paths}{
-                {midgaard}{sw;sw;sw;2w7s}
+                {mid}{
+                    {name}{Temple of Migaard}
+                    {path}{sw;sw;sw;2w7s}
+                }
+            }
+        }
+    }
+    {miden-nir-extension}{
+        {4}{
+            {name}{The Circle of Huts}
+            {paths}{
+                {tp}{
+                    {name}{ Turning Point}
+                    {path}{12n}
+                }
+                {yam}{
+                    {name}{The Top of the Tower}
+                    {path}{3s1w2s;sw;1s1e1s1u1n1u1s1u1n2u}
+                }
+                {cem}{
+                    {name}{Entrance to the Cemetary}
+                    {path}{3s1e4s;se}
+                }
+            }
+        }
+        {43}{
+            {name}{The Top of the Tower}
+            {paths}{
+                {coh}{
+                    {name}{The Circle of Huts}
+                    {path}{2d1s1d1n1d1s1w1n;ne;2n1e3n}
+                }
+                {cem}{
+                    {name}{Entrance to the Cemetary}
+                    {path}{2d1s1d1n1d1s1w1n3e1s;se}
+                }
+            }
+        }
+        {33}{
+            {name}{Entrance to the Cemetary}
+            {paths}{
+                {coh}{
+                    {name}{The Circle of Huts}
+                    {path}{nw;4n1w3n}
+                }
+                {yam}{
+                    {name}{The Top of the Tower}
+                    {path}{nw;1w1n2w1s1e1s1u1n1u1s1u1n2u}
+                }
+                {elg}{
+                    {name}{The Tomb of Lord Elgan}
+                    {path}{4s1e1s1e1s1w}
+                }
+            }
+        }
+        {81}{
+            {name}{The Tomb of Lord Elgan}
+            {paths}{
+                {cem}{
+                    {name}{Entrance to the Cemetary}
+                    {path}{1e1n1w1n1w5n}
+                }
             }
         }
     }
@@ -125,12 +256,93 @@
         {1}{
             {name}{Temple of Midgaard}
             {paths}{
-                {balor}{6s2e9s}
-                {drow-city}{6s2e2s4e1n1d1n2d}
-                {dwarven-kingdom}{4s7e1s1d}
-                {enfan-city}{4s10e3n2w1n1w}
-                {haon-dor}{4s14w}
-                {king-welmars-castle}{7n2e;ne;ne;ne;}
+                {lev}{
+                    {path}{6s2e1s}
+                    {name}{Midgaard Levee}
+                }
+                {tp}{
+                    {name}{ Turning Point}
+                    {path}{4s7e}
+                }
+                {hao}{
+                    {name}{Haon-Dor}
+                    {path}{4s14w}
+                }
+                {sh}{
+                    {name}{ Shire Village}
+                    {path}{4s5w2n1w3n}
+                }
+                {wdn}{
+                    {name}{Weeden}
+                    {path}{4s5w2n5w3s2w}
+                }
+                {wel}{
+                    {name}{King Welmar's Castle}
+                    {path}{7n2e;ne;ne;ne;}
+                }
+            }
+        }
+        {152}{
+            {name}{The Levee}
+            {paths}{
+                {mid}{
+                    {name}{Temple of Midgaard}
+                    {path}{1n2w6n}
+                }
+                {bal}{
+                    {name}{The Balor}
+                    {path}{8s}
+                }
+                {dro}{
+                    {name}{Drow City}
+                    {path}{1s4e1n1d1n2d}
+                }
+                {ged}{
+                    {name}{Great Eastern Desert}
+                    {path}{1s10e}
+                }
+            }
+        }
+    }
+    {new-thalos}{
+        {11}{
+            {name}{The Center of Market Square}
+            {paths}{
+                
+            }
+        }
+    }
+    {shire-village}{
+        {4}{
+            {name}{Entrance to the Shire}
+            {paths}{
+                {mid}{
+                    {name}{Temple of Midgaard}
+                    {path}{2w5n1e1d3s1e1u}
+                }
+            }
+        }
+    }
+    {trails-near-midgaard}{
+        {3}{
+            {name}{Turning Point}
+            {paths}{
+                {mid}{
+                    {name}{Temple of Midgaard}
+                    {path}{7w4n}
+                }
+                {dk}{
+                    {name}{ Dwarven Kingdom}
+                    {path}{1s1d}
+                }
+                {ec}{
+                    {name}{ Enfan City}
+                    {path}{3e3n2w1n1w}
+                }
+                {nir}{
+                    {name}{Miden'Nir Extension}
+                    {path}{12s}
+                }
             }
         }
     }
@@ -138,7 +350,32 @@
         {48}{
             {name}{Center of Cavern}
             {paths}{
-                {haon-dor}{10s3e6n2e3n1e2n2e1n}
+                {hao}{
+                    {name}{Haon-Dor}
+                    {path}{10s3e6n2e3n1e2n2e1n}
+                }
+            }
+        }
+    }
+    {wayhouse}{
+        {40}{
+            {name}{Main Room}
+            {paths}{
+                {ged}{
+                    {name}{Great Eastern Desert}
+                    {path}{1w2n;se}
+                }
+            }
+        }
+    }
+    {weeden}{
+        {10}{
+            {name}{Outside Weeden}
+            {paths}{
+                {mid}{
+                    {name}{Temple of Migaard}
+                    {path}{2e3n5e2s5e4n}
+                }
             }
         }
     }
