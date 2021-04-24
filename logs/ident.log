@@ -11150,3 +11150,139 @@ Item is: BLESS GOOD !MAGE !THF !NINJA !RANGER !BARD UNIQUE
 Weight: 6, Value: 9000, Rent: 450, Min. level: 0
 AC-apply is 14
 Item slot: Legs
+-----
+Object 'a studded leather jacket', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 20, Value: 250, Rent: 25, Min. level: 0
+AC-apply is 6
+Item slot: On Body
+-----
+Object 'a steel helm', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA !BARD UNIQUE 
+Weight: 8, Value: 25000, Rent: 2500, Min. level: 0
+AC-apply is 12
+Item slot: Head
+-----
+Object 'a pair of plate leggings', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 8, Value: 25000, Rent: 2500, Min. level: 0
+AC-apply is 12
+Item slot: Legs
+-----
+Object 'a pair of bronze sleeves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !BARD UNIQUE 
+Weight: 8, Value: 1750, Rent: 125, Min. level: 0
+AC-apply is 5
+Item slot: Arms
+-----
+Object 'a morning star', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !THF !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 7, Value: 2000, Rent: 275, Min. level: 0
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Can affect you as :
+   Affects: HITROLL By -1
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'the Sword of the Protector', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 18, Value: 20000, Rent: 2000, Min. level: 0
+Damage Dice is '8D1' for an average per-round damage of 8.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'the Sword of the Protector', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 18, Value: 20000, Rent: 2000, Min. level: 0
+Damage Dice is '8D1' for an average per-round damage of 8.0.
+Item slot: Wield
+-----
+Object 'a white potion of "Froboz" (tm) liquid curing', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 1, Value: 1200, Rent: 3000, Min. level: 0
+This POTION casts:  Level 12 of remove poison cure light
+Item slot: Hold
+-----
+Object 'the Sword of the Protector', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 18, Value: 20000, Rent: 2000, Min. level: 0
+Damage Dice is '8D1' for an average per-round damage of 8.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'the Sword of the Protector', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 18, Value: 20000, Rent: 2000, Min. level: 0
+Damage Dice is '8D1' for an average per-round damage of 8.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'the Sword of the Protector', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 18, Value: 20000, Rent: 2000, Min. level: 0
+Damage Dice is '8D1' for an average per-round damage of 8.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'the Sword of the Protector', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 18, Value: 20000, Rent: 2000, Min. level: 0
+Damage Dice is '8D1' for an average per-round damage of 8.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a long serrated knife', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !CLER UNIQUE 
+Weight: 9, Value: 80, Rent: 4, Min. level: 0
+Damage Dice is '1D5' for an average per-round damage of 3.0.
+Item slot: Wield
+-----
+Object 'the Necklace of Wisdom', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !DROP BLESS !EVIL !NEUTRAL UNIQUE 
+Weight: 3, Value: 7500, Rent: 5000, Min. level: 0
+Can affect you as :
+   Affects: WIS By 3
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'the Sword of the Protector', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 18, Value: 20000, Rent: 2000, Min. level: 0
+Damage Dice is '8D1' for an average per-round damage of 8.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'the Sword of the Protector', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 18, Value: 20000, Rent: 2000, Min. level: 0
+Damage Dice is '8D1' for an average per-round damage of 8.0.
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a twisted key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 1, Rent: 500000, Min. level: 0
+Item slot: Hold
+-----
+Object 'the Rhyoden Gate Key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !RENT UNIQUE 
+Weight: 1, Value: 40, Rent: 10, Min. level: 0
+Item slot: Hold
+-----
+Object 'the Sword of the Protector', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI LIMITED UNIQUE 
+Weight: 18, Value: 20000, Rent: 2000, Min. level: 16
+Damage Dice is '8D1' for an average per-round damage of 8.0.
+ERROR - IGNORE THIS RECORD
