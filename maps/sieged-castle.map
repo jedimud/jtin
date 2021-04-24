@@ -18,7 +18,7 @@ F 8455
 
 G 0
 
-I 85
+I 1
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -252,7 +252,7 @@ T {} { } {}
 
 
 
-R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {    1} {0} {} {} {*} {} {} {} {} {} {1.000} {}
 E {    2} {s} {jt_m_link_action {south} {trails-around-skara-brae} {4}} {4} {0} {} {1.000} {} {0.00}
 E {    3} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
@@ -670,7 +670,7 @@ E {   99} {nw} {nw} {9} {0} {} {1.000} {} {0.00}
 E {   97} {n} {n} {1} {0} {} {1.000} {} {0.00}
 E {   95} {d} {d} {32} {0} {} {1.000} {} {0.00}
 
-R {  101} {8} {} {} { } {} {} {} {} {} {1.000} {}
+R {  101} {4104} {} {} { } {} {} {} {} {} {1.000} {}
 E {   89} {w} {w} {8} {0} {} {1.000} {} {0.00}
 E {   87} {e} {e} {2} {0} {} {1.000} {} {0.00}
 

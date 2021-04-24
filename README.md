@@ -93,7 +93,7 @@ Small unicode maps loaded into the right `#split`.
 | `[ ]`               |  Basic Path   |
 | `[$]`               |  Bank         |
 | `[M]`               |  Guild Master |
-| `[*]`               |  Recall/Login |
+| `[*]`               |  Path Point   |
 | `[&]`               |  Innkeeper    |
 | `[D]`               |  Donation     |
 | `[#]`               |  Shop/Vendor  |
