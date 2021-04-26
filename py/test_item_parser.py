@@ -2264,6 +2264,55 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__iris_panacea(self):
+        actual = self.read_item_from_file("iris-panacea")
+
+        item = Item()
+        item.name = "Iris' panacea"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+        item.tags.append(ItemTag.ASSM)
+
+        item.weight = 0
+        item.value = 10000
+        item.rent = 10000
+        item.min_level = 0
+
+        item.spell_level = 30
+        item.spells.append(ItemSpell.RESTORE)
+        item.spells.append(ItemSpell.SANCTUARY)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_shrubbery(self):
+        actual = self.read_item_from_file("a-shrubbery")
+
+        item = Item()
+        item.name = "a shrubbery"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 35
+        item.value = 2000
+        item.rent = 0
+        item.min_level = 30
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.WORD_OF_DEATH)
+        item.charge_remain = 1
+        item.charge_max = 1
+
+        item.slots.append(ItemSlot.HOLD)
+
+        item.affects[ItemAffect.DEX] = -3
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

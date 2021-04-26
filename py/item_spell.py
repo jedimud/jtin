@@ -51,6 +51,7 @@ class ItemSpell(Enum):
     REMOVE_CURSE = "remove curse"
     REMOVE_PARALYSIS = "remove paralysis"
     REMOVE_POISON = "remove poison"
+    RESTORE = "restore"
     SANCTUARY = "sanctuary"
     SENSE_LIFE = "sense life"
     SLAY = "slay"
@@ -60,4 +61,5 @@ class ItemSpell(Enum):
     TELEPORT = "teleport"
     WATERWALK = "waterwalk"
     WEB = "web"
+    WORD_OF_DEATH = "word of death"
     WORD_OF_RECALL = "word of recall"
