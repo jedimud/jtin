@@ -11596,3 +11596,124 @@ Can affect you as :
    Affects: DAMROLL By 2
    Affects: DEX By 2
 Item slot: Wield
+-----
+Object 'Glass Greaves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !WAR !PAL !APAL !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 3, Value: 6000, Rent: 3500, Min. level: 12
+AC-apply is 14
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: MOVE By 15
+Item slot: Legs
+-----
+Object 'a pair of cotton pants', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 1, Value: 50, Rent: 0, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HIT By 10
+   Affects: DEX By 1
+Item slot: Legs
+-----
+Object 'a razor-sharp falchion', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER !THF LIMITED !BARD UNIQUE 
+Weight: 12, Value: 3000, Rent: 15000, Min. level: 12
+Damage Dice is '6D3' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 3
+   Affects: DAMROLL By 3
+Item slot: Wield
+-----
+Object 'the master's lantern', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER UNIQUE 
+Weight: 1, Value: 50, Rent: 0, Min. level: 0
+Can affect you as :
+   Affects: HIT_REGEN By 4
+Item slot: Light
+-----
+Object 'Cape of Knowledge', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !THF !WAR !NINJA UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 3
+AC-apply is 2
+Can affect you as :
+   Affects: INT By 1
+   Affects: MANA By 8
+Item slot: About Body
+-----
+Object 'a Green Plastic Grenade Belt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !THF !WAR !NINJA !DONATE !JUNK UNIQUE INSURED 
+Weight: 1, Value: 1000, Rent: 0, Min. level: 12
+AC-apply is 1
+Can affect you as :
+   Affects: HIT By 6
+   Affects: MANA By 6
+Item slot: Waist
+-----
+Object 'a wide belt with heavy chains', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 10, Value: 2000, Rent: 200, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: CON By 2
+   Affects: HIT By 14
+Item slot: Waist
+-----
+Object 'a sapphire sword pendant', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: GLOW UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+Can affect you as :
+   Affects: CHARISMA By 2
+   Affects: MOVE By 14
+Item slot: Neck
+-----
+Object 'a silk scarf', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 500, Rent: 50, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: MANA By 12
+Item slot: Neck
+-----
+Object 'the Ring of al-Hakim', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !PAL !JEDI !DONATE !JUNK UNIQUE INSURED 
+Weight: 1, Value: 3300, Rent: 700, Min. level: 5
+AC-apply is 2
+Can affect you as :
+   Affects: MANA By 15
+   Affects: INT By 2
+Item slot: Ring
+-----
+Object 'an ancient Elvish ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1000, Rent: 5, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: INT By 2
+   Affects: MANA By 11
+Item slot: Ring
+-----
+Object 'a quarterstaff', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 12, Value: 100, Rent: 10, Min. level: 0
+Damage Dice is '1D6' for an average per-round damage of 3.5.
+Can affect you as :
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a rain barrel', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 50, Value: 50, Rent: 200, Min. level: 0
+It can hold approximately 50 units of liquid.
