@@ -747,9 +747,9 @@ The great white shark,dragon-sea
 The great white shark,dragon-sea
 The great white shark,dragon-sea
 An eel,skara-brae
-The fox,trails-around-skara-brae
-The fox,trails-around-skara-brae
-A giant eagle,trails-around-skara-brae
+The fox,area-near-skara-brae
+The fox,area-near-skara-brae
+A giant eagle,area-near-skara-brae
 A sea worm,abandoned-ship
 The sea siren,abandoned-ship
 The sea siren,abandoned-ship
@@ -789,7 +789,7 @@ Tempus Thales,sanctuary
 Kalem,sanctuary
 Gage,sanctuary
 Lady Amoli,sanctuary
-The fox,trails-around-skara-brae
+The fox,area-near-skara-brae
 The sea siren,abandoned-ship
 Punketah,abandoned-ship
 The Captain,abandoned-ship
@@ -805,8 +805,8 @@ A sailor,abandoned-ship
 The lookout,abandoned-ship
 Punketah,abandoned-ship
 The Captain,abandoned-ship
-The fox,trails-around-skara-brae
-The fox,trails-around-skara-brae
+The fox,area-near-skara-brae
+The fox,area-near-skara-brae
 The bloodworm,floodlands
 The porter,floodlands
 The donkey,floodlands
@@ -5060,10 +5060,10 @@ The skeleton,abyss
 The wight,abyss
 A Giant Lizard,lich-tower
 The Trapper,lich-tower
-The fox,trails-around-skara-brae
-The bugbear,trails-around-skara-brae
-The fox,trails-around-skara-brae
-The fox,trails-around-skara-brae
+The fox,area-near-skara-brae
+The bugbear,area-near-skara-brae
+The fox,area-near-skara-brae
+The fox,area-near-skara-brae
 The Barbarian Raider,arctic-empire
 The Arctic Wolf,arctic-empire
 The Barbarian Raider,arctic-empire
@@ -6985,7 +6985,7 @@ The statue of Ego,skara-brae
 The statue of Sand,skara-brae
 Bank Guard,skara-brae
 The Banker,skara-brae
-A giant eagle,trails-around-skara-brae
+A giant eagle,area-near-skara-brae
 The crocodile,sieged-castle
 The crocodile,sieged-castle
 The mud beast,sieged-castle
@@ -8899,3 +8899,547 @@ The Paladin guild shopkeeper,unknown
 Lordchi the Sorcerer,unknown
 The Ninja Lord,unknown
 The Tinker,unknown
+The Drow commoner,unknown
+The drow master,unknown
+The drow priestess,unknown
+The drow mage noble,unknown
+The drow warrior noble,unknown
+The Drow commoner,unknown
+The Matron Mother,unknown
+The Matron Mother,unknown
+Farlenian,unknown
+Werith,unknown
+Zoe,unknown
+A bounty hunter,unknown
+Drogo,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+Desslok,unknown
+Sandar Akylis,unknown
+A bounty hunter,unknown
+An adventurer,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+Eshiay,unknown
+Rhaft Schulz,unknown
+A slave trader,unknown
+Alerka,unknown
+A bounty hunter,unknown
+Farlenian,unknown
+Thlayli Anasteros,unknown
+Ursula,unknown
+A slave trader,unknown
+Desslok,unknown
+A bartender,unknown
+A bounty hunter,unknown
+Jordo,unknown
+Werith,unknown
+Farlenian,unknown
+Jordo,unknown
+Thlayli Anasteros,unknown
+Ursula,unknown
+Rhaft Schulz,unknown
+Vanyel Dreta,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+The woman,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+Farlenian,unknown
+Werith,unknown
+Werith,unknown
+Farlenian,unknown
+The guardian of the wayhouse,unknown
+Zoe,unknown
+A swaggering mercenary,unknown
+Elias Sengge,unknown
+Drogo,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A swaggering mercenary,unknown
+A swaggering mercenary,unknown
+Sandar Akylis,unknown
+A dog,unknown
+A swaggering mercenary,unknown
+Rhaft Schulz,unknown
+Ursula,unknown
+A bounty hunter,unknown
+Thlayli Anasteros,unknown
+A swaggering mercenary,unknown
+Jordo,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A swaggering mercenary,unknown
+A swaggering mercenary,unknown
+A bounty hunter,unknown
+Airden the Wanderer,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A swaggering mercenary,unknown
+Eshiay,unknown
+Alerka,unknown
+Vanyel Dreta,unknown
+A bounty hunter,unknown
+Thlayli Anasteros,unknown
+A bounty hunter,unknown
+Sandar Akylis,unknown
+Elias Sengge,unknown
+Airden the Wanderer,unknown
+A swaggering mercenary,unknown
+A waitress,unknown
+A farmer,unknown
+Eshiay,unknown
+The woman,unknown
+A slave trader,unknown
+Jordo,unknown
+A slave trader,unknown
+Rhaft Schulz,unknown
+Farlenian,unknown
+The guardian of the wayhouse,unknown
+Werith,unknown
+Zoe,unknown
+A bartender,unknown
+Drogo,unknown
+A waiter,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+Thlayli Anasteros,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+Rhaft Schulz,unknown
+Vanyel Dreta,unknown
+Elias Sengge,unknown
+A swaggering mercenary,unknown
+A slave trader,unknown
+Orion the hunter,unknown
+The Pleiades,unknown
+The mighty Hercules,unknown
+Libra,unknown
+Scorpio,unknown
+Sagittarius,unknown
+Capricorn,unknown
+Aquarius,unknown
+Pisces the fish,unknown
+Pisces the mermaid,unknown
+Aries,unknown
+Taurus,unknown
+Pollux,unknown
+Castor,unknown
+Cancer,unknown
+Leo,unknown
+Virgo,unknown
+The dracolich,unknown
+The Drow commoner,unknown
+The drow warrior noble,unknown
+The drow mage noble,unknown
+The drow priestess,unknown
+The Matron Mother,unknown
+The Drow commoner,unknown
+The drow master,unknown
+The Drow commoner,unknown
+Farlenian,unknown
+The guardian of the wayhouse,unknown
+Werith,unknown
+A bounty hunter,unknown
+Thlayli Anasteros,unknown
+A bartender,unknown
+A dog,unknown
+Sandar Akylis,unknown
+A bartender,unknown
+Desslok,unknown
+A waiter,unknown
+A farmer,unknown
+A slave trader,unknown
+Elias Sengge,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A waitress,unknown
+A waitress,unknown
+A farmer,unknown
+A swaggering mercenary,unknown
+Eshiay,unknown
+A slave trader,unknown
+Alerka,unknown
+The woman,unknown
+A slave trader,unknown
+A farmer,unknown
+A chef,unknown
+A chef,unknown
+A bartender,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+Airden the Wanderer,unknown
+Rhaft Schulz,unknown
+Thlayli Anasteros,unknown
+Jordo,unknown
+Farlenian,unknown
+A chef,unknown
+A chef,unknown
+A chef,unknown
+A chef,unknown
+A chef,unknown
+An adventurer,unknown
+A slave trader,unknown
+A waiter,unknown
+An adventurer,unknown
+The guardian of the wayhouse,unknown
+Werith,unknown
+Zoe,unknown
+A farmer,unknown
+Drogo,unknown
+An adventurer,unknown
+A bounty hunter,unknown
+A farmer,unknown
+A waiter,unknown
+A bartender,unknown
+Desslok,unknown
+Sandar Akylis,unknown
+A dog,unknown
+A waitress,unknown
+A bounty hunter,unknown
+A swaggering mercenary,unknown
+A bounty hunter,unknown
+Elias Sengge,unknown
+Airden the Wanderer,unknown
+Eshiay,unknown
+The woman,unknown
+Alerka,unknown
+Vanyel Dreta,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A citizen of Midgaard,unknown
+A citizen of Midgaard,unknown
+A citizen of Midgaard,unknown
+A citizen of Midgaard,unknown
+Farlenian,unknown
+The guardian of the wayhouse,unknown
+Werith,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+Thlayli Anasteros,unknown
+Ursula,unknown
+The woman,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+Thlayli Anasteros,unknown
+Ursula,unknown
+Jordo,unknown
+A slave trader,unknown
+Farlenian,unknown
+Drogo,unknown
+A bounty hunter,unknown
+Desslok,unknown
+A bounty hunter,unknown
+Elias Sengge,unknown
+A bounty hunter,unknown
+A swaggering mercenary,unknown
+A slave trader,unknown
+The mighty Hercules,unknown
+Orion the hunter,unknown
+Libra,unknown
+Scorpio,unknown
+Sagittarius,unknown
+Capricorn,unknown
+Aquarius,unknown
+Pisces the fish,unknown
+Aries,unknown
+Taurus,unknown
+Pollux,unknown
+Castor,unknown
+Cancer,unknown
+Leo,unknown
+Virgo,unknown
+The drow priestess,unknown
+The drow warrior noble,unknown
+The drow mage noble,unknown
+The Matron Mother,unknown
+The drow master,unknown
+The drow master,unknown
+The drow priestess,unknown
+The drow warrior noble,unknown
+The drow mage noble,unknown
+The Matron Mother,unknown
+The drow priestess,unknown
+The drow warrior noble,unknown
+The drow mage noble,unknown
+The gray dwarf,unknown
+The guardian of the wayhouse,unknown
+Werith,unknown
+Zoe,unknown
+The jailor,unknown
+The Prison Guard,unknown
+A thief,unknown
+A thief,unknown
+A thief,unknown
+A thief,unknown
+A thief,unknown
+A thief,unknown
+The Prison Guard,unknown
+A murderer,unknown
+A murderer,unknown
+The White Rook,unknown
+The White Knight,unknown
+A White Bishop,unknown
+The White Queen,unknown
+The White King,unknown
+A White Bishop,unknown
+The White Knight,unknown
+The White Rook,unknown
+The Black Rook,unknown
+The Black Knight,unknown
+A Black Bishop,unknown
+The Black King,unknown
+The Black Queen,unknown
+A Black Bishop,unknown
+The Black Knight,unknown
+The Black Rook,unknown
+PinkiE the Knight,unknown
+Valden the warrior shopkeeper,unknown
+Crafty the Knight Templar,unknown
+Esp,unknown
+Pablo, battlemage of New Thalos,unknown
+The Assassin,unknown
+The Ninja,unknown
+A Sohei Monk,unknown
+Luke Skywalker,unknown
+The Anti-Paladin Skirmisher,unknown
+Lapatwen,unknown
+The Paladin Guild's Champion,unknown
+The Ixitxachitl,unknown
+The Giant Oyster,unknown
+An eel,unknown
+A crab,unknown
+The greza sailor,unknown
+The greza sailor,unknown
+The greza sailor,unknown
+The greza sailor,unknown
+The greza sailor,unknown
+The snarling greza officer,unknown
+The greza sailor,unknown
+The greza sailor,unknown
+The greza warlock,unknown
+The slimey greza captain,unknown
+The snarling greza officer,unknown
+The snarling greza officer,unknown
+The pile of slime,unknown
+The greza sailor,unknown
+The greza sailor,unknown
+The pile of slime,unknown
+The greza sailor,unknown
+The greza sailor,unknown
+The greza chef,unknown
+The snarling greza officer,unknown
+The slimey greza doctor,unknown
+The crocodile,unknown
+The crocodile,unknown
+The armored fighter,unknown
+The basher,unknown
+The armored fighter,unknown
+The armored fighter,unknown
+The armored fighter,unknown
+The armored fighter,unknown
+The mud beast,unknown
+The armored fighter,unknown
+The black knight,unknown
+The black knight,unknown
+The armored fighter,unknown
+The armored fighter,unknown
+The armored fighter,unknown
+The armored fighter,unknown
+The armored fighter,unknown
+The knight,unknown
+The knight,unknown
+The knight,unknown
+The knight,unknown
+The knight,unknown
+The knight,unknown
+The knight,unknown
+The knight,unknown
+The archer,unknown
+The archer,unknown
+The armored fighter,unknown
+The armored fighter,unknown
+A citizen of Midgaard,unknown
+Farlenian,unknown
+Werith,unknown
+The guardian of the wayhouse,unknown
+Elias Sengge,unknown
+Airden the Wanderer,unknown
+A bounty hunter,unknown
+Drogo,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+Sandar Akylis,unknown
+Thlayli Anasteros,unknown
+Alerka,unknown
+The woman,unknown
+Vanyel Dreta,unknown
+A swaggering mercenary,unknown
+Rhaft Schulz,unknown
+Jordo,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+Farlenian,unknown
+The guardian of the wayhouse,unknown
+Werith,unknown
+Thlayli Anasteros,unknown
+A swaggering mercenary,unknown
+Airden the Wanderer,unknown
+Sandar Akylis,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+Rhaft Schulz,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+Eshiay,unknown
+Alerka,unknown
+A swaggering mercenary,unknown
+A slave trader,unknown
+Vanyel Dreta,unknown
+Drogo,unknown
+A slave trader,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A slave trader,unknown
+A slave trader,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A bounty hunter,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A caravan guard,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+A slave trader,unknown
+Drogo,unknown
+A bounty hunter,unknown
+Sandar Akylis,unknown
+A bounty hunter,unknown
+The Knight,unknown
+The Knight,unknown
+Farlenian,unknown
+Orion the hunter,unknown
+The mighty Hercules,unknown
+Libra,unknown
+Scorpio,unknown
+Sagittarius,unknown
+Capricorn,unknown
+Aquarius,unknown
+Pisces the fish,unknown
+Aries,unknown
+Taurus,unknown

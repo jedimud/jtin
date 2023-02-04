@@ -93,17 +93,32 @@
             }
         }
     }
+    {cedar-estate}{
+        {7}{
+            {name}{The bloody fountain}
+            {paths}{
+                {wnt}{
+                    {name}{West New Thalos}
+                    {path}{9s}
+                }
+            }
+        }
+    }
     {dragon-sea}{
         {1}{
             {name}{On a dock}
             {paths}{
                 {nt}{
                     {name}{ New Thalos}
-                    {path}{13w4s}
+                    {path}{13w}
                 }
                 {sb}{
                     {name}{ Skara Brae}
                     {path}{4e1s5e1n3e1n2e9n2e1s}
+                }
+                {sha}{
+                    {name}{Lost Isle Shaedar}
+                    {path}{1n1e1se1s1se1e1se2e1se}
                 }
             }
         }
@@ -174,7 +189,7 @@
             {paths}{
                 {nt}{
                     {name}{ New Thalos}
-                    {path}{1e6n}
+                    {path}{1e10n}
                 }
                 {way}{
                     {name}{The Wayhouse}
@@ -218,6 +233,17 @@
             }
         }
     }
+    {hellas}{
+        {5}{
+            {name}{Welcome to hellas}
+            {paths}{
+                {wnt}{
+                    {name}{West New Thalos}
+                    {path}{4e}
+                }
+            }
+        }
+    }
     {high-tower-of-sorcery}{
         {1}{
             {name}{Entrance to the Shadow Grove}
@@ -248,6 +274,17 @@
                 {mid}{
                     {name}{Temple of Migaard}
                     {path}{sw;sw;sw;2w7s}
+                }
+            }
+        }
+    }
+    {lost-isle-of-shaedar}{
+        {9}{
+            {name}{North Shore of the Island}
+            {paths}{
+                {frd}{
+                    {name}{ Fred the fisherman}
+                    {path}{1nw2w1nw1w1nw1n1nw1w1s}
                 }
             }
         }
@@ -338,6 +375,10 @@
                     {name}{King Welmar's Castle}
                     {path}{7n2e;ne;ne;ne;}
                 }
+                {sm}{
+                    {name}{ Southern Midgaard}
+                    {path}{4s4w7s2e1s}
+                }
             }
         }
         {152}{
@@ -359,20 +400,39 @@
                     {name}{Great Eastern Desert}
                     {path}{1s10e}
                 }
+                {cam}{
+                    {name}{Camelot}
+                    {path}{1s2e3s3w1n1w1n2w1u}
+                }
+            }
+        }
+    }
+    {monastery}{
+        {4}{
+            {name}{In the courtyard before the gate}
+            {paths}{
+                {wnt}{
+                    {name}{West New Thalos}
+                    {path}{3s2e1s1e1s}
+                }
             }
         }
     }
     {new-thalos}{
-        {5}{
-            {name}{The Common Square}
+        {11}{
+            {name}{The Center of Market Square}
             {paths}{
                 {frd}{
                     {name}{Fred the fisherman}
-                    {path}{4n13e}
+                    {path}{13e}
                 }
                 {sp}{
                     {name}{ Straight Path}
-                    {path}{1s1d13w8n}
+                    {path}{5s1d13w8n}
+                }
+                {wnt}{
+                    {name}{West of New Thalos}
+                    {path}{9w1s4w}
                 }
             }
         }
@@ -437,6 +497,48 @@
             }
         }
     }
+    {southern-midgaard}{
+        {9}{
+            {name}{Park Entrance}
+            {paths}{
+                {mid}{
+                    {name}{Midagaard Temple}
+                    {path}{1n2w7n4e4n}
+                }
+            }
+        }
+    }
+    {trails-around-new-thalos}{
+        {10}{
+            {name}{A rocky trail}
+            {paths}{
+                {nt}{
+                    {name}{ New Thalos}
+                    {path}{4e1n9e}
+                }
+                {hel}{
+                    {name}{Hellas}
+                    {path}{4w}
+                }
+                {ce}{
+                    {name}{ Cedar Estate}
+                    {path}{8n}
+                }
+                {mon}{
+                    {name}{Monastery}
+                    {path}{1n1w1n2w3n}
+                }
+                {aer}{
+                    {name}{Wamphyri Aerie}
+                    {path}{1n1w1n6w2n}
+                }
+                {sm}{
+                    {name}{ Southern Midgaard}
+                    {path}{1s14w1s6w}
+                }
+            }
+        }
+    }
     {trails-near-midgaard}{
         {3}{
             {name}{Turning Point}
@@ -479,6 +581,30 @@
                 {min}{
                     {name}{River Island of Minos}
                     {path}{10s3e6n2w2s1e}
+                }
+            }
+        }
+    }
+    {wamphyri-aerie}{
+        {1}{
+            {name}{Entrance to the Aerie}
+            {paths}{
+                {wnt}{
+                    {name}{West New Thalos}
+                    {path}{2s6e1s1e1s}
+                }
+                {kar}{
+                    {name}{Lady Karen}
+                    {path}{1n2w1u2n4e1u2s1u2n2w1u2w1u2s1u2e2n1u2w1u2s2e1u1e}
+                }
+            }
+        }
+        {127}{
+            {name}{Lady Karen's Personal Chamber}
+            {paths}{
+                {aer}{
+                    {name}{Entrance to the Aerie}
+                    {path}{1w1d2w2n1d2e1d2s2w1d2n1d2e1d2e2s1d2n1d4w2s1d2e1s}
                 }
             }
         }

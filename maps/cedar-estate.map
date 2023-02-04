@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -273,7 +273,7 @@ R {    6} {0} {} {} { } {} {} {} {} {} {1.000} {}
 E {    2} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {    7} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {    7} {0} {} {} { } {} {} {} {} {} {1.000} {}
+R {    7} {0} {} {} {*} {} {} {} {} {} {1.000} {}
 E {    6} {s} {s} {4} {0} {} {1.000} {} {0.00}
 E {    8} {e} {e} {2} {0} {} {1.000} {} {0.00}
 E {    9} {w} {w} {8} {0} {} {1.000} {} {0.00}

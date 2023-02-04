@@ -11717,3 +11717,199 @@ Item will give you following abilities:  NOBITS
 Item is: UNIQUE 
 Weight: 50, Value: 50, Rent: 200, Min. level: 0
 It can hold approximately 50 units of liquid.
+-----
+Object 'a big pot', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 15, Value: 200, Rent: 20, Min. level: 0
+It can hold approximately 50 units.
+-----
+Object 'a frying pan', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 10, Value: 100, Rent: 10, Min. level: 0
+It can hold approximately 10 units.
+-----
+Object 'a dart', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !CLER UNIQUE 
+Weight: 1, Value: 5, Rent: 0, Min. level: 0
+Damage Dice is '1D2' for an average per-round damage of 1.5.
+Item slot: Wield
+Item slot: Hold
+-----
+Object 'the Armor of the Black Rose', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW UNIQUE 
+Weight: 10, Value: 150, Rent: 0, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: HIT By 15
+   Affects: CON By 1
+Item slot: On Body
+-----
+Object 'a plate of spaghetti', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 18, Rent: 2, Min. level: 0
+Item slot: Hold
+-----
+Object 'shimmering sandals', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 3, Value: 50000, Rent: 10000, Min. level: 15
+AC-apply is 4
+Can affect you as :
+   Affects: WIS By 2
+   Affects: MANA_REGEN By 8
+Item slot: Feet
+-----
+Object 'padded sandals', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1500, Rent: 150, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: DEX By 2
+   Affects: MOVE By 18
+-----
+Object 'a rolled piece of paper', Item type: NOTE
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a Security Pass', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'shimmering sandals', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 3, Value: 50000, Rent: 10000, Min. level: 15
+AC-apply is 4
+Can affect you as :
+   Affects: WIS By 2
+   Affects: MANA_REGEN By 8
+Item slot: Feet
+-----
+Object 'Clerical Sandals of Preparation', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 450, Rent: 500, Min. level: 5
+AC-apply is 4
+Can affect you as :
+   Affects: INT By 2
+   Affects: MOVE_REGEN By 2
+Item slot: Feet
+-----
+Object 'Clerical Sandals of Preparation', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 450, Rent: 500, Min. level: 5
+AC-apply is 4
+Can affect you as :
+   Affects: INT By 2
+   Affects: MOVE_REGEN By 2
+-----
+Object 'Sacred Greaves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 6, Value: 350, Rent: 500, Min. level: 6
+AC-apply is 20
+Can affect you as :
+   Affects: STR By 1
+   Affects: CON By 1
+Item slot: Legs
+-----
+Object 'Consecrated Helmet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 5, Value: 1500, Rent: 100, Min. level: 5
+AC-apply is 24
+Can affect you as :
+   Affects: STR By 1
+   Affects: CON By 1
+Item slot: Head
+-----
+Object 'consecrated vambrace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 4, Value: 440, Rent: 500, Min. level: 8
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Wrist
+-----
+Object 'holy communion wafers', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+Can affect you as :
+   Affects: MANA_REGEN By 2
+   Affects: MOVE_REGEN By 2
+Item slot: Hold
+-----
+Object 'the Golden Cross', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG BLESS UNIQUE 
+Weight: 10, Value: 750, Rent: 93, Min. level: 0
+This WAND casts: protection from evil of level 15
+It has 3 maximum charges and 3 remaining.
+Can affect you as :
+   Affects: HITROLL By -3
+Item slot: Hold
+-----
+Object 'Holy Grail', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM BLESS GOOD !RENT UNIQUE 
+Weight: 1, Value: 40000, Rent: 0, Min. level: 0
+It can hold approximately 100000 units of liquid.
+Item slot: Hold
+-----
+Object 'do-maru armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !THF !WAR !APAL !NINJA LIMITED !BARD UNIQUE 
+Weight: 15, Value: 50000, Rent: 10000, Min. level: 15
+AC-apply is 27
+Can affect you as :
+   Affects: STR By 2
+   Affects: MANA_REGEN By 8
+Item slot: On Body
+-----
+Object 'a glowing ember', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !DONATE UNIQUE 
+Weight: 1, Value: 75, Rent: 60, Min. level: 0
+Item slot: Light
+-----
+Object 'a skin pouch', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 2100, Rent: 400, Min. level: 0
+This POTION casts:  Level 10 of cure critic
+-----
+Object 'a freshly-picked passion fruit', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 50, Rent: 30, Min. level: 0
+-----
+Object 'some wild boar meat', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 10, Min. level: 0
+-----
+Object 'a banana', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 10, Min. level: 0
+-----
+Object 'a bearskin vest', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: !WAR !PAL !APAL !RANGER !BARD UNIQUE 
+Weight: 3, Value: 3100, Rent: 350, Min. level: 0
+Can affect you as :
+   Affects: MANA By -10
+   Affects: CON By 2
+Item slot: On Body

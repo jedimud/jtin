@@ -146,7 +146,7 @@ Total: **125** maps, **5005** Rooms, **10000+** paths
 | Arcadia | arcadia | :link: Initial Link |
 | Arctic Empire | arctic-empire | :white_check_mark: Complete |
 | Arctica | arctica | :o: Partial Map |
-| Area Near Skara Brae | trails-around-skara-brae | :o: Partial Map |
+| Area Near Skara Brae | area-near-skara-brae | :white_check_mark: Complete |
 | Balor's Domain | balor | :white_check_mark: Complete |
 | Bardic Colleges | bardic-colleges | :link: Initial Link |
 | Camelot | camelot | :o: Partial Map |
@@ -182,7 +182,7 @@ Total: **125** maps, **5005** Rooms, **10000+** paths
 | Imperial Ravenna | ravenna | :o: Partial Map |
 | King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete |
 | Lich's Tower | lich-tower | :white_check_mark: Complete |
-| Lost Isle of Shaedar | lost-isle-of-shaedar |:link: Initial Link |
+| Lost Isle of Shaedar | lost-isle-of-shaedar |:white_check_mark: Complete |
 | Mahn-Tor | mahn-tor | :link: Initial Link |
 | Metro | metro | :link: Initial Link |
 | Miden'Nir | miden-nir | :white_check_mark: Complete |
