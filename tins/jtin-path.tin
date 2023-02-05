@@ -104,6 +104,36 @@
             }
         }
     }
+    {darkspine-mountains}{
+        {12}{
+            {name}{The Darkspine Mountains}
+            {paths}{
+                {dc}{
+                    {name}{ Dragon City}
+                    {path}{1nw1u}
+                }
+                {wnt}{
+                    {name}{West New Thalos}
+                    {path}{1sw1w1nw1sw1w1se1sw1w1sw1se1s1e1s}
+                }
+                {tos}{
+                    {name}{Three of Swords}
+                    {path}{1ne1n2ne1e1se1sw1u}
+                }
+            }
+        }
+    }
+    {dragon-city}{
+        {1}{
+            {name}{Entrace to Dragon City}
+            {paths}{
+                {dar}{
+                    {name}{Darkspine Mountains}
+                    {path}{1d1se}
+                }
+            }
+        }
+    }
     {dragon-sea}{
         {1}{
             {name}{On a dock}
@@ -508,6 +538,17 @@
             }
         }
     }
+    {three-of-swords}{
+        {1}{
+            {name}{A Scraggly Trail}
+            {paths}{
+                {dar}{
+                    {name}{Darkspine Mountains}
+                    {path}{1d1ne1nw1w2sw1s1sw}
+                }
+            }
+        }
+    }
     {trails-around-new-thalos}{
         {10}{
             {name}{A rocky trail}
@@ -535,6 +576,10 @@
                 {sm}{
                     {name}{ Southern Midgaard}
                     {path}{1s14w1s6w}
+                }
+                {dar}{
+                    {name}{Darkspine Mountains}
+                    {path}{1n1w1n1nw1ne1e1ne1nw1e1ne1se1e1ne}
                 }
             }
         }

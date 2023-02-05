@@ -155,9 +155,9 @@ Total: **125** maps, **5005** Rooms, **10000+** paths
 | Cheer's Bar | cheers | :white_check_mark: Complete |
 | Corsair Citadel | corsair-citadel | :link: Initial Link |
 | Crystal Caves | crystal-caves | :o: Partial Map |
-| Darkspine Mountains | darkspine-mountains | :o: Partial Map |
+| Darkspine Mountains | darkspine-mountains | :white_check_mark: Complete |
 | Donner's Den | donners-den | :white_check_mark: Complete |
-| Dragon City | - | :x: Not Found |
+| Dragon City | dragon-city | :o: Partial Map |
 | Dragon Sea | dragon-sea | :o: Partial Map |
 | Drake Isle | drake-isle<br>drake-isle-fortress<br>drake-isle-interior |:white_check_mark: Complete<br>:white_check_mark: Complete<br>:o: Partial Map |
 | Drow City | drow-city | :white_check_mark: Complete | 
