@@ -62,6 +62,27 @@
 #action {%1 decimates you to small fragments with %2 blast.} { @jt_at_di_perform{}; }
 
 
+#nop ------- AUTO-DISARM MASSACRES ------- 
+
+#high {%1 massacres you to small fragments with %2 hit.} { reverse; }
+#action {%1 massacres you to small fragments with %2 hit.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 whip.} { reverse; }
+#action {%1 massacres you to small fragments with %2 whip.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 strike.} { reverse; }
+#action {%1 massacres you to small fragments with %2 strike.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 hammer.} { reverse; }
+#action {%1 massacres you to small fragments with %2 hammer.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 chop.} { reverse; }
+#action {%1 massacres you to small fragments with %2 chop.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 blast.} { reverse; }
+#action {%1 massacres you to small fragments with %2 blast.} { @jt_at_di_perform{}; }
+
+
 #nop ------- AUTO-DISARM PERFORM ------- 
 
 #variable jt_at_di_action not_pending;
@@ -91,7 +112,8 @@
 
 #action {%1 is dead} { 
     jt_at_di_print_msg {<efc>reset};
-    #variable jt_at_di_action not_pending; 
+    jt_at_ab_combat_perform;
+    #variable jt_at_di_action not_pending;
 }
 
 #action {^%1 has summoned you!$} {

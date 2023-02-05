@@ -1,0 +1,81 @@
+#alias jt_ac_sanc {
+    jt_ac_spell {sanctuary} {sanc}
+}
+
+#alias jt_ac_spell {
+    #if {"$jt_ac_sp_action"=="pending"} { 
+        jt_ac_print_msg {<efc>can't cast %1, already pending};
+    } {
+        jt_ac_print_msg {<efc>casting %1};
+        #var jt_ac_sp_action pending;
+        %2;
+    };
+    #return;
+}
+
+#action {^Tsutey is surrounded by a white sphere.$} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
+#action {^Tsutey is already glowing!  You want to turn him into a candle?$} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
+#action {^You encase Tsutey in a protective stone skin.$} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
+#action {^Tsutey has been strengthened by your god.$} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
+#action {^You give Tsutey a good feeling.$} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
+#action {^Tsutey is now protected by your magic.$} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
+#action {^But Tsutey is already protected!$} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
+#action {^There is a huge thunderclap and a great blast of light as your attempt to} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
+#action {^You lost your concentration!$} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
+#action {^Impossible!  You can't concentrate enough!$} {
+    #var jt_ac_sp_action not_pending;
+}
+
+#action {^You can't do this sitting!$} {
+    #var jt_ac_sp_action not_pending;
+}
+
+#action {^You haven't the energy to cast that spell.$} {
+    #var jt_ac_sp_action not_pending;
+}
+
+#action {^In your dreams, or what?$} {
+    #var jt_ac_sp_action not_pending;
+}
+
+#alias jt_at_ac_default {
+    #var jt_ac_sp_action not_pending;
+}
+
+jt_at_ac_default

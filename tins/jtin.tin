@@ -245,6 +245,9 @@
     jt_print_message_with_buffer {auto-tank :: %1}
 }
 
+#alias jt_ac_print_msg {
+    jt_print_message_with_buffer {auto-cast :: %1}
+}
 
 #nop ----- data-logs -----
 
