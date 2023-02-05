@@ -11997,3 +11997,79 @@ AC-apply is 3
 Can affect you as :
    Affects: HIT By 5
 Item slot: Waist
+-----
+Object 'Don Vargano's cane', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RENT !DONATE !RANGER !BARD UNIQUE 
+Weight: 2, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'a gargoyle's fang', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RENT !DONATE !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'the Hat of the Strategist', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 5, Value: 80000, Rent: 10000, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: INT By 2
+   Affects: WIS By 2
+Item slot: Head
+-----
+Object 'a tall white chef's hat', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !CLER !THF !WAR !PAL !APAL !NINJA LIMITED UNIQUE 
+Weight: 1, Value: 1000, Rent: 0, Min. level: 10
+AC-apply is 2
+Can affect you as :
+   Affects: CHARISMA By 1
+   Affects: MOVE By 10
+Item slot: Head
+-----
+Object 'Alfonzo's note', Item type: NOTE
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RENT !DONATE !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'a pair of scaly gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG !THF !WAR !NINJA LIMITED !DONATE !RANGER !JUNK UNIQUE INSURED 
+Weight: 3, Value: 2000, Rent: 4275, Min. level: 16
+AC-apply is 6
+Can affect you as :
+   Affects: MANA By 5
+   Affects: MANA_REGEN By 3
+Item slot: Hands
+-----
+Object 'a large black key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RENT !DONATE !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'a pair of blue cleaning gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !SOHEI UNIQUE 
+Weight: 1, Value: 1000, Rent: 0, Min. level: 10
+AC-apply is 1
+Can affect you as :
+   Affects: STR By 1
+   Affects: MOVE By 10
+Item slot: Hands
+-----
+Object 'an emerald green key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RENT !DONATE !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'a yellow key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RENT !DONATE !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+-----
+Object 'a magenta colored potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1000, Rent: 0, Min. level: 0
+This POTION casts:  Level 20 of stone skin magical vestment

@@ -149,9 +149,9 @@ Total: **125** maps, **5005** Rooms, **10000+** paths
 | Area Near Skara Brae | area-near-skara-brae | :white_check_mark: Complete |
 | Balor's Domain | balor | :white_check_mark: Complete |
 | Bardic Colleges | bardic-colleges | :link: Initial Link |
-| Camelot | camelot | :o: Partial Map |
+| Camelot | camelot | :white_check_mark: Complete |
 | Castle Mistamere | castle-mistamere | :link: Initial Link |
-| Cedar Estate Mansion | cedar-estate | :link: Initial Link |
+| Cedar Estate Mansion | cedar-estate | :o: Partial Map |
 | Cheer's Bar | cheers | :white_check_mark: Complete |
 | Corsair Citadel | corsair-citadel | :link: Initial Link |
 | Crystal Caves | crystal-caves | :o: Partial Map |
