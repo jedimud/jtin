@@ -11913,3 +11913,87 @@ Can affect you as :
    Affects: MANA By -10
    Affects: CON By 2
 Item slot: On Body
+-----
+Object 'Giant Golden Helm', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !EVIL !MAGE !CLER !THF !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 8, Value: 5000, Rent: 500, Min. level: 0
+AC-apply is 16
+Item slot: Head
+-----
+Object 'the Sapphire Shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG !MAGE !SOHEI LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 7, Value: 7500, Rent: 1200, Min. level: 15
+AC-apply is 6
+Can affect you as :
+   Affects: DEX By -1
+   Affects: DAMROLL By 1
+Item slot: Shield
+-----
+Object 'Flowing Purple Cloak', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !EVIL !MAGE !CLER !THF !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 5, Value: 3000, Rent: 300, Min. level: 0
+AC-apply is 6
+Item slot: About Body
+-----
+Object 'the verdict of Minos', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'the Sapphire Shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS MAG !MAGE !SOHEI LIMITED !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 7, Value: 7500, Rent: 1200, Min. level: 15
+AC-apply is 6
+Can affect you as :
+   Affects: DEX By -1
+   Affects: DAMROLL By 1
+Item slot: Shield
+-----
+Object 'Giant Golden Shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !EVIL !MAGE !CLER !THF !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 10, Value: 7500, Rent: 750, Min. level: 0
+AC-apply is 8
+Item slot: Shield
+ERROR - IGNORE THIS RECORD
+-----
+Object 'Giant Golden Shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !EVIL !MAGE !CLER !THF !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 10, Value: 7500, Rent: 750, Min. level: 0
+AC-apply is 8
+Item slot: Shield
+-----
+Object 'a glowing blue vial', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG UNIQUE 
+Weight: 1, Value: 250, Rent: 62, Min. level: 0
+This POTION casts:  Level 12 of sleep
+Item slot: Hold
+-----
+Object 'a deep-green potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 1, Value: 4000, Rent: 1000, Min. level: 0
+This POTION casts:  Level 10 of stone skin blindness
+Item slot: Hold
+-----
+Object 'a yellow potion of see invisible, by "Froboz, Inc"(tm)', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 1, Value: 500, Rent: 250, Min. level: 0
+This POTION casts:  Level 12 of detect invisibility detect invisibility detect invisibility
+Item slot: Hold
+-----
+Object 'an ornately worked scabbard', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !EVIL GOOD !MAGE !CLER UNIQUE 
+Weight: 3, Value: 11000, Rent: 950, Min. level: 0
+AC-apply is 3
+Can affect you as :
+   Affects: HIT By 5
+Item slot: Waist
