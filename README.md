@@ -129,7 +129,7 @@ Small unicode maps loaded into the right `#split`.
 
 ## Status
 
-Total: **125** maps, **5005** Rooms, **10000+** paths
+Total: **135** maps, **6297** Rooms, **13600+** paths
 
 | Zone | Map | Status | temp |
 | ---- | --- | ------ | --- |
@@ -219,7 +219,7 @@ Total: **125** maps, **5005** Rooms, **10000+** paths
 | Trails Around Midgaard | trails-around-midgaard | :white_check_mark: Complete |
 | Trails Near Midgaard | trails-near-midgaard | :white_check_mark: Complete |
 | Training Grounds | training-grounds | :white_check_mark: Complete |
-| Troglodyte Caves | - | :x: Not Found |
+| Troglodyte Caves | trog-caves-and-outpost | :o: Partial Map |
 | Underworld | underworld | :white_check_mark: Complete |
 | Valhalla | valhalla | :link: Initial Link |
 | Wamphyri Aerie | wamphyri-aerie | :white_check_mark: Complete |
