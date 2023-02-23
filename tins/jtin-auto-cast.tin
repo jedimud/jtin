@@ -43,6 +43,14 @@
     look;
 }
 
+#action {^Your spell has closed some of Tsutey's wounds.$} {
+    #var jt_ac_sp_action not_pending;
+}
+
+#action {^You heal Tsutey.$} {
+    #var jt_ac_sp_action not_pending;
+}
+
 #action {^But Tsutey is already protected!$} {
     #var jt_ac_sp_action not_pending;
     look;
