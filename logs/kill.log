@@ -747,9 +747,9 @@ The great white shark,dragon-sea
 The great white shark,dragon-sea
 The great white shark,dragon-sea
 An eel,skara-brae
-The fox,area-near-skara-brae
-The fox,area-near-skara-brae
-A giant eagle,area-near-skara-brae
+The fox,trails-around-skara-brae
+The fox,trails-around-skara-brae
+A giant eagle,trails-around-skara-brae
 A sea worm,abandoned-ship
 The sea siren,abandoned-ship
 The sea siren,abandoned-ship
@@ -789,7 +789,7 @@ Tempus Thales,sanctuary
 Kalem,sanctuary
 Gage,sanctuary
 Lady Amoli,sanctuary
-The fox,area-near-skara-brae
+The fox,trails-around-skara-brae
 The sea siren,abandoned-ship
 Punketah,abandoned-ship
 The Captain,abandoned-ship
@@ -805,8 +805,8 @@ A sailor,abandoned-ship
 The lookout,abandoned-ship
 Punketah,abandoned-ship
 The Captain,abandoned-ship
-The fox,area-near-skara-brae
-The fox,area-near-skara-brae
+The fox,trails-around-skara-brae
+The fox,trails-around-skara-brae
 The bloodworm,floodlands
 The porter,floodlands
 The donkey,floodlands
@@ -5060,10 +5060,10 @@ The skeleton,abyss
 The wight,abyss
 A Giant Lizard,lich-tower
 The Trapper,lich-tower
-The fox,area-near-skara-brae
-The bugbear,area-near-skara-brae
-The fox,area-near-skara-brae
-The fox,area-near-skara-brae
+The fox,trails-around-skara-brae
+The bugbear,trails-around-skara-brae
+The fox,trails-around-skara-brae
+The fox,trails-around-skara-brae
 The Barbarian Raider,arctic-empire
 The Arctic Wolf,arctic-empire
 The Barbarian Raider,arctic-empire
@@ -6985,7 +6985,7 @@ The statue of Ego,skara-brae
 The statue of Sand,skara-brae
 Bank Guard,skara-brae
 The Banker,skara-brae
-A giant eagle,area-near-skara-brae
+A giant eagle,trails-around-skara-brae
 The crocodile,sieged-castle
 The crocodile,sieged-castle
 The mud beast,sieged-castle
@@ -9443,3 +9443,298 @@ Aquarius,unknown
 Pisces the fish,unknown
 Aries,unknown
 Taurus,unknown
+The Tobor,unknown
+The baby lamia,unknown
+The baby lamia,unknown
+The baby lamia,unknown
+The little girl,unknown
+The little girl,unknown
+The baby lamia,unknown
+The boy,unknown
+A distracted father,unknown
+The creepy spider,unknown
+The creepy spider,unknown
+The baby crocodile,unknown
+The Asp,unknown
+The baby pygmy brontosaurus,unknown
+The baby lamia,unknown
+The Norwegian Blue,unknown
+The Norwegian Blue,unknown
+The Norwegian black,unknown
+The Norwegian black,unknown
+The Norwegian black,unknown
+The Norwegian red,unknown
+The Norwegian red,unknown
+The Giant Norwegian Green,unknown
+The Giant Norwegian Green,unknown
+The scruffy mutt,unknown
+The scruffy mutt,unknown
+The scruffy mutt,unknown
+The feral dog,unknown
+The starving coyote,unknown
+The starving coyote,unknown
+The laughing hyena,unknown
+The laughing hyena,unknown
+The distraught zookeeper,unknown
+The little boy,unknown
+The fire beetle,unknown
+The fire beetle,unknown
+The fire beetle,unknown
+The fire beetle,unknown
+The large spider,unknown
+The large spider,unknown
+The nasty scorpion,unknown
+The nasty scorpion,unknown
+The crying toddler,unknown
+A panicked man,unknown
+The spider Monkey,unknown
+The spider Monkey,unknown
+The spider Monkey,unknown
+A frightened woman,unknown
+The hysterical woman,unknown
+A terrified man,unknown
+A panicked man,unknown
+The nasty ChIMP,unknown
+The nasty ChIMP,unknown
+The nasty ChIMP,unknown
+The hysterical woman,unknown
+The big gorilla,unknown
+The big gorilla,unknown
+The little girl,unknown
+The horned lizard,unknown
+The horned lizard,unknown
+The boy,unknown
+The boy,unknown
+The Monty Python,unknown
+The Monty Python,unknown
+A young mother,unknown
+The huge gila monster,unknown
+The huge gila monster,unknown
+The Brown bear,unknown
+The Brown bear,unknown
+The Brown bear,unknown
+The Black bear,unknown
+The Black bear,unknown
+The Grizzly bear,unknown
+The Grizzly bear,unknown
+The little boy,unknown
+The girl,unknown
+The girl,unknown
+A young mother,unknown
+The boy,unknown
+The horned lizard,unknown
+The little girl,unknown
+The boy,unknown
+The Monty Python,unknown
+The huge gila monster,unknown
+The girl,unknown
+The tawny cougar,unknown
+The tawny cougar,unknown
+The young lion,unknown
+The young lion,unknown
+The Bengal tiger,unknown
+The Bengal tiger,unknown
+The Hell Hound,unknown
+The Hell Hound,unknown
+The slasher monkey,unknown
+The Hell Hound,unknown
+The slasher monkey,unknown
+The cocorada,unknown
+The cocorada,unknown
+A Polar Bear,unknown
+A Polar Bear,unknown
+The alligator,unknown
+The alligator,unknown
+The Saber-Tooth Tiger,unknown
+The Saber-Tooth Tiger,unknown
+The Hell Hound,unknown
+The slasher monkey,unknown
+The slasher monkey,unknown
+The Hell Hound,unknown
+The Hell Hound,unknown
+The cocorada,unknown
+The cocorada,unknown
+A Polar Bear,unknown
+A Polar Bear,unknown
+The alligator,unknown
+The alligator,unknown
+The Bengal tiger,unknown
+The young lion,unknown
+The tawny cougar,unknown
+The Brown bear,unknown
+The Black bear,unknown
+The Grizzly bear,unknown
+The horned lizard,unknown
+The Monty Python,unknown
+The huge gila monster,unknown
+The spider Monkey,unknown
+The spider Monkey,unknown
+The nasty ChIMP,unknown
+The nasty ChIMP,unknown
+The nasty ChIMP,unknown
+The big gorilla,unknown
+The big gorilla,unknown
+The nasty scorpion,unknown
+The nasty scorpion,unknown
+The large spider,unknown
+The large spider,unknown
+The fire beetle,unknown
+The fire beetle,unknown
+The Giant Norwegian Green,unknown
+The Giant Norwegian Green,unknown
+The Norwegian black,unknown
+The Norwegian black,unknown
+The Norwegian red,unknown
+The Norwegian red,unknown
+The creepy spider,unknown
+The creepy spider,unknown
+The baby crocodile,unknown
+The Gigantopatheticus,unknown
+The Gigantopatheticus,unknown
+The starving coyote,unknown
+The starving coyote,unknown
+A Cleric in training,unknown
+A Paladin in training,unknown
+A courageous Antipaladin,unknown
+A sly Thief,unknown
+A Bard in training,unknown
+A Jedi in training,unknown
+A Sohei in training,unknown
+A young cleric,unknown
+A Mage in training,unknown
+A young paladin,unknown
+A young sohei,unknown
+A young ranger,unknown
+A young thief,unknown
+A young bard,unknown
+A Thief in training,unknown
+A Ninja in training,unknown
+A bright Cleric,unknown
+A young antipaladin,unknown
+The training master,unknown
+A Ranger in training,unknown
+A young mage,unknown
+A young Jedi,unknown
+A young ninja,unknown
+A young warrior,unknown
+A strong Warrior,unknown
+An attractive bard,unknown
+A Warrior in training,unknown
+A learned Mage,unknown
+An Antipaladin in training,unknown
+A trained sohei,unknown
+A hardened Ranger,unknown
+The green enfan,unknown
+The grey enfan,unknown
+The grey enfan,unknown
+The grey enfan,unknown
+The grey enfan,unknown
+The blue enfan,unknown
+The blue enfan,unknown
+The blue enfan,unknown
+The blue enfan,unknown
+The blue enfan,unknown
+The blue enfan,unknown
+The purple enfan,unknown
+The purple enfan,unknown
+The green enfan,unknown
+The yellow enfan,unknown
+The grey enfan,unknown
+The yellow enfan,unknown
+The grey enfan,unknown
+The purple enfan,unknown
+The yellow enfan,unknown
+The blue enfan,unknown
+The blue enfan,unknown
+The green enfan,unknown
+The blue enfan,unknown
+The blue enfan,unknown
+The grey enfan,unknown
+The rat,unknown
+The purple enfan,unknown
+The green enfan,unknown
+The grey enfan,unknown
+The green enfan,unknown
+The yellow enfan,unknown
+The green enfan,unknown
+The green enfan,unknown
+The purple enfan,unknown
+The grey enfan,unknown
+The yellow enfan,unknown
+The grey enfan,unknown
+The black enfan,unknown
+The green enfan,unknown
+The green enfan,unknown
+The purple enfan,unknown
+The yellow enfan,unknown
+The guard dog,unknown
+The goblin,unknown
+The giant,unknown
+The wyvern,unknown
+A trained sohei,unknown
+A Paladin in training,unknown
+An Antipaladin in training,unknown
+A young bard,unknown
+A hardened Ranger,unknown
+A young antipaladin,unknown
+A learned Mage,unknown
+A courageous Antipaladin,unknown
+The training master,unknown
+A Bard in training,unknown
+A young paladin,unknown
+A young sohei,unknown
+A Cleric in training,unknown
+An attractive bard,unknown
+A young thief,unknown
+A Mage in training,unknown
+An experienced Jedi,unknown
+A young mage,unknown
+A Ninja in training,unknown
+A young cleric,unknown
+A young ninja,unknown
+A sly Thief,unknown
+A Warrior in training,unknown
+A young Jedi,unknown
+A young ranger,unknown
+An agile Ninja,unknown
+A Jedi in training,unknown
+A Thief in training,unknown
+A sly Thief,unknown
+A young thief,unknown
+A Cleric in training,unknown
+A young mage,unknown
+A young antipaladin,unknown
+A young ninja,unknown
+A young warrior,unknown
+A young sohei,unknown
+A trained sohei,unknown
+A bright Cleric,unknown
+A Sohei in training,unknown
+A Bard in training,unknown
+A young bard,unknown
+An Antipaladin in training,unknown
+A young paladin,unknown
+A hardened Ranger,unknown
+A Ninja in training,unknown
+A Paladin in training,unknown
+A young ranger,unknown
+A learned Mage,unknown
+A Mage in training,unknown
+A Thief in training,unknown
+A young Jedi,unknown
+A courageous Antipaladin,unknown
+A young cleric,unknown
+A Warrior in training,unknown
+A Jedi in training,unknown
+A Ranger in training,unknown
+The training master,unknown
+An agile Ninja,unknown
+A brave Paladin,unknown
+An experienced Jedi,unknown
+Lilith,unknown
+Woody,unknown
+Frasier,unknown
+Paul,unknown
+Norm,unknown
+Rebecca Howe,unknown
+Carla,unknown

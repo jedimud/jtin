@@ -146,7 +146,7 @@ Total: **135** maps, **6297** Rooms, **13600+** paths
 | Arcadia | arcadia | :link: Initial Link |
 | Arctic Empire | arctic-empire | :white_check_mark: Complete |
 | Arctica | arctica | :o: Partial Map |
-| Area Near Skara Brae | area-near-skara-brae | :white_check_mark: Complete |
+| Area Near Skara Brae | trails-around-skara-brae | :white_check_mark: Complete |
 | Balor's Domain | balor | :white_check_mark: Complete |
 | Bardic Colleges | bardic-colleges | :link: Initial Link |
 | Camelot | camelot | :white_check_mark: Complete |
