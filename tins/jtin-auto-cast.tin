@@ -61,6 +61,11 @@
     look;
 }
 
+#action {^In your dreams, or what?$} {
+    #var jt_ac_sp_action not_pending;
+    look;
+}
+
 #action {^You lost your concentration!$} {
     #var jt_ac_sp_action not_pending;
     look;
