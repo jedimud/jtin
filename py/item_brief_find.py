@@ -24,6 +24,7 @@ def find_item(item_name, insure_tag):
         print(data[item_name]['description']['sac'])
         print(insure_tag)
         print(data[item_name]['description']['limited'])
+        print(data[item_name]['description']['spells'])
     else:
         print(item_name)
         print()

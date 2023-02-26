@@ -162,7 +162,7 @@
     #if {"$jt_ib_state" == "sac"} {
         #line ignore #show <wielded>            <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
     } {
-        #line ignore #show <wielded>            <afc>$item[1] <acf>$item[2];
+        #line ignore #show <wielded>            <afc>$item[1] <acf>$item[2] <fea>$item[7]<099>;
     };
     #line gag;
     #unvar $item;
@@ -174,7 +174,7 @@
     #if {"$jt_ib_state" == "sac"} {
         #line ignore #show <held>               <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
     } {
-        #line ignore #show <held>               <afc>$item[1] <acf>$item[2];
+        #line ignore #show <held>               <afc>$item[1] <acf>$item[2] <fea>$item[7]<099>;
     };
     #line gag;
     #unvar $item;

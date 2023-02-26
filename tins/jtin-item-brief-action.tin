@@ -11,14 +11,14 @@
 
             #elseif {"$jt_ib_state" == "insured"} {
                 #if {"$item[5]" == "(insured)"} {
-                    #line ignore #show <afc>$item[1] <acf>$item[3]<fca> (I)<099>;
+                    #line ignore #show <afc>$item[1] <acf>$item[3] <fca>(I) <fea>$item[7]<099>;
                 } {
-                    #line ignore #show <afc>$item[1] <acf>$item[3]<fca><099>;
+                    #line ignore #show <afc>$item[1] <acf>$item[3] <fea>$item[7]<099>;
                 }
             };
             
             #else {
-                #line ignore #show <afc>$item[1] <acf>$item[3]<099>;
+                #line ignore #show <afc>$item[1] <acf>$item[3] <fea>$item[7]<099>;
             };
             #line ignore #line gag;
         };
