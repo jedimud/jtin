@@ -12093,3 +12093,67 @@ AC-apply is 2
 Can affect you as :
    Affects: MANA_REGEN By 2
 Item slot: Arms
+-----
+Object 'a canoe', Item type: BOAT
+Item will give you following abilities:  NOBITS 
+Item is: !RENT !DONATE UNIQUE 
+Weight: 32, Value: 1000, Rent: 0, Min. level: 0
+-----
+Object 'a leather apron', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !NEUTRAL UNIQUE 
+Weight: 2, Value: 1500, Rent: 375, Min. level: 5
+AC-apply is 4
+Can affect you as :
+   Affects: DEX By -1
+   Affects: SAVE_BREATH By 5
+Item slot: Waist
+-----
+Object 'a filthy smock', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 10, Value: 100, Rent: 20, Min. level: 0
+AC-apply is 3
+Item slot: On Body
+-----
+Object 'a bracelet of jade beads', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF !WAR !NINJA UNIQUE 
+Weight: 1, Value: 8000, Rent: 4000, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: INT By 1
+   Affects: WIS By 1
+Item slot: Wrist
+-----
+Object 'a neoprene bag', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 20, Rent: 10, Min. level: 0
+It can hold approximately 75 units.
+Item slot: Hold
+-----
+Object 'Sashimi's fishing pole', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 6, Value: 16, Rent: 2, Min. level: 0
+Damage Dice is '6D1' for an average per-round damage of 6.0.
+Item slot: Wield
+Item slot: Hold
+-----
+Object 'a primitive fishing pole', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 25, Rent: 20, Min. level: 0
+-----
+Object 'a biscuit', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 0, Rent: 25, Min. level: 0
+-----
+Object 'the Protector of the Faithful', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !EVIL !CLER UNIQUE 
+Weight: 20, Value: 5000, Rent: 750, Min. level: 10
+AC-apply is 15
+Item slot: Shield

@@ -253,6 +253,10 @@
 }
 
 #nop -- underworld
+#action {^You pay the Charon.$} {
+    #map mov n;
+}
+
 #action {^You travel across the river Styx.$} {
     #map mov n;
 }
