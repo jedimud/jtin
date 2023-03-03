@@ -1,0 +1,9 @@
+Object 'a thin silver hoop earring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 0, Value: 8000, Rent: 2250, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: CON By 1
+Item slot: Earring
+-----

@@ -2313,6 +2313,34 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_thin_silver_hoop_earring(self):
+        actual = self.read_item_from_file("a-thin-silver-hoop-earring")
+
+        item = Item()
+        item.name = "a thin silver hoop earring"
+        item.type = ItemType.ARMOR
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.BLESS)
+        item.tags.append(ItemTag.LIMITED)
+        item.tags.append(ItemTag.NO_DONATE)
+        item.tags.append(ItemTag.NO_JUNK)
+        item.tags.append(ItemTag.UNIQUE)
+        item.tags.append(ItemTag.INSURED)
+
+        item.weight = 0
+        item.value = 8000
+        item.rent = 2250
+        item.min_level = 0
+        
+        item.ac = 0
+        item.affects[ItemAffect.CON] = 1
+        
+        item.slots.append(ItemSlot.EARRING)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
@@ -2335,7 +2363,7 @@ class TestItemParser(unittest.TestCase):
         self.assertEqual(expected.dice_face, actual.dice_face)
         self.assertEqual(expected.dice_count, actual.dice_count)
         self.assertEqual(expected.average_dmg, actual.average_dmg)
-
+        
     def read_item_from_file(self, fname):
         ip = ItemParser()
         lines = ip.read_file("py/test-items/" + fname + ".txt")
