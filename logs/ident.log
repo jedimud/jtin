@@ -12157,3 +12157,52 @@ Item is: !EVIL !CLER UNIQUE
 Weight: 20, Value: 5000, Rent: 750, Min. level: 10
 AC-apply is 15
 Item slot: Shield
+-----
+Object 'a Huge Plastic Mustache', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !PAL !APAL !JEDI !SOHEI !DONATE !BARD !JUNK UNIQUE INSURED 
+Weight: 1, Value: 5000, Rent: 0, Min. level: 15
+AC-apply is 0
+Can affect you as :
+   Affects: DEX By 1
+   Affects: HITROLL By 3
+Item slot: Face
+-----
+Object 'fuzzy bunny slippers', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 1, Value: 250000, Rent: 1000, Min. level: 0
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: DEX By -1
+Item slot: Feet
+-----
+Object 'a thin silver hoop earring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 0, Value: 8000, Rent: 2250, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: CON By 1
+Item slot: Earring
+-----
+Object 'the melted shards of a dark blade', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: LIMITED !RENT !DONATE UNIQUE 
+Weight: 12, Value: 0, Rent: 1000, Min. level: 0
+-----
+Object 'a tiara of ice', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !RENT !DONATE UNIQUE 
+Weight: 1, Value: 1000, Rent: 0, Min. level: 1
+Can affect you as :
+   Affects: CHARISMA By 1
+Item slot: Head
+-----
+Object 'a walking stick', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 4, Value: 0, Rent: 0, Min. level: 0
+Can affect you as :
+   Affects: HITROLL By 1
+Item slot: Hold

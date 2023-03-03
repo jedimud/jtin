@@ -198,6 +198,23 @@
     jt_dl_i_check_hold;
 }
 
+#nop ----- earring -----
+
+#high {^You wear %1 on your ears.$} {reverse}
+#action {^You wear %1 on your ears.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_earring;
+}
+
+#high {^You're already wearing something on your ears.$} {reverse}
+#action {^You're already wearing something on your ears.$} { 
+    jt_dl_i_capture_earring;
+}
+
+#alias jt_dl_i_capture_earring {
+    #line log logs/ident.log {Item slot: Earring};
+    jt_dl_i_check_hold;
+}
 
 #nop ----- hands -----
 

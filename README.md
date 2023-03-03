@@ -2,21 +2,39 @@
 
 Collection of TinTin++ scripts for JediMUD.
 
-Add jtin script to your own startup `.tin` or load adhoc.
+<br/>
 
-`#read j.tin`
+## Getting Started
 
-**Output**
+Create login file to auto-login toons. Format is:
+ `{toon name},{password},{session name},{file to load after login}`.
 
-`jt :: loaded, enter 'jt' for more options`
+> If multi-boxing, be sure each toon has a unique session name
 
-Check the current state of loaded features.
+```sh
+touch ./data/login.csv
+echo 'neytiri,password,ney,neytiri.tin' >> ./data/login.csv
+echo 'tsutey,password,tsu,tsutey.tin' >> ./data/login.csv
+echo 'neysac,password,ney,sac.tin >> ./data/login.csv
+cat ./data/login.csv
+```
 
-`jt state`
+Start tintin++ with jtin
 
-**Sample Output**
+```sh
+tt++ j.tin
+```
 
-````
+Login with toon from `login.csv`
+```txt
+log neytiri
+```
+
+After login, view available options
+```
+jt state
+```
+```
 [jt] JediMUD TinTin++
 
 * TOON
@@ -29,52 +47,22 @@ Check the current state of loaded features.
 
 * DATA LOGS
   + Identify: enabled
-  + Kill: enabled
+  + Kill: disabled
   + Loot: enabled
 
 * AUTO TANK
-  + Auto-Buff: console
+  + Auto-Buff: disabled
   + Auto-Pummel: disabled
   + Auto-Disarm: disabled
   + Auto-Grapple: disabled
   + Auto-Rescue: disabled
-````
-
-## Multi-Boxing
-
-If using multiple `#session` to control 2 toons, then each `#session` must define a unique name and window.
-
-**Primary**
 ```
-#session ney jedimud.com 4000 neytiri.tin
-````
 
-`neytiri.tin`
-
-````
-jt toon name Neytiri
-jt toon window #ney
-````
-
-**Secondary**
-````
-#session tsu jedimud.com 4000 tsutey.tin
-````
-
-`tsutey.tin`
-````
-jt toon name Tsutey
-jt toon window #ney
-````
-
-> Note the secondary `#session` uses the window of the primary `#session`. This allows messages for the secondary to be output to the primary.
-
-
-----
+<br/>
 
 # Unicode Maps
 
-Small unicode maps loaded into the right `#split`. 
+Small unicode maps loaded into the right panel using `#split`. 
 
 ![](docs/midgaard.png)
 
@@ -228,6 +216,7 @@ Total: **135** maps, **6297** Rooms, **13600+** paths
 | Weeden Undeground | weeden-underground | :white_check_mark: Complete |
 | Werith's Wayhouse | wayhouse | :white_check_mark: Complete |
 
+<br/> 
 
 # Item Brief
 
@@ -247,6 +236,8 @@ In-line stats on items equipped, in inventory, or within a container.
 
 Items are pre-loaded using `data/item-briefs.json`, but this is not an exhaustive list. Use the `ident` alias from [Identify Log] to add items not currently marked-up.
 
+
+<br/> 
 
 # Data Logs
 
@@ -270,22 +261,11 @@ Output: `logs/ident.log`
 
 ````
 -----
-Object 'a combat jumpsuit', Item type: ARMOR
+Object 'a block of krrf', Item type: LIQ-CONTAINER
 Item will give you following abilities:  NOBITS 
-Item is: GLOW INVIS LIMITED !DONATE !JUNK UNIQUE INSURED 
-Weight: 4, Value: 20000, Rent: 5000, Min. level: 10
-AC-apply is 6
-Can affect you as :
-   Affects: DAMROLL By 1
-Item slot: About Body
------
-Object 'a dart', Item type: WEAPON
-Item will give you following abilities:  NOBITS 
-Item is: !CLER UNIQUE 
-Weight: 1, Value: 5, Rent: 0, Min. level: 0
-Damage Dice is '1D2' for an average per-round damage of 1.5.
-Item slot: Wield
-Item slot: Hold
+Item is: INVIS UNIQUE 
+Weight: 5, Value: 2000, Rent: 12, Min. level: 0
+It can hold approximately 50 units of liquid.
 ````
 > Items are delimited by `-----`
 
@@ -371,6 +351,7 @@ a big pile of gold coins,the snarling greza officer,wandering-ship
 ,the snarling greza officer,wandering-ship
 ````
 
+<br/> 
 
 # Auto Tank
 
@@ -439,5 +420,9 @@ Perform disarm when:
 > Coming soon!
 
 ## Auto Rescue
+
+> Coming soon!
+
+## Auto Heal
 
 > Coming soon!

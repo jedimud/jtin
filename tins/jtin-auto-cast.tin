@@ -15,32 +15,26 @@
 
 #action {^Tsutey is surrounded by a white sphere.$} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^Tsutey is already glowing!  You want to turn him into a candle?$} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^You encase Tsutey in a protective stone skin.$} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^Tsutey has been strengthened by your god.$} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^You give Tsutey a good feeling.$} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^Tsutey is now protected by your magic.$} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^Your spell has closed some of Tsutey's wounds.$} {
@@ -53,22 +47,18 @@
 
 #action {^But Tsutey is already protected!$} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^There is a huge thunderclap and a great blast of light as your attempt to} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^In your dreams, or what?$} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^You lost your concentration!$} {
     #var jt_ac_sp_action not_pending;
-    look;
 }
 
 #action {^Impossible!  You can't concentrate enough!$} {

@@ -198,18 +198,6 @@
                     {name}{Haon-Dor}
                     {path}{5e3n1e2n2e1n}
                 }
-                {ht}{
-                    {name}{ High Tower of Sorcery}
-                    {path}{5e2n3w1n1w1n}
-                }
-                {min}{
-                    {name}{River Island of Minos}
-                    {path}{1e2s1e}
-                }
-                {uw}{
-                    {name}{ Underworld}
-                    {path}{3e6s3w10n}
-                }
             }
         }
     }
@@ -282,18 +270,6 @@
                     {name}{Haon-Dor}
                     {path}{1s1e1s3e1n1e2n2e1n}
                 }
-                {gob}{
-                    {name}{Goblinsville}
-                    {path}{1s1e1s3e2s5w}
-                }
-                {min}{
-                    {name}{River Island of Minos}
-                    {path}{1s1e1s3e2s4w2s1e}
-                }
-                {uw}{
-                    {name}{ Underworld}
-                    {path}{1s1e1s3e2s2w6s3w10n}
-                }
             }
         }
     }
@@ -344,10 +320,6 @@
                     {name}{The Circle of Huts}
                     {path}{2d1s1d1n1d1s1w1n;ne;2n1e3n}
                 }
-                {cem}{
-                    {name}{Entrance to the Cemetary}
-                    {path}{2d1s1d1n1d1s1w1n3e1s;se}
-                }
             }
         }
         {33}{
@@ -356,10 +328,6 @@
                 {coh}{
                     {name}{The Circle of Huts}
                     {path}{nw;4n1w3n}
-                }
-                {yam}{
-                    {name}{The Top of the Tower}
-                    {path}{nw;1w1n2w1s1e1s1u1n1u1s1u1n2u}
                 }
                 {elg}{
                     {name}{The Tomb of Lord Elgan}
@@ -471,21 +439,9 @@
         {1}{
             {name}{On The Swift Flowing River}
             {paths}{
-                {gob}{
-                    {name}{Goblinsville}
-                    {path}{1e2n1w}
-                }
                 {hao}{
                     {name}{Haon-Dor}
                     {path}{1e2n4e3n1e2n2e1n}
-                }
-                {ht}{
-                    {name}{ High Tower of Socerery}
-                    {path}{1e2n4e2n3w1n1w1n}
-                }
-                {uw}{
-                    {name}{ Underworld}
-                    {path}{1e2n2e6s3w10n}
                 }
             }
         }
@@ -614,18 +570,6 @@
                 {hao}{
                     {name}{Haon-Dor}
                     {path}{10s3e6n2e3n1e2n2e1n}
-                }
-                {gob}{
-                    {name}{Goblinsville}
-                    {path}{10s3e6n3w}
-                }
-                {ht}{
-                    {name}{ High Tower of Sorcery}
-                    {path}{10s3e6n2e2n3w1n1w1n}
-                }
-                {min}{
-                    {name}{River Island of Minos}
-                    {path}{10s3e6n2w2s1e}
                 }
             }
         }
