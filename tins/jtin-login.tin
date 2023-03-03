@@ -6,6 +6,10 @@
         #var jt_login_action {$jt_login[4]};
         #session $jt_login[3] jedimud.net 4000;
     };
+    #else {
+        #showme <fca>jt :: unknown login, please try again;
+        #showme ;
+    }
 }
 
 #action {By what name do you wish to be known?} {
