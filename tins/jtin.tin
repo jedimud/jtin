@@ -473,6 +473,7 @@
     #class jtin-mapper kill;
     #var jt_m_state disabled;
     #class jtin-path kill;
+    #map leave;
 }
 
 #alias jt_m_load {
