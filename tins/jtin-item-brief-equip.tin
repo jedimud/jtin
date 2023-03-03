@@ -60,6 +60,30 @@
     #unvar $item;
 }
 
+#action {^<worn on face>       %2} {
+    jt_ib_find {%2};
+
+    #if {"$jt_ib_state" == "sac"} {
+        #line ignore #show <worn on face>       <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on face>       <afc>$item[1] <acf>$item[2];
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn on ears>       %2} {
+    jt_ib_find {%2};
+
+    #if {"$jt_ib_state" == "sac"} {
+        #line ignore #show <worn on ears>       <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on ears>       <afc>$item[1] <acf>$item[2];
+    };
+    #line gag;
+    #unvar $item;
+}
+
 #action {^<worn on legs>       %2} {
     jt_ib_find {%2};
 
@@ -162,7 +186,7 @@
     #if {"$jt_ib_state" == "sac"} {
         #line ignore #show <wielded>            <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
     } {
-        #line ignore #show <wielded>            <afc>$item[1] <acf>$item[2];
+        #line ignore #show <wielded>            <afc>$item[1] <acf>$item[2] <fea>$item[7]<099>;
     };
     #line gag;
     #unvar $item;
@@ -174,7 +198,7 @@
     #if {"$jt_ib_state" == "sac"} {
         #line ignore #show <held>               <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
     } {
-        #line ignore #show <held>               <afc>$item[1] <acf>$item[2];
+        #line ignore #show <held>               <afc>$item[1] <acf>$item[2] <fea>$item[7]<099>;
     };
     #line gag;
     #unvar $item;

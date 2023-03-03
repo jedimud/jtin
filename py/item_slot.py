@@ -14,6 +14,7 @@ class ItemSlot(Enum):
     LEGS = "Legs", "legs"
     ON_BODY = "On Body", "on body"
     FACE = "Face", "face"
+    EARRING = "Earring", "ears"
     NECK = "Neck", "neck"
     HANDS = "Hands", "hands"
     WAIST = "Waist", "waist"

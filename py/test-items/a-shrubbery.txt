@@ -1,0 +1,10 @@
+Object 'a shrubbery', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 35, Value: 2000, Rent: 0, Min. level: 30
+This WAND casts: word of death of level 0
+It has 1 maximum charge and 1 remaining.
+Can affect you as :
+   Affects: DEX By -3
+Item slot: Hold
+-----

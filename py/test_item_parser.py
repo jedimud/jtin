@@ -2123,6 +2123,195 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_crimson_potion(self):
+        actual = self.read_item_from_file("a-crimson-potion")
+
+        item = Item()
+        item.name = "a crimson potion"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 0
+        item.value = 0
+        item.rent = 0
+        item.min_level = 0
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.ARMOR)
+        item.spells.append(ItemSpell.BLESS)
+        item.spells.append(ItemSpell.MAGICAL_VESTMENT)
+
+        item.affects[ItemAffect.ARMOR] = -4
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_crystal_vial(self):
+        actual = self.read_item_from_file("a-crystal-vial")
+
+        item = Item()
+        item.name = "a crystal vial"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 1000
+        item.rent = 500
+        item.min_level = 0
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.SANCTUARY)
+        item.spells.append(ItemSpell.WEB)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__an_ebony_cross(self):
+        actual = self.read_item_from_file("an-ebony-cross")
+
+        item = Item()
+        item.name = "an ebony cross"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 0
+        item.value = 3000
+        item.rent = 1500
+        item.min_level = 0
+
+        item.spell_level = 15
+        item.spells.append(ItemSpell.DISPEL_EVIL)
+        item.charge_max = 4
+        item.charge_remain = 4
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_faded_scroll(self):
+        actual = self.read_item_from_file("a-faded-scroll")
+
+        item = Item()
+        item.name = "a faded scroll"
+        item.type = ItemType.SCROLL
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 15000
+        item.rent = 0
+        item.min_level = 0
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.ENCHANT_ARMOR)
+        item.spells.append(ItemSpell.GROUP_INVISIBIILITY)
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_wand_of_mobility(self):
+        actual = self.read_item_from_file("a-wand-of-mobility")
+
+        item = Item()
+        item.name = "a wand of mobility"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 2
+        item.value = 5500
+        item.rent = 1375
+        item.min_level = 0
+
+        item.spell_level = 12
+        item.spells.append(ItemSpell.REMOVE_PARALYSIS)
+        item.charge_max = 3
+        item.charge_remain = 3
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_wand_of_mobility(self):
+        actual = self.read_item_from_file("a-badly-chewed-red-rubber-ball")
+
+        item = Item()
+        item.name = "a badly chewed red rubber ball"
+        item.type = ItemType.DEVICE
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 0
+        item.rent = 0
+        item.min_level = 0
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__iris_panacea(self):
+        actual = self.read_item_from_file("iris-panacea")
+
+        item = Item()
+        item.name = "Iris' panacea"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.UNIQUE)
+        item.tags.append(ItemTag.ASSM)
+
+        item.weight = 0
+        item.value = 10000
+        item.rent = 10000
+        item.min_level = 0
+
+        item.spell_level = 30
+        item.spells.append(ItemSpell.RESTORE)
+        item.spells.append(ItemSpell.SANCTUARY)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_shrubbery(self):
+        actual = self.read_item_from_file("a-shrubbery")
+
+        item = Item()
+        item.name = "a shrubbery"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 35
+        item.value = 2000
+        item.rent = 0
+        item.min_level = 30
+
+        item.spell_level = 0
+        item.spells.append(ItemSpell.WORD_OF_DEATH)
+        item.charge_remain = 1
+        item.charge_max = 1
+
+        item.slots.append(ItemSlot.HOLD)
+
+        item.affects[ItemAffect.DEX] = -3
+
+        self.assert_equals(item, actual)
 
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)

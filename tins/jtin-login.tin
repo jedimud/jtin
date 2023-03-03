@@ -1,0 +1,41 @@
+#alias log {
+    #gts;
+    #unvar jt_login;
+    #script {jt_login} {sh -c './sh/login-find.sh %1'};
+    #if {"$jt_login[1]"=="%1"} {
+        #var jt_login_action {$jt_login[4]};
+        #session $jt_login[3] jedimud.net 4000;
+    };
+}
+
+#action {By what name do you wish to be known?} {
+    #delay {0.1} {$jt_login[1]};
+}
+
+#action {Password:} {
+    #delay {0.1} {$jt_login[2]};
+}
+
+#action {*** PRESS RETURN:} {
+    #cr;
+    #delay {0.5} {1;#delay {0.5} {
+        #class jtin clear;
+        #class jtin read tins/jtin.tin;
+        #read $jt_login_action;
+        #unvar jt_login_action;
+        #unvar jt_login;
+    }};
+}
+
+#action {^Reconnecting.$} {
+    #cr;
+    #delay {0.5} {
+        #class jtin clear;
+        #class jtin read tins/jtin.tin;
+        #read $jt_login_action;
+        #unvar jt_login_action;
+        #unvar jt_login;
+    };
+}
+
+#action {^The Receptionist tells you, 'But you are not carrying anything!  Just quit!'$} { quit; 0; }

@@ -128,7 +128,24 @@ class ItemBrief():
             if ItemTag(tag) == ItemTag.LIMITED:
                 item['brief_limited'] = '(L)'
                 break
+            
+        item['brief_spells'] = ''
+        if item['spells']:
+            uniqueSpells = set(item['spells'])
+            item['brief_spells'] = item['brief_spells'] + "["
+            
+            for indx, spell in enumerate(uniqueSpells):
+                item['brief_spells'] = item['brief_spells'] + spell
+                count = item['spells'].count(spell)
+                if count > 1:
+                    item['brief_spells'] = item['brief_spells'] + "(x" + str(count) + ")"
+                if item['charge_max'] != None:
+                    item['brief_spells'] = item['brief_spells'] + "(x" + str(item['charge_max']) + ")"
+                if indx != len(uniqueSpells)-1:
+                    item['brief_spells'] = item['brief_spells'] + ", "
 
+            item['brief_spells'] = item['brief_spells'] + "]"
+            
     def write_brief(self, items):
         briefs = {}
         for item in items:
@@ -138,6 +155,7 @@ class ItemBrief():
             description['equipped'] = item['brief_eq']
             description['sac'] = item['brief_sac']
             description['limited'] = item['brief_limited']
+            description['spells'] = item['brief_spells']
             briefs[item['name']] = {}
             briefs[item['name']]['description'] = description
         with open('data/item-briefs.json', 'w') as f:

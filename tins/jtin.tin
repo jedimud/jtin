@@ -245,6 +245,9 @@
     jt_print_message_with_buffer {auto-tank :: %1}
 }
 
+#alias jt_ac_print_msg {
+    jt_print_message_with_buffer {auto-cast :: %1}
+}
 
 #nop ----- data-logs -----
 
@@ -469,11 +472,14 @@
     jt_m_print_msg {<fca>disabled};
     #class jtin-mapper kill;
     #var jt_m_state disabled;
+    #class jtin-path kill;
 }
 
 #alias jt_m_load {
     #class jtin-mapper kill;
     #class jtin-mapper read tins/jtin-mapper.tin;
+    #class jtin-path kill;
+    #class jtin-path read tins/jtin-path.tin;
     #var jt_m_state enabled;
     jt_m_print_msg {<afc>enabled};
 }

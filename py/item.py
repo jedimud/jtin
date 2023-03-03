@@ -46,6 +46,7 @@ class Item():
         self.brief_eq = str()
         self.brief_sac = str()
         self.brief_limited = str()
+        self.brief_spells = str()
 
     def __dict__(self):
         item = {}

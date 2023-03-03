@@ -6,7 +6,7 @@
 }
 #action {^You are glowing with a bright light!$} { #var t_b_sanc true; }
 #action {^You start glowing.$} { #var t_b_sanc true; }
-
+#action {^Sorry.  You're already protected.$} { #var t_b_sanc true; }
 
 #action {^Your skin softens.$} {
     jt_at_ab_lost {STONE SKIN};
@@ -30,8 +30,8 @@
 #action {^You feel righteous.$} { #var t_b_bless true; }
 
 #action {^You feel less protected from the rigors of the world.$} {
-     #var t_b_armor false;
-    jt_at_ab_lost {ARMOR}'
+    jt_at_ab_lost {ARMOR};
+    #var t_b_armor false;
 }
 #action {^You are protected by magical armor.$} { #var t_b_armor true; }
 #action {^You feel someone protecting you.$} { #var t_b_armor true; }
@@ -55,7 +55,17 @@
     jt_at_ab_lost {DETECT ALIGNMENT};
 }
 
+#action {^You slowly float back to the ground.$} {
+    jt_at_ab_lost {FLY};
+}
+
 #nop ----- debuffs -----
+
+#nop poison
+#nop You feel very sick.
+#nop You burn with poison. 
+#nop A warm feeling runs through your body!
+
 
 #nop ----- print -----
 
@@ -84,12 +94,12 @@
 #nop ----- configure -----
 
 #alias jt_at_ab_state {
-    #showme <adf>AUTO-BUFF;
-    #showme <fac>  + <aef>Sanctuary: @jt_at_ab_get_mode{$t_b_sanc_mode};
-    #showme <fac>  + <aef>Stone Skin: @jt_at_ab_get_mode{$t_b_stone_mode};
-    #showme <fac>  + <aef>Aid: @jt_at_ab_get_mode{$t_b_aid_mode};
-    #showme <fac>  + <aef>Bless: @jt_at_ab_get_mode{$t_b_bless_mode};
-    #showme <fac>  + <aef>Armor: @jt_at_ab_get_mode{$t_b_armor_mode};
+    jt_print_message_with_buffer <adf>AUTO-BUFF;
+    jt_print_message_with_buffer { <fac>  + <aef>Sanctuary: @jt_at_ab_get_mode{$t_b_sanc_mode}};
+    jt_print_message_with_buffer { <fac>  + <aef>Stone Skin: @jt_at_ab_get_mode{$t_b_stone_mode}};
+    jt_print_message_with_buffer { <fac>  + <aef>Aid: @jt_at_ab_get_mode{$t_b_aid_mode}};
+    jt_print_message_with_buffer { <fac>  + <aef>Bless: @jt_at_ab_get_mode{$t_b_bless_mode}};
+    jt_print_message_with_buffer { <fac>  + <aef>Armor: @jt_at_ab_get_mode{$t_b_armor_mode}};
 }
 
 #function jt_at_ab_get_mode {
@@ -109,7 +119,7 @@
         #if {"%2" == "block"} { #var t_b_sanc_mode block; jt_at_ab_print_msg {sanctuary :: @jt_at_ab_get_mode{$t_b_sanc_mode}}; };
         #elseif {"%2" == "warn"} { #var t_b_sanc_mode warn; jt_at_ab_print_msg {sanctuary :: @jt_at_ab_get_mode{$t_b_sanc_mode}}; };
         #elseif {"%2" == "disabled"} { #var t_b_sanc_mode disabled; jt_at_ab_print_msg {sanctuary :: @jt_at_ab_get_mode{$t_b_sanc_mode}}; };
-        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanc (block|warn|disabled)}; }
+        #else { jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-buff set sanctuary (block|warn|disabled)}; }
     };
 
     #elseif {"%1" == "stone-skin"} {
@@ -170,7 +180,13 @@
 #alias jt_at_ab_combat_perform {
     #if {"$t_b_sanc" != "true"} {
         #if {"$t_b_sanc_mode" == "block"} {
-            #list t_b_block add {SANCTUARY};
+            #if {"$jt_t_window" == ""} {
+                #list t_b_block add {SANCTUARY};
+            }; 
+            #else {
+                #list t_b_block add {SANCTUARY};
+                $jt_t_window jt_ac_spell {sanctuary} {sanc};
+            };
         };
         #else {
             #list t_b_warn add {SANCTUARY};
@@ -179,7 +195,13 @@
 
     #if {"$t_b_stone" != "true"} {
         #if {"$t_b_stone_mode" == "block"} {
-            #list t_b_block add {STONE SKIN};
+            #if {"$jt_t_window" == ""} {
+                #list t_b_block add {STONE SKIN};
+            }; 
+            #else {
+                #list t_b_block add {STONE SKIN};
+                $jt_t_window jt_ac_spell {stone skin} {stone};
+            };
         };
         #else {
             #list t_b_warn add {STONE SKIN};
@@ -188,7 +210,13 @@
 
     #if {"$t_b_aid" != "true"} {
         #if {"$t_b_aid_mode" == "block"} {
-            #list t_b_block add {AID};
+            #if {"$jt_t_window" == ""} {
+                #list t_b_block add {AID};
+            }; 
+            #else {
+                #list t_b_block add {AID};
+                $jt_t_window jt_ac_spell {aid} {aid};
+            };
         };
         #else {
             #list t_b_warn add {AID};
@@ -197,7 +225,13 @@
 
     #if {"$t_b_bless" != "true"} {
         #if {"$t_b_bless_mode" == "block"} {
-            #list t_b_block add {BLESS};
+            #if {"$jt_t_window" == ""} {
+                #list t_b_block add {BLESS};
+            }; 
+            #else {
+                #list t_b_block add {BLESS};
+                $jt_t_window jt_ac_spell {bless} {bless};
+            };
         };
         #else {
             #list t_b_warn add {BLESS};
@@ -206,7 +240,13 @@
 
     #if {"$t_b_armor" != "true"} {
         #if {"$t_b_armor_mode" == "block"} {
-            #list t_b_armor add {ARMOR};
+            #if {"$jt_t_window" == ""} {
+                #list t_b_block add {ARMOR};
+            }; 
+            #else {
+                #list t_b_block add {ARMOR};
+                $jt_t_window jt_ac_spell {armor} {armor};
+            };
         };
         #else {
             #list t_b_warn add {ARMOR};

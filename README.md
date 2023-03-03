@@ -2,21 +2,39 @@
 
 Collection of TinTin++ scripts for JediMUD.
 
-Add jtin script to your own startup `.tin` or load adhoc.
+<br/>
 
-`#read j.tin`
+## Getting Started
 
-**Output**
+Create login file to auto-login toons. Format is:
+ `{toon name},{password},{session name},{file to load after login}`.
 
-`jt :: loaded, enter 'jt' for more options`
+> If multi-boxing, be sure each toon has a unique session name
 
-Check the current state of loaded features.
+```sh
+touch ./data/login.csv
+echo 'neytiri,password,ney,neytiri.tin' >> ./data/login.csv
+echo 'tsutey,password,tsu,tsutey.tin' >> ./data/login.csv
+echo 'neysac,password,ney,sac.tin >> ./data/login.csv
+cat ./data/login.csv
+```
 
-`jt state`
+Start tintin++ with jtin
 
-**Sample Output**
+```sh
+tt++ j.tin
+```
 
-````
+Login with toon from `login.csv`
+```txt
+log neytiri
+```
+
+After login, view available options
+```
+jt state
+```
+```
 [jt] JediMUD TinTin++
 
 * TOON
@@ -29,52 +47,22 @@ Check the current state of loaded features.
 
 * DATA LOGS
   + Identify: enabled
-  + Kill: enabled
+  + Kill: disabled
   + Loot: enabled
 
 * AUTO TANK
-  + Auto-Buff: console
+  + Auto-Buff: disabled
   + Auto-Pummel: disabled
   + Auto-Disarm: disabled
   + Auto-Grapple: disabled
   + Auto-Rescue: disabled
-````
-
-## Multi-Boxing
-
-If using multiple `#session` to control 2 toons, then each `#session` must define a unique name and window.
-
-**Primary**
 ```
-#session ney jedimud.com 4000 neytiri.tin
-````
 
-`neytiri.tin`
-
-````
-jt toon name Neytiri
-jt toon window #ney
-````
-
-**Secondary**
-````
-#session tsu jedimud.com 4000 tsutey.tin
-````
-
-`tsutey.tin`
-````
-jt toon name Tsutey
-jt toon window #ney
-````
-
-> Note the secondary `#session` uses the window of the primary `#session`. This allows messages for the secondary to be output to the primary.
-
-
-----
+<br/>
 
 # Unicode Maps
 
-Small unicode maps loaded into the right `#split`. 
+Small unicode maps loaded into the right panel using `#split`. 
 
 ![](docs/midgaard.png)
 
@@ -84,7 +72,7 @@ Small unicode maps loaded into the right `#split`.
 
 **`state`**
 * `enabled`: Allow maps to be loaded
-* `disabled`:  
+* `disabled`: Close and unload mapping features
 
 ## Legend
 
@@ -93,7 +81,7 @@ Small unicode maps loaded into the right `#split`.
 | `[ ]`               |  Basic Path   |
 | `[$]`               |  Bank         |
 | `[M]`               |  Guild Master |
-| `[*]`               |  Recall/Login |
+| `[*]`               |  Path Point   |
 | `[&]`               |  Innkeeper    |
 | `[D]`               |  Donation     |
 | `[#]`               |  Shop/Vendor  |
@@ -129,44 +117,44 @@ Small unicode maps loaded into the right `#split`.
 
 ## Status
 
-Total: **109** maps, **4226** Rooms, **9022** paths
+Total: **135** maps, **6297** Rooms, **13600+** paths
 
-| Zone | Map | Status |
-| ---- | --- | ------ |
+| Zone | Map | Status | temp |
+| ---- | --- | ------ | --- |
 | Abandoned Cathedral | - | :x: Not Found |
 | Abandoned Ship and Deep Forest | abandoned-ship | :white_check_mark: Complete |
-| Abyss | abyss | :o: Partial Map |
+| Abyss | abyss | :white_check_mark: Complete |
 | Algodon's Pyramid of Doom | doom | :link: Initial Link |
 | Amber Forest of Arden | amber-forest | :link: Initial Link |
 | Amusement Park | amusement-park | :white_check_mark: Complete |
 | Andrus' Toy Land | andrus-toy-land | :o: Partial Map |
 | Anthill | ant-hill | :link: Initial Link |
 | Arachnos | arachnos | :o: Partial Map |
-| Aralu | aralu | :link: Initial Link |
+| Aralu | aralu | :link: Initial Link | 
 | Arcadia | arcadia | :link: Initial Link |
 | Arctic Empire | arctic-empire | :white_check_mark: Complete |
 | Arctica | arctica | :o: Partial Map |
-| Area Near Skara Brae | trails-around-skara-brae | :o: Partial Map |
+| Area Near Skara Brae | trails-around-skara-brae | :white_check_mark: Complete |
 | Balor's Domain | balor | :white_check_mark: Complete |
 | Bardic Colleges | bardic-colleges | :link: Initial Link |
-| Camelot | camelot | :o: Partial Map |
+| Camelot | camelot | :white_check_mark: Complete |
 | Castle Mistamere | castle-mistamere | :link: Initial Link |
-| Cedar Estate Mansion | cedar-estate | :link: Initial Link |
+| Cedar Estate Mansion | cedar-estate | :o: Partial Map |
 | Cheer's Bar | cheers | :white_check_mark: Complete |
 | Corsair Citadel | corsair-citadel | :link: Initial Link |
 | Crystal Caves | crystal-caves | :o: Partial Map |
-| Darkspine Mountains | darkspine-mountains | :o: Partial Map |
+| Darkspine Mountains | darkspine-mountains | :white_check_mark: Complete |
 | Donner's Den | donners-den | :white_check_mark: Complete |
-| Dragon City | - | :x: Not Found |
+| Dragon City | dragon-city | :o: Partial Map |
 | Dragon Sea | dragon-sea | :o: Partial Map |
-| Drake Isle | drake-isle | :o: Partial Map |
-| Drow City | drow-city | :white_check_mark: Complete |
+| Drake Isle | drake-isle<br>drake-isle-fortress<br>drake-isle-interior |:white_check_mark: Complete<br>:white_check_mark: Complete<br>:o: Partial Map |
+| Drow City | drow-city | :white_check_mark: Complete | 
 | Dwarven Kingdom | dwarven-kingdom | :white_check_mark: Complete |
 | Elven Village Ruins | old-elven-village | :link: Initial Link |
 | Emerald Maze | emerald-maze | :link: Initial Link |
 | Enfan City | enfan-city | :white_check_mark: Complete |
 | Floodlands | floodlands | :white_check_mark: Complete |
-| Forest of Haon-Dor | haon-dor | :white_check_mark: Complete |
+| Forest of Haon-Dor | haon-dor | :white_check_mark: Complete | 
 | Froboz's Factory | froboz-factory | :link: Initial Link |
 | Galaxy | galaxy | :white_check_mark: Complete |
 | Goblinsville Under the Mountain | goblinsville | :white_check_mark: Complete |
@@ -177,12 +165,12 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Great Pyramid | - | :x: Not Found |
 | Gyles Keep | gyles-keep | :white_check_mark: Complete |
 | Hell | - | :x: Not Found |
-| Hellas | hellas | :link: Initial Link |
+| Hellas | hellas | :white_check_mark: Complete |
 | High Tower of Sorcery | high-tower-of-sorcery | :link: Initial Link |
 | Imperial Ravenna | ravenna | :o: Partial Map |
 | King Welmar's Castle | king-welmars-castle | :white_check_mark: Complete |
 | Lich's Tower | lich-tower | :white_check_mark: Complete |
-| Lost Isle of Shaedar | - | :x: Not Found |
+| Lost Isle of Shaedar | lost-isle-of-shaedar |:white_check_mark: Complete |
 | Mahn-Tor | mahn-tor | :link: Initial Link |
 | Metro | metro | :link: Initial Link |
 | Miden'Nir | miden-nir | :white_check_mark: Complete |
@@ -215,11 +203,11 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Southern Part of Midgaard | southern-midgaard | :white_check_mark: Complete |
 | Star Wars | - | :x: Not Found |
 | Straight Path | straight-path | :white_check_mark: Complete |
-| Three of Swords | three-of-swords | :o: Partial Map | 
+| Three of Swords | three-of-swords | :o: Partial Map |
 | Trails Around Midgaard | trails-around-midgaard | :white_check_mark: Complete |
 | Trails Near Midgaard | trails-near-midgaard | :white_check_mark: Complete |
 | Training Grounds | training-grounds | :white_check_mark: Complete |
-| Troglodyte Caves | - | :x: Not Found |
+| Troglodyte Caves | trog-caves-and-outpost | :o: Partial Map |
 | Underworld | underworld | :white_check_mark: Complete |
 | Valhalla | valhalla | :link: Initial Link |
 | Wamphyri Aerie | wamphyri-aerie | :white_check_mark: Complete |
@@ -228,6 +216,7 @@ Total: **109** maps, **4226** Rooms, **9022** paths
 | Weeden Undeground | weeden-underground | :white_check_mark: Complete |
 | Werith's Wayhouse | wayhouse | :white_check_mark: Complete |
 
+<br/> 
 
 # Item Brief
 
@@ -247,6 +236,8 @@ In-line stats on items equipped, in inventory, or within a container.
 
 Items are pre-loaded using `data/item-briefs.json`, but this is not an exhaustive list. Use the `ident` alias from [Identify Log] to add items not currently marked-up.
 
+
+<br/> 
 
 # Data Logs
 
@@ -270,22 +261,11 @@ Output: `logs/ident.log`
 
 ````
 -----
-Object 'a combat jumpsuit', Item type: ARMOR
+Object 'a block of krrf', Item type: LIQ-CONTAINER
 Item will give you following abilities:  NOBITS 
-Item is: GLOW INVIS LIMITED !DONATE !JUNK UNIQUE INSURED 
-Weight: 4, Value: 20000, Rent: 5000, Min. level: 10
-AC-apply is 6
-Can affect you as :
-   Affects: DAMROLL By 1
-Item slot: About Body
------
-Object 'a dart', Item type: WEAPON
-Item will give you following abilities:  NOBITS 
-Item is: !CLER UNIQUE 
-Weight: 1, Value: 5, Rent: 0, Min. level: 0
-Damage Dice is '1D2' for an average per-round damage of 1.5.
-Item slot: Wield
-Item slot: Hold
+Item is: INVIS UNIQUE 
+Weight: 5, Value: 2000, Rent: 12, Min. level: 0
+It can hold approximately 50 units of liquid.
 ````
 > Items are delimited by `-----`
 
@@ -371,6 +351,7 @@ a big pile of gold coins,the snarling greza officer,wandering-ship
 ,the snarling greza officer,wandering-ship
 ````
 
+<br/> 
 
 # Auto Tank
 
@@ -439,5 +420,9 @@ Perform disarm when:
 > Coming soon!
 
 ## Auto Rescue
+
+> Coming soon!
+
+## Auto Heal
 
 > Coming soon!
