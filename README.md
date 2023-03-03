@@ -76,16 +76,16 @@ jt state
 
 # Additional Features
 
-- [Unicode Maps](Unicode-Maps)
+- [Unicode Maps](https://github.com/jedimud/jtin/wiki/Unicode-Maps)
 - Data Logs
-  - [Identify Scroll](Identify-Scroll)
-  - [Item Brief](Item-Brief)
-  - [Loot Log](Loot-Log)
-  - [Kill Log](Kill-Log)
+  - [Identify Scroll](https://github.com/jedimud/jtin/wiki/Identify-Scroll)
+  - [Item Brief](https://github.com/jedimud/jtin/wiki/Item-Brief)
+  - [Loot Log](https://github.com/jedimud/jtin/wiki/Loot-Log)
+  - [Kill Log](https://github.com/jedimud/jtin/wiki/Kill-Log)
 - Auto-Tank
-  - [Auto Buff](Auto-Buff)
-  - [Auto Pummel](Auto-Pummel)
-  - [Auto Disarm](Auto-Disarm)
+  - [Auto Buff](https://github.com/jedimud/jtin/wiki/Auto-Buff)
+  - [Auto Pummel](https://github.com/jedimud/jtin/wiki/Auto-Pummel)
+  - [Auto Disarm](https://github.com/jedimud/jtin/wiki/Auto-Disarm)
   - Auto-Grapple
   - Auto-Rescue
 
