@@ -4,19 +4,28 @@ Collection of TinTin++ scripts for JediMUD.
 
 <br/>
 
-## Getting Started
+# Getting Started
 
-Create login file to auto-login toons. Format is:
- `{toon name},{password},{session name},{file to load after login}`.
-
-> If multi-boxing, be sure each toon has a unique session name
+Create login csv with credentials, session, and custom file for each toon.
 
 ```sh
 touch ./data/login.csv
-echo 'neytiri,password,ney,neytiri.tin' >> ./data/login.csv
-echo 'tsutey,password,tsu,tsutey.tin' >> ./data/login.csv
-echo 'neysac,password,ney,sac.tin >> ./data/login.csv
+echo 'neytiri,password,ney,toons/neytiri.tin' >> ./data/login.csv
+echo 'tsutey,password,tsu,toons/tsutey.tin' >> ./data/login.csv
+echo 'neysac,password,ney,toons/sac.tin' >> ./data/login.csv
 cat ./data/login.csv
+```
+> Format is: `{toon name},{password},{session name},{file to load after login}`
+
+> If multi-boxing, be sure each toon has a unique session name
+
+Create a toon-specific tin with jtin customizations.
+```sh
+touch ./toons/neytiri.tin
+echo 'jt map enabled;' >> ./toons/neytiri.tin
+echo 'map open midgaard 1;' >> ./toons/neytiri.tin
+echo 'jt item-brief stats;' >> ./toons/neytiri.tin
+cat ./toons/neytiri.tin
 ```
 
 Start tintin++ with jtin
