@@ -167,8 +167,27 @@
            jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-disarm (enabled|disabled)}; 
         }
     };
+    #elseif {"%1" == "auto-cast"} {
+        #if {"%2" == "enabled"} {
+            #var jt_at_ac_state %2;
+            jt_at_ac_load;
+            jt_at_ac_print_msg <afc>%2;
+        };
+        #elseif {"%2" == "disabled"} {
+            #var jt_at_ac_state %2;
+            jt_at_ac_unload;
+            jt_at_ac_print_msg <fca>%2;
+        };
+        #elseif {"%2" == "target"} {
+            #var jt_at_ac_target %3;
+            jt_at_ac_print_msg {<afc>target %3};
+        };
+        #else {
+           jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank auto-cast (enabled|disabled|target)}; 
+        }
+    };
     #else {
-        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank (auto-buff|auto-pummel|auto-disarm)};
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt auto-tank (auto-buff|auto-pummel|auto-disarm|auto-cast)};
     }
 }
 
@@ -192,6 +211,12 @@
         #showme <fac>  + <aef>Auto-Disarm: <afc>$jt_at_di_state;
     };
 
+    #if {"$jt_at_ac_state" == "disabled"} {
+        #showme <fac>  + <aef>Auto-Cast: <fca>disabled;
+    } {
+        #showme <fac>  + <aef>Auto-Cast: <afc>$jt_at_ac_target;
+    };
+
     #showme <fac>  + <aef>Auto-Grapple: <fca>disabled;
     #showme <fac>  + <aef>Auto-Rescue: <fca>disabled;
 }
@@ -200,6 +225,7 @@
     #var jt_at_ab_state disabled;
     #var jt_at_ap_state disabled;
     #var jt_at_di_state disabled;
+    #var jt_at_ac_state disabled;
 }
 
 #alias jt_at_ab_unload {
@@ -212,6 +238,10 @@
 
 #alias jt_at_di_unload {
     #class jtin-auto-disarm kill;
+}
+
+#alias jt_at_ac_unload {
+    #class jtin-auto-cast kill;
 }
 
 #alias jt_at_ab_load {
@@ -229,6 +259,11 @@
     #class jtin-auto-disarm read tins/jtin-auto-disarm.tin;
 }
 
+#alias jt_at_ac_load {
+    #class jtin-auto-cast kill;
+    #class jtin-auto-cast read tins/jtin-auto-cast.tin;
+}
+
 #alias jt_at_ab_print_msg {
     jt_at_print_msg {auto-buff :: %1}
 }
@@ -239,6 +274,10 @@
 
 #alias jt_at_di_print_msg {
     jt_at_print_msg {auto-disarm :: %1}
+}
+
+#alias jt_at_ac_print_msg {
+    jt_at_print_msg {auto-cast :: %1}
 }
 
 #alias jt_at_print_msg {
