@@ -23,8 +23,34 @@
     #elseif {"%1" == "save"} {
         jt_m_save;
     };
+    #elseif {"%1" == "split"} {
+        jt_m_split {%2};
+    };
+    #elseif {"%1" == "offset"} {
+        jt_m_offset {%2};
+    };
     #else {
-        jt_m_print_msg {<efc>unknown command, try :: map (open|show|hide|create|edit|read|save)}
+        jt_m_print_msg {<efc>unknown command, try :: map (open|show|hide|create|edit|read|save|offset|split)}
+    };
+}
+
+#alias jt_m_split { 
+    #if {"%1" != ""} {
+        #var jt_m_display[split] {#split %1};
+        jt_m_print_msg {<efc>set terminal split to %1};
+    };
+    #else {
+        jt_m_print_msg {<efc>unknown command, try :: map split {0 1 0 -90}};
+    };
+}
+
+#alias jt_m_offset { 
+    #if {"%1" != ""} {
+        #var jt_m_display[offset] {#map offset %1};
+        jt_m_print_msg {<efc>set map offset to %1};
+    };
+    #else {
+        jt_m_print_msg {<efc>unknown command, try :: map offset {1 91 -1 -1}};
     };
 }
 
@@ -35,8 +61,10 @@
         #map read maps/%1.map; 
         #if {"%2" != ""} {
             #map goto %2;
+            jt_m_print_msg {<efc>opening %1 at room %2};
         } {
             #map goto 1; 
+            jt_m_print_msg {<efc>opening %1 at default room};
         };
         #map flag static on;
         #variable jt_m_current {%1};
@@ -45,8 +73,8 @@
 }
 
 #alias jt_m_show {
-    #split 0 1 0 -90;
-    #map offset 1 91 -1 -1;
+    $jt_m_display[split];
+    $jt_m_display[offset];
 }
 
 #alias jt_m_hide {
@@ -94,19 +122,74 @@
     #elseif {"%1" == "fog"} {jt_m_fog %2};
     #elseif {"%1" == "loop"} {jt_m_loop %2};
     #elseif {"%1" == "link"} {jt_m_link {%2} {%3} {%4}};
-    
+
+    #elseif {"%1" == "void"} {jt_m_void %2};
+    #elseif {"%1" == "unvoid"} {jt_m_unvoid %2};
+
     #elseif {"%1" == "exit"} {#map roomflag hide on};
-    #elseif {"%1" == "shop"} {#map set roomsymbol #};
-    #elseif {"%1" == "inn"} {#map set roomsymbol &};
-    #elseif {"%1" == "master"} {#map set roomsymbol M};
-    #elseif {"%1" == "fountain"} {#map set roomsymbol %};
-    #elseif {"%1" == "bank"} {#map set roomsymbol $};
-    #elseif {"%1" == "recall"} {#map set roomsymbol *};
-    #elseif {"%1" == "donation"} {#map set roomsymbol D};
+    #elseif {"%1" == "shop"} {jt_m_room_flag {#} {shop}};
+    #elseif {"%1" == "inn"} {jt_m_room_flag {&} {inn}};
+    #elseif {"%1" == "master"} {jt_m_room_flag {M} {master}};
+    #elseif {"%1" == "fountain"} {jt_m_room_flag {%} {fountain}};
+    #elseif {"%1" == "bank"} {jt_m_room_flag {$} {bank}};
+    #elseif {"%1" == "path"} {jt_m_room_flag {*} {path}};
+    #elseif {"%1" == "donation"} {jt_m_room_flag {D} {donation}};
+
     #elseif {"%1" == "aggro"} {#map set roomcolor <fca>};
     #elseif {"%1" == "water"} {#map set roomcolor <acf>};
 
-    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|fog|loop|link|exit|shop|inn|master|fountain|bank|recall|donation|aggro|water)}};
+    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|fog|void|unvoid|loop|link|exit|shop|inn|master|fountain|bank|recall|donation|aggro|water)}};
+}
+
+#alias jt_m_void {
+    #if {"%1" == "e"} { jt_m_void_room {east} {e} {w} };
+    #elseif {"%1" == "w"} { jt_m_void_room {west} {w} {e} };
+    #elseif {"%1" == "n"} { jt_m_void_room {north} {n} {s} };
+    #elseif {"%1" == "s"} { jt_m_void_room {south} {s} {n} };
+    #elseif {"%1" == "se"} { jt_m_void_room {south-east} {se} {nw} };
+    #elseif {"%1" == "sw"} { jt_m_void_room {south-west} {sw} {ne} };
+    #elseif {"%1" == "ne"} { jt_m_void_room {north-east} {ne} {sw} };
+    #elseif {"%1" == "nw"} { jt_m_void_room {north-west} {nw} {se} };
+    #elseif {"%1" == "u"} { jt_m_void_room {up} {u} {d} };
+    #elseif {"%1" == "d"} { jt_m_void_room {down} {d} {u} };
+    #else {
+        jt_m_print_msg {<efc>unknown command, try :: room void (n|e|s|w|ne|se|sw|nw|u|d)}
+    }
+}
+
+#alias jt_m_void_room {
+    #map insert %2;
+    #map move %2;
+    #map roomflag void;
+    #map move %3;
+    jt_m_print_msg {<efc>added void room to %1};
+}
+
+#alias jt_m_unvoid {
+    #if {"%1" == "e"} { jt_m_unvoid_room {east} {e} };
+    #elseif {"%1" == "w"} { jt_m_unvoid_room {west} {w} };
+    #elseif {"%1" == "n"} { jt_m_unvoid_room {north} {n} };
+    #elseif {"%1" == "s"} { jt_m_unvoid_room {south} {s} };
+    #elseif {"%1" == "se"} { jt_m_unvoid_room {south-east} {se} };
+    #elseif {"%1" == "sw"} { jt_m_unvoid_room {south-west} {sw} };
+    #elseif {"%1" == "ne"} { jt_m_unvoid_room {north-east} {ne} };
+    #elseif {"%1" == "nw"} { jt_m_unvoid_room {north-west} {nw} };
+    #elseif {"%1" == "u"} { jt_m_unvoid_room {up} {u} };
+    #elseif {"%1" == "d"} { jt_m_unvoid_room {down} {d} };
+    #else {
+        jt_m_print_msg {<efc>unknown command, try :: room unvoid (n|e|s|w|ne|se|sw|nw|u|d)}
+    }
+}
+
+#alias jt_m_unvoid_room {
+    #map uninsert %2;
+    jt_m_print_msg {<efc>removed void room at %1};
+}
+
+#alias jt_m_room_flag { 
+    #show me letsgo;
+    #map set roomsymbol %1;
+    jt_m_print_msg {<efc>changed room to %2};
 }
 
 #alias jt_m_door {
@@ -280,3 +363,9 @@
 #action {You pull down the lever, and the tension on the chain} {
     #map goto 10;
 }
+
+
+#nop ----- mapper defaults -----
+
+#var jt_m_display[split] {0 1 0 -90};
+#var jt_m_display[offset] {1 91 -1 -1};

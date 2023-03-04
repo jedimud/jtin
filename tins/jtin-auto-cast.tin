@@ -13,39 +13,39 @@
     #return;
 }
 
-#action {^Tsutey is surrounded by a white sphere.$} {
+#action {^$jt_at_ac_target is surrounded by a white sphere.$} {
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^Tsutey is already glowing!  You want to turn him into a candle?$} {
+#action {^$jt_at_ac_target is already glowing!  You want to turn him into a candle?$} {
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^You encase Tsutey in a protective stone skin.$} {
+#action {^You encase $jt_at_ac_target in a protective stone skin.$} {
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^Tsutey has been strengthened by your god.$} {
+#action {^$jt_at_ac_target has been strengthened by your god.$} {
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^You give Tsutey a good feeling.$} {
+#action {^You give $jt_at_ac_target a good feeling.$} {
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^Tsutey is now protected by your magic.$} {
+#action {^$jt_at_ac_target is now protected by your magic.$} {
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^Your spell has closed some of Tsutey's wounds.$} {
+#action {^Your spell has closed some of $jt_at_ac_target's wounds.$} {
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^You heal Tsutey.$} {
+#action {^You heal $jt_at_ac_target.$} {
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^But Tsutey is already protected!$} {
+#action {^But $jt_at_ac_target is already protected!$} {
     #var jt_ac_sp_action not_pending;
 }
 
@@ -81,4 +81,4 @@
     #var jt_ac_sp_action not_pending;
 }
 
-jt_at_ac_default
+jt_at_ac_default;
