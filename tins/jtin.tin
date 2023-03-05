@@ -62,6 +62,7 @@
         #if {"%2" != ""} {
             jt_t_print_msg {name :: <efc>$jt_t_name};
             #var jt_t_name {%2};
+            #screen set title %2;
         };
         #else {
             jt_print_message_with_buffer {<efc>unknown command, try :: jt toon name <value>};
