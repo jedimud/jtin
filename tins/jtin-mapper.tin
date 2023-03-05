@@ -158,10 +158,14 @@
 }
 
 #alias jt_m_void_room {
+    #unvar jt_m_terrain;
+    #map get roomterrain jt_m_terrain;
     #map insert %2;
     #map move %2;
+    #map roomterrain $jt_m_terrain;
     #map roomflag void;
     #map move %3;
+    #unvar jt_m_terrain;
     jt_m_print_msg {<efc>added void room to %1};
 }
 
@@ -367,5 +371,5 @@
 
 #nop ----- mapper defaults -----
 
-#var jt_m_display[split] {0 1 0 -90};
-#var jt_m_display[offset] {1 91 -1 -1};
+#var jt_m_display[split] {#split 0 0 0 -90};
+#var jt_m_display[offset] {#map offset 1 91 -1 -1};
