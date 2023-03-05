@@ -135,10 +135,9 @@
     #elseif {"%1" == "path"} {jt_m_room_flag {*} {path}};
     #elseif {"%1" == "donation"} {jt_m_room_flag {D} {donation}};
 
-    #elseif {"%1" == "aggro"} {#map set roomcolor <fca>};
     #elseif {"%1" == "water"} {#map set roomcolor <acf>};
 
-    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|fog|void|unvoid|loop|link|exit|shop|inn|master|fountain|bank|recall|donation|aggro|water)}};
+    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|fog|void|unvoid|loop|link|exit|shop|inn|master|fountain|bank|path|donation|aggro|water)}};
 }
 
 #alias jt_m_void {
@@ -373,3 +372,4 @@
 
 #var jt_m_display[split] {#split 0 0 0 -90};
 #var jt_m_display[offset] {#map offset 1 91 -1 -1};
+#map flag direction on;
