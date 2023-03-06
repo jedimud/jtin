@@ -420,6 +420,11 @@
     }
 }
 
+#alias jt_m_report_stats { 
+    #script {jt_m_stats} {sh -c './sh/map-stats.sh'};
+    jt_m_print_msg {<afc>areas=<efc>$jt_m_stats[1], <afc>rooms=<efc>$jt_m_stats[2], <afc>paths=<efc>$jt_m_stats[3]};
+}
+
 #nop ----- mapper defaults -----
 
 #var jt_m_current {};

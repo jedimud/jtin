@@ -532,6 +532,7 @@
     #class jtin-path read tins/jtin-path.tin;
     #var jt_m_state enabled;
     jt_m_print_msg {<afc>enabled};
+    jt_m_report_stats;
 }
 
 #alias jt_m_print_state {
