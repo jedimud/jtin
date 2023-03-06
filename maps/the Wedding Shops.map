@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8207
+F 8206
 
 G 0
 
-I 9201
+I 17800
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -260,25 +260,78 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {2}{0}{}{}{SoM}{}{}{}{}{}{1.000}{}
+E {17824}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {6150}{0}{<efa>}{}{DHa}{}{}{}{}{}{1.000}{}
+R {3237}{0}{<efa>}{}{SoM}{}{}{}{}{}{1.000}{}
 
-R {9201}{0}{<fff>}{Cave Entrance}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {6150}{e}{jt_m_link_action {east} {Haon-Dor} {6150}}{2}{0}{}{1.000}{}{0.00}
-E {9203}{n}{n}{1}{0}{}{1.000}{}{0.00}
+R {3239}{0}{<efa>}{}{SoM}{}{}{}{}{}{1.000}{}
 
-R {9202}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3240}{0}{<efa>}{}{SoM}{}{}{}{}{}{1.000}{}
 
-R {9203}{0}{<fff>}{Four Way Intersection}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {9204}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9206}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {9201}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {9202}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {3241}{0}{<efa>}{}{SoM}{}{}{}{}{}{1.000}{}
 
-R {9204}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {17800}{0}{<fff>}{The Entrance to The Jade Manor}{ }{}{the Wedding Shops}{}{CITY}{}{1.000}{}
+E {17801}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3239}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3239}}{4}{0}{}{1.000}{}{0.00}
 
-R {9206}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {17801}{0}{<fff>}{The Atrium}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {17804}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {17800}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {17803}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {17802}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {17802}{0}{<fff>}{The Manager's Office}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {17801}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {17803}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {17804}{0}{<fff>}{The Entrance to the Azure Room}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {17814}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {17816}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {17801}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {17813}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {17813}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {17804}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {17815}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {17814}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {17817}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {17804}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {17815}{0}{<fff>}{The Bar}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {17816}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {17813}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {17816}{0}{<fff>}{The Dance Floor}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {17817}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {17818}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {17804}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {17815}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {17817}{0}{<fff>}{The Buffet Table}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {17814}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {17816}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {17818}{0}{<fff>}{The DJ's Stand}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {17816}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {17819}{0}{<fff>}{The Bridal Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {3240}{w}{jt_m_link_action {west} {the southern part of Midgaard} {3240}}{8}{0}{}{1.000}{}{0.00}
+
+R {17820}{0}{<fff>}{The Suitmakers}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {3241}{w}{jt_m_link_action {west} {the southern part of Midgaard} {3241}}{8}{0}{}{1.000}{}{0.00}
+
+R {17821}{0}{<fff>}{The Jeweler's Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {3240}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3240}}{1}{0}{}{1.000}{}{0.00}
+
+R {17822}{0}{<fff>}{The Jeweler's Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {3240}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3240}}{1}{0}{}{1.000}{}{0.00}
+
+R {17823}{0}{<fff>}{The Marriage Registry}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {3237}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3237}}{1}{0}{}{1.000}{}{0.00}
+
+R {17824}{0}{<fff>}{The Immigration Office}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
+E {2}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3237}}{4}{0}{}{1.000}{}{0.00}

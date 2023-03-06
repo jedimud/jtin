@@ -1,2 +1,24 @@
+#EVENT {SESSION CONNECTED} {
+     #variable TELNET[IAC]  \xFF;
+     #variable TELNET[DONT] \xFE;
+     #variable TELNET[DO]   \xFD;
+     #variable TELNET[WONT] \xFC;
+     #variable TELNET[WILL] \xFB;
+     #variable TELNET[SB]   \xFA;
+     #variable TELNET[SE]   \xF0;
+     #variable TELNET[MSDP] \x45;
+     #variable MSDP[VAR]   \x01;
+     #variable MSDP[VAL]   \x02;
+     #variable MSDP[TABLE_OPEN]  \x03;
+     #variable MSDP[TABLE_CLOSE] \x04;
+     #variable MSDP[ARRAY_OPEN]  \x05;
+     #variable MSDP[ARRAY_CLOSE] \x06;
+     #config {debug telnet} {off};
+}
+
+#EVENT {IAC WILL MSDP} {
+     #send {$TELNET[IAC]$TELNET[DO]$TELNET[MSDP]\}
+}
+
 #class jtin-login clear;
 #class jtin-login read tins/jtin-login.tin;

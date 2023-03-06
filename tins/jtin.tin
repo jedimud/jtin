@@ -60,9 +60,9 @@
 #alias jt_t {
     #if {"%1" == "name"} {
         #if {"%2" != ""} {
-            jt_t_print_msg {name :: <efc>$jt_t_name};
             #var jt_t_name {%2};
-            #screen set title %2;
+            jt_t_print_msg {name :: <efc>$jt_t_name};
+            #screen set title $jt_t_name;
         };
         #else {
             jt_print_message_with_buffer {<efc>unknown command, try :: jt toon name <value>};
@@ -79,6 +79,15 @@
     };
     #else {
         jt_print_message_with_buffer {<efc>unknown command, try :: jt toon (name|window)};
+    }
+}
+
+#event {SESSION ACTIVATED} {
+    #if {&{jt_t_name}} {
+        #screen set title $jt_t_name;
+    };
+    #else {
+        #screen set title JediMUD;
     }
 }
 

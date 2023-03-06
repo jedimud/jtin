@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 9201
+I 5100
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -253,32 +253,117 @@ T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
 T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEIN}
 T {INSIDE} {<F922B21>≡} {DENSE NARROW}
-T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEIN}
 T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {5011}{0}{<efa>}{}{GED}{}{}{}{}{}{1.000}{}
 
-R {6150}{0}{<efa>}{}{DHa}{}{}{}{}{}{1.000}{}
+R {5100}{0}{<fff>}{City Entrance}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5011}{u}{jt_m_link_action {up} {the Great Eastern Desert} {5011}}{16}{0}{}{1.000}{}{0.00}
+E {5101}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {9201}{0}{<fff>}{Cave Entrance}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {6150}{e}{jt_m_link_action {east} {Haon-Dor} {6150}}{2}{0}{}{1.000}{}{0.00}
-E {9203}{n}{n}{1}{0}{}{1.000}{}{0.00}
+R {5101}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5100}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5123}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5102}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5122}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {9202}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {5102}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5101}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5103}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {9203}{0}{<fff>}{Four Way Intersection}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {9204}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9206}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {9201}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {9202}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {5103}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5102}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5104}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5106}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {9204}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {5104}{0}{<fff>}{3rd House}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5103}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5105}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
-R {9206}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {5105}{0}{<fff>}{Throne Room}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5104}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {5106}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5103}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5118}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5107}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5107}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5106}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5110}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5108}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5108}{0}{<fff>}{2nd House}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5107}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5109}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5109}{0}{<fff>}{Throne Room}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5108}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {5110}{0}{<fff>}{Main Gate}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5114}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5107}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5111}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5111}{0}{<fff>}{1st House}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5110}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {5112}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5112}{0}{<fff>}{Throne Room}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5111}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5113}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {5113}{0}{<fff>}{Main Chamber}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5112}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {5114}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5117}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5115}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5110}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5115}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5114}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5116}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5116}{0}{<fff>}{Cleric Academy}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5115}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {5117}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5121}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5119}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5114}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5118}{0}{<fff>}{Warrior's Academy}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5106}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5119}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {5120}{0}{<fff>}{Mage's Academy}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5121}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {5121}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5123}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5120}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5122}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5117}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5122}{0}{<fff>}{Slave Chamber}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5101}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5121}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5123}{0}{<fff>}{City street}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5124}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5101}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5121}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5124}{0}{<fff>}{4th house}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5125}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5123}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {5125}{0}{<fff>}{Throne Room}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5124}{w}{w}{8}{0}{}{1.000}{}{0.00}

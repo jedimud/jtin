@@ -12206,3 +12206,20 @@ Weight: 4, Value: 0, Rent: 0, Min. level: 0
 Can affect you as :
    Affects: HITROLL By 1
 Item slot: Hold
+-----
+Object 'some blackberries', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 10, Min. level: 0
+-----
+Object 'a mushroom', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 10, Min. level: 0
+-----
+Object 'a lumber axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 10, Value: 500, Rent: 100, Min. level: 0
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Item slot: Wield

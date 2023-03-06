@@ -12,7 +12,7 @@
         jt_m_hide;
     };
     #elseif {"%1" == "create"} {
-        jt_m_create %2;
+        jt_m_create {%2};
     };
     #elseif {"%1" == "edit"} {
         jt_m_edit;
@@ -87,13 +87,21 @@
     #map create;
     #map goto 1;
     #map flag VTmap on;
-    #map flag UnicodeGraphics on;
+    #map flag AsciiGraphics on;
     #map flag direction on;
+    #map flag terrain on;
     jt_m_hide;
     jt_m_show;
     #map legend {unicode graphics} { { } {\u2198} {\u2197} {>} {\u2199} {\u2E0C\u2E0D} {\uFF0F} {>\u2E0D} {\u2196} {\uFF3C} {\u2E1D\u2E1C} {>\u2E1C} {<} {\u2E0C<} {\u2E1D<} {><} {-} {\u2191} {\u2193} {\u2502} {+} {\u2192} {\u2190} {\u2500} {[} {(} {]} {)} };
-    #variable jt_m_current %1;
-    #map write maps/%1.map;
+    #variable jt_m_current {%1};
+    #map TERRAIN FOREST <F0B5345>⍋ SPARSE VAST FADEIN;
+    #map TERRAIN INSIDE <F922B21>≡ DENSE NARROW;
+    #map TERRAIN CITY <FF03A2E>= DENSE NARROW;
+    #map TERRAIN FIELD <F9A7D0A>:: SPARSE FADEOUT DOUBLE;
+    #map TERRAIN NOSWIM <F21618C>~;
+    #map TERRAIN SWIM <F21618C>~;
+    #map TERRAIN MOUNTAINS <F935116>◮ SPARSE VAST FADEOUT;
+    #map write {maps/%1.map};
 }
 
 #alias jt_m_edit {
@@ -121,7 +129,7 @@
     #elseif {"%1" == "lock"} {jt_m_lock %2};
     #elseif {"%1" == "fog"} {jt_m_fog %2};
     #elseif {"%1" == "loop"} {jt_m_loop %2};
-    #elseif {"%1" == "link"} {jt_m_link {%2} {%3} {%4}};
+    #elseif {"%1" == "link"} {jt_m_link {%2} {%3} {%4} {%5}};
 
     #elseif {"%1" == "void"} {jt_m_void %2};
     #elseif {"%1" == "unvoid"} {jt_m_unvoid %2};
@@ -157,14 +165,11 @@
 }
 
 #alias jt_m_void_room {
-    #unvar jt_m_terrain;
-    #map get roomterrain jt_m_terrain;
     #map insert %2;
     #map move %2;
-    #map roomterrain $jt_m_terrain;
+    #map set roomterrain $MSDP_ROOM[TERRAIN];
     #map roomflag void;
     #map move %3;
-    #unvar jt_m_terrain;
     jt_m_print_msg {<efc>added void room to %1};
 }
 
@@ -190,7 +195,6 @@
 }
 
 #alias jt_m_room_flag { 
-    #show me letsgo;
     #map set roomsymbol %1;
     jt_m_print_msg {<efc>changed room to %2};
 }
@@ -304,17 +308,23 @@
         #case "d" {#var path down};
     };
     #if {"$path" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name>}
     };
     #elseif {"%2" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name>}
     };
     #elseif {"%3" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name>}
+    };
+    #elseif {"%4" == ""} {
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name>}
     };
     #else {
         #map exit %1 command {jt_m_link_action {$path} {%2} {%3}};
-        jt_m_print_msg {<efc>added room link: $path %2 %3};
+        #map mov %1;
+        #map set roomsymbol %4;
+        #map goto $MSDP_ROOM[VNUM];
+        jt_m_print_msg {<efc>added room link: $path %2 %3 %4};
     }
 }
 
@@ -330,46 +340,90 @@
 }
 
 
-#nop ----- specialty room actions -----
+#nop ----- msdp mapping -----
 
+#EVENT {IAC SB MSDP ROOM} {
+    #map get worldflags jt_m_flags;
+    #variable {MSDP_ROOM} {%1};
+    #if {"$jt_m_current" == ""} {
+        #var jt_m_current {$MSDP_ROOM[AREA]};
+        map open {$MSDP_ROOM[AREA]} {$MSDP_ROOM[VNUM]};
+    };
+    #elseif {"$jt_m_current" != "$MSDP_ROOM[AREA]"} {
+        #if {"$jt_m_flags" == "8206" || "$jt_m_flags" == "262"} { 
+            map save;
+        };
+        #var jt_m_current {$MSDP_ROOM[AREA]};
+        map open {$MSDP_ROOM[AREA]} {$MSDP_ROOM[VNUM]};
+    };
+        
+    #if {"$jt_m_flags" == "8206" || "$jt_m_flags" == "262"} { 
+        #showme $MSDP_ROOM;
+        #map goto {$MSDP_ROOM[VNUM]} {dig};
+        #map set roomarea $MSDP_ROOM[AREA];
+        #map set roomname $MSDP_ROOM[NAME];
+        #map set roomterrain $MSDP_ROOM[TERRAIN];
+        #map set roomcolor <fff>;
+    
+        #foreach {*MSDP_ROOM[EXITS][]} {EXIT}
+        {
+            #map get {roomexit} {EXIT_LIST};
+            #if {&{EXIT_LIST[$EXIT]} == 0} {
+                #map get {roomvnum} {EXIT_VNUM} {$MSDP_ROOM[EXITS][$EXIT]};
+                #map dig {@parse_exit{$EXIT}} {$MSDP_ROOM[EXITS][$EXIT]};
 
-#nop -- universe
-#action {^Inside the traveling wagon} {
-    map open galaxy 1;
-}
+                #nop add doors;
+                #if {"$MSDP_ROOM[DOORS][$EXIT]" != ""} {
+                    room door @parse_exit{$EXIT};
+                };
 
-#nop -- underworld
-#action {^You pay the Charon.$} {
-    #map mov n;
-}
-
-#action {^You travel across the river Styx.$} {
-    #map mov n;
-}
-
-#nop -- underworld
-#action {^You finish your journey across the river.$} {
-    #map mov n;
-}
-
-#nop -- toyland
-#action {^You enter the toybox.$} {
-    #if {"$jt_m_current" == "new-thalos"} {
-        map open andrus-toy-land 1;
+                #nop set room undiscovered;
+                #if {$EXIT_VNUM == 0} {
+                    #map set {roomcolor} {<efa>} {$MSDP_ROOM[EXITS][$EXIT]};
+                }
+            }
+        }
     };
     #else {
-        map open new-thalos 29;
+        #map goto {$MSDP_ROOM[VNUM]};
     }
 }
 
-#nop -- hellas
-#action {You pull down the lever, and the tension on the chain} {
-    #map goto 10;
+#function parse_exit {
+    #switch {"%1"} {
+        #case {"east"} {#return e};
+        #case {"west"} {#return w};
+        #case {"south"} {#return s};
+        #case {"north"} {#return n};
+        #case {"northeast"} {#return ne};
+        #case {"northwest"} {#return nw};
+        #case {"southeast"} {#return se};
+        #case {"southwest"} {#return sw};
+        #case {"up"} {#return u};
+        #case {"down"} {#return d};
+    }
 }
 
+#function parse_opposite {
+    #switch {"%1"} {
+        #case {"east"} {#return w};
+        #case {"west"} {#return e};
+        #case {"south"} {#return n};
+        #case {"north"} {#return s};
+        #case {"northeast"} {#return sw};
+        #case {"northwest"} {#return se};
+        #case {"southeast"} {#return nw};
+        #case {"southwest"} {#return ne};
+        #case {"up"} {#return d};
+        #case {"down"} {#return u};
+    }
+}
 
 #nop ----- mapper defaults -----
 
+#var jt_m_current {};
 #var jt_m_display[split] {#split 0 0 0 -90};
 #var jt_m_display[offset] {#map offset 1 91 -1 -1};
-#map flag direction on;
+#variable result {$TELNET[IAC]$TELNET[SB]$TELNET[MSDP]$MSDP[VAR]REPORT};
+#variable result {$result$MSDP[VAL]ROOM};
+#send {$result$TELNET[IAC]$TELNET[SE]\};

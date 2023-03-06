@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 9201
+I 3502
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -251,34 +251,54 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 T {} { } {}
 T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
-T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEIN}
+T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
 T {INSIDE} {<F922B21>≡} {DENSE NARROW}
-T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEIN}
+T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEOUT}
 T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6150}{0}{<efa>}{}{DHa}{}{}{}{}{}{1.000}{}
+R {1802}{0}{<efa>}{}{Nir}{}{}{}{}{}{1.000}{}
 
-R {9201}{0}{<fff>}{Cave Entrance}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {6150}{e}{jt_m_link_action {east} {Haon-Dor} {6150}}{2}{0}{}{1.000}{}{0.00}
-E {9203}{n}{n}{1}{0}{}{1.000}{}{0.00}
+R {3108}{0}{<efa>}{}{Mid}{}{}{}{}{}{1.000}{}
 
-R {9202}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3501}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
-R {9203}{0}{<fff>}{Four Way Intersection}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {9204}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9206}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {9201}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {9202}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {3502}{0}{<fff>}{The Turning Point}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
+E {3504}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3501}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1802}{s}{jt_m_link_action {south} {Miden'Nir} {1802}}{4}{0}{}{1.000}{}{0.00}
+E {3503}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {9204}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3503}{0}{<fff>}{City Entrance}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
+E {3502}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3108}{w}{jt_m_link_action {west} {Midgaard} {3108}}{8}{0}{}{1.000}{}{0.00}
 
-R {9206}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3504}{0}{<fff>}{Trail through the hills}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
+E {3505}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3502}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {3505}{0}{<fff>}{Trail through the hills}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
+E {3506}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3504}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {3506}{0}{<fff>}{Trail through the hills}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
+E {3507}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10001}{n}{jt_m_link_action {north} {Enfan City} {10001}}{1}{0}{}{1.000}{}{0.00}
+E {3505}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {3507}{0}{<fff>}{Trail through the hills}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
+E {3507}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13944}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {3506}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10001}{0}{<efa>}{}{Enf}{}{}{}{}{}{1.000}{}
+
+R {13944}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}

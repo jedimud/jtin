@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 9201
+I 100
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -251,9 +251,9 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 T {} { } {}
 T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
-T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEIN}
+T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
 T {INSIDE} {<F922B21>≡} {DENSE NARROW}
-T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEIN}
+T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEOUT}
 T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
@@ -265,20 +265,46 @@ E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6150}{0}{<efa>}{}{DHa}{}{}{}{}{}{1.000}{}
+R {100}{0}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {3001}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {101}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {9201}{0}{<fff>}{Cave Entrance}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {6150}{e}{jt_m_link_action {east} {Haon-Dor} {6150}}{2}{0}{}{1.000}{}{0.00}
-E {9203}{n}{n}{1}{0}{}{1.000}{}{0.00}
+R {101}{0}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {102}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {100}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {103}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {9202}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {102}{0}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {176}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {104}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {101}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {9203}{0}{<fff>}{Four Way Intersection}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {9204}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9206}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {9201}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {9202}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {103}{0}{<fff>}{Dining Hall}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {101}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {105}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {9204}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {104}{0}{<fff>}{Library}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {161}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {102}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {160}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {9206}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {105}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {103}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {108}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {107}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {106}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {106}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {107}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {108}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {160}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {161}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {176}{0}{<fff>}{Kitchen}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {102}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {3001}{0}{<efa>}{}{Mid}{}{}{}{}{}{1.000}{}
