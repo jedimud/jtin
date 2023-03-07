@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8207
+F 8206
 
 G 0
 
-I 3042
+I 3020
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -570,9 +570,9 @@ E {3034}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3020}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3021}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3060}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3062}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {8}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {3060}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {3021}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3022}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -713,9 +713,7 @@ R {3056}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3058}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
-R {3060}{1048576}{<fff>}{Entrance to the Clerics' Guild}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
-E {3100}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3020}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {3060}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3062}{0}{<fff>}{Entrance to the Sohei Guild}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3113}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -831,8 +829,6 @@ E {3109}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3133}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {3132}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {3109}{u}{u}{16}{0}{}{1.000}{}{0.00}
-
-R {3100}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3101}{0}{<fff>}{The Grunting Boar}{#}{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3007}{w}{w}{8}{0}{}{1.000}{}{0.00}
