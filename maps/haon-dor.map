@@ -288,7 +288,7 @@ E {6004}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {6004}{0}{<fff>}{A trail through the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
 E {6003}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6005}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {6100}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {6100}{w}{jt_m_link_action {west} {dark Haon-Dor} {6100}}{8}{0}{}{1.000}{}{0.00}
 
 R {6005}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
 E {6004}{n}{n}{1}{0}{}{1.000}{}{0.00}

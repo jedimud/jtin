@@ -12398,3 +12398,44 @@ Item will give you following abilities:  NOBITS
 Item is: UNIQUE 
 Weight: 3, Value: 4000, Rent: 7500, Min. level: 0
 Item slot: Light
+-----
+Object 'an important looking key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !RENT UNIQUE 
+Weight: 4, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'the silver key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !RENT UNIQUE 
+Weight: 4, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a white potion of Sense Life', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 4000, Rent: 1500, Min. level: 0
+This POTION casts:  Level 1 of sense life
+Item slot: Hold
+-----
+Object 'a small bundle of sticks', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: !RENT !DONATE UNIQUE 
+Weight: 2, Value: 10, Rent: 0, Min. level: 1
+-----
+Object 'a red potion of armor', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 4000, Rent: 1500, Min. level: 0
+This POTION casts:  Level 1 of armor
+Item slot: Hold
+-----
+Object 'large harpoon', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !SOHEI !RANGER !BARD UNIQUE 
+Weight: 20, Value: 3300, Rent: 500, Min. level: 8
+Damage Dice is '2D7' for an average per-round damage of 8.0.
+Item slot: Hold
+-----
+Object 'a few stones', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: !RENT !DONATE UNIQUE 
+Weight: 5, Value: 10, Rent: 0, Min. level: 1
