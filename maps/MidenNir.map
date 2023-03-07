@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 6501
+I 1802
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -248,7 +248,6 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 
-T {} { } {}
 T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
 T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
@@ -261,65 +260,130 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {2}{0}{}{}{DHa}{}{}{}{}{}{1.000}{}
+E {1850}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {1802}{0}{<fff>}{}{Nir}{}{}{}{}{}{1.000}{}
+R {1802}{0}{<fff>}{South of the Turning Point}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {6500}{d}{jt_m_link_action {down} {the Dwarven Kingdom} {6500}}{32}{0}{}{1.000}{}{0.00}
+E {3502}{n}{jt_m_link_action {north} {the trails near Midgaard} {3502}}{1}{0}{}{1.000}{}{0.00}
+E {1803}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6500}{0}{<fff>}{Path to Dwarven Village}{ }{}{the Dwarven Kingdom}{}{FIELD}{}{1.000}{}
-E {6501}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1802}{u}{jt_m_link_action {up} {MidenNir} {1802}}{16}{0}{}{1.000}{}{0.00}
+R {1803}{0}{<fff>}{The Hill Above the Bridge}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1802}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1804}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6501}{0}{<fff>}{Path, base of mountain}{ }{}{the Dwarven Kingdom}{}{HILLS}{}{1.000}{}
-E {6502}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6500}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {1804}{0}{<fff>}{The South Bridge}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1803}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1805}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6502}{0}{<fff>}{Path, middle of mountain}{ }{}{the Dwarven Kingdom}{}{MOUNTAINS}{}{1.000}{}
-E {6503}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6501}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {1805}{0}{<fff>}{The Trail to MidenNir}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1806}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1804}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1807}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6503}{0}{<fff>}{Top of mountain}{ }{}{the Dwarven Kingdom}{}{HILLS}{}{1.000}{}
-E {6540}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6502}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {6505}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {1806}{0}{<fff>}{The MidenNir}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1809}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1805}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6504}{0}{<fff>}{Narrow Path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6506}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6540}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {1807}{0}{<fff>}{The MidenNir}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1805}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1810}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1808}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6505}{0}{<fff>}{Entrance to Mountain}{ }{}{the Dwarven Kingdom}{}{FIELD}{}{1.000}{}
-E {6503}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6513}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+R {1808}{0}{<fff>}{On a Small Path}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1807}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1811}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6506}{0}{<fff>}{Bend in Narrow Path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6507}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6504}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {1809}{0}{<fff>}{The MidenNir}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1812}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1806}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1814}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6507}{0}{<fff>}{Narrow path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6508}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6506}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {1810}{0}{<fff>}{The Crossroads}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1814}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1807}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1816}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6508}{0}{<fff>}{Narrow north-south path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6509}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6507}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {1811}{0}{<fff>}{The Trail}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1808}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1815}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6509}{0}{<fff>}{Door to Kingdom}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6510}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
-E {6508}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {6522}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {1812}{0}{<fff>}{At the Foot of the Mountains}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1813}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1809}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6510}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {1813}{0}{<fff>}{The MidenNir}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1812}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1814}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6513}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {1814}{0}{<fff>}{Deep Forest}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1813}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1809}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1817}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1810}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6522}{0}{<fff>}{Guard House}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6509}{e}{e}{2}{0}{}{1.000}{}{0.00}
+R {1815}{0}{<fff>}{Light Forest}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1816}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1811}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1818}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6540}{0}{<fff>}{Dark path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6541}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
-E {6504}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6503}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {1816}{0}{<fff>}{The Sink}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1817}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1810}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1819}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1815}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6541}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {1817}{0}{<fff>}{Near the Mountains}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1814}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1816}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {1818}{0}{<fff>}{The Fading Trail}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1815}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1822}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1820}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {1819}{0}{<fff>}{The Dark Path}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1816}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1821}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {1820}{0}{<fff>}{On the Verge of Darkness}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1818}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {1821}{0}{<fff>}{Carnage}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1819}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {18600}{s}{jt_m_link_action {south} {MidenNir Extension} {18600}}{4}{0}{}{1.000}{}{0.00}
+E {1822}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {1822}{0}{<fff>}{Stench}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1821}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1818}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {1850}{0}{<fff>}{The narrow trail}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {2}{s}{jt_m_link_action {south} {dark Haon-Dor} {6102}}{4}{0}{}{1.000}{}{0.00}
+E {1851}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {1851}{0}{<fff>}{The narrow trail.}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1852}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1850}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {1852}{0}{<fff>}{The circle of trees.}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1853}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1851}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {1853}{0}{<fff>}{Inside the great tree.}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1854}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {1852}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {1854}{0}{<fff>}{The underground hallway.}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1855}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1853}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+
+R {1855}{0}{<fff>}{The cultist temple}{ }{}{MidenNir}{}{FOREST}{}{1.000}{}
+E {1854}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {3502}{0}{<fff>}{}{TNM}{}{}{}{}{}{1.000}{}
+
+R {6500}{0}{<fff>}{}{DwK}{}{}{}{}{}{1.000}{}
+
+R {18600}{0}{<fff>}{}{MNX}{}{}{}{}{}{1.000}{}

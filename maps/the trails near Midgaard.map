@@ -281,7 +281,7 @@ E {3502}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {3502}{0}{<fff>}{The Turning Point}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
 E {3504}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3501}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1802}{s}{jt_m_link_action {south} {Miden'Nir} {1802}}{4}{0}{}{1.000}{}{0.00}
+E {1802}{s}{jt_m_link_action {south} {MidenNir} {1802}}{4}{0}{}{1.000}{}{0.00}
 E {3503}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3503}{0}{<fff>}{City Entrance}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}

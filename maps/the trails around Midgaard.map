@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 18600
+I 3900
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -248,9 +248,10 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 
+T {} { } {}
 T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
-T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
+T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEIN}
 T {HILLS} {<F7D6608>︵} {SPARSE WIDE FADEIN DOUBLE}
 T {INSIDE} {<F922B21>≡} {DENSE NARROW}
 T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEOUT}
@@ -260,116 +261,59 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {1821}{0}{<fff>}{}{Nir}{}{}{}{}{}{1.000}{}
+R {1100}{0}{<fff>}{}{ShV}{}{}{}{}{}{1.000}{}
 
-R {18600}{0}{<fff>}{The Goblin Guard Post}{ }{}{Miden'Nir Extension}{}{FIELD}{}{1.000}{}
-E {1821}{n}{jt_m_link_action {north} {Miden'Nir} {1821}}{1}{0}{}{1.000}{}{0.00}
-E {18601}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {3107}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
 
-R {18601}{0}{<fff>}{A Short Trail}{ }{}{Miden'Nir Extension}{}{FIELD}{}{1.000}{}
-E {18600}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18602}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {3108}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
 
-R {18602}{0}{<fff>}{The Circle of Huts}{ }{}{Miden'Nir Extension}{}{FIELD}{}{1.000}{}
-E {18604}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {18601}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18603}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {18608}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
-E {18609}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {18605}{se}{se}{6}{0}{}{1.000}{}{0.00}
-E {18606}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
-E {18607}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {3119}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
 
-R {18603}{0}{<fff>}{A Small Hut}{ }{}{Miden'Nir Extension}{}{INSIDE}{}{1.000}{}
-E {18602}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+R {3900}{0}{<fff>}{West trail around Midgaard}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
+E {3901}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3107}{s}{jt_m_link_action {south} {Midgaard} {3107}}{4}{0}{}{1.000}{}{0.00}
 
-R {18604}{0}{<fff>}{The Largest Hut}{ }{}{Miden'Nir Extension}{}{INSIDE}{}{1.000}{}
-E {18602}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {3901}{0}{<fff>}{West trail around Midgaard}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
+E {3902}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3900}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1100}{w}{jt_m_link_action {west} {Shire Village} {3901}}{8}{0}{}{1.000}{}{0.00}
 
-R {18605}{0}{<fff>}{A Small Hut}{ }{}{Miden'Nir Extension}{}{INSIDE}{}{1.000}{}
-E {18602}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+R {3902}{0}{<fff>}{Northwest corner of dusty trail.}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
+E {3903}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3901}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {18606}{0}{<fff>}{A Small Hut}{ }{}{Miden'Nir Extension}{}{INSIDE}{}{1.000}{}
-E {18602}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+R {3903}{0}{<fff>}{Dusty trail along north wall.}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
+E {3904}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3902}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {18607}{0}{<fff>}{A Small Hut}{ }{}{Miden'Nir Extension}{}{INSIDE}{}{1.000}{}
-E {18602}{e}{e}{2}{0}{}{1.000}{}{0.00}
+R {3904}{0}{<fff>}{Outside the Northern Gate of Midgaard}{ }{}{the trails around Midgaard}{}{CITY}{}{1.000}{}
+E {3905}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5400}{n}{jt_m_link_action {north} {the northern plains} {5400}}{1}{0}{}{1.000}{}{0.00}
+E {3119}{s}{jt_m_link_action {south} {Midgaard} {3119}}{4}{0}{}{1.000}{}{0.00}
+E {3903}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {18608}{0}{<fff>}{A Small Hut}{ }{}{Miden'Nir Extension}{}{INSIDE}{}{1.000}{}
-E {18602}{se}{se}{6}{0}{}{1.000}{}{0.00}
+R {3905}{0}{<fff>}{Dusty trail along north wall.}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
+E {3906}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3904}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {18609}{0}{<fff>}{Soft Marshland}{ }{}{Miden'Nir Extension}{}{FOREST}{}{1.000}{}
-E {18602}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18610}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {3906}{0}{<fff>}{Northeast corner of dusty trail.}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
+E {15001}{ne}{jt_m_link_action {northeast} {King Welmars Castle} {15001}}{3}{0}{}{1.000}{}{0.00}
+E {3907}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {3905}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {18610}{0}{<fff>}{Soft Marshland}{ }{}{Miden'Nir Extension}{}{FOREST}{}{1.000}{}
-E {18609}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18613}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {3907}{0}{<fff>}{East trail around Midgaard}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
+E {3906}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3908}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {18611}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3908}{0}{<fff>}{East trail around Midgaard}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
+E {3907}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3108}{s}{jt_m_link_action {south} {Midgaard} {3108}}{4}{0}{}{1.000}{}{0.00}
 
-R {18612}{0}{<fff>}{Somewhat Firm Mud}{ }{}{Miden'Nir Extension}{}{HILLS}{}{1.000}{}
-E {18613}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {18616}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {18611}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {5400}{0}{<fff>}{}{NoP}{}{}{}{}{}{1.000}{}
 
-R {18613}{0}{<fff>}{Somewhat Firm Mud}{ }{}{Miden'Nir Extension}{}{HILLS}{}{1.000}{}
-E {18614}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {18610}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18617}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {18612}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {18614}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {18615}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {18616}{0}{<fff>}{Somewhat Firm Mud}{ }{}{Miden'Nir Extension}{}{HILLS}{}{1.000}{}
-E {18617}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {18612}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18620}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {18615}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {18617}{0}{<fff>}{Deep Marsh}{ }{}{Miden'Nir Extension}{}{MOUNTAINS}{}{1.000}{}
-E {18618}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {18613}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18621}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {18616}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {18618}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {18619}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {18620}{0}{<fff>}{Somewhat Firm Mud}{ }{}{Miden'Nir Extension}{}{HILLS}{}{1.000}{}
-E {18621}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {18616}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18624}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {18623}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
-E {18619}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {18621}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {18623}{0}{<fff>}{Somewhat Firm Mud}{ }{}{Miden'Nir Extension}{}{HILLS}{}{1.000}{}
-E {18624}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {18620}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {18667}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {18624}{0}{<fff>}{Deep Marsh}{ }{}{Miden'Nir Extension}{}{MOUNTAINS}{}{1.000}{}
-E {18625}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {18620}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18623}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {18625}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {18632}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {18666}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {18667}{0}{<fff>}{The Base of the Tower.}{ }{}{Miden'Nir Extension}{}{FIELD}{}{1.000}{}
-E {18632}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {18623}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18666}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+R {15001}{0}{<fff>}{}{Wel}{}{}{}{}{}{1.000}{}

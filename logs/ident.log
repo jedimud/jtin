@@ -12381,3 +12381,20 @@ Object 'a brilliant sapphire', Item type: TREASURE
 Item will give you following abilities:  NOBITS 
 Item is: MAG UNIQUE 
 Weight: 7, Value: 3500, Rent: 1000, Min. level: 0
+-----
+Object 'a chest', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 11, Value: 1000, Rent: 1200, Min. level: 0
+It can hold approximately 20 units.
+-----
+Object 'a peculiar widget', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3400, Rent: 2000, Min. level: 0
+-----
+Object 'a techanist clockwork bauble', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 4000, Rent: 7500, Min. level: 0
+Item slot: Light

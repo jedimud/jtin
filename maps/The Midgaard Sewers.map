@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 6501
+I 7320
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -251,7 +251,7 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 T {} { } {}
 T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
-T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
+T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEIN}
 T {HILLS} {<F7D6608>︵} {SPARSE WIDE FADEIN DOUBLE}
 T {INSIDE} {<F922B21>≡} {DENSE NARROW}
 T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEOUT}
@@ -261,65 +261,188 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {1802}{0}{<fff>}{}{Nir}{}{}{}{}{}{1.000}{}
+R {3}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {7310}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
-R {6500}{0}{<fff>}{Path to Dwarven Village}{ }{}{the Dwarven Kingdom}{}{FIELD}{}{1.000}{}
-E {6501}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1802}{u}{jt_m_link_action {up} {MidenNir} {1802}}{16}{0}{}{1.000}{}{0.00}
+R {4}{8}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {3241}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {5}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
-R {6501}{0}{<fff>}{Path, base of mountain}{ }{}{the Dwarven Kingdom}{}{HILLS}{}{1.000}{}
-E {6502}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6500}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {5}{8}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {4}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {7320}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
-R {6502}{0}{<fff>}{Path, middle of mountain}{ }{}{the Dwarven Kingdom}{}{MOUNTAINS}{}{1.000}{}
-E {6503}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6501}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {3090}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
 
-R {6503}{0}{<fff>}{Top of mountain}{ }{}{the Dwarven Kingdom}{}{HILLS}{}{1.000}{}
-E {6540}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6502}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {6505}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {3241}{0}{<fff>}{}{SoM}{}{}{}{}{}{1.000}{}
 
-R {6504}{0}{<fff>}{Narrow Path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6506}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6540}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {7300}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {3090}{u}{jt_m_link_action {up} {Midgaard} {3090}}{16}{0}{}{1.000}{}{0.00}
+E {7301}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6505}{0}{<fff>}{Entrance to Mountain}{ }{}{the Dwarven Kingdom}{}{FIELD}{}{1.000}{}
-E {6503}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6513}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+R {7301}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7300}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7302}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6506}{0}{<fff>}{Bend in Narrow Path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6507}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6504}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {7302}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7301}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7303}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6507}{0}{<fff>}{Narrow path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6508}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6506}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {7303}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7309}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7302}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7304}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6508}{0}{<fff>}{Narrow north-south path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6509}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6507}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {7304}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7305}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7303}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {6509}{0}{<fff>}{Door to Kingdom}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6510}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
-E {6508}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {6522}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {7305}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7304}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6510}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {7306}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7318}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7307}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7308}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6513}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {7307}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7309}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7306}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6522}{0}{<fff>}{Guard House}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6509}{e}{e}{2}{0}{}{1.000}{}{0.00}
+R {7308}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7309}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7306}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {6540}{0}{<fff>}{Dark path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6541}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
-E {6504}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6503}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {7309}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7307}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7303}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {7308}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6541}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {7310}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {3}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {7311}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+
+R {7316}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7331}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7317}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7317}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7316}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7318}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7318}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7317}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7306}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {7319}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7320}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {7320}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7321}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7322}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5}{u}{jt_m_link_action {up} {the southern part of Midgaard} {3241}}{16}{0}{}{1.000}{}{0.00}
+E {7319}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7321}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7320}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7322}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7320}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7323}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7323}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7332}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7322}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7324}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7325}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7325}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7331}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7326}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7324}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7326}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7327}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7325}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7327}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7328}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7326}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {7328}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7327}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7329}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7329}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7328}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7330}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7331}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7330}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7344}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7329}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7331}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7329}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7316}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {7325}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7332}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7323}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {7333}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7333}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7332}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7334}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7334}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7335}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7333}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7335}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7336}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7334}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7336}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7335}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7337}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7337}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7341}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7336}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {7338}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7310}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7339}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7339}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7340}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7338}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7340}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7339}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7341}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {7341}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7340}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7342}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7337}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {7342}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7343}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7341}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {7343}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7344}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7342}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7344}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7343}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7330}{u}{u}{16}{0}{}{1.000}{}{0.00}

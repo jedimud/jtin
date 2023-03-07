@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 262
+F 8207
 
 G 0
 
-I 3214
+I 3241
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -248,6 +248,7 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 
+T {} { } {}
 T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
 T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
@@ -648,11 +649,11 @@ E {17821}{s}{jt_m_link_action {south} {the Wedding Shops} {17821}}{4}{0}{}{1.000
 E {3239}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3241}{0}{<fff>}{End of Penny Lane}{%}{}{the southern part of Midgaard}{}{CITY}{}{1.000}{}
-E {7320}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7320}{d}{jt_m_link_action {down} {The Midgaard Sewers} {7320}}{32}{0}{}{1.000}{}{0.00}
 E {17820}{e}{jt_m_link_action {east} {the Wedding Shops} {17820}}{2}{0}{}{1.000}{}{0.00}
 E {3240}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {7320}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {7320}{0}{<fff>}{}{MSw}{}{}{}{}{}{1.000}{}
 
 R {17800}{0}{<fff>}{}{Wed}{}{}{}{}{}{1.000}{}
 

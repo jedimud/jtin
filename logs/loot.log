@@ -20,8 +20,8 @@ a yellow potion,the huge, green dragon,dark Haon-Dor,6143
 ,the large, black wolf,dark Haon-Dor,6109
 ,the ferocious warg,dark Haon-Dor,6109
 ,the vicious warg,dark Haon-Dor,6108
-the morning star,the Elder Druid,Miden'Nir,1855
-a staff of curing,the Elder Druid,Miden'Nir,1855
+the morning star,the Elder Druid,MidenNir,1855
+a staff of curing,the Elder Druid,MidenNir,1855
 a blue potion,the Queen Spider,dark Haon-Dor,6134
 an iron scepter,the Queen Spider,dark Haon-Dor,6134
 ,the huge, poisonous spider,dark Haon-Dor,6133
@@ -85,10 +85,10 @@ a big pile of gold coins,the green enfan,Enfan City,10045
 a gold key,the yellow enfan,Enfan City,10045
 an opal potion,the guard dog,Enfan City,10052
 opal ring,the guard dog,Enfan City,10052
-a pile of gold coins,a poisonous frog,Miden'Nir Extension,18610
-a big pile of gold coins,an insect swarm,Miden'Nir Extension,18610
-a pile of gold coins,a leech,Miden'Nir Extension,18610
-,a dwarven worker,Miden'Nir,1802
+a pile of gold coins,a poisonous frog,MidenNir Extension,18610
+a big pile of gold coins,an insect swarm,MidenNir Extension,18610
+a pile of gold coins,a leech,MidenNir Extension,18610
+,a dwarven worker,MidenNir,1802
 a large heap of gold coins,a swaggering mercenary,the Wayhouse,3722
 a large heap of gold coins,a swaggering mercenary,the Wayhouse,3717
 a big pile of gold coins,a caravan guard,the Wayhouse,3703
@@ -134,3 +134,37 @@ a small pile of gold coins,the myconoid,the Great Eastern Desert,5020
 a small pile of gold coins,the myconoid,the Great Eastern Desert,5020
 ,the brass dragon,the Great Eastern Desert,5065
 ,the coral snake,the Great Eastern Desert,5053
+a little pile of gold coins,a halfling youth,Shire Village,1143
+,a bull,Shire Village,1138
+a little pile of gold coins,a halfling youth,Shire Village,1141
+a pile of gold coins,Farmer Gamgee,Shire Village,1141
+,Farmer Gamgee,Shire Village,1141
+,a halfling youth,Shire Village,1141
+a pile of gold coins,the rat,The Midgaard Sewers,7322
+a pile of gold coins,the city worker,The Midgaard Sewers,7322
+a pile of gold coins,the city worker,The Midgaard Sewers,7322
+,the city worker,The Midgaard Sewers,7322
+a trowel,the city worker,The Midgaard Sewers,7322
+a battered hard hat,the city worker,The Midgaard Sewers,7322
+,the rat,The Midgaard Sewers,7322
+a pile of gold coins,the bum,The Midgaard Sewers,7335
+a big pile of gold coins,the construction engineer,The Midgaard Sewers,7335
+a pile of gold coins,the bum,The Midgaard Sewers,7301
+a pile of gold coins,the rat,The Midgaard Sewers,7301
+,the rat,The Midgaard Sewers,7301
+,the bum,The Midgaard Sewers,7301
+,the city worker,The Midgaard Sewers,7314
+a black satin robe,Sholvanna Stark,The Midgaard Sewers,7315
+a pile of gold coins,the windup brass arachnid,The Midgaard Sewers,7346
+a pile of gold coins,the clockwork automaton,The Midgaard Sewers,7346
+a wrench,Namirrah Retlaw, the techanist,The Midgaard Sewers,7346
+the jumpsuit of delving,Namirrah Retlaw, the techanist,The Midgaard Sewers,7346
+,the clockwork automaton,The Midgaard Sewers,7346
+,the windup brass arachnid,The Midgaard Sewers,7346
+a pile of gold coins,the windup brass arachnid,The Midgaard Sewers,7347
+,the windup brass arachnid,The Midgaard Sewers,7347
+a pile of gold coins,the silvery centipede,The Midgaard Sewers,7349
+,the silvery centipede,The Midgaard Sewers,7349
+a pile of gold coins,the mechanical homunculus,The Midgaard Sewers,7348
+,the mechanical homunculus,The Midgaard Sewers,7348
+,the windup brass arachnid,The Midgaard Sewers,7350

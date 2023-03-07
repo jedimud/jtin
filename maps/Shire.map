@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8207
+F 8206
 
 G 0
 
-I 6501
+I 2
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -251,7 +251,7 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 T {} { } {}
 T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
-T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
+T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEIN}
 T {HILLS} {<F7D6608>︵} {SPARSE WIDE FADEIN DOUBLE}
 T {INSIDE} {<F922B21>≡} {DENSE NARROW}
 T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEOUT}
@@ -265,61 +265,3 @@ E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {1802}{0}{<fff>}{}{Nir}{}{}{}{}{}{1.000}{}
-
-R {6500}{0}{<fff>}{Path to Dwarven Village}{ }{}{the Dwarven Kingdom}{}{FIELD}{}{1.000}{}
-E {6501}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1802}{u}{jt_m_link_action {up} {MidenNir} {1802}}{16}{0}{}{1.000}{}{0.00}
-
-R {6501}{0}{<fff>}{Path, base of mountain}{ }{}{the Dwarven Kingdom}{}{HILLS}{}{1.000}{}
-E {6502}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6500}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {6502}{0}{<fff>}{Path, middle of mountain}{ }{}{the Dwarven Kingdom}{}{MOUNTAINS}{}{1.000}{}
-E {6503}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6501}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {6503}{0}{<fff>}{Top of mountain}{ }{}{the Dwarven Kingdom}{}{HILLS}{}{1.000}{}
-E {6540}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6502}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {6505}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {6504}{0}{<fff>}{Narrow Path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6506}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6540}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {6505}{0}{<fff>}{Entrance to Mountain}{ }{}{the Dwarven Kingdom}{}{FIELD}{}{1.000}{}
-E {6503}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6513}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
-
-R {6506}{0}{<fff>}{Bend in Narrow Path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6507}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6504}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {6507}{0}{<fff>}{Narrow path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6508}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6506}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {6508}{0}{<fff>}{Narrow north-south path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6509}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6507}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {6509}{0}{<fff>}{Door to Kingdom}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6510}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
-E {6508}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {6522}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {6510}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {6513}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
-
-R {6522}{0}{<fff>}{Guard House}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6509}{e}{e}{2}{0}{}{1.000}{}{0.00}
-
-R {6540}{0}{<fff>}{Dark path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6541}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
-E {6504}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6503}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {6541}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}

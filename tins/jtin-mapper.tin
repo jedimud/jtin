@@ -62,11 +62,9 @@
         #if {"%2" != ""} {
             #map goto %2;
             jt_m_print_msg {<efc>opening %1 at room %2};
-            jt_m_report_map_stats %1;
         } {
             #map goto 1; 
             jt_m_print_msg {<efc>opening %1 at default room};
-            jt_m_report_map_stats %1;
         };
         #map flag static on;
         #variable jt_m_current {%1};
@@ -340,7 +338,7 @@
         map show;
         #variable jt_m_current %2;
         jt_m_print_msg {<efc>now entering $jt_m_current};
-        jt_m_report_map_stats {$jt_m_current};
+        jt_m_report_map_stats {%2};
     };
 }
 
@@ -350,9 +348,11 @@
 #EVENT {IAC SB MSDP ROOM} {
     #map get worldflags jt_m_flags;
     #variable {MSDP_ROOM} {%1};
+    #replace {MSDP_ROOM[AREA]} {'} {};
     #if {"$jt_m_current" == ""} {
         #var jt_m_current {$MSDP_ROOM[AREA]};
         map open {$MSDP_ROOM[AREA]} {$MSDP_ROOM[VNUM]};
+        jt_m_report_map_stats {$MSDP_ROOM[AREA]};
     };
     #elseif {"$jt_m_current" != "$MSDP_ROOM[AREA]"} {
         #if {"$jt_m_flags" == "8206" || "$jt_m_flags" == "262"} { 

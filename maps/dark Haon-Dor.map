@@ -285,7 +285,7 @@ E {6102}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6102}{0}{<fff>}{A narrow trail through the deep, dark forest}{ }{}{dark Haon-Dor}{}{FOREST}{}{1.000}{}
 E {6101}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {1850}{n}{jt_m_link_action {north} {Miden'Nir} {1850}}{1}{0}{}{1.000}{}{0.00}
+E {1850}{n}{jt_m_link_action {north} {MidenNir} {1850}}{1}{0}{}{1.000}{}{0.00}
 E {6103}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6103}{0}{<fff>}{A narrow trail through the deep, dark forest}{ }{}{dark Haon-Dor}{}{FOREST}{}{1.000}{}

@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 3119
+I 3042
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -792,7 +792,7 @@ E {33}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3015}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3090}{0}{<fff>}{The Dump}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
-E {7300}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7300}{d}{jt_m_link_action {down} {The Midgaard Sewers} {7300}}{32}{0}{}{1.000}{}{0.00}
 E {3005}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {3091}{0}{<fff>}{Eastern Wall Road}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
@@ -847,12 +847,12 @@ E {3200}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3200}}{4}{
 
 R {3107}{0}{<fff>}{Outside the West Gate of Midgaard}{ }{}{Midgaard}{}{CITY}{}{1.000}{}
 E {3011}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {3900}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3900}{n}{jt_m_link_action {north} {the trails around Midgaard} {3900}}{1}{0}{}{1.000}{}{0.00}
 E {6000}{w}{jt_m_link_action {west} {Haon-Dor} {6000}}{8}{0}{}{1.000}{}{0.00}
 
 R {3108}{0}{<fff>}{Outside the East Gate of Midgaard}{ }{}{Midgaard}{}{CITY}{}{1.000}{}
 E {3503}{e}{jt_m_link_action {east} {the trails near Midgaard} {3503}}{2}{0}{}{1.000}{}{0.00}
-E {3908}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3908}{n}{jt_m_link_action {north} {the trails around Midgaard} {3908}}{1}{0}{}{1.000}{}{0.00}
 E {3015}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
 R {3109}{0}{<fff>}{By the Temple Altar}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
@@ -881,7 +881,7 @@ E {3134}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3119}{0}{<fff>}{Inside the North Gate of Midgaard}{ }{}{Midgaard}{}{CITY}{}{1.000}{}
 E {3097}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3904}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3904}{n}{jt_m_link_action {north} {the trails around Midgaard} {3904}}{1}{0}{}{1.000}{}{0.00}
 E {3118}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3078}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
 E {3136}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -1024,16 +1024,16 @@ R {3200}{0}{<fff>}{}{SoM}{}{}{}{}{}{1.000}{}
 
 R {3503}{0}{<fff>}{}{TNM}{}{}{}{}{}{1.000}{}
 
-R {3900}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3900}{0}{<fff>}{}{TAM}{}{}{}{}{}{1.000}{}
 
-R {3904}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3904}{0}{<fff>}{}{TAM}{}{}{}{}{}{1.000}{}
 
-R {3908}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3908}{0}{<fff>}{}{TAM}{}{}{}{}{}{1.000}{}
 
 R {5001}{0}{<fff>}{}{GED}{}{}{}{}{}{1.000}{}
 
 R {6000}{0}{<fff>}{}{Hao}{}{}{}{}{}{1.000}{}
 
-R {7300}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {7300}{0}{<fff>}{}{MdS}{}{}{}{}{}{1.000}{}
 
 R {16601}{0}{<fff>}{}{Bal}{}{}{}{}{}{1.000}{}
