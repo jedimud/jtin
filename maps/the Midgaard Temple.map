@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -248,6 +248,7 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 
+T {} { } {}
 T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
 T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
@@ -265,8 +266,8 @@ E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {100}{0}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {3001}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+R {100}{16}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {3001}{e}{jt_m_link_action {east} {Midgaard} {3001}}{2}{0}{}{1.000}{}{0.00}
 E {101}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {101}{0}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
@@ -307,4 +308,4 @@ R {161}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 R {176}{0}{<fff>}{Kitchen}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {102}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {3001}{0}{<efa>}{}{Mid}{}{}{}{}{}{1.000}{}
+R {3001}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}

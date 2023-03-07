@@ -62,9 +62,11 @@
         #if {"%2" != ""} {
             #map goto %2;
             jt_m_print_msg {<efc>opening %1 at room %2};
+            jt_m_report_map_stats %1;
         } {
             #map goto 1; 
             jt_m_print_msg {<efc>opening %1 at default room};
+            jt_m_report_map_stats %1;
         };
         #map flag static on;
         #variable jt_m_current {%1};
@@ -324,6 +326,7 @@
         #map exit %1 command {jt_m_link_action {$path} {%2} {%3}};
         #map mov %1;
         #map set roomsymbol %4;
+        #map set roomcolor <fff>;
         #map goto $MSDP_ROOM[VNUM];
         jt_m_print_msg {<efc>added room link: $path %2 %3 %4};
     }
@@ -337,6 +340,7 @@
         map show;
         #variable jt_m_current %2;
         jt_m_print_msg {<efc>now entering $jt_m_current};
+        jt_m_report_map_stats {$jt_m_current};
     };
 }
 
@@ -421,8 +425,13 @@
 }
 
 #alias jt_m_report_stats { 
-    #script {jt_m_stats} {sh -c './sh/map-stats.sh'};
-    jt_m_print_msg {<afc>areas=<efc>$jt_m_stats[1], <afc>rooms=<efc>$jt_m_stats[2], <afc>paths=<efc>$jt_m_stats[3]};
+    #script {jt_m_stats} {sh -c './sh/map-stats-all.sh'};
+    jt_m_print_msg {<afc>areas=<efc>$jt_m_stats[1], <afc>mapped=<efc>$jt_m_stats[2], <afc>unmapped=<efc>$jt_m_stats[3], <afc>paths=<efc>$jt_m_stats[4]};
+}
+
+#alias jt_m_report_map_stats { 
+    #script {jt_m_stats} {sh -c './sh/map-stats.sh %1'};
+    jt_m_print_msg {<afc>mapped <efc>$jt_m_stats[2] of $jt_m_stats[4] ($jt_m_stats[5]%), <afc>linked to <efc>$jt_m_stats[1] areas};
 }
 
 #nop ----- mapper defaults -----

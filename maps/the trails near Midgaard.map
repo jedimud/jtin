@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -248,6 +248,7 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 
+T {} { } {}
 T {CITY} {<FF03A2E>=} {DENSE NARROW}
 T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
 T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
@@ -265,11 +266,17 @@ E {2}{e}{e}{2}{0}{}{1.000}{}{0.00}
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {1}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {1802}{0}{<efa>}{}{Nir}{}{}{}{}{}{1.000}{}
+R {1802}{0}{<fff>}{}{Nir}{}{}{}{}{}{1.000}{}
 
-R {3108}{0}{<efa>}{}{Mid}{}{}{}{}{}{1.000}{}
+R {3108}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
 
-R {3501}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3500}{0}{<fff>}{The Plains}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
+E {4000}{n}{jt_m_link_action {north} {Moria} {4000}}{1}{0}{}{1.000}{}{0.00}
+E {3501}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {3501}{0}{<fff>}{The Lane}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
+E {3500}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3502}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3502}{0}{<fff>}{The Turning Point}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
 E {3504}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -296,9 +303,11 @@ E {3505}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3507}{0}{<fff>}{Trail through the hills}{ }{}{the trails near Midgaard}{}{CITY}{}{1.000}{}
 E {3507}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {13944}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13944}{s}{jt_m_link_action {south} {The Ant Hill} {13944}}{4}{0}{}{1.000}{}{0.00}
 E {3506}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {10001}{0}{<efa>}{}{Enf}{}{}{}{}{}{1.000}{}
+R {4000}{0}{<fff>}{}{Mor}{}{}{}{}{}{1.000}{}
 
-R {13944}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10001}{0}{<fff>}{}{Enf}{}{}{}{}{}{1.000}{}
+
+R {13944}{0}{<fff>}{}{Ant}{}{}{}{}{}{1.000}{}

@@ -12328,3 +12328,56 @@ Item will give you following abilities:  NOBITS
 Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI UNIQUE 
 Weight: 1, Value: 50000, Rent: 0, Min. level: 0
 Item slot: Wield
+-----
+Object 'a copper bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 10, Value: 4000, Rent: 2000, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HIT By 10
+   Affects: HITROLL By -2
+Item slot: Wrist
+-----
+Object 'a glittering diamond', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 10, Value: 6500, Rent: 2000, Min. level: 0
+-----
+Object 'the Tiger Jewel', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: BLESS UNIQUE 
+Weight: 15, Value: 8250, Rent: 2500, Min. level: 0
+Can affect you as :
+   Affects: DEX By 1
+Item slot: Hold
+-----
+Object 'an encrypted scroll', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 7, Value: 3600, Rent: 1800, Min. level: 0
+This SCROLL casts:  Level 22 of cure blind remove curse remove poison
+Item slot: Hold
+-----
+Object 'a deep blue lapis lazuli', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 11, Value: 6500, Rent: 2000, Min. level: 0
+-----
+Object 'a fiery green emerald', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 7, Value: 5500, Rent: 1500, Min. level: 0
+-----
+Object 'the red-eyed jewel', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: !DROP UNIQUE 
+Weight: 20, Value: 8400, Rent: 2400, Min. level: 0
+Can affect you as :
+   Affects: INT By -2
+Item slot: Hold
+-----
+Object 'a brilliant sapphire', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 7, Value: 3500, Rent: 1000, Min. level: 0
