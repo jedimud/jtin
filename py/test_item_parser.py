@@ -2341,6 +2341,36 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_bardic_recorder(self):
+        actual = self.read_item_from_file("a-bardic-recorder")
+
+        item = Item()
+        item.name = "a Bardic Recorder"
+        item.type = ItemType.INSTRUMENT
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.HUM)
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemClass.NO_MAGE)
+        item.tags.append(ItemClass.NO_CLER)
+        item.tags.append(ItemClass.NO_THF)
+        item.tags.append(ItemClass.NO_WAR)
+        item.tags.append(ItemClass.NO_PAL)
+        item.tags.append(ItemClass.NO_APAL)
+        item.tags.append(ItemClass.NO_NINJA)
+        item.tags.append(ItemClass.NO_JEDI)
+        item.tags.append(ItemClass.NO_SOHEI)
+        item.tags.append(ItemClass.NO_RANGER)
+        item.tags.append(ItemTag.UNIQUE)
+        
+        item.weight = 1
+        item.value = 50000
+        item.rent = 0
+        item.min_level = 5
+        
+        item.slots.append(ItemSlot.WIELD)
+
+        self.assert_equals(item, actual)
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

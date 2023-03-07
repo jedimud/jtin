@@ -11,6 +11,7 @@ class ItemType(Enum):
     DEVICE = "DEVICE", "device"
     FIRE_WEAPON = "FIRE-WEAPON", "fire-weapon"
     FOOD = "FOOD", "food"
+    INSTRUMENT = "INSTRUMENT", "instrument"
     KEY = "KEY", "key"
     LIGHT = "LIGHT", "light"
     LIQ_CONTAINER = "LIQ-CONTAINER", "liq-container"

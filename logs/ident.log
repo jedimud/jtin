@@ -12223,3 +12223,108 @@ Item is: !MAGE !CLER UNIQUE
 Weight: 10, Value: 500, Rent: 100, Min. level: 0
 Damage Dice is '2D4' for an average per-round damage of 5.0.
 Item slot: Wield
+-----
+Object 'a tribal feather earring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: BLESS LIMITED UNIQUE 
+Weight: 0, Value: 120000, Rent: 2000, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: DEX By 1
+   Affects: CHARISMA By 1
+Item slot: Earring
+-----
+Object 'a bunch of stakes', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 6, Value: 500, Rent: 71, Min. level: 0
+-----
+Object 'a coil of rope', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 12, Value: 900, Rent: 128, Min. level: 0
+-----
+Object 'a keycard', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'a long, curved sabre', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !EVIL !NEUTRAL !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 16, Value: 6000, Rent: 2000, Min. level: 0
+Damage Dice is '2D6' for an average per-round damage of 7.0.
+Can affect you as :
+   Affects: HITROLL By 2
+Item slot: Wield
+-----
+Object 'a curved scimitar', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !DROP BLESS NEUTRAL !MAGE !CLER !THF !PAL !APAL !NINJA UNIQUE 
+Weight: 10, Value: 13000, Rent: 6500, Min. level: 0
+Damage Dice is '3D5' for an average per-round damage of 9.0.
+Can affect you as :
+   Affects: HITROLL By 1
+Item slot: Wield
+
+-----
+Object 'a Bardic Recorder', Item type: INSTRUMENT
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER UNIQUE 
+Weight: 1, Value: 50000, Rent: 0, Min. level: 5
+Item slot: Wield
+-----
+Object 'a Bardic Flute', Item type: INSTRUMENT
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER UNIQUE 
+Weight: 1, Value: 50000, Rent: 0, Min. level: 10
+Item slot: Wield
+-----
+Object 'a Bardic Lyre', Item type: INSTRUMENT
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER UNIQUE 
+Weight: 1, Value: 50000, Rent: 0, Min. level: 15
+Item slot: Wield
+-----
+Object 'a Bardic Harp', Item type: INSTRUMENT
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER UNIQUE 
+Weight: 1, Value: 50000, Rent: 0, Min. level: 20
+Item slot: Wield
+-----
+Object 'a Harper's Pin', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER UNIQUE 
+Weight: 5, Value: 100000, Rent: 10000, Min. level: 25
+AC-apply is 30
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HITROLL By 1
+Item slot: On Body
+-----
+Object 'a Bardic Bracer', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER UNIQUE 
+Weight: 2, Value: 25000, Rent: 5000, Min. level: 25
+AC-apply is 3
+Can affect you as :
+   Affects: DAMROLL By 2
+   Affects: HITROLL By 2
+Item slot: Wrist
+-----
+Object 'a pair of Nike Airs', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER UNIQUE 
+Weight: 5, Value: 50000, Rent: 5000, Min. level: 15
+AC-apply is 6
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: MOVE By 25
+Item slot: Feet
+-----
+Object 'a Bardic Kazoo (humming)', Item type: INSTRUMENT
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI UNIQUE 
+Weight: 1, Value: 50000, Rent: 0, Min. level: 0
+Item slot: Wield
