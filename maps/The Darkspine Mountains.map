@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 10281
+I 24001
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -261,66 +261,94 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {2}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {7401}{0}{<fff>}{}{Ced}{}{}{}{}{}{1.000}{}
+R {12410}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
 
-R {10100}{0}{<fff>}{Uphill Path}{ }{}{Hellas}{}{HILLS}{}{1.000}{}
-E {12413}{e}{jt_m_link_action {east} {the grand city of New Thalos} {12413}}{2}{0}{}{1.000}{}{0.00}
-E {10101}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {13300}{0}{<fff>}{}{ToS}{}{}{}{}{}{1.000}{}
 
-R {10101}{0}{<fff>}{Uphill Path}{ }{}{Hellas}{}{HILLS}{}{1.000}{}
-E {10100}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {10102}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {21600}{0}{<fff>}{}{DrC}{}{}{}{}{}{1.000}{}
 
-R {10102}{0}{<fff>}{On the way to Hellas}{ }{}{Hellas}{}{HILLS}{}{1.000}{}
-E {10101}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {10103}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {24001}{0}{<fff>}{The Darkspine Mountains}{}{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24002}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12410}{se}{jt_m_link_action {southeast} {the grand city of New Thalos} {12410}}{6}{0}{}{1.000}{}{0.00}
 
-R {10103}{0}{<fff>}{Welcome to Hellas}{ }{}{Hellas}{}{CITY}{}{1.000}{}
-E {10102}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {10104}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {24002}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24003}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {24001}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {10104}{0}{<fff>}{East Plaza}{ }{}{Hellas}{}{CITY}{}{1.000}{}
-E {10103}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {10105}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {10106}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {10107}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {24003}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24004}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {24002}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {10105}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {24004}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24005}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {24003}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {10106}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {24005}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24006}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {24007}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {24004}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
-R {10107}{0}{<fff>}{Intersection of Dionysus Avenue and East Plaza}{ }{}{Hellas}{}{CITY}{}{1.000}{}
-E {10104}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {10170}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {10108}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {10254}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {10182}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {24006}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24009}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {24005}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {10108}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {24007}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24008}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {24005}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
-R {10170}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {24008}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24007}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {10182}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {24009}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24010}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {24006}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {10254}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {24010}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24011}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {24009}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 
-R {10279}{0}{<fff>}{In the foothills}{ }{}{Hellas}{}{HILLS}{}{1.000}{}
-E {10280}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {12412}{s}{jt_m_link_action {south} {the grand city of New Thalos} {12412}}{4}{0}{}{1.000}{}{0.00}
+R {24011}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24012}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {24010}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {10280}{0}{<fff>}{On the driveway}{ }{}{Hellas}{}{HILLS}{}{1.000}{}
-E {10281}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {10279}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {24012}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24014}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {24013}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {24011}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {10281}{0}{<fff>}{On the driveway}{ }{}{Hellas}{}{HILLS}{}{1.000}{}
-E {7401}{n}{jt_m_link_action {north} {Cedar Estate Mansion} {7401}}{1}{0}{}{1.000}{}{0.00}
-E {10280}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {24013}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24012}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {21600}{u}{jt_m_link_action {up} {Dragon City} {21600}}{16}{0}{}{1.000}{}{0.00}
 
-R {12412}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
+R {24014}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24015}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {24012}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {12413}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
+R {24015}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24016}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {24014}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {24016}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24017}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {24015}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {24017}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24018}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {24016}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {24018}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24019}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {24017}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {24019}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24018}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {24020}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {24020}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
+E {24019}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {13300}{u}{jt_m_link_action {up} {Three of Swords} {13300}}{16}{0}{}{1.000}{}{0.00}
