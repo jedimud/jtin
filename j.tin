@@ -16,6 +16,13 @@
      #config {debug telnet} {off};
 }
 
+#event {SESSION ACTIVATED} {
+     #if {"%1" == "gts"} {
+          #unvar jt_login;
+          #unvar jt_login_action;
+     }
+}
+
 #EVENT {IAC WILL MSDP} {
      #send {$TELNET[IAC]$TELNET[DO]$TELNET[MSDP]\}
 }
