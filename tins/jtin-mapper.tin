@@ -131,6 +131,7 @@
     #elseif {"%1" == "fog"} {jt_m_fog %2};
     #elseif {"%1" == "loop"} {jt_m_loop %2};
     #elseif {"%1" == "link"} {jt_m_link {%2} {%3} {%4} {%5}};
+    #elseif {"%1" == "dt"} {jt_m_dt {%2}};
 
     #elseif {"%1" == "void"} {jt_m_void %2};
     #elseif {"%1" == "unvoid"} {jt_m_unvoid %2};
@@ -146,7 +147,16 @@
 
     #elseif {"%1" == "water"} {#map set roomcolor <acf>};
 
-    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|fog|void|unvoid|loop|link|exit|shop|inn|master|fountain|bank|path|donation|aggro|water)}};
+    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|fog|dt|void|unvoid|loop|link|exit|shop|inn|master|fountain|bank|path|donation|aggro|water)}};
+}
+
+#alias jt_m_dt {
+    #map mov %1;
+    #map roomflag block;
+    #map set roomcolor <faa>;
+    #map set roomsymbol <faa>DT;
+    #map goto $MSDP_ROOM[VNUM];
+    jt_m_print_msg {<efc>added DT room to %1};
 }
 
 #alias jt_m_void {

@@ -1,0 +1,588 @@
+C 50000
+
+V 2020
+
+CAVOID <118>
+CBACKGROUND 
+CBLOCK <218>
+CEXITS <278>
+CFOG <148>
+CHIDE <168>
+CINVISIBLE <208>
+CPATHS <138>
+CROOMS <178>
+CSYMBOLS <128>
+CUSER <258>
+
+F 8206
+
+G 0
+
+I 16813
+
+L {ASCII NESW LINE} {NO EXITS} {x}
+L {ASCII NESW LINE} {N} {o}
+L {ASCII NESW LINE} {  E} {o}
+L {ASCII NESW LINE} {N E} {+}
+L {ASCII NESW LINE} {    S} {o}
+L {ASCII NESW LINE} {N   S} {|}
+L {ASCII NESW LINE} {  E S} {+}
+L {ASCII NESW LINE} {N E S} {+}
+L {ASCII NESW LINE} {      W} {o}
+L {ASCII NESW LINE} {N     W} {+}
+L {ASCII NESW LINE} {  E   W} {-}
+L {ASCII NESW LINE} {N E   W} {+}
+L {ASCII NESW LINE} {    S W} {+}
+L {ASCII NESW LINE} {N   S W} {+}
+L {ASCII NESW LINE} {  E S W} {+}
+L {ASCII NESW LINE} {N E S W} {+}
+L {ASCII NESW MISC} {USER} {x}
+L {ASCII NESW MISC} {DIR UNKNOWN} {+}
+L {ASCII NESW MISC} {N S VOID} {|}
+L {ASCII NESW MISC} {E W VOID} {-}
+L {ASCII NESW CURVED} {N E CURVED} {+}
+L {ASCII NESW CURVED} {S E CURVED} {+}
+L {ASCII NESW CURVED} {S W CURVED} {+}
+L {ASCII NESW CURVED} {N W CURVED} {+}
+L {ASCII NESW DIRS} {DIR N} {|}
+L {ASCII NESW DIRS} {DIR NE} {/}
+L {ASCII NESW DIRS} {DIR E} {-}
+L {ASCII NESW DIRS} {DIR SE} {\\}
+L {ASCII NESW DIRS} {DIR S} {|}
+L {ASCII NESW DIRS} {DIR SW} {/}
+L {ASCII NESW DIRS} {DIR W} {-}
+L {ASCII NESW DIRS} {DIR NW} {\\}
+L {NESW LINE} {NO EXITS} {\u2B51}
+L {NESW LINE} {N} {\u2579}
+L {NESW LINE} {  E} {\u257A}
+L {NESW LINE} {N E} {\u2517}
+L {NESW LINE} {    S} {\u257B}
+L {NESW LINE} {N   S} {\u2503}
+L {NESW LINE} {  E S} {\u250F}
+L {NESW LINE} {N E S} {\u2523}
+L {NESW LINE} {      W} {\u2578}
+L {NESW LINE} {N     W} {\u251B}
+L {NESW LINE} {  E   W} {\u2501}
+L {NESW LINE} {N E   W} {\u253B}
+L {NESW LINE} {    S W} {\u2513}
+L {NESW LINE} {N   S W} {\u252B}
+L {NESW LINE} {  E S W} {\u2533}
+L {NESW LINE} {N E S W} {\u254B}
+L {NESW MISC} {USER} {\u2B51}
+L {NESW MISC} {DIR UNKNOWN} {\u2012}
+L {NESW MISC} {N S VOID} {\u2507}
+L {NESW MISC} {E W VOID} {\u254D}
+L {NESW CURVED} {N E CURVED} {\u2570}
+L {NESW CURVED} {S E CURVED} {\u256D}
+L {NESW CURVED} {S W CURVED} {\u256E}
+L {NESW CURVED} {N W CURVED} {\u256F}
+L {NESW DIRS} {DIR N} {\u2191}
+L {NESW DIRS} {DIR NE} {\u2B08}
+L {NESW DIRS} {DIR E} {\u2B95}
+L {NESW DIRS} {DIR SE} {\u2b0A}
+L {NESW DIRS} {DIR S} {\u2193}
+L {NESW DIRS} {DIR SW} {\u2B0B}
+L {NESW DIRS} {DIR W} {\u2B05}
+L {NESW DIRS} {DIR NW} {\u2B09}
+L {MUDFONT NWS} {NO EXITS} {\u2830}
+L {MUDFONT NWS} {N} {\u2838}
+L {MUDFONT NWS} {  NW} {\u2831}
+L {MUDFONT NWS} {N NW} {\u2839}
+L {MUDFONT NWS} {     W} {\u2836}
+L {MUDFONT NWS} {N    W} {\u283E}
+L {MUDFONT NWS} {  NW W} {\u2837}
+L {MUDFONT NWS} {N NW W} {\u283F}
+L {MUDFONT NWS} {       SW} {\u2870}
+L {MUDFONT NWS} {N      SW} {\u2878}
+L {MUDFONT NWS} {  NW   SW} {\u2871}
+L {MUDFONT NWS} {N NW   SW} {\u2879}
+L {MUDFONT NWS} {     W SW} {\u2876}
+L {MUDFONT NWS} {N    W SW} {\u287E}
+L {MUDFONT NWS} {  NW W SW} {\u2877}
+L {MUDFONT NWS} {N NW W SW} {\u287F}
+L {MUDFONT NWS} {          S} {\u28B0}
+L {MUDFONT NWS} {N         S} {\u28B8}
+L {MUDFONT NWS} {  NW      S} {\u28B1}
+L {MUDFONT NWS} {N NW      S} {\u28B9}
+L {MUDFONT NWS} {     W    S} {\u28B6}
+L {MUDFONT NWS} {N    W    S} {\u28BE}
+L {MUDFONT NWS} {  NW W    S} {\u28B7}
+L {MUDFONT NWS} {N NW W    S} {\u28BF}
+L {MUDFONT NWS} {       SW S} {\u28F0}
+L {MUDFONT NWS} {N      SW S} {\u28F8}
+L {MUDFONT NWS} {  NW   SW S} {\u28F1}
+L {MUDFONT NWS} {N NW   SW S} {\u28F9}
+L {MUDFONT NWS} {     W SW S} {\u28F6}
+L {MUDFONT NWS} {N    W SW S} {\u28FE}
+L {MUDFONT NWS} {  NW W SW S} {\u28F7}
+L {MUDFONT NWS} {N NW W SW S} {\u28FF}
+L {MUDFONT NES} {NO EXITS} {\u2806}
+L {MUDFONT NES} {N} {\u2807}
+L {MUDFONT NES} {  NE} {\u280E}
+L {MUDFONT NES} {N NE} {\u280F}
+L {MUDFONT NES} {     W} {\u2836}
+L {MUDFONT NES} {N    W} {\u2837}
+L {MUDFONT NES} {  NE W} {\u283E}
+L {MUDFONT NES} {N NE W} {\u283F}
+L {MUDFONT NES} {       SE} {\u2886}
+L {MUDFONT NES} {N      SE} {\u2887}
+L {MUDFONT NES} {  NE   SE} {\u288E}
+L {MUDFONT NES} {N NE   SE} {\u288F}
+L {MUDFONT NES} {     W SE} {\u28B6}
+L {MUDFONT NES} {N    W SE} {\u28B7}
+L {MUDFONT NES} {  NE W SE} {\u28BE}
+L {MUDFONT NES} {N NE W SE} {\u28BF}
+L {MUDFONT NES} {          S} {\u2846}
+L {MUDFONT NES} {N         S} {\u2847}
+L {MUDFONT NES} {  NE      S} {\u284E}
+L {MUDFONT NES} {N NE      S} {\u284F}
+L {MUDFONT NES} {     W    S} {\u2876}
+L {MUDFONT NES} {N    W    S} {\u2877}
+L {MUDFONT NES} {  NE W    S} {\u287E}
+L {MUDFONT NES} {N NE W    S} {\u287F}
+L {MUDFONT NES} {       SE S} {\u28C6}
+L {MUDFONT NES} {N      SE S} {\u28C7}
+L {MUDFONT NES} {  NE   SE S} {\u28CE}
+L {MUDFONT NES} {N NE   SE S} {\u28CF}
+L {MUDFONT NES} {     W SE S} {\u28F6}
+L {MUDFONT NES} {N    W SE S} {\u28F7}
+L {MUDFONT NES} {  NE W SE S} {\u28FE}
+L {MUDFONT NES} {N NE W SE S} {\u28FF}
+L {MUDFONT VOID NWS} {NO EXITS} {\u2800}
+L {MUDFONT VOID NWS} {N} {\u2808}
+L {MUDFONT VOID NWS} {  NW} {\u2801}
+L {MUDFONT VOID NWS} {N NW} {\u2809}
+L {MUDFONT VOID NWS} {     W} {\u2806}
+L {MUDFONT VOID NWS} {N    W} {\u280E}
+L {MUDFONT VOID NWS} {  NW W} {\u2807}
+L {MUDFONT VOID NWS} {N NW W} {\u280F}
+L {MUDFONT VOID NWS} {       SW} {\u2840}
+L {MUDFONT VOID NWS} {N      SW} {\u2848}
+L {MUDFONT VOID NWS} {  NW   SW} {\u2841}
+L {MUDFONT VOID NWS} {N NW   SW} {\u2849}
+L {MUDFONT VOID NWS} {     W SW} {\u2846}
+L {MUDFONT VOID NWS} {N    W SW} {\u284E}
+L {MUDFONT VOID NWS} {  NW W SW} {\u2847}
+L {MUDFONT VOID NWS} {N NW W SW} {\u284F}
+L {MUDFONT VOID NWS} {          S} {\u2880}
+L {MUDFONT VOID NWS} {N         S} {\u2888}
+L {MUDFONT VOID NWS} {  NW      S} {\u2881}
+L {MUDFONT VOID NWS} {N NW      S} {\u2889}
+L {MUDFONT VOID NWS} {     W    S} {\u2886}
+L {MUDFONT VOID NWS} {N    W    S} {\u288E}
+L {MUDFONT VOID NWS} {  NW W    S} {\u2887}
+L {MUDFONT VOID NWS} {N NW W    S} {\u288F}
+L {MUDFONT VOID NWS} {       SW S} {\u28C0}
+L {MUDFONT VOID NWS} {N      SW S} {\u28C8}
+L {MUDFONT VOID NWS} {  NW   SW S} {\u28C1}
+L {MUDFONT VOID NWS} {N NW   SW S} {\u28C9}
+L {MUDFONT VOID NWS} {     W SW S} {\u28C6}
+L {MUDFONT VOID NWS} {N    W SW S} {\u28CE}
+L {MUDFONT VOID NWS} {  NW W SW S} {\u28C7}
+L {MUDFONT VOID NWS} {N NW W SW S} {\u28CF}
+L {MUDFONT VOID NES} {NO EXITS} {\u2800}
+L {MUDFONT VOID NES} {N} {\u2801}
+L {MUDFONT VOID NES} {  NE} {\u2808}
+L {MUDFONT VOID NES} {N NE} {\u2809}
+L {MUDFONT VOID NES} {     W} {\u2830}
+L {MUDFONT VOID NES} {N    W} {\u2831}
+L {MUDFONT VOID NES} {  NE W} {\u2838}
+L {MUDFONT VOID NES} {N NE W} {\u2839}
+L {MUDFONT VOID NES} {       SE} {\u2880}
+L {MUDFONT VOID NES} {N      SE} {\u2881}
+L {MUDFONT VOID NES} {  NE   SE} {\u2888}
+L {MUDFONT VOID NES} {N NE   SE} {\u2889}
+L {MUDFONT VOID NES} {     W SE} {\u28B0}
+L {MUDFONT VOID NES} {N    W SE} {\u28B1}
+L {MUDFONT VOID NES} {  NE W SE} {\u28B8}
+L {MUDFONT VOID NES} {N NE W SE} {\u28B9}
+L {MUDFONT VOID NES} {          S} {\u2840}
+L {MUDFONT VOID NES} {N         S} {\u2841}
+L {MUDFONT VOID NES} {  NE      S} {\u2848}
+L {MUDFONT VOID NES} {N NE      S} {\u2849}
+L {MUDFONT VOID NES} {     W    S} {\u2870}
+L {MUDFONT VOID NES} {N    W    S} {\u2871}
+L {MUDFONT VOID NES} {  NE W    S} {\u2878}
+L {MUDFONT VOID NES} {N NE W    S} {\u2879}
+L {MUDFONT VOID NES} {       SE S} {\u28C0}
+L {MUDFONT VOID NES} {N      SE S} {\u28C1}
+L {MUDFONT VOID NES} {  NE   SE S} {\u28C8}
+L {MUDFONT VOID NES} {N NE   SE S} {\u28C9}
+L {MUDFONT VOID NES} {     W SE S} {\u28F0}
+L {MUDFONT VOID NES} {N    W SE S} {\u28F1}
+L {MUDFONT VOID NES} {  NE W SE S} {\u28F8}
+L {MUDFONT VOID NES} {N NE W SE S} {\u28F9}
+L {MUDFONT CURVED} {N E} {\u2818}
+L {MUDFONT CURVED} {S E} {\u28A0}
+L {MUDFONT CURVED} {S W} {\u2844}
+L {MUDFONT CURVED} {N W} {\u2803}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {SE} {\u2198}
+L {UNICODE GRAPHICS} {NE} {\u2197}
+L {UNICODE GRAPHICS} {SE NE} {>}
+L {UNICODE GRAPHICS} {SW} {\u2199}
+L {UNICODE GRAPHICS} {SE SW} {\u2E0C\u2E0D}
+L {UNICODE GRAPHICS} {NE SW} {\uFF0F}
+L {UNICODE GRAPHICS} {SE NE SW} {>\u2E0D}
+L {UNICODE GRAPHICS} {NW} {\u2196}
+L {UNICODE GRAPHICS} {SE NW} {\uFF3C}
+L {UNICODE GRAPHICS} {NE NW} {\u2E1D\u2E1C}
+L {UNICODE GRAPHICS} {SE NE NW} {>\u2E1C}
+L {UNICODE GRAPHICS} {SW NW} {<}
+L {UNICODE GRAPHICS} {SE SW NW} {\u2E0C<}
+L {UNICODE GRAPHICS} {NE SW NW} {\u2E1D<}
+L {UNICODE GRAPHICS} {SE NE SW NW} {><}
+L {UNICODE GRAPHICS} {D} {-}
+L {UNICODE GRAPHICS} {N} {\u2191}
+L {UNICODE GRAPHICS} {S} {\u2193}
+L {UNICODE GRAPHICS} {N S} {\u2502}
+L {UNICODE GRAPHICS} {U} {+}
+L {UNICODE GRAPHICS} {E} {\u2192}
+L {UNICODE GRAPHICS} {W} {\u2190}
+L {UNICODE GRAPHICS} {E W} {\u2500}
+L {UNICODE GRAPHICS} {ROOM L} {[}
+L {UNICODE GRAPHICS} {ROOM L CURVED} {(}
+L {UNICODE GRAPHICS} {ROOM R} {]}
+L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
+
+
+
+
+T {} { } {}
+T {CITY} {<FF03A2E>=} {DENSE NARROW}
+T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
+T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEIN}
+T {HILLS} {<F7D6608>︵} {SPARSE WIDE FADEIN DOUBLE}
+T {INSIDE} {<F922B21>≡} {DENSE NARROW}
+T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEOUT}
+T {NOSWIM} {<F21618C>~} {}
+T {SWIM} {<F21618C>~} {}
+
+
+
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {16803}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16800}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6917}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+
+R {6919}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+
+R {6921}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+
+R {6922}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+
+R {16701}{0}{<fff>}{The Sandy Cave}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16794}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16702}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {16702}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {16786}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {6917}{n}{jt_m_link_action {north} {the Dragon Sea} {6917}}{1}{0}{}{1.000}{}{0.00}
+E {16788}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16789}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16787}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16787}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16788}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16786}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16790}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16788}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16789}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16786}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16791}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16787}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16789}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16786}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16791}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16792}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16788}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16790}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16787}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16794}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16791}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16792}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16789}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16788}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16795}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16796}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16792}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16793}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16789}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16796}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16795}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {16791}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16793}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16796}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {16792}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16794}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16790}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16701}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {16795}{0}{<fff>}{A Mountainous Pasture}{ }{}{Drake Isle}{}{FIELD}{}{1.000}{}
+E {16796}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16791}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16792}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16798}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16796}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16792}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16793}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16791}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16798}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16799}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16795}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16797}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16797}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16800}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16798}{0}{<fff>}{A Mountainous Pasture}{ }{}{Drake Isle}{}{FIELD}{}{1.000}{}
+E {16799}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16796}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16795}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16801}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16799}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16796}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16801}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16802}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16798}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16800}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16797}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {4}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {16801}{0}{<fff>}{A Mountainous Pasture}{ }{}{Drake Isle}{}{FIELD}{}{1.000}{}
+E {16802}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16799}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16798}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16807}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16806}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16802}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16799}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16807}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {16801}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16803}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {4}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16808}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16809}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16804}{0}{<fff>}{The Narrow Road Along the Mountainside}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16805}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16810}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16832}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16805}{0}{<fff>}{A Mountainous Pasture}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16810}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16811}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16804}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16806}{0}{<fff>}{A Mountainous Pasture}{ }{}{Drake Isle}{}{FIELD}{}{1.000}{}
+E {16807}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16801}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16812}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16813}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16807}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16801}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16802}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16813}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16812}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {16806}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16808}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16809}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16803}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16814}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16809}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16803}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16814}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16815}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16808}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16810}{0}{<fff>}{A Mountainous Pasture}{ }{}{Drake Isle}{}{FIELD}{}{1.000}{}
+E {16811}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16805}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16804}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {16811}{0}{<fff>}{The Narrow Road Along the Mountainside}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16805}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16817}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16810}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16812}{0}{<fff>}{A Mountainous Pasture}{ }{}{Drake Isle}{}{FIELD}{}{1.000}{}
+E {16813}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16806}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16807}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16818}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16817}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16813}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {6919}{e}{jt_m_link_action {east} {the Dragon Sea} {6919}}{2}{0}{}{1.000}{}{0.00}
+E {16807}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16806}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16818}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {16812}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16814}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16815}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16809}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16808}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16819}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16820}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16815}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16816}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16809}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16820}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16821}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16819}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {16814}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16816}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16821}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16820}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {16815}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16817}{0}{<fff>}{A Mountainous Pasture}{ }{}{Drake Isle}{}{FIELD}{}{1.000}{}
+E {16818}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16812}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16811}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16823}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16824}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16818}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16812}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16813}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16824}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16825}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16823}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {16817}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16819}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16820}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16814}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16815}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {16820}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16821}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16815}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16816}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16814}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16826}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16819}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16821}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16816}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16815}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16826}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16827}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16820}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16822}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16829}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16828}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16823}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16824}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16817}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16818}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16830}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16829}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16824}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16825}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16818}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16817}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16830}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {16823}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16825}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16818}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16830}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {16824}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16826}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16827}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16821}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16820}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {6922}{s}{jt_m_link_action {south} {the Dragon Sea} {6922}}{4}{0}{}{1.000}{}{0.00}
+
+R {16827}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16828}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16821}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16826}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16828}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16822}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16827}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16829}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16823}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16822}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {16830}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
+E {16824}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16825}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16823}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16831}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {16831}{0}{<fff>}{A Small Wooden Pier}{ }{}{Drake Isle}{}{INSIDE}{}{1.000}{}
+E {16830}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6921}{s}{jt_m_link_action {south} {the Dragon Sea} {16831}}{4}{0}{}{1.000}{}{0.00}
+
+R {16832}{0}{<fff>}{On a Narrow Stone Road}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16804}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16833}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16833}{0}{<fff>}{On a Narrow Stone Road}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16832}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16834}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {16834}{0}{<fff>}{On a Narrow Stone Road}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16835}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16833}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16835}{0}{<fff>}{On a Narrow Stone Road}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16836}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16834}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {16836}{0}{<fff>}{On a Narrow Stone Road}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16837}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16835}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {16837}{0}{<fff>}{On a Narrow Stone Road}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16838}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {16836}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16838}{0}{<fff>}{On a Narrow Stone Road}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16839}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {16837}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16839}{0}{<fff>}{On a Narrow Stone Road}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
+E {16840}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {16838}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {16840}{0}{<fff>}{Before the Cliff-side Fortress}{ }{}{Drake Isle}{}{INSIDE}{}{1.000}{}
+E {16839}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {16843}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {16843}{0}{<fff>}{Inside the Gatehouse}{ }{}{Drake Isle}{}{INSIDE}{}{1.000}{}
