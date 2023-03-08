@@ -14,7 +14,7 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -249,12 +249,13 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 T {} { } {}
-T {CITY} {<FF03A2E>=} {DENSE NARROW}
-T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
-T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEIN}
-T {HILLS} {<F7D6608>︵} {SPARSE WIDE FADEIN DOUBLE}
-T {INSIDE} {<F922B21>≡} {DENSE NARROW}
-T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEOUT}
+T {CITY} {<FF03A2E>=} {WIDE}
+T {FIELD} {<F9A7D0A>·} {WIDE FADEOUT}
+T {FOREST} {<F0B5345>⍋} {WIDE FADEOUT}
+T {HILLS} {<F7D6608>︵} {DENSE WIDE FADEOUT DOUBLE}
+T {INSIDE} {<F922B21>≡} {}
+T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
+T {MOUNTAINS} {<F935116>◮} {WIDE}
 T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
@@ -265,23 +266,23 @@ R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {5702}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {5}{8}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
+R {5}{4104}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
 E {5703}{w}{w}{8}{0}{}{1.000}{}{0.00}
 E {5708}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {6}{8}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
+R {6}{4104}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
 E {5704}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {8}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {7}{8}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
+R {7}{4104}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
 E {5722}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {9}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {8}{8}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
+R {8}{4104}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
 E {6}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5703}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {9}{8}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
+R {9}{4104}{}{}{ }{}{}{}{MIDAIR}{}{1.000}{}
 E {7}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5721}{s}{s}{4}{0}{}{1.000}{}{0.00}
 

@@ -18,7 +18,7 @@ F 8206
 
 G 0
 
-I 12235
+I 12427
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -249,12 +249,12 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 T {} { } {}
-T {CITY} {<FF03A2E>=} {DENSE NARROW}
-T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
-T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEOUT}
-T {HILLS} {<F7D6608>︵} {SPARSE WIDE FADEIN DOUBLE}
-T {INSIDE} {<F922B21>≡} {DENSE NARROW}
-T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEOUT}
+T {CITY} {<FF03A2E>=} {WIDE}
+T {FIELD} {<F9A7D0A>·} {WIDE FADEOUT}
+T {FOREST} {<F0B5345>⍋} {WIDE FADEOUT}
+T {HILLS} {<F7D6608>︵} {DENSE WIDE FADEOUT DOUBLE}
+T {INSIDE} {<F922B21>≡} {}
+T {MOUNTAINS} {<F935116>◮} {WIDE}
 T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
@@ -1200,7 +1200,7 @@ R {12473}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSW
 E {12472}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6145}{w}{jt_m_link_action {west} {dark Haon-Dor} {6145}}{8}{0}{}{1.000}{}{0.00}
 
-R {12477}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12477}{16384}{<faa>}{}{<faa>DT}{}{}{}{}{}{1.000}{}
 
 R {12479}{0}{<fff>}{On the Plains}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
 E {12480}{ne}{ne}{3}{0}{}{1.000}{}{0.00}

@@ -1,7 +1,7 @@
 ----
 
 -- add regenerate to auto cast spells
-
+-- update legend for shops, and other landmarks (specifically color?)
 -- quick cmd for getting map stats, 
         -- jt map stats brief -- just the summary
         -- and jt map stats all -- list all in order
@@ -35,6 +35,18 @@
 
 
 
+    #map TERRAIN FOREST <F0B5345>⍋ WIDE FADEOUT;
+    #map TERRAIN INSIDE <F922B21>≡;
+    #map TERRAIN CITY <FF03A2E>= WIDE;
+    #map TERRAIN FIELD <F9A7D0A>· WIDE FADEOUT;
+    #map TERRAIN NOSWIM <F21618C>~;
+    #map TERRAIN SWIM <F21618C>~;
+    #map TERRAIN MOUNTAINS <F935116>◮ WIDE;
+    #map TERRAIN HILLS <F7D6608>︵  DOUBLE WIDE DENSE FADEOUT;
+    #map TERRAIN MIDAIR <F6C3483>⊰ SPARSE WIDE;
+
+
+-- missing OUTDOORS, MIDAIR
 
 
 
