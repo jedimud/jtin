@@ -1,0 +1,1020 @@
+C 50000
+
+V 2020
+
+CAVOID <118>
+CBACKGROUND 
+CBLOCK <218>
+CEXITS <278>
+CFOG <148>
+CHIDE <168>
+CINVISIBLE <208>
+CPATHS <138>
+CROOMS <178>
+CSYMBOLS <128>
+CUSER <258>
+
+F 8206
+
+G 0
+
+I 9341
+
+L {ASCII NESW LINE} {NO EXITS} {x}
+L {ASCII NESW LINE} {N} {o}
+L {ASCII NESW LINE} {  E} {o}
+L {ASCII NESW LINE} {N E} {+}
+L {ASCII NESW LINE} {    S} {o}
+L {ASCII NESW LINE} {N   S} {|}
+L {ASCII NESW LINE} {  E S} {+}
+L {ASCII NESW LINE} {N E S} {+}
+L {ASCII NESW LINE} {      W} {o}
+L {ASCII NESW LINE} {N     W} {+}
+L {ASCII NESW LINE} {  E   W} {-}
+L {ASCII NESW LINE} {N E   W} {+}
+L {ASCII NESW LINE} {    S W} {+}
+L {ASCII NESW LINE} {N   S W} {+}
+L {ASCII NESW LINE} {  E S W} {+}
+L {ASCII NESW LINE} {N E S W} {+}
+L {ASCII NESW MISC} {USER} {x}
+L {ASCII NESW MISC} {DIR UNKNOWN} {+}
+L {ASCII NESW MISC} {N S VOID} {|}
+L {ASCII NESW MISC} {E W VOID} {-}
+L {ASCII NESW CURVED} {N E CURVED} {+}
+L {ASCII NESW CURVED} {S E CURVED} {+}
+L {ASCII NESW CURVED} {S W CURVED} {+}
+L {ASCII NESW CURVED} {N W CURVED} {+}
+L {ASCII NESW DIRS} {DIR N} {|}
+L {ASCII NESW DIRS} {DIR NE} {/}
+L {ASCII NESW DIRS} {DIR E} {-}
+L {ASCII NESW DIRS} {DIR SE} {\\}
+L {ASCII NESW DIRS} {DIR S} {|}
+L {ASCII NESW DIRS} {DIR SW} {/}
+L {ASCII NESW DIRS} {DIR W} {-}
+L {ASCII NESW DIRS} {DIR NW} {\\}
+L {NESW LINE} {NO EXITS} {\u2B51}
+L {NESW LINE} {N} {\u2579}
+L {NESW LINE} {  E} {\u257A}
+L {NESW LINE} {N E} {\u2517}
+L {NESW LINE} {    S} {\u257B}
+L {NESW LINE} {N   S} {\u2503}
+L {NESW LINE} {  E S} {\u250F}
+L {NESW LINE} {N E S} {\u2523}
+L {NESW LINE} {      W} {\u2578}
+L {NESW LINE} {N     W} {\u251B}
+L {NESW LINE} {  E   W} {\u2501}
+L {NESW LINE} {N E   W} {\u253B}
+L {NESW LINE} {    S W} {\u2513}
+L {NESW LINE} {N   S W} {\u252B}
+L {NESW LINE} {  E S W} {\u2533}
+L {NESW LINE} {N E S W} {\u254B}
+L {NESW MISC} {USER} {\u2B51}
+L {NESW MISC} {DIR UNKNOWN} {\u2012}
+L {NESW MISC} {N S VOID} {\u2507}
+L {NESW MISC} {E W VOID} {\u254D}
+L {NESW CURVED} {N E CURVED} {\u2570}
+L {NESW CURVED} {S E CURVED} {\u256D}
+L {NESW CURVED} {S W CURVED} {\u256E}
+L {NESW CURVED} {N W CURVED} {\u256F}
+L {NESW DIRS} {DIR N} {\u2191}
+L {NESW DIRS} {DIR NE} {\u2B08}
+L {NESW DIRS} {DIR E} {\u2B95}
+L {NESW DIRS} {DIR SE} {\u2b0A}
+L {NESW DIRS} {DIR S} {\u2193}
+L {NESW DIRS} {DIR SW} {\u2B0B}
+L {NESW DIRS} {DIR W} {\u2B05}
+L {NESW DIRS} {DIR NW} {\u2B09}
+L {MUDFONT NWS} {NO EXITS} {\u2830}
+L {MUDFONT NWS} {N} {\u2838}
+L {MUDFONT NWS} {  NW} {\u2831}
+L {MUDFONT NWS} {N NW} {\u2839}
+L {MUDFONT NWS} {     W} {\u2836}
+L {MUDFONT NWS} {N    W} {\u283E}
+L {MUDFONT NWS} {  NW W} {\u2837}
+L {MUDFONT NWS} {N NW W} {\u283F}
+L {MUDFONT NWS} {       SW} {\u2870}
+L {MUDFONT NWS} {N      SW} {\u2878}
+L {MUDFONT NWS} {  NW   SW} {\u2871}
+L {MUDFONT NWS} {N NW   SW} {\u2879}
+L {MUDFONT NWS} {     W SW} {\u2876}
+L {MUDFONT NWS} {N    W SW} {\u287E}
+L {MUDFONT NWS} {  NW W SW} {\u2877}
+L {MUDFONT NWS} {N NW W SW} {\u287F}
+L {MUDFONT NWS} {          S} {\u28B0}
+L {MUDFONT NWS} {N         S} {\u28B8}
+L {MUDFONT NWS} {  NW      S} {\u28B1}
+L {MUDFONT NWS} {N NW      S} {\u28B9}
+L {MUDFONT NWS} {     W    S} {\u28B6}
+L {MUDFONT NWS} {N    W    S} {\u28BE}
+L {MUDFONT NWS} {  NW W    S} {\u28B7}
+L {MUDFONT NWS} {N NW W    S} {\u28BF}
+L {MUDFONT NWS} {       SW S} {\u28F0}
+L {MUDFONT NWS} {N      SW S} {\u28F8}
+L {MUDFONT NWS} {  NW   SW S} {\u28F1}
+L {MUDFONT NWS} {N NW   SW S} {\u28F9}
+L {MUDFONT NWS} {     W SW S} {\u28F6}
+L {MUDFONT NWS} {N    W SW S} {\u28FE}
+L {MUDFONT NWS} {  NW W SW S} {\u28F7}
+L {MUDFONT NWS} {N NW W SW S} {\u28FF}
+L {MUDFONT NES} {NO EXITS} {\u2806}
+L {MUDFONT NES} {N} {\u2807}
+L {MUDFONT NES} {  NE} {\u280E}
+L {MUDFONT NES} {N NE} {\u280F}
+L {MUDFONT NES} {     W} {\u2836}
+L {MUDFONT NES} {N    W} {\u2837}
+L {MUDFONT NES} {  NE W} {\u283E}
+L {MUDFONT NES} {N NE W} {\u283F}
+L {MUDFONT NES} {       SE} {\u2886}
+L {MUDFONT NES} {N      SE} {\u2887}
+L {MUDFONT NES} {  NE   SE} {\u288E}
+L {MUDFONT NES} {N NE   SE} {\u288F}
+L {MUDFONT NES} {     W SE} {\u28B6}
+L {MUDFONT NES} {N    W SE} {\u28B7}
+L {MUDFONT NES} {  NE W SE} {\u28BE}
+L {MUDFONT NES} {N NE W SE} {\u28BF}
+L {MUDFONT NES} {          S} {\u2846}
+L {MUDFONT NES} {N         S} {\u2847}
+L {MUDFONT NES} {  NE      S} {\u284E}
+L {MUDFONT NES} {N NE      S} {\u284F}
+L {MUDFONT NES} {     W    S} {\u2876}
+L {MUDFONT NES} {N    W    S} {\u2877}
+L {MUDFONT NES} {  NE W    S} {\u287E}
+L {MUDFONT NES} {N NE W    S} {\u287F}
+L {MUDFONT NES} {       SE S} {\u28C6}
+L {MUDFONT NES} {N      SE S} {\u28C7}
+L {MUDFONT NES} {  NE   SE S} {\u28CE}
+L {MUDFONT NES} {N NE   SE S} {\u28CF}
+L {MUDFONT NES} {     W SE S} {\u28F6}
+L {MUDFONT NES} {N    W SE S} {\u28F7}
+L {MUDFONT NES} {  NE W SE S} {\u28FE}
+L {MUDFONT NES} {N NE W SE S} {\u28FF}
+L {MUDFONT VOID NWS} {NO EXITS} {\u2800}
+L {MUDFONT VOID NWS} {N} {\u2808}
+L {MUDFONT VOID NWS} {  NW} {\u2801}
+L {MUDFONT VOID NWS} {N NW} {\u2809}
+L {MUDFONT VOID NWS} {     W} {\u2806}
+L {MUDFONT VOID NWS} {N    W} {\u280E}
+L {MUDFONT VOID NWS} {  NW W} {\u2807}
+L {MUDFONT VOID NWS} {N NW W} {\u280F}
+L {MUDFONT VOID NWS} {       SW} {\u2840}
+L {MUDFONT VOID NWS} {N      SW} {\u2848}
+L {MUDFONT VOID NWS} {  NW   SW} {\u2841}
+L {MUDFONT VOID NWS} {N NW   SW} {\u2849}
+L {MUDFONT VOID NWS} {     W SW} {\u2846}
+L {MUDFONT VOID NWS} {N    W SW} {\u284E}
+L {MUDFONT VOID NWS} {  NW W SW} {\u2847}
+L {MUDFONT VOID NWS} {N NW W SW} {\u284F}
+L {MUDFONT VOID NWS} {          S} {\u2880}
+L {MUDFONT VOID NWS} {N         S} {\u2888}
+L {MUDFONT VOID NWS} {  NW      S} {\u2881}
+L {MUDFONT VOID NWS} {N NW      S} {\u2889}
+L {MUDFONT VOID NWS} {     W    S} {\u2886}
+L {MUDFONT VOID NWS} {N    W    S} {\u288E}
+L {MUDFONT VOID NWS} {  NW W    S} {\u2887}
+L {MUDFONT VOID NWS} {N NW W    S} {\u288F}
+L {MUDFONT VOID NWS} {       SW S} {\u28C0}
+L {MUDFONT VOID NWS} {N      SW S} {\u28C8}
+L {MUDFONT VOID NWS} {  NW   SW S} {\u28C1}
+L {MUDFONT VOID NWS} {N NW   SW S} {\u28C9}
+L {MUDFONT VOID NWS} {     W SW S} {\u28C6}
+L {MUDFONT VOID NWS} {N    W SW S} {\u28CE}
+L {MUDFONT VOID NWS} {  NW W SW S} {\u28C7}
+L {MUDFONT VOID NWS} {N NW W SW S} {\u28CF}
+L {MUDFONT VOID NES} {NO EXITS} {\u2800}
+L {MUDFONT VOID NES} {N} {\u2801}
+L {MUDFONT VOID NES} {  NE} {\u2808}
+L {MUDFONT VOID NES} {N NE} {\u2809}
+L {MUDFONT VOID NES} {     W} {\u2830}
+L {MUDFONT VOID NES} {N    W} {\u2831}
+L {MUDFONT VOID NES} {  NE W} {\u2838}
+L {MUDFONT VOID NES} {N NE W} {\u2839}
+L {MUDFONT VOID NES} {       SE} {\u2880}
+L {MUDFONT VOID NES} {N      SE} {\u2881}
+L {MUDFONT VOID NES} {  NE   SE} {\u2888}
+L {MUDFONT VOID NES} {N NE   SE} {\u2889}
+L {MUDFONT VOID NES} {     W SE} {\u28B0}
+L {MUDFONT VOID NES} {N    W SE} {\u28B1}
+L {MUDFONT VOID NES} {  NE W SE} {\u28B8}
+L {MUDFONT VOID NES} {N NE W SE} {\u28B9}
+L {MUDFONT VOID NES} {          S} {\u2840}
+L {MUDFONT VOID NES} {N         S} {\u2841}
+L {MUDFONT VOID NES} {  NE      S} {\u2848}
+L {MUDFONT VOID NES} {N NE      S} {\u2849}
+L {MUDFONT VOID NES} {     W    S} {\u2870}
+L {MUDFONT VOID NES} {N    W    S} {\u2871}
+L {MUDFONT VOID NES} {  NE W    S} {\u2878}
+L {MUDFONT VOID NES} {N NE W    S} {\u2879}
+L {MUDFONT VOID NES} {       SE S} {\u28C0}
+L {MUDFONT VOID NES} {N      SE S} {\u28C1}
+L {MUDFONT VOID NES} {  NE   SE S} {\u28C8}
+L {MUDFONT VOID NES} {N NE   SE S} {\u28C9}
+L {MUDFONT VOID NES} {     W SE S} {\u28F0}
+L {MUDFONT VOID NES} {N    W SE S} {\u28F1}
+L {MUDFONT VOID NES} {  NE W SE S} {\u28F8}
+L {MUDFONT VOID NES} {N NE W SE S} {\u28F9}
+L {MUDFONT CURVED} {N E} {\u2818}
+L {MUDFONT CURVED} {S E} {\u28A0}
+L {MUDFONT CURVED} {S W} {\u2844}
+L {MUDFONT CURVED} {N W} {\u2803}
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {SE} {\u2198}
+L {UNICODE GRAPHICS} {NE} {\u2197}
+L {UNICODE GRAPHICS} {SE NE} {>}
+L {UNICODE GRAPHICS} {SW} {\u2199}
+L {UNICODE GRAPHICS} {SE SW} {\u2E0C\u2E0D}
+L {UNICODE GRAPHICS} {NE SW} {\uFF0F}
+L {UNICODE GRAPHICS} {SE NE SW} {>\u2E0D}
+L {UNICODE GRAPHICS} {NW} {\u2196}
+L {UNICODE GRAPHICS} {SE NW} {\uFF3C}
+L {UNICODE GRAPHICS} {NE NW} {\u2E1D\u2E1C}
+L {UNICODE GRAPHICS} {SE NE NW} {>\u2E1C}
+L {UNICODE GRAPHICS} {SW NW} {<}
+L {UNICODE GRAPHICS} {SE SW NW} {\u2E0C<}
+L {UNICODE GRAPHICS} {NE SW NW} {\u2E1D<}
+L {UNICODE GRAPHICS} {SE NE SW NW} {><}
+L {UNICODE GRAPHICS} {D} {-}
+L {UNICODE GRAPHICS} {N} {\u2191}
+L {UNICODE GRAPHICS} {S} {\u2193}
+L {UNICODE GRAPHICS} {N S} {\u2502}
+L {UNICODE GRAPHICS} {U} {+}
+L {UNICODE GRAPHICS} {E} {\u2192}
+L {UNICODE GRAPHICS} {W} {\u2190}
+L {UNICODE GRAPHICS} {E W} {\u2500}
+L {UNICODE GRAPHICS} {ROOM L} {[}
+L {UNICODE GRAPHICS} {ROOM L CURVED} {(}
+L {UNICODE GRAPHICS} {ROOM R} {]}
+L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
+
+
+
+
+T {} { } {}
+T {CITY} {<FF03A2E>=} {DENSE NARROW}
+T {FIELD} {<F9A7D0A>::} {SPARSE FADEOUT DOUBLE}
+T {FOREST} {<F0B5345>⍋} {SPARSE VAST FADEIN}
+T {HILLS} {<F7D6608>︵} {SPARSE WIDE FADEIN DOUBLE}
+T {INSIDE} {<F922B21>≡} {DENSE NARROW}
+T {MOUNTAINS} {<F935116>◮} {SPARSE VAST FADEOUT}
+T {NOSWIM} {<F21618C>~} {}
+T {SWIM} {<F21618C>~} {}
+
+
+
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {2}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {1}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {3}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+E {9341}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {9341}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2309}{0}{<fff>}{}{ANS}{}{}{}{}{}{1.000}{}
+
+R {9301}{0}{<fff>}{Old caravan route}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9302}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {23000}{sw}{jt_m_link_action {southwest} {the city of Sanctuary} {23000}}{12}{0}{}{1.000}{}{0.00}
+
+R {9302}{0}{<fff>}{Old caravan route}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9303}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9301}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9303}{0}{<fff>}{Old caravan route}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9304}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9302}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9304}{0}{<fff>}{Old caravan route}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9305}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9303}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9305}{0}{<fff>}{By the Waystation}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9306}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9310}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9304}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9306}{0}{<fff>}{The Traveler's Refuge}{ }{}{Floodland}{}{INSIDE}{}{1.000}{}
+E {9310}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9307}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9305}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9309}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9307}{0}{<fff>}{Among the Stables}{ }{}{Floodland}{}{INSIDE}{}{1.000}{}
+E {9306}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9308}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9308}{0}{<fff>}{Supply Station}{ }{}{Floodland}{}{INSIDE}{}{1.000}{}
+E {9307}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9309}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9309}{0}{<fff>}{Sleeping Hall}{ }{}{Floodland}{}{INSIDE}{}{1.000}{}
+E {9306}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9308}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {9310}{0}{<fff>}{Around the Bend}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9311}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9305}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9306}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9311}{0}{<fff>}{Down the Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9470}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9312}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9310}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9312}{0}{<fff>}{The Swamp's Edge}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9313}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9311}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9313}{0}{<fff>}{Beside the River}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9330}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9315}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9312}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9314}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9314}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9313}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9316}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9315}{0}{<fff>}{In the Muck}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9329}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9313}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9316}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9316}{0}{<fff>}{Shallow Pool}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9315}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9327}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9326}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9314}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9317}{0}{<fff>}{Within the Cave}{ }{}{Floodland}{}{MOUNTAINS}{}{1.000}{}
+E {9318}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9318}{0}{<fff>}{A Crack in the Cliff}{ }{}{Floodland}{}{MOUNTAINS}{}{1.000}{}
+E {9317}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9319}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9319}{0}{<fff>}{Crystal Beach}{ }{}{Floodland}{}{HILLS}{}{1.000}{}
+E {9318}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9325}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9324}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9320}{0}{<fff>}{Crystal Beach}{ }{}{Floodland}{}{HILLS}{}{1.000}{}
+E {9321}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9323}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {9321}{0}{<fff>}{Crystal Beach}{ }{}{Floodland}{}{HILLS}{}{1.000}{}
+E {9325}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9324}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9323}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9320}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9322}{0}{<fff>}{The Base of the Falls}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9323}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {23890}{ne}{jt_m_link_action {northeast} {Pyamid of Doom!} {23890}}{3}{0}{}{1.000}{}{0.00}
+
+R {9323}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9324}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9320}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9321}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9322}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9324}{0}{<fff>}{A Bend in the River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9319}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9321}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9325}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9323}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9325}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9319}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9324}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9326}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9321}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9326}{0}{<fff>}{A Curve in the Fenshire}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9327}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9325}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9316}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9327}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9328}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9315}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9326}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9328}{0}{<fff>}{A Split in the River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9401}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9329}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9327}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9329}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9328}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9330}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9315}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9330}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9381}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9329}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9331}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9313}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9331}{0}{<fff>}{A Fork in the River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9367}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9330}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9332}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9332}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9331}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9333}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9333}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9348}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9332}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9334}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9334}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9333}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9335}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9342}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9335}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9334}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9336}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9336}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9335}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9337}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9337}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9336}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9338}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9338}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9337}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9339}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9339}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9338}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9340}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9340}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9339}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9341}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9341}{0}{<fff>}{Fenshire River Delta}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {3}{e}{jt_m_link_action {east} {the Dragon Sea} {6929}}{2}{0}{}{1.000}{}{0.00}
+E {9340}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {9342}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9334}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9343}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9343}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9342}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9344}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9344}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9345}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9343}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9345}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9346}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9344}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9346}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9347}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9345}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9347}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {9348}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9349}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9333}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9349}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9369}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9350}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9351}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9348}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9350}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9349}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9352}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9351}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9349}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9352}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9353}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9352}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9353}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9351}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9350}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9353}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9354}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9351}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9355}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9356}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9352}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9354}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9356}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9353}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9355}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9356}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9353}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {9356}{0}{<fff>}{The Gates of the Keep}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9357}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9354}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9353}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9355}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9357}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {9367}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9368}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9331}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9368}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9395}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9369}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9367}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9369}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9368}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9349}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9370}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9370}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9371}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9369}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9371}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9372}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9370}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9372}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9371}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9373}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9373}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9374}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9372}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9374}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9375}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9373}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9375}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {9376}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9377}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9381}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9377}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9378}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9376}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9378}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9379}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9402}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9377}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9379}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9405}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9384}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9382}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9378}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9380}{0}{<fff>}{An Arching Bridge}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9429}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9384}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9383}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9381}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9382}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9376}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9330}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9382}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9383}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9379}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9381}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9383}{0}{<fff>}{Down the Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9384}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9380}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9386}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9382}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9384}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9385}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9380}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9379}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9388}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9383}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9385}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9389}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9390}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9384}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9386}{0}{<fff>}{On the Bridge}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9383}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9470}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9387}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9388}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {9388}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9389}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9384}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9395}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9387}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9389}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9385}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9396}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9388}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9390}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9391}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9385}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9396}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9391}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9398}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9390}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9392}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9393}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9411}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9398}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9393}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9394}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9392}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9394}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9413}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9393}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9395}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9396}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9388}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9368}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9396}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9390}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9389}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9399}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9400}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9395}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9397}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9400}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9398}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9392}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9391}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9399}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9400}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9396}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {9400}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9397}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9396}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9399}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9401}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9402}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9328}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9402}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9403}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9378}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9401}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9403}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9404}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9425}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9402}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9404}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9405}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9403}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9405}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9406}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9379}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9404}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9406}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9407}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9405}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9407}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9408}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9406}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9408}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9409}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9407}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9409}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9410}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9408}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9410}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9411}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9409}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9411}{0}{<fff>}{A Twist in the River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9412}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9410}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9392}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9412}{0}{<fff>}{A Further Curve}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9413}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9411}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9413}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9419}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9412}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9414}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9394}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9414}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9415}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9420}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9413}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9415}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9416}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9421}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9414}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9416}{0}{<fff>}{Fenshire River}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9417}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9422}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9415}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9417}{0}{<fff>}{The River's End}{ }{}{Floodland}{}{NOSWIM}{}{1.000}{}
+E {9418}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9416}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9418}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {9419}{0}{<fff>}{Rocky Landing}{ }{}{Floodland}{}{MOUNTAINS}{}{1.000}{}
+E {9420}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9413}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9420}{0}{<fff>}{Isolated Beach}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9421}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9423}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9414}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9419}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9421}{0}{<fff>}{Rock Pile}{ }{}{Floodland}{}{MOUNTAINS}{}{1.000}{}
+E {9422}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9423}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9415}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9420}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9422}{0}{<fff>}{The End of the Beach}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9423}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9416}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9421}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9423}{0}{<fff>}{The Hermit Shelter}{ }{}{Floodland}{}{INSIDE}{}{1.000}{}
+E {9421}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9422}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9420}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9425}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9426}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9432}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9403}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9426}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9432}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9425}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9427}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9428}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9433}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9429}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9428}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9434}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9430}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9431}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9427}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9429}{0}{<fff>}{An Arching Bridge}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9427}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9380}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9430}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9431}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9428}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {9431}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9428}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9430}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9432}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9433}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9426}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9425}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9433}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9434}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9436}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9427}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9432}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9434}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9435}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9428}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9433}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9435}{0}{<fff>}{Deep in the Swamp}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9438}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9436}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9434}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9436}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9437}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9435}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9433}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9437}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9438}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9436}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9438}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9437}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9439}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9435}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9439}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9440}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9438}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9440}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9441}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9442}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9439}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9441}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9444}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9440}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9442}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9444}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9443}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9440}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9443}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9445}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9442}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9444}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9447}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9448}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9441}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9442}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9445}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9448}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9446}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9443}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9446}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9449}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9450}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9445}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9447}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9451}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9444}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9448}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9449}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9453}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9444}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9445}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9449}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9450}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9448}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9446}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9450}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9454}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9449}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9446}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9451}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9452}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9447}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9452}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9455}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9453}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9456}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9451}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9448}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9453}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9456}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9457}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9452}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9454}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9457}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9450}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {9455}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9452}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9456}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9459}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9458}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9452}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9453}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9457}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9460}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9453}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9454}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9458}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9462}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9456}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9463}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9459}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9462}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9456}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9460}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9461}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9457}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9461}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9460}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9464}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {9462}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9464}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9459}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9463}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9458}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9463}{0}{<fff>}{In the Forests of Phrygia}{ }{}{Floodland}{}{FOREST}{}{1.000}{}
+E {9462}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9464}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9458}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9464}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9465}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9461}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {9463}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {9462}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9465}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9466}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9464}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9466}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9467}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9465}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {9467}{0}{<fff>}{Swooping Arch}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9468}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9466}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9468}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9469}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {9467}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9469}{0}{<fff>}{Great Road}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {2309}{e}{jt_m_link_action {east} {the area near Skara Brae} {2309}}{2}{0}{}{1.000}{}{0.00}
+E {9468}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {14333}{w}{jt_m_link_action {west} {Refuge and Asylum} {14333}}{8}{0}{}{1.000}{}{0.00}
+
+R {9470}{0}{<fff>}{On the Bridge}{ }{}{Floodland}{}{FIELD}{}{1.000}{}
+E {9386}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {9311}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14333}{0}{<fff>}{}{RaA}{}{}{}{}{}{1.000}{}
+
+R {23000}{0}{<fff>}{}{San}{}{}{}{}{}{1.000}{}
+
+R {23890}{0}{<fff>}{}{DOOM}{}{}{}{}{}{1.000}{}

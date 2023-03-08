@@ -1,3 +1,17 @@
+----
+
+- map-stats do not look for distinct areas when calculating linked areas, it counts all links
+- handle zones with sub-maps, like guild masters
+
+
+
+
+
+
+
+
+
+
 T {city} {⌂} {SCANT NARROW}
 T {field} {·} {DENSE WIDE}
 T {forest} {⟑} {DENSE WIDE}
