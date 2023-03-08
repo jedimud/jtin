@@ -458,6 +458,10 @@
     #map undo;
 }
 
+#action {^You are too exhausted.$} {
+    #map undo;
+}
+
 #nop ------ area mapping -------
 
 #var jt_m_area_map {
