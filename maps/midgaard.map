@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 3003
+I 3021
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -456,7 +456,7 @@ E {3002}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {3124}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {3129}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {3000}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {100}{w}{jt_m_link_action {open w;west} {the Midgaard Temple} {100}}{8}{0}{}{1.000}{}{0.00}
+E {100}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
 R {3002}{0}{<fff>}{The North Temple Square}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3124}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -570,15 +570,15 @@ E {3034}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3020}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3021}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3062}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {3062}{s}{jt_m_link_action {south} {Midgaard Sohei Guild} {3062}}{4}{0}{}{1.000}{}{0.00}
 E {8}{w}{w}{8}{0}{}{1.000}{}{0.00}
-E {3060}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3060}{n}{jt_m_link_action {north} {Midgaard Cleric Guild} {3060}}{1}{0}{}{1.000}{}{0.00}
 
 R {3021}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3022}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3064}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3145}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {3064}{n}{jt_m_link_action {north} {Midgaard Jedi Guild} {3064}}{1}{0}{}{1.000}{}{0.00}
 E {3020}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {3145}{s}{jt_m_link_action {south} {Midgaard Bard Guild} {3145}}{4}{0}{}{1.000}{}{0.00}
 
 R {3022}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3023}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -713,13 +713,11 @@ R {3056}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3058}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
-R {3060}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3060}{0}{<fff>}{}{Clr}{}{}{}{}{}{1.000}{}
 
-R {3062}{0}{<fff>}{Entrance to the Sohei Guild}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
-E {3113}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3020}{n}{n}{1}{0}{}{1.000}{}{0.00}
+R {3062}{0}{<fff>}{Entrance to the Sohei Guild}{Soh}{}{Midgaard}{}{}{}{1.000}{}
 
-R {3064}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3064}{0}{<fff>}{}{Jed}{}{}{}{}{}{1.000}{}
 
 R {3066}{0}{<fff>}{On the Footbridge}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3067}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -985,7 +983,7 @@ R {3142}{0}{<fff>}{West Bouquet Street}{ }{}{Midgaard}{}{CITY}{}{1.000}{}
 E {3141}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {26}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {3145}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3145}{0}{<fff>}{Entrance to the Bard Guild}{Bar}{}{Midgaard}{}{}{}{1.000}{}
 
 R {3150}{0}{<fff>}{Under the Bridge}{ }{}{Midgaard}{}{NOSWIM}{}{1.000}{}
 E {40}{e}{e}{2}{0}{}{1.000}{}{0.00}

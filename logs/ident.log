@@ -12459,3 +12459,58 @@ Can affect you as :
    Affects: MANA By 10
    Affects: CON By -1
 Item slot: Wield
+-----
+Object 'a strange blood key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'a giant halberd', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 30, Value: 800, Rent: 15, Min. level: 0
+Damage Dice is '2D8' for an average per-round damage of 9.0.
+Can affect you as :
+   Affects: HITROLL By -2
+   Affects: DAMROLL By 3
+ERROR - IGNORE THIS RECORD
+-----
+Object 'the rune sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !CLER !THF !PAL UNIQUE 
+Weight: 10, Value: 5000, Rent: 500, Min. level: 0
+Damage Dice is '2D8' for an average per-round damage of 9.0.
+Can affect you as :
+   Affects: HITROLL By 4
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a black cape with a red satin lining', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 3, Value: 4000, Rent: 50, Min. level: 0
+AC-apply is 5
+Can affect you as :
+   Affects: INT By 1
+Item slot: About Body
+-----
+Object 'a talisman of the void', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD LIMITED !RANGER UNIQUE 
+Weight: 1, Value: 6000, Rent: 1000, Min. level: 0
+AC-apply is 5
+Can affect you as :
+   Affects: HIT_REGEN By 5
+   Affects: MANA_REGEN By 10
+Item slot: Neck
+-----
+Object 'a giant halberd', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 30, Value: 800, Rent: 15, Min. level: 0
+Damage Dice is '2D8' for an average per-round damage of 9.0.
+Can affect you as :
+   Affects: HITROLL By -2
+   Affects: DAMROLL By 3
+ERROR - IGNORE THIS RECORD

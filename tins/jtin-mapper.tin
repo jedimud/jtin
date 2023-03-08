@@ -364,6 +364,9 @@
         map open {$MSDP_ROOM[AREA]} {$MSDP_ROOM[VNUM]};
         jt_m_report_map_stats {$MSDP_ROOM[AREA]};
     };
+    #elseif {&{jt_m_area_map[$jt_m_current]}} {
+        #nop ignoring room linked to current zone
+    };
     #elseif {"$jt_m_current" != "$MSDP_ROOM[AREA]"} {
         #if {"$jt_m_flags" == "8206" || "$jt_m_flags" == "262"} { 
             map save;
@@ -443,6 +446,28 @@
     #script {jt_m_stats} {sh -c './sh/map-stats.sh %1'};
     jt_m_print_msg {<afc>mapped <efc>$jt_m_stats[2] of $jt_m_stats[4] ($jt_m_stats[5]%), <afc>linked to <efc>$jt_m_stats[1] areas};
 }
+
+#nop ------ undo map -------
+
+#action {^The guard humiliates you, and blocks your way.$} {
+    #map undo;
+}
+
+#action {^Alas, you cannot go that way...$} {
+    #map undo;
+}
+
+#nop ------ area mapping -------
+
+#var jt_m_area_map {
+    {Midgaard Cleric Guild} {Midgaard}
+    {Midgaard Sohei Guild} {Midgaard}
+    {Midgaard Jedi Guild} {Midgaard}
+    {Midgaard Bard Guild} {Midgaard}
+    
+    
+}
+
 
 #nop ----- mapper defaults -----
 

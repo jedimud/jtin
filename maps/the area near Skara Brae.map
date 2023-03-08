@@ -18,7 +18,7 @@ F 8206
 
 G 0
 
-I 2309
+I 2343
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -431,7 +431,9 @@ E {8}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2323}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {2322}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {2324}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {2324}{0}{<fff>}{Light Forest}{ }{}{the area near Skara Brae}{}{FOREST}{}{1.000}{}
+E {2317}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2337}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {2325}{0}{<fff>}{Trail}{ }{}{the area near Skara Brae}{}{FIELD}{}{1.000}{}
 E {2319}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -484,6 +486,13 @@ E {2334}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {2335}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2335}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
+R {2336}{0}{<fff>}{Northern end of the Valley}{ }{}{the area near Skara Brae}{}{FIELD}{}{1.000}{}
+E {2343}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2337}{0}{<fff>}{The Foothills}{ }{}{the area near Skara Brae}{}{HILLS}{}{1.000}{}
+E {2324}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2336}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
 R {2338}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {2339}{0}{<fff>}{Trail}{ }{}{the area near Skara Brae}{}{FIELD}{}{1.000}{}
@@ -501,6 +510,12 @@ R {2341}{0}{<fff>}{Amongst the Ruins}{ }{}{the area near Skara Brae}{}{FOREST}{}
 E {2334}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2352}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {2340}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2343}{0}{<fff>}{In the Valley}{ }{}{the area near Skara Brae}{}{FIELD}{}{1.000}{}
+E {2343}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2336}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2353}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2500}{w}{jt_m_link_action {west} {the Arctic Empire} {2500}}{8}{0}{}{1.000}{}{0.00}
 
 R {2344}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
@@ -540,6 +555,9 @@ E {2349}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {2352}{0}{<fff>}{South of the Ruins}{ }{}{the area near Skara Brae}{}{FOREST}{}{1.000}{}
 E {2335}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {2341}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2353}{0}{<fff>}{Southern end of the Valley}{ }{}{the area near Skara Brae}{}{FIELD}{}{1.000}{}
+E {2343}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {2354}{0}{<fff>}{Deep Forest}{ }{}{the area near Skara Brae}{}{FOREST}{}{1.000}{}
 E {2355}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -584,6 +602,8 @@ E {3}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {2361}{16384}{<faa>}{}{<faa>DT}{}{}{}{}{}{1.000}{}
 
 R {2362}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2500}{0}{<fff>}{}{ArE}{}{}{}{}{}{1.000}{}
 
 R {9469}{0}{<fff>}{}{Flo}{}{}{}{}{}{1.000}{}
 

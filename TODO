@@ -1,8 +1,36 @@
 ----
 
-- map-stats do not look for distinct areas when calculating linked areas, it counts all links
-- handle zones with sub-maps, like guild masters
+-- add regenerate to auto cast spells
 
+-- quick cmd for getting map stats, 
+        -- jt map stats brief -- just the summary
+        -- and jt map stats all -- list all in order
+-- map list with current state
+-- map-stats do not look for distinct areas when calculating linked areas, it counts all links
+-- fix paths
+-- Add Midair terrain, survey all terrain
+-- finish linking
+        Castle Mistamere	
+        Crystal Caves	
+        Donner's Den	
+        Elven Village Ruins	
+        Emerald Maze	
+        Froboz's Factory	
+        Golden Pagoda	
+        Goth Camps	
+        Great Chessboard	
+        Gyles Keep	
+        Lich's Tower	
+        Metro	
+        Midgaard Zoo	
+        Scipio Dreaming	
+        Sea of Dreams	
+        Shadow Rift	
+        Shadow Storm	
+        Training Grounds
+        (Midgaard)
+        (New Thalos)
+        (Skara Brae)	
 
 
 
