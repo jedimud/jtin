@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 15400
+I 15433
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -260,11 +260,20 @@ T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
+
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {2}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {1}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {3}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {15424}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {15423}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {4}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {15443}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {15444}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {1100}{0}{<fff>}{}{ShV}{}{}{}{}{}{1.000}{}
 
@@ -305,6 +314,146 @@ E {15407}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {15410}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {15420}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {15410}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {15410}{0}{<fff>}{Weeden's public burial grounds}{ }{}{Weeden and the Western Forest}{}{FIELD}{}{1.000}{}
+E {15408}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {15420}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {15420}{0}{<fff>}{Inside the citygate of Weeden}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15408}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15421}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15422}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15421}{0}{<fff>}{Gateguard's resting room}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15420}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15422}{0}{<fff>}{Weeden Road}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15420}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15426}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15423}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15423}{0}{<fff>}{Weeden Road}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15422}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15436}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {3}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15424}{0}{<fff>}{Weeden Road}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {3}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15425}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15425}{0}{<fff>}{Weeden Road}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15424}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15442}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15433}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15432}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {15426}{0}{<fff>}{Key Street}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15427}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15422}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15427}{0}{<fff>}{Key Street}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15426}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15428}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15428}{0}{<fff>}{Back Alley}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15427}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15429}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15444}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15429}{0}{<fff>}{Back Alley}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15430}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15428}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15430}{0}{<fff>}{Back Alley}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15429}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15431}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15431}{0}{<fff>}{The Adventurers' Guild}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15430}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15439}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15432}{0}{<fff>}{The Church of the White Monks}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15425}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {15445}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15433}{0}{<fff>}{Weeden Square}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15434}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15425}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15453}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15446}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15434}{0}{<fff>}{Weeden Square}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15435}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {15433}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15435}{0}{<fff>}{The Pit}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15531}{e}{jt_m_link_action {open secret; #map goto 15531} {Weeden Underground} {15531}}{2}{0}{}{1.000}{}{0.00}
+
+R {15436}{0}{<fff>}{Tarle's Tavern}{#}{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15441}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {15423}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15440}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {15439}{0}{<fff>}{The Adventurers' practice room}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15431}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {15440}{0}{<fff>}{Tavern storage room}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15436}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {15441}{0}{<fff>}{Wine Cellar}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15500}{s}{jt_m_link_action {open barrel} {Weeden Underground} {15500}}{4}{0}{}{1.000}{}{0.00}
+E {15436}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {15442}{0}{<fff>}{Silver Street}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15443}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15425}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15443}{0}{<fff>}{Silver Street}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {4}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15442}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15454}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15444}{0}{<fff>}{Back Alley}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15428}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15445}{0}{<fff>}{The Vestry}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15432}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {15446}{0}{<fff>}{Harbour Road}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15433}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15447}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15447}{0}{<fff>}{Harbour Road}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15446}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15448}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15448}{0}{<fff>}{Waterfront}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15447}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15449}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15451}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15449}{0}{<fff>}{Waterfront}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15450}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15448}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15450}{0}{<fff>}{Harbour Restaurant}{#}{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15449}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15451}{0}{<fff>}{Waterfront}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+E {15452}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15448}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {15452}{0}{<fff>}{Portmaster's office}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15451}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15453}{0}{<fff>}{Supply store}{#}{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15433}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {15454}{0}{<fff>}{Miserable Chapel}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
+E {15536}{d}{jt_m_link_action {open d;down} {Weeden Underground} {15536}}{32}{0}{}{1.000}{}{0.00}
+E {15443}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {15500}{0}{<fff>}{}{WdU}{}{}{}{}{}{1.000}{}
+
+R {15531}{0}{<fff>}{}{WdU}{}{}{}{}{}{1.000}{}
+
+R {15536}{0}{<fff>}{}{Wdn}{}{}{}{}{}{1.000}{}

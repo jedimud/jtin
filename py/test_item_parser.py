@@ -2371,6 +2371,34 @@ class TestItemParser(unittest.TestCase):
         item.slots.append(ItemSlot.WIELD)
 
         self.assert_equals(item, actual)
+        
+    def test_parse_file__a_transparent_potion(self):
+        actual = self.read_item_from_file("a-transparent-potion")
+
+        item = Item()
+        item.name = "a transparent potion"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.GLOW)
+        item.tags.append(ItemTag.HUM)
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.NO_DONATE)
+        item.tags.append(ItemTag.UNIQUE)
+        
+        item.weight = 1
+        item.value = 400
+        item.rent = 0
+        item.min_level = 0
+        
+        item.spell_level = 20
+        item.spells.append(ItemSpell.DETECT_ALIGNMENT)
+        item.spells.append(ItemSpell.DETECT_MAGIC)
+        item.spells.append(ItemSpell.DETECT_POISON)
+        
+        self.assert_equals(item, actual)
+        
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
