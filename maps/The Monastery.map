@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 5862
+I 5881
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -260,15 +260,260 @@ T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
+
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {5852}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {5881}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5807}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {5857}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {5801}{0}{<fff>}{On the dais}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5802}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5805}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5802}{0}{<fff>}{Behind the altar}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5803}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5801}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5803}{0}{<fff>}{On the dais}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5807}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5802}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5804}{0}{<fff>}{The Northwest corner of the chapel}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5805}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5809}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5805}{0}{<fff>}{On the dais}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5806}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5801}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5804}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5806}{0}{<fff>}{In front of the altar}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5807}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5805}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5807}{0}{<fff>}{On the dais}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {3}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {5808}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5803}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5806}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5808}{0}{<fff>}{The Northeast corner of the chapel}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5813}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5807}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5809}{0}{<fff>}{In the aisle along the west wall}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5810}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5804}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5815}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5810}{0}{<fff>}{In the front row of pews}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5811}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5809}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5811}{0}{<fff>}{In the center aisle}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5812}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5817}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5810}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5812}{0}{<fff>}{In the front row of pews}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5813}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5811}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5813}{0}{<fff>}{In the aisle by the east wall}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5808}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5819}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5812}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5814}{0}{<fff>}{In a monk's cell}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5822}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {5815}{0}{<fff>}{In the aisle along the west wall}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5816}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5809}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5823}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5816}{0}{<fff>}{In the second row of pews}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5817}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5815}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5817}{0}{<fff>}{In the central aisle}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5818}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5811}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5825}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5816}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5818}{0}{<fff>}{In the second row of pews}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5819}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5817}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5819}{0}{<fff>}{In the aisle by the east wall}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5813}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5827}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5818}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5820}{0}{<fff>}{In the kitchens}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5848}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5828}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5821}{0}{<fff>}{In a monk's cell}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5822}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {5822}{0}{<fff>}{In a hallway}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5814}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5831}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5821}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5823}{0}{<fff>}{The southwest corner of the chapel}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5824}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5815}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5824}{0}{<fff>}{In the back row of pews}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5825}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5823}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5825}{0}{<fff>}{At the chapel doors}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5826}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5817}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5834}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5824}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5826}{0}{<fff>}{In the back row of pews}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5827}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5825}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5827}{0}{<fff>}{The southeast corner of the chapel}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5819}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5826}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5828}{0}{<fff>}{In the dining hall}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5829}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5820}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5837}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5829}{0}{<fff>}{In the dining hall}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5838}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5828}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5830}{0}{<fff>}{In a monk's cell}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5831}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {5831}{0}{<fff>}{In a wide hallway}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5822}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5840}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5830}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5832}{0}{<fff>}{In a monk's cell}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5841}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {5833}{0}{<fff>}{In the guest quarters}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5842}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {5834}{0}{<fff>}{The interior courtyard}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5825}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5843}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5835}{0}{<fff>}{In a monk's cell}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5844}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {5836}{0}{<fff>}{In the abbot's cell}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5845}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {5837}{0}{<fff>}{In the dining hall}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5838}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5828}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5846}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5838}{0}{<fff>}{In the dining hall}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5829}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5837}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5839}{0}{<fff>}{In a monk's cell}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5840}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {5840}{0}{<fff>}{In a wide hallway}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5841}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5831}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5849}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5839}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5841}{0}{<fff>}{In a wide hallway}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5842}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5832}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5840}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5842}{0}{<fff>}{In a wide hallway}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5843}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5833}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5841}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5843}{0}{<fff>}{In the entryway}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5844}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5834}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5852}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5842}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5844}{0}{<fff>}{In a wide hallway}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5845}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5835}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5853}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5843}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5845}{0}{<fff>}{In a wide hallway}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5846}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5836}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5854}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5844}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5846}{0}{<fff>}{At the end of a wide hallway}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5847}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {5837}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5845}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5847}{0}{<fff>}{In a monk's cell}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5846}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5848}{0}{<fff>}{In the wine cellar}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5820}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {5849}{0}{<fff>}{In a monk's cell}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5840}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {5850}{0}{<fff>}{Among the stalls}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5851}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {5851}{0}{<fff>}{By the stalls}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5857}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5850}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5852}{0}{<fff>}{In the large courtyard}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5843}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5858}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5853}{0}{<fff>}{In a large room}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5844}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5863}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {5854}{0}{<fff>}{In the transcribing room}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5855}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5845}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5860}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {5855}{0}{<fff>}{In the library}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5854}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5856}{0}{<fff>}{In the tack room}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5857}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {5857}{0}{<fff>}{In the stable}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5858}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5851}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5870}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {5856}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {5858}{0}{<fff>}{In the courtyard before the gate}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
 E {5859}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -276,7 +521,11 @@ E {5852}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5861}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 E {5857}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5859}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {5859}{0}{<fff>}{At the forge}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5858}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5860}{0}{<fff>}{In the abbot's study}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5854}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
 
 R {5861}{0}{<fff>}{On a rutted path}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
 E {5858}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
@@ -285,5 +534,101 @@ E {5862}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {5862}{0}{<fff>}{On a rutted path}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
 E {5861}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12426}{s}{jt_m_link_action {south} {the grand city of New Thalos} {12426}}{4}{0}{}{1.000}{}{0.00}
+
+R {5863}{0}{<fff>}{At the top of the stairs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5853}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5864}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5865}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5864}{0}{<fff>}{In the servants' quarters}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5866}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5863}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5865}{0}{<fff>}{In the servants' quarters}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5866}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5863}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5866}{0}{<fff>}{In the servants' quarters}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5864}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5865}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5867}{0}{<fff>}{In the hay loft}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5868}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5869}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5868}{0}{<fff>}{In the hay loft}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5870}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5867}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5869}{0}{<fff>}{In the hay loft}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5870}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5867}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5870}{0}{<fff>}{In the hay loft}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5857}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5868}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5869}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5871}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5872}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {5872}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5873}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5876}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5871}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5873}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5874}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5877}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5872}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5874}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5878}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5873}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5875}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {5876}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5872}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5877}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5873}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5881}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5878}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5874}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5879}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5875}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5883}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5880}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5881}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5884}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5881}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5877}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5885}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {3}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {5880}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5882}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5886}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5883}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5884}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5879}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5884}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5880}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5883}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5885}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5886}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5881}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5886}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5882}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5885}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12426}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}

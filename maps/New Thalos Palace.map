@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 5224
+I 12373
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -262,93 +262,128 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{e}{e}{2}{0}{}{1.000}{}{0.00}
+R {12220}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
 
-R {5044}{0}{<fff>}{}{GED}{}{}{}{}{}{1.000}{}
+R {12348}{0}{<fff>}{The Grand Entrance}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12356}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12358}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12355}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12403}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5200}{0}{<fff>}{The Grand Gate of Thalos}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5044}{e}{jt_m_link_action {east} {the Great Eastern Desert} {5044}}{2}{0}{}{1.000}{}{0.00}
-E {5201}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {12355}{0}{<fff>}{Guard House}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12348}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {5201}{0}{<fff>}{Main Street}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5200}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5239}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {5235}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5202}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {12356}{0}{<fff>}{The Palace Gate}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12220}{e}{jt_m_link_action {east} {the grand city of New Thalos} {12220}}{2}{0}{}{1.000}{}{0.00}
+E {12348}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {5202}{0}{<fff>}{Main Street}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5201}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5236}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {5232}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5203}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {12358}{0}{<fff>}{Guard House}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12348}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {5203}{0}{<fff>}{A garden path}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5202}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5204}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {5206}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5250}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {12359}{0}{<fff>}{Kitchen}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12361}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12369}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5204}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12361}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12359}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12370}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5205}{0}{<fff>}{A garden path}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5250}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5204}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {5206}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5207}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {12363}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12364}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12372}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5206}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12364}{0}{<fff>}{Shrine of Allah}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12363}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
-R {5207}{0}{<fff>}{The market place}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5205}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5225}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {5220}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5208}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {12369}{0}{<fff>}{Grand Dining Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12359}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12370}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {5208}{0}{<fff>}{The market place}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5207}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5222}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {5217}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {12370}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12361}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12371}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12369}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12375}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5217}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12371}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12403}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12372}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12370}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12376}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5220}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12372}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12363}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12373}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12371}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12377}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5222}{0}{<fff>}{The tapestry stand}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5225}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5223}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {5208}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {12373}{0}{<fff>}{Entrance to the Dungeon}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12389}{d}{jt_m_link_action {open d;down} {New Thalos Jails} {12389}}{32}{0}{}{1.000}{}{0.00}
+E {12372}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
-R {5223}{0}{<fff>}{A back alley}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5224}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {5222}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {12374}{0}{<fff>}{Guest Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12375}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {5224}{0}{<fff>}{Under the watchtower}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5228}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9500}{n}{jt_m_link_action {north} {the Lichs Tower} {9500}}{1}{0}{}{1.000}{}{0.00}
-E {5223}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5246}{u}{u}{16}{0}{}{1.000}{}{0.00}
+R {12375}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12370}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12374}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12380}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5225}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12376}{0}{<fff>}{Garden}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12371}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12381}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5228}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12377}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12372}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12378}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12382}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5232}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12378}{0}{<fff>}{Art Exhibit}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12377}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
-R {5235}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12379}{0}{<fff>}{Guest Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12380}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {5236}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12380}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12375}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12379}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12385}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {5239}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12381}{0}{<fff>}{Garden Gazebo}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12376}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {5246}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12382}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12377}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12383}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12387}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {5250}{0}{<fff>}{The Temple of Thalos}{ }{}{the lost city of Old Thalos}{}{CITY}{}{1.000}{}
-E {5203}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5204}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {5206}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5205}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {12383}{0}{<fff>}{Guard Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12382}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
-R {9500}{0}{<fff>}{}{LcT}{}{}{}{}{}{1.000}{}
+R {12384}{0}{<fff>}{Guard Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12385}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12385}{0}{<fff>}{Harem}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12380}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12386}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12384}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12386}{0}{<fff>}{Small room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12387}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12385}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {12387}{0}{<fff>}{Throne Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12382}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12388}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12386}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {12388}{0}{<fff>}{Treasure Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12383}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12387}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12389}{0}{<fff>}{}{NTJ}{}{}{}{}{}{1.000}{}
+
+R {12403}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12348}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12371}{w}{w}{8}{0}{}{1.000}{}{0.00}

@@ -12514,3 +12514,42 @@ Can affect you as :
    Affects: HITROLL By -2
    Affects: DAMROLL By 3
 ERROR - IGNORE THIS RECORD
+-----
+Object 'a transparent potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !RENT !DONATE UNIQUE 
+Weight: 1, Value: 400, Rent: 0, Min. level: 0
+This POTION casts:  Level 20 of detect alignment detect magic detect poison
+-----
+Object 'a ceremonial dagger', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG GOOD !CLER UNIQUE 
+Weight: 2, Value: 7000, Rent: 2700, Min. level: 0
+Damage Dice is '3D5' for an average per-round damage of 9.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 2
+Item slot: Wield
+Item slot: Hold
+-----
+Object 'an oriental rug', Item type: AIRSHIP
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 35, Value: 1800, Rent: 0, Min. level: 0
+-----
+Object 'an archaic gown', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 8, Value: 55, Rent: 22, Min. level: 0
+Item slot: On Body
+-----
+Object 'a moldy potato', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a pair of striped hose', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 6, Rent: 6, Min. level: 0
+Item slot: Legs

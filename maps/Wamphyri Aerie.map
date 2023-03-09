@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -258,6 +258,7 @@ T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
 T {MOUNTAINS} {<F935116>◮} {WIDE}
 T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
+
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
@@ -327,8 +328,484 @@ E {4215}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
 E {4213}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {4209}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {4215}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {4215}{0}{<fff>}{A storage room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4221}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4214}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {4216}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {4234}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {4216}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4215}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4217}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4217}{0}{<fff>}{A hot room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4216}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4218}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4218}{0}{<fff>}{A small passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4217}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4219}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4219}{0}{<fff>}{Lair of the Bladder beasts}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4220}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4218}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4220}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4222}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4219}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4221}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4215}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4222}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4222}{0}{<fff>}{A damp room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4223}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4221}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4220}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4223}{0}{<fff>}{A small chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4227}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4222}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {4224}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4224}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4223}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4225}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4225}{0}{<fff>}{A Trog sleeping chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4224}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4226}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4226}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4230}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4225}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4227}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4228}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4223}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4228}{0}{<fff>}{A huge room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4227}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4229}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4229}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4228}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4230}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4230}{0}{<fff>}{Entrance to the Vats}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4231}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4229}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4226}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4231}{0}{<fff>}{A workroom}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4232}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4230}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {4232}{0}{<fff>}{A smelly passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4233}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4231}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4233}{0}{<fff>}{The Vats}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4232}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4234}{0}{<fff>}{Top of a spiral stair}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4204}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4241}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4235}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4235}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4236}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4234}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4236}{0}{<fff>}{The bat nest}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4237}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4235}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4237}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4238}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4236}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4238}{0}{<fff>}{A dimly lit room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4243}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4239}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4237}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4239}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4238}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4240}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4240}{0}{<fff>}{A Trog sleeping chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4242}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4239}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4241}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4241}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4240}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4234}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4242}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4244}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4240}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4243}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4246}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4238}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4244}{0}{<fff>}{A corner room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4245}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4242}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4245}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4246}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4244}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4246}{0}{<fff>}{Entrance to the Level Ferenczy}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4245}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4247}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {4243}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4247}{0}{<fff>}{On the Level Ferenczy}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4246}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4258}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4248}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4248}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4247}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4249}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4249}{0}{<fff>}{Ferenczys' Servants' chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4248}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4256}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4250}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4250}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4249}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4251}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4251}{0}{<fff>}{Faethor's Chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4252}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4250}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {4252}{0}{<fff>}{A passage between rooms}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4251}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4253}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4253}{0}{<fff>}{Thibor's Chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4254}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4252}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4254}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4255}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4253}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4255}{0}{<fff>}{A storage room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4257}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4256}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4254}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4256}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4249}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4255}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4257}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4259}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4255}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4258}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4247}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4259}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {4259}{0}{<fff>}{Entrance to the Level of the Lower Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4258}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4260}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {4257}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4260}{0}{<fff>}{On the level of the Lower Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4259}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4261}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4264}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4261}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4262}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4260}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4262}{0}{<fff>}{A Trog sleeping chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4261}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4263}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4263}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4262}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4272}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4264}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4260}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4265}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4265}{0}{<fff>}{In Grigis' study}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4264}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4266}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4267}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4266}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4272}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4265}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4267}{0}{<fff>}{A lighted passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4265}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4268}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4268}{0}{<fff>}{In Menor's study}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4267}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4269}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4269}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4270}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4268}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4270}{0}{<fff>}{Wamphyri lieutenants' chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4271}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4269}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4271}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4272}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4270}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4272}{0}{<fff>}{Entrance to the level of the Mid Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4263}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4266}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4273}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {4271}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4273}{0}{<fff>}{On the floor of the Mid Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4272}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4274}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4280}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4284}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4274}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4275}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4273}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4275}{0}{<fff>}{A Trog sleeping chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4276}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4274}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4276}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4275}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4277}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {4277}{0}{<fff>}{The Ferenc's lair}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4276}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4278}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4278}{0}{<fff>}{A lighted passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4277}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4279}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4279}{0}{<fff>}{By Volse's bath}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4278}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4280}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4281}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4280}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4273}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4279}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4281}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4279}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4282}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4282}{0}{<fff>}{Wamphyri lieutenants' chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4281}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4283}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4283}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4285}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4282}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4284}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4273}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4285}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4285}{0}{<fff>}{Entrance to the Flyer Stable}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4284}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4283}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4286}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {4286}{0}{<fff>}{On the level of the Flyer Stables}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4285}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4287}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4292}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4287}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4288}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4286}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4288}{0}{<fff>}{The Northern Stables}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4289}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4287}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4289}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4288}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4290}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4290}{0}{<fff>}{The Southern Stables}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4289}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4291}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4291}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4290}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4293}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4292}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4286}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4293}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {4293}{0}{<fff>}{Entrance to the level of the High Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4291}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4292}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4294}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {4294}{0}{<fff>}{On the level of the High Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4293}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4295}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4302}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4295}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4296}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4294}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4296}{0}{<fff>}{A Trog sleeping chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4297}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4305}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4295}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4297}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4298}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4296}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4298}{0}{<fff>}{In Lesk's den of gluttony}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4299}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4297}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4299}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4300}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4298}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {4300}{0}{<fff>}{Wamphyri lieutenants' chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4299}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4301}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4301}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4300}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4306}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4302}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4303}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4294}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4303}{0}{<fff>}{In Lascula's Chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4304}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4302}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4304}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4306}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4303}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4305}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4306}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4296}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4306}{0}{<fff>}{Entrance to the level of the Arch Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4301}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4305}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4307}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {4304}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4307}{0}{<fff>}{On the level of the Arch Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4306}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4309}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4315}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4308}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4308}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4307}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4319}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4309}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4310}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4307}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4310}{0}{<fff>}{In Dramal's chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4311}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4309}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4311}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4310}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4312}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4312}{0}{<fff>}{A Trog sleeping chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4311}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4313}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4313}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4312}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4314}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4314}{0}{<fff>}{Wamphyri lieutenants' chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4313}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4315}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4316}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4315}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4307}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4314}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4316}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4314}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4317}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4317}{0}{<fff>}{In Shaithis' Bedchamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4316}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4318}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4318}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4319}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4317}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4319}{0}{<fff>}{Entrance to the upper levels}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4308}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4318}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4320}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {4320}{0}{<fff>}{An empty room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4319}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4321}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4321}{0}{<fff>}{A lighted passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4320}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4322}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4322}{0}{<fff>}{A Trog sleeping chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4323}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4321}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4323}{0}{<fff>}{A lighted passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4324}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4322}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4324}{0}{<fff>}{The Personal Guards' chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4325}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {4323}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4325}{0}{<fff>}{The Ante-Chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4324}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {4326}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {4326}{0}{<fff>}{Lady Karen's Personal Chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4327}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4325}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4327}{0}{<fff>}{The treasure room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
+E {4326}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
 
 R {12404}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
