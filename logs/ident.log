@@ -12553,3 +12553,57 @@ Item will give you following abilities:  NOBITS
 Item is: UNIQUE 
 Weight: 1, Value: 6, Rent: 6, Min. level: 0
 Item slot: Legs
+-----
+Object 'a stinky pile of bones', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !RENT !DONATE UNIQUE 
+Weight: 100, Value: 0, Rent: 0, Min. level: 0
+It can hold approximately 5 units.
+-----
+Object 'a pair of boots', Item type: BOAT
+Item will give you following abilities:  NOBITS 
+Item is: INVIS LIMITED !RANGER !BARD UNIQUE 
+Weight: 1, Value: 5000, Rent: 925, Min. level: 0
+Can affect you as :
+   Affects: MOVE By -10
+Item slot: Feet
+-----
+Object 'a ripped page', Item type: NOTE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'an unbound sheaf of pages', Item type: NOTE
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 2, Value: 250, Rent: 125, Min. level: 0
+-----
+Object 'an opal key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a double sided key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a peanut butter, pickle, and cheese sandwich', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 0
+-----
+Object 'slave driver's whip', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER !THF !WAR !PAL !SOHEI UNIQUE 
+Weight: 2, Value: 150, Rent: 0, Min. level: 5
+Damage Dice is '4D5' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: CHARISMA By 2
+Item slot: Wield
+-----
+Object 'a broken antenna', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP !DONATE UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+Item slot: Head

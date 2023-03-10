@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 5401
+I 5414
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -329,6 +329,9 @@ R {18}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
 E {5418}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5416}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
+R {19}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {5439}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
 R {1100}{0}{<fff>}{}{ShV}{}{}{}{}{}{1.000}{}
 
 R {3904}{0}{<fff>}{}{TAM}{}{}{}{}{}{1.000}{}
@@ -515,6 +518,26 @@ E {5417}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {5439}{0}{<fff>}{The Stones of G'harne}{ }{}{the northern plains}{}{FIELD}{}{1.000}{}
 E {5437}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {5440}{d}{drop jar;drop ivy;read scroll}{32}{0}{}{1.000}{}{0.00}
+
+R {5440}{0}{<fff>}{Dark smelly tunnels}{ }{}{the northern plains}{}{INSIDE}{}{1.000}{}
+E {5441}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5439}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {5442}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5441}{0}{<fff>}{Dead end of tunnel}{ }{}{the northern plains}{}{INSIDE}{}{1.000}{}
+E {5440}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5442}{0}{<fff>}{Dark smelly tunnels}{ }{}{the northern plains}{}{INSIDE}{}{1.000}{}
+E {5440}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5443}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5443}{0}{<fff>}{Dark smelly tunnels}{ }{}{the northern plains}{}{INSIDE}{}{1.000}{}
+E {5442}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5444}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5444}{0}{<fff>}{The Hall of G'harne}{ }{}{the northern plains}{}{INSIDE}{}{1.000}{}
+E {5443}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {5445}{0}{<fff>}{High Cliff}{ }{}{the northern plains}{}{FIELD}{}{1.000}{}
 E {5438}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -542,8 +565,8 @@ R {5454}{0}{<fff>}{The village reception}{ }{}{the northern plains}{}{CITY}{}{1.
 E {5453}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5414}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {5455}{0}{<fff>}{Luxan's mixed shop}{ }{}{the northern plains}{}{CITY}{}{1.000}{}
+R {5455}{0}{<fff>}{Luxan's mixed shop}{#}{}{the northern plains}{}{CITY}{}{1.000}{}
 E {5452}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {5456}{0}{<fff>}{The Local Inn}{ }{}{the northern plains}{}{CITY}{}{1.000}{}
+R {5456}{0}{<fff>}{The Local Inn}{#}{}{the northern plains}{}{CITY}{}{1.000}{}
 E {5452}{s}{s}{4}{0}{}{1.000}{}{0.00}

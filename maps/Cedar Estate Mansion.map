@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 7400
+I 7401
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -260,6 +260,7 @@ T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
+
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
@@ -286,13 +287,78 @@ R {7404}{0}{<fff>}{The bloody fountain}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.
 E {7409}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {7405}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {7424}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {7406}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {7406}{w}{pull fang;get fang;w}{8}{0}{}{1.000}{}{0.00}
 
-R {7405}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {7405}{0}{<fff>}{Before the mansion doors}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7421}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {7404}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {7406}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {7406}{0}{<fff>}{Southern path around the mansion}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7404}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7407}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {7409}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {7407}{0}{<fff>}{A path at the southern end of the mansion.}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7406}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7408}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7408}{0}{<fff>}{Southwestern end of the path around the mansion}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7407}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7412}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7409}{0}{<fff>}{A path at the southern end of the mansion.}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7410}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7404}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7410}{0}{<fff>}{Southern path}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7411}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7409}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7411}{0}{<fff>}{Southeastern corner of the mansion path}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7416}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7410}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7412}{0}{<fff>}{Western path around the mansion}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7413}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7408}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7413}{0}{<fff>}{Western path}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7414}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7412}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7414}{0}{<fff>}{Western side path, before a shed}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7415}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7413}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7415}{0}{<fff>}{Mansion Shed}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7405}{n}{shake hand}{1}{0}{}{1.000}{}{0.00}
+
+R {7416}{0}{<fff>}{Eastern path around the mansion}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7417}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7411}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7417}{0}{<fff>}{Eastern path at the side of the mansion}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7418}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7416}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7418}{0}{<fff>}{Eastern Path}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7419}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7417}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7419}{0}{<fff>}{Northeastern corner of the path}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7418}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7420}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7420}{0}{<fff>}{A dead-end in the northern path}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
+E {7419}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {7421}{0}{<fff>}{Inside the great oaken doors}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7422}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7405}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {7422}{0}{<fff>}{At a corner in the hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7421}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7426}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {7425}{e}{tap mirror}{2}{0}{}{1.000}{}{0.00}
 
 R {7423}{0}{<fff>}{On the gravel path}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
 E {7403}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -301,5 +367,322 @@ E {7401}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {7424}{0}{<fff>}{An unexpected sight}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
 E {7404}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {7423}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7425}{0}{<fff>}{A secret room}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7422}{w}{tap mirror}{8}{0}{}{1.000}{}{0.00}
+
+R {7426}{0}{<fff>}{Mansion Hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7422}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7427}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7427}{0}{<fff>}{A turn in the hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7426}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7428}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7431}{n}{pull latch}{1}{0}{}{1.000}{}{0.00}
+
+R {7428}{0}{<fff>}{A hallway before some bedchambers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7427}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7430}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {7429}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+
+R {7429}{0}{<fff>}{A maid's bedchamber}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7428}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+
+R {7430}{0}{<fff>}{The butler's chambers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7428}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {7431}{0}{<fff>}{The hidden hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7432}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7427}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7432}{0}{<fff>}{A corner in the hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7433}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7431}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7433}{0}{<fff>}{Mansion hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7434}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7432}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7434}{0}{<fff>}{Northwestern bend in the hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7435}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7433}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7435}{0}{<fff>}{Central northern hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7436}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7469}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {7434}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7436}{0}{<fff>}{Northeastern bend in the hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7437}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7435}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7437}{0}{<fff>}{Mansion hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7436}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7438}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7438}{0}{<fff>}{Mansion hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7437}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7439}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {7439}{0}{<fff>}{A hallway in the mansion}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7438}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7440}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7440}{0}{<fff>}{Mansion hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7439}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7441}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7442}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {7443}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7441}{0}{<fff>}{Mansion living area}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7440}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7442}{0}{<fff>}{Mansion Kitchen}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7440}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {7443}{0}{<fff>}{Stairway to the basement}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7453}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {7440}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {7444}{0}{<fff>}{In the hedges}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7445}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7445}{0}{<fff>}{In the midst of some hedges}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7448}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7447}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7444}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7446}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7446}{0}{<fff>}{In the hedges}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7445}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {7447}{0}{<fff>}{In the hedges}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7445}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7448}{0}{<fff>}{At the base of a ladder in an underground tunnel}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7449}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7445}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {7449}{0}{<fff>}{Crawling along an underground tunnel}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7448}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7450}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7450}{0}{<fff>}{A tunnel beneath the mansion}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7449}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7451}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7451}{0}{<fff>}{An underground tunnel}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7450}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7452}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7452}{0}{<fff>}{A tunnel below the mansion}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7451}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7453}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {7453}{0}{<fff>}{At the base of some dark stairs}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7457}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {7452}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {7443}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {7454}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7454}{0}{<fff>}{Basement Hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7453}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7455}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {7455}{0}{<fff>}{Mansion Laboratory}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7454}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {7456}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7456}{0}{<fff>}{Mansion Laboratory}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7455}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {7457}{0}{<fff>}{A large slimy sewer tunnel}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7458}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7453}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {7458}{0}{<fff>}{Slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7461}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7459}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7460}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7457}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7459}{0}{<fff>}{One of the corners in the slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7463}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7458}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7460}{0}{<fff>}{A corner in the slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7464}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7458}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7461}{0}{<fff>}{Intersection in the slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7462}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7463}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7464}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7458}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7462}{0}{<fff>}{Slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7465}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7466}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7461}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7463}{0}{<fff>}{Walking in the slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7465}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7461}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7459}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7464}{0}{<fff>}{In the slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7466}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7461}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7460}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7465}{0}{<fff>}{A corner in the slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7462}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7463}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7466}{0}{<fff>}{A corner in the slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7462}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7464}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7467}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7468}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7471}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7487}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7468}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7469}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7467}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7469}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7469}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7435}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7474}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7470}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7476}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7480}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7468}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7483}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7479}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {7489}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {7472}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7470}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7471}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7469}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7469}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7471}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7467}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7470}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7469}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7472}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7469}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7469}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7473}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7473}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7472}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7469}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7469}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7475}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7474}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7475}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7469}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7469}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7469}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7475}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7473}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7485}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7469}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7474}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7476}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7477}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7469}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7469}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7469}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {7477}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7478}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7484}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7469}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7476}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {7478}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7479}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7469}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7469}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7477}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {7479}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7469}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7469}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7478}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {7480}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7481}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7469}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7486}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {7481}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7482}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7480}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7469}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {7482}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7483}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7481}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7469}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {7483}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {7469}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {7482}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {7469}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {7484}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {7485}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {7486}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {7487}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {7488}{0}{<fff>}{A rectangular room - the black box stage}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7489}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {7489}{0}{<fff>}{Third floor hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7469}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {7491}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {7490}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {7488}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {7494}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {7492}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {7490}{0}{<fff>}{A thrust stage}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7489}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {7491}{0}{<fff>}{An arena stage}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7489}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {7492}{0}{<fff>}{A proscenium stage}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
+E {7489}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {7494}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {10281}{0}{<fff>}{}{Hel}{}{}{}{}{}{1.000}{}

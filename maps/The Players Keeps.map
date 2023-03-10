@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 1901
+I 1911
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -260,7 +260,18 @@ T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
+
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {1911}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {3}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {3}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {1912}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {1901}{0}{<fff>}{Welcome to the Home of BravoMan}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1902}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -280,6 +291,39 @@ E {1902}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
 R {1905}{0}{<fff>}{Azure's Room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1902}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {1906}{0}{<fff>}{A small hallway}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {3080}{e}{jt_m_link_action {east} {Midgaard} {3080}}{2}{0}{}{1.000}{}{0.00}
+E {1907}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {1907}{0}{<fff>}{Inside Cirion's Home}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1910}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {1909}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1906}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1908}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {1908}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {1909}{0}{<fff>}{A small sitting room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1907}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {1910}{0}{<fff>}{A meeting room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1907}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {1911}{0}{<fff>}{The Peaceful Grove}{ }{}{The Players Keeps}{}{FIELD}{}{1.000}{}
+E {3031}{w}{jt_m_link_action {west} {Midgaard} {3031}}{8}{0}{}{1.000}{}{0.00}
+E {1912}{e}{touch portal}{2}{0}{}{1.000}{}{0.00}
+
+R {1912}{0}{<fff>}{The Courtyard}{%}{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1913}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1914}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1911}{w}{touch portal}{8}{0}{}{1.000}{}{0.00}
+
+R {1913}{0}{<fff>}{The Library}{M}{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1912}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {1914}{0}{<fff>}{The Bedroom}{&}{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1912}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
 
 R {1915}{0}{<fff>}{Maranta's Chambers}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1917}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
@@ -321,6 +365,17 @@ E {1922}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 R {1924}{0}{<fff>}{The Portal Room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1922}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
 
+R {1925}{0}{<fff>}{Entrance to the House that Emphesys Built}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1927}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {1926}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {3082}{s}{jt_m_link_action {south} {Midgaard} {3082}}{4}{0}{}{1.000}{}{0.00}
+
+R {1926}{0}{<fff>}{Mycah's Room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1925}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {1927}{0}{<fff>}{Devante's Room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1925}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
 R {1928}{0}{<fff>}{The Great Hall}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1922}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {1931}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
@@ -341,5 +396,11 @@ R {1932}{0}{<fff>}{The Devil's Shrine}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000
 E {1928}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {3017}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
+
+R {3031}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
+
+R {3080}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
+
+R {3082}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
 
 R {3141}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}

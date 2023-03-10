@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 21700
+I 21701
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -267,6 +267,14 @@ E {2}{e}{e}{2}{0}{}{1.000}{}{0.00}
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {1}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
+R {3}{8}{}{}{ }{}{}{}{FIELD}{}{1.000}{}
+E {21722}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {4}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {4}{8}{}{}{ }{}{}{}{FIELD}{}{1.000}{}
+E {3}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {21723}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
 R {15003}{0}{<fff>}{}{Wel}{}{}{}{}{}{1.000}{}
 
 R {21700}{0}{<fff>}{Before a metal gate}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
@@ -283,8 +291,252 @@ E {21703}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {21717}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {21701}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {21703}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {21703}{0}{<fff>}{Western end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21710}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21704}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21702}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {21711}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {21704}{0}{<fff>}{Northwestern end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21705}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21703}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {21717}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {21705}{0}{<fff>}{Northern end of the training ground}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21706}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21710}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21704}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21706}{0}{<fff>}{Northern end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21707}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21709}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21705}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21707}{0}{<fff>}{Northeastern corner of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21708}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21706}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21708}{0}{<fff>}{Eastern end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21707}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21713}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21709}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21709}{0}{<fff>}{Training Grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21708}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21706}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21712}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21710}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21710}{0}{<fff>}{Training Grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21709}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21705}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21711}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21703}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21711}{0}{<fff>}{Training Grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21712}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21710}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21716}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21702}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21712}{0}{<fff>}{Training Grounds}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21713}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21709}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21715}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21711}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21713}{0}{<fff>}{At a gate on the eastern end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21722}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {21708}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21714}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21712}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21714}{0}{<fff>}{Eastern end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21713}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21721}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21715}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21715}{0}{<fff>}{Training Grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21714}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21712}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21720}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21716}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21716}{0}{<fff>}{Training Grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21715}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21711}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21719}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21717}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21717}{0}{<fff>}{Western end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21716}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21702}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21718}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21718}{0}{<fff>}{Southwestern corner of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21719}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21717}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {21719}{0}{<fff>}{Southern end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21720}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21716}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21718}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21720}{0}{<fff>}{Southern end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21721}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21715}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21719}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21721}{0}{<fff>}{Southeastern end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21714}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21720}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21722}{0}{<fff>}{Entrance to the battle fields}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {3}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21713}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {21723}{0}{<fff>}{Central Battlefield}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21758}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {21730}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21737}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21724}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {21749}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21727}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {21752}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {4}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21724}{0}{<fff>}{The art of sorcery}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21725}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {21723}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {21725}{0}{<fff>}{Magicians in battle}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21726}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {21724}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {21726}{0}{<fff>}{A darkened field}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21725}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {21727}{0}{<fff>}{A tricky trade}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21723}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {21728}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {21728}{0}{<fff>}{Skilled Thievery}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21727}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {21729}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {21729}{0}{<fff>}{When nothing moves, someone is behind you}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21728}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {21730}{0}{<fff>}{Central Battle Field}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21743}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21740}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21731}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {21746}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {21734}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {21755}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {21723}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21731}{0}{<fff>}{A warrior's test}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21732}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {21730}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {21732}{0}{<fff>}{Horseback fighting}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21733}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {21731}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {21733}{0}{<fff>}{To duel with a master}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21732}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {21734}{0}{<fff>}{The discipline of peace}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21730}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {21735}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {21735}{0}{<fff>}{The power of white magic}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21734}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {21736}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {21735}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {21736}{0}{<fff>}{Mastery of peace and war}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21735}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {21737}{0}{<fff>}{Magical Battle}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21738}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21723}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21738}{0}{<fff>}{Combining the arts}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21739}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21737}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21739}{0}{<fff>}{Oh holy knight}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21738}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21740}{0}{<fff>}{Musical Art}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21741}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21730}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21741}{0}{<fff>}{A beautiful song}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21742}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21740}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21742}{0}{<fff>}{Musical Death}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21741}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21743}{0}{<fff>}{May the force be with you}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21744}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21730}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21744}{0}{<fff>}{The dark side}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21745}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21743}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21745}{0}{<fff>}{The force is strong in you}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21744}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21746}{0}{<fff>}{Not a good Knight}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21730}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21747}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21747}{0}{<fff>}{An unholy Knight}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21746}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21748}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21748}{0}{<fff>}{The dark Knight}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21747}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {21749}{0}{<fff>}{A keen sense}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21723}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21750}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21750}{0}{<fff>}{Wild animals}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21749}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21751}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {21751}{0}{<fff>}{The lone Ranger}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
+E {21750}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {21752}{0}{<fff>}{Skillful attributes}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21723}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {21753}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {21753}{0}{<fff>}{Battles in the sky}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21752}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {21754}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {21754}{0}{<fff>}{So high above the battle arenas}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21753}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {21755}{0}{<fff>}{Ninjas up high}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21730}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {21756}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {21756}{0}{<fff>}{The two ninjas}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21755}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {21757}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {21757}{0}{<fff>}{High Katana}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21756}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {21758}{0}{<fff>}{Battle Master's Cage}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21759}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {21723}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+
+R {21759}{0}{<fff>}{The Final Challenge}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
+E {21758}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}

@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 5100
+I 5136
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -258,6 +258,7 @@ T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
 T {MOUNTAINS} {<F935116>◮} {WIDE}
 T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
+
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
@@ -343,7 +344,9 @@ E {5114}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {5118}{0}{<fff>}{Warrior's Academy}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
 E {5106}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {5119}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {5119}{0}{<fff>}{Entrance to the Temple of Lloth}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5126}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5117}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {5120}{0}{<fff>}{Mage's Academy}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
 E {5121}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
@@ -369,3 +372,105 @@ E {5123}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {5125}{0}{<fff>}{Throne Room}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
 E {5124}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5126}{0}{<fff>}{Entrance Way}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5127}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5119}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {5127}{0}{<fff>}{Hallway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5128}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5135}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5126}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5131}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5128}{0}{<fff>}{Long Hallway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5129}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5127}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5129}{0}{<fff>}{Long Hallway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5130}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5150}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5128}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5130}{0}{<fff>}{Long Hallway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5134}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5129}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5131}{0}{<fff>}{Long Hallway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5127}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5132}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5132}{0}{<fff>}{Long Hallway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5131}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5133}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5134}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5133}{0}{<fff>}{Warrior's Barracks}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5132}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {5134}{0}{<fff>}{Long Hallway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5132}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5130}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5135}{0}{<fff>}{Grand Stairway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5127}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5136}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {5136}{0}{<fff>}{Grand Hallway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5135}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5137}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {5138}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5137}{0}{<fff>}{Mages' Barracks}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5136}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5138}{0}{<fff>}{Grand Hallway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5140}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5136}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5139}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5139}{0}{<fff>}{Cleric's Barracks}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5138}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {5140}{0}{<fff>}{Grand Stairway}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5141}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5138}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {5141}{0}{<fff>}{Main Chamber}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5142}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5140}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5144}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5142}{0}{<fff>}{Eastern Side of Chamber}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5146}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {5145}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5141}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5143}{16384}{<faa>}{}{<faa>DT}{}{}{}{}{}{1.000}{}
+
+R {5144}{0}{<fff>}{Western Side of Chamber}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5145}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5141}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5145}{0}{<fff>}{The Altar}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5143}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5142}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5148}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5144}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5146}{0}{<fff>}{Slave Cells}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5147}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5142}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5147}{0}{<fff>}{Slave Pen}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5146}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5148}{0}{<fff>}{Dais}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5145}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5149}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {5149}{0}{<fff>}{The Treasury}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5148}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {5150}{0}{<fff>}{Weaponsmaster's Chamber}{ }{}{Drow City}{}{INSIDE}{}{1.000}{}
+E {5129}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}

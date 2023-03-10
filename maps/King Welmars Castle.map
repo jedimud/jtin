@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 15003
+I 15017
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -286,7 +286,13 @@ R {15004}{0}{<fff>}{On the Drawbridge}{ }{}{King Welmars Castle}{}{CITY}{}{1.000
 E {15007}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {15003}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {15006}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {15005}{0}{<fff>}{The Kitchen}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15006}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15010}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {15006}{0}{<fff>}{A small passage.}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15007}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {15005}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {15007}{0}{<fff>}{The Entrance Hall}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
 E {15008}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -297,6 +303,193 @@ E {15006}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 R {15008}{0}{<fff>}{The Guard Room}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
 E {15007}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {15012}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {15009}{0}{<fff>}{Under the Tower}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15014}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15034}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {15010}{0}{<fff>}{The Small Passage}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15015}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15005}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15011}{0}{<fff>}{The Great Hall}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15012}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15016}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {15012}{0}{<fff>}{The Great Hall}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15013}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15017}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15007}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15011}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15013}{0}{<fff>}{The Great Hall}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15018}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15012}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15014}{0}{<fff>}{A passage}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15019}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15009}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15015}{0}{<fff>}{The passage}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15016}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15020}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15010}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15016}{0}{<fff>}{The Great Hall}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15017}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15011}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15015}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15017}{0}{<fff>}{By the Throne in the Great Hall}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15018}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15012}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15016}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15018}{0}{<fff>}{The Great Hall}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15019}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15013}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15017}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15019}{0}{<fff>}{The small passage}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15024}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15014}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15018}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15020}{0}{<fff>}{The passage}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15021}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {15025}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15015}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15021}{0}{<fff>}{The servants' corridor}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15022}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15026}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {15020}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {15022}{0}{<fff>}{The end of the servants' corridor}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15027}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {15021}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15023}{0}{<fff>}{The Training Room}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15024}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15028}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {15024}{0}{<fff>}{The small passage}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15029}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15019}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15023}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15025}{0}{<fff>}{The Stair Room}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15020}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15049}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {15026}{0}{<fff>}{The servants' quarters}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15021}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {15027}{0}{<fff>}{The butler's quarters}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15022}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {15028}{0}{<fff>}{The Guards' Barracks}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15023}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {15029}{0}{<fff>}{The stairs}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15024}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15030}{0}{<fff>}{At a bend in the corridor}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15031}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15035}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {15031}{0}{<fff>}{The corridor}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15032}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15030}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15032}{0}{<fff>}{The corridor}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15033}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15031}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15033}{0}{<fff>}{The corridor}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15038}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15032}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15034}{0}{<fff>}{In the south-east tower.}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15009}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {15052}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {15035}{0}{<fff>}{The corridor}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15036}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15040}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15030}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15036}{0}{<fff>}{By the treasure room}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15037}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {15035}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15037}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {15038}{0}{<fff>}{The Guest Wing}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15039}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {15043}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {15033}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15039}{0}{<fff>}{The Guest Suite}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15044}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15038}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {15040}{0}{<fff>}{The corridor}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15045}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15035}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15041}{0}{<fff>}{The Ball Room}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15042}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15046}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {15042}{0}{<fff>}{By the stage}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15047}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15041}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15043}{0}{<fff>}{A Guest Room}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15038}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {15044}{0}{<fff>}{The Bedroom}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15039}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15045}{0}{<fff>}{The corridor}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15046}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15049}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15040}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15046}{0}{<fff>}{The Ball Room}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15047}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15041}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15045}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15047}{0}{<fff>}{The Ball Room}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15048}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15042}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15046}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15048}{0}{<fff>}{In the Tower}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15054}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {15047}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15049}{0}{<fff>}{The Grand Staircase}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15025}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {15050}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {15045}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {15053}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {15050}{0}{<fff>}{The Cozy Room}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15051}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15049}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {15051}{0}{<fff>}{The King's Bedroom}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15050}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {15052}{0}{<fff>}{Up in the Tower}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15034}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {15053}{0}{<fff>}{The Top of the Tower}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15049}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {15054}{0}{<fff>}{The Top of the Tower}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15048}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {21700}{0}{<fff>}{}{TrG}{}{}{}{}{}{1.000}{}

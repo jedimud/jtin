@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 12373
+I 12376
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -262,6 +262,9 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2}{0}{<fff>}{}{Eme}{}{}{}{}{}{1.000}{}
+E {12376}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {12220}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
 
@@ -333,6 +336,7 @@ E {12380}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {12376}{0}{<fff>}{Garden}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
 E {12371}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12381}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {2}{d}{jt_m_link_action {enter maze} {The Emerald Maze} {12891}}{32}{0}{}{1.000}{}{0.00}
 
 R {12377}{0}{<fff>}{Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12372}{e}{e}{2}{0}{}{1.000}{}{0.00}
