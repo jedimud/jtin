@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 5502
+I 5558
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -369,7 +369,7 @@ E {5520}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {5522}{0}{<fff>}{Captain's Quarters}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5520}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {5558}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5558}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {5523}{0}{<fff>}{Quartermaster's Room}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5520}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
@@ -511,4 +511,4 @@ R {5557}{0}{<fff>}{Cell}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5555}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
 
 R {5558}{0}{<fff>}{Captain's Store}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5522}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5522}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}

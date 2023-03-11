@@ -12607,3 +12607,46 @@ Item will give you following abilities:  NOBITS
 Item is: MAG !DROP !DONATE UNIQUE 
 Weight: 0, Value: 0, Rent: 0, Min. level: 0
 Item slot: Head
+-----
+Object 'a needle gun', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: HUM EVIL !MAGE !CLER !PAL !JEDI !DONATE UNIQUE 
+Weight: 2, Value: 1200, Rent: 1000, Min. level: 0
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Item slot: Wield
+-----
+Object 'a diamond necklace', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 20, Value: 5000, Rent: 5000, Min. level: 15
+Can affect you as :
+   Affects: CHARISMA By 1
+Item slot: Neck
+-----
+Object 'Imperial orders', Item type: NOTE
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 0, Value: 10000, Rent: 0, Min. level: 0
+-----
+Object 'a Shuttle Tydirium Boarding Pass', Item type: UNDEFINED
+Item will give you following abilities:  NOBITS 
+Item is: NOBITS 
+Weight: 1, Value: 2000, Rent: 0, Min. level: 0
+-----
+Object 'the combination', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1, Rent: 1, Min. level: 0
+Item slot: Hold
+-----
+Object 'the combination', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1, Rent: 1, Min. level: 0
+Item slot: Hold
+-----
+Object 'a key on a string', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 10, Rent: 0, Min. level: 0
+Item slot: Neck

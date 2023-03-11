@@ -507,7 +507,7 @@ E {3002}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {3124}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {3129}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {3000}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {55}{w}{jt_m_link_action {west} {the Midgaard Temple} {100}}{8}{0}{}{1.000}{}{0.00}
+E {55}{w}{jt_m_link_action {open west;west} {the Midgaard Temple} {100}}{8}{0}{}{1.000}{}{0.00}
 
 R {3002}{0}{<fff>}{The North Temple Square}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3124}{e}{e}{2}{0}{}{1.000}{}{0.00}

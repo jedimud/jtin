@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 5881
+I 5862
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -586,7 +586,9 @@ R {5874}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
 E {5878}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {5873}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5875}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {5875}{0}{<fff>}{The tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5887}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5879}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {5876}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
 E {5872}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -599,7 +601,7 @@ R {5878}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
 E {5874}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {5879}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
-E {5875}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5875}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
 E {5883}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {5880}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
@@ -630,5 +632,80 @@ E {5881}{n}{n}{1}{0}{}{1.000}{}{0.00}
 R {5886}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
 E {5882}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5885}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5887}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5888}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5890}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5875}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {5888}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5889}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5887}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5889}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5888}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5890}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5887}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5893}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5891}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5899}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {5892}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5894}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5892}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5891}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5893}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5894}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5890}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5896}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {5894}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5895}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5891}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5897}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5893}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5895}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5894}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5896}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5893}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5897}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5898}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5894}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5898}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5897}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5899}{0}{<fff>}{The tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5900}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5891}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {5900}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5901}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5903}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5899}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5901}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5902}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5900}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5902}{0}{<fff>}{In the catacombs}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5905}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {5901}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5903}{0}{<fff>}{A tunnel's end}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5900}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5904}{0}{<fff>}{The Soul Devourer's Chamber}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5905}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {5905}{0}{<fff>}{The end of the tunnel}{ }{}{The Monastery}{}{INSIDE}{}{1.000}{}
+E {5902}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5904}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
 
 R {12426}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}

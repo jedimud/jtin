@@ -330,7 +330,7 @@ E {7415}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {7413}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {7415}{0}{<fff>}{Mansion Shed}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7405}{n}{shake hand}{1}{0}{}{1.000}{}{0.00}
+E {7405}{n}{offer soul; get cane; shake hand}{1}{0}{}{1.000}{}{0.00}
 
 R {7416}{0}{<fff>}{Eastern path around the mansion}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
 E {7417}{n}{n}{1}{0}{}{1.000}{}{0.00}
