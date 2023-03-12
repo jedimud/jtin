@@ -1,5 +1,52 @@
 ----
 
+-- change room link command to prompt for terrain
+
+-- room dt <dir> should take in terrain
+        room dt <dir> <terrain>
+        -- check all dt
+
+-- nmanually fix terrain on all map exits
+
+
+-- auto-cast should just keep firing until all met
+        -- double fires now
+
+-- cmds
+        -- map msdp (enable on or off)
+        -- map locate (enable msdp, find, disable msdp)
+
+-- manually fix/verify all paths
+        -- hao -> uw does not work
+
+-- handle Star Wars flight
+-- handle Charon flight in UW
+
+
+-- create room terrain cmd
+        room terrain s FOREST
+                -- dig south
+                -- make a void room in between
+                -- make void room == current room terrain
+                -- make new room FOREST
+                -- set directions to {14} instead of {4} for south, 
+
+
+                room terrain <DIR> <TERRAIN>
+                #map dig s -- $DIR
+                #map insert s -- $DIR
+                #map mov s -- $DIR
+                #map mov s -- $DIR
+                #map set roomsymbol {<F0B5345>⍋ } -- switch on $TERRAIN
+                #map set roomterrain FOREST -- $TERRAIN
+                #map mov n -- switch on $DIR
+                #map set roomsymbol {<F21618C>~ } -- switch on $MSDP_ROOM[TERRAIN]
+                #map set roomterrain $MSDP_ROOM[TERRAIN]
+                #map mov n -- switch on $DIR
+
+
+
+
 -- add regenerate to auto cast spells
 -- update legend for shops, and other landmarks (specifically color?)
 -- quick cmd for getting map stats, 
@@ -10,25 +57,12 @@
 -- fix paths
 -- Add Midair terrain, survey all terrain
 -- finish linking
-        Castle Mistamere	
-        Crystal Caves	
-        Donner's Den	
-        Elven Village Ruins	
-        Emerald Maze	
-        Froboz's Factory	
         Golden Pagoda	
         Goth Camps	
-        Great Chessboard	
-        Gyles Keep	
-        Lich's Tower	
         Metro	
-        Midgaard Zoo	
         Scipio Dreaming	
-        Sea of Dreams	
         Shadow Rift	
         Shadow Storm	
-        Training Grounds
-        (Midgaard)
         (New Thalos)
         (Skara Brae)	
 
@@ -45,82 +79,3 @@
     #map TERRAIN HILLS <F7D6608>︵  DOUBLE WIDE DENSE FADEOUT;
     #map TERRAIN MIDAIR <F6C3483>⊰ SPARSE WIDE;
 
-
--- missing OUTDOORS, MIDAIR
-
-
-
-
-
-T {city} {⌂} {SCANT NARROW}
-T {field} {·} {DENSE WIDE}
-T {forest} {⟑} {DENSE WIDE}
-T {hills} {︵} {DOUBLE}
-T {inside} {⌂} {SCANT NARROW}
-T {outside} {⠘} {DENSE VAST FADEOUT}
-T {road} {⸭} {DENSE}
-
-
-
-
-T {forest} {} {DENSE WIDE}
-T {hills} {︵} {DOUBLE}
- water
- snow/ice
- mountains
-
- mountains
-
- room link w {dark Haon-Dor} 6145 DHa
- room link e {the southern part of Midgaard} 3200 SoM
-
-
-FOG                                         <aaa>
-INSIDE                                          <eee>
-CITY                                        <fff>
-FIELD               ❄                         <ffa>
-FOREST              ⟑   ⍋   🌲 🌴 🌳 🌵        <ada>
-HILLS              ︵ ◠ ⁔                    <fdb>
-MOUNTAIN            △ ⛰ ◮ 🗻                   <bbb>
-WATER_SWIM             ~ 🌊                 <acf>
-WATER_NOSWIM                                <acf>
-FLYING                                      <fbf>
-UNDERWATER          ૰                       <acf>
-
-
-#OK. TERRAIN {FOREST} HAS BEEN SET TO {<F0B5345>⍋} {SPARSE VAST FADEIN}.
-
-#MAP TERRAIN FOREST <F0B5345>⍋ SPARSE VAST FADEOUT;
-#MAP TERRAIN INSIDE <F922B21>≡ DENSE NARROW
-
-#MAP TERRAIN FIELD <F9A7D0A>:: DOUBLE FADEOUT SPARSE;
-#MAP TERRAIN NOWIM <F21618C>~ DENSE;
-
-https://htmlcolorcodes.com/
-
-#MAP TERRAIN INSIDE <F6E2C00>≡;
-
-#showme FOG <aaa>[ ];
-#showme INSIDE <eee>[ ];
-#showme CITY <fff>[ ]
-#showme FIELD <ffa>[ ]
-#showme FOREST <ada>[ ]
-#showme HILLS <fdb>[ ]
-#showme MOUNTAIN <bbb>[ ]
-#showme WATER_SWIM <acf>[ ]
-#showme NOSWIM <acf>[ ]
-#showme FLYING <fbf>[ ]
-#showme UNDERWATER <acf>[ ]
-
-
-
-
-T {city} {⌂} {SCANT NARROW}
-T {field} {·} {DENSE WIDE}
-T {forest} {🌳} {VAST FADEOUT DOUBLE}
-T {forest2} {🌲} {VAST FADEOUT DOUBLE}
-T {hills} {︵} {DOUBLE}
-T {inside} {⌂} {SCANT NARROW}
-T {outside} {⠘} {DENSE VAST FADEOUT}
-T {road} {⸭} {DENSE}
-T {water} {🌲} {SPARSE VAST FADEIN DOUBLE}

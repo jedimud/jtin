@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8207
+F 8206
 
 G 0
 
-I 12520
+I 1
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -261,17 +261,4 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-
-
-R {12264}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
-
-R {12520}{0}{<fff>}{Entrance to the Paladin Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12521}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {12264}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12521}}{8}{0}{}{1.000}{}{0.00}
-
-R {12521}{0}{<fff>}{Hall of Justice}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12520}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {12522}{u}{u}{16}{0}{}{1.000}{}{0.00}
-
-R {12522}{0}{<fff>}{Among the Virtuous}{M}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12521}{d}{d}{32}{0}{}{1.000}{}{0.00}
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}

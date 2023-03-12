@@ -14,7 +14,7 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -260,17 +260,14 @@ T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
+
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {5035}{0}{<fff>}{}{GED}{}{}{}{FIELD}{}{1.000}{}
 
-R {5035}{0}{<fff>}{}{GED}{}{}{}{}{}{1.000}{}
+R {5040}{0}{<fff>}{}{GED}{}{}{}{FIELD}{}{1.000}{}
 
-R {5040}{0}{<fff>}{}{GED}{}{}{}{}{}{1.000}{}
-
-R {5050}{0}{<fff>}{}{GED}{}{}{}{}{}{1.000}{}
+R {5050}{0}{<fff>}{}{GED}{}{}{}{FIELD}{}{1.000}{}
 
 R {5300}{0}{<fff>}{The Great Eastern Desert}{ }{}{The Great Pyramid}{}{FIELD}{}{1.000}{}
 E {5040}{e}{jt_m_link_action {east} {the Great Eastern Desert} {5040}}{2}{0}{}{1.000}{}{0.00}

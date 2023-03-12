@@ -262,16 +262,13 @@ T {SWIM} {<F21618C>~} {}
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
-R {2}{0}{}{}{SoM}{}{}{}{}{}{1.000}{}
-E {17824}{n}{n}{1}{0}{}{1.000}{}{0.00}
+R {3237}{0}{<fff>}{}{SoM}{}{}{}{INSIDE}{}{1.000}{}
 
-R {3237}{0}{<fff>}{}{SoM}{}{}{}{}{}{1.000}{}
+R {3239}{0}{<fff>}{}{SoM}{}{}{}{CITY}{}{1.000}{}
 
-R {3239}{0}{<fff>}{}{SoM}{}{}{}{}{}{1.000}{}
+R {3240}{0}{<fff>}{}{SoM}{}{}{}{CITY}{}{1.000}{}
 
-R {3240}{0}{<fff>}{}{SoM}{}{}{}{}{}{1.000}{}
-
-R {3241}{0}{<fff>}{}{SoM}{}{}{}{}{}{1.000}{}
+R {3241}{0}{<fff>}{}{SoM}{}{}{}{CITY}{}{1.000}{}
 
 R {17800}{0}{<fff>}{The Entrance to The Jade Manor}{ }{}{the Wedding Shops}{}{CITY}{}{1.000}{}
 E {17801}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -329,10 +326,10 @@ R {17821}{0}{<fff>}{The Jeweler's Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.00
 E {3240}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3240}}{1}{0}{}{1.000}{}{0.00}
 
 R {17822}{0}{<fff>}{The Jeweler's Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3240}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3240}}{1}{0}{}{1.000}{}{0.00}
+E {3239}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3239}}{1}{0}{}{1.000}{}{0.00}
 
 R {17823}{0}{<fff>}{The Marriage Registry}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
 E {3237}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3237}}{1}{0}{}{1.000}{}{0.00}
 
 R {17824}{0}{<fff>}{The Immigration Office}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {2}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3237}}{4}{0}{}{1.000}{}{0.00}
+E {3237}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3237}}{4}{0}{}{1.000}{}{0.00}

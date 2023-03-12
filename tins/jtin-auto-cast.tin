@@ -13,6 +13,8 @@
     #return;
 }
 
+#nop ---- buffs ----
+
 #action {^$jt_at_ac_target is surrounded by a white sphere.$} {
     #var jt_ac_sp_action not_pending;
 }
@@ -29,13 +31,19 @@
     #var jt_ac_sp_action not_pending;
 }
 
+#action {^$jt_at_ac_target is now protected by your magic.$} {
+    #var jt_ac_sp_action not_pending;
+}
+
 #action {^You give $jt_at_ac_target a good feeling.$} {
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^$jt_at_ac_target is now protected by your magic.$} {
+#action {^But $jt_at_ac_target is already protected!$} {
     #var jt_ac_sp_action not_pending;
 }
+
+#nop ---- heals ----
 
 #action {^Your spell has closed some of $jt_at_ac_target's wounds.$} {
     #var jt_ac_sp_action not_pending;
@@ -45,9 +53,7 @@
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^But $jt_at_ac_target is already protected!$} {
-    #var jt_ac_sp_action not_pending;
-}
+#nop ---- error handling ----
 
 #action {^There is a huge thunderclap and a great blast of light as your attempt to} {
     #var jt_ac_sp_action not_pending;
@@ -59,6 +65,7 @@
 
 #action {^You lost your concentration!$} {
     #var jt_ac_sp_action not_pending;
+    k;
 }
 
 #action {^Impossible!  You can't concentrate enough!$} {
@@ -73,9 +80,8 @@
     #var jt_ac_sp_action not_pending;
 }
 
-#action {^In your dreams, or what?$} {
-    #var jt_ac_sp_action not_pending;
-}
+
+#nop ---- default ----
 
 #alias jt_at_ac_default {
     #var jt_ac_sp_action not_pending;

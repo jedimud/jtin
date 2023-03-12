@@ -260,11 +260,7 @@ T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
-R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {6700}{0}{<fff>}{A Swirling Eddy}{ }{}{Lost Isle of Shaedar}{}{SWIM}{}{1.000}{}
 E {12495}{nw}{jt_m_link_action {northwest} {the grand city of New Thalos} {12495}}{9}{0}{}{1.000}{}{0.00}

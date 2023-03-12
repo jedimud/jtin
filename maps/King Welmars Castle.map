@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 15017
+I 15001
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -262,12 +262,8 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
-
-R {3906}{0}{<fff>}{}{TAM}{}{}{}{}{}{1.000}{}
+R {3906}{0}{<fff>}{}{TAM}{}{}{}{FIELD}{}{1.000}{}
 
 R {15001}{0}{<fff>}{The King's Road}{ }{}{King Welmars Castle}{}{CITY}{}{1.000}{}
 E {15002}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
@@ -492,4 +488,4 @@ E {15049}{d}{d}{32}{0}{}{1.000}{}{0.00}
 R {15054}{0}{<fff>}{The Top of the Tower}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
 E {15048}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
-R {21700}{0}{<fff>}{}{TrG}{}{}{}{}{}{1.000}{}
+R {21700}{0}{<fff>}{}{TrG}{}{}{}{FIELD}{}{1.000}{}

@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 1100
+I 1101
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,11 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
 E {1156}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -279,7 +275,7 @@ R {5}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
 E {1135}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {1134}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {1100}{0}{<fff>}{A path through the northern forest}{ }{}{Shire Village}{}{FIELD}{}{1.000}{}
+R {1100}{0}{<fff>}{A path through the northern forest}{*}{}{Shire Village}{}{FIELD}{}{1.000}{}
 E {3901}{e}{jt_m_link_action {east} {the trails around Midgaard} {3901}}{2}{0}{}{1.000}{}{0.00}
 E {1101}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {15400}{w}{jt_m_link_action {west} {Weeden and the Western Forest} {15400}}{8}{0}{}{1.000}{}{0.00}
@@ -517,8 +513,8 @@ R {1156}{0}{<fff>}{End of a dark tunnel}{ }{}{Shire Village}{}{INSIDE}{}{1.000}{
 E {1152}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {3001}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
+R {3001}{0}{<fff>}{}{Mid}{}{}{}{INSIDE}{}{1.000}{}
 
-R {3901}{0}{<fff>}{}{TAM}{}{}{}{}{}{1.000}{}
+R {3901}{0}{<fff>}{}{TAM}{}{}{}{FIELD}{}{1.000}{}
 
-R {15400}{0}{<fff>}{}{Wdn}{}{}{}{}{}{1.000}{}
+R {15400}{0}{<fff>}{}{Wdn}{}{}{}{FOREST}{}{1.000}{}

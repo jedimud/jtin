@@ -263,7 +263,7 @@ T {SWIM} {<F21618C>~} {}
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
-R {3001}{0}{<fff>}{}{ }{}{}{}{}{}{1.000}{}
+R {3001}{0}{<fff>}{}{ }{}{}{}{INSIDE}{}{1.000}{}
 
 R {9000}{0}{<fff>}{Deadly Creatures Exhibit}{ }{}{the Midgaard Zoo}{}{INSIDE}{}{1.000}{}
 E {9086}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}

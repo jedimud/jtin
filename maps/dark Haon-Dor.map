@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 6100
+I 6103
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -260,20 +260,16 @@ T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
-R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {3}{0}{}{}{Uwo}{}{}{}{}{}{1.000}{}
-E {6154}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {900}{0}{<fff>}{}{Min}{}{}{}{}{}{1.000}{}
+R {3}{0}{}{}{Uwo}{}{}{}{NOSWIM}{}{1.000}{}
 
-R {1850}{0}{<fff>}{}{Nir}{}{}{}{}{}{1.000}{}
+R {900}{0}{<fff>}{}{Min}{}{}{}{NOSWIM}{}{1.000}{}
 
-R {6004}{0}{<fff>}{}{Hao}{}{}{}{}{}{1.000}{}
+R {1850}{0}{<fff>}{}{Nir}{}{}{}{FOREST}{}{1.000}{}
+
+R {6004}{0}{<fff>}{}{Hao}{}{}{}{FOREST}{}{1.000}{}
 
 R {6100}{0}{<fff>}{A narrow trail through the deep, dark forest}{ }{}{dark Haon-Dor}{}{FOREST}{}{1.000}{}
 E {6004}{e}{jt_m_link_action {east} {Haon-Dor} {6004}}{2}{0}{}{1.000}{}{0.00}
@@ -289,7 +285,7 @@ E {6101}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1850}{n}{jt_m_link_action {north} {MidenNir} {1850}}{1}{0}{}{1.000}{}{0.00}
 E {6103}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {6103}{0}{<fff>}{A narrow trail through the deep, dark forest}{ }{}{dark Haon-Dor}{}{FOREST}{}{1.000}{}
+R {6103}{0}{<fff>}{A narrow trail through the deep, dark forest}{*}{}{dark Haon-Dor}{}{FOREST}{}{1.000}{}
 E {6102}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6108}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
@@ -487,12 +483,12 @@ E {6154}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {6154}{0}{<fff>}{Dark river}{ }{}{dark Haon-Dor}{}{NOSWIM}{}{1.000}{}
 E {6153}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3}{s}{jt_m_link_action {cut vegetation} {The Underworld} {16100}}{4}{0}{}{1.000}{}{0.00}
+E {3}{s}{jt_m_link_action {#delay 0.5 {cut vegetation}} {The Underworld} {16100}}{4}{0}{}{1.000}{}{0.00}
 
 R {6201}{0}{<fff>}{}{Ara}{}{}{}{}{}{1.000}{}
 
-R {9201}{0}{<fff>}{}{Gob}{}{}{}{}{}{1.000}{}
+R {9201}{0}{<fff>}{}{Gob}{}{}{}{INSIDE}{}{1.000}{}
 
-R {12473}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
+R {12473}{0}{<fff>}{}{NT}{}{}{}{NOSWIM}{}{1.000}{}
 
-R {13000}{0}{<fff>}{}{HTS}{}{}{}{}{}{1.000}{}
+R {13000}{0}{<fff>}{}{HTS}{}{}{}{FOREST}{}{1.000}{}

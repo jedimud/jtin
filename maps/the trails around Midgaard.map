@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 3901
+I 1100
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,19 +261,14 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {1100}{0}{<fff>}{}{ShV}{}{}{}{FIELD}{}{1.000}{}
 
-R {1100}{0}{<fff>}{}{ShV}{}{}{}{}{}{1.000}{}
+R {3107}{0}{<fff>}{}{Mid}{}{}{}{CITY}{}{1.000}{}
 
-R {3107}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
+R {3108}{0}{<fff>}{}{Mid}{}{}{}{CITY}{}{1.000}{}
 
-R {3108}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
-
-R {3119}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
+R {3119}{0}{<fff>}{}{Mid}{}{}{}{CITY}{}{1.000}{}
 
 R {3900}{0}{<fff>}{West trail around Midgaard}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
 E {3901}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -282,7 +277,7 @@ E {3107}{s}{jt_m_link_action {south} {Midgaard} {3107}}{4}{0}{}{1.000}{}{0.00}
 R {3901}{0}{<fff>}{West trail around Midgaard}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
 E {3902}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3900}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {1100}{w}{jt_m_link_action {west} {Shire Village} {3901}}{8}{0}{}{1.000}{}{0.00}
+E {1100}{w}{jt_m_link_action {west} {Shire Village} {1100}}{8}{0}{}{1.000}{}{0.00}
 
 R {3902}{0}{<fff>}{Northwest corner of dusty trail.}{ }{}{the trails around Midgaard}{}{FIELD}{}{1.000}{}
 E {3903}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -315,6 +310,6 @@ R {3908}{0}{<fff>}{East trail around Midgaard}{ }{}{the trails around Midgaard}{
 E {3907}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3108}{s}{jt_m_link_action {south} {Midgaard} {3108}}{4}{0}{}{1.000}{}{0.00}
 
-R {5400}{0}{<fff>}{}{NoP}{}{}{}{}{}{1.000}{}
+R {5400}{0}{<fff>}{}{NoP}{}{}{}{FIELD}{}{1.000}{}
 
-R {15001}{0}{<fff>}{}{Wel}{}{}{}{}{}{1.000}{}
+R {15001}{0}{<fff>}{}{Wel}{}{}{}{CITY}{}{1.000}{}

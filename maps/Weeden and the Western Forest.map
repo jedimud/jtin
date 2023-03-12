@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 15433
+I 15420
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -261,11 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {3}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
 E {15424}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -275,7 +271,7 @@ R {4}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
 E {15443}{w}{w}{8}{0}{}{1.000}{}{0.00}
 E {15444}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {1100}{0}{<fff>}{}{ShV}{}{}{}{}{}{1.000}{}
+R {1100}{0}{<fff>}{}{ShV}{}{}{}{FOREST}{}{1.000}{}
 
 R {15400}{0}{<fff>}{A trail in the forest}{ }{}{Weeden and the Western Forest}{}{FOREST}{}{1.000}{}
 E {1100}{e}{jt_m_link_action {east} {Shire Village} {1100}}{2}{0}{}{1.000}{}{0.00}
@@ -317,7 +313,7 @@ E {15420}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {15410}{0}{<fff>}{Weeden's public burial grounds}{ }{}{Weeden and the Western Forest}{}{FIELD}{}{1.000}{}
 E {15408}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {15420}{0}{<fff>}{Inside the citygate of Weeden}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+R {15420}{0}{<fff>}{Inside the citygate of Weeden}{*}{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
 E {15408}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {15421}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {15422}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -325,7 +321,7 @@ E {15422}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {15421}{0}{<fff>}{Gateguard's resting room}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
 E {15420}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {15422}{0}{<fff>}{Weeden Road}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
+R {15422}{0}{<fff>}{Weeden Road}{}{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
 E {15420}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {15426}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {15423}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -452,8 +448,8 @@ R {15454}{0}{<fff>}{Miserable Chapel}{ }{}{Weeden and the Western Forest}{}{INSI
 E {15536}{d}{jt_m_link_action {open d;down} {Weeden Underground} {15536}}{32}{0}{}{1.000}{}{0.00}
 E {15443}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {15500}{0}{<fff>}{}{WdU}{}{}{}{}{}{1.000}{}
+R {15500}{0}{<fff>}{}{WdU}{}{}{}{INSIDE}{}{1.000}{}
 
-R {15531}{0}{<fff>}{}{WdU}{}{}{}{}{}{1.000}{}
+R {15531}{0}{<fff>}{}{WdU}{}{}{}{INSIDE}{}{1.000}{}
 
-R {15536}{0}{<fff>}{}{Wdn}{}{}{}{}{}{1.000}{}
+R {15536}{0}{<fff>}{}{Wdn}{}{}{}{INSIDE}{}{1.000}{}

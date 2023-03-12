@@ -65,6 +65,17 @@
             }
         }
     }
+    {Arachnos}{
+        {6201}{
+            {name}{Webbed Entrance}
+            {paths}{
+                {hao}{
+                    {name}{dark Haon-Dor}
+                    {path}{2d3e1n}
+                }
+            }
+        }
+    }
     {balor}{
         {9}{
             {name}{The Beach}
@@ -100,6 +111,37 @@
                 {wnt}{
                     {name}{West New Thalos}
                     {path}{9s}
+                }
+            }
+        }
+    }
+    {dark Haon-Dor}{
+        {6103}{
+            {name}{A narrow trail through the deep, dark forest}
+            {paths}{
+                {ara}{
+                    {name}{Arachnos}
+                    {path}{1s3w2u}
+                }
+                {gob}{
+                    {name}{Goblinsville}
+                    {path}{1s2w2s1w3s5w}
+                }
+                {hts}{
+                    {name}{High Tower of Socerery}
+                    {path}{1s2w2s1w1s3w1n1w1n}
+                }
+                {mid}{
+                    {name}{Temple of Midgaard}
+                    {path}{14e4n}
+                }
+                {min}{
+                    {name}{River Island of Minos}
+                    {path}{1s2w2s1w3s4w2s1e}
+                }
+                {uwo}{
+                    {name}{ Underworld}
+                    {path}{1s2w2s1w3s2w2s;cut vegetation;3s3w10n}
                 }
             }
         }
@@ -190,12 +232,12 @@
             }
         }
     }
-    {goblinsville}{
-        {1}{
+    {Goblinsville}{
+        {9201}{
             {name}{Cave Entrance}
             {paths}{
                 {hao}{
-                    {name}{Haon-Dor}
+                    {name}{dark Haon-Dor}
                     {path}{5e3n1e2n2e1n}
                 }
             }
@@ -224,33 +266,6 @@
             }
         }
     }
-    {haon-dor}{
-        {10}{
-            {name}{A narrow trail through the deep, dark forest}
-            {paths}{
-                {mid}{
-                    {name}{Temple of Midgaard}
-                    {path}{14e4n}
-                }
-                {gob}{
-                    {name}{Goblinsville}
-                    {path}{1s2w2s1w3s5w}
-                }
-                {ht}{
-                    {name}{ High Tower of Socerery}
-                    {path}{1s2w2s1w1s3w1n1w1n}
-                }
-                {min}{
-                    {name}{River Island of Minos}
-                    {path}{1s2w2s1w3s4w2s1e}
-                }
-                {uw}{
-                    {name}{ Underworld}
-                    {path}{1s2w2s1w3s2w6s3w10n}
-                }
-            }
-        }
-    }
     {hellas}{
         {5}{
             {name}{Welcome to hellas}
@@ -262,12 +277,12 @@
             }
         }
     }
-    {high-tower-of-sorcery}{
-        {1}{
+    {the High Tower of Sorcery}{
+        {13000}{
             {name}{Entrance to the Shadow Grove}
             {paths}{
                 {hao}{
-                    {name}{Haon-Dor}
+                    {name}{dark Haon-Dor}
                     {path}{1s1e1s3e1n1e2n2e1n}
                 }
             }
@@ -345,8 +360,8 @@
             }
         }
     }
-    {midgaard}{
-        {1}{
+    {Midgaard}{
+        {3001}{
             {name}{Temple of Midgaard}
             {paths}{
                 {lev}{
@@ -358,12 +373,12 @@
                     {path}{4s7e}
                 }
                 {hao}{
-                    {name}{Haon-Dor}
+                    {name}{dark Haon-Dor}
                     {path}{4s14w}
                 }
-                {sh}{
-                    {name}{ Shire Village}
-                    {path}{4s5w2n1w3n}
+                {shv}{
+                    {name}{Shire Village}
+                    {path}{8n1e1n}
                 }
                 {wdn}{
                     {name}{Weeden}
@@ -373,13 +388,13 @@
                     {name}{King Welmar's Castle}
                     {path}{7n2e;ne;ne;ne;}
                 }
-                {sm}{
-                    {name}{ Southern Midgaard}
+                {som}{
+                    {name}{Southern Midgaard}
                     {path}{4s4w7s2e1s}
                 }
             }
         }
-        {152}{
+        {3081}{
             {name}{The Levee}
             {paths}{
                 {mid}{
@@ -435,24 +450,28 @@
             }
         }
     }
-    {river-island-of-minos}{
-        {1}{
+    {River Island Of Minos}{
+        {900}{
             {name}{On The Swift Flowing River}
             {paths}{
                 {hao}{
-                    {name}{Haon-Dor}
+                    {name}{dark Haon-Dor}
                     {path}{1e2n4e3n1e2n2e1n}
                 }
             }
         }
     }
-    {shire-village}{
-        {4}{
-            {name}{Entrance to the Shire}
+    {Shire Village}{
+        {1100}{
+            {name}{A path through the northern forest}
             {paths}{
+                {wdn}{
+                    {name}{Weeden and the Western Forest}
+                    {path}{4w3s3w}
+                }
                 {mid}{
                     {name}{Temple of Midgaard}
-                    {path}{2w5n1e1d3s1e1u}
+                    {path}{1e1n2e7s}
                 }
             }
         }
@@ -483,8 +502,8 @@
             }
         }
     }
-    {southern-midgaard}{
-        {9}{
+    {the southern part of Midgaard}{
+        {3205}{
             {name}{Park Entrance}
             {paths}{
                 {mid}{
@@ -529,8 +548,8 @@
                     {name}{Wamphyri Aerie}
                     {path}{1n1w1n6w2n}
                 }
-                {sm}{
-                    {name}{ Southern Midgaard}
+                {som}{
+                    {name}{Southern Midgaard}
                     {path}{1s14w1s6w}
                 }
                 {dar}{
@@ -563,12 +582,12 @@
             }
         }
     }
-    {underworld}{
-        {48}{
+    {The Underworld}{
+        {16129}{
             {name}{Center of Cavern}
             {paths}{
                 {hao}{
-                    {name}{Haon-Dor}
+                    {name}{dark Haon-Dor}
                     {path}{10s3e6n2e3n1e2n2e1n}
                 }
             }
@@ -609,13 +628,13 @@
             }
         }
     }
-    {weeden}{
-        {10}{
-            {name}{Outside Weeden}
+    {Weeden and the Western Forest}{
+        {15420}{
+            {name}{Inside the citygate of Weeden}
             {paths}{
-                {mid}{
-                    {name}{Temple of Migaard}
-                    {path}{2e3n5e2s5e4n}
+                {shv}{
+                    {name}{Shire Village}
+                    {path}{3e3n4e}
                 }
             }
         }

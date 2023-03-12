@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -247,6 +247,7 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 
+
 T {} { } {}
 T {CITY} {<FF03A2E>=} {WIDE}
 T {FIELD} {<F9A7D0A>·} {WIDE FADEOUT}
@@ -257,16 +258,14 @@ T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
 T {MOUNTAINS} {<F935116>◮} {WIDE}
 T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
-R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {3}{0}{}{}{DHa}{}{}{}{}{}{1.000}{}
-E {13000}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {13000}{0}{<fff>}{Entrance to the Shadow Grove}{ }{}{the High Tower of Sorcery}{}{FOREST}{}{1.000}{}
+
+
+R {3}{0}{}{}{DHa}{}{}{}{FOREST}{}{1.000}{}
+
+R {13000}{0}{<fff>}{Entrance to the Shadow Grove}{*}{}{the High Tower of Sorcery}{}{FOREST}{}{1.000}{}
 E {3}{s}{jt_m_link_action {south} {dark Haon-Dor} {6137}}{4}{0}{}{1.000}{}{0.00}
 E {13001}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
