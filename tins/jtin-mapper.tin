@@ -144,7 +144,7 @@
     #elseif {"%1" == "lock"} {jt_m_lock %2};
     #elseif {"%1" == "fog"} {jt_m_fog %2};
     #elseif {"%1" == "loop"} {jt_m_loop %2};
-    #elseif {"%1" == "link"} {jt_m_link {%2} {%3} {%4} {%5}};
+    #elseif {"%1" == "link"} {jt_m_link {%2} {%3} {%4} {%5} {%6}};
     #elseif {"%1" == "goto"} {jt_m_goto {%2} {%3}};
     #elseif {"%1" == "dt"} {jt_m_dt {%2}};
 
@@ -356,25 +356,30 @@
         #case "d" {#var path down};
     };
     #if {"$path" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
     };
     #elseif {"%2" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
     };
     #elseif {"%3" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
     };
     #elseif {"%4" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
+    };
+    #elseif {"%5" == ""} {
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
     };
     #else {
         #map exit %1 command {jt_m_link_action {$path} {%2} {%3}};
         #map mov %1;
         #map set roomsymbol %4;
         #map set roomcolor <fff>;
+        #map set roomterrain %5;
         #map goto $MSDP_ROOM[VNUM];
         jt_m_print_msg {<efc>added room link: $path %2 %3 %4};
-    }
+    };
+    #unvar path;
 }
 
 #alias jt_m_link_action {
@@ -430,6 +435,14 @@
     {New Thalos Jails} {the grand city of New Thalos}
     {New Thalos Anti-Paladin Guild} {the grand city of New Thalos}
     {New Thalos Paladin Guild} {the grand city of New Thalos}
+    {New Thalos Jedi Guild} {the grand city of New Thalos}
+    {New Thalos Sohei Guild} {the grand city of New Thalos}
+    {New Thalos Ninja Guild} {the grand city of New Thalos}
+    {New Thalos Bard Guild} {the grand city of New Thalos}
+    {New Thalos Thief Guild} {the grand city of New Thalos}
+    {New Thalos Mage Guild} {the grand city of New Thalos}
+    {New Thalos Cleric Guild} {the grand city of New Thalos}
+    {New Thalos Warrior Guild} {the grand city of New Thalos}
 }
 
 

@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 12517
+I 12508
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -262,20 +262,20 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {1}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {12264}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}
+R {12262}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}
 
-R {12517}{0}{<fff>}{Entrance to the Anti-Paladin Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12518}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {12264}{e}{jt_m_link_action {east} {the grand city of New Thalos} {12264}}{2}{0}{}{1.000}{}{0.00}
+R {12508}{0}{<fff>}{Entrance to the Ninja's Secret Circle}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12509}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12262}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12262}}{8}{0}{}{1.000}{}{0.00}
 
-R {12518}{0}{<fff>}{The Anti-Paladin Bar}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12519}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {12517}{u}{u}{16}{0}{}{1.000}{}{0.00}
+R {12509}{0}{<fff>}{Hall of Ninja History}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12510}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12508}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {12519}{0}{<fff>}{The Anti-Paladin Realm of Evil}{M}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12518}{u}{u}{16}{0}{}{1.000}{}{0.00}
+R {12510}{0}{<fff>}{Arena of Ninja Combat}{M}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12509}{u}{u}{16}{0}{}{1.000}{}{0.00}

@@ -3,7 +3,7 @@
 export map="./maps/"$@".map"
 
 # linked areas
-export linked=$(grep 'R {' "$map" | grep '<fff>' | grep '{}{}{}{}{}' | wc -l)
+export linked=$(grep 'R {' "$map" | grep '<fff>' | grep '{}{}{}' | wc -l)
 echo $linked
 
 # count of mapped rooms

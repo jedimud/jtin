@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 12517
+I 12344
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -262,20 +262,23 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {1}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {12264}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}
+R {12261}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}
 
-R {12517}{0}{<fff>}{Entrance to the Anti-Paladin Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12518}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {12264}{e}{jt_m_link_action {east} {the grand city of New Thalos} {12264}}{2}{0}{}{1.000}{}{0.00}
+R {12289}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}
 
-R {12518}{0}{<fff>}{The Anti-Paladin Bar}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12519}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {12517}{u}{u}{16}{0}{}{1.000}{}{0.00}
+R {12330}{0}{<fff>}{Entrance to the Thieves' Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12337}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12261}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12261}}{8}{0}{}{1.000}{}{0.00}
 
-R {12519}{0}{<fff>}{The Anti-Paladin Realm of Evil}{M}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12518}{u}{u}{16}{0}{}{1.000}{}{0.00}
+R {12337}{0}{<fff>}{The Filthy Unicorn}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12344}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12330}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12344}{0}{<fff>}{The Secret Yard}{M}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12289}{s}{jt_m_link_action {open door;south} {the grand city of New Thalos} {12289}}{4}{0}{}{1.000}{}{0.00}
+E {12337}{u}{u}{16}{0}{}{1.000}{}{0.00}

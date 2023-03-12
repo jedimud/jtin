@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 12517
+I 12301
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -262,20 +262,23 @@ T {SWIM} {<F21618C>~} {}
 
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {1}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {12264}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}
+R {12260}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}
 
-R {12517}{0}{<fff>}{Entrance to the Anti-Paladin Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12518}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {12264}{e}{jt_m_link_action {east} {the grand city of New Thalos} {12264}}{2}{0}{}{1.000}{}{0.00}
+R {12279}{0}{<fff>}{}{NT}{}{}{}{INSIDE}{}{1.000}{}
 
-R {12518}{0}{<fff>}{The Anti-Paladin Bar}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12519}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {12517}{u}{u}{16}{0}{}{1.000}{}{0.00}
+R {12301}{0}{<fff>}{Cleric's Sanctum}{M}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12279}{e}{jt_m_link_action {open east;east} {the grand city of New Thalos} {12279}}{2}{0}{}{1.000}{}{0.00}
+E {12317}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {12519}{0}{<fff>}{The Anti-Paladin Realm of Evil}{M}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12518}{u}{u}{16}{0}{}{1.000}{}{0.00}
+R {12310}{0}{<fff>}{Entrance to the Guild of Clerics}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12317}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12260}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12260}}{8}{0}{}{1.000}{}{0.00}
+
+R {12317}{0}{<fff>}{Nectar of the Gods}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12301}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12310}{n}{n}{1}{0}{}{1.000}{}{0.00}

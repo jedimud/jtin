@@ -1,20 +1,23 @@
 ----
 
--- change room link command to prompt for terrain
 
--- room dt <dir> should take in terrain
-        room dt <dir> <terrain>
-        -- check all dt
+-- add gold to item brief (colored in yellow)
 
--- nmanually fix terrain on all map exits
+-- cmds
+        -- map msdp (enable on or off)
+        -- map locate (enable msdp, find, disable msdp)
+        -- make all maps read-only
+
+
+
+-- getting summoned should reorient map
+        Neytiri has summoned you!
+
 
 
 -- auto-cast should just keep firing until all met
         -- double fires now
 
--- cmds
-        -- map msdp (enable on or off)
-        -- map locate (enable msdp, find, disable msdp)
 
 -- manually fix/verify all paths
         -- hao -> uw does not work
@@ -45,7 +48,8 @@
                 #map mov n -- switch on $DIR
 
 
-
+{AREA}{The Bardic Colleges}{DOORS}{}{EXITS}{{northeast}{4700}}{NAME}{Bardic College Supply
+Shop}{TERRAIN}{INSIDE}{VNUM}{4703}
 
 -- add regenerate to auto cast spells
 -- update legend for shops, and other landmarks (specifically color?)
@@ -54,16 +58,14 @@
         -- and jt map stats all -- list all in order
 -- map list with current state
 -- map-stats do not look for distinct areas when calculating linked areas, it counts all links
--- fix paths
--- Add Midair terrain, survey all terrain
 -- finish linking
+        Hell (inside Arachnos)
         Golden Pagoda	
         Goth Camps	
         Metro	
         Scipio Dreaming	
         Shadow Rift	
         Shadow Storm	
-        (New Thalos)
         (Skara Brae)	
 
 

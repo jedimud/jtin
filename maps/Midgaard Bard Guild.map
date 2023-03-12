@@ -272,4 +272,4 @@ E {4700}{w}{jt_m_link_action {west} {The Bardic Colleges} {4700}}{8}{0}{}{1.000}
 R {3146}{0}{<fff>}{Inside the Recording Studio}{M}{}{Midgaard}{}{CITY}{}{1.000}{}
 E {3145}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
-R {4700}{0}{<fff>}{}{BaC}{}{}{}{}{}{1.000}{}
+R {4700}{0}{<fff>}{}{BaC}{}{}{}{INSIDE}{}{1.000}{}
