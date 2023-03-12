@@ -704,4 +704,4 @@ R {5905}{0}{<fff>}{The end of the tunnel}{ }{}{The Monastery}{}{INSIDE}{}{1.000}
 E {5902}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5904}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {12426}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
+R {12426}{0}{<fff>}{}{NT}{}{}{}{MOUNTAINS}{}{1.000}{}

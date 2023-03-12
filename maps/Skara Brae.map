@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 2150
+I 6906
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,7 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
 E {2105}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -576,7 +576,7 @@ E {2189}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {2105}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {2189}{0}{<fff>}{The Lower Pier}{ }{}{Skara Brae}{}{INSIDE}{}{1.000}{}
-E {6906}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6906}{n}{jt_m_link_action {north} {the Dragon Sea} {6906}}{1}{0}{}{1.000}{}{0.00}
 E {2188}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {2190}{0}{<fff>}{The Board Rooms of Skara Brae}{ }{}{Skara Brae}{}{INSIDE}{}{1.000}{}
@@ -604,12 +604,12 @@ E {2194}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {2259}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
-R {2311}{0}{<fff>}{}{ANS}{}{}{}{}{}{1.000}{}
+R {2311}{0}{<fff>}{}{ANS}{}{}{}{FIELD}{}{1.000}{}
 
-R {2312}{0}{<fff>}{}{ANS}{}{}{}{}{}{1.000}{}
+R {2312}{0}{<fff>}{}{ANS}{}{}{}{FIELD}{}{1.000}{}
 
-R {3800}{0}{<fff>}{}{GyK}{}{}{}{}{}{1.000}{}
+R {3800}{0}{<fff>}{}{GyK}{}{}{}{CITY}{}{1.000}{}
 
 R {5502}{0}{<fff>}{}{WnS}{}{}{}{}{}{1.000}{}
 
-R {6906}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+R {6906}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}

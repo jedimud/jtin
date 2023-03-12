@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 972
+I 900
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -263,6 +263,10 @@ T {SWIM} {<F21618C>~} {}
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
+R {2}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {903}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {902}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
 R {900}{0}{<fff>}{On The Swift Flowing River}{ }{}{River Island Of Minos}{}{NOSWIM}{}{1.000}{}
 E {901}{w}{w}{8}{0}{}{1.000}{}{0.00}
 E {6152}{e}{jt_m_link_action {east} {dark Haon-Dor} {6152}}{2}{0}{}{1.000}{}{0.00}
@@ -273,10 +277,10 @@ E {902}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {902}{0}{<fff>}{The Twisty Part of the River}{ }{}{River Island Of Minos}{}{NOSWIM}{}{1.000}{}
 E {901}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {903}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {903}{0}{<fff>}{The Scenic Route}{ }{}{River Island Of Minos}{}{NOSWIM}{}{1.000}{}
-E {902}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {904}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {904}{0}{<fff>}{The Swift River Delta}{ }{}{River Island Of Minos}{}{NOSWIM}{}{1.000}{}
@@ -333,7 +337,8 @@ E {916}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {916}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
-R {924}{16384}{<faa>}{}{<faa>DT}{}{}{}{}{}{1.000}{}
+R {924}{16384}{<faa>}{SMASHED against the cliff!!}{<faa>DT}{}{River Island Of Minos}{}{NOSWIM}{}{1.000}{}
+E {905}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {925}{0}{<fff>}{The Sea of Dreams}{ }{}{River Island Of Minos}{}{NOSWIM}{}{1.000}{}
 E {909}{e}{e}{2}{0}{}{1.000}{}{0.00}

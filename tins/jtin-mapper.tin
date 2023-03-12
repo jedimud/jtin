@@ -1,6 +1,5 @@
 #nop ----- map functions -----
 
-
 #alias map {
     #if {"%1" == "show"} {
         jt_m_show;

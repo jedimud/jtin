@@ -1095,7 +1095,7 @@ E {3000}{n}{n}{1}{0}{}{1.000}{}{0.00}
 R {3159}{0}{<fff>}{Adventurers' Meeting Room}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3000}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {3160}{0}{<fff>}{Newbie Area Transporter Room}{FFF}{}{Midgaard}{}{INSIDE}{}{1.000}{}
+R {3160}{0}{<fff>}{Newbie Area Transporter Room}{}{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3000}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {3156}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {45}{n}{jt_m_link_action {transport zoo} {the Midgaard Zoo} {9056}}{1}{0}{}{1.000}{}{0.00}

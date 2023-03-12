@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 16178
+I 16126
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -470,7 +470,8 @@ E {16133}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 R {16143}{0}{<fff>}{Lair of Drudgery}{ }{}{The Underworld}{}{INSIDE}{}{1.000}{}
 E {16133}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {16144}{16384}{<faa>}{}{<faa>DT}{}{}{}{}{}{1.000}{}
+R {16144}{16384}{<fff>}{Lair of Death}{<faa>DT}{}{The Underworld}{}{INSIDE}{}{1.000}{}
+E {16130}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {16145}{0}{<fff>}{Lair of Sleep}{ }{}{The Underworld}{}{INSIDE}{}{1.000}{}
 E {16127}{w}{w}{8}{0}{}{1.000}{}{0.00}

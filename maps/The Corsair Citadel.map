@@ -262,7 +262,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-R {6984}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+R {6984}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
 
 R {12602}{0}{<fff>}{The entrance to the corsair's cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
 E {6984}{n}{jt_m_link_action {north} {the Dragon Sea} {6984}}{1}{0}{}{1.000}{}{0.00}

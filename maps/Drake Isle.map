@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 16813
+I 16831
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,18 +261,19 @@ T {SWIM} {<F21618C>~} {}
 
 
 
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {4}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
 E {16803}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {16800}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {6917}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+R {6917}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
 
-R {6919}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+R {6919}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
 
-R {6921}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+R {6921}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
 
-R {6922}{0}{<fff>}{}{DrS}{}{}{}{}{}{1.000}{}
+R {6922}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
 
 R {16701}{0}{<fff>}{The Sandy Cave}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
 E {16794}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -543,7 +544,7 @@ E {16831}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {16831}{0}{<fff>}{A Small Wooden Pier}{ }{}{Drake Isle}{}{INSIDE}{}{1.000}{}
 E {16830}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6921}{s}{jt_m_link_action {south} {the Dragon Sea} {16831}}{4}{0}{}{1.000}{}{0.00}
+E {6921}{s}{jt_m_link_action {south} {the Dragon Sea} {6921}}{4}{0}{}{1.000}{}{0.00}
 
 R {16832}{0}{<fff>}{On a Narrow Stone Road}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
 E {16804}{ne}{ne}{3}{0}{}{1.000}{}{0.00}

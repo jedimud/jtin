@@ -263,11 +263,11 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-R {12264}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
+R {12264}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}
 
 R {12520}{0}{<fff>}{Entrance to the Paladin Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12521}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {12264}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12521}}{8}{0}{}{1.000}{}{0.00}
+E {12264}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12264}}{8}{0}{}{1.000}{}{0.00}
 
 R {12521}{0}{<fff>}{Hall of Justice}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12520}{d}{d}{32}{0}{}{1.000}{}{0.00}

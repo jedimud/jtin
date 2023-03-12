@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 10700
+I 12599
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,11 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {2}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 
-R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
-E {1}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
 R {10600}{0}{<fff>}{In the Northwestern Tower}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
 E {10659}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
@@ -313,7 +309,7 @@ E {10659}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
 
 R {10658}{0}{<fff>}{Crossing Tourmaline Bridge}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
 E {10713}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
-E {12599}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12599}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12599}}{8}{0}{}{1.000}{}{0.00}
 
 R {10659}{0}{<fff>}{West Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
 E {10657}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
@@ -874,4 +870,4 @@ R {10815}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {10816}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
-R {12599}{0}{<fff>}{}{NT}{}{}{}{}{}{1.000}{}
+R {12599}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}

@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 1200
+I 1280
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -277,7 +277,7 @@ E {1203}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {1201}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1203}{0}{<fff>}{Outside the Large Building}{ }{}{Star Wars}{}{CITY}{}{1.000}{}
-E {1204}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1204}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
 E {1202}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1204}{0}{<fff>}{Inside the Bunker - Main Lobby}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
@@ -526,7 +526,8 @@ R {1379}{0}{<fff>}{On the Small Sail Skiff}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
 E {1365}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {1378}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {1380}{16384}{<faa>}{}{<faa>DT}{}{}{}{}{}{1.000}{}
+R {1380}{16384}{<faa>}{Inside the Sarlaac Pit's Stomach - Digested for a Thousand Millennia}{<faa>DT}{}{Star Wars}{}{INSIDE}{}{1.000}{}
+E {1281}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {1381}{0}{<fff>}{The Garage}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
 E {1289}{ne}{ne}{3}{0}{}{1.000}{}{0.00}

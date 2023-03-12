@@ -264,7 +264,7 @@ R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {23000}{0}{<fff>}{}{San}{}{}{}{}{}{1.000}{}
 
-R {23013}{0}{<fff>}{}{San}{}{}{}{}{}{1.000}{}
+R {23013}{0}{<fff>}{}{San}{}{}{}{CITY}{}{1.000}{}
 
 R {23500}{0}{<fff>}{Gate of Gold Guardhouse, 1st floor}{ }{}{the watch tower}{}{INSIDE}{}{1.000}{}
 E {23013}{n}{jt_m_link_action {north} {the city of Sanctuary} {23013}}{1}{0}{}{1.000}{}{0.00}

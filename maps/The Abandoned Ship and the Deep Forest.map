@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 2236
+I 2247
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,13 +261,26 @@ T {SWIM} {<F21618C>~} {}
 
 
 
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
-R {3}{8}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+R {2}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+E {2204}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2205}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {3}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
 E {2241}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {4}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
-R {4}{8}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+R {4}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
 E {3}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {5}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {5}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+E {4}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {6}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {6}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+E {5}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {2236}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {2200}{0}{<fff>}{Rocky Cliff}{ }{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
@@ -275,23 +288,39 @@ E {2201}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {2205}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2300}{s}{jt_m_link_action {south} {the area near Skara Brae} {2300}}{4}{0}{}{1.000}{}{0.00}
 
-R {2201}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {2201}{0}{<fff>}{Rocky Cliff}{ }{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
+E {2202}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2206}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2200}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2202}{0}{<fff>}{Rocky Cliff}{ }{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
+E {2207}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2201}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {2203}{0}{<fff>}{Shallow Lagoon}{ }{}{The Abandoned Ship and the Deep Forest}{}{SWIM}{}{1.000}{}
 E {2204}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {2208}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {2204}{0}{<fff>}{Shallow Lagoon}{ }{}{The Abandoned Ship and the Deep Forest}{}{SWIM}{}{1.000}{}
-E {2205}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {2}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {2203}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {2205}{0}{<fff>}{Rocky Cliff}{ }{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
-E {2204}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {2206}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {2211}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2200}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {2206}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {2206}{0}{<fff>}{Rocky Cliff}{ }{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
+E {2207}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2212}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2201}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2205}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2207}{0}{<fff>}{Rocky Cliff}{ }{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
+E {2213}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2202}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2206}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {2208}{0}{<fff>}{Deep Lagoon}{ }{}{The Abandoned Ship and the Deep Forest}{}{NOSWIM}{}{1.000}{}
 E {2209}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -309,7 +338,21 @@ E {2217}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2203}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {2209}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {2211}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {2211}{0}{<fff>}{Cliff's Edge}{ }{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
+E {2257}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2212}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2205}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2212}{0}{<fff>}{Cliff's Edge}{ }{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
+E {2257}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2213}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2206}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2211}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2213}{0}{<fff>}{Cliff's Edge}{ }{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
+E {2257}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2207}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2212}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {2214}{0}{<fff>}{The Bilge}{ }{}{The Abandoned Ship and the Deep Forest}{}{INSIDE}{}{1.000}{}
 E {2222}{u}{u}{16}{0}{}{1.000}{}{0.00}
@@ -430,7 +473,7 @@ R {2236}{0}{<fff>}{By the Ship}{ }{}{The Abandoned Ship and the Deep Forest}{}{N
 E {2237}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {2245}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2227}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {4}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {6}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {2235}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {2237}{0}{<fff>}{Great Inland Sea}{ }{}{The Abandoned Ship and the Deep Forest}{}{NOSWIM}{}{1.000}{}
@@ -487,7 +530,7 @@ E {2246}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2237}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {2245}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {2247}{0}{<fff>}{Great Inland Sea}{Rav}{}{The Abandoned Ship and the Deep Forest}{}{NOSWIM}{}{1.000}{}
+R {2247}{0}{<fff>}{Great Inland Sea}{}{}{The Abandoned Ship and the Deep Forest}{}{NOSWIM}{}{1.000}{}
 E {9603}{e}{jt_m_link_action {east} {Imperial Ravenna} {9603}}{2}{0}{}{1.000}{}{0.00}
 E {2247}{n}{jt_m_link_action {north} {Imperial Ravenna} {9604}}{1}{0}{}{1.000}{}{0.00}
 E {9604}{ne}{jt_m_link_action {northeast} {Imperial Ravenna} {9604}}{3}{0}{}{1.000}{}{0.00}
@@ -532,6 +575,9 @@ E {2251}{d}{d}{32}{0}{}{1.000}{}{0.00}
 R {2256}{0}{<fff>}{Poop Deck}{ }{}{The Abandoned Ship and the Deep Forest}{}{INSIDE}{}{1.000}{}
 E {2242}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
+R {2257}{16384}{<faa>}{Broken, On the Rocks}{<faa>DT}{}{The Abandoned Ship and the Deep Forest}{}{HILLS}{}{1.000}{}
+E {2211}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
 R {2258}{0}{<fff>}{Main Deck}{ }{}{The Abandoned Ship and the Deep Forest}{}{INSIDE}{}{1.000}{}
 E {2221}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {2241}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -550,10 +596,10 @@ R {2262}{0}{<fff>}{Along a small path}{ }{}{The Abandoned Ship and the Deep Fore
 E {2261}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 E {8900}{se}{jt_m_link_action {southeast} {the Owlery} {8900}}{6}{0}{}{1.000}{}{0.00}
 
-R {2300}{0}{<fff>}{}{ANS}{}{}{}{}{}{1.000}{}
+R {2300}{0}{<fff>}{}{ANS}{}{}{}{FIELD}{}{1.000}{}
 
-R {8900}{0}{<fff>}{}{Owl}{}{}{}{}{}{1.000}{}
+R {8900}{0}{<fff>}{}{Owl}{}{}{}{FIELD}{}{1.000}{}
 
-R {9603}{0}{<fff>}{}{Rav}{}{}{}{}{}{1.000}{}
+R {9603}{0}{<fff>}{}{Rav}{}{}{}{CITY}{}{1.000}{}
 
-R {9604}{0}{<fff>}{}{Rav}{}{}{}{}{}{1.000}{}
+R {9604}{0}{<fff>}{}{Rav}{}{}{}{NOSWIM}{}{1.000}{}

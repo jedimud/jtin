@@ -266,7 +266,7 @@ R {3}{4104}{}{}{ }{}{}{}{MOUNTAINS}{}{1.000}{}
 E {2551}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2552}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {2343}{0}{<fff>}{}{SkB}{}{}{}{}{}{1.000}{}
+R {2343}{0}{<fff>}{}{SkB}{}{}{}{FIELD}{}{1.000}{}
 
 R {2500}{0}{<fff>}{Small path through the Mountains}{ }{}{the Arctic Empire}{}{FIELD}{}{1.000}{}
 E {2343}{e}{jt_m_link_action {east} {the area near Skara Brae} {2343}}{2}{0}{}{1.000}{}{0.00}

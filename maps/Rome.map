@@ -371,7 +371,7 @@ R {12016}{0}{<fff>}{Race Track}{ }{}{Rome}{}{FIELD}{}{1.000}{}
 E {12009}{w}{w}{8}{0}{}{1.000}{}{0.00}
 E {13}{u}{#delay 0 {u;#map goto 12023}}{16}{0}{}{1.000}{}{0.00}
 
-R {12017}{0}{<faa>}{The Lion Pit}{<faa>DT}{}{Rome}{}{INSIDE}{}{1.000}{}
+R {12017}{16384}{<faa>}{The Lion Pit}{<faa>DT}{}{Rome}{}{INSIDE}{}{1.000}{}
 
 R {12018}{0}{<fff>}{South Entrance to the Coliseum}{ }{}{Rome}{}{CITY}{}{1.000}{}
 E {12025}{e}{e}{2}{0}{}{1.000}{}{0.00}
