@@ -17,7 +17,11 @@
 
 #alias jt_dl_l_write_log {
     #if {&{jt_m_current}} {
-        #line log logs/loot.log {%1,%2,$MSDP_ROOM[AREA],$MSDP_ROOM[VNUM]};
+        #map get roomvnum lroomvnum;
+        #map get roomarea lroomarea;
+        #line log logs/loot.log {%1,%2,$lroomarea,$lroomvnum};
+        #unvar lroomvnum;
+        #unvar lroomarea;
     } {
         #line log logs/loot.log {%1,%2,unknown};
     };
