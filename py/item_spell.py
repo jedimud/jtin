@@ -26,6 +26,7 @@ class ItemSpell(Enum):
     DETECT_ALIGNMENT = "detect alignment"
     DETECT_INVISIBILITY = "detect invisibility"
     DETECT_MAGIC = "detect magic"
+    DETECT_POISON = "detect poison"
     DISPEL_EVIL = "dispel evil"
     EARTHQUAKE = "earthquake"
     ENCHANT_ARMOR = "enchant armor"

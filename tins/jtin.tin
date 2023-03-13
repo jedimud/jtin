@@ -60,9 +60,9 @@
 #alias jt_t {
     #if {"%1" == "name"} {
         #if {"%2" != ""} {
-            jt_t_print_msg {name :: <efc>$jt_t_name};
             #var jt_t_name {%2};
-            #screen set title %2;
+            jt_t_print_msg {name :: <efc>$jt_t_name};
+            #screen set title $jt_t_name;
         };
         #else {
             jt_print_message_with_buffer {<efc>unknown command, try :: jt toon name <value>};
@@ -79,6 +79,17 @@
     };
     #else {
         jt_print_message_with_buffer {<efc>unknown command, try :: jt toon (name|window)};
+    }
+}
+
+#event {SESSION ACTIVATED} {
+    #unvar jt_login;
+    #unvar jt_login_action;
+    #if {&{jt_t_name}} {
+        #screen set title $jt_t_name;
+    };
+    #else {
+        #screen set title JediMUD;
     }
 }
 
@@ -511,6 +522,8 @@
     jt_m_hide;
     jt_m_print_msg {<fca>disabled};
     #class jtin-mapper kill;
+    #class jtin-path kill;
+    #class jtin-mapper-msdp kill;
     #var jt_m_state disabled;
     #class jtin-path kill;
     #map leave;
@@ -523,6 +536,8 @@
     #class jtin-path read tins/jtin-path.tin;
     #var jt_m_state enabled;
     jt_m_print_msg {<afc>enabled};
+    jt_m_report_stats;
+    jt_m_locate;
 }
 
 #alias jt_m_print_state {

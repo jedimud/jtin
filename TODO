@@ -1,0 +1,63 @@
+----
+
+
+-- manually fix/verify all paths
+
+-- handle Charon flight in UW
+
+-- handle Star Wars flight
+
+-- add gold to item brief (colored in yellow)
+
+-- cmds
+        -- map msdp (enable on or off)
+        -- map locate (enable msdp, find, disable msdp)
+        -- make all maps read-only
+
+
+-- auto-cast should just keep firing until all met
+        -- double fires now
+
+-- create room terrain cmd
+        room terrain s FOREST
+                -- dig south
+                -- make a void room in between
+                -- make void room == current room terrain
+                -- make new room FOREST
+                -- set directions to {14} instead of {4} for south, 
+
+
+                room terrain <DIR> <TERRAIN>
+                #map dig s -- $DIR
+                #map insert s -- $DIR
+                #map mov s -- $DIR
+                #map mov s -- $DIR
+                #map set roomsymbol {<F0B5345>⍋ } -- switch on $TERRAIN
+                #map set roomterrain FOREST -- $TERRAIN
+                #map mov n -- switch on $DIR
+                #map set roomsymbol {<F21618C>~ } -- switch on $MSDP_ROOM[TERRAIN]
+                #map set roomterrain $MSDP_ROOM[TERRAIN]
+                #map mov n -- switch on $DIR
+
+-- add regenerate to auto cast spells
+
+-- update legend for shops, and other landmarks (specifically color?)
+
+-- quick cmd for getting map stats, 
+        -- jt map stats brief -- just the summary
+        -- and jt map stats all -- list all in order
+
+-- map list with current state
+
+-- map-stats do not look for distinct areas when calculating linked areas, it counts all links
+
+-- finish linking
+        Hell (inside Arachnos)
+        Golden Pagoda	
+        Goth Camps	
+        Metro	
+        Scipio Dreaming	
+        Shadow Rift	
+        Shadow Storm	
+        (Skara Brae)	
+

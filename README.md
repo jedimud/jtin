@@ -28,7 +28,7 @@ Create a toon-specific tin with jtin customizations.
 ```sh
 touch ./toons/neytiri.tin
 echo 'jt map enabled;' >> ./toons/neytiri.tin
-echo 'map open midgaard 1;' >> ./toons/neytiri.tin
+echo 'map open Midgaard 1;' >> ./toons/neytiri.tin
 echo 'jt item-brief stats;' >> ./toons/neytiri.tin
 cat ./toons/neytiri.tin
 ```

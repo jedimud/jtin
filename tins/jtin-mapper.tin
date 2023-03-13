@@ -1,9 +1,11 @@
 #nop ----- map functions -----
 
-
 #alias map {
     #if {"%1" == "show"} {
         jt_m_show;
+    };
+    #elseif {"%1" == "locate"} {
+        jt_m_locate;
     };
     #elseif {"%1" == "open"} {
         jt_m_open {%2} {%3};
@@ -12,7 +14,7 @@
         jt_m_hide;
     };
     #elseif {"%1" == "create"} {
-        jt_m_create %2;
+        jt_m_create {%2};
     };
     #elseif {"%1" == "edit"} {
         jt_m_edit;
@@ -29,8 +31,32 @@
     #elseif {"%1" == "offset"} {
         jt_m_offset {%2};
     };
+    #elseif {"%1" == "center"} {
+        jt_m_center {%2};
+    };
     #else {
-        jt_m_print_msg {<efc>unknown command, try :: map (open|show|hide|create|edit|read|save|offset|split)}
+        jt_m_print_msg {<efc>unknown command, try :: map (locate|open|show|hide|create|edit|read|save|offset|split)}
+    };
+}
+
+#alias jt_m_locate {
+    jt_m_print_msg {<efc>finding location by msdp, standby};
+    jt_m_msdp_enable;
+    #delay 3 { 
+        map show;
+        jt_m_msdp_disable; 
+        jt_m_print_msg {<efc>found location at $MSDP_ROOM[AREA]($MSDP_ROOM[VNUM])};
+        look;
+    };
+}
+
+#alias jt_m_center { 
+    #if {"%1" != ""} {
+        #var jt_m_display[center] {#map center %1};
+        jt_m_print_msg {<efc>set map center to %1};
+    };
+    #else {
+        jt_m_print_msg {<efc>unknown command, try :: map center {0 0 0}};
     };
 }
 
@@ -75,6 +101,7 @@
 #alias jt_m_show {
     $jt_m_display[split];
     $jt_m_display[offset];
+    $jt_m_display[center];
 }
 
 #alias jt_m_hide {
@@ -87,22 +114,44 @@
     #map create;
     #map goto 1;
     #map flag VTmap on;
-    #map flag UnicodeGraphics on;
+    #map flag AsciiGraphics on;
     #map flag direction on;
+    #map flag terrain on;
     jt_m_hide;
     jt_m_show;
     #map legend {unicode graphics} { { } {\u2198} {\u2197} {>} {\u2199} {\u2E0C\u2E0D} {\uFF0F} {>\u2E0D} {\u2196} {\uFF3C} {\u2E1D\u2E1C} {>\u2E1C} {<} {\u2E0C<} {\u2E1D<} {><} {-} {\u2191} {\u2193} {\u2502} {+} {\u2192} {\u2190} {\u2500} {[} {(} {]} {)} };
-    #variable jt_m_current %1;
-    #map write maps/%1.map;
+    #variable jt_m_current {%1};
+    #map TERRAIN FOREST <F0B5345>⍋ WIDE FADEOUT;
+    #map TERRAIN INSIDE <F922B21>≡;
+    #map TERRAIN CITY <FF03A2E>= WIDE;
+    #map TERRAIN FIELD <F9A7D0A>· WIDE FADEOUT;
+    #map TERRAIN NOSWIM <F21618C>~;
+    #map TERRAIN SWIM <F21618C>~;
+    #map TERRAIN MOUNTAINS <F935116>◮ WIDE;
+    #map TERRAIN HILLS <F7D6608>︵  DOUBLE WIDE DENSE FADEOUT;
+    #map TERRAIN MIDAIR <F6C3483>⊰ SPARSE WIDE;
+    #map write {maps/%1.map};
+}
+
+#alias jt_m_msdp_enable {
+    #class jtin-mapper-msdp clear;
+    #class jtin-mapper-msdp read tins/jtin-mapper-msdp.tin;
+}
+
+#alias jt_m_msdp_disable {
+    #class jtin-mapper-msdp kill;
+    #unvar $MSDP_ROOM;
 }
 
 #alias jt_m_edit {
+    jt_m_msdp_enable;
     jt_m_print_msg {<efc>setting edit-mode for: $jt_m_current};
     #map sync maps/$jt_m_current.map;
     #map flag static off;
 }
 
 #alias jt_m_read {
+    jt_m_msdp_disable;
     jt_m_print_msg {<efc>setting read-only mode for: $jt_m_current};
     #map flag static on;
 }
@@ -121,7 +170,9 @@
     #elseif {"%1" == "lock"} {jt_m_lock %2};
     #elseif {"%1" == "fog"} {jt_m_fog %2};
     #elseif {"%1" == "loop"} {jt_m_loop %2};
-    #elseif {"%1" == "link"} {jt_m_link {%2} {%3} {%4}};
+    #elseif {"%1" == "link"} {jt_m_link {%2} {%3} {%4} {%5} {%6}};
+    #elseif {"%1" == "goto"} {jt_m_goto {%2} {%3}};
+    #elseif {"%1" == "dt"} {jt_m_dt {%2}};
 
     #elseif {"%1" == "void"} {jt_m_void %2};
     #elseif {"%1" == "unvoid"} {jt_m_unvoid %2};
@@ -135,10 +186,40 @@
     #elseif {"%1" == "path"} {jt_m_room_flag {*} {path}};
     #elseif {"%1" == "donation"} {jt_m_room_flag {D} {donation}};
 
-    #elseif {"%1" == "aggro"} {#map set roomcolor <fca>};
     #elseif {"%1" == "water"} {#map set roomcolor <acf>};
 
-    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|fog|void|unvoid|loop|link|exit|shop|inn|master|fountain|bank|recall|donation|aggro|water)}};
+    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|goto|fog|dt|void|unvoid|loop|link|exit|shop|inn|master|fountain|bank|path|donation|aggro|water)}};
+}
+
+
+#alias jt_m_goto {
+    #if {"%1" == "e"} {jt_m_goto_add {e} {%2} {east}};
+    #elseif {"%1" == "w"} {jt_m_goto_add {w} {%2} {west}};
+    #elseif {"%1" == "n"} {jt_m_goto_add {n} {%2} {north}};
+    #elseif {"%1" == "s"} {jt_m_goto_add {s} {%2} {south}};
+    #elseif {"%1" == "ne"} {jt_m_goto_add {ne} {%2} {northeast}};
+    #elseif {"%1" == "nw"} {jt_m_goto_add {nw} {%2} {northwest}};
+    #elseif {"%1" == "se"} {jt_m_goto_add {se} {%2} {southeast}};
+    #elseif {"%1" == "sw"} {jt_m_goto_add {sw} {%2} {southwest}};
+    #elseif {"%1" == "u"} {jt_m_goto_add {u} {%2} {up}};
+    #elseif {"%1" == "d"} {jt_m_goto_add {d} {%2} {down}};
+    #else {
+        jt_m_print_msg {<efc>unknown command, try :: room goto (n|e|s|w|ne|se|sw|nw|u|d)}
+    }
+}
+
+#alias jt_m_goto_add {
+    #map exit %1 command {#delay 0 {%1;#map goto %2}};
+    jt_m_print_msg {<efc>added goto %3 %1};
+}
+
+#alias jt_m_dt {
+    #map mov %1;
+    #map roomflag block;
+    #map set roomcolor <faa>;
+    #map set roomsymbol <faa>DT;
+    #map goto $MSDP_ROOM[VNUM];
+    jt_m_print_msg {<efc>added DT room to %1};
 }
 
 #alias jt_m_void {
@@ -158,14 +239,11 @@
 }
 
 #alias jt_m_void_room {
-    #unvar jt_m_terrain;
-    #map get roomterrain jt_m_terrain;
     #map insert %2;
     #map move %2;
-    #map roomterrain $jt_m_terrain;
+    #map set roomterrain $MSDP_ROOM[TERRAIN];
     #map roomflag void;
     #map move %3;
-    #unvar jt_m_terrain;
     jt_m_print_msg {<efc>added void room to %1};
 }
 
@@ -191,7 +269,6 @@
 }
 
 #alias jt_m_room_flag { 
-    #show me letsgo;
     #map set roomsymbol %1;
     jt_m_print_msg {<efc>changed room to %2};
 }
@@ -305,18 +382,30 @@
         #case "d" {#var path down};
     };
     #if {"$path" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
     };
     #elseif {"%2" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
     };
     #elseif {"%3" == ""} {
-        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum>}
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
+    };
+    #elseif {"%4" == ""} {
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
+    };
+    #elseif {"%5" == ""} {
+        jt_m_print_msg {<efc>unknown command, try :: room link <dir> <map> <vnum> <name> <terrain>}
     };
     #else {
         #map exit %1 command {jt_m_link_action {$path} {%2} {%3}};
-        jt_m_print_msg {<efc>added room link: $path %2 %3};
-    }
+        #map mov %1;
+        #map set roomsymbol %4;
+        #map set roomcolor <fff>;
+        #map set roomterrain %5;
+        #map goto $MSDP_ROOM[VNUM];
+        jt_m_print_msg {<efc>added room link: $path %2 %3 %4};
+    };
+    #unvar path;
 }
 
 #alias jt_m_link_action {
@@ -326,50 +415,74 @@
         #map goto %3;
         map show;
         #variable jt_m_current %2;
-        jt_m_print_msg {<efc>now entering $jt_m_current};
+        jt_m_print_msg {<efc>now entering $jt_m_current(%3)};
+        jt_m_report_map_stats {%2};
     };
 }
 
-
-#nop ----- specialty room actions -----
-
-
-#nop -- universe
-#action {^Inside the traveling wagon} {
-    map open galaxy 1;
+#alias jt_m_report_stats { 
+    #script {jt_m_stats} {sh -c './sh/map-stats-all.sh'};
+    jt_m_print_msg {<afc>areas=<efc>$jt_m_stats[1], <afc>mapped=<efc>$jt_m_stats[2], <afc>unmapped=<efc>$jt_m_stats[3], <afc>paths=<efc>$jt_m_stats[4]};
 }
 
-#nop -- underworld
-#action {^You pay the Charon.$} {
-    #map mov n;
+#alias jt_m_report_map_stats { 
+    #script {jt_m_stats} {sh -c './sh/map-stats.sh %1'};
+    jt_m_print_msg {<afc>mapped <efc>$jt_m_stats[2] of $jt_m_stats[4] ($jt_m_stats[5]%), <afc>linked to <efc>$jt_m_stats[1] areas};
 }
 
-#action {^You travel across the river Styx.$} {
-    #map mov n;
+#nop ------ undo map -------
+
+#action {^The guard humiliates you, and blocks your way.$} {
+    #map undo;
 }
 
-#nop -- underworld
-#action {^You finish your journey across the river.$} {
-    #map mov n;
+#action {^Alas, you cannot go that way...$} {
+    #map undo;
 }
 
-#nop -- toyland
-#action {^You enter the toybox.$} {
-    #if {"$jt_m_current" == "new-thalos"} {
-        map open andrus-toy-land 1;
-    };
-    #else {
-        map open new-thalos 29;
-    }
+#action {^You are too exhausted.$} {
+    #map undo;
 }
 
-#nop -- hellas
-#action {You pull down the lever, and the tension on the chain} {
-    #map goto 10;
+#action {^%1 has summoned you!} {
+    jt_m_locate;
+}
+
+#nop ------ area mapping -------
+
+#var jt_m_area_map {
+    {Midgaard Cleric Guild} {Midgaard}
+    {Midgaard Sohei Guild} {Midgaard}
+    {Midgaard Jedi Guild} {Midgaard}
+    {Midgaard Bard Guild} {Midgaard}
+    {Midgaard Ninja Guild} {Midgaard}
+    {Midgaard Warrior Guild} {Midgaard}
+    {Midgaard Thief Guild} {Midgaard}
+    {Midgaard Anti-Paladin Guild} {Midgaard}
+    {Midgaard Paladin Guild} {Midgaard}
+    {Midgaard Mage Guild} {Midgaard}
+    {New Thalos Palace} {the grand city of New Thalos}
+    {New Thalos Jails} {the grand city of New Thalos}
+    {New Thalos Anti-Paladin Guild} {the grand city of New Thalos}
+    {New Thalos Paladin Guild} {the grand city of New Thalos}
+    {New Thalos Jedi Guild} {the grand city of New Thalos}
+    {New Thalos Sohei Guild} {the grand city of New Thalos}
+    {New Thalos Ninja Guild} {the grand city of New Thalos}
+    {New Thalos Bard Guild} {the grand city of New Thalos}
+    {New Thalos Thief Guild} {the grand city of New Thalos}
+    {New Thalos Mage Guild} {the grand city of New Thalos}
+    {New Thalos Cleric Guild} {the grand city of New Thalos}
+    {New Thalos Warrior Guild} {the grand city of New Thalos}
 }
 
 
 #nop ----- mapper defaults -----
 
-#var jt_m_display[split] {#split 0 0 0 -90};
-#var jt_m_display[offset] {#map offset 1 91 -1 -1};
+
+#var jt_m_current {};
+#var jt_m_display[split] {#split 0 0 0 -82};
+#var jt_m_display[offset] {#map offset 1 82 -1 -1};
+#var jt_m_display[center] {#map center 0 0 0};
+
+
+

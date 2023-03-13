@@ -1,0 +1,5 @@
+Object 'a Bardic Recorder', Item type: INSTRUMENT
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER UNIQUE 
+Weight: 1, Value: 50000, Rent: 0, Min. level: 5
+Item slot: Wield

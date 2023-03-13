@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8455
+F 8207
 
 G 0
 
-I 1
+I 9201
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -84,134 +84,134 @@ L {NESW DIRS} {DIR S} {\u2193}
 L {NESW DIRS} {DIR SW} {\u2B0B}
 L {NESW DIRS} {DIR W} {\u2B05}
 L {NESW DIRS} {DIR NW} {\u2B09}
-L {MUDFONT NWS} {NO EXITS} {\u28CF}
-L {MUDFONT NWS} {N} {\u28C7}
-L {MUDFONT NWS} {  NW} {\u28CE}
-L {MUDFONT NWS} {N NW} {\u28C6}
-L {MUDFONT NWS} {     W} {\u28C9}
-L {MUDFONT NWS} {N    W} {\u28C1}
-L {MUDFONT NWS} {  NW W} {\u28C8}
-L {MUDFONT NWS} {N NW W} {\u28C0}
-L {MUDFONT NWS} {       SW} {\u288F}
-L {MUDFONT NWS} {N      SW} {\u2887}
-L {MUDFONT NWS} {  NW   SW} {\u288E}
-L {MUDFONT NWS} {N NW   SW} {\u2886}
-L {MUDFONT NWS} {     W SW} {\u2889}
-L {MUDFONT NWS} {N    W SW} {\u2881}
-L {MUDFONT NWS} {  NW W SW} {\u2888}
-L {MUDFONT NWS} {N NW W SW} {\u2880}
-L {MUDFONT NWS} {          S} {\u284F}
-L {MUDFONT NWS} {N         S} {\u2847}
-L {MUDFONT NWS} {  NW      S} {\u284E}
-L {MUDFONT NWS} {N NW      S} {\u2846}
-L {MUDFONT NWS} {     W    S} {\u2849}
-L {MUDFONT NWS} {N    W    S} {\u2841}
-L {MUDFONT NWS} {  NW W    S} {\u2848}
-L {MUDFONT NWS} {N NW W    S} {\u2880}
-L {MUDFONT NWS} {       SW S} {\u280F}
-L {MUDFONT NWS} {N      SW S} {\u2807}
-L {MUDFONT NWS} {  NW   SW S} {\u280E}
-L {MUDFONT NWS} {N NW   SW S} {\u2806}
-L {MUDFONT NWS} {     W SW S} {\u2809}
-L {MUDFONT NWS} {N    W SW S} {\u2801}
-L {MUDFONT NWS} {  NW W SW S} {\u2808}
-L {MUDFONT NWS} {N NW W SW S} {\u2800}
-L {MUDFONT NES} {NO EXITS} {\u28F9}
-L {MUDFONT NES} {N} {\u28F8}
-L {MUDFONT NES} {  NE} {\u28F1}
-L {MUDFONT NES} {N NE} {\u28F0}
-L {MUDFONT NES} {     W} {\u28C9}
-L {MUDFONT NES} {N    W} {\u28C8}
-L {MUDFONT NES} {  NE W} {\u28C2}
-L {MUDFONT NES} {N NE W} {\u28C0}
-L {MUDFONT NES} {       SE} {\u2879}
-L {MUDFONT NES} {N      SE} {\u2878}
-L {MUDFONT NES} {  NE   SE} {\u2871}
-L {MUDFONT NES} {N NE   SE} {\u2870}
-L {MUDFONT NES} {     W SE} {\u2849}
-L {MUDFONT NES} {N    W SE} {\u2848}
-L {MUDFONT NES} {  NE W SE} {\u2842}
-L {MUDFONT NES} {N NE W SE} {\u2840}
-L {MUDFONT NES} {          S} {\u28B9}
-L {MUDFONT NES} {N         S} {\u28B8}
-L {MUDFONT NES} {  NE      S} {\u28B1}
-L {MUDFONT NES} {N NE      S} {\u28B0}
-L {MUDFONT NES} {     W    S} {\u2889}
-L {MUDFONT NES} {N    W    S} {\u2888}
-L {MUDFONT NES} {  NE W    S} {\u2882}
-L {MUDFONT NES} {N NE W    S} {\u2880}
-L {MUDFONT NES} {       SE S} {\u2839}
-L {MUDFONT NES} {N      SE S} {\u2838}
-L {MUDFONT NES} {  NE   SE S} {\u2831}
-L {MUDFONT NES} {N NE   SE S} {\u2830}
-L {MUDFONT NES} {     W SE S} {\u2809}
-L {MUDFONT NES} {N    W SE S} {\u2808}
-L {MUDFONT NES} {  NE W SE S} {\u2802}
-L {MUDFONT NES} {N NE W SE S} {\u2800}
-L {MUDFONT VOID NWS} {NO EXITS} {\u2830}
-L {MUDFONT VOID NWS} {N} {\u2838}
-L {MUDFONT VOID NWS} {  NW} {\u2831}
-L {MUDFONT VOID NWS} {N NW} {\u2839}
-L {MUDFONT VOID NWS} {     W} {\u2836}
-L {MUDFONT VOID NWS} {N    W} {\u283E}
-L {MUDFONT VOID NWS} {  NW W} {\u2837}
-L {MUDFONT VOID NWS} {N NW W} {\u283F}
-L {MUDFONT VOID NWS} {       SW} {\u2870}
-L {MUDFONT VOID NWS} {N      SW} {\u2878}
-L {MUDFONT VOID NWS} {  NW   SW} {\u2871}
-L {MUDFONT VOID NWS} {N NW   SW} {\u2879}
-L {MUDFONT VOID NWS} {     W SW} {\u2876}
-L {MUDFONT VOID NWS} {N    W SW} {\u287E}
-L {MUDFONT VOID NWS} {  NW W SW} {\u2877}
-L {MUDFONT VOID NWS} {N NW W SW} {\u287F}
-L {MUDFONT VOID NWS} {          S} {\u28B0}
-L {MUDFONT VOID NWS} {N         S} {\u28B8}
-L {MUDFONT VOID NWS} {  NW      S} {\u28B1}
-L {MUDFONT VOID NWS} {N NW      S} {\u28B9}
-L {MUDFONT VOID NWS} {     W    S} {\u28B6}
-L {MUDFONT VOID NWS} {N    W    S} {\u28BE}
-L {MUDFONT VOID NWS} {  NW W    S} {\u28B7}
-L {MUDFONT VOID NWS} {N NW W    S} {\u28BF}
-L {MUDFONT VOID NWS} {       SW S} {\u28F0}
-L {MUDFONT VOID NWS} {N      SW S} {\u28F8}
-L {MUDFONT VOID NWS} {  NW   SW S} {\u28F1}
-L {MUDFONT VOID NWS} {N NW   SW S} {\u28F9}
-L {MUDFONT VOID NWS} {     W SW S} {\u28F6}
-L {MUDFONT VOID NWS} {N    W SW S} {\u28FE}
-L {MUDFONT VOID NWS} {  NW W SW S} {\u28F7}
-L {MUDFONT VOID NWS} {N NW W SW S} {\u28FF}
-L {MUDFONT VOID NES} {NO EXITS} {\u2806}
-L {MUDFONT VOID NES} {N} {\u2807}
-L {MUDFONT VOID NES} {  NE} {\u280E}
-L {MUDFONT VOID NES} {N NE} {\u280F}
-L {MUDFONT VOID NES} {     W} {\u2836}
-L {MUDFONT VOID NES} {N    W} {\u2837}
-L {MUDFONT VOID NES} {  NE W} {\u283E}
-L {MUDFONT VOID NES} {N NE W} {\u283F}
-L {MUDFONT VOID NES} {       SE} {\u2886}
-L {MUDFONT VOID NES} {N      SE} {\u2887}
-L {MUDFONT VOID NES} {  NE   SE} {\u288E}
-L {MUDFONT VOID NES} {N NE   SE} {\u288F}
-L {MUDFONT VOID NES} {     W SE} {\u28B6}
-L {MUDFONT VOID NES} {N    W SE} {\u28B7}
-L {MUDFONT VOID NES} {  NE W SE} {\u28BE}
-L {MUDFONT VOID NES} {N NE W SE} {\u28BF}
-L {MUDFONT VOID NES} {          S} {\u2846}
-L {MUDFONT VOID NES} {N         S} {\u2847}
-L {MUDFONT VOID NES} {  NE      S} {\u284E}
-L {MUDFONT VOID NES} {N NE      S} {\u284F}
-L {MUDFONT VOID NES} {     W    S} {\u2876}
-L {MUDFONT VOID NES} {N    W    S} {\u2877}
-L {MUDFONT VOID NES} {  NE W    S} {\u287E}
-L {MUDFONT VOID NES} {N NE W    S} {\u287F}
-L {MUDFONT VOID NES} {       SE S} {\u28C6}
-L {MUDFONT VOID NES} {N      SE S} {\u28C7}
-L {MUDFONT VOID NES} {  NE   SE S} {\u28CE}
-L {MUDFONT VOID NES} {N NE   SE S} {\u28CF}
-L {MUDFONT VOID NES} {     W SE S} {\u28F6}
-L {MUDFONT VOID NES} {N    W SE S} {\u28F7}
-L {MUDFONT VOID NES} {  NE W SE S} {\u28FE}
-L {MUDFONT VOID NES} {N NE W SE S} {\u28FF}
+L {MUDFONT NWS} {NO EXITS} {\u2830}
+L {MUDFONT NWS} {N} {\u2838}
+L {MUDFONT NWS} {  NW} {\u2831}
+L {MUDFONT NWS} {N NW} {\u2839}
+L {MUDFONT NWS} {     W} {\u2836}
+L {MUDFONT NWS} {N    W} {\u283E}
+L {MUDFONT NWS} {  NW W} {\u2837}
+L {MUDFONT NWS} {N NW W} {\u283F}
+L {MUDFONT NWS} {       SW} {\u2870}
+L {MUDFONT NWS} {N      SW} {\u2878}
+L {MUDFONT NWS} {  NW   SW} {\u2871}
+L {MUDFONT NWS} {N NW   SW} {\u2879}
+L {MUDFONT NWS} {     W SW} {\u2876}
+L {MUDFONT NWS} {N    W SW} {\u287E}
+L {MUDFONT NWS} {  NW W SW} {\u2877}
+L {MUDFONT NWS} {N NW W SW} {\u287F}
+L {MUDFONT NWS} {          S} {\u28B0}
+L {MUDFONT NWS} {N         S} {\u28B8}
+L {MUDFONT NWS} {  NW      S} {\u28B1}
+L {MUDFONT NWS} {N NW      S} {\u28B9}
+L {MUDFONT NWS} {     W    S} {\u28B6}
+L {MUDFONT NWS} {N    W    S} {\u28BE}
+L {MUDFONT NWS} {  NW W    S} {\u28B7}
+L {MUDFONT NWS} {N NW W    S} {\u28BF}
+L {MUDFONT NWS} {       SW S} {\u28F0}
+L {MUDFONT NWS} {N      SW S} {\u28F8}
+L {MUDFONT NWS} {  NW   SW S} {\u28F1}
+L {MUDFONT NWS} {N NW   SW S} {\u28F9}
+L {MUDFONT NWS} {     W SW S} {\u28F6}
+L {MUDFONT NWS} {N    W SW S} {\u28FE}
+L {MUDFONT NWS} {  NW W SW S} {\u28F7}
+L {MUDFONT NWS} {N NW W SW S} {\u28FF}
+L {MUDFONT NES} {NO EXITS} {\u2806}
+L {MUDFONT NES} {N} {\u2807}
+L {MUDFONT NES} {  NE} {\u280E}
+L {MUDFONT NES} {N NE} {\u280F}
+L {MUDFONT NES} {     W} {\u2836}
+L {MUDFONT NES} {N    W} {\u2837}
+L {MUDFONT NES} {  NE W} {\u283E}
+L {MUDFONT NES} {N NE W} {\u283F}
+L {MUDFONT NES} {       SE} {\u2886}
+L {MUDFONT NES} {N      SE} {\u2887}
+L {MUDFONT NES} {  NE   SE} {\u288E}
+L {MUDFONT NES} {N NE   SE} {\u288F}
+L {MUDFONT NES} {     W SE} {\u28B6}
+L {MUDFONT NES} {N    W SE} {\u28B7}
+L {MUDFONT NES} {  NE W SE} {\u28BE}
+L {MUDFONT NES} {N NE W SE} {\u28BF}
+L {MUDFONT NES} {          S} {\u2846}
+L {MUDFONT NES} {N         S} {\u2847}
+L {MUDFONT NES} {  NE      S} {\u284E}
+L {MUDFONT NES} {N NE      S} {\u284F}
+L {MUDFONT NES} {     W    S} {\u2876}
+L {MUDFONT NES} {N    W    S} {\u2877}
+L {MUDFONT NES} {  NE W    S} {\u287E}
+L {MUDFONT NES} {N NE W    S} {\u287F}
+L {MUDFONT NES} {       SE S} {\u28C6}
+L {MUDFONT NES} {N      SE S} {\u28C7}
+L {MUDFONT NES} {  NE   SE S} {\u28CE}
+L {MUDFONT NES} {N NE   SE S} {\u28CF}
+L {MUDFONT NES} {     W SE S} {\u28F6}
+L {MUDFONT NES} {N    W SE S} {\u28F7}
+L {MUDFONT NES} {  NE W SE S} {\u28FE}
+L {MUDFONT NES} {N NE W SE S} {\u28FF}
+L {MUDFONT VOID NWS} {NO EXITS} {\u2800}
+L {MUDFONT VOID NWS} {N} {\u2808}
+L {MUDFONT VOID NWS} {  NW} {\u2801}
+L {MUDFONT VOID NWS} {N NW} {\u2809}
+L {MUDFONT VOID NWS} {     W} {\u2806}
+L {MUDFONT VOID NWS} {N    W} {\u280E}
+L {MUDFONT VOID NWS} {  NW W} {\u2807}
+L {MUDFONT VOID NWS} {N NW W} {\u280F}
+L {MUDFONT VOID NWS} {       SW} {\u2840}
+L {MUDFONT VOID NWS} {N      SW} {\u2848}
+L {MUDFONT VOID NWS} {  NW   SW} {\u2841}
+L {MUDFONT VOID NWS} {N NW   SW} {\u2849}
+L {MUDFONT VOID NWS} {     W SW} {\u2846}
+L {MUDFONT VOID NWS} {N    W SW} {\u284E}
+L {MUDFONT VOID NWS} {  NW W SW} {\u2847}
+L {MUDFONT VOID NWS} {N NW W SW} {\u284F}
+L {MUDFONT VOID NWS} {          S} {\u2880}
+L {MUDFONT VOID NWS} {N         S} {\u2888}
+L {MUDFONT VOID NWS} {  NW      S} {\u2881}
+L {MUDFONT VOID NWS} {N NW      S} {\u2889}
+L {MUDFONT VOID NWS} {     W    S} {\u2886}
+L {MUDFONT VOID NWS} {N    W    S} {\u288E}
+L {MUDFONT VOID NWS} {  NW W    S} {\u2887}
+L {MUDFONT VOID NWS} {N NW W    S} {\u288F}
+L {MUDFONT VOID NWS} {       SW S} {\u28C0}
+L {MUDFONT VOID NWS} {N      SW S} {\u28C8}
+L {MUDFONT VOID NWS} {  NW   SW S} {\u28C1}
+L {MUDFONT VOID NWS} {N NW   SW S} {\u28C9}
+L {MUDFONT VOID NWS} {     W SW S} {\u28C6}
+L {MUDFONT VOID NWS} {N    W SW S} {\u28CE}
+L {MUDFONT VOID NWS} {  NW W SW S} {\u28C7}
+L {MUDFONT VOID NWS} {N NW W SW S} {\u28CF}
+L {MUDFONT VOID NES} {NO EXITS} {\u2800}
+L {MUDFONT VOID NES} {N} {\u2801}
+L {MUDFONT VOID NES} {  NE} {\u2808}
+L {MUDFONT VOID NES} {N NE} {\u2809}
+L {MUDFONT VOID NES} {     W} {\u2830}
+L {MUDFONT VOID NES} {N    W} {\u2831}
+L {MUDFONT VOID NES} {  NE W} {\u2838}
+L {MUDFONT VOID NES} {N NE W} {\u2839}
+L {MUDFONT VOID NES} {       SE} {\u2880}
+L {MUDFONT VOID NES} {N      SE} {\u2881}
+L {MUDFONT VOID NES} {  NE   SE} {\u2888}
+L {MUDFONT VOID NES} {N NE   SE} {\u2889}
+L {MUDFONT VOID NES} {     W SE} {\u28B0}
+L {MUDFONT VOID NES} {N    W SE} {\u28B1}
+L {MUDFONT VOID NES} {  NE W SE} {\u28B8}
+L {MUDFONT VOID NES} {N NE W SE} {\u28B9}
+L {MUDFONT VOID NES} {          S} {\u2840}
+L {MUDFONT VOID NES} {N         S} {\u2841}
+L {MUDFONT VOID NES} {  NE      S} {\u2848}
+L {MUDFONT VOID NES} {N NE      S} {\u2849}
+L {MUDFONT VOID NES} {     W    S} {\u2870}
+L {MUDFONT VOID NES} {N    W    S} {\u2871}
+L {MUDFONT VOID NES} {  NE W    S} {\u2878}
+L {MUDFONT VOID NES} {N NE W    S} {\u2879}
+L {MUDFONT VOID NES} {       SE S} {\u28C0}
+L {MUDFONT VOID NES} {N      SE S} {\u28C1}
+L {MUDFONT VOID NES} {  NE   SE S} {\u28C8}
+L {MUDFONT VOID NES} {N NE   SE S} {\u28C9}
+L {MUDFONT VOID NES} {     W SE S} {\u28F0}
+L {MUDFONT VOID NES} {N    W SE S} {\u28F1}
+L {MUDFONT VOID NES} {  NE W SE S} {\u28F8}
+L {MUDFONT VOID NES} {N NE W SE S} {\u28F9}
 L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
@@ -249,171 +249,176 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 T {} { } {}
+T {CITY} {<FF03A2E>=} {WIDE}
+T {FIELD} {<F9A7D0A>·} {WIDE FADEOUT}
+T {FOREST} {<F0B5345>⍋} {WIDE FADEOUT}
+T {HILLS} {<F7D6608>︵} {DENSE WIDE FADEOUT DOUBLE}
+T {INSIDE} {<F922B21>≡} {}
+T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
+T {MOUNTAINS} {<F935116>◮} {WIDE}
+T {NOSWIM} {<F21618C>~} {}
+T {SWIM} {<F21618C>~} {}
 
 
 
-R {    1} {0} {} {} {*} {} {} {} {} {} {1.000} {}
-E {    2} {e} {jt_m_link_action {east} {haon-dor} {77}} {2} {0} {} {1.000} {} {0.00}
-E {    3} {n} {n} {1} {0} {} {1.000} {} {0.00}
 
-R {    2} {1026} {} {} { } {} {} {} {} {} {1.000} {}
-E {    1} {w} {w} {8} {0} {} {1.000} {} {0.00}
 
-R {    3} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    1} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {    4} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {    5} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {    6} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {3}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {6}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {8}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {    4} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   12} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {4}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {9210}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {    5} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    9} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {5}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {9206}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9205}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {    6} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    3} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {    7} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {6}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {3}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {11}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {    7} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    6} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {    8} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {7}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {4}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9221}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {    8} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    7} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   11} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {8}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {3}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9221}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {    9} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    6} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   10} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {9220}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {   10} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   35} {w} {w} {8} {0} {} {1.000} {} {0.00}
+R {10}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {9202}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {9203}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {   11} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    8} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   30} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {11}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {6}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {9222}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {   12} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    6} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   13} {e} {e} {2} {0} {} {1.000} {} {0.00}
+R {12}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {9}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9219}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {   13} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   14} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   15} {e} {e} {2} {0} {} {1.000} {} {0.00}
+R {6150}{0}{<fff>}{}{DHa}{}{}{}{NOSWIM}{}{1.000}{}
 
-R {   14} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   13} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   16} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   17} {e} {e} {2} {0} {} {1.000} {} {0.00}
+R {9201}{0}{<fff>}{Cave Entrance}{*}{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {6150}{e}{jt_m_link_action {east} {dark Haon-Dor} {6150}}{2}{0}{}{1.000}{}{0.00}
+E {9203}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {   15} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   13} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   17} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9202}{0}{<fff>}{Stalactite Cave}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9205}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {   16} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   14} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   18} {w} {w} {8} {0} {} {1.000} {} {0.00}
+R {9203}{0}{<fff>}{Four Way Intersection}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9204}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9206}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9201}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {10}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {   17} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   14} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   15} {s} {s} {4} {0} {} {1.000} {} {0.00}
+R {9204}{0}{<fff>}{A Dark Tunnel}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9207}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {   18} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   16} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {    8} {w} {w} {8} {0} {} {1.000} {} {0.00}
+R {9205}{0}{<fff>}{Stalagmite Garden}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {5}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9213}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {   19} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   30} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   20} {n} {unl north;open north;north} {1} {0} {} {1.000} {} {0.00}
-E {   21} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   31} {w} {open west;west} {8} {0} {} {1.000} {} {0.00}
+R {9206}{0}{<fff>}{A Large Tunnel}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9214}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9203}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {   20} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   23} {d} {d} {32} {0} {} {1.000} {} {0.00}
+R {9207}{0}{<fff>}{The Branching}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9208}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9206}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {   21} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   19} {w} {w} {8} {0} {} {1.000} {} {0.00}
+R {9208}{0}{<fff>}{A Small Dwelling}{ }{}{Goblinsville}{}{CITY}{}{1.000}{}
+E {9209}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9215}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {   22} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   38} {e} {open east;east} {2} {0} {} {1.000} {} {0.00}
-E {   40} {s} {open south;south} {4} {0} {} {1.000} {} {0.00}
+R {9209}{0}{<fff>}{Guard's Barracks}{ }{}{Goblinsville}{}{CITY}{}{1.000}{}
+E {9215}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9208}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {   23} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   20} {u} {u} {16} {0} {} {1.000} {} {0.00}
-E {   24} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9210}{0}{<fff>}{The Temple of Heqt}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9211}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
 
-R {   24} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   23} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   25} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9211}{0}{<fff>}{The Waiting Room}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9212}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9210}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {   25} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   24} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   26} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9212}{0}{<fff>}{Guard Station}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9216}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9205}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9211}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {   26} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   25} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   27} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9213}{0}{<fff>}{Rock Bridge}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9212}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {   27} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   26} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   28} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9214}{0}{<fff>}{A Large Tunnel}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9217}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9206}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {   28} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   27} {s} {s} {4} {0} {} {1.000} {} {0.00}
+R {9215}{0}{<fff>}{Another Small Dwelling}{ }{}{Goblinsville}{}{CITY}{}{1.000}{}
+E {9209}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9218}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9208}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {   29} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   33} {n} {open north;north} {1} {0} {} {1.000} {} {0.00}
-E {   32} {e} {open east;east} {2} {0} {} {1.000} {} {0.00}
+R {9216}{0}{<fff>}{Crystal Cavern}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9219}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {   30} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   19} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   11} {s} {s} {4} {0} {} {1.000} {} {0.00}
+R {9217}{0}{<fff>}{A Large Tunnel}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9220}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9214}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {   31} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   34} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   19} {e} {e} {2} {0} {} {1.000} {} {0.00}
+R {9218}{0}{<fff>}{The Mess Hall}{ }{}{Goblinsville}{}{CITY}{}{1.000}{}
+E {9215}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {9217}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {   32} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   29} {w} {open west;west} {8} {0} {} {1.000} {} {0.00}
-E {   35} {e} {open east;east} {2} {0} {} {1.000} {} {0.00}
+R {9219}{0}{<fff>}{Ice Cavern}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {12}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {   33} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   39} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   29} {s} {s} {4} {0} {} {1.000} {} {0.00}
+R {9220}{0}{<fff>}{The King's Waiting Room}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9222}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {9217}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {   34} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   31} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   38} {w} {w} {8} {0} {} {1.000} {} {0.00}
+R {9221}{0}{<fff>}{Secret Room}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {8}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {7}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
-R {   35} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   32} {w} {open west;west} {8} {0} {} {1.000} {} {0.00}
-E {   36} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   37} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9222}{0}{<fff>}{The King's Main Hall}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9223}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9224}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {9220}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {11}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {   36} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   35} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {    9} {e} {e} {2} {0} {} {1.000} {} {0.00}
+R {9223}{0}{<fff>}{The King's Harem}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9222}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {   37} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   41} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   35} {s} {s} {4} {0} {} {1.000} {} {0.00}
+R {9224}{0}{<fff>}{Treasure Lair}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
+E {9225}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
 
-R {   38} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   34} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   22} {w} {w} {8} {0} {} {1.000} {} {0.00}
+R {9225}{0}{<fff>}{Tunnel Under the Mountain}{ }{}{Goblinsville}{}{MOUNTAINS}{}{1.000}{}
+E {9226}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9224}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {   39} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   33} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   40} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9226}{0}{<fff>}{A Secret Tunnel}{ }{}{Goblinsville}{}{MOUNTAINS}{}{1.000}{}
+E {9227}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9225}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {   40} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   39} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   22} {n} {n} {1} {0} {} {1.000} {} {0.00}
+R {9227}{0}{<fff>}{A Secret Tunnel}{ }{}{Goblinsville}{}{MOUNTAINS}{}{1.000}{}
+E {9228}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9226}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {   41} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   42} {e} {e} {2} {0} {} {1.000} {} {0.00}
+R {9228}{0}{<fff>}{A Secret Tunnel}{ }{}{Goblinsville}{}{MOUNTAINS}{}{1.000}{}
+E {9229}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9227}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {   42} {4104} {} {} { } {} {} {} {} {} {1.000} {}
-E {   41} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   11} {e} {e} {2} {0} {} {1.000} {} {0.00}
+R {9229}{0}{<fff>}{A Secret Tunnel}{ }{}{Goblinsville}{}{MOUNTAINS}{}{1.000}{}
+E {9230}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9228}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9230}{0}{<fff>}{A Door at the end of the Tunnel}{ }{}{Goblinsville}{}{MOUNTAINS}{}{1.000}{}
+E {9229}{s}{s}{4}{0}{}{1.000}{}{0.00}

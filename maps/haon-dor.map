@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8455
+F 8207
 
 G 0
 
-I 75
+I 6004
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -84,139 +84,139 @@ L {NESW DIRS} {DIR S} {\u2193}
 L {NESW DIRS} {DIR SW} {\u2B0B}
 L {NESW DIRS} {DIR W} {\u2B05}
 L {NESW DIRS} {DIR NW} {\u2B09}
-L {MUDFONT NWS} {NO EXITS} {\u28CF}
-L {MUDFONT NWS} {N} {\u28C7}
-L {MUDFONT NWS} {  NW} {\u28CE}
-L {MUDFONT NWS} {N NW} {\u28C6}
-L {MUDFONT NWS} {     W} {\u28C9}
-L {MUDFONT NWS} {N    W} {\u28C1}
-L {MUDFONT NWS} {  NW W} {\u28C8}
-L {MUDFONT NWS} {N NW W} {\u28C0}
-L {MUDFONT NWS} {       SW} {\u288F}
-L {MUDFONT NWS} {N      SW} {\u2887}
-L {MUDFONT NWS} {  NW   SW} {\u288E}
-L {MUDFONT NWS} {N NW   SW} {\u2886}
-L {MUDFONT NWS} {     W SW} {\u2889}
-L {MUDFONT NWS} {N    W SW} {\u2881}
-L {MUDFONT NWS} {  NW W SW} {\u2888}
-L {MUDFONT NWS} {N NW W SW} {\u2880}
-L {MUDFONT NWS} {          S} {\u284F}
-L {MUDFONT NWS} {N         S} {\u2847}
-L {MUDFONT NWS} {  NW      S} {\u284E}
-L {MUDFONT NWS} {N NW      S} {\u2846}
-L {MUDFONT NWS} {     W    S} {\u2849}
-L {MUDFONT NWS} {N    W    S} {\u2841}
-L {MUDFONT NWS} {  NW W    S} {\u2848}
-L {MUDFONT NWS} {N NW W    S} {\u2880}
-L {MUDFONT NWS} {       SW S} {\u280F}
-L {MUDFONT NWS} {N      SW S} {\u2807}
-L {MUDFONT NWS} {  NW   SW S} {\u280E}
-L {MUDFONT NWS} {N NW   SW S} {\u2806}
-L {MUDFONT NWS} {     W SW S} {\u2809}
-L {MUDFONT NWS} {N    W SW S} {\u2801}
-L {MUDFONT NWS} {  NW W SW S} {\u2808}
-L {MUDFONT NWS} {N NW W SW S} {\u2800}
-L {MUDFONT NES} {NO EXITS} {\u28F9}
-L {MUDFONT NES} {N} {\u28F8}
-L {MUDFONT NES} {  NE} {\u28F1}
-L {MUDFONT NES} {N NE} {\u28F0}
-L {MUDFONT NES} {     W} {\u28C9}
-L {MUDFONT NES} {N    W} {\u28C8}
-L {MUDFONT NES} {  NE W} {\u28C2}
-L {MUDFONT NES} {N NE W} {\u28C0}
-L {MUDFONT NES} {       SE} {\u2879}
-L {MUDFONT NES} {N      SE} {\u2878}
-L {MUDFONT NES} {  NE   SE} {\u2871}
-L {MUDFONT NES} {N NE   SE} {\u2870}
-L {MUDFONT NES} {     W SE} {\u2849}
-L {MUDFONT NES} {N    W SE} {\u2848}
-L {MUDFONT NES} {  NE W SE} {\u2842}
-L {MUDFONT NES} {N NE W SE} {\u2840}
-L {MUDFONT NES} {          S} {\u28B9}
-L {MUDFONT NES} {N         S} {\u28B8}
-L {MUDFONT NES} {  NE      S} {\u28B1}
-L {MUDFONT NES} {N NE      S} {\u28B0}
-L {MUDFONT NES} {     W    S} {\u2889}
-L {MUDFONT NES} {N    W    S} {\u2888}
-L {MUDFONT NES} {  NE W    S} {\u2882}
-L {MUDFONT NES} {N NE W    S} {\u2880}
-L {MUDFONT NES} {       SE S} {\u2839}
-L {MUDFONT NES} {N      SE S} {\u2838}
-L {MUDFONT NES} {  NE   SE S} {\u2831}
-L {MUDFONT NES} {N NE   SE S} {\u2830}
-L {MUDFONT NES} {     W SE S} {\u2809}
-L {MUDFONT NES} {N    W SE S} {\u2808}
-L {MUDFONT NES} {  NE W SE S} {\u2802}
-L {MUDFONT NES} {N NE W SE S} {\u2800}
-L {MUDFONT VOID NWS} {NO EXITS} {\u2830}
-L {MUDFONT VOID NWS} {N} {\u2838}
-L {MUDFONT VOID NWS} {  NW} {\u2831}
-L {MUDFONT VOID NWS} {N NW} {\u2839}
-L {MUDFONT VOID NWS} {     W} {\u2836}
-L {MUDFONT VOID NWS} {N    W} {\u283E}
-L {MUDFONT VOID NWS} {  NW W} {\u2837}
-L {MUDFONT VOID NWS} {N NW W} {\u283F}
-L {MUDFONT VOID NWS} {       SW} {\u2870}
-L {MUDFONT VOID NWS} {N      SW} {\u2878}
-L {MUDFONT VOID NWS} {  NW   SW} {\u2871}
-L {MUDFONT VOID NWS} {N NW   SW} {\u2879}
-L {MUDFONT VOID NWS} {     W SW} {\u2876}
-L {MUDFONT VOID NWS} {N    W SW} {\u287E}
-L {MUDFONT VOID NWS} {  NW W SW} {\u2877}
-L {MUDFONT VOID NWS} {N NW W SW} {\u287F}
-L {MUDFONT VOID NWS} {          S} {\u28B0}
-L {MUDFONT VOID NWS} {N         S} {\u28B8}
-L {MUDFONT VOID NWS} {  NW      S} {\u28B1}
-L {MUDFONT VOID NWS} {N NW      S} {\u28B9}
-L {MUDFONT VOID NWS} {     W    S} {\u28B6}
-L {MUDFONT VOID NWS} {N    W    S} {\u28BE}
-L {MUDFONT VOID NWS} {  NW W    S} {\u28B7}
-L {MUDFONT VOID NWS} {N NW W    S} {\u28BF}
-L {MUDFONT VOID NWS} {       SW S} {\u28F0}
-L {MUDFONT VOID NWS} {N      SW S} {\u28F8}
-L {MUDFONT VOID NWS} {  NW   SW S} {\u28F1}
-L {MUDFONT VOID NWS} {N NW   SW S} {\u28F9}
-L {MUDFONT VOID NWS} {     W SW S} {\u28F6}
-L {MUDFONT VOID NWS} {N    W SW S} {\u28FE}
-L {MUDFONT VOID NWS} {  NW W SW S} {\u28F7}
-L {MUDFONT VOID NWS} {N NW W SW S} {\u28FF}
-L {MUDFONT VOID NES} {NO EXITS} {\u2806}
-L {MUDFONT VOID NES} {N} {\u2807}
-L {MUDFONT VOID NES} {  NE} {\u280E}
-L {MUDFONT VOID NES} {N NE} {\u280F}
-L {MUDFONT VOID NES} {     W} {\u2836}
-L {MUDFONT VOID NES} {N    W} {\u2837}
-L {MUDFONT VOID NES} {  NE W} {\u283E}
-L {MUDFONT VOID NES} {N NE W} {\u283F}
-L {MUDFONT VOID NES} {       SE} {\u2886}
-L {MUDFONT VOID NES} {N      SE} {\u2887}
-L {MUDFONT VOID NES} {  NE   SE} {\u288E}
-L {MUDFONT VOID NES} {N NE   SE} {\u288F}
-L {MUDFONT VOID NES} {     W SE} {\u28B6}
-L {MUDFONT VOID NES} {N    W SE} {\u28B7}
-L {MUDFONT VOID NES} {  NE W SE} {\u28BE}
-L {MUDFONT VOID NES} {N NE W SE} {\u28BF}
-L {MUDFONT VOID NES} {          S} {\u2846}
-L {MUDFONT VOID NES} {N         S} {\u2847}
-L {MUDFONT VOID NES} {  NE      S} {\u284E}
-L {MUDFONT VOID NES} {N NE      S} {\u284F}
-L {MUDFONT VOID NES} {     W    S} {\u2876}
-L {MUDFONT VOID NES} {N    W    S} {\u2877}
-L {MUDFONT VOID NES} {  NE W    S} {\u287E}
-L {MUDFONT VOID NES} {N NE W    S} {\u287F}
-L {MUDFONT VOID NES} {       SE S} {\u28C6}
-L {MUDFONT VOID NES} {N      SE S} {\u28C7}
-L {MUDFONT VOID NES} {  NE   SE S} {\u28CE}
-L {MUDFONT VOID NES} {N NE   SE S} {\u28CF}
-L {MUDFONT VOID NES} {     W SE S} {\u28F6}
-L {MUDFONT VOID NES} {N    W SE S} {\u28F7}
-L {MUDFONT VOID NES} {  NE W SE S} {\u28FE}
-L {MUDFONT VOID NES} {N NE W SE S} {\u28FF}
+L {MUDFONT NWS} {NO EXITS} {\u2830}
+L {MUDFONT NWS} {N} {\u2838}
+L {MUDFONT NWS} {  NW} {\u2831}
+L {MUDFONT NWS} {N NW} {\u2839}
+L {MUDFONT NWS} {     W} {\u2836}
+L {MUDFONT NWS} {N    W} {\u283E}
+L {MUDFONT NWS} {  NW W} {\u2837}
+L {MUDFONT NWS} {N NW W} {\u283F}
+L {MUDFONT NWS} {       SW} {\u2870}
+L {MUDFONT NWS} {N      SW} {\u2878}
+L {MUDFONT NWS} {  NW   SW} {\u2871}
+L {MUDFONT NWS} {N NW   SW} {\u2879}
+L {MUDFONT NWS} {     W SW} {\u2876}
+L {MUDFONT NWS} {N    W SW} {\u287E}
+L {MUDFONT NWS} {  NW W SW} {\u2877}
+L {MUDFONT NWS} {N NW W SW} {\u287F}
+L {MUDFONT NWS} {          S} {\u28B0}
+L {MUDFONT NWS} {N         S} {\u28B8}
+L {MUDFONT NWS} {  NW      S} {\u28B1}
+L {MUDFONT NWS} {N NW      S} {\u28B9}
+L {MUDFONT NWS} {     W    S} {\u28B6}
+L {MUDFONT NWS} {N    W    S} {\u28BE}
+L {MUDFONT NWS} {  NW W    S} {\u28B7}
+L {MUDFONT NWS} {N NW W    S} {\u28BF}
+L {MUDFONT NWS} {       SW S} {\u28F0}
+L {MUDFONT NWS} {N      SW S} {\u28F8}
+L {MUDFONT NWS} {  NW   SW S} {\u28F1}
+L {MUDFONT NWS} {N NW   SW S} {\u28F9}
+L {MUDFONT NWS} {     W SW S} {\u28F6}
+L {MUDFONT NWS} {N    W SW S} {\u28FE}
+L {MUDFONT NWS} {  NW W SW S} {\u28F7}
+L {MUDFONT NWS} {N NW W SW S} {\u28FF}
+L {MUDFONT NES} {NO EXITS} {\u2806}
+L {MUDFONT NES} {N} {\u2807}
+L {MUDFONT NES} {  NE} {\u280E}
+L {MUDFONT NES} {N NE} {\u280F}
+L {MUDFONT NES} {     W} {\u2836}
+L {MUDFONT NES} {N    W} {\u2837}
+L {MUDFONT NES} {  NE W} {\u283E}
+L {MUDFONT NES} {N NE W} {\u283F}
+L {MUDFONT NES} {       SE} {\u2886}
+L {MUDFONT NES} {N      SE} {\u2887}
+L {MUDFONT NES} {  NE   SE} {\u288E}
+L {MUDFONT NES} {N NE   SE} {\u288F}
+L {MUDFONT NES} {     W SE} {\u28B6}
+L {MUDFONT NES} {N    W SE} {\u28B7}
+L {MUDFONT NES} {  NE W SE} {\u28BE}
+L {MUDFONT NES} {N NE W SE} {\u28BF}
+L {MUDFONT NES} {          S} {\u2846}
+L {MUDFONT NES} {N         S} {\u2847}
+L {MUDFONT NES} {  NE      S} {\u284E}
+L {MUDFONT NES} {N NE      S} {\u284F}
+L {MUDFONT NES} {     W    S} {\u2876}
+L {MUDFONT NES} {N    W    S} {\u2877}
+L {MUDFONT NES} {  NE W    S} {\u287E}
+L {MUDFONT NES} {N NE W    S} {\u287F}
+L {MUDFONT NES} {       SE S} {\u28C6}
+L {MUDFONT NES} {N      SE S} {\u28C7}
+L {MUDFONT NES} {  NE   SE S} {\u28CE}
+L {MUDFONT NES} {N NE   SE S} {\u28CF}
+L {MUDFONT NES} {     W SE S} {\u28F6}
+L {MUDFONT NES} {N    W SE S} {\u28F7}
+L {MUDFONT NES} {  NE W SE S} {\u28FE}
+L {MUDFONT NES} {N NE W SE S} {\u28FF}
+L {MUDFONT VOID NWS} {NO EXITS} {\u2800}
+L {MUDFONT VOID NWS} {N} {\u2808}
+L {MUDFONT VOID NWS} {  NW} {\u2801}
+L {MUDFONT VOID NWS} {N NW} {\u2809}
+L {MUDFONT VOID NWS} {     W} {\u2806}
+L {MUDFONT VOID NWS} {N    W} {\u280E}
+L {MUDFONT VOID NWS} {  NW W} {\u2807}
+L {MUDFONT VOID NWS} {N NW W} {\u280F}
+L {MUDFONT VOID NWS} {       SW} {\u2840}
+L {MUDFONT VOID NWS} {N      SW} {\u2848}
+L {MUDFONT VOID NWS} {  NW   SW} {\u2841}
+L {MUDFONT VOID NWS} {N NW   SW} {\u2849}
+L {MUDFONT VOID NWS} {     W SW} {\u2846}
+L {MUDFONT VOID NWS} {N    W SW} {\u284E}
+L {MUDFONT VOID NWS} {  NW W SW} {\u2847}
+L {MUDFONT VOID NWS} {N NW W SW} {\u284F}
+L {MUDFONT VOID NWS} {          S} {\u2880}
+L {MUDFONT VOID NWS} {N         S} {\u2888}
+L {MUDFONT VOID NWS} {  NW      S} {\u2881}
+L {MUDFONT VOID NWS} {N NW      S} {\u2889}
+L {MUDFONT VOID NWS} {     W    S} {\u2886}
+L {MUDFONT VOID NWS} {N    W    S} {\u288E}
+L {MUDFONT VOID NWS} {  NW W    S} {\u2887}
+L {MUDFONT VOID NWS} {N NW W    S} {\u288F}
+L {MUDFONT VOID NWS} {       SW S} {\u28C0}
+L {MUDFONT VOID NWS} {N      SW S} {\u28C8}
+L {MUDFONT VOID NWS} {  NW   SW S} {\u28C1}
+L {MUDFONT VOID NWS} {N NW   SW S} {\u28C9}
+L {MUDFONT VOID NWS} {     W SW S} {\u28C6}
+L {MUDFONT VOID NWS} {N    W SW S} {\u28CE}
+L {MUDFONT VOID NWS} {  NW W SW S} {\u28C7}
+L {MUDFONT VOID NWS} {N NW W SW S} {\u28CF}
+L {MUDFONT VOID NES} {NO EXITS} {\u2800}
+L {MUDFONT VOID NES} {N} {\u2801}
+L {MUDFONT VOID NES} {  NE} {\u2808}
+L {MUDFONT VOID NES} {N NE} {\u2809}
+L {MUDFONT VOID NES} {     W} {\u2830}
+L {MUDFONT VOID NES} {N    W} {\u2831}
+L {MUDFONT VOID NES} {  NE W} {\u2838}
+L {MUDFONT VOID NES} {N NE W} {\u2839}
+L {MUDFONT VOID NES} {       SE} {\u2880}
+L {MUDFONT VOID NES} {N      SE} {\u2881}
+L {MUDFONT VOID NES} {  NE   SE} {\u2888}
+L {MUDFONT VOID NES} {N NE   SE} {\u2889}
+L {MUDFONT VOID NES} {     W SE} {\u28B0}
+L {MUDFONT VOID NES} {N    W SE} {\u28B1}
+L {MUDFONT VOID NES} {  NE W SE} {\u28B8}
+L {MUDFONT VOID NES} {N NE W SE} {\u28B9}
+L {MUDFONT VOID NES} {          S} {\u2840}
+L {MUDFONT VOID NES} {N         S} {\u2841}
+L {MUDFONT VOID NES} {  NE      S} {\u2848}
+L {MUDFONT VOID NES} {N NE      S} {\u2849}
+L {MUDFONT VOID NES} {     W    S} {\u2870}
+L {MUDFONT VOID NES} {N    W    S} {\u2871}
+L {MUDFONT VOID NES} {  NE W    S} {\u2878}
+L {MUDFONT VOID NES} {N NE W    S} {\u2879}
+L {MUDFONT VOID NES} {       SE S} {\u28C0}
+L {MUDFONT VOID NES} {N      SE S} {\u28C1}
+L {MUDFONT VOID NES} {  NE   SE S} {\u28C8}
+L {MUDFONT VOID NES} {N NE   SE S} {\u28C9}
+L {MUDFONT VOID NES} {     W SE S} {\u28F0}
+L {MUDFONT VOID NES} {N    W SE S} {\u28F1}
+L {MUDFONT VOID NES} {  NE W SE S} {\u28F8}
+L {MUDFONT VOID NES} {N NE W SE S} {\u28F9}
 L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -249,421 +249,121 @@ L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
 
 
 T {} { } {}
+T {CITY} {<FF03A2E>=} {WIDE}
+T {FIELD} {<F9A7D0A>·} {WIDE FADEOUT}
+T {FOREST} {<F0B5345>⍋} {WIDE FADEOUT}
+T {HILLS} {<F7D6608>︵} {DENSE WIDE FADEOUT DOUBLE}
+T {INSIDE} {<F922B21>≡} {}
+T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
+T {MOUNTAINS} {<F935116>◮} {WIDE}
+T {NOSWIM} {<F21618C>~} {}
+T {SWIM} {<F21618C>~} {}
+
+
+
+
+R {3107}{1024}{<fff>}{}{Mid}{}{}{}{CITY}{}{1.000}{}
+
+R {6000}{0}{<fff>}{The edge of the forest}{ }{}{Haon-Dor}{}{FIELD}{}{1.000}{}
+E {3107}{e}{jt_m_link_action {east} {Midgaard} {3107}}{2}{0}{}{1.000}{}{0.00}
+E {6001}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6001}{0}{<fff>}{A trail through the light forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6002}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {6000}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {6002}{0}{<fff>}{A trail through the light forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6001}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6011}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {6003}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6003}{0}{<fff>}{A trail through the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6002}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6004}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6004}{0}{<fff>}{A trail through the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6003}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6005}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {6100}{w}{jt_m_link_action {west} {dark Haon-Dor} {6100}}{8}{0}{}{1.000}{}{0.00}
+
+R {6005}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6004}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6006}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6006}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6007}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6005}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6007}{0}{<fff>}{An intersection in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6008}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6012}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {6006}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6008}{0}{<fff>}{The forest clearing}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6011}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6007}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {6009}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {6009}{0}{<fff>}{Outside a small cabin in the forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6010}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {6014}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {6008}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6010}{0}{}{Inside the cabin}{ }{}{Haon-Dor}{}{INSIDE}{}{1.000}{}
+E {6009}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {6011}{0}{<fff>}{A small path through the light forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6002}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6008}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6012}{0}{<fff>}{An intersection in the dense forest}{}{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6013}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6007}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6021}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6013}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6014}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6012}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6014}{0}{<fff>}{An intersection in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6015}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6009}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6013}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6015}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6016}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {6014}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6016}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6015}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6017}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6017}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6016}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6018}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6018}{0}{<fff>}{An intersection in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6017}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6023}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6019}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6019}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6018}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6020}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
+R {6020}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6019}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {6021}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
+R {6021}{0}{<fff>}{A small path in the dense forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
+E {6020}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6012}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6022}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {    1} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    2} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {    3} {e} {jt_m_link_action {east} {midgaard} {109}} {2} {0} {} {1.000} {} {0.00}
+R {6022}{0}{<fff>}{Inside the cave}{ }{}{Haon-Dor}{}{INSIDE}{}{1.000}{}
+E {6021}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {    2} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    1} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {    4} {w} {w} {8} {0} {} {1.000} {} {0.00}
+R {6023}{0}{<fff>}{On a small, grassy field}{ }{}{Haon-Dor}{}{FIELD}{}{1.000}{}
+E {6018}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {    3} {1026} {} {} {@} {} {} {} {} {} {1.000} {}
-E {    1} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {    4} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    2} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {    5} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   11} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {    5} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    4} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {    6} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {    6} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    5} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {    7} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   16} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {    7} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    6} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {    8} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {    8} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    7} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {    9} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   29} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {    9} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    8} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   10} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   30} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   10} {0} {} {} {*} {} {} {} {} {} {1.000} {}
-E {    9} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   31} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   11} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    4} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   12} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   12} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   11} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   13} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   14} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   13} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   12} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   19} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   14} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   12} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   15} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   17} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   15} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   14} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   16} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   16} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   15} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {    6} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   17} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   14} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   18} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   27} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   18} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   17} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   19} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   19} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   18} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   13} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   20} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   20} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   19} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   21} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   21} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   20} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   22} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   22} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   21} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   23} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   23} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   22} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   24} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   25} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   24} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   23} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   25} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   23} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   26} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   26} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   25} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   27} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   27} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   26} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   28} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   17} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   28} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   27} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   29} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    8} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   32} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   30} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {    9} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   82} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   31} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   10} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   50} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   34} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   32} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   29} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   33} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   33} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   32} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   34} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   35} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   34} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   33} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   31} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   35} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   33} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   36} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   37} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   36} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   35} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   41} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   37} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   35} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   38} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   38} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   37} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   39} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   39} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   38} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   40} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   40} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   39} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   41} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   36} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   42} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   42} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   41} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   43} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   44} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   43} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   42} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   56} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   44} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   42} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   45} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   45} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   44} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   46} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   47} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   46} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   45} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   52} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   47} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   45} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   48} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   48} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   47} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   49} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   50} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   49} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   48} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   51} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   87} {u} {u} {16} {0} {} {1.000} {} {0.00}
-
-R {   50} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   48} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   31} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   51} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   49} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   88} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   89} {u} {u} {16} {0} {} {1.000} {} {0.00}
-
-R {   52} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   46} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   53} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   54} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   53} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   52} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   60} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   54} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   52} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   55} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   56} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   55} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   54} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   97} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   91} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   56} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   54} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   57} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   43} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   57} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   56} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   58} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   97} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   98} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   59} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   91} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   93} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   60} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   53} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   61} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   61} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   60} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   62} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   62} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   61} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   63} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   64} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   63} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   62} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   66} {n} {jt_m_link_action {north} {high-tower-of-sorcery} {1}} {1} {0} {} {1.000} {} {0.00}
-
-R {   64} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   62} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   65} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   65} {513} {} {} { } {} {} {} {} {} {1.000} {}
-E {   64} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   66} {1026} {} {} { } {} {} {} {} {} {1.000} {}
-E {   63} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   67} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   98} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   99} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   69} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   68} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   99} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {  100} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   69} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   67} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   70} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   70} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   69} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   71} {s} {jt_m_link_action {cut vegetation} {underworld} {1}} {4} {0} {} {1.000} {} {0.00}
-
-R {   71} {1026} {} {} { } {} {} {} {} {} {1.000} {}
-E {   70} {n} {n} {1} {0} {} {1.000} {} {0.00}
-
-R {   72} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   93} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   92} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   73} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   92} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   96} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   74} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   96} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   95} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   75} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   95} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   94} {e} {jt_m_link_action {east} {southern-midgaard} {1}} {2} {0} {} {1.000} {} {0.00}
-
-R {   76} {1026} {} {} { } {} {} {} {} {} {1.000} {}
-E {   94} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   77} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {  100} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   78} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {  101} {w} {jt_m_link_action {west} {goblinsville} {1}} {8} {0} {} {1.000} {} {0.00}
-
-R {   78} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   77} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   80} {s} {s} {4} {0} {} {1.000} {} {0.00}
-
-R {   79} {1026} {} {} { } {} {} {} {} {} {1.000} {}
-E {  101} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   80} {0} {<acf>} {} { } {} {} {} {} {} {1.000} {}
-E {   78} {n} {n} {1} {0} {} {1.000} {} {0.00}
-E {   81} {e} {jt_m_link_action {east} {river-island-of-minos} {1}} {2} {0} {} {1.000} {} {0.00}
-
-R {   81} {1026} {} {} { } {} {} {} {} {} {1.000} {}
-E {   80} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   82} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   30} {s} {s} {4} {0} {} {1.000} {} {0.00}
-E {   83} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   83} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   82} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   84} {e} {open east;east} {2} {0} {} {1.000} {} {0.00}
-
-R {   84} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   83} {w} {open west;west} {8} {0} {} {1.000} {} {0.00}
-E {   85} {d} {d} {32} {0} {} {1.000} {} {0.00}
-
-R {   85} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   84} {u} {u} {16} {0} {} {1.000} {} {0.00}
-E {   86} {s} {open south;south} {4} {0} {} {1.000} {} {0.00}
-
-R {   86} {513} {} {} { } {} {} {} {} {} {1.000} {}
-E {   85} {n} {open north;north} {1} {0} {} {1.000} {} {0.00}
-
-R {   87} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   49} {d} {d} {32} {0} {} {1.000} {} {0.00}
-E {   89} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   90} {u} {jt_m_link_action {up} {arachnos} {1}} {16} {0} {} {1.000} {} {0.00}
-
-R {   88} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   89} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   89} {0} {} {} { } {} {} {} {} {} {1.000} {}
-E {   87} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   88} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   90} {1026} {} {} { } {} {} {} {} {} {1.000} {}
-E {   87} {d} {d} {32} {0} {} {1.000} {} {0.00}
-
-R {   91} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   59} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   55} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   92} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   73} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   72} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   93} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   59} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   72} {e} {e} {2} {0} {} {1.000} {} {0.00}
-
-R {   94} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   76} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   75} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   95} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   75} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   74} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   96} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   74} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   73} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   97} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   55} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   58} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   98} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   58} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   67} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {   99} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   67} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   68} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {  100} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   68} {e} {e} {2} {0} {} {1.000} {} {0.00}
-E {   77} {w} {w} {8} {0} {} {1.000} {} {0.00}
-
-R {  101} {8} {} {} { } {} {} {} {} {} {1.000} {}
-E {   79} {w} {w} {8} {0} {} {1.000} {} {0.00}
-E {   77} {e} {e} {2} {0} {} {1.000} {} {0.00}
+R {6100}{1280}{<fff>}{}{DHa}{}{}{}{FOREST}{}{1.000}{}

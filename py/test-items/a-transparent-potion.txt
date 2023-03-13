@@ -1,0 +1,6 @@
+Object 'a transparent potion', Item type: POTION
+Item will give you following abilities:  NOBITS
+Item is: GLOW HUM MAG !RENT !DONATE UNIQUE
+Weight: 1, Value: 400, Rent: 0, Min. level: 0
+This POTION casts:  Level 20 of detect alignment detect magic detect poison
+-----
