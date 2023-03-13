@@ -1,6 +1,12 @@
 ----
 
 
+-- manually fix/verify all paths
+
+-- handle Charon flight in UW
+
+-- handle Star Wars flight
+
 -- add gold to item brief (colored in yellow)
 
 -- cmds
@@ -9,22 +15,8 @@
         -- make all maps read-only
 
 
-
--- getting summoned should reorient map
-        Neytiri has summoned you!
-
-
-
 -- auto-cast should just keep firing until all met
         -- double fires now
-
-
--- manually fix/verify all paths
-        -- hao -> uw does not work
-
--- handle Star Wars flight
--- handle Charon flight in UW
-
 
 -- create room terrain cmd
         room terrain s FOREST
@@ -47,17 +39,18 @@
                 #map set roomterrain $MSDP_ROOM[TERRAIN]
                 #map mov n -- switch on $DIR
 
-
-{AREA}{The Bardic Colleges}{DOORS}{}{EXITS}{{northeast}{4700}}{NAME}{Bardic College Supply
-Shop}{TERRAIN}{INSIDE}{VNUM}{4703}
-
 -- add regenerate to auto cast spells
+
 -- update legend for shops, and other landmarks (specifically color?)
+
 -- quick cmd for getting map stats, 
         -- jt map stats brief -- just the summary
         -- and jt map stats all -- list all in order
+
 -- map list with current state
+
 -- map-stats do not look for distinct areas when calculating linked areas, it counts all links
+
 -- finish linking
         Hell (inside Arachnos)
         Golden Pagoda	
@@ -67,17 +60,4 @@ Shop}{TERRAIN}{INSIDE}{VNUM}{4703}
         Shadow Rift	
         Shadow Storm	
         (Skara Brae)	
-
-
-
-
-    #map TERRAIN FOREST <F0B5345>⍋ WIDE FADEOUT;
-    #map TERRAIN INSIDE <F922B21>≡;
-    #map TERRAIN CITY <FF03A2E>= WIDE;
-    #map TERRAIN FIELD <F9A7D0A>· WIDE FADEOUT;
-    #map TERRAIN NOSWIM <F21618C>~;
-    #map TERRAIN SWIM <F21618C>~;
-    #map TERRAIN MOUNTAINS <F935116>◮ WIDE;
-    #map TERRAIN HILLS <F7D6608>︵  DOUBLE WIDE DENSE FADEOUT;
-    #map TERRAIN MIDAIR <F6C3483>⊰ SPARSE WIDE;
 

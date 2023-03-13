@@ -483,7 +483,7 @@ E {6154}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {6154}{0}{<fff>}{Dark river}{ }{}{dark Haon-Dor}{}{NOSWIM}{}{1.000}{}
 E {6153}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3}{s}{jt_m_link_action {#delay 0.5 {cut vegetation}} {The Underworld} {16100}}{4}{0}{}{1.000}{}{0.00}
+E {3}{s}{jt_m_link_action {#delay 0 {cut vegetation}} {The Underworld} {16100}}{4}{0}{}{1.000}{}{0.00}
 
 R {6201}{0}{<fff>}{}{Ara}{}{}{}{}{}{1.000}{}
 

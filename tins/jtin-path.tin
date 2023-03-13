@@ -6,6 +6,10 @@
     }
 }
 
+#event {END OF RUN} {
+    #delay 1 {jt_p_zone_show_paths};
+}
+
 #alias jt_p_run_path {
     #map get all t;
     #var jt_p_current_vnum {$t[vnum]};
@@ -14,7 +18,7 @@
         jt_p_unknown_path;
     } {
         #path unzip $jt_p_zone_paths[$jt_m_current][$jt_p_current_vnum][paths][%1][path];
-        #path run {0.1};
+        #path run {0};
     }
 }
 
@@ -39,9 +43,6 @@
         #foreach {*jt_p_zone_paths[$jt_m_current][%*]} {i} {
             #if {$i != $jt_p_current_vnum} {
                 #showme <adf>$jt_p_zone_paths[$jt_m_current][$i][name] ($i) <fca>(disabled);
-                #nop #foreach {*jt_p_zone_paths[$jt_m_current][$i][paths][%*]} {j} {
-                #nop     #showme <ecc>  $j<aef> $jt_p_zone_paths[$jt_m_current][$i][paths][$j][name] <fca>disabled;
-                #nop }
             };
         };
         #unvar jt_p_current_vnum;
@@ -140,8 +141,8 @@
                     {path}{1s2w2s1w3s4w2s1e}
                 }
                 {uwo}{
-                    {name}{ Underworld}
-                    {path}{1s2w2s1w3s2w2s;cut vegetation;3s3w10n}
+                    {name}{Underworld}
+                    {path}{1s2w2s1w3s2w6s3w10n}
                 }
             }
         }
@@ -379,10 +380,6 @@
                 {shv}{
                     {name}{Shire Village}
                     {path}{8n1e1n}
-                }
-                {wdn}{
-                    {name}{Weeden}
-                    {path}{4s5w2n5w3s2w}
                 }
                 {wel}{
                     {name}{King Welmar's Castle}

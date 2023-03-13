@@ -522,6 +522,8 @@
     jt_m_hide;
     jt_m_print_msg {<fca>disabled};
     #class jtin-mapper kill;
+    #class jtin-path kill;
+    #class jtin-mapper-msdp kill;
     #var jt_m_state disabled;
     #class jtin-path kill;
     #map leave;
@@ -535,6 +537,7 @@
     #var jt_m_state enabled;
     jt_m_print_msg {<afc>enabled};
     jt_m_report_stats;
+    jt_m_locate;
 }
 
 #alias jt_m_print_state {

@@ -1,7 +1,6 @@
 #nop ----- msdp mapping -----
 
 #EVENT {IAC SB MSDP ROOM} {
-    #map get worldflags jt_m_flags;
     #variable {MSDP_ROOM} {%1};
     #replace {MSDP_ROOM[AREA]} {'} {};
     #if {"$jt_m_current" == ""} {
@@ -13,13 +12,15 @@
         #nop ignoring room linked to current zone
     };
     #elseif {"$jt_m_current" != "$MSDP_ROOM[AREA]"} {
+        #map get worldflags jt_m_flags;
         #if {"$jt_m_flags" == "8206" || "$jt_m_flags" == "262"} { 
             map save;
         };
         #var jt_m_current {$MSDP_ROOM[AREA]};
         map open {$MSDP_ROOM[AREA]} {$MSDP_ROOM[VNUM]};
     };
-        
+    
+    #map get worldflags jt_m_flags;
     #if {"$jt_m_flags" == "8206" || "$jt_m_flags" == "262"} { 
         #showme $MSDP_ROOM;
         #map goto {$MSDP_ROOM[VNUM]} {dig};
@@ -45,7 +46,12 @@
                     #map set {roomcolor} {<efa>} {$MSDP_ROOM[EXITS][$EXIT]};
                 }
             }
-        }
+        };
+        #unvar EXIT;
+        #unvar EXIT_LIST;
+        #unvar EXIT_VNUM;
+        #unvar jt_m_flags;
+
     };
     #else {
         #map goto {$MSDP_ROOM[VNUM]};
@@ -81,3 +87,7 @@
         #case {"down"} {#return u};
     }
 }
+
+#variable result {$TELNET[IAC]$TELNET[SB]$TELNET[MSDP]$MSDP[VAR]REPORT};
+#variable result {$result$MSDP[VAL]ROOM};
+#send {$result$TELNET[IAC]$TELNET[SE]\};

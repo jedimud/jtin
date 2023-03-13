@@ -4,6 +4,9 @@
     #if {"%1" == "show"} {
         jt_m_show;
     };
+    #elseif {"%1" == "locate"} {
+        jt_m_locate;
+    };
     #elseif {"%1" == "open"} {
         jt_m_open {%2} {%3};
     };
@@ -32,7 +35,18 @@
         jt_m_center {%2};
     };
     #else {
-        jt_m_print_msg {<efc>unknown command, try :: map (open|show|hide|create|edit|read|save|offset|split)}
+        jt_m_print_msg {<efc>unknown command, try :: map (locate|open|show|hide|create|edit|read|save|offset|split)}
+    };
+}
+
+#alias jt_m_locate {
+    jt_m_print_msg {<efc>finding location by msdp, standby};
+    jt_m_msdp_enable;
+    #delay 3 { 
+        map show;
+        jt_m_msdp_disable; 
+        jt_m_print_msg {<efc>found location at $MSDP_ROOM[AREA]($MSDP_ROOM[VNUM])};
+        look;
     };
 }
 
@@ -119,13 +133,25 @@
     #map write {maps/%1.map};
 }
 
+#alias jt_m_msdp_enable {
+    #class jtin-mapper-msdp clear;
+    #class jtin-mapper-msdp read tins/jtin-mapper-msdp.tin;
+}
+
+#alias jt_m_msdp_disable {
+    #class jtin-mapper-msdp kill;
+    #unvar $MSDP_ROOM;
+}
+
 #alias jt_m_edit {
+    jt_m_msdp_enable;
     jt_m_print_msg {<efc>setting edit-mode for: $jt_m_current};
     #map sync maps/$jt_m_current.map;
     #map flag static off;
 }
 
 #alias jt_m_read {
+    jt_m_msdp_disable;
     jt_m_print_msg {<efc>setting read-only mode for: $jt_m_current};
     #map flag static on;
 }
@@ -418,6 +444,10 @@
     #map undo;
 }
 
+#action {^%1 has summoned you!} {
+    jt_m_locate;
+}
+
 #nop ------ area mapping -------
 
 #var jt_m_area_map {
@@ -448,15 +478,11 @@
 
 #nop ----- mapper defaults -----
 
-#class jtin-mapper-msdp clear;
-#class jtin-mapper-msdp read tins/jtin-mapper-msdp.tin;
 
 #var jt_m_current {};
-#var jt_m_display[split] {#split 0 0 0 -90};
-#var jt_m_display[offset] {#map offset 1 91 -1 -1};
+#var jt_m_display[split] {#split 0 0 0 -82};
+#var jt_m_display[offset] {#map offset 1 82 -1 -1};
 #var jt_m_display[center] {#map center 0 0 0};
-#variable result {$TELNET[IAC]$TELNET[SB]$TELNET[MSDP]$MSDP[VAR]REPORT};
-#variable result {$result$MSDP[VAL]ROOM};
-#send {$result$TELNET[IAC]$TELNET[SE]\};
+
 
 
