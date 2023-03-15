@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 13912
+I 13955
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,7 +261,10 @@ T {SWIM} {<F21618C>~} {}
 
 
 
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
+R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {13955}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {3507}{0}{<fff>}{}{TNM}{}{}{}{}{}{1.000}{}
 
@@ -416,3 +419,4 @@ E {13952}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {13955}{0}{<fff>}{The edge of the woods}{ }{}{The Ant Hill}{}{FOREST}{}{1.000}{}
 E {13950}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13900}{d}{gaze glass}{32}{0}{}{1.000}{}{0.00}

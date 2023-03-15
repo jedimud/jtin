@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 10003
+I 10008
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,6 +261,8 @@ T {SWIM} {<F21618C>~} {}
 
 
 
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+
 R {4}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
 E {10019}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {10025}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -296,7 +298,7 @@ R {10007}{0}{<fff>}{Ershteep Road}{ }{}{Enfan City}{}{MOUNTAINS}{}{1.000}{}
 E {10006}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {10008}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {10008}{0}{<fff>}{Ershteep Road}{ }{}{Enfan City}{}{MOUNTAINS}{}{1.000}{}
+R {10008}{0}{<fff>}{Ershteep Road}{*}{}{Enfan City}{}{MOUNTAINS}{}{1.000}{}
 E {10007}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {10010}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {10009}{w}{w}{8}{0}{}{1.000}{}{0.00}

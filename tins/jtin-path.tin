@@ -66,6 +66,17 @@
             }
         }
     }
+    {The Ant Hill}{
+        {13955}{
+            {name}{The edge of the woods}
+            {paths}{
+                {tp}{
+                    {name}{ Turning Point}
+                    {path}{1n1e;ne;1n;2w2n4w}
+                }
+            }
+        }
+    }
     {Arachnos}{
         {6201}{
             {name}{Webbed Entrance}
@@ -199,19 +210,19 @@
             }
         }
     }
-    {dwarven-kingdom}{
-        {1}{
-            {name}{Path to Dwarven Village}
+    {the Dwarven Kingdom}{
+        {6503}{
+            {name}{Top of mountain}
             {paths}{
                 {tp}{
                     {name}{Turning Point}
-                    {path}{1u1n}
+                    {path}{3s1u1n}
                 }
             }
         }
     }
-    {enfan-city}{
-        {9}{
+    {Enfan City}{
+        {10008}{
             {name}{Ershteep Road}
             {paths}{
                 {tp}{
@@ -237,7 +248,7 @@
             {name}{The Great Eastern Desert}
             {paths}{
                 {nt}{
-                    {name}{New Thalos}
+                    {name}{ New Thalos}
                     {path}{1e10n}
                 }
                 {way}{
@@ -277,8 +288,8 @@
             }
         }
     }
-    {king-welmars-castle}{
-        {3}{
+    {King Welmars Castle}{
+        {15003}{
             {name}{On the King's Road outside the Castle}
             {paths}{
                 {mid}{
@@ -310,52 +321,13 @@
             }
         }
     }
-    {miden-nir-extension}{
-        {4}{
+    {MidenNir Extension}{
+        {18602}{
             {name}{The Circle of Huts}
             {paths}{
                 {tp}{
                     {name}{ Turning Point}
                     {path}{12n}
-                }
-                {yam}{
-                    {name}{The Top of the Tower}
-                    {path}{3s1w2s;sw;1s1e1s1u1n1u1s1u1n2u}
-                }
-                {cem}{
-                    {name}{Entrance to the Cemetary}
-                    {path}{3s1e4s;se}
-                }
-            }
-        }
-        {43}{
-            {name}{The Top of the Tower}
-            {paths}{
-                {coh}{
-                    {name}{The Circle of Huts}
-                    {path}{2d1s1d1n1d1s1w1n;ne;2n1e3n}
-                }
-            }
-        }
-        {33}{
-            {name}{Entrance to the Cemetary}
-            {paths}{
-                {coh}{
-                    {name}{The Circle of Huts}
-                    {path}{nw;4n1w3n}
-                }
-                {elg}{
-                    {name}{The Tomb of Lord Elgan}
-                    {path}{4s1e1s1e1s1w}
-                }
-            }
-        }
-        {81}{
-            {name}{The Tomb of Lord Elgan}
-            {paths}{
-                {cem}{
-                    {name}{Entrance to the Cemetary}
-                    {path}{1e1n1w1n1w5n}
                 }
             }
         }
@@ -545,8 +517,8 @@
             }
         }
     }
-    {trails-near-midgaard}{
-        {3}{
+    {the trails near Midgaard}{
+        {3502}{
             {name}{Turning Point}
             {paths}{
                 {mid}{
@@ -555,7 +527,7 @@
                 }
                 {dk}{
                     {name}{ Dwarven Kingdom}
-                    {path}{1s1d}
+                    {path}{1s1d3n}
                 }
                 {ec}{
                     {name}{ Enfan City}
@@ -564,6 +536,10 @@
                 {nir}{
                     {name}{MidenNir Extension}
                     {path}{12s}
+                }
+                {ant}{
+                    {name}{Ant Hill}
+                    {path}{4e2s2e1s;sw;w;s}
                 }
             }
         }

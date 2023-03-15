@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 15001
+I 15003
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -273,7 +273,7 @@ R {15002}{0}{<fff>}{The King's Road}{ }{}{King Welmars Castle}{}{CITY}{}{1.000}{
 E {15003}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {15001}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {15003}{0}{<fff>}{On the King's Road outside the Castle}{ }{}{King Welmars Castle}{}{CITY}{}{1.000}{}
+R {15003}{0}{<fff>}{On the King's Road outside the Castle}{*}{}{King Welmars Castle}{}{CITY}{}{1.000}{}
 E {21700}{e}{jt_m_link_action {east} {The Training Grounds} {21700}}{2}{0}{}{1.000}{}{0.00}
 E {15004}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {15002}{sw}{sw}{12}{0}{}{1.000}{}{0.00}

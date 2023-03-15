@@ -12,6 +12,8 @@ def find_item(item_name, insure_tag):
         print()
         print(insure_tag)
         print()
+        print()
+
         return
 
     with open("data/item-briefs.json") as f:
@@ -25,6 +27,8 @@ def find_item(item_name, insure_tag):
         print(insure_tag)
         print(data[item_name]['description']['limited'])
         print(data[item_name]['description']['spells'])
+        print(data[item_name]['description']['value'])
+
     else:
         print(item_name)
         print()
@@ -32,11 +36,12 @@ def find_item(item_name, insure_tag):
         print()
         print(insure_tag)
         print()
+        print()
 
 
 def main():
     item_name = sys.argv[1]
-
+    
     insure_tag = ""
     if "(insured)" in item_name:
         insure_tag = "(insured)"

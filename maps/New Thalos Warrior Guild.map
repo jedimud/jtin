@@ -270,7 +270,7 @@ E {1}{n}{n}{1}{0}{}{1.000}{}{0.00}
 R {12260}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}
 
 R {12324}{0}{<fff>}{Entrance to the Warriors' Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12260}{e}{jt_m_link_action {east} {the grand city of New Thalos} {122331}}{2}{0}{}{1.000}{}{0.00}
+E {12260}{e}{jt_m_link_action {east} {the grand city of New Thalos} {12260}}{2}{0}{}{1.000}{}{0.00}
 E {12331}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {12331}{0}{<fff>}{The Whet Stone}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}

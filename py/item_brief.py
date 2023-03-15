@@ -144,7 +144,7 @@ class ItemBrief():
                 if indx != len(uniqueSpells)-1:
                     item['brief_spells'] = item['brief_spells'] + ", "
 
-            item['brief_spells'] = item['brief_spells'] + "]"
+            item['brief_spells'] = item['brief_spells'] + "] "
             
     def write_brief(self, items):
         briefs = {}
@@ -156,6 +156,7 @@ class ItemBrief():
             description['sac'] = item['brief_sac']
             description['limited'] = item['brief_limited']
             description['spells'] = item['brief_spells']
+            description['value'] = item['value']
             briefs[item['name']] = {}
             briefs[item['name']]['description'] = description
         with open('data/item-briefs.json', 'w') as f:

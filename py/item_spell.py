@@ -38,6 +38,7 @@ class ItemSpell(Enum):
     GROUP_INVISIBIILITY = "group invisibility"
     HARM = "harm"
     HEAL = "heal"
+    HOLD = "hold"
     ICE_STORM = "ice storm"
     IDENTIFY = "identify"
     INVISIBLE = "invisible"

@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 24001
+I 24013
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -260,11 +260,16 @@ T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
 
+
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {2}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 
 R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {1}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {3}{0}{}{}{DrC}{}{}{}{MOUNTAINS}{}{1.000}{}
+
+R {4}{0}{}{}{3oS}{}{}{}{MOUNTAINS}{}{1.000}{}
 
 R {12410}{0}{<fff>}{}{NT}{}{}{}{MOUNTAINS}{}{1.000}{}
 
@@ -324,6 +329,7 @@ E {24011}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 R {24013}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
 E {24012}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {21600}{u}{jt_m_link_action {up} {Dragon City} {21600}}{16}{0}{}{1.000}{}{0.00}
+E {3}{n}{n}{11}{0}{}{1.000}{}{0.00}
 
 R {24014}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
 E {24015}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -352,3 +358,4 @@ E {24020}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 R {24020}{0}{<fff>}{The Darkspine Mountains}{ }{}{The Darkspine Mountains}{}{MOUNTAINS}{}{1.000}{}
 E {24019}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {13300}{u}{jt_m_link_action {up} {Three of Swords} {13300}}{16}{0}{}{1.000}{}{0.00}
+E {4}{s}{s}{14}{0}{}{1.000}{}{0.00}

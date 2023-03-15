@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 6554
+I 6503
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -281,7 +281,7 @@ R {6502}{0}{<fff>}{Path, middle of mountain}{ }{}{the Dwarven Kingdom}{}{MOUNTAI
 E {6503}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {6501}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {6503}{0}{<fff>}{Top of mountain}{ }{}{the Dwarven Kingdom}{}{HILLS}{}{1.000}{}
+R {6503}{0}{<fff>}{Top of mountain}{*}{}{the Dwarven Kingdom}{}{HILLS}{}{1.000}{}
 E {6540}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6502}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {6505}{w}{w}{8}{0}{}{1.000}{}{0.00}

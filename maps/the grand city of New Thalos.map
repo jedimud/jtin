@@ -771,7 +771,7 @@ R {12260}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{
 E {12310}{e}{jt_m_link_action {east} {New Thalos Cleric Guild} {12310}}{2}{0}{}{1.000}{}{0.00}
 E {12251}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12261}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12324}{w}{jt_m_link_action {west} {New Thalos Warrior Guild} {12260}}{8}{0}{}{1.000}{}{0.00}
+E {12324}{w}{jt_m_link_action {west} {New Thalos Warrior Guild} {12324}}{8}{0}{}{1.000}{}{0.00}
 
 R {12261}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12330}{e}{jt_m_link_action {east} {New Thalos Thief Guild} {12330}}{2}{0}{}{1.000}{}{0.00}

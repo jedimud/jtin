@@ -2399,6 +2399,30 @@ class TestItemParser(unittest.TestCase):
         
         self.assert_equals(item, actual)
         
+    def test_parse_file__an_erlenmeyer_flask(self):
+        actual = self.read_item_from_file("an-erlenmeyer-flask")
+
+        item = Item()
+        item.name = "an erlenmeyer flask"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.NO_DROP)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+        
+        item.weight = 2
+        item.value = 1000
+        item.rent = 0
+        item.min_level = 0
+        
+        item.spell_level = 0
+        item.spells.append(ItemSpell.CAUSE_CRITIC)
+        item.spells.append(ItemSpell.AID)
+        item.spells.append(ItemSpell.HOLD)
+        
+        self.assert_equals(item, actual)
+        
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
