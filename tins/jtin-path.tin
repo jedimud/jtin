@@ -88,6 +88,30 @@
             }
         }
     }
+    {Arcadia}{
+        {10658}{
+            {name}{Crossing Tourmaline Bridge}
+            {paths}{
+                {nt}{
+                    {name}{ New Thalos}
+                    {path}{2w1n;sw;sw;sw;sw;11s}
+                }
+                {not}{
+                    {name}{Nothrim Telerrim}
+                    {path}{nw;5n5w;nw;sw;5w5n1e}
+                }
+            }
+        }
+        {10783}{
+            {name}{Nothrim Telerrim}
+            {paths}{
+                {arc}{
+                    {name}{Crossing Tourmaline Bridge}
+                    {path}{1w5s5e;ne;se;5e5s;se;}
+                }
+            }
+        }
+    }
     {Camelot} {
         {2732} {
             {name}{Dirt Road}
@@ -243,13 +267,50 @@
             }
         }
     }
+    {the grand city of New Thalos}{
+        {12210}{
+            {name}{The Common Square}
+            {paths}{
+                {frd}{
+                    {name}{Fred the fisherman}
+                    {path}{1s1d8e2n}
+                }
+                {wnt}{
+                    {name}{West of New Thalos}
+                    {path}{1s1d8w1n}
+                }
+                {arc}{
+                    {name}{Arcadia}
+                    {path}{11n;ne;ne;ne;ne;1s2e}
+                }
+            }
+        }
+        {12493}{
+            {name}{Fred the Fisherman}
+            {paths}{
+                {nt}{
+                    {name}{ The Common Square}
+                    {path}{2s8w1u1n}
+                }
+            }
+        }
+        {12413}{
+            {name}{A rocky trail}
+            {paths}{
+                {nt}{
+                    {name}{ The Common Square}
+                    {path}{1s8e1u1n}
+                }
+            }
+        }
+    }
     {the Great Eastern Desert} {
         {5026}{
             {name}{The Great Eastern Desert}
             {paths}{
                 {nt}{
                     {name}{ New Thalos}
-                    {path}{1e10n}
+                    {path}{1e6n}
                 }
                 {way}{
                     {name}{The Wayhouse}
@@ -395,39 +456,6 @@
                 {wnt}{
                     {name}{West New Thalos}
                     {path}{3s2e1s1e1s}
-                }
-            }
-        }
-    }
-    {the grand city of New Thalos}{
-        {12210}{
-            {name}{The Common Square}
-            {paths}{
-                {frd}{
-                    {name}{Fred the fisherman}
-                    {path}{1s1d8e2n}
-                }
-                {wnt}{
-                    {name}{West of New Thalos}
-                    {path}{1s1d8w1n}
-                }
-            }
-        }
-        {12493}{
-            {name}{Fred the Fisherman}
-            {paths}{
-                {nt}{
-                    {name}{ nt}
-                    {path}{2s8w1u1n}
-                }
-            }
-        }
-        {12413}{
-            {name}{A rocky trail}
-            {paths}{
-                {nt}{
-                    {name}{ New Thalos}
-                    {path}{1s8e1u1n}
                 }
             }
         }

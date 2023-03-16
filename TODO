@@ -1,10 +1,10 @@
 ----
 
+-- support stacked
+-- add support for shop inventory
 
 -- manually fix/verify all paths
         
-        arcadia -> nienna
-
         ged -> star Wars
         ged -> trog caves
         ged -> great pyramid
@@ -12,7 +12,6 @@
         trog caves -> rhyo
         trog caves -> ged
 
-        nt -> arcadia
         nt -> ged
         nt -> amusement park
         nt -> toy box

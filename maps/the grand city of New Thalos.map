@@ -745,7 +745,7 @@ E {12350}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12254}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12256}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {12349}{w}{w}{8}{0}{}{1.000}{}{0.00}
-E {35}{ne}{jt_m_link_action {play chess} {The Chess Board} {6325}}{3}{0}{}{1.000}{}{0.00}
+E {35}{ne}{jt_m_link_action {play chess} {The Chess Board} {6300}}{3}{0}{}{1.000}{}{0.00}
 
 R {12256}{0}{<fff>}{Circle of Workmanship}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12305}{e}{e}{2}{0}{}{1.000}{}{0.00}

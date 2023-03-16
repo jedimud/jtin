@@ -12909,3 +12909,46 @@ Can affect you as :
    Affects: HITROLL By -5
 Item slot: Wield
 Item slot: Hold
+-----
+Object 'a tiny vial of demon ichor', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 10000, Rent: 5000, Min. level: 0
+It can hold approximately 30 units of liquid.
+Item slot: Hold
+-----
+Object 'a demon's horn', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !DROP !NEUTRAL !MAGE !CLER !PAL !JEDI LIMITED UNIQUE 
+Weight: 8, Value: 25000, Rent: 7500, Min. level: 14
+Can affect you as :
+   Affects: STR By 1
+Item slot: Light
+-----
+Object 'a royal blue and gold kimono', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI LIMITED UNIQUE 
+Weight: 3, Value: 50000, Rent: 10000, Min. level: 15
+AC-apply is 30
+Can affect you as :
+   Affects: INT By 2
+   Affects: MANA_REGEN By 8
+Item slot: On Body
+-----
+Object 'a blue, cowled robe', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 6, Value: 1200, Rent: 600, Min. level: 5
+Can affect you as :
+   Affects: MOVE By 15
+   Affects: HIT By 10
+Item slot: On Body
+-----
+Object 'a blue robe', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: GLOW UNIQUE 
+Weight: 5, Value: 750, Rent: 200, Min. level: 0
+Can affect you as :
+   Affects: MOVE By 10
+   Affects: MANA By 10
+Item slot: On Body

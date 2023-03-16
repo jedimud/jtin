@@ -307,7 +307,7 @@ R {10656}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 R {10657}{0}{<fff>}{Crossing Amethyst Bridge}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
 E {10659}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
 
-R {10658}{0}{<fff>}{Crossing Tourmaline Bridge}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+R {10658}{0}{<fff>}{Crossing Tourmaline Bridge}{*}{}{Arcadia}{}{INSIDE}{}{1.000}{}
 E {10713}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
 E {12599}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12599}}{8}{0}{}{1.000}{}{0.00}
 
@@ -814,7 +814,7 @@ E {10753}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
 R {10782}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
 E {10754}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
 
-R {10783}{0}{<fff>}{Nothrim Telerrim}{#}{}{Arcadia}{}{INSIDE}{}{1.000}{}
+R {10783}{0}{<fff>}{Nothrim Telerrim}{*}{}{Arcadia}{}{INSIDE}{}{1.000}{}
 E {10700}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
 R {10784}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}

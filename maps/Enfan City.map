@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 10008
+I 10003
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -283,7 +283,7 @@ E {10002}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {10005}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {10004}{0}{<fff>}{A deserted cottage}{ }{}{Enfan City}{}{INSIDE}{}{1.000}{}
-E {10052}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10052}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
 E {10003}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {10005}{0}{<fff>}{Ershteep Road}{ }{}{Enfan City}{}{FOREST}{}{1.000}{}
@@ -488,7 +488,7 @@ E {10046}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {10050}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {10052}{0}{<fff>}{Fireplace}{ }{}{Enfan City}{}{INSIDE}{}{1.000}{}
-E {10004}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10004}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {10053}{0}{<fff>}{Sewer}{ }{}{Enfan City}{}{INSIDE}{}{1.000}{}
 E {10054}{e}{e}{2}{0}{}{1.000}{}{0.00}

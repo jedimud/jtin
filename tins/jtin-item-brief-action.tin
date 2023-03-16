@@ -21,7 +21,10 @@
                 #var item_var $item[3];
                 #replace {item_var} {$item[2]} {};
                 #if {"$item_var" == " key(hold)"} {
-                    #line ignore #show <efa>$item[1] <acf>$item[3] <ebe>$item[7]<feb>$item[8]g<099>;
+                    #line ignore #show <fbc>$item[1] <acf>$item[3] <ebe>$item[7]<feb>$item[8]g<099>;
+                };
+                #elseif {"$item_var" == " key(ring)"} {
+                    #line ignore #show <fbc>$item[1] <acf>$item[3] <ebe>$item[7]<feb>$item[8]g<099>;
                 };
                 #elseif {"$item_var" == " key"} {
                     #line ignore #show <fbc>$item[1] <acf>$item[3]<099>;
