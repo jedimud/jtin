@@ -18,6 +18,7 @@ class ItemSpell(Enum):
     CLONE = "clone"
     CONTROL_WEATHER = "control weather"
     CREATE_WATER = "create water"
+    CREATE_LIGHT = "create light"
     CURE_BLIND = "cure blind"
     CURE_CRITIC = "cure critic"
     CURE_LIGHT = "cure light"
