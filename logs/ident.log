@@ -12881,7 +12881,6 @@ Item is: HUM !RENT UNIQUE
 Weight: 5, Value: 0, Rent: 0, Min. level: 0
 Item slot: Hold
 -----
------
 Object 'a weightlifter's belt', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
 Item is: MAG !NEUTRAL !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
@@ -13017,7 +13016,6 @@ Weight: 5, Value: 750, Rent: 50, Min. level: 0
 It can hold approximately 50 units.
 Item slot: Waist
 -----
------
 Object 'a tight fitting green dragon scale shirt', Item type: ARMOR
 Item will give you following abilities:  NOBITS 
 Item is: MAG UNIQUE 
@@ -13061,7 +13059,6 @@ Can affect you as :
    Affects: SAVE_SPELL By -3
 Item slot: Neck
 -----
------
 Object 'a bar of silver', Item type: TREASURE
 Item will give you following abilities:  NOBITS 
 Item is: UNIQUE 
@@ -13086,3 +13083,10 @@ Object 'Sim's pineapple tart', Item type: FOOD
 Item will give you following abilities:  NOBITS 
 Item is: !DONATE 
 Weight: 1, Value: 20, Rent: 10, Min. level: 0
+-----
+Object 'a yellow potion of see invisible, by "Froboz, Inc"(tm)', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 1, Value: 500, Rent: 250, Min. level: 0
+This POTION casts:  Level 12 of detect invisibility detect invisibility detect invisibility
+Item slot: Hold

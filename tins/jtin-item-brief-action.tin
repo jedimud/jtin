@@ -2,7 +2,9 @@
     #regex {%1} {^%+>} {
         jt_ib_end_markup;
     } {
-        jt_ib_find {%1};
+        #var jt_ib_item {%1};
+        #replace {jt_ib_item} {"} {\"};
+        jt_ib_find {$jt_ib_item};
 
         #if {"$item[3]" != ""} {
             #if {"$jt_ib_state" == "sac"} {
