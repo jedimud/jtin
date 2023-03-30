@@ -13154,3 +13154,141 @@ Can affect you as :
    Affects: CHARISMA By 2
    Affects: MOVE_REGEN By 10
 Item slot: Wrist
+-----
+Object 'a small, brass key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a small, brass key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a blue dyed leather jerkin', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE UNIQUE 
+Weight: 20, Value: 250, Rent: 50, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: CHARISMA By 2
+   Affects: MOVE By 20
+Item slot: On Body
+-----
+Object 'a belt knife', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !CLER UNIQUE 
+Weight: 1, Value: 150, Rent: 100, Min. level: 0
+Damage Dice is '2D1' for an average per-round damage of 2.0.
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HITROLL By 2
+Item slot: Wield
+-----
+Object 'a crossbow pistol', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !CLER UNIQUE 
+Weight: 6, Value: 1500, Rent: 900, Min. level: 5
+Damage Dice is '3D5' for an average per-round damage of 9.0.
+Item slot: Wield
+-----
+Object 'a cutlass', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 12, Value: 700, Rent: 150, Min. level: 0
+Damage Dice is '1D9' for an average per-round damage of 5.0.
+Item slot: Wield
+-----
+Object 'a throwing knife', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !CLER UNIQUE 
+Weight: 1, Value: 700, Rent: 400, Min. level: 5
+Damage Dice is '5D1' for an average per-round damage of 5.0.
+Item slot: Wield
+-----
+Object 'some grungy, tattered rags', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+Can affect you as :
+   Affects: CHARISMA By -1
+   Affects: CON By -2
+Item slot: On Body
+-----
+Object 'a pair of silver celtic armbands', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !THF !WAR !NINJA UNIQUE 
+Weight: 2, Value: 4000, Rent: 4500, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: INT By 1
+   Affects: MANA By 10
+Item slot: Arms
+-----
+Object 'a longsword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 8, Value: 600, Rent: 120, Min. level: 0
+Damage Dice is '1D8' for an average per-round damage of 4.5.
+Item slot: Wield
+-----
+Object 'a patched, canvas shirt', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 25, Rent: 20, Min. level: 0
+Item slot: On Body
+-----
+Object 'a swordbreaker', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 10, Value: 1500, Rent: 750, Min. level: 6
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Can affect you as :
+   Affects: HITROLL By 4
+   Affects: ARMOR By -10
+Item slot: Wield
+Item slot: Hold
+-----
+Object 'an albatross', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 0, Value: 3000, Rent: 600, Min. level: 0
+Can affect you as :
+   Affects: CHARISMA By -2
+Item slot: Neck
+-----
+Object 'a rapier', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 10, Value: 4900, Rent: 2000, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Can affect you as :
+   Affects: MOVE By 15
+Item slot: Wield
+-----
+Object 'some stained sailcloth breeches', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 4, Value: 25, Rent: 20, Min. level: 0
+Item slot: Legs
+-----
+Object 'a wide, leather swordbelt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !EVIL !MAGE !CLER !THF LIMITED !BARD UNIQUE 
+Weight: 3, Value: 1000, Rent: 1500, Min. level: 17
+AC-apply is 1
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: MOVE By 6
+Item slot: Waist
+-----
+Object 'an elementalist's focus stone', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD !THF !WAR !PAL !APAL !NINJA UNIQUE 
+Weight: 5, Value: 1500, Rent: 1500, Min. level: 7
+This STAFF casts: detect magic of level 18
+It has 1 maximum charges and 1 remaining.
+Can affect you as :
+   Affects: MANA By 8
+   Affects: INT By 1
+Item slot: Hold
