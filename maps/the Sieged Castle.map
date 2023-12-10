@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 14628
+I 14669
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -575,15 +575,53 @@ E {14663}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {14660}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {14664}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {14662}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {14662}{0}{<fff>}{Ground Floor Stairs}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14681}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {14665}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {14661}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {14663}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {14663}{0}{<fff>}{Antechamber}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14661}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {14664}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {14664}{0}{<fff>}{Sanctuary}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14661}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {14665}{0}{<fff>}{Second Floor Stairs}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14662}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {14676}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {14666}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14666}{0}{<fff>}{Second Floor Corridor}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14665}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14671}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14667}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14667}{0}{<fff>}{Turn in Corridor}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14666}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14668}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {14668}{0}{<fff>}{End of Corridor}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14669}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14667}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14669}{0}{<fff>}{Entrance to Vault}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14670}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {14668}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14670}{0}{<fff>}{King's Vault}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14669}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {14671}{0}{<fff>}{King's Bedroom}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14673}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14666}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {14672}{0}{<fff>}{Base of Northeast Guard Tower}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
 E {14632}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {14630}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14673}{0}{<fff>}{Queen's Dressing Room}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14678}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {14671}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {14674}{0}{<fff>}{Deep Moat}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
 E {14675}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -592,6 +630,71 @@ E {14627}{e}{e}{2}{0}{}{1.000}{}{0.00}
 R {14675}{0}{<fff>}{Under the Moat}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
 E {15}{n}{#delay 0 {n;#map goto 14638;}}{1}{0}{}{1.000}{}{0.00}
 E {14674}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {14676}{0}{<fff>}{Top of Stairs}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14665}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {14677}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14677}{0}{<fff>}{Hall Intersection}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14676}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14679}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14678}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14680}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14678}{0}{<fff>}{Queen's Room}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14673}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {14677}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14680}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {14679}{0}{<fff>}{Black Knight's Room}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14677}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14680}{0}{<fff>}{King's Sanctuary}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14677}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14678}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {14681}{0}{<fff>}{Stairway to Alchemy Labs}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14682}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {14662}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {14682}{0}{<fff>}{East Entrance to Labs}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14683}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14681}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {14683}{0}{<fff>}{Lab Corridor}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14689}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14685}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14686}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14682}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14684}{0}{<fff>}{Lab of Paracelsus}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14686}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {14685}{0}{<fff>}{Geber's Laboratory}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14688}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14683}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14687}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14686}{0}{<fff>}{Lab of Altotus}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14690}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14683}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14684}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14687}{0}{<fff>}{Lab of Wei Po-Yang}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14685}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {14688}{0}{<fff>}{Lab of Count Cagliostro}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14689}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14685}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14689}{0}{<fff>}{West End of Alchemy Lab}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14688}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14690}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14683}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14690}{0}{<fff>}{Lab of Hermes Trismegistus}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
+E {14689}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14686}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {14691}{0}{<fff>}{On Scaffold}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
 E {14606}{d}{d}{32}{0}{}{1.000}{}{0.00}

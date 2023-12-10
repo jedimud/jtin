@@ -13292,3 +13292,47 @@ Can affect you as :
    Affects: MANA By 8
    Affects: INT By 1
 Item slot: Hold
+-----
+Object 'a clerical ring', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 9, Value: 800, Rent: 100, Min. level: 5
+Damage Dice is '0D0' for an average per-round damage of 0.0.
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: MANA By 5
+Item slot: Hands
+-----
+Object 'the Eye of Cosmo', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG LIMITED !RENT UNIQUE 
+Weight: 1, Value: 10, Rent: 0, Min. level: 31
+Can affect you as :
+   Affects: CHARISMA By 2
+Item slot: Light
+-----
+Object 'a solid acacia base-board', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 50, Value: 300, Rent: 200, Min. level: 0
+Item slot: Hold
+-----
+Object 'a ring of gold', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 8, Value: 80, Rent: 120, Min. level: 31
+Item slot: Wrist
+Item slot: Hold
+-----
+Object 'a green slime mold', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 20, Rent: 10, Min. level: 0
+-----
+Object 'a heavy oak staff', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !THF !WAR !NINJA UNIQUE 
+Weight: 10, Value: 4000, Rent: 2000, Min. level: 0
+This STAFF casts: harm of level 15
+It has 2 maximum charges and 2 remaining.
+Item slot: Hold
