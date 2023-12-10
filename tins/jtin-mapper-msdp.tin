@@ -88,6 +88,11 @@
     }
 }
 
+
+#action {^Alas, you cannot go that way...$} {
+    #map undo;
+}
+
 #variable result {$TELNET[IAC]$TELNET[SB]$TELNET[MSDP]$MSDP[VAR]REPORT};
 #variable result {$result$MSDP[VAL]ROOM};
 #send {$result$TELNET[IAC]$TELNET[SE]\};

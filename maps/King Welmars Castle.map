@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 15001
+I 15004
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -273,7 +273,7 @@ R {15002}{0}{<fff>}{The King's Road}{ }{}{King Welmars Castle}{}{CITY}{}{1.000}{
 E {15003}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {15001}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {15003}{0}{<fff>}{On the King's Road outside the Castle}{ }{}{King Welmars Castle}{}{CITY}{}{1.000}{}
+R {15003}{0}{<fff>}{On the King's Road outside the Castle}{*}{}{King Welmars Castle}{}{CITY}{}{1.000}{}
 E {21700}{e}{jt_m_link_action {east} {The Training Grounds} {21700}}{2}{0}{}{1.000}{}{0.00}
 E {15004}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {15002}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
@@ -418,7 +418,8 @@ R {15036}{0}{<fff>}{By the treasure room}{ }{}{King Welmars Castle}{}{INSIDE}{}{
 E {15037}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
 E {15035}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {15037}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {15037}{0}{<fff>}{The Great Treasury}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
+E {15036}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
 
 R {15038}{0}{<fff>}{The Guest Wing}{ }{}{King Welmars Castle}{}{INSIDE}{}{1.000}{}
 E {15039}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}

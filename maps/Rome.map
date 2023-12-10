@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 12044
+I 12039
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,7 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
 E {12024}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -462,7 +462,7 @@ E {12038}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
 R {12038}{0}{<fff>}{The House of Commons}{ }{}{Rome}{}{INSIDE}{}{1.000}{}
 E {12037}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
 
-R {12039}{0}{<fff>}{Clay Avenue}{ }{}{Rome}{}{CITY}{}{1.000}{}
+R {12039}{0}{<fff>}{Clay Avenue}{*}{}{Rome}{}{CITY}{}{1.000}{}
 E {12046}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {10}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {11}{w}{w}{8}{0}{}{1.000}{}{0.00}

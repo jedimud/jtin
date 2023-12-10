@@ -55,13 +55,24 @@
 }
 
 #var jt_p_zone_paths {
-    {abyss}{
-        {6}{
+    {the Abyss}{
+        {2011}{
             {name}{The Dark Pit}
             {paths}{
                 {elf}{
                     {name}{The Dark Doorway}
                     {path}{1u3n1d1n;ne;1u3w4u3w}
+                }
+            }
+        }
+    }
+    {The Ant Hill}{
+        {13955}{
+            {name}{The edge of the woods}
+            {paths}{
+                {tp}{
+                    {name}{ Turning Point}
+                    {path}{1n1e;ne;1n;2w2n4w}
                 }
             }
         }
@@ -77,8 +88,43 @@
             }
         }
     }
-    {balor}{
-        {9}{
+    {Arcadia}{
+        {10658}{
+            {name}{Crossing Tourmaline Bridge}
+            {paths}{
+                {nt}{
+                    {name}{ New Thalos}
+                    {path}{2w1n;sw;sw;sw;sw;11s}
+                }
+                {not}{
+                    {name}{Nothrim Telerrim}
+                    {path}{nw;5n5w;nw;sw;5w5n1e}
+                }
+            }
+        }
+        {10783}{
+            {name}{Nothrim Telerrim}
+            {paths}{
+                {arc}{
+                    {name}{Crossing Tourmaline Bridge}
+                    {path}{1w5s5e;ne;se;5e5s;se;}
+                }
+            }
+        }
+    }
+    {Camelot} {
+        {2732} {
+            {name}{Dirt Road}
+            {paths}{
+                {mid}{
+                    {name}{Midgaard}
+                    {path}{1d2e1s1e1s3e3n2w1n}
+                }
+            }
+        }
+    }
+    {the Balor}{
+        {16608}{
             {name}{The Beach}
             {paths}{
                 {elf}{
@@ -91,7 +137,7 @@
                 }
             }
         }
-        {38}{
+        {16632}{
             {name}{The Dark Doorway}
             {paths}{
                 {aby}{
@@ -177,53 +223,30 @@
             }
         }
     }
-    {dragon-sea}{
-        {1}{
-            {name}{On a dock}
-            {paths}{
-                {nt}{
-                    {name}{ New Thalos}
-                    {path}{13w}
-                }
-                {sb}{
-                    {name}{ Skara Brae}
-                    {path}{4e1s5e1n3e1n2e9n2e1s}
-                }
-                {sha}{
-                    {name}{Lost Isle Shaedar}
-                    {path}{1n1e1se1s1se1e1se2e1se}
-                }
-            }
-        }
-    }
-    {drow-city}{
-        {1}{
+    {Drow City}{
+        {5100}{
             {name}{City Entrance}
             {paths}{
                 {lev}{
                     {name}{The Levee}
                     {path}{2u1s1u1s4w1n}
                 }
-                {ged} {
-                    {name}{Greater Eastern Desert}
-                    {path}{2u1s1u1s6e}
-                }
             }
         }
     }
-    {dwarven-kingdom}{
-        {1}{
-            {name}{Path to Dwarven Village}
+    {the Dwarven Kingdom}{
+        {6503}{
+            {name}{Top of mountain}
             {paths}{
                 {tp}{
                     {name}{Turning Point}
-                    {path}{1u1n}
+                    {path}{3s1u1n}
                 }
             }
         }
     }
-    {enfan-city}{
-        {9}{
+    {Enfan City}{
+        {10008}{
             {name}{Ershteep Road}
             {paths}{
                 {tp}{
@@ -244,13 +267,50 @@
             }
         }
     }
-    {great-eastern-desert} {
-        {31}{
+    {the grand city of New Thalos}{
+        {12210}{
+            {name}{The Common Square}
+            {paths}{
+                {frd}{
+                    {name}{Fred the fisherman}
+                    {path}{1s1d8e2n}
+                }
+                {wnt}{
+                    {name}{West of New Thalos}
+                    {path}{1s1d8w1n}
+                }
+                {arc}{
+                    {name}{Arcadia}
+                    {path}{11n;ne;ne;ne;ne;1s2e}
+                }
+            }
+        }
+        {12493}{
+            {name}{Fred the Fisherman}
+            {paths}{
+                {nt}{
+                    {name}{ The Common Square}
+                    {path}{2s8w1u1n}
+                }
+            }
+        }
+        {12413}{
+            {name}{A rocky trail}
+            {paths}{
+                {nt}{
+                    {name}{ The Common Square}
+                    {path}{1s8e1u1n}
+                }
+            }
+        }
+    }
+    {the Great Eastern Desert} {
+        {5026}{
             {name}{The Great Eastern Desert}
             {paths}{
                 {nt}{
                     {name}{ New Thalos}
-                    {path}{1e10n}
+                    {path}{1e6n}
                 }
                 {way}{
                     {name}{The Wayhouse}
@@ -258,11 +318,11 @@
                 }
                 {rom}{
                     {name}{Rome}
-                    {path}{TODO}
+                    {path}{1s7w}
                 }
                 {ot}{
                     {name}{ Old Thalos}
-                    {path}{TODO}
+                    {path}{4s1w}
                 }
             }
         }
@@ -289,13 +349,24 @@
             }
         }
     }
-    {king-welmars-castle}{
-        {3}{
+    {King Welmars Castle}{
+        {15003}{
             {name}{On the King's Road outside the Castle}
             {paths}{
                 {mid}{
                     {name}{Temple of Migaard}
                     {path}{sw;sw;sw;2w7s}
+                }
+            }
+        }
+    }
+    {the lost city of Old Thalos}{
+        {5200}{
+            {name}{The Grand Gate of Thalos}
+            {paths}{
+                {ged}{
+                    {name}{Great Eastern Desert}
+                    {path}{1e1s3n}
                 }
             }
         }
@@ -311,52 +382,13 @@
             }
         }
     }
-    {miden-nir-extension}{
-        {4}{
+    {MidenNir Extension}{
+        {18602}{
             {name}{The Circle of Huts}
             {paths}{
                 {tp}{
                     {name}{ Turning Point}
                     {path}{12n}
-                }
-                {yam}{
-                    {name}{The Top of the Tower}
-                    {path}{3s1w2s;sw;1s1e1s1u1n1u1s1u1n2u}
-                }
-                {cem}{
-                    {name}{Entrance to the Cemetary}
-                    {path}{3s1e4s;se}
-                }
-            }
-        }
-        {43}{
-            {name}{The Top of the Tower}
-            {paths}{
-                {coh}{
-                    {name}{The Circle of Huts}
-                    {path}{2d1s1d1n1d1s1w1n;ne;2n1e3n}
-                }
-            }
-        }
-        {33}{
-            {name}{Entrance to the Cemetary}
-            {paths}{
-                {coh}{
-                    {name}{The Circle of Huts}
-                    {path}{nw;4n1w3n}
-                }
-                {elg}{
-                    {name}{The Tomb of Lord Elgan}
-                    {path}{4s1e1s1e1s1w}
-                }
-            }
-        }
-        {81}{
-            {name}{The Tomb of Lord Elgan}
-            {paths}{
-                {cem}{
-                    {name}{Entrance to the Cemetary}
-                    {path}{1e1n1w1n1w5n}
                 }
             }
         }
@@ -428,25 +460,6 @@
             }
         }
     }
-    {new-thalos}{
-        {11}{
-            {name}{The Center of Market Square}
-            {paths}{
-                {frd}{
-                    {name}{Fred the fisherman}
-                    {path}{13e}
-                }
-                {sp}{
-                    {name}{ Straight Path}
-                    {path}{5s1d13w8n}
-                }
-                {wnt}{
-                    {name}{West of New Thalos}
-                    {path}{9w1s4w}
-                }
-            }
-        }
-    }
     {River Island Of Minos}{
         {900}{
             {name}{On The Swift Flowing River}
@@ -454,6 +467,17 @@
                 {hao}{
                     {name}{dark Haon-Dor}
                     {path}{1e2n4e3n1e2n2e1n}
+                }
+            }
+        }
+    }
+    {Rome}{
+        {12039}{
+            {name}{Clay Avenue}
+            {paths}{
+                {ged}{
+                    {name}{Great Eastern Desert}
+                    {path}{7e1n}
                 }
             }
         }
@@ -521,43 +545,8 @@
             }
         }
     }
-    {trails-around-new-thalos}{
-        {10}{
-            {name}{A rocky trail}
-            {paths}{
-                {nt}{
-                    {name}{ New Thalos}
-                    {path}{4e1n9e}
-                }
-                {hel}{
-                    {name}{Hellas}
-                    {path}{4w}
-                }
-                {ced}{
-                    {name}{Cedar Estate}
-                    {path}{8n}
-                }
-                {mon}{
-                    {name}{Monastery}
-                    {path}{1n1w1n2w3n}
-                }
-                {aer}{
-                    {name}{Wamphyri Aerie}
-                    {path}{1n1w1n6w2n}
-                }
-                {som}{
-                    {name}{Southern Midgaard}
-                    {path}{1s14w1s6w}
-                }
-                {dar}{
-                    {name}{Darkspine Mountains}
-                    {path}{1n1w1n1nw1ne1e1ne1nw1e1ne1se1e1ne}
-                }
-            }
-        }
-    }
-    {trails-near-midgaard}{
-        {3}{
+    {the trails near Midgaard}{
+        {3502}{
             {name}{Turning Point}
             {paths}{
                 {mid}{
@@ -566,7 +555,7 @@
                 }
                 {dk}{
                     {name}{ Dwarven Kingdom}
-                    {path}{1s1d}
+                    {path}{1s1d3n}
                 }
                 {ec}{
                     {name}{ Enfan City}
@@ -575,6 +564,10 @@
                 {nir}{
                     {name}{MidenNir Extension}
                     {path}{12s}
+                }
+                {ant}{
+                    {name}{Ant Hill}
+                    {path}{4e2s2e1s;sw;w;s}
                 }
             }
         }
@@ -614,8 +607,8 @@
             }
         }
     }
-    {wayhouse}{
-        {40}{
+    {the Wayhouse}{
+        {3717}{
             {name}{Main Room}
             {paths}{
                 {ged}{

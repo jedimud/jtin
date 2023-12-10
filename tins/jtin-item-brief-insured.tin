@@ -56,6 +56,28 @@
     #unvar $item;
 }
 
+#action {^<worn on face>       %2 (insured)} {
+    jt_ib_find {%2};
+    #if {"$jt_ib_state" == "sac"} {
+        #line ignore #show <worn on face>       <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on face>       <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
+#action {^<worn on ears>       %2 (insured)} {
+    jt_ib_find {%2};
+    #if {"$jt_ib_state" == "sac"} {
+        #line ignore #show <worn on ears>       <afc>$item[1] <caf>$item[4]<fca>$item[6]<099>;
+    } {
+        #line ignore #show <worn on ears>       <afc>$item[1] <acf>$item[2]<fca> (I);
+    };
+    #line gag;
+    #unvar $item;
+}
+
 #action {^<worn on legs>       %2 (insured)} {
     jt_ib_find {%2};
     #if {"$jt_ib_state" == "sac"} {

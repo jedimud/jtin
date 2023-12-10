@@ -16,13 +16,6 @@ from item_race import ItemRace
 
 class TestItemParser(unittest.TestCase):
 
-    def test_upper(self):
-        item = self.read_item_from_file("a-hover-board")
-
-        self.assertEqual(item.name, "a Hover Board")
-        self.assertEqual(item.type, ItemType.AIRSHIP)
-        self.assertEqual(item.ability, ItemAbility.NOBITS)
-
     def test_parse_file__a_hover_board(self):
         actual = self.read_item_from_file("a-hover-board")
 
@@ -2397,6 +2390,55 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.DETECT_MAGIC)
         item.spells.append(ItemSpell.DETECT_POISON)
         
+        self.assert_equals(item, actual)
+        
+    def test_parse_file__an_erlenmeyer_flask(self):
+        actual = self.read_item_from_file("an-erlenmeyer-flask")
+
+        item = Item()
+        item.name = "an erlenmeyer flask"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.NO_DROP)
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+        
+        item.weight = 2
+        item.value = 1000
+        item.rent = 0
+        item.min_level = 0
+        
+        item.spell_level = 0
+        item.spells.append(ItemSpell.CAUSE_CRITIC)
+        item.spells.append(ItemSpell.AID)
+        item.spells.append(ItemSpell.HOLD)
+        
+        self.assert_equals(item, actual)
+        
+    def test_parse_file__some_sparkling_dust(self):
+        actual = self.read_item_from_file("some-sparkling-dust")
+
+        item = Item()
+        item.name = "some sparkling dust"
+        item.type = ItemType.STAFF
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+        
+        item.weight = 2
+        item.value = 1000
+        item.rent = 250
+        item.min_level = 0
+        
+        item.spell_level = 20
+        item.spells.append(ItemSpell.CREATE_LIGHT)
+        item.charge_max = 1
+        item.charge_remain = 1
+        
+        item.slots.append(ItemSlot.HOLD)
+
         self.assert_equals(item, actual)
         
     def assert_equals(self, expected, actual):

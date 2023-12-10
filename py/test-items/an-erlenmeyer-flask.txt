@@ -1,0 +1,6 @@
+-----
+Object 'an erlenmeyer flask', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: !DROP !RENT UNIQUE 
+Weight: 2, Value: 1000, Rent: 0, Min. level: 0
+This POTION casts:  Level 0 of cause critic aid hold

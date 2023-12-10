@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 6300
+I 6304
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -285,7 +285,7 @@ E {6311}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {6302}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6304}{0}{<fff>}{A Black Square}{ }{}{The Chess Board}{}{CITY}{}{1.000}{}
-E {6366}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {6366}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
 E {6305}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6312}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {6303}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -627,4 +627,5 @@ E {6363}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6365}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
-R {6366}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {6366}{0}{<fff>}{The Black Treasury}{ }{}{The Chess Board}{}{CITY}{}{1.000}{}
+E {6304}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}

@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 4566
+I 4627
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,7 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {4400}{0}{<fff>}{The Great Eastern Desert}{ }{}{the Trog Caves and Outpost}{}{MOUNTAINS}{}{1.000}{}
 E {4401}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -409,11 +409,186 @@ R {4566}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.00
 E {4574}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4504}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {4573}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {4568}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4569}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4569}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4568}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4570}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4570}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4569}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4571}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4571}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4578}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4570}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4572}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4572}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4571}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4573}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4573}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4572}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4574}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {4574}{0}{<fff>}{The Northern Gate to the Kingdom of Rhyoden}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
-E {4573}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4573}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
 E {4566}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4578}{0}{<fff>}{The Gatehouse}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4585}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4571}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4579}{0}{<fff>}{Infirmary}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4586}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {4580}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4584}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4585}{0}{<fff>}{Mustering Square}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4592}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4584}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4586}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4578}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4586}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4585}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4587}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {4579}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4587}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4594}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4586}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {4588}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4580}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4588}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4592}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4594}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4601}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4595}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4587}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4595}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4598}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4599}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4606}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4598}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4600}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4600}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4607}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4599}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4601}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4601}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4609}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4600}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4602}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4594}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4602}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4606}{0}{<fff>}{Stairs}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4619}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4626}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {4599}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4607}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4609}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4611}{0}{<fff>}{Supply Room}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4615}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4612}{0}{<fff>}{Armory}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4616}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4613}{0}{<fff>}{Stockade}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4614}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4617}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4614}{0}{<fff>}{Cell}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4613}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {4615}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4611}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4616}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4618}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4616}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4612}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4615}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4617}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4619}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4617}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4613}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4616}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4620}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4618}{0}{<fff>}{Storage Room}{ }{}{the Trog Caves and Outpost}{}{FOREST}{}{1.000}{}
+E {4615}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {4619}{0}{<fff>}{Stairs}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4616}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4606}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {4620}{0}{<fff>}{Medical Supply Room}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4617}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {4621}{0}{<fff>}{Conference Room}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4625}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4622}{0}{<fff>}{Guest's Quarters}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4626}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4623}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {4624}{0}{<fff>}{Archives}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4625}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4625}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4621}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4624}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4626}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4630}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4626}{0}{<fff>}{Central Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4606}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {4622}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4625}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4627}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4631}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {4627}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4623}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4626}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4628}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4632}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4628}{0}{<fff>}{Quagar's Quarters}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4627}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {4629}{0}{<fff>}{Kitchen}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4630}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4630}{0}{<fff>}{Officer's Mess}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4625}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4629}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4631}{0}{<fff>}{Guest's Quarters}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4626}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {4632}{0}{<fff>}{Bath}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
+E {4627}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {5029}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 

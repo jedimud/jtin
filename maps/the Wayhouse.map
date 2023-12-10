@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 3703
+I 3732
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -261,7 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3}{4104}{}{}{ }{}{}{}{FIELD}{}{1.000}{}
 E {3701}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -408,7 +408,7 @@ R {3716}{0}{<fff>}{Main Room}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3717}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3715}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {3717}{0}{<fff>}{Main Room}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
+R {3717}{0}{<fff>}{Main Room}{*}{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3729}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3716}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3718}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -491,12 +491,13 @@ E {3733}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {3733}{0}{<fff>}{Hallway}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3732}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3734}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {3735}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3735}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {3734}{0}{<fff>}{Private Room}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3733}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
-R {3735}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {3735}{0}{<fff>}{The Angry Adventurers}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
+E {3733}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
 
 R {3736}{0}{<fff>}{Zoe's Room}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3732}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}

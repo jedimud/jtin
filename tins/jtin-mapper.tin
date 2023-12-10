@@ -436,10 +436,6 @@
     #map undo;
 }
 
-#action {^Alas, you cannot go that way...$} {
-    #map undo;
-}
-
 #action {^You are too exhausted.$} {
     #map undo;
 }
