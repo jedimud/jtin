@@ -322,7 +322,7 @@ E {12371}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {12377}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12373}{0}{<fff>}{Entrance to the Dungeon}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12389}{d}{jt_m_link_action {open d;down} {New Thalos Jails} {12389}}{32}{0}{}{1.000}{}{0.00}
+E {12389}{d}{jt_m_link_action {open d;down} {the grand city of New Thalos - Jails} {12389}}{32}{0}{}{1.000}{}{0.00}
 E {12372}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
 
 R {12374}{0}{<fff>}{Guest Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}

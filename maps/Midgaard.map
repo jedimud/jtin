@@ -611,19 +611,19 @@ E {3014}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {3016}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {7}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {2482}{n}{jt_m_link_action {north} {Cheers} {2482}}{1}{0}{}{1.000}{}{0.00}
-E {3050}{s}{jt_m_link_action {south} {Midgaard Ninja Guild} {3050}}{4}{0}{}{1.000}{}{0.00}
+E {3050}{s}{jt_m_link_action {south} {Midgaard - Ninja Guild} {3050}}{4}{0}{}{1.000}{}{0.00}
 E {3017}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3017}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3016}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1901}{n}{jt_m_link_action {north} {The Players Keeps} {1901}}{1}{0}{}{1.000}{}{0.00}
-E {3054}{s}{jt_m_link_action {south} {Midgaard Warrior Guild} {3054}}{4}{0}{}{1.000}{}{0.00}
+E {3054}{s}{jt_m_link_action {south} {Midgaard - Warrior Guild} {3054}}{4}{0}{}{1.000}{}{0.00}
 E {3018}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3018}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3017}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3056}{n}{jt_m_link_action {north} {Midgaard Anti-Paladin Guild} {3056}}{1}{0}{}{1.000}{}{0.00}
-E {3058}{s}{jt_m_link_action {south} {Midgaard Thief Guild} {3058}}{4}{0}{}{1.000}{}{0.00}
+E {3056}{n}{jt_m_link_action {north} {Midgaard - Anti-Paladin Guild} {3056}}{1}{0}{}{1.000}{}{0.00}
+E {3058}{s}{jt_m_link_action {south} {Midgaard - Thief Guild} {3058}}{4}{0}{}{1.000}{}{0.00}
 E {3019}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3019}{0}{<fff>}{Western Wall Road}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
@@ -633,20 +633,20 @@ E {51}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3020}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3021}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3062}{s}{jt_m_link_action {south} {Midgaard Sohei Guild} {3062}}{4}{0}{}{1.000}{}{0.00}
+E {3062}{s}{jt_m_link_action {south} {Midgaard - Sohei Guild} {3062}}{4}{0}{}{1.000}{}{0.00}
 E {8}{w}{w}{8}{0}{}{1.000}{}{0.00}
-E {3060}{n}{jt_m_link_action {north} {Midgaard Cleric Guild} {3060}}{1}{0}{}{1.000}{}{0.00}
+E {3060}{n}{jt_m_link_action {north} {Midgaard - Cleric Guild} {3060}}{1}{0}{}{1.000}{}{0.00}
 
 R {3021}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3022}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3064}{n}{jt_m_link_action {north} {Midgaard Jedi Guild} {3064}}{1}{0}{}{1.000}{}{0.00}
+E {3064}{n}{jt_m_link_action {north} {Midgaard - Jedi Guild} {3064}}{1}{0}{}{1.000}{}{0.00}
 E {3020}{w}{w}{8}{0}{}{1.000}{}{0.00}
-E {3145}{s}{jt_m_link_action {south} {Midgaard Bard Guild} {3145}}{4}{0}{}{1.000}{}{0.00}
+E {3145}{s}{jt_m_link_action {south} {Midgaard - Bard Guild} {3145}}{4}{0}{}{1.000}{}{0.00}
 
 R {3022}{0}{<fff>}{High Street}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3023}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3068}{n}{jt_m_link_action {north} {Midgaard Paladin Guild} {3068}}{1}{0}{}{1.000}{}{0.00}
-E {3070}{s}{jt_m_link_action {south} {Midgaard Mage Guild} {3070}}{4}{0}{}{1.000}{}{0.00}
+E {3068}{n}{jt_m_link_action {north} {Midgaard - Paladin Guild} {3068}}{1}{0}{}{1.000}{}{0.00}
+E {3070}{s}{jt_m_link_action {south} {Midgaard - Mage Guild} {3070}}{4}{0}{}{1.000}{}{0.00}
 E {3021}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3023}{0}{<fff>}{Eastern Wall Road}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}

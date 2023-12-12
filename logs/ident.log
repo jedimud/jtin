@@ -13336,3 +13336,15 @@ Weight: 10, Value: 4000, Rent: 2000, Min. level: 0
 This STAFF casts: harm of level 15
 It has 2 maximum charges and 2 remaining.
 Item slot: Hold
+-----
+Object 'an iron key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !RENT UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'a small pebble', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !RENT UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold

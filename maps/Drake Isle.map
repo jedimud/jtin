@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 16831
+I 16701
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -277,9 +277,9 @@ R {6922}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
 
 R {16701}{0}{<fff>}{The Sandy Cave}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
 E {16794}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {16702}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {16702}{s}{jt_m_link_action {unlock south;open south;south} {Drake Isle - Interior} {16702}}{4}{0}{}{1.000}{}{0.00}
 
-R {16702}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {16702}{0}{<fff>}{The Beginning of a Hidden Tunnel}{DrI}{}{Drake Isle}{}{HILLS}{}{1.000}{}
 
 R {16786}{0}{<fff>}{On a Deserted Black Sand Beach}{ }{}{Drake Isle}{}{CITY}{}{1.000}{}
 E {6917}{n}{jt_m_link_action {north} {the Dragon Sea} {6917}}{1}{0}{}{1.000}{}{0.00}
@@ -580,6 +580,6 @@ E {16838}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {16840}{0}{<fff>}{Before the Cliff-side Fortress}{ }{}{Drake Isle}{}{INSIDE}{}{1.000}{}
 E {16839}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
-E {16843}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {16843}{s}{jt_m_link_action {unl south;open south;south} {Drake Isle - Fortress} {16843}}{4}{0}{}{1.000}{}{0.00}
 
-R {16843}{0}{<fff>}{Inside the Gatehouse}{ }{}{Drake Isle}{}{INSIDE}{}{1.000}{}
+R {16843}{0}{<fff>}{}{DrF}{}{}{}{INSIDE}{}{1.000}{}

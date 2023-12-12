@@ -171,7 +171,6 @@
     #elseif {"%1" == "fog"} {jt_m_fog %2};
     #elseif {"%1" == "loop"} {jt_m_loop %2};
     #elseif {"%1" == "link"} {jt_m_link {%2} {%3} {%4} {%5} {%6}};
-    #elseif {"%1" == "goto"} {jt_m_goto {%2} {%3}};
     #elseif {"%1" == "dt"} {jt_m_dt {%2}};
 
     #elseif {"%1" == "void"} {jt_m_void %2};
@@ -188,29 +187,7 @@
 
     #elseif {"%1" == "water"} {#map set roomcolor <acf>};
 
-    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|goto|fog|dt|void|unvoid|loop|link|exit|shop|inn|master|fountain|bank|path|donation|aggro|water)}};
-}
-
-
-#alias jt_m_goto {
-    #if {"%1" == "e"} {jt_m_goto_add {e} {%2} {east}};
-    #elseif {"%1" == "w"} {jt_m_goto_add {w} {%2} {west}};
-    #elseif {"%1" == "n"} {jt_m_goto_add {n} {%2} {north}};
-    #elseif {"%1" == "s"} {jt_m_goto_add {s} {%2} {south}};
-    #elseif {"%1" == "ne"} {jt_m_goto_add {ne} {%2} {northeast}};
-    #elseif {"%1" == "nw"} {jt_m_goto_add {nw} {%2} {northwest}};
-    #elseif {"%1" == "se"} {jt_m_goto_add {se} {%2} {southeast}};
-    #elseif {"%1" == "sw"} {jt_m_goto_add {sw} {%2} {southwest}};
-    #elseif {"%1" == "u"} {jt_m_goto_add {u} {%2} {up}};
-    #elseif {"%1" == "d"} {jt_m_goto_add {d} {%2} {down}};
-    #else {
-        jt_m_print_msg {<efc>unknown command, try :: room goto (n|e|s|w|ne|se|sw|nw|u|d)}
-    }
-}
-
-#alias jt_m_goto_add {
-    #map exit %1 command {#delay 0 {%1;#map goto %2}};
-    jt_m_print_msg {<efc>added goto %3 %1};
+    #else {jt_m_print_msg {<efc>unknown command, try :: room (door|lock|fog|dt|void|unvoid|loop|link|exit|shop|inn|master|fountain|bank|path|donation|aggro|water)}};
 }
 
 #alias jt_m_dt {
@@ -447,28 +424,30 @@
 #nop ------ area mapping -------
 
 #var jt_m_area_map {
-    {Midgaard Cleric Guild} {Midgaard}
-    {Midgaard Sohei Guild} {Midgaard}
-    {Midgaard Jedi Guild} {Midgaard}
-    {Midgaard Bard Guild} {Midgaard}
-    {Midgaard Ninja Guild} {Midgaard}
-    {Midgaard Warrior Guild} {Midgaard}
-    {Midgaard Thief Guild} {Midgaard}
-    {Midgaard Anti-Paladin Guild} {Midgaard}
-    {Midgaard Paladin Guild} {Midgaard}
-    {Midgaard Mage Guild} {Midgaard}
-    {New Thalos Palace} {the grand city of New Thalos}
-    {New Thalos Jails} {the grand city of New Thalos}
-    {New Thalos Anti-Paladin Guild} {the grand city of New Thalos}
-    {New Thalos Paladin Guild} {the grand city of New Thalos}
-    {New Thalos Jedi Guild} {the grand city of New Thalos}
-    {New Thalos Sohei Guild} {the grand city of New Thalos}
-    {New Thalos Ninja Guild} {the grand city of New Thalos}
-    {New Thalos Bard Guild} {the grand city of New Thalos}
-    {New Thalos Thief Guild} {the grand city of New Thalos}
-    {New Thalos Mage Guild} {the grand city of New Thalos}
-    {New Thalos Cleric Guild} {the grand city of New Thalos}
-    {New Thalos Warrior Guild} {the grand city of New Thalos}
+    {Midgaard - Cleric Guild} {Midgaard}
+    {Midgaard - Sohei Guild} {Midgaard}
+    {Midgaard - Jedi Guild} {Midgaard}
+    {Midgaard - Bard Guild} {Midgaard}
+    {Midgaard - Ninja Guild} {Midgaard}
+    {Midgaard - Warrior Guild} {Midgaard}
+    {Midgaard - Thief Guild} {Midgaard}
+    {Midgaard - Anti-Paladin Guild} {Midgaard}
+    {Midgaard - Paladin Guild} {Midgaard}
+    {Midgaard - Mage Guild} {Midgaard}
+    {the grand city of New Thalos - Palace} {the grand city of New Thalos}
+    {the grand city of New Thalos - Jails} {the grand city of New Thalos}
+    {the grand city of New Thalos - Anti-Paladin Guild} {the grand city of New Thalos}
+    {the grand city of New Thalos - Paladin Guild} {the grand city of New Thalos}
+    {the grand city of New Thalos - Jedi Guild} {the grand city of New Thalos}
+    {the grand city of New Thalos - Sohei Guild} {the grand city of New Thalos}
+    {the grand city of New Thalos - Ninja Guild} {the grand city of New Thalos}
+    {the grand city of New Thalos - Bard Guild} {the grand city of New Thalos}
+    {the grand city of New Thalos - Thief Guild} {the grand city of New Thalos}
+    {the grand city of New Thalos - Mage Guild} {the grand city of New Thalos}
+    {the grand city of New Thalos - Cleric Guild} {the grand city of New Thalos}
+    {the grand city of New Thalos - Warrior Guild} {the grand city of New Thalos}
+    {Drake Isle - Fortress} {Drake Isle}
+    {Drake Isle - Interior} {Drake Isle}
 }
 
 
@@ -476,8 +455,8 @@
 
 
 #var jt_m_current {};
-#var jt_m_display[split] {#split 0 0 0 -82};
-#var jt_m_display[offset] {#map offset 1 82 -1 -1};
+#var jt_m_display[split] {#split 0 0 0 -91};
+#var jt_m_display[offset] {#map offset 1 91 -1 -1};
 #var jt_m_display[center] {#map center 0 0 0};
 
 

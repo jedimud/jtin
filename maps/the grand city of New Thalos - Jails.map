@@ -275,7 +275,7 @@ R {12373}{0}{<fff>}{}{NTP}{}{}{}{}{}{1.000}{}
 
 R {12389}{16}{<fff>}{Jailor's Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12390}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
-E {12373}{u}{jt_m_link_action {open u;up} {New Thalos Palace} {12373}}{16}{0}{}{1.000}{}{0.00}
+E {12373}{u}{jt_m_link_action {open u;up} {the grand city of New Thalos - Palace} {12373}}{16}{0}{}{1.000}{}{0.00}
 
 R {12390}{16}{<fff>}{Tunnel in the Dungeon}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {3}{e}{e}{2}{0}{}{1.000}{}{0.00}

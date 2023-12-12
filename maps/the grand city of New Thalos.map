@@ -577,7 +577,7 @@ R {12220}{0}{<fff>}{Sultan's Walk}{ }{}{the grand city of New Thalos}{}{CITY}{}{
 E {12200}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12221}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12219}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12356}{w}{jt_m_link_action {west} {New Thalos Palace} {12356}}{8}{0}{}{1.000}{}{0.00}
+E {12356}{w}{jt_m_link_action {west} {the grand city of New Thalos - Palace} {12356}}{8}{0}{}{1.000}{}{0.00}
 
 R {12221}{0}{<fff>}{Sultan's Walk}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12222}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -768,34 +768,34 @@ E {12275}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
 E {12258}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {12260}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12310}{e}{jt_m_link_action {east} {New Thalos Cleric Guild} {12310}}{2}{0}{}{1.000}{}{0.00}
+E {12310}{e}{jt_m_link_action {east} {the grand city of New Thalos - Cleric Guild} {12310}}{2}{0}{}{1.000}{}{0.00}
 E {12251}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12261}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12324}{w}{jt_m_link_action {west} {New Thalos Warrior Guild} {12324}}{8}{0}{}{1.000}{}{0.00}
+E {12324}{w}{jt_m_link_action {west} {the grand city of New Thalos - Warrior Guild} {12324}}{8}{0}{}{1.000}{}{0.00}
 
 R {12261}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12330}{e}{jt_m_link_action {east} {New Thalos Thief Guild} {12330}}{2}{0}{}{1.000}{}{0.00}
+E {12330}{e}{jt_m_link_action {east} {the grand city of New Thalos - Thief Guild} {12330}}{2}{0}{}{1.000}{}{0.00}
 E {12260}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12262}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12323}{w}{jt_m_link_action {west} {New Thalos Mage Guild} {12323}}{8}{0}{}{1.000}{}{0.00}
+E {12323}{w}{jt_m_link_action {west} {the grand city of New Thalos - Mage Guild} {12323}}{8}{0}{}{1.000}{}{0.00}
 
 R {12262}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12508}{e}{jt_m_link_action {east} {New Thalos Ninja Guild} {12508}}{2}{0}{}{1.000}{}{0.00}
+E {12508}{e}{jt_m_link_action {east} {the grand city of New Thalos - Ninja Guild} {12508}}{2}{0}{}{1.000}{}{0.00}
 E {12261}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12263}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12500}{w}{jt_m_link_action {west} {New Thalos Bard Guild} {12500}}{8}{0}{}{1.000}{}{0.00}
+E {12500}{w}{jt_m_link_action {west} {the grand city of New Thalos - Bard Guild} {12500}}{8}{0}{}{1.000}{}{0.00}
 
 R {12263}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12514}{e}{jt_m_link_action {east} {New Thalos Jedi Guild} {12514}}{2}{0}{}{1.000}{}{0.00}
+E {12514}{e}{jt_m_link_action {east} {the grand city of New Thalos - Jedi Guild} {12514}}{2}{0}{}{1.000}{}{0.00}
 E {12262}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12264}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12511}{w}{jt_m_link_action {west} {New Thalos Sohei Guild} {12511}}{8}{0}{}{1.000}{}{0.00}
+E {12511}{w}{jt_m_link_action {west} {the grand city of New Thalos - Sohei Guild} {12511}}{8}{0}{}{1.000}{}{0.00}
 
 R {12264}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12520}{e}{jt_m_link_action {east} {New Thalos Paladin Guild} {12520}}{2}{0}{}{1.000}{}{0.00}
+E {12520}{e}{jt_m_link_action {east} {the grand city of New Thalos - Paladin Guild} {12520}}{2}{0}{}{1.000}{}{0.00}
 E {12263}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12228}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12517}{w}{jt_m_link_action {west} {New Thalos Anti-Paladin Guild} {12517}}{8}{0}{}{1.000}{}{0.00}
+E {12517}{w}{jt_m_link_action {west} {the grand city of New Thalos - Anti-Paladin Guild} {12517}}{8}{0}{}{1.000}{}{0.00}
 
 R {12265}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {7}{n}{n}{1}{0}{}{1.000}{}{0.00}
