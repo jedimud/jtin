@@ -1,0 +1,8 @@
+Object 'a pebble', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !RENT !DONATE UNIQUE 
+Weight: 10, Value: 10, Rent: 5000, Min. level: 15
+This STAFF casts: earthquake of level 0
+It has 1 maximum charges and 1 remaining.
+Item slot: Hold
+-----

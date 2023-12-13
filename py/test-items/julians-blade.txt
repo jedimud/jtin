@@ -1,0 +1,10 @@
+Object 'Julian's blade', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER UNIQUE 
+Weight: 18, Value: 25000, Rent: 12500, Min. level: 0
+Damage Dice is '4D5' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----

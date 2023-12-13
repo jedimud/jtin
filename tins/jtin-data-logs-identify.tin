@@ -1,0 +1,26 @@
+#alias ident {
+    #variable jt_dl_i_tag {%1};
+    #class ident-action read tins/jtin-data-logs-identify-action.tin;
+    recite identify %1;
+}
+
+#alias jt_dl_i_clear_action {
+    #class ident-action clear;
+    #unvar jt_dl_i_tag;
+}
+
+#high {^You don't seem to have an identify.$} {Red}
+#action {^You don't seem to have an identify.$} {
+    jt_dl_i_clear_action;
+}
+
+#high {^There is nothing to here to affect with a scroll of identify.$} {Red}
+#action {^There is nothing to here to affect with a scroll of identify.$} {
+    jt_dl_i_clear_action;
+}
+
+#action {^As you recite the last word, there is a brilliant flash of light} {
+    #jt_dl_i_print_msg {<fca>Cannot use identify scroll in !magic room};
+    jt_dl_i_clear_action;
+}
+

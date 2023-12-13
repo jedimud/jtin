@@ -1,0 +1,483 @@
+#nop ----- ERROR HANDLING -----
+
+#high {^You are too experienced to need %1.} {Red}
+#action {^You are too experienced to need %1.} {
+    jt_dl_i_log_error;
+}
+
+#high {^Your class cannot use %1.$} {Red}
+#action {^Your class cannot use %1.$} {
+    jt_dl_i_log_error;
+}
+
+#high {^It's too heavy for you to use.$} {Red}
+#action {^It's too heavy for you to use.$} {
+    jt_dl_i_log_error;
+}
+
+#high {^You are zapped by %1 and instantly drop it.$} {Red}
+#action {^You are zapped by %1 and instantly drop it.$} {
+    jt_dl_i_log_error;
+}
+
+#alias jt_dl_i_log_error {
+    jt_dl_i_print_msg {<fca>Possible incomplete identify record logged. Try slotting an item and reciting again.};
+    #line log logs/ident.log {ERROR - IGNORE THIS RECORD};
+    jt_dl_i_clear_action;
+}
+
+#nop ----- scroll wrapper -----
+
+#variable jt_dl_i_state {}
+
+#action {^You recite a scroll of identify which dissolves.$} {
+    jt_dl_i_print_msg {<efc>capturing identify scroll};
+
+}
+
+#alias jt_dl_i_end_capture {
+    #variable jt_dl_i_state {description};
+    #delay {1} {
+        jt_dl_i_print_msg {<efc>identify scroll output captured};
+        #unvar jt_dl_i_state;
+        jt_dl_i_clear_action;
+        jt_ib_refresh;
+    }
+}
+
+#nop ----- scroll output -----
+
+#high {^You feel informed:} {reverse}
+#action {^You feel informed:} {
+    #line log logs/ident.log {-----};
+    jt_dl_i_check_wield;
+}
+
+#high {^Object '%1', Item type: %2} {reverse}
+#action {^Object '%1', Item type: %2} {
+    #line log logs/ident.log {Object '%1', Item type: %2}
+}
+
+#high {^Item will give you following abilities: %1} {reverse}
+#action {^Item will give you following abilities: %1} {
+    #line log logs/ident.log {Item will give you following abilities: %1}
+}
+
+#high {^Item is: %1} {reverse}
+#action {^Item is: %1} {
+    #line log logs/ident.log {Item is: %1}
+}
+
+#high {^Weight: %1} {reverse}
+#action {^Weight: %1} {
+    #line log logs/ident.log {Weight: %1}
+}
+
+#high {^Damage Dice is '%1' for an average per-round damage of %2.%3.$} {reverse}
+#action {^Damage Dice is '%1' for an average per-round damage of %2.%3.$} {
+    #line log logs/ident.log {Damage Dice is '%1' for an average per-round damage of %2.%3.}
+}
+
+#high {^AC-apply is %1} {reverse}
+#action {^AC-apply is %1} {
+    #line log logs/ident.log {AC-apply is %1}
+}
+
+#high {^This %1 casts: %2} {reverse}
+#action {^This %1 casts: %2} {
+    #line log logs/ident.log {This %1 casts: %2}
+}
+
+#high {^Damage Dice is '%1D%2' This weapon currently has %3 of a maximum %4 charges.} {reverse}
+#action {^Damage Dice is '%1D%2' This weapon currently has %3 of a maximum %4 charges.} {
+    #line log logs/ident.log {Damage Dice is '%1D%2' This weapon currently has %3 of a maximum %4 charges.}
+}
+
+#high {^It has %1 maximum charges and %2 remaining.} {reverse}
+#action {^It has %1 maximum charges and %2 remaining.} {
+    #line log logs/ident.log {It has %1 maximum charges and %2 remaining.}
+}
+
+#high {^It has %1 maximum charge and %2 remaining.} {reverse}
+#action {^It has %1 maximum charge and %2 remaining.} {
+    #line log logs/ident.log {It has %1 maximum charge and %2 remaining.}
+}
+
+#high {^This item has a maximum level of %1.} {reverse}
+#action {^This item has a maximum level of %1.} {
+    #line log logs/ident.log {This item has a maximum level of %1.}
+}
+
+#high {^Can affect you as :} {reverse}
+#action {^Can affect you as :} {
+    #line log logs/ident.log {Can affect you as :}
+}
+
+#high {^   Affects: %1} {reverse}
+#action {^   Affects: %1} {
+    #line log logs/ident.log {   Affects: %1}
+}
+
+#high {^It can hold approximately %1} {reverse}
+#action {^It can hold approximately %1} {
+    #line log logs/ident.log {It can hold approximately %1}
+}
+
+
+#nop ----- ITEM SLOT -----
+
+#nop ----- try to wear -----
+
+#alias jt_dl_i_check_wear {
+    #variable jt_dl_i_state {wear};
+    wear $jt_dl_i_tag;
+}
+
+#high {^You can't wear %1.$} {reverse}
+#action {^You can't wear %1.$} {
+    #if {"$jt_dl_i_state"=="wear"} {
+        jt_dl_i_check_hold;
+    } {
+        jt_dl_i_end_capture;
+    };
+}
+
+
+#nop ----- arms -----
+
+#high {^You wear %1 on your arms.$} {reverse}
+#action {^You wear %1 on your arms.$} {
+    remove $jt_dl_i_tag;
+    jt_dl_i_capture_arms;
+}
+
+#high {^You're already wearing something on your arms.$} {reverse}
+#action {^You're already wearing something on your arms.$} {
+    jt_dl_i_capture_arms;
+}
+
+#alias jt_dl_i_capture_arms {
+    #line log logs/ident.log {Item slot: Arms};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- on body -----
+
+#high {^You wear %1 on your body.$} {reverse}
+#action {^You wear %1 on your body.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_on_body;
+}
+
+#high {^You're already wearing something on your body.$} {reverse}
+#action {^You're already wearing something on your body.$} { 
+    jt_dl_i_capture_on_body;
+}
+
+#alias jt_dl_i_capture_on_body {
+    #line log logs/ident.log {Item slot: On Body};
+    jt_dl_i_check_hold;
+}
+
+#nop ----- face -----
+
+#high {^You put %1 on your face.$} {reverse}
+#action {^You put %1 on your face.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_face;
+}
+
+#high {^You're already wearing something on your face.$} {reverse}
+#action {^You're already wearing something on your face.$} { 
+    jt_dl_i_capture_face;
+}
+
+#alias jt_dl_i_capture_face {
+    #line log logs/ident.log {Item slot: Face};
+    jt_dl_i_check_hold;
+}
+
+#nop ----- earring -----
+
+#high {^You wear %1 on your ears.$} {reverse}
+#action {^You wear %1 on your ears.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_earring;
+}
+
+#high {^You're already wearing something on your ears.$} {reverse}
+#action {^You're already wearing something on your ears.$} { 
+    jt_dl_i_capture_earring;
+}
+
+#alias jt_dl_i_capture_earring {
+    #line log logs/ident.log {Item slot: Earring};
+    jt_dl_i_check_hold;
+}
+
+#nop ----- hands -----
+
+#high {^You put %1 on your hands.$} {reverse}
+#action {^You put %1 on your hands.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_hands;
+}
+
+#high {^You're already wearing something on your hands.$} {reverse}
+#action {^You're already wearing something on your hands.$} {
+    jt_dl_i_capture_hands;
+}
+
+#alias jt_dl_i_capture_hands {
+    #line log logs/ident.log {Item slot: Hands};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- feet -----
+
+#high {^You wear %1 on your feet.} {reverse}
+#action {^You wear %1 on your feet.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_feet;
+}
+
+#high {^You're already wearing something on your feet.$} {reverse}
+#action {^You're already wearing something on your feet.$} {
+    jt_dl_i_capture_feet;
+}
+
+#alias jt_dl_i_capture_feet {
+    #line log logs/ident.log {Item slot: Feet};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- wrist -----
+
+#high {^You put %1 on around your %2 wrist.} {reverse}
+#action {^You put %1 on around your %2 wrist.} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_wrist;
+}
+
+#high {^You're already wearing something around both of your wrists.$} {reverse}
+#action {^You're already wearing something around both of your wrists.$} {
+    jt_dl_i_capture_wrist;
+}
+
+#alias jt_dl_i_capture_wrist {
+    #line log logs/ident.log {Item slot: Wrist};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- ring -----
+
+#high {^You slide %1 on to your %2 ring finger.$} {reverse}
+#action {^You slide %1 on to your %2 ring finger.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_ring;
+}
+
+#high {^You're already wearing something on both of your ring fingers.$} {reverse}
+#action {^You're already wearing something on both of your ring fingers.$} {
+    jt_dl_i_capture_ring;
+}
+
+#alias jt_dl_i_capture_ring {
+    #line log logs/ident.log {Item slot: Ring};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- about body -----
+
+#high {^You wear %1 around your body.$} {reverse}
+#action {^You wear %1 around your body.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_about_body;
+}
+
+#high {^You're already wearing something about your body.$} {reverse}
+#action {^You're already wearing something about your body.$} {
+    jt_dl_i_capture_about_body;
+}
+
+#alias jt_dl_i_capture_about_body {
+    #line log logs/ident.log {Item slot: About Body};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- head -----
+
+#high {^You wear %1on your head.$} {reverse}
+#action {^You wear %1 on your head.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_head;
+}
+
+#high {^You're already wearing something on your head.$} {reverse}
+#action {^You're already wearing something on your head.$} {
+    jt_dl_i_capture_head;
+}
+
+#alias jt_dl_i_capture_head {
+    #line log logs/ident.log {Item slot: Head};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- legs -----
+
+#high {^You put %1 on your legs.$} {reverse}
+#action {^You put %1 on your legs.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_legs;
+}
+
+#high {^You're already wearing something on your legs.$} {reverse}
+#action {^You're already wearing something on your legs.$} {
+    jt_dl_i_capture_legs;
+}
+
+#alias jt_dl_i_capture_legs {
+    #line log logs/ident.log {Item slot: Legs};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- neck -----
+
+#high {^You wear %1 around your neck.$} {reverse}
+#action {^You wear %1 around your neck.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_neck;
+}
+
+#high {^You can't wear anything else around your neck.$} {reverse}
+#action {You can't wear anything else around your neck.} {
+    jt_dl_i_capture_neck;
+}
+
+#alias jt_dl_i_capture_neck {
+    #line log logs/ident.log {Item slot: Neck};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- shield -----
+
+#high {^You start to use %1 as a shield.$} {reverse}
+#action {^You start to use %1 as a shield.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_shield;
+}
+
+#high {^You're already using a shield.$} {reverse}
+#action {^You're already using a shield.$} {
+    jt_dl_i_capture_shield;
+}
+
+#alias jt_dl_i_capture_shield {
+    #line log logs/ident.log {Item slot: Shield};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- waist -----
+
+#high {^You wear %1 around your waist.$} {reverse}
+#action {^You wear %1 around your waist.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_waist;
+}
+
+#high {^You already have something around your waist.$} {reverse}
+#action {^You already have something around your waist.$} {
+    jt_dl_i_capture_waist;
+}
+
+#alias jt_dl_i_capture_waist {
+    #line log logs/ident.log {Item slot: Waist};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- light -----
+
+#high {^You light %1 and hold it.$} {reverse} 
+#action {^You light %1 and hold it.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_light;
+}
+
+#high {^You're already using a light.$} {reverse}
+#action {^You're already using a light.$} {
+    jt_dl_i_capture_light;
+}
+
+#alias jt_dl_i_capture_light {
+    #line log logs/ident.log {Item slot: Light};
+    jt_dl_i_end_capture;
+}
+
+
+#nop ----- try to wield -----
+
+#alias jt_dl_i_check_wield {
+    #variable jt_dl_i_state {wield};
+    wield $jt_dl_i_tag;
+}
+
+#high {^You wield %1.$} {reverse}
+#action {^You wield %1.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_wield;
+}
+
+#high {^You can't wield that.$} {reverse}
+#action {^You can't wield that.$} {
+    jt_dl_i_check_wear;
+}
+
+#high {^You're already wielding a weapon.$} {reverse}
+#action {^You're already wielding a weapon.$} {
+    jt_dl_i_capture_wield;
+}
+
+#alias jt_dl_i_capture_wield {
+    #line log logs/ident.log {Item slot: Wield};
+    jt_dl_i_check_hold;
+}
+
+
+#nop ----- try to hold -----
+
+#alias jt_dl_i_check_hold {
+    #variable jt_dl_i_state {hold};
+    hold $jt_dl_i_tag;
+}
+
+#high {^You can't hold that.$} {reverse}
+#action {^You can't hold that.$} {
+    jt_dl_i_end_capture;
+}
+
+#high {^You grab %1.$} {reverse}
+#action {^You grab %1.$} {
+    rem $jt_dl_i_tag;
+    jt_dl_i_capture_hold;
+}
+
+#high {^You're already holding something.$} {reverse}
+#action {^You're already holding something.$} {
+    jt_dl_i_capture_hold;
+}
+
+#alias jt_dl_i_capture_hold {
+    #line log logs/ident.log {Item slot: Hold};
+    jt_dl_i_end_capture;
+}

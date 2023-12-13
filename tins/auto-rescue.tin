@@ -1,0 +1,16 @@
+#high {^You join the fight!$} {reverse}
+#action {^You join the fight!$} {
+    #ney #showme <acf>>> rescuing you;
+    rescue neytiri;
+    rescue neytiri;
+}
+
+#action {^But nobody is fighting her!} {
+}
+
+#high {^You fail the rescue!$} {reverse}
+#action {^You fail the rescue!$} {
+    #ney #showme <acf>>> failed to rescue, trying again;
+    rescue neytiri;
+    rescue neytiri;
+}

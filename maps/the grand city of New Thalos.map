@@ -1,0 +1,1793 @@
+C 50000
+
+V 2020
+
+CAVOID <118>
+CBACKGROUND 
+CBLOCK <218>
+CEXITS <278>
+CFOG <148>
+CHIDE <168>
+CINVISIBLE <208>
+CPATHS <138>
+CROOMS <178>
+CSYMBOLS <128>
+CUSER <258>
+
+F 8207
+
+G 0
+
+I 12210
+
+L {ASCII NESW LINE} {NO EXITS} {x}
+L {ASCII NESW LINE} {N} {o}
+L {ASCII NESW LINE} {  E} {o}
+L {ASCII NESW LINE} {N E} {+}
+L {ASCII NESW LINE} {    S} {o}
+L {ASCII NESW LINE} {N   S} {|}
+L {ASCII NESW LINE} {  E S} {+}
+L {ASCII NESW LINE} {N E S} {+}
+L {ASCII NESW LINE} {      W} {o}
+L {ASCII NESW LINE} {N     W} {+}
+L {ASCII NESW LINE} {  E   W} {-}
+L {ASCII NESW LINE} {N E   W} {+}
+L {ASCII NESW LINE} {    S W} {+}
+L {ASCII NESW LINE} {N   S W} {+}
+L {ASCII NESW LINE} {  E S W} {+}
+L {ASCII NESW LINE} {N E S W} {+}
+L {ASCII NESW MISC} {USER} {x}
+L {ASCII NESW MISC} {DIR UNKNOWN} {+}
+L {ASCII NESW MISC} {N S VOID} {|}
+L {ASCII NESW MISC} {E W VOID} {-}
+L {ASCII NESW CURVED} {N E CURVED} {+}
+L {ASCII NESW CURVED} {S E CURVED} {+}
+L {ASCII NESW CURVED} {S W CURVED} {+}
+L {ASCII NESW CURVED} {N W CURVED} {+}
+L {ASCII NESW DIRS} {DIR N} {|}
+L {ASCII NESW DIRS} {DIR NE} {/}
+L {ASCII NESW DIRS} {DIR E} {-}
+L {ASCII NESW DIRS} {DIR SE} {\\}
+L {ASCII NESW DIRS} {DIR S} {|}
+L {ASCII NESW DIRS} {DIR SW} {/}
+L {ASCII NESW DIRS} {DIR W} {-}
+L {ASCII NESW DIRS} {DIR NW} {\\}
+L {NESW LINE} {NO EXITS} {\u2B51}
+L {NESW LINE} {N} {\u2579}
+L {NESW LINE} {  E} {\u257A}
+L {NESW LINE} {N E} {\u2517}
+L {NESW LINE} {    S} {\u257B}
+L {NESW LINE} {N   S} {\u2503}
+L {NESW LINE} {  E S} {\u250F}
+L {NESW LINE} {N E S} {\u2523}
+L {NESW LINE} {      W} {\u2578}
+L {NESW LINE} {N     W} {\u251B}
+L {NESW LINE} {  E   W} {\u2501}
+L {NESW LINE} {N E   W} {\u253B}
+L {NESW LINE} {    S W} {\u2513}
+L {NESW LINE} {N   S W} {\u252B}
+L {NESW LINE} {  E S W} {\u2533}
+L {NESW LINE} {N E S W} {\u254B}
+L {NESW MISC} {USER} {\u2B51}
+L {NESW MISC} {DIR UNKNOWN} {\u2012}
+L {NESW MISC} {N S VOID} {\u2507}
+L {NESW MISC} {E W VOID} {\u254D}
+L {NESW CURVED} {N E CURVED} {\u2570}
+L {NESW CURVED} {S E CURVED} {\u256D}
+L {NESW CURVED} {S W CURVED} {\u256E}
+L {NESW CURVED} {N W CURVED} {\u256F}
+L {NESW DIRS} {DIR N} {\u2191}
+L {NESW DIRS} {DIR NE} {\u2B08}
+L {NESW DIRS} {DIR E} {\u2B95}
+L {NESW DIRS} {DIR SE} {\u2b0A}
+L {NESW DIRS} {DIR S} {\u2193}
+L {NESW DIRS} {DIR SW} {\u2B0B}
+L {NESW DIRS} {DIR W} {\u2B05}
+L {NESW DIRS} {DIR NW} {\u2B09}
+L {MUDFONT NWS} {NO EXITS} {\u2830}
+L {MUDFONT NWS} {N} {\u2838}
+L {MUDFONT NWS} {  NW} {\u2831}
+L {MUDFONT NWS} {N NW} {\u2839}
+L {MUDFONT NWS} {     W} {\u2836}
+L {MUDFONT NWS} {N    W} {\u283E}
+L {MUDFONT NWS} {  NW W} {\u2837}
+L {MUDFONT NWS} {N NW W} {\u283F}
+L {MUDFONT NWS} {       SW} {\u2870}
+L {MUDFONT NWS} {N      SW} {\u2878}
+L {MUDFONT NWS} {  NW   SW} {\u2871}
+L {MUDFONT NWS} {N NW   SW} {\u2879}
+L {MUDFONT NWS} {     W SW} {\u2876}
+L {MUDFONT NWS} {N    W SW} {\u287E}
+L {MUDFONT NWS} {  NW W SW} {\u2877}
+L {MUDFONT NWS} {N NW W SW} {\u287F}
+L {MUDFONT NWS} {          S} {\u28B0}
+L {MUDFONT NWS} {N         S} {\u28B8}
+L {MUDFONT NWS} {  NW      S} {\u28B1}
+L {MUDFONT NWS} {N NW      S} {\u28B9}
+L {MUDFONT NWS} {     W    S} {\u28B6}
+L {MUDFONT NWS} {N    W    S} {\u28BE}
+L {MUDFONT NWS} {  NW W    S} {\u28B7}
+L {MUDFONT NWS} {N NW W    S} {\u28BF}
+L {MUDFONT NWS} {       SW S} {\u28F0}
+L {MUDFONT NWS} {N      SW S} {\u28F8}
+L {MUDFONT NWS} {  NW   SW S} {\u28F1}
+L {MUDFONT NWS} {N NW   SW S} {\u28F9}
+L {MUDFONT NWS} {     W SW S} {\u28F6}
+L {MUDFONT NWS} {N    W SW S} {\u28FE}
+L {MUDFONT NWS} {  NW W SW S} {\u28F7}
+L {MUDFONT NWS} {N NW W SW S} {\u28FF}
+L {MUDFONT NES} {NO EXITS} {\u2806}
+L {MUDFONT NES} {N} {\u2807}
+L {MUDFONT NES} {  NE} {\u280E}
+L {MUDFONT NES} {N NE} {\u280F}
+L {MUDFONT NES} {     W} {\u2836}
+L {MUDFONT NES} {N    W} {\u2837}
+L {MUDFONT NES} {  NE W} {\u283E}
+L {MUDFONT NES} {N NE W} {\u283F}
+L {MUDFONT NES} {       SE} {\u2886}
+L {MUDFONT NES} {N      SE} {\u2887}
+L {MUDFONT NES} {  NE   SE} {\u288E}
+L {MUDFONT NES} {N NE   SE} {\u288F}
+L {MUDFONT NES} {     W SE} {\u28B6}
+L {MUDFONT NES} {N    W SE} {\u28B7}
+L {MUDFONT NES} {  NE W SE} {\u28BE}
+L {MUDFONT NES} {N NE W SE} {\u28BF}
+L {MUDFONT NES} {          S} {\u2846}
+L {MUDFONT NES} {N         S} {\u2847}
+L {MUDFONT NES} {  NE      S} {\u284E}
+L {MUDFONT NES} {N NE      S} {\u284F}
+L {MUDFONT NES} {     W    S} {\u2876}
+L {MUDFONT NES} {N    W    S} {\u2877}
+L {MUDFONT NES} {  NE W    S} {\u287E}
+L {MUDFONT NES} {N NE W    S} {\u287F}
+L {MUDFONT NES} {       SE S} {\u28C6}
+L {MUDFONT NES} {N      SE S} {\u28C7}
+L {MUDFONT NES} {  NE   SE S} {\u28CE}
+L {MUDFONT NES} {N NE   SE S} {\u28CF}
+L {MUDFONT NES} {     W SE S} {\u28F6}
+L {MUDFONT NES} {N    W SE S} {\u28F7}
+L {MUDFONT NES} {  NE W SE S} {\u28FE}
+L {MUDFONT NES} {N NE W SE S} {\u28FF}
+L {MUDFONT VOID NWS} {NO EXITS} {\u2800}
+L {MUDFONT VOID NWS} {N} {\u2808}
+L {MUDFONT VOID NWS} {  NW} {\u2801}
+L {MUDFONT VOID NWS} {N NW} {\u2809}
+L {MUDFONT VOID NWS} {     W} {\u2806}
+L {MUDFONT VOID NWS} {N    W} {\u280E}
+L {MUDFONT VOID NWS} {  NW W} {\u2807}
+L {MUDFONT VOID NWS} {N NW W} {\u280F}
+L {MUDFONT VOID NWS} {       SW} {\u2840}
+L {MUDFONT VOID NWS} {N      SW} {\u2848}
+L {MUDFONT VOID NWS} {  NW   SW} {\u2841}
+L {MUDFONT VOID NWS} {N NW   SW} {\u2849}
+L {MUDFONT VOID NWS} {     W SW} {\u2846}
+L {MUDFONT VOID NWS} {N    W SW} {\u284E}
+L {MUDFONT VOID NWS} {  NW W SW} {\u2847}
+L {MUDFONT VOID NWS} {N NW W SW} {\u284F}
+L {MUDFONT VOID NWS} {          S} {\u2880}
+L {MUDFONT VOID NWS} {N         S} {\u2888}
+L {MUDFONT VOID NWS} {  NW      S} {\u2881}
+L {MUDFONT VOID NWS} {N NW      S} {\u2889}
+L {MUDFONT VOID NWS} {     W    S} {\u2886}
+L {MUDFONT VOID NWS} {N    W    S} {\u288E}
+L {MUDFONT VOID NWS} {  NW W    S} {\u2887}
+L {MUDFONT VOID NWS} {N NW W    S} {\u288F}
+L {MUDFONT VOID NWS} {       SW S} {\u28C0}
+L {MUDFONT VOID NWS} {N      SW S} {\u28C8}
+L {MUDFONT VOID NWS} {  NW   SW S} {\u28C1}
+L {MUDFONT VOID NWS} {N NW   SW S} {\u28C9}
+L {MUDFONT VOID NWS} {     W SW S} {\u28C6}
+L {MUDFONT VOID NWS} {N    W SW S} {\u28CE}
+L {MUDFONT VOID NWS} {  NW W SW S} {\u28C7}
+L {MUDFONT VOID NWS} {N NW W SW S} {\u28CF}
+L {MUDFONT VOID NES} {NO EXITS} {\u2800}
+L {MUDFONT VOID NES} {N} {\u2801}
+L {MUDFONT VOID NES} {  NE} {\u2808}
+L {MUDFONT VOID NES} {N NE} {\u2809}
+L {MUDFONT VOID NES} {     W} {\u2830}
+L {MUDFONT VOID NES} {N    W} {\u2831}
+L {MUDFONT VOID NES} {  NE W} {\u2838}
+L {MUDFONT VOID NES} {N NE W} {\u2839}
+L {MUDFONT VOID NES} {       SE} {\u2880}
+L {MUDFONT VOID NES} {N      SE} {\u2881}
+L {MUDFONT VOID NES} {  NE   SE} {\u2888}
+L {MUDFONT VOID NES} {N NE   SE} {\u2889}
+L {MUDFONT VOID NES} {     W SE} {\u28B0}
+L {MUDFONT VOID NES} {N    W SE} {\u28B1}
+L {MUDFONT VOID NES} {  NE W SE} {\u28B8}
+L {MUDFONT VOID NES} {N NE W SE} {\u28B9}
+L {MUDFONT VOID NES} {          S} {\u2840}
+L {MUDFONT VOID NES} {N         S} {\u2841}
+L {MUDFONT VOID NES} {  NE      S} {\u2848}
+L {MUDFONT VOID NES} {N NE      S} {\u2849}
+L {MUDFONT VOID NES} {     W    S} {\u2870}
+L {MUDFONT VOID NES} {N    W    S} {\u2871}
+L {MUDFONT VOID NES} {  NE W    S} {\u2878}
+L {MUDFONT VOID NES} {N NE W    S} {\u2879}
+L {MUDFONT VOID NES} {       SE S} {\u28C0}
+L {MUDFONT VOID NES} {N      SE S} {\u28C1}
+L {MUDFONT VOID NES} {  NE   SE S} {\u28C8}
+L {MUDFONT VOID NES} {N NE   SE S} {\u28C9}
+L {MUDFONT VOID NES} {     W SE S} {\u28F0}
+L {MUDFONT VOID NES} {N    W SE S} {\u28F1}
+L {MUDFONT VOID NES} {  NE W SE S} {\u28F8}
+L {MUDFONT VOID NES} {N NE W SE S} {\u28F9}
+L {MUDFONT CURVED} {N E} {\u2818}
+L {MUDFONT CURVED} {S E} {\u28A0}
+L {MUDFONT CURVED} {S W} {\u2844}
+L {MUDFONT CURVED} {N W} {\u2803}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {SE} {\u2198}
+L {UNICODE GRAPHICS} {NE} {\u2197}
+L {UNICODE GRAPHICS} {SE NE} {>}
+L {UNICODE GRAPHICS} {SW} {\u2199}
+L {UNICODE GRAPHICS} {SE SW} {\u2E0C\u2E0D}
+L {UNICODE GRAPHICS} {NE SW} {\uFF0F}
+L {UNICODE GRAPHICS} {SE NE SW} {>\u2E0D}
+L {UNICODE GRAPHICS} {NW} {\u2196}
+L {UNICODE GRAPHICS} {SE NW} {\uFF3C}
+L {UNICODE GRAPHICS} {NE NW} {\u2E1D\u2E1C}
+L {UNICODE GRAPHICS} {SE NE NW} {>\u2E1C}
+L {UNICODE GRAPHICS} {SW NW} {<}
+L {UNICODE GRAPHICS} {SE SW NW} {\u2E0C<}
+L {UNICODE GRAPHICS} {NE SW NW} {\u2E1D<}
+L {UNICODE GRAPHICS} {SE NE SW NW} {><}
+L {UNICODE GRAPHICS} {D} {-}
+L {UNICODE GRAPHICS} {N} {\u2191}
+L {UNICODE GRAPHICS} {S} {\u2193}
+L {UNICODE GRAPHICS} {N S} {\u2502}
+L {UNICODE GRAPHICS} {U} {+}
+L {UNICODE GRAPHICS} {E} {\u2192}
+L {UNICODE GRAPHICS} {W} {\u2190}
+L {UNICODE GRAPHICS} {E W} {\u2500}
+L {UNICODE GRAPHICS} {ROOM L} {[}
+L {UNICODE GRAPHICS} {ROOM L CURVED} {(}
+L {UNICODE GRAPHICS} {ROOM R} {]}
+L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
+
+
+
+
+T {} { } {}
+T {CITY} {<FF03A2E>=} {WIDE}
+T {FIELD} {<F9A7D0A>·} {WIDE FADEOUT}
+T {FOREST} {<F0B5345>⍋} {WIDE FADEOUT}
+T {HILLS} {<F7D6608>︵} {DENSE WIDE FADEOUT DOUBLE}
+T {INSIDE} {<F922B21>≡} {}
+T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
+T {MOUNTAINS} {<F935116>◮} {WIDE}
+T {NOSWIM} {<F21618C>~} {}
+T {SWIM} {<F21618C>~} {}
+
+
+
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12527}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12242}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {3}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {12575}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {4}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {12535}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12534}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {5}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12204}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12205}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12212}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12210}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12265}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12228}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {8}{4104}{}{}{ }{}{}{}{FIELD}{}{1.000}{}
+E {12583}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {11}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {9}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {16}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12485}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {10}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+E {12365}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {11}{4104}{}{}{ }{}{}{}{FIELD}{}{1.000}{}
+E {8}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12415}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+E {10}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+E {12}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {34}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {16}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {9}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {17}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {17}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {16}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12484}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {18}{4104}{}{}{ }{}{}{}{FIELD}{}{1.000}{}
+E {12414}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {49}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {19}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {12442}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {12443}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {20}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {12420}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {12442}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {23}{4104}{}{}{ }{}{}{}{FIELD}{}{1.000}{}
+E {12431}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12447}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {24}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {12419}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {12420}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {25}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {12418}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {12419}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {28}{4104}{}{}{ }{}{}{}{MOUNTAINS}{}{1.000}{}
+E {12413}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12443}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {29}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {12495}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12487}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {30}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {12486}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12493}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {31}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {12502}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12495}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {32}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {12286}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {12285}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {33}{0}{<fff>}{}{Toy}{}{}{}{}{}{1.000}{}
+E {12295}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {34}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+E {13}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12576}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {35}{0}{<fff>}{}{ChB}{}{}{}{CITY}{}{1.000}{}
+E {12255}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {36}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12229}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12228}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {37}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12227}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {12228}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {38}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12251}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12250}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {39}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {12212}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {40}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12311}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12318}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {41}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12240}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12238}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {42}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {12286}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {43}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {12286}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {44}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {44}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {43}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {45}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {45}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {44}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {46}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {46}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {45}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {47}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {47}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {46}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12287}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {48}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {12285}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {49}{4104}{}{}{ }{}{}{}{FIELD}{}{1.000}{}
+E {18}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12431}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {50}{4104}{}{}{ }{}{}{}{NOSWIM}{}{1.000}{}
+E {12437}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {12418}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {51}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12224}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {12225}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {1400}{0}{<fff>}{}{AmP}{}{}{}{CITY}{}{1.000}{}
+
+R {1501}{0}{<fff>}{}{StP}{}{}{}{INSIDE}{}{1.000}{}
+
+R {3200}{0}{<fff>}{}{SoM}{}{}{}{NOSWIM}{}{1.000}{}
+
+R {3205}{0}{<fff>}{}{SoM}{}{}{}{NOSWIM}{}{1.000}{}
+
+R {3600}{0}{<fff>}{}{SSt}{}{}{}{INSIDE}{}{1.000}{}
+
+R {4201}{0}{<fff>}{}{Aer}{}{}{}{INSIDE}{}{1.000}{}
+
+R {5039}{0}{<fff>}{}{GED}{}{}{}{FIELD}{}{1.000}{}
+
+R {5862}{0}{<fff>}{}{Mon}{}{}{}{INSIDE}{}{1.000}{}
+
+R {6145}{0}{<fff>}{}{DHa}{}{}{}{NOSWIM}{}{1.000}{}
+
+R {6700}{0}{<fff>}{}{LIS}{}{}{}{SWIM}{}{1.000}{}
+
+R {6947}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
+
+R {6961}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
+
+R {6985}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
+
+R {7518}{0}{<fff>}{}{Ntm}{}{}{}{FOREST}{}{1.000}{}
+
+R {8300}{0}{<fff>}{}{Val}{}{}{}{HILLS}{}{1.000}{}
+
+R {10100}{0}{<fff>}{}{Hel}{}{}{}{HILLS}{}{1.000}{}
+
+R {10279}{0}{<fff>}{}{Hel}{}{}{}{HILLS}{}{1.000}{}
+
+R {10658}{0}{<fff>}{}{Arc}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12200}{0}{<fff>}{The Entrance to the Dancing Daemon Inn}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12328}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12501}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12202}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12201}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12220}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12201}{0}{<fff>}{The Reception Area}{&}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12200}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {12202}{0}{<fff>}{The Dancing Daemon Inn}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12200}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12203}{0}{<fff>}{The Medina}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12204}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12210}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12204}{0}{<fff>}{The Medina}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {5}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12203}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12297}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12205}{0}{<fff>}{The Southern Market Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12207}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12206}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12208}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12206}{0}{<fff>}{The Center of Market Square}{%}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12217}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12215}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12205}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12209}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12207}{0}{<fff>}{The Southeastern Market Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12327}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12217}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12334}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12205}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12208}{0}{<fff>}{The Southwestern Market Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12205}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12209}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12333}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12326}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12209}{0}{<fff>}{The Western Market Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12206}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12214}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12208}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12226}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12210}{0}{<fff>}{The Common Square}{*}{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12237}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12203}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12236}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12211}{0}{<fff>}{Outside the Southern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12572}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12213}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5039}{s}{jt_m_link_action {south} {the Great Eastern Desert} {5039}}{4}{0}{}{1.000}{}{0.00}
+
+R {12212}{0}{<fff>}{The Southern Bridge}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {39}{d}{#delay 0 {down; #map goto 12285}}{32}{0}{}{1.000}{}{0.00}
+E {6}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12213}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12213}{0}{<fff>}{Inside the South Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12212}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12211}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {12214}{0}{<fff>}{The Northwestern Market Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12215}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12312}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12209}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12319}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12215}{0}{<fff>}{The Northern Market Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12216}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12218}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12206}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12214}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12216}{0}{<fff>}{The Northeastern Market Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12320}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12313}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12217}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12215}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12217}{0}{<fff>}{The Eastern Market Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12227}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12216}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12207}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12206}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12218}{0}{<fff>}{Sultan's Walk}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12219}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12215}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12219}{0}{<fff>}{Sultan's Walk}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12220}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12218}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12220}{0}{<fff>}{Sultan's Walk}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12200}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12221}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12219}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12356}{w}{jt_m_link_action {west} {the grand city of New Thalos - Palace} {12356}}{8}{0}{}{1.000}{}{0.00}
+
+R {12221}{0}{<fff>}{Sultan's Walk}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12222}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12220}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12222}{0}{<fff>}{Inside the Northern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12249}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12365}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12221}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12248}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12223}{0}{<fff>}{Inside the West Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12224}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12367}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12224}{0}{<fff>}{West Main Street}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {51}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12318}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12325}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12223}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12225}{0}{<fff>}{West Main Street}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12226}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12271}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12272}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {51}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12226}{0}{<fff>}{West Main Street}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12209}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12225}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12227}{0}{<fff>}{East Main Street}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {37}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12217}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12228}{0}{<fff>}{East Main Street}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {36}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12264}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {37}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12229}{0}{<fff>}{East Main Street}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12230}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12321}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12573}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {36}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12230}{0}{<fff>}{East Main Street}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12231}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12322}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12498}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12229}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12231}{0}{<fff>}{Inside the Eastern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12366}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12230}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12232}{0}{<fff>}{Cassandra's Catch of the Day}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12241}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12233}{0}{<fff>}{West Ishtar Drive}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12234}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12338}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12234}{0}{<fff>}{West Ishtar Drive}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12235}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12339}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12233}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12235}{0}{<fff>}{West Ishtar Drive}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12236}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12340}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12243}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12234}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12236}{0}{<fff>}{West Ishtar Drive}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12210}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12235}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12237}{0}{<fff>}{East Ishtar Drive}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12239}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12342}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12210}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12238}{0}{<fff>}{East Ishtar Drive}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {41}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12239}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12239}{0}{<fff>}{East Ishtar Drive}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12238}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12343}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12237}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12240}{0}{<fff>}{East Ishtar Drive}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12241}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12268}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {41}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12241}{0}{<fff>}{East Ishtar Drive}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12242}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12232}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12240}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12242}{0}{<fff>}{East Ishtar Drive}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {2}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12345}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {1400}{s}{jt_m_link_action {south} {Amusement Park} {1400}}{4}{0}{}{1.000}{}{0.00}
+E {12241}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12243}{0}{<fff>}{Popeye's Marina}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12235}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12575}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12244}{0}{<fff>}{West Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12245}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12351}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12357}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12245}{0}{<fff>}{West Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12246}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12352}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12244}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12246}{0}{<fff>}{The Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12247}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12258}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12245}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12247}{0}{<fff>}{The Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12248}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12246}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12248}{0}{<fff>}{The Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12222}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12247}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12249}{0}{<fff>}{The Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12250}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12222}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12250}{0}{<fff>}{The Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {38}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12249}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12251}{0}{<fff>}{The Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12252}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12260}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {38}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12252}{0}{<fff>}{The Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12253}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12251}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12253}{0}{<fff>}{The Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12254}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12252}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12254}{0}{<fff>}{The Casbah}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12255}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12360}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12253}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12255}{0}{<fff>}{Kali Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12350}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12254}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12256}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12349}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {35}{ne}{jt_m_link_action {play chess} {The Chess Board} {6300}}{3}{0}{}{1.000}{}{0.00}
+
+R {12256}{0}{<fff>}{Circle of Workmanship}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12305}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12255}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12304}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12353}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {12354}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {12362}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12257}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12278}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12280}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12258}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12246}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12259}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12259}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12275}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12258}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12260}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12310}{e}{jt_m_link_action {east} {the grand city of New Thalos - Cleric Guild} {12310}}{2}{0}{}{1.000}{}{0.00}
+E {12251}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12261}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12324}{w}{jt_m_link_action {west} {the grand city of New Thalos - Warrior Guild} {12324}}{8}{0}{}{1.000}{}{0.00}
+
+R {12261}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12330}{e}{jt_m_link_action {east} {the grand city of New Thalos - Thief Guild} {12330}}{2}{0}{}{1.000}{}{0.00}
+E {12260}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12262}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12323}{w}{jt_m_link_action {west} {the grand city of New Thalos - Mage Guild} {12323}}{8}{0}{}{1.000}{}{0.00}
+
+R {12262}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12508}{e}{jt_m_link_action {east} {the grand city of New Thalos - Ninja Guild} {12508}}{2}{0}{}{1.000}{}{0.00}
+E {12261}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12263}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12500}{w}{jt_m_link_action {west} {the grand city of New Thalos - Bard Guild} {12500}}{8}{0}{}{1.000}{}{0.00}
+
+R {12263}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12514}{e}{jt_m_link_action {east} {the grand city of New Thalos - Jedi Guild} {12514}}{2}{0}{}{1.000}{}{0.00}
+E {12262}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12264}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12511}{w}{jt_m_link_action {west} {the grand city of New Thalos - Sohei Guild} {12511}}{8}{0}{}{1.000}{}{0.00}
+
+R {12264}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12520}{e}{jt_m_link_action {east} {the grand city of New Thalos - Paladin Guild} {12520}}{2}{0}{}{1.000}{}{0.00}
+E {12263}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12228}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12517}{w}{jt_m_link_action {west} {the grand city of New Thalos - Anti-Paladin Guild} {12517}}{8}{0}{}{1.000}{}{0.00}
+
+R {12265}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {7}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12266}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12266}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12267}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12265}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12335}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12267}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12336}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12268}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12266}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12268}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12267}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12240}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12269}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12270}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12271}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12270}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12278}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12269}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12271}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12269}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12225}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12272}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12225}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12273}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12273}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12274}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12272}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12274}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12281}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12273}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12275}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12276}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12259}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+
+R {12276}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12275}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12277}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12277}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12278}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12276}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12279}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12278}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12257}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12270}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {12277}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12279}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12277}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12280}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12257}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12281}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12281}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12282}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12280}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12274}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+
+R {12282}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12292}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12281}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12283}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12422}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12284}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12284}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12283}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12285}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12285}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12284}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {48}{u}{#delay 0 {up; #map goto 12212}}{16}{0}{}{1.000}{}{0.00}
+E {32}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12286}{0}{<fff>}{On the Ishtar River}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {32}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {42}{u}{#delay 0 {up;#map goto 12575}}{16}{0}{}{1.000}{}{0.00}
+E {43}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12287}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {47}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12421}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12288}{0}{<fff>}{Dark Passage}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12289}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12289}{0}{<fff>}{Dark Passage}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12290}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12288}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12290}{0}{<fff>}{Dark Passage}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12291}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12289}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12291}{0}{<fff>}{Dark Passage}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12368}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {12290}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12292}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12293}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12282}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12293}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12298}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12292}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12294}{0}{<fff>}{Stairway}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12340}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12296}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12295}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12295}{0}{<fff>}{The Boys' Room }{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12294}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {33}{w}{jt_m_link_action {enter toybox} {Andrus Toy Land} {7600}}{8}{0}{}{1.000}{}{0.00}
+
+R {12296}{0}{<fff>}{Sweet Pea's Nursery}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12294}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12297}{0}{<fff>}{The Phrenologist's Shop}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12204}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12298}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12299}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12293}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12299}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12300}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12298}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12300}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12288}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12299}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12302}{0}{<fff>}{Foyer to the Temple of the Gods}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12309}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12306}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12303}{0}{<fff>}{By the Altar}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12307}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12304}{0}{<fff>}{The Weaver's Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12256}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12305}{0}{<fff>}{The Craftsman's Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12256}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12306}{0}{<fff>}{Inside the Temple}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12307}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12302}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12307}{0}{<fff>}{Inside the Temple}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12308}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12303}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12311}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12587}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12306}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12308}{0}{<fff>}{Donation Room}{D}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12307}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12309}{0}{<fff>}{The Museum of the Gods}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12314}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12302}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12310}{0}{<fff>}{}{Cle}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12311}{0}{<fff>}{The Temple Gates}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {40}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12307}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12318}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12312}{0}{<fff>}{Ahkeem's Stuff}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12214}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12313}{0}{<fff>}{Vera's Veggies}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12216}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12314}{0}{<fff>}{The Museum of the Greater Gods}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12546}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12309}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12318}{0}{<fff>}{The Temple Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12311}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12224}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {40}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12319}{0}{<fff>}{The Bank}{$}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12214}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12592}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12320}{0}{<fff>}{The Butchery}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12545}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12216}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12321}{0}{<fff>}{The Witch's Brew}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12229}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12322}{0}{<fff>}{Braheem's Magic Shop}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12230}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12323}{0}{<fff>}{}{Mag}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12324}{0}{<fff>}{}{War}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12325}{0}{<fff>}{Entrance to the Cryogenics Center}{&}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12224}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12526}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12326}{0}{<fff>}{The General Store}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12208}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12327}{0}{<fff>}{Abdul's Armor}{#}{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12207}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12328}{0}{<fff>}{Adventurers' Meeting Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12200}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12330}{0}{<fff>}{}{Thf}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12333}{0}{<fff>}{The Bread Stand}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12208}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12334}{0}{<fff>}{Igor's Implements of Destruction}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12448}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12207}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12335}{0}{<fff>}{Ye Old Leather Shoppe}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12266}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12336}{0}{<fff>}{Smuggler's Inn}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12267}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12338}{0}{<fff>}{Warehouse}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12339}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12233}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12339}{0}{<fff>}{Warehouse}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12234}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12338}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12340}{0}{<fff>}{Wimpy's Burger Stand}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12341}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12235}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12294}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12341}{0}{<fff>}{Wimpy's Kitchen}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12340}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12342}{0}{<fff>}{The Forge}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12237}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12343}{0}{<fff>}{The Royal Stables}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12347}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12239}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12345}{0}{<fff>}{The Post Office}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12242}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12591}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12347}{0}{<fff>}{The Hay Loft}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12343}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12349}{0}{<fff>}{The Library}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12255}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12350}{0}{<fff>}{The Dance Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12255}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12351}{0}{<fff>}{Jail}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12244}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {12352}{0}{<fff>}{City Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12245}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12353}{0}{<fff>}{The Boyer/Fletcher's}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12256}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {12354}{0}{<fff>}{The Mason's}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12256}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {12356}{0}{<fff>}{The Palace Gate}{NTP}{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12220}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12357}{0}{<fff>}{North-West Tower}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12244}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {12360}{0}{<fff>}{North-East Tower}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12254}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {12362}{0}{<fff>}{The Tanner's Guild}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12256}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12365}{0}{<fff>}{Outside the Northern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12593}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12222}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12366}{0}{<fff>}{Outside the Eastern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12488}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12368}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12231}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12367}{0}{<fff>}{Outside the West Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12223}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12416}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12368}{0}{<fff>}{Outside the wall}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12366}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12404}{0}{<fff>}{Path through the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {4201}{n}{jt_m_link_action {north} {Wamphyri Aerie} {4201}}{1}{0}{}{1.000}{}{0.00}
+E {12405}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12409}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12405}{0}{<fff>}{Path through the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12406}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12404}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12406}{0}{<fff>}{Edge of the ravine}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12407}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12405}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12407}{0}{<fff>}{On a rope bridge}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12425}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12406}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12408}{0}{<fff>}{Ledge around the valley}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12409}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12409}{0}{<fff>}{Path through the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12404}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12408}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12410}{0}{<fff>}{On the eastern edge of the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {24001}{nw}{jt_m_link_action {northwest} {The Darkspine Mountains} {24001}}{9}{0}{}{1.000}{}{0.00}
+E {12411}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12427}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12411}{0}{<fff>}{In the foothills}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12412}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12410}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12412}{0}{<fff>}{In the foothills}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {10279}{n}{jt_m_link_action {north} {Hellas} {10279}}{1}{0}{}{1.000}{}{0.00}
+E {12413}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12411}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12413}{0}{<fff>}{A rocky trail}{*}{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12428}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12412}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {28}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {10100}{w}{jt_m_link_action {west} {Hellas} {10100}}{8}{0}{}{1.000}{}{0.00}
+
+R {12414}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12415}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {18}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12415}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12416}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {11}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12414}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12416}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12367}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12415}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12418}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {25}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {50}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12419}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {24}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {25}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12420}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {20}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {24}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12421}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12287}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12447}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12422}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12423}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12283}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12423}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12424}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12422}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12424}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12482}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12423}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12425}{0}{<fff>}{Edge of the ravine}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12426}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12407}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12426}{0}{<fff>}{Path through the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12427}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5862}{n}{jt_m_link_action {north} {The Monastery} {5862}}{1}{0}{}{1.000}{}{0.00}
+E {12425}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12427}{0}{<fff>}{Path through the mountains}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {12477}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12410}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12426}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12428}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {12429}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12413}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12429}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12430}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12428}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12430}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12431}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12429}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12431}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {49}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {23}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12430}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12434}{0}{<fff>}{The River of Lost Souls}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {1501}{n}{jt_m_link_action {north} {The Straight Path} {1501}}{1}{0}{}{1.000}{}{0.00}
+E {12435}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12435}{0}{<fff>}{The River of Lost Souls}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12434}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12436}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12436}{0}{<fff>}{The River of Lost Souls}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12435}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12437}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12437}{0}{<fff>}{A Split in the River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {50}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12436}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12438}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12451}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12438}{0}{<fff>}{The River of Lost Souls}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12437}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12439}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12439}{0}{<fff>}{The River of Lost Souls}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12438}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12440}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12440}{0}{<fff>}{The River of Lost Souls}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12439}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12441}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12441}{0}{<fff>}{The River of Lost Souls}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12440}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7518}{s}{jt_m_link_action {south} {The Nightmire} {7518}}{4}{0}{}{1.000}{}{0.00}
+
+R {12442}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {19}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {20}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12443}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12444}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {28}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {19}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12444}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12445}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12443}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12445}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12446}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12444}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12446}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12447}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12445}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12447}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12421}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {23}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12446}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12448}{0}{<fff>}{Igor's Secret Chamber}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12334}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+
+R {12449}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12454}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12450}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12452}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12455}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12450}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12453}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12450}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12450}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12449}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12451}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12437}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12452}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12454}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12455}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12452}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12456}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12452}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12455}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12458}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12453}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12457}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12453}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12456}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12452}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12454}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12456}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12451}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12453}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12449}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12455}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12456}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12452}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12452}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12452}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12456}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12455}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12453}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12457}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12452}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12457}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12457}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12450}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12452}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12456}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12458}{0}{<fff>}{Headwaters of the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12452}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12459}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12459}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12458}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12460}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12460}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12459}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12461}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12461}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12460}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12462}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12462}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12461}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12463}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12463}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12462}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12464}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12464}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12463}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12465}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12465}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12464}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12466}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12466}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12465}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12467}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12467}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12468}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12468}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12467}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12469}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12469}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12468}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3205}{w}{jt_m_link_action {west} {the southern part of Midgaard} {3205}}{8}{0}{}{1.000}{}{0.00}
+
+R {12470}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {3200}{e}{jt_m_link_action {east} {the southern part of Midgaard} {3200}}{2}{0}{}{1.000}{}{0.00}
+E {12471}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12471}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12470}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12472}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12472}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12471}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12473}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12473}{0}{<fff>}{On the Dark River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12472}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6145}{w}{jt_m_link_action {west} {dark Haon-Dor} {6145}}{8}{0}{}{1.000}{}{0.00}
+
+R {12477}{16384}{<faa>}{CRUSHED}{<faa>DT}{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
+E {12427}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12479}{0}{<fff>}{On the Plains}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12480}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12577}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12480}{0}{<fff>}{On the Plains}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {12481}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12479}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12481}{0}{<fff>}{Edge of the forest}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
+E {8300}{n}{jt_m_link_action {north} {Valhalla} {8300}}{1}{0}{}{1.000}{}{0.00}
+E {12480}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12482}{0}{<fff>}{Ishtar River}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12483}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12424}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12483}{0}{<fff>}{The river delta}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12484}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12482}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12484}{0}{<fff>}{The Dragon Sea}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12484}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {17}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12484}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12483}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12485}{0}{<fff>}{The Dragon Sea}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12494}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12493}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12486}{0}{<fff>}{The Dragon Sea}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12495}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12486}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {30}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12487}{0}{<fff>}{The Dragon Sea}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12496}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12504}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {29}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12494}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12493}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12488}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12489}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12366}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12489}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12490}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3600}{n}{jt_m_link_action {north} {Sesame Street and Muppet Theatre} {3600}}{1}{0}{}{1.000}{}{0.00}
+E {12488}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12490}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12491}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12489}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12491}{0}{<fff>}{On a road}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12492}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12490}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12492}{0}{<fff>}{Near the shore}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12493}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12491}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12493}{0}{<fff>}{On a dock}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12487}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {30}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12485}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12492}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12494}{0}{<fff>}{The Dragon Sea}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12503}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12487}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12494}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12493}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12495}{0}{<fff>}{The Dragon Sea}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {31}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12495}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {29}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {6700}{se}{jt_m_link_action {southeast} {Lost Isle of Shaedar} {6700}}{6}{0}{}{1.000}{}{0.00}
+E {12486}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12496}{0}{<fff>}{Under the dock}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12506}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12495}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12497}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12497}{0}{<fff>}{Lair of the Ixitxachitl}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12496}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {12498}{0}{<fff>}{New Thalos Metro Station}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12230}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12500}{0}{<fff>}{}{Bar}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12501}{0}{<fff>}{Newbie Meeting Room     }{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12200}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12502}{0}{<fff>}{The Dragon Sea}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {6961}{e}{jt_m_link_action {east} {The Dragon Sea} {6961}}{2}{0}{}{1.000}{}{0.00}
+E {12504}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12503}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {31}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12503}{0}{<fff>}{The Dragon Sea}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {6947}{e}{jt_m_link_action {east} {the Dragon Sea} {6947}}{2}{0}{}{1.000}{}{0.00}
+E {12504}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12494}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12504}{0}{<fff>}{The Dragon Sea}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {6985}{e}{jt_m_link_action {east} {the Dragon Sea} {6985}}{2}{0}{}{1.000}{}{0.00}
+E {12503}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12506}{0}{<fff>}{Under the dock}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12507}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12496}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12507}{0}{<fff>}{Under the dock}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
+E {12506}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12506}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12506}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12506}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12508}{0}{<fff>}{}{Nin}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12511}{0}{<fff>}{}{Soh}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12514}{0}{<fff>}{}{Jed}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12517}{0}{<fff>}{}{Apl}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12520}{0}{<fff>}{}{Pal}{}{}{}{INSIDE}{}{1.000}{}
+
+R {12526}{0}{<fff>}{Cryogenics Receiving Area}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12325}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {12527}{0}{<fff>}{The Perrywinkle Bridge over the Ishtar River}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12528}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12528}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12550}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12527}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12529}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12551}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12529}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12552}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12528}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12530}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12553}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12530}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12554}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12529}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12531}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12555}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12531}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12556}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12530}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12532}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12557}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12532}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12558}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12531}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12533}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12559}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12533}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12560}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12532}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12534}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12561}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12534}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12562}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12533}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12563}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12535}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12536}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {4}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12564}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12565}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12536}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12537}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12566}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12567}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12535}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12537}{0}{<fff>}{Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12538}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12568}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12569}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12536}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12538}{0}{<fff>}{Perrywinkle Court}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12571}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12570}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12572}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12537}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12545}{0}{<fff>}{The Collecting Vat}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+
+R {12546}{0}{<fff>}{The Museum of the Supreme God}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12314}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12550}{0}{<fff>}{Harco's Hut (110 Perrywinkle Rd)}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12528}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12551}{0}{<fff>}{109 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12528}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12552}{0}{<fff>}{Gm's House (108 Perrywinkle Rd)}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12529}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12553}{0}{<fff>}{Shadowen's House (107 Perrywinkle Rd)}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12529}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12554}{0}{<fff>}{106 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12530}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12555}{0}{<fff>}{105 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12530}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12556}{0}{<fff>}{104 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12531}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12557}{0}{<fff>}{103 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12531}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12558}{0}{<fff>}{102 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12532}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12559}{0}{<fff>}{101 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12532}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12560}{0}{<fff>}{100 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12533}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12561}{0}{<fff>}{99 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12533}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12562}{0}{<fff>}{98 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12534}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12563}{0}{<fff>}{97 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12534}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12564}{0}{<fff>}{96 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12535}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12565}{0}{<fff>}{95 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12535}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12566}{0}{<fff>}{94 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12536}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12567}{0}{<fff>}{93 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12536}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12568}{0}{<fff>}{92 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12537}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12569}{0}{<fff>}{91 Perrywinkle Road}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12537}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12570}{0}{<fff>}{1000 Perrywinkle Court}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12538}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12571}{0}{<fff>}{1200 Perrywinkle Court}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12538}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12572}{0}{<fff>}{New Thalos City Dump}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12211}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12573}{0}{<fff>}{New Thalos Pets 'n Mounts}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12229}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12575}{0}{<fff>}{Bluto's Boat Rental}{#}{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {3}{d}{#delay 0 {down;#map goto 12286}}{32}{0}{}{1.000}{}{0.00}
+E {12243}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12576}{0}{<fff>}{In the shadow of the city wall}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {34}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12577}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {12577}{0}{<fff>}{The Refuse Heap}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {12479}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12576}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {12578}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12578}{0}{<fff>}{A path through the plains}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {12577}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12579}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12579}{0}{<fff>}{A path through the plains}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {12578}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12580}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12580}{0}{<fff>}{A path through the plains}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {12579}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12581}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12581}{0}{<fff>}{In the rolling plains}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {12580}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12582}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12582}{0}{<fff>}{In the rolling plains}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {12581}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12583}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {12583}{0}{<fff>}{A path through the plains}{ }{}{the grand city of New Thalos}{}{HILLS}{}{1.000}{}
+E {12582}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {8}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12587}{0}{<fff>}{The Board Complex of New Thalos}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12307}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12589}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12588}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12590}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12588}{0}{<fff>}{The Reading Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12587}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12589}{0}{<fff>}{The New Thalos Social Center}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12587}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12590}{0}{<fff>}{The New Thalos Questing Council}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12587}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12591}{0}{<fff>}{The New Thalos Immigration Office}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12345}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {12592}{0}{<fff>}{Chamber of Commerce}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12319}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {12593}{0}{<fff>}{On A Cobblestone Path}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12594}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12365}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12594}{0}{<fff>}{On A Cobblestone Path}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12595}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12593}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12595}{0}{<fff>}{On A Cobblestone Path}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12596}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12594}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12596}{0}{<fff>}{On A Cobblestone Path}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12597}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12598}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12595}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12597}{0}{<fff>}{On A Cobblestone Path}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12596}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12598}{0}{<fff>}{On A Cobblestone Path}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {12599}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12596}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12599}{0}{<fff>}{On A Cobblestone Path}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
+E {10658}{e}{jt_m_link_action {east} {Arcadia} {10658}}{2}{0}{}{1.000}{}{0.00}
+E {12598}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {24001}{0}{<fff>}{}{DkM}{}{}{}{MOUNTAINS}{}{1.000}{}

@@ -1,0 +1,11 @@
+#action {^%1 is dead! R.I.P.$} {
+    #if {&{jt_m_current}} {
+        #map get roomvnum kroomvnum;
+        #map get roomarea kroomarea;
+        #line log logs/kill.log {%1,$kroomarea,$kroomvnum};
+        #unvar kroomarea;
+        #unvar kroomvnum;
+    } {
+        #line log logs/kill.log {%1,unknown};
+    };
+}

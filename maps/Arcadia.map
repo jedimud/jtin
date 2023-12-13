@@ -1,0 +1,873 @@
+C 50000
+
+V 2020
+
+CAVOID <118>
+CBACKGROUND 
+CBLOCK <218>
+CEXITS <278>
+CFOG <148>
+CHIDE <168>
+CINVISIBLE <208>
+CPATHS <138>
+CROOMS <178>
+CSYMBOLS <128>
+CUSER <258>
+
+F 8207
+
+G 0
+
+I 10783
+
+L {ASCII NESW LINE} {NO EXITS} {x}
+L {ASCII NESW LINE} {N} {o}
+L {ASCII NESW LINE} {  E} {o}
+L {ASCII NESW LINE} {N E} {+}
+L {ASCII NESW LINE} {    S} {o}
+L {ASCII NESW LINE} {N   S} {|}
+L {ASCII NESW LINE} {  E S} {+}
+L {ASCII NESW LINE} {N E S} {+}
+L {ASCII NESW LINE} {      W} {o}
+L {ASCII NESW LINE} {N     W} {+}
+L {ASCII NESW LINE} {  E   W} {-}
+L {ASCII NESW LINE} {N E   W} {+}
+L {ASCII NESW LINE} {    S W} {+}
+L {ASCII NESW LINE} {N   S W} {+}
+L {ASCII NESW LINE} {  E S W} {+}
+L {ASCII NESW LINE} {N E S W} {+}
+L {ASCII NESW MISC} {USER} {x}
+L {ASCII NESW MISC} {DIR UNKNOWN} {+}
+L {ASCII NESW MISC} {N S VOID} {|}
+L {ASCII NESW MISC} {E W VOID} {-}
+L {ASCII NESW CURVED} {N E CURVED} {+}
+L {ASCII NESW CURVED} {S E CURVED} {+}
+L {ASCII NESW CURVED} {S W CURVED} {+}
+L {ASCII NESW CURVED} {N W CURVED} {+}
+L {ASCII NESW DIRS} {DIR N} {|}
+L {ASCII NESW DIRS} {DIR NE} {/}
+L {ASCII NESW DIRS} {DIR E} {-}
+L {ASCII NESW DIRS} {DIR SE} {\\}
+L {ASCII NESW DIRS} {DIR S} {|}
+L {ASCII NESW DIRS} {DIR SW} {/}
+L {ASCII NESW DIRS} {DIR W} {-}
+L {ASCII NESW DIRS} {DIR NW} {\\}
+L {NESW LINE} {NO EXITS} {\u2B51}
+L {NESW LINE} {N} {\u2579}
+L {NESW LINE} {  E} {\u257A}
+L {NESW LINE} {N E} {\u2517}
+L {NESW LINE} {    S} {\u257B}
+L {NESW LINE} {N   S} {\u2503}
+L {NESW LINE} {  E S} {\u250F}
+L {NESW LINE} {N E S} {\u2523}
+L {NESW LINE} {      W} {\u2578}
+L {NESW LINE} {N     W} {\u251B}
+L {NESW LINE} {  E   W} {\u2501}
+L {NESW LINE} {N E   W} {\u253B}
+L {NESW LINE} {    S W} {\u2513}
+L {NESW LINE} {N   S W} {\u252B}
+L {NESW LINE} {  E S W} {\u2533}
+L {NESW LINE} {N E S W} {\u254B}
+L {NESW MISC} {USER} {\u2B51}
+L {NESW MISC} {DIR UNKNOWN} {\u2012}
+L {NESW MISC} {N S VOID} {\u2507}
+L {NESW MISC} {E W VOID} {\u254D}
+L {NESW CURVED} {N E CURVED} {\u2570}
+L {NESW CURVED} {S E CURVED} {\u256D}
+L {NESW CURVED} {S W CURVED} {\u256E}
+L {NESW CURVED} {N W CURVED} {\u256F}
+L {NESW DIRS} {DIR N} {\u2191}
+L {NESW DIRS} {DIR NE} {\u2B08}
+L {NESW DIRS} {DIR E} {\u2B95}
+L {NESW DIRS} {DIR SE} {\u2b0A}
+L {NESW DIRS} {DIR S} {\u2193}
+L {NESW DIRS} {DIR SW} {\u2B0B}
+L {NESW DIRS} {DIR W} {\u2B05}
+L {NESW DIRS} {DIR NW} {\u2B09}
+L {MUDFONT NWS} {NO EXITS} {\u2830}
+L {MUDFONT NWS} {N} {\u2838}
+L {MUDFONT NWS} {  NW} {\u2831}
+L {MUDFONT NWS} {N NW} {\u2839}
+L {MUDFONT NWS} {     W} {\u2836}
+L {MUDFONT NWS} {N    W} {\u283E}
+L {MUDFONT NWS} {  NW W} {\u2837}
+L {MUDFONT NWS} {N NW W} {\u283F}
+L {MUDFONT NWS} {       SW} {\u2870}
+L {MUDFONT NWS} {N      SW} {\u2878}
+L {MUDFONT NWS} {  NW   SW} {\u2871}
+L {MUDFONT NWS} {N NW   SW} {\u2879}
+L {MUDFONT NWS} {     W SW} {\u2876}
+L {MUDFONT NWS} {N    W SW} {\u287E}
+L {MUDFONT NWS} {  NW W SW} {\u2877}
+L {MUDFONT NWS} {N NW W SW} {\u287F}
+L {MUDFONT NWS} {          S} {\u28B0}
+L {MUDFONT NWS} {N         S} {\u28B8}
+L {MUDFONT NWS} {  NW      S} {\u28B1}
+L {MUDFONT NWS} {N NW      S} {\u28B9}
+L {MUDFONT NWS} {     W    S} {\u28B6}
+L {MUDFONT NWS} {N    W    S} {\u28BE}
+L {MUDFONT NWS} {  NW W    S} {\u28B7}
+L {MUDFONT NWS} {N NW W    S} {\u28BF}
+L {MUDFONT NWS} {       SW S} {\u28F0}
+L {MUDFONT NWS} {N      SW S} {\u28F8}
+L {MUDFONT NWS} {  NW   SW S} {\u28F1}
+L {MUDFONT NWS} {N NW   SW S} {\u28F9}
+L {MUDFONT NWS} {     W SW S} {\u28F6}
+L {MUDFONT NWS} {N    W SW S} {\u28FE}
+L {MUDFONT NWS} {  NW W SW S} {\u28F7}
+L {MUDFONT NWS} {N NW W SW S} {\u28FF}
+L {MUDFONT NES} {NO EXITS} {\u2806}
+L {MUDFONT NES} {N} {\u2807}
+L {MUDFONT NES} {  NE} {\u280E}
+L {MUDFONT NES} {N NE} {\u280F}
+L {MUDFONT NES} {     W} {\u2836}
+L {MUDFONT NES} {N    W} {\u2837}
+L {MUDFONT NES} {  NE W} {\u283E}
+L {MUDFONT NES} {N NE W} {\u283F}
+L {MUDFONT NES} {       SE} {\u2886}
+L {MUDFONT NES} {N      SE} {\u2887}
+L {MUDFONT NES} {  NE   SE} {\u288E}
+L {MUDFONT NES} {N NE   SE} {\u288F}
+L {MUDFONT NES} {     W SE} {\u28B6}
+L {MUDFONT NES} {N    W SE} {\u28B7}
+L {MUDFONT NES} {  NE W SE} {\u28BE}
+L {MUDFONT NES} {N NE W SE} {\u28BF}
+L {MUDFONT NES} {          S} {\u2846}
+L {MUDFONT NES} {N         S} {\u2847}
+L {MUDFONT NES} {  NE      S} {\u284E}
+L {MUDFONT NES} {N NE      S} {\u284F}
+L {MUDFONT NES} {     W    S} {\u2876}
+L {MUDFONT NES} {N    W    S} {\u2877}
+L {MUDFONT NES} {  NE W    S} {\u287E}
+L {MUDFONT NES} {N NE W    S} {\u287F}
+L {MUDFONT NES} {       SE S} {\u28C6}
+L {MUDFONT NES} {N      SE S} {\u28C7}
+L {MUDFONT NES} {  NE   SE S} {\u28CE}
+L {MUDFONT NES} {N NE   SE S} {\u28CF}
+L {MUDFONT NES} {     W SE S} {\u28F6}
+L {MUDFONT NES} {N    W SE S} {\u28F7}
+L {MUDFONT NES} {  NE W SE S} {\u28FE}
+L {MUDFONT NES} {N NE W SE S} {\u28FF}
+L {MUDFONT VOID NWS} {NO EXITS} {\u2800}
+L {MUDFONT VOID NWS} {N} {\u2808}
+L {MUDFONT VOID NWS} {  NW} {\u2801}
+L {MUDFONT VOID NWS} {N NW} {\u2809}
+L {MUDFONT VOID NWS} {     W} {\u2806}
+L {MUDFONT VOID NWS} {N    W} {\u280E}
+L {MUDFONT VOID NWS} {  NW W} {\u2807}
+L {MUDFONT VOID NWS} {N NW W} {\u280F}
+L {MUDFONT VOID NWS} {       SW} {\u2840}
+L {MUDFONT VOID NWS} {N      SW} {\u2848}
+L {MUDFONT VOID NWS} {  NW   SW} {\u2841}
+L {MUDFONT VOID NWS} {N NW   SW} {\u2849}
+L {MUDFONT VOID NWS} {     W SW} {\u2846}
+L {MUDFONT VOID NWS} {N    W SW} {\u284E}
+L {MUDFONT VOID NWS} {  NW W SW} {\u2847}
+L {MUDFONT VOID NWS} {N NW W SW} {\u284F}
+L {MUDFONT VOID NWS} {          S} {\u2880}
+L {MUDFONT VOID NWS} {N         S} {\u2888}
+L {MUDFONT VOID NWS} {  NW      S} {\u2881}
+L {MUDFONT VOID NWS} {N NW      S} {\u2889}
+L {MUDFONT VOID NWS} {     W    S} {\u2886}
+L {MUDFONT VOID NWS} {N    W    S} {\u288E}
+L {MUDFONT VOID NWS} {  NW W    S} {\u2887}
+L {MUDFONT VOID NWS} {N NW W    S} {\u288F}
+L {MUDFONT VOID NWS} {       SW S} {\u28C0}
+L {MUDFONT VOID NWS} {N      SW S} {\u28C8}
+L {MUDFONT VOID NWS} {  NW   SW S} {\u28C1}
+L {MUDFONT VOID NWS} {N NW   SW S} {\u28C9}
+L {MUDFONT VOID NWS} {     W SW S} {\u28C6}
+L {MUDFONT VOID NWS} {N    W SW S} {\u28CE}
+L {MUDFONT VOID NWS} {  NW W SW S} {\u28C7}
+L {MUDFONT VOID NWS} {N NW W SW S} {\u28CF}
+L {MUDFONT VOID NES} {NO EXITS} {\u2800}
+L {MUDFONT VOID NES} {N} {\u2801}
+L {MUDFONT VOID NES} {  NE} {\u2808}
+L {MUDFONT VOID NES} {N NE} {\u2809}
+L {MUDFONT VOID NES} {     W} {\u2830}
+L {MUDFONT VOID NES} {N    W} {\u2831}
+L {MUDFONT VOID NES} {  NE W} {\u2838}
+L {MUDFONT VOID NES} {N NE W} {\u2839}
+L {MUDFONT VOID NES} {       SE} {\u2880}
+L {MUDFONT VOID NES} {N      SE} {\u2881}
+L {MUDFONT VOID NES} {  NE   SE} {\u2888}
+L {MUDFONT VOID NES} {N NE   SE} {\u2889}
+L {MUDFONT VOID NES} {     W SE} {\u28B0}
+L {MUDFONT VOID NES} {N    W SE} {\u28B1}
+L {MUDFONT VOID NES} {  NE W SE} {\u28B8}
+L {MUDFONT VOID NES} {N NE W SE} {\u28B9}
+L {MUDFONT VOID NES} {          S} {\u2840}
+L {MUDFONT VOID NES} {N         S} {\u2841}
+L {MUDFONT VOID NES} {  NE      S} {\u2848}
+L {MUDFONT VOID NES} {N NE      S} {\u2849}
+L {MUDFONT VOID NES} {     W    S} {\u2870}
+L {MUDFONT VOID NES} {N    W    S} {\u2871}
+L {MUDFONT VOID NES} {  NE W    S} {\u2878}
+L {MUDFONT VOID NES} {N NE W    S} {\u2879}
+L {MUDFONT VOID NES} {       SE S} {\u28C0}
+L {MUDFONT VOID NES} {N      SE S} {\u28C1}
+L {MUDFONT VOID NES} {  NE   SE S} {\u28C8}
+L {MUDFONT VOID NES} {N NE   SE S} {\u28C9}
+L {MUDFONT VOID NES} {     W SE S} {\u28F0}
+L {MUDFONT VOID NES} {N    W SE S} {\u28F1}
+L {MUDFONT VOID NES} {  NE W SE S} {\u28F8}
+L {MUDFONT VOID NES} {N NE W SE S} {\u28F9}
+L {MUDFONT CURVED} {N E} {\u2818}
+L {MUDFONT CURVED} {S E} {\u28A0}
+L {MUDFONT CURVED} {S W} {\u2844}
+L {MUDFONT CURVED} {N W} {\u2803}
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {SE} {\u2198}
+L {UNICODE GRAPHICS} {NE} {\u2197}
+L {UNICODE GRAPHICS} {SE NE} {>}
+L {UNICODE GRAPHICS} {SW} {\u2199}
+L {UNICODE GRAPHICS} {SE SW} {\u2E0C\u2E0D}
+L {UNICODE GRAPHICS} {NE SW} {\uFF0F}
+L {UNICODE GRAPHICS} {SE NE SW} {>\u2E0D}
+L {UNICODE GRAPHICS} {NW} {\u2196}
+L {UNICODE GRAPHICS} {SE NW} {\uFF3C}
+L {UNICODE GRAPHICS} {NE NW} {\u2E1D\u2E1C}
+L {UNICODE GRAPHICS} {SE NE NW} {>\u2E1C}
+L {UNICODE GRAPHICS} {SW NW} {<}
+L {UNICODE GRAPHICS} {SE SW NW} {\u2E0C<}
+L {UNICODE GRAPHICS} {NE SW NW} {\u2E1D<}
+L {UNICODE GRAPHICS} {SE NE SW NW} {><}
+L {UNICODE GRAPHICS} {D} {-}
+L {UNICODE GRAPHICS} {N} {\u2191}
+L {UNICODE GRAPHICS} {S} {\u2193}
+L {UNICODE GRAPHICS} {N S} {\u2502}
+L {UNICODE GRAPHICS} {U} {+}
+L {UNICODE GRAPHICS} {E} {\u2192}
+L {UNICODE GRAPHICS} {W} {\u2190}
+L {UNICODE GRAPHICS} {E W} {\u2500}
+L {UNICODE GRAPHICS} {ROOM L} {[}
+L {UNICODE GRAPHICS} {ROOM L CURVED} {(}
+L {UNICODE GRAPHICS} {ROOM R} {]}
+L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
+
+
+
+
+T {} { } {}
+T {CITY} {<FF03A2E>=} {WIDE}
+T {FIELD} {<F9A7D0A>·} {WIDE FADEOUT}
+T {FOREST} {<F0B5345>⍋} {WIDE FADEOUT}
+T {HILLS} {<F7D6608>︵} {DENSE WIDE FADEOUT DOUBLE}
+T {INSIDE} {<F922B21>≡} {}
+T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
+T {MOUNTAINS} {<F935116>◮} {WIDE}
+T {NOSWIM} {<F21618C>~} {}
+T {SWIM} {<F21618C>~} {}
+
+
+
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10600}{0}{<fff>}{In the Northwestern Tower}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10659}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {10601}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10656}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10601}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10612}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10613}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10614}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10612}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10614}{0}{<fff>}{In the Northeastern Tower}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10670}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {10672}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10613}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10615}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10628}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10640}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10641}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10640}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10642}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10642}{0}{<fff>}{In the Southwestern Tower}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10690}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {10641}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10643}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {10643}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10644}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10642}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10644}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10656}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10657}{0}{<fff>}{Crossing Amethyst Bridge}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10659}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+
+R {10658}{0}{<fff>}{Crossing Tourmaline Bridge}{*}{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10713}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {12599}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12599}}{8}{0}{}{1.000}{}{0.00}
+
+R {10659}{0}{<fff>}{West Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10657}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {10660}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {10600}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+
+R {10660}{0}{<fff>}{North Ruby Avenue and West Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10661}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10659}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {10701}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+
+R {10661}{0}{<fff>}{West Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10662}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10714}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10660}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10662}{0}{<fff>}{West Tanzanite Drive and North Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10663}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10715}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10718}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10661}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10663}{0}{<fff>}{West Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10664}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10716}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10662}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10664}{0}{<fff>}{West Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10717}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10671}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {10663}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10665}{0}{<fff>}{East Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10666}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10755}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10671}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+
+R {10666}{0}{<fff>}{East Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10667}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10756}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10665}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10667}{0}{<fff>}{East Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10668}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10757}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10666}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10668}{0}{<fff>}{East Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10669}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10758}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10667}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10669}{0}{<fff>}{Sapphire Avenue and East Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10759}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10670}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {10702}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {10668}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10670}{0}{<fff>}{East Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10669}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {10614}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {10671}{0}{<fff>}{North Diamond Boulevard and Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10665}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {10664}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {10673}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10672}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10614}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10615}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10673}{0}{<fff>}{North Diamond Boulevard and Jade Street}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10735}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10671}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10674}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10674}{0}{<fff>}{North Diamond Boulevard}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10673}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10675}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10675}{0}{<fff>}{North Diamond Boulevard and Onyx Lane}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10740}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10674}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10676}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10676}{0}{<fff>}{North Diamond Boulevard}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10765}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10675}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10677}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10677}{0}{<fff>}{North Diamond Boulevard}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10676}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10680}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {10678}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+
+R {10678}{0}{<fff>}{Diamond Boulevard and Pyrite Alley}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10677}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {10679}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {10730}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10679}{0}{<fff>}{South Diamond Boulevard}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10680}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {10678}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {10681}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10798}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10680}{0}{<fff>}{Diamond Boulevard and Lapis Lazuli Way}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10731}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10770}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10677}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {10679}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+
+R {10681}{0}{<fff>}{South Diamond Boulevard}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10679}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10682}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10682}{0}{<fff>}{South Diamond Boulevard}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10681}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10683}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10683}{0}{<fff>}{South Diamond Boulevard}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10682}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10684}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10684}{0}{<fff>}{South Diamond Boulevard and Iolite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10683}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10685}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+
+R {10685}{0}{<fff>}{Iolite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10684}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {10686}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10686}{0}{<fff>}{Iolite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10685}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10687}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10687}{0}{<fff>}{South Emerald Avenue and Iolite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10686}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10727}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10688}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10688}{0}{<fff>}{Iolite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10687}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10689}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10689}{0}{<fff>}{Iolite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10688}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10690}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+
+R {10690}{0}{<fff>}{South Ruby Avenue and Iolite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10691}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10689}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {10642}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {10691}{0}{<fff>}{South Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10692}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10690}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10692}{0}{<fff>}{South Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10795}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10693}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10691}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10693}{0}{<fff>}{South Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10794}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10694}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10692}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10694}{0}{<fff>}{South Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10695}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10693}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10695}{0}{<fff>}{Ruby Avenue and Pyrite Alley}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10728}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10696}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10694}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10696}{0}{<fff>}{North Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10785}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10697}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10695}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10697}{0}{<fff>}{North Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10698}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10696}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10698}{0}{<fff>}{North Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10784}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10699}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10697}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10699}{0}{<fff>}{North Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10700}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10698}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10700}{0}{<fff>}{North Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10783}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10701}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10699}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10701}{0}{<fff>}{North Ruby Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10660}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {10700}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10702}{0}{<fff>}{North Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10669}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {10703}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10703}{0}{<fff>}{North Sapphire Avenue and Jade Street}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10702}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10704}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10739}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10704}{0}{<fff>}{North Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10703}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10705}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10705}{0}{<fff>}{North Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10704}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10706}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10706}{0}{<fff>}{North Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10705}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10707}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10707}{0}{<fff>}{North Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10706}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10708}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10708}{0}{<fff>}{Sapphire Avenue and Lapis Lazuli Way}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10707}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10709}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10734}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10709}{0}{<fff>}{South Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10708}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10710}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10710}{0}{<fff>}{South Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10709}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10711}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10711}{0}{<fff>}{South Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10710}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10712}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10712}{0}{<fff>}{South Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10711}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10713}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10713}{0}{<fff>}{South Sapphire Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10712}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10658}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {10628}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {10714}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10661}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10715}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10662}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10716}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10663}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10717}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10664}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10718}{0}{<fff>}{North Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10662}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10719}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10786}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10719}{0}{<fff>}{North Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10789}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10718}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10720}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10720}{0}{<fff>}{North Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10719}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10721}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10787}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10721}{0}{<fff>}{North Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10790}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10720}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10722}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10722}{0}{<fff>}{North Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10721}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10723}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10788}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10723}{0}{<fff>}{North Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10791}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10722}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10724}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10724}{0}{<fff>}{Emerald Avenue and Pyrite Alley}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10730}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10723}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10725}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10729}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10725}{0}{<fff>}{South Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10724}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10726}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10726}{0}{<fff>}{South Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10725}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10727}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10727}{0}{<fff>}{South Emerald Avenue}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10797}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10726}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10687}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10796}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10728}{0}{<fff>}{Pyrite Alley}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10729}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10792}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {10695}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10729}{0}{<fff>}{Pyrite Alley}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10724}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10793}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {10728}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10730}{0}{<fff>}{Pyrite Alley}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10678}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10724}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10731}{0}{<fff>}{Lapis Lazuli Way and Hematite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10732}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10771}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10745}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10680}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10732}{0}{<fff>}{Lapis Lazuli Way}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10733}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10772}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10731}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10733}{0}{<fff>}{Lapis Lazuli Way and Malachite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10734}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10773}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10750}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10732}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10734}{0}{<fff>}{Lapis Lazuli Way}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10708}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10733}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {10774}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {10735}{0}{<fff>}{Jade Street}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10736}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10760}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10765}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10673}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10736}{0}{<fff>}{Jade Street}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10737}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10761}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {10735}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10737}{0}{<fff>}{Jade Street}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10738}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10762}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10736}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10738}{0}{<fff>}{Jade Street}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10739}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10763}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {10737}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10739}{0}{<fff>}{Jade Street}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10703}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {10764}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10738}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10740}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10745}{0}{<fff>}{Hematite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10731}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10746}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10746}{0}{<fff>}{Hematite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10745}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10747}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10775}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10747}{0}{<fff>}{Hematite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10746}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10748}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10776}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10748}{0}{<fff>}{Hematite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10747}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10749}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10777}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10749}{0}{<fff>}{Hematite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10748}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10778}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10750}{0}{<fff>}{Malachite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10733}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10751}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10751}{0}{<fff>}{Malachite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10750}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10752}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10779}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10752}{0}{<fff>}{Malachite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10751}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10753}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10780}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10753}{0}{<fff>}{Malachite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10752}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10754}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10781}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10754}{0}{<fff>}{Malachite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10753}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10782}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10755}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10665}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10756}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10666}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10757}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10667}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10758}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10668}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10759}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10669}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10760}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10735}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10761}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10736}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {10762}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10737}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10763}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10738}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {10764}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10739}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10765}{0}{<fff>}{Entrance to Air's Keep}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10735}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {10814}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {10813}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {10740}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {10815}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {10816}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {10676}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10770}{0}{<fff>}{This And That}{#}{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10680}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10771}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10731}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10772}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10732}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10773}{0}{<fff>}{Puff the Magic Dragon}{#}{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10733}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {10774}{0}{<fff>}{The Grand Foyer}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+
+R {10775}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10746}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10776}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10747}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10777}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10748}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10778}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10749}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10779}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10751}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10780}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10752}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10781}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10753}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10782}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10754}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10783}{0}{<fff>}{Nothrim Telerrim}{*}{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10700}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10784}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10698}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10785}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10696}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10786}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10718}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10787}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10720}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10788}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10722}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10789}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10719}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10790}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10721}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10791}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10723}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10792}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10728}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {10793}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10729}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {10794}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10693}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10795}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10692}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10796}{0}{<fff>}{An Empty Shop}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10727}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10797}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10727}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {10798}{0}{<fff>}{First Bank of Arcadia}{$}{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10679}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {10813}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10814}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10815}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {10816}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {12599}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}

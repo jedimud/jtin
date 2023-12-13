@@ -1,0 +1,10 @@
+Object 'a garnet ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 6000, Rent: 2000, Min. level: 0
+AC-apply is 1
+Can affect you as :
+   Affects: MANA By 10
+   Affects: MOVE_REGEN By -4
+Item slot: Ring
+-----

@@ -1,0 +1,10 @@
+Object 'a red wyvern scale bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM INVIS !DONATE !JUNK UNIQUE INSURED 
+Weight: 3, Value: 1500, Rent: 1000, Min. level: 0
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 1
+Item slot: Wrist
+-----

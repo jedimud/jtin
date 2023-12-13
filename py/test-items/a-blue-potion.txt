@@ -1,0 +1,6 @@
+Object 'a blue potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 2, Value: 6000, Rent: 3000, Min. level: 0
+This POTION casts:  Level 15 of cure critic cure critic cure serious
+-----

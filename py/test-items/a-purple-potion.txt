@@ -1,0 +1,12 @@
+Object 'a purple potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 10000, Rent: 5000, Min. level: 0
+This POTION casts:  Level 17 of blindness sanctuary poison
+Item slot: Hold
++++++
+ 
+It looks rather strange!
+
+
+-----

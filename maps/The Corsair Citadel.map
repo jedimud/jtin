@@ -1,0 +1,956 @@
+C 50000
+
+V 2020
+
+CAVOID <118>
+CBACKGROUND 
+CBLOCK <218>
+CEXITS <278>
+CFOG <148>
+CHIDE <168>
+CINVISIBLE <208>
+CPATHS <138>
+CROOMS <178>
+CSYMBOLS <128>
+CUSER <258>
+
+F 8207
+
+G 0
+
+I 12637
+
+L {ASCII NESW LINE} {NO EXITS} {x}
+L {ASCII NESW LINE} {N} {o}
+L {ASCII NESW LINE} {  E} {o}
+L {ASCII NESW LINE} {N E} {+}
+L {ASCII NESW LINE} {    S} {o}
+L {ASCII NESW LINE} {N   S} {|}
+L {ASCII NESW LINE} {  E S} {+}
+L {ASCII NESW LINE} {N E S} {+}
+L {ASCII NESW LINE} {      W} {o}
+L {ASCII NESW LINE} {N     W} {+}
+L {ASCII NESW LINE} {  E   W} {-}
+L {ASCII NESW LINE} {N E   W} {+}
+L {ASCII NESW LINE} {    S W} {+}
+L {ASCII NESW LINE} {N   S W} {+}
+L {ASCII NESW LINE} {  E S W} {+}
+L {ASCII NESW LINE} {N E S W} {+}
+L {ASCII NESW MISC} {USER} {x}
+L {ASCII NESW MISC} {DIR UNKNOWN} {+}
+L {ASCII NESW MISC} {N S VOID} {|}
+L {ASCII NESW MISC} {E W VOID} {-}
+L {ASCII NESW CURVED} {N E CURVED} {+}
+L {ASCII NESW CURVED} {S E CURVED} {+}
+L {ASCII NESW CURVED} {S W CURVED} {+}
+L {ASCII NESW CURVED} {N W CURVED} {+}
+L {ASCII NESW DIRS} {DIR N} {|}
+L {ASCII NESW DIRS} {DIR NE} {/}
+L {ASCII NESW DIRS} {DIR E} {-}
+L {ASCII NESW DIRS} {DIR SE} {\\}
+L {ASCII NESW DIRS} {DIR S} {|}
+L {ASCII NESW DIRS} {DIR SW} {/}
+L {ASCII NESW DIRS} {DIR W} {-}
+L {ASCII NESW DIRS} {DIR NW} {\\}
+L {NESW LINE} {NO EXITS} {\u2B51}
+L {NESW LINE} {N} {\u2579}
+L {NESW LINE} {  E} {\u257A}
+L {NESW LINE} {N E} {\u2517}
+L {NESW LINE} {    S} {\u257B}
+L {NESW LINE} {N   S} {\u2503}
+L {NESW LINE} {  E S} {\u250F}
+L {NESW LINE} {N E S} {\u2523}
+L {NESW LINE} {      W} {\u2578}
+L {NESW LINE} {N     W} {\u251B}
+L {NESW LINE} {  E   W} {\u2501}
+L {NESW LINE} {N E   W} {\u253B}
+L {NESW LINE} {    S W} {\u2513}
+L {NESW LINE} {N   S W} {\u252B}
+L {NESW LINE} {  E S W} {\u2533}
+L {NESW LINE} {N E S W} {\u254B}
+L {NESW MISC} {USER} {\u2B51}
+L {NESW MISC} {DIR UNKNOWN} {\u2012}
+L {NESW MISC} {N S VOID} {\u2507}
+L {NESW MISC} {E W VOID} {\u254D}
+L {NESW CURVED} {N E CURVED} {\u2570}
+L {NESW CURVED} {S E CURVED} {\u256D}
+L {NESW CURVED} {S W CURVED} {\u256E}
+L {NESW CURVED} {N W CURVED} {\u256F}
+L {NESW DIRS} {DIR N} {\u2191}
+L {NESW DIRS} {DIR NE} {\u2B08}
+L {NESW DIRS} {DIR E} {\u2B95}
+L {NESW DIRS} {DIR SE} {\u2b0A}
+L {NESW DIRS} {DIR S} {\u2193}
+L {NESW DIRS} {DIR SW} {\u2B0B}
+L {NESW DIRS} {DIR W} {\u2B05}
+L {NESW DIRS} {DIR NW} {\u2B09}
+L {MUDFONT NWS} {NO EXITS} {\u2830}
+L {MUDFONT NWS} {N} {\u2838}
+L {MUDFONT NWS} {  NW} {\u2831}
+L {MUDFONT NWS} {N NW} {\u2839}
+L {MUDFONT NWS} {     W} {\u2836}
+L {MUDFONT NWS} {N    W} {\u283E}
+L {MUDFONT NWS} {  NW W} {\u2837}
+L {MUDFONT NWS} {N NW W} {\u283F}
+L {MUDFONT NWS} {       SW} {\u2870}
+L {MUDFONT NWS} {N      SW} {\u2878}
+L {MUDFONT NWS} {  NW   SW} {\u2871}
+L {MUDFONT NWS} {N NW   SW} {\u2879}
+L {MUDFONT NWS} {     W SW} {\u2876}
+L {MUDFONT NWS} {N    W SW} {\u287E}
+L {MUDFONT NWS} {  NW W SW} {\u2877}
+L {MUDFONT NWS} {N NW W SW} {\u287F}
+L {MUDFONT NWS} {          S} {\u28B0}
+L {MUDFONT NWS} {N         S} {\u28B8}
+L {MUDFONT NWS} {  NW      S} {\u28B1}
+L {MUDFONT NWS} {N NW      S} {\u28B9}
+L {MUDFONT NWS} {     W    S} {\u28B6}
+L {MUDFONT NWS} {N    W    S} {\u28BE}
+L {MUDFONT NWS} {  NW W    S} {\u28B7}
+L {MUDFONT NWS} {N NW W    S} {\u28BF}
+L {MUDFONT NWS} {       SW S} {\u28F0}
+L {MUDFONT NWS} {N      SW S} {\u28F8}
+L {MUDFONT NWS} {  NW   SW S} {\u28F1}
+L {MUDFONT NWS} {N NW   SW S} {\u28F9}
+L {MUDFONT NWS} {     W SW S} {\u28F6}
+L {MUDFONT NWS} {N    W SW S} {\u28FE}
+L {MUDFONT NWS} {  NW W SW S} {\u28F7}
+L {MUDFONT NWS} {N NW W SW S} {\u28FF}
+L {MUDFONT NES} {NO EXITS} {\u2806}
+L {MUDFONT NES} {N} {\u2807}
+L {MUDFONT NES} {  NE} {\u280E}
+L {MUDFONT NES} {N NE} {\u280F}
+L {MUDFONT NES} {     W} {\u2836}
+L {MUDFONT NES} {N    W} {\u2837}
+L {MUDFONT NES} {  NE W} {\u283E}
+L {MUDFONT NES} {N NE W} {\u283F}
+L {MUDFONT NES} {       SE} {\u2886}
+L {MUDFONT NES} {N      SE} {\u2887}
+L {MUDFONT NES} {  NE   SE} {\u288E}
+L {MUDFONT NES} {N NE   SE} {\u288F}
+L {MUDFONT NES} {     W SE} {\u28B6}
+L {MUDFONT NES} {N    W SE} {\u28B7}
+L {MUDFONT NES} {  NE W SE} {\u28BE}
+L {MUDFONT NES} {N NE W SE} {\u28BF}
+L {MUDFONT NES} {          S} {\u2846}
+L {MUDFONT NES} {N         S} {\u2847}
+L {MUDFONT NES} {  NE      S} {\u284E}
+L {MUDFONT NES} {N NE      S} {\u284F}
+L {MUDFONT NES} {     W    S} {\u2876}
+L {MUDFONT NES} {N    W    S} {\u2877}
+L {MUDFONT NES} {  NE W    S} {\u287E}
+L {MUDFONT NES} {N NE W    S} {\u287F}
+L {MUDFONT NES} {       SE S} {\u28C6}
+L {MUDFONT NES} {N      SE S} {\u28C7}
+L {MUDFONT NES} {  NE   SE S} {\u28CE}
+L {MUDFONT NES} {N NE   SE S} {\u28CF}
+L {MUDFONT NES} {     W SE S} {\u28F6}
+L {MUDFONT NES} {N    W SE S} {\u28F7}
+L {MUDFONT NES} {  NE W SE S} {\u28FE}
+L {MUDFONT NES} {N NE W SE S} {\u28FF}
+L {MUDFONT VOID NWS} {NO EXITS} {\u2800}
+L {MUDFONT VOID NWS} {N} {\u2808}
+L {MUDFONT VOID NWS} {  NW} {\u2801}
+L {MUDFONT VOID NWS} {N NW} {\u2809}
+L {MUDFONT VOID NWS} {     W} {\u2806}
+L {MUDFONT VOID NWS} {N    W} {\u280E}
+L {MUDFONT VOID NWS} {  NW W} {\u2807}
+L {MUDFONT VOID NWS} {N NW W} {\u280F}
+L {MUDFONT VOID NWS} {       SW} {\u2840}
+L {MUDFONT VOID NWS} {N      SW} {\u2848}
+L {MUDFONT VOID NWS} {  NW   SW} {\u2841}
+L {MUDFONT VOID NWS} {N NW   SW} {\u2849}
+L {MUDFONT VOID NWS} {     W SW} {\u2846}
+L {MUDFONT VOID NWS} {N    W SW} {\u284E}
+L {MUDFONT VOID NWS} {  NW W SW} {\u2847}
+L {MUDFONT VOID NWS} {N NW W SW} {\u284F}
+L {MUDFONT VOID NWS} {          S} {\u2880}
+L {MUDFONT VOID NWS} {N         S} {\u2888}
+L {MUDFONT VOID NWS} {  NW      S} {\u2881}
+L {MUDFONT VOID NWS} {N NW      S} {\u2889}
+L {MUDFONT VOID NWS} {     W    S} {\u2886}
+L {MUDFONT VOID NWS} {N    W    S} {\u288E}
+L {MUDFONT VOID NWS} {  NW W    S} {\u2887}
+L {MUDFONT VOID NWS} {N NW W    S} {\u288F}
+L {MUDFONT VOID NWS} {       SW S} {\u28C0}
+L {MUDFONT VOID NWS} {N      SW S} {\u28C8}
+L {MUDFONT VOID NWS} {  NW   SW S} {\u28C1}
+L {MUDFONT VOID NWS} {N NW   SW S} {\u28C9}
+L {MUDFONT VOID NWS} {     W SW S} {\u28C6}
+L {MUDFONT VOID NWS} {N    W SW S} {\u28CE}
+L {MUDFONT VOID NWS} {  NW W SW S} {\u28C7}
+L {MUDFONT VOID NWS} {N NW W SW S} {\u28CF}
+L {MUDFONT VOID NES} {NO EXITS} {\u2800}
+L {MUDFONT VOID NES} {N} {\u2801}
+L {MUDFONT VOID NES} {  NE} {\u2808}
+L {MUDFONT VOID NES} {N NE} {\u2809}
+L {MUDFONT VOID NES} {     W} {\u2830}
+L {MUDFONT VOID NES} {N    W} {\u2831}
+L {MUDFONT VOID NES} {  NE W} {\u2838}
+L {MUDFONT VOID NES} {N NE W} {\u2839}
+L {MUDFONT VOID NES} {       SE} {\u2880}
+L {MUDFONT VOID NES} {N      SE} {\u2881}
+L {MUDFONT VOID NES} {  NE   SE} {\u2888}
+L {MUDFONT VOID NES} {N NE   SE} {\u2889}
+L {MUDFONT VOID NES} {     W SE} {\u28B0}
+L {MUDFONT VOID NES} {N    W SE} {\u28B1}
+L {MUDFONT VOID NES} {  NE W SE} {\u28B8}
+L {MUDFONT VOID NES} {N NE W SE} {\u28B9}
+L {MUDFONT VOID NES} {          S} {\u2840}
+L {MUDFONT VOID NES} {N         S} {\u2841}
+L {MUDFONT VOID NES} {  NE      S} {\u2848}
+L {MUDFONT VOID NES} {N NE      S} {\u2849}
+L {MUDFONT VOID NES} {     W    S} {\u2870}
+L {MUDFONT VOID NES} {N    W    S} {\u2871}
+L {MUDFONT VOID NES} {  NE W    S} {\u2878}
+L {MUDFONT VOID NES} {N NE W    S} {\u2879}
+L {MUDFONT VOID NES} {       SE S} {\u28C0}
+L {MUDFONT VOID NES} {N      SE S} {\u28C1}
+L {MUDFONT VOID NES} {  NE   SE S} {\u28C8}
+L {MUDFONT VOID NES} {N NE   SE S} {\u28C9}
+L {MUDFONT VOID NES} {     W SE S} {\u28F0}
+L {MUDFONT VOID NES} {N    W SE S} {\u28F1}
+L {MUDFONT VOID NES} {  NE W SE S} {\u28F8}
+L {MUDFONT VOID NES} {N NE W SE S} {\u28F9}
+L {MUDFONT CURVED} {N E} {\u2818}
+L {MUDFONT CURVED} {S E} {\u28A0}
+L {MUDFONT CURVED} {S W} {\u2844}
+L {MUDFONT CURVED} {N W} {\u2803}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {SE} {\u2198}
+L {UNICODE GRAPHICS} {NE} {\u2197}
+L {UNICODE GRAPHICS} {SE NE} {>}
+L {UNICODE GRAPHICS} {SW} {\u2199}
+L {UNICODE GRAPHICS} {SE SW} {\u2E0C\u2E0D}
+L {UNICODE GRAPHICS} {NE SW} {\uFF0F}
+L {UNICODE GRAPHICS} {SE NE SW} {>\u2E0D}
+L {UNICODE GRAPHICS} {NW} {\u2196}
+L {UNICODE GRAPHICS} {SE NW} {\uFF3C}
+L {UNICODE GRAPHICS} {NE NW} {\u2E1D\u2E1C}
+L {UNICODE GRAPHICS} {SE NE NW} {>\u2E1C}
+L {UNICODE GRAPHICS} {SW NW} {<}
+L {UNICODE GRAPHICS} {SE SW NW} {\u2E0C<}
+L {UNICODE GRAPHICS} {NE SW NW} {\u2E1D<}
+L {UNICODE GRAPHICS} {SE NE SW NW} {><}
+L {UNICODE GRAPHICS} {D} {-}
+L {UNICODE GRAPHICS} {N} {\u2191}
+L {UNICODE GRAPHICS} {S} {\u2193}
+L {UNICODE GRAPHICS} {N S} {\u2502}
+L {UNICODE GRAPHICS} {U} {+}
+L {UNICODE GRAPHICS} {E} {\u2192}
+L {UNICODE GRAPHICS} {W} {\u2190}
+L {UNICODE GRAPHICS} {E W} {\u2500}
+L {UNICODE GRAPHICS} {ROOM L} {[}
+L {UNICODE GRAPHICS} {ROOM L CURVED} {(}
+L {UNICODE GRAPHICS} {ROOM R} {]}
+L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
+
+
+
+
+T {} { } {}
+T {CITY} {<FF03A2E>=} {WIDE}
+T {FIELD} {<F9A7D0A>·} {WIDE FADEOUT}
+T {FOREST} {<F0B5345>⍋} {WIDE FADEOUT}
+T {HILLS} {<F7D6608>︵} {DENSE WIDE FADEOUT DOUBLE}
+T {INSIDE} {<F922B21>≡} {}
+T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
+T {MOUNTAINS} {<F935116>◮} {WIDE}
+T {NOSWIM} {<F21618C>~} {}
+T {SWIM} {<F21618C>~} {}
+
+
+
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {12685}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12642}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {3}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12637}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12746}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {4}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+
+R {5}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12633}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12637}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {12689}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12688}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {12684}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {11}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {8}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {12639}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12640}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {9}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {12615}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12623}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {10}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {12601}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12604}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {11}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {7}{w}{w}{8}{0}{}{1.000}{}{0.00}
+E {12640}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12627}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {13}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12619}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {14}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {12617}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {15}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {15}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {14}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12625}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {16}{4104}{}{}{ }{}{}{}{MOUNTAINS}{}{1.000}{}
+E {12609}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12615}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {17}{4104}{}{}{ }{}{}{}{MOUNTAINS}{}{1.000}{}
+E {12604}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12609}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6900}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
+
+R {6984}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
+
+R {12601}{0}{<fff>}{The end of the seawall}{ }{}{The Corsair Citadel}{}{MOUNTAINS}{}{1.000}{}
+E {10}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12602}{0}{<fff>}{The entrance to the corsair's cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {6984}{n}{jt_m_link_action {north} {the Dragon Sea} {6984}}{1}{0}{}{1.000}{}{0.00}
+E {12606}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12603}{0}{<fff>}{The seaward guard station}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12680}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {12604}{0}{<fff>}{On the seawall}{ }{}{The Corsair Citadel}{}{MOUNTAINS}{}{1.000}{}
+E {10}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {17}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12605}{0}{<fff>}{On the still waters of the cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12606}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12610}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12606}{0}{<fff>}{On the still waters of the cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12607}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12602}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12611}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12605}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12607}{0}{<fff>}{On the still waters of the cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12608}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12612}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12606}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12608}{0}{<fff>}{On the still waters of the cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12613}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12607}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12609}{0}{<fff>}{On the seawall}{ }{}{The Corsair Citadel}{}{MOUNTAINS}{}{1.000}{}
+E {17}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {16}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12610}{0}{<fff>}{On the still waters of the cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12611}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12605}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12616}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12611}{0}{<fff>}{On the still waters of the cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12612}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12606}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12610}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12612}{0}{<fff>}{On the still waters of the cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12613}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12607}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12618}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12611}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12613}{0}{<fff>}{On the still waters of the cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12614}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12608}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12612}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12614}{0}{<fff>}{On the still waters of the cove}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12620}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12613}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12615}{0}{<fff>}{On the seawall}{ }{}{The Corsair Citadel}{}{MOUNTAINS}{}{1.000}{}
+E {16}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {9}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {12616}{0}{<fff>}{In the water next to the quay}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12750}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12610}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12617}{0}{<fff>}{At the end of a small pier}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12750}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12748}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {14}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12618}{0}{<fff>}{In the water by the quay}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12751}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12612}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12750}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12619}{0}{<fff>}{At the end of a small dock}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12751}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {13}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12620}{0}{<fff>}{In the water by the quay}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
+E {12614}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12751}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12621}{0}{<fff>}{In the northeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12669}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12622}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12686}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12645}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12622}{0}{<fff>}{In the barracks}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12621}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12623}{0}{<fff>}{In the northwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12624}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {9}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12629}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12624}{0}{<fff>}{In the barracks}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12623}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12625}{0}{<fff>}{The quay}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12626}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {15}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12631}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12626}{0}{<fff>}{The quay}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12627}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12632}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12625}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12627}{0}{<fff>}{The quay}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12628}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12633}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12626}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12628}{0}{<fff>}{The quay}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12634}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12627}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12629}{0}{<fff>}{In the northwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12630}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12623}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12683}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {12630}{0}{<fff>}{In the northwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12664}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12650}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12629}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12631}{0}{<fff>}{In a large warehouse}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12625}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12632}{0}{<fff>}{The Scarlet Barnacle}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12633}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12626}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12635}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {12681}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12633}{0}{<fff>}{Bounty Street}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12627}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {5}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12632}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12634}{0}{<fff>}{A new warehouse}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12628}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12635}{0}{<fff>}{The back room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12663}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12632}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+
+R {12636}{0}{<fff>}{A small courtyard}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12637}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12691}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12637}{0}{<fff>}{Bounty Street}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12742}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12636}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12638}{0}{<fff>}{Dragonship Rigging and Supplies}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12743}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12639}{0}{<fff>}{Bounty Street}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12746}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12641}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {8}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12640}{0}{<fff>}{The southwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12674}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {8}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12652}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {11}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12641}{0}{<fff>}{The landward postern}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12639}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12642}{0}{<fff>}{The southeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12676}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12655}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12746}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12643}{0}{<fff>}{On top of the northeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12645}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12644}{0}{<fff>}{On top of the northeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12645}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12645}{0}{<fff>}{On top of the northeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12621}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12646}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12643}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12644}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {12646}{0}{<fff>}{On top of the northeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12645}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12647}{0}{<fff>}{On top of the northwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12650}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {12648}{0}{<fff>}{On top of the northwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12650}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12649}{0}{<fff>}{On top of the northwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12650}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12650}{0}{<fff>}{On top of the northwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12630}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12648}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12647}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {12649}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12651}{0}{<fff>}{On top of the southwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12652}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12652}{0}{<fff>}{On top of the southwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12640}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12654}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12653}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {12651}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12653}{0}{<fff>}{On top of the southwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12652}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {12654}{0}{<fff>}{On top of the southwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12652}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12655}{0}{<fff>}{On top of the southeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12642}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12656}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12657}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12658}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {12656}{0}{<fff>}{On top of the southeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12655}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12657}{0}{<fff>}{On top of the southeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12655}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {12658}{0}{<fff>}{On top of the southeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12655}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {12659}{0}{<fff>}{The hidden grotto}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {6900}{n}{jt_m_link_action {north} {the Dragon Sea} {6900}}{1}{0}{}{1.000}{}{0.00}
+E {12660}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12660}{0}{<fff>}{In the bolthole}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12659}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12661}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {12661}{0}{<fff>}{In the bolthole}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12660}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {12687}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12662}{0}{<fff>}{In the bolthole}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12663}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12663}{0}{<fff>}{The entrance to a hidden bolthole}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12635}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12662}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12664}{0}{<fff>}{Under the northwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12665}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12630}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12665}{0}{<fff>}{In a tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12666}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12664}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12666}{0}{<fff>}{A tunnel intersection}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12667}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12677}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12670}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12665}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12667}{0}{<fff>}{The guardpost in the tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12668}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12671}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12666}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12668}{0}{<fff>}{The tunnel intersection}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12669}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12672}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12667}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12669}{0}{<fff>}{Under the northeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12668}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {12621}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12670}{0}{<fff>}{In a tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12666}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12673}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12671}{0}{<fff>}{Under the mage's tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12736}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12667}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12697}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12672}{0}{<fff>}{In a tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12668}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12675}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12673}{0}{<fff>}{In a tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12670}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12674}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12674}{0}{<fff>}{Under the southwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12673}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12640}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12675}{0}{<fff>}{In a tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12672}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12676}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12676}{0}{<fff>}{Under the southeast tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12675}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12642}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12677}{0}{<fff>}{In a tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12678}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12666}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12678}{0}{<fff>}{In a tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12679}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12677}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12679}{0}{<fff>}{In a tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12680}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12678}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12680}{0}{<fff>}{Under the seaward tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12679}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12603}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12681}{0}{<fff>}{In the dormitory of the Scarlet Barnacle}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12632}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12682}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12682}{0}{<fff>}{In the dormitory of the Scarlet Barnacle}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12681}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {12683}{0}{<fff>}{On the curtain wall}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12629}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {12684}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {12684}{0}{<fff>}{On the curtain wall}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {7}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12683}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {12685}{0}{<fff>}{On the curtain wall}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12686}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {2}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12686}{0}{<fff>}{On the curtain wall}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12621}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12685}{sw}{#delay 0 {southw;#map goto 12642;}}{12}{0}{}{1.000}{}{0.00}
+
+R {12687}{0}{<fff>}{The magical tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12661}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12688}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {12688}{0}{<fff>}{The magical tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {6}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12687}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {12689}{0}{<fff>}{The magical tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12690}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12690}{0}{<fff>}{The base of the staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12723}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12689}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12691}{0}{<fff>}{Under the gatehouse}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12693}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12692}{16384}{<faa>}{Under the murder holes}{<faa>DT}{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12693}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12693}{0}{<fff>}{Before the inner portcullis}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12692}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12694}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12695}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12694}{0}{<fff>}{The guard station}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12693}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12695}{0}{<fff>}{Inside the mage's tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12693}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12697}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12696}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {12698}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12696}{0}{<fff>}{The spiral staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12695}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {12701}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12697}{0}{<fff>}{The spiral staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12724}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12695}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12698}{0}{<fff>}{The mess hall}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12699}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12695}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {12699}{0}{<fff>}{The kitchens}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12700}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12698}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12700}{0}{<fff>}{The storeroom}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12699}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12701}{0}{<fff>}{A hallway in the tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12696}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12702}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12703}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12702}{0}{<fff>}{In the gatehouse}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12701}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12703}{0}{<fff>}{In a hallway in the tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12701}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12704}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12705}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12704}{0}{<fff>}{In a storage room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12703}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {12705}{0}{<fff>}{At the base of a staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12703}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12706}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12706}{0}{<fff>}{At the top of a staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12705}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12707}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12707}{0}{<fff>}{In a hallway in the tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12710}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12709}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12708}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12706}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12708}{0}{<fff>}{In the elementalist's chambers}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12707}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12714}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12709}{0}{<fff>}{In the apprentices' sleeping chamber}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12707}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12710}{0}{<fff>}{The end of the hall at the base of some stairs}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12711}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12712}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12707}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12711}{0}{<fff>}{The apprentices' sleeping chamber}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12710}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12712}{0}{<fff>}{In a short hallway}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12710}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12715}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12713}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12713}{0}{<fff>}{In a short hallway}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12712}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12716}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12714}{0}{<fff>}{In the elementalist's workroom}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12708}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {12715}{0}{<fff>}{In the stormfinder's chamber}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12712}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12717}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12716}{0}{<fff>}{On a large, spiral staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12713}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12718}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12717}{0}{<fff>}{The stormfinder's laboratory}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12715}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {12718}{0}{<fff>}{The waiting room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12716}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12719}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12719}{0}{<fff>}{The major focus room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12720}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12718}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12720}{0}{<fff>}{The Tempest master's private chamber}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12719}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12721}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+
+R {12721}{0}{<fff>}{The steep spiral staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12722}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12720}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+
+R {12722}{0}{<fff>}{The steep spiral staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12723}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12721}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12723}{0}{<fff>}{The steep spiral staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12690}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12722}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12724}{0}{<fff>}{In a hallway}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12726}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12725}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12727}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12697}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12725}{0}{<fff>}{The top of a staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12671}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12724}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12726}{0}{<fff>}{The armory}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12724}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12727}{0}{<fff>}{In a hallway}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12729}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12724}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12730}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12728}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12728}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12727}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {12729}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12727}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12730}{0}{<fff>}{The hallway}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12731}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12727}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12733}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12732}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12731}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12730}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12732}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12730}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {12733}{0}{<fff>}{The end of a hallway}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12735}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12730}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12734}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12734}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12733}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {12735}{0}{<fff>}{The Sea Wolf's room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12733}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12736}{0}{<fff>}{The stairs into the dungeon}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12737}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12671}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12737}{0}{<fff>}{The dungeon}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12740}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12736}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12739}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12738}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12738}{0}{<fff>}{The cell}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12737}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12739}{0}{<fff>}{The cell}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12737}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {12740}{0}{<fff>}{The cell}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12737}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {12741}{0}{<fff>}{Scar's Swords}{#}{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
+E {12743}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {12742}{0}{<fff>}{Landward Way}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12743}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12637}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12743}{0}{<fff>}{Landward Way}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12638}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12741}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4}{s}{#delay 0 {south;#map goto 12749;}}{4}{0}{}{1.000}{}{0.00}
+E {12742}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12744}{0}{<fff>}{A dark alley}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12745}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {12745}{0}{<fff>}{A dark alley}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12746}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12744}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12746}{0}{<fff>}{Bounty Street}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12642}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {3}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12639}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12745}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12747}{0}{<fff>}{On board the Ebon Wind}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12748}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {12748}{0}{<fff>}{On board the Ebon Wind}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12749}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {12617}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {12747}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12749}{0}{<fff>}{On board the Ebon Wind}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
+E {12748}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {12750}{0}{<fff>}{Underneath a small pier}{ }{}{The Corsair Citadel}{}{NOSWIM}{}{1.000}{}
+E {12618}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12617}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12616}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12751}{0}{<fff>}{Underneath a small pier}{ }{}{The Corsair Citadel}{}{NOSWIM}{}{1.000}{}
+E {12620}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12613}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12619}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {12618}{w}{w}{8}{0}{}{1.000}{}{0.00}

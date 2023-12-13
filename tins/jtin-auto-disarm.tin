@@ -1,0 +1,127 @@
+#nop ------- AUTO-DISARM ------- 
+#nop ------- AUTO-DISARM VERY HARD ------- 
+
+#high {%1 hits you very hard.} { reverse; }
+#action {%1 hits you very hard.} { @jt_at_di_perform{}; }
+
+#high {%1 whips you very hard.} { reverse; }
+#action {%1 whips you very hard.} { @jt_at_di_perform{}; }
+
+#high {%1 strikes you very hard.} { reverse; }
+#action {%1 strikes you very hard.} { @jt_at_di_perform{}; }
+
+#high {%1 hammers you very hard.} { reverse; }
+#action {%1 hammers you very hard.} { @jt_at_di_perform{}; }
+
+#high {%1 chops you very hard.} { reverse; }
+#action {%1 chops you very hard.} { @jt_at_di_perform{}; }
+
+#high {%1 blasts you very hard.} { reverse; }
+#action {%1 blasts you very hard.} { @jt_at_di_perform{}; }
+
+
+#nop ------- AUTO-DISARM EXTREMELY HARD ------- 
+
+#high {%1 hits you extremely hard.} { reverse; }
+#action {%1 hits you extremely hard.} { @jt_at_di_perform{}; }
+
+#high {%1 whips you extremely hard.} { reverse; }
+#action {%1 whips you extremely hard.} { @jt_at_di_perform{}; }
+
+#high {%1 strikes you extremely hard.} { reverse; }
+#action {%1 strikes you extremely hard.} { @jt_at_di_perform{}; }
+
+#high {%1 hammers you extremely hard.} { reverse; }
+#action {%1 hammers you extremely hard.} { @jt_at_di_perform{}; }
+
+#high {%1 chops you extremely hard.} { reverse; }
+#action {%1 chops you extremely hard.} { @jt_at_di_perform{}; }
+
+#high {%1 blasts you extremely hard.} { reverse; }
+#action {%1 blasts you extremely hard.} { @jt_at_di_perform{}; }
+
+
+#nop ------- AUTO-DISARM DECIMATES ------- 
+
+#high {%1 decimates you to small fragments with %2 hit.} { reverse; }
+#action {%1 decimates you to small fragments with %2 hit.} { @jt_at_di_perform{}; }
+
+#high {%1 decimates you to small fragments with %2 whip.} { reverse; }
+#action {%1 decimates you to small fragments with %2 whip.} { @jt_at_di_perform{}; }
+
+#high {%1 decimates you to small fragments with %2 strike.} { reverse; }
+#action {%1 decimates you to small fragments with %2 strike.} { @jt_at_di_perform{}; }
+
+#high {%1 decimates you to small fragments with %2 hammer.} { reverse; }
+#action {%1 decimates you to small fragments with %2 hammer.} { @jt_at_di_perform{}; }
+
+#high {%1 decimates you to small fragments with %2 chop.} { reverse; }
+#action {%1 decimates you to small fragments with %2 chop.} { @jt_at_di_perform{}; }
+
+#high {%1 decimates you to small fragments with %2 blast.} { reverse; }
+#action {%1 decimates you to small fragments with %2 blast.} { @jt_at_di_perform{}; }
+
+
+#nop ------- AUTO-DISARM MASSACRES ------- 
+
+#high {%1 massacres you to small fragments with %2 hit.} { reverse; }
+#action {%1 massacres you to small fragments with %2 hit.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 whip.} { reverse; }
+#action {%1 massacres you to small fragments with %2 whip.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 strike.} { reverse; }
+#action {%1 massacres you to small fragments with %2 strike.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 hammer.} { reverse; }
+#action {%1 massacres you to small fragments with %2 hammer.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 chop.} { reverse; }
+#action {%1 massacres you to small fragments with %2 chop.} { @jt_at_di_perform{}; }
+
+#high {%1 massacres you to small fragments with %2 blast.} { reverse; }
+#action {%1 massacres you to small fragments with %2 blast.} { @jt_at_di_perform{}; }
+
+
+#nop ------- AUTO-DISARM PERFORM ------- 
+
+#variable jt_at_di_action not_pending;
+
+#action {Your attempt ends in a disarming failure!} {
+    jt_at_di_print_msg {<efc>disarm failed, trying again};
+    #variable jt_at_di_action not_pending;
+    disarm;
+    #return;
+}
+
+#action {You disarm %1 with lightning efficiency!} {
+    jt_at_di_print_msg {<efc>successful disarm, ready to check again};
+    #variable jt_at_di_action not_pending;
+}
+
+#function jt_at_di_perform {
+    #if {"$jt_at_di_action"=="pending"} { 
+        #nop jt_at_di_print_msg {<efc>can't disarm, already pending $jt_at_di_action};
+    } {
+        jt_at_di_print_msg {<efc>disarming};
+        #variable jt_at_di_action pending;
+        disarm;
+    };
+    #return;
+}
+
+#action {%1 is dead} { 
+    jt_at_di_print_msg {<efc>reset};
+    jt_at_ab_combat_perform;
+    #variable jt_at_di_action not_pending;
+}
+
+#action {^%1 has summoned you!$} {
+    jt_at_di_print_msg {<efc>reset};
+    #variable jt_at_di_action not_pending; 
+}
+
+#action {^A strange peace flows through your veins...$} {
+    jt_at_di_print_msg {<efc>reset};
+    #variable jt_at_di_action not_pending; 
+}

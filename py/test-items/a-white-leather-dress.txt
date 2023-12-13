@@ -1,0 +1,10 @@
+Object 'a white leather dress', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF !WAR !JEDI LIMITED UNIQUE 
+Weight: 4, Value: 5500, Rent: 2750, Min. level: 15
+AC-apply is 12
+Can affect you as :
+   Affects: MANA By 20
+   Affects: STR By -1
+Item slot: On Body
+-----

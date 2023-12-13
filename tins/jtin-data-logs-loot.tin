@@ -1,0 +1,44 @@
+#action {^You now have %1.$} {
+    jt_dl_l_write_log_wrapper {%1} {_vendor}
+}
+
+#action {^The corpse of %1 seems to be empty.$} {
+    jt_dl_l_write_log_wrapper {} {%1};
+}
+
+#action {^You get %1 from the corpse of %2.$} {
+    jt_dl_l_write_log_wrapper {%1} {%2};
+}
+
+#alias jt_dl_l_write_log_wrapper {
+    #if {"$jt_t_window" == ""} {
+        jt_dl_l_write_log {%1} {%2}
+    };
+    #else {
+        $jt_t_window jt_dl_l_write_log {%1} {%2}
+    };
+}
+
+#alias jt_dl_l_write_log {
+    #if {&{jt_m_current}} {
+        #map get roomvnum lroomvnum;
+        #map get roomarea lroomarea;
+        #line log logs/loot.log {%1,%2,$lroomarea,$lroomvnum};
+        #unvar lroomvnum;
+        #unvar lroomarea;
+    } {
+        #line log logs/loot.log {%1,%2,unknown};
+    };
+}
+
+#action {^%1: you can't carry that many items.$} {
+    jt_dl_l_print_msg {<fca>inventory full};
+}
+
+#action {^%1: you can't carry that much weight.$} {
+    jt_dl_l_print_msg {<fca>inventory full};
+}
+
+#action {^%1: you can't hold any more items.$} {
+    jt_dl_l_print_msg {<fca>inventory full};
+}

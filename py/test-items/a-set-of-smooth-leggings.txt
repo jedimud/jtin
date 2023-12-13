@@ -1,0 +1,9 @@
+Object 'a set of smooth leggings', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS UNIQUE 
+Weight: 10, Value: 1000, Rent: 200, Min. level: 0
+AC-apply is 10
+Can affect you as :
+   Affects: STR By -1
+Item slot: Legs
+-----

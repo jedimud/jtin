@@ -1,0 +1,10 @@
+Object 'a Gallery Champion crown', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS UNIQUE 
+Weight: 5, Value: 10000, Rent: 2500, Min. level: 10
+AC-apply is -4
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: HIT_REGEN By 10
+Item slot: Head
+-----

@@ -1,0 +1,9 @@
+Object 'the Map maker's compass', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 2, Value: 7000, Rent: 3500, Min. level: 0
+Can affect you as :
+   Affects: MOVE By 15
+   Affects: AGE By 5
+Item slot: Light
+-----

@@ -1,0 +1,8 @@
+Object 'the Head of Medusa', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 10, Value: 20000, Rent: 7500, Min. level: 15
+This WAND casts: petrification of level 27
+It has 2 maximum charges and 2 remaining.
+Item slot: Hold
+-----

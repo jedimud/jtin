@@ -1,0 +1,727 @@
+C 50000
+
+V 2020
+
+CAVOID <118>
+CBACKGROUND 
+CBLOCK <218>
+CEXITS <278>
+CFOG <148>
+CHIDE <168>
+CINVISIBLE <208>
+CPATHS <138>
+CROOMS <178>
+CSYMBOLS <128>
+CUSER <258>
+
+F 8207
+
+G 0
+
+I 2833
+
+L {ASCII NESW LINE} {NO EXITS} {x}
+L {ASCII NESW LINE} {N} {o}
+L {ASCII NESW LINE} {  E} {o}
+L {ASCII NESW LINE} {N E} {+}
+L {ASCII NESW LINE} {    S} {o}
+L {ASCII NESW LINE} {N   S} {|}
+L {ASCII NESW LINE} {  E S} {+}
+L {ASCII NESW LINE} {N E S} {+}
+L {ASCII NESW LINE} {      W} {o}
+L {ASCII NESW LINE} {N     W} {+}
+L {ASCII NESW LINE} {  E   W} {-}
+L {ASCII NESW LINE} {N E   W} {+}
+L {ASCII NESW LINE} {    S W} {+}
+L {ASCII NESW LINE} {N   S W} {+}
+L {ASCII NESW LINE} {  E S W} {+}
+L {ASCII NESW LINE} {N E S W} {+}
+L {ASCII NESW MISC} {USER} {x}
+L {ASCII NESW MISC} {DIR UNKNOWN} {+}
+L {ASCII NESW MISC} {N S VOID} {|}
+L {ASCII NESW MISC} {E W VOID} {-}
+L {ASCII NESW CURVED} {N E CURVED} {+}
+L {ASCII NESW CURVED} {S E CURVED} {+}
+L {ASCII NESW CURVED} {S W CURVED} {+}
+L {ASCII NESW CURVED} {N W CURVED} {+}
+L {ASCII NESW DIRS} {DIR N} {|}
+L {ASCII NESW DIRS} {DIR NE} {/}
+L {ASCII NESW DIRS} {DIR E} {-}
+L {ASCII NESW DIRS} {DIR SE} {\\}
+L {ASCII NESW DIRS} {DIR S} {|}
+L {ASCII NESW DIRS} {DIR SW} {/}
+L {ASCII NESW DIRS} {DIR W} {-}
+L {ASCII NESW DIRS} {DIR NW} {\\}
+L {NESW LINE} {NO EXITS} {\u2B51}
+L {NESW LINE} {N} {\u2579}
+L {NESW LINE} {  E} {\u257A}
+L {NESW LINE} {N E} {\u2517}
+L {NESW LINE} {    S} {\u257B}
+L {NESW LINE} {N   S} {\u2503}
+L {NESW LINE} {  E S} {\u250F}
+L {NESW LINE} {N E S} {\u2523}
+L {NESW LINE} {      W} {\u2578}
+L {NESW LINE} {N     W} {\u251B}
+L {NESW LINE} {  E   W} {\u2501}
+L {NESW LINE} {N E   W} {\u253B}
+L {NESW LINE} {    S W} {\u2513}
+L {NESW LINE} {N   S W} {\u252B}
+L {NESW LINE} {  E S W} {\u2533}
+L {NESW LINE} {N E S W} {\u254B}
+L {NESW MISC} {USER} {\u2B51}
+L {NESW MISC} {DIR UNKNOWN} {\u2012}
+L {NESW MISC} {N S VOID} {\u2507}
+L {NESW MISC} {E W VOID} {\u254D}
+L {NESW CURVED} {N E CURVED} {\u2570}
+L {NESW CURVED} {S E CURVED} {\u256D}
+L {NESW CURVED} {S W CURVED} {\u256E}
+L {NESW CURVED} {N W CURVED} {\u256F}
+L {NESW DIRS} {DIR N} {\u2191}
+L {NESW DIRS} {DIR NE} {\u2B08}
+L {NESW DIRS} {DIR E} {\u2B95}
+L {NESW DIRS} {DIR SE} {\u2b0A}
+L {NESW DIRS} {DIR S} {\u2193}
+L {NESW DIRS} {DIR SW} {\u2B0B}
+L {NESW DIRS} {DIR W} {\u2B05}
+L {NESW DIRS} {DIR NW} {\u2B09}
+L {MUDFONT NWS} {NO EXITS} {\u2830}
+L {MUDFONT NWS} {N} {\u2838}
+L {MUDFONT NWS} {  NW} {\u2831}
+L {MUDFONT NWS} {N NW} {\u2839}
+L {MUDFONT NWS} {     W} {\u2836}
+L {MUDFONT NWS} {N    W} {\u283E}
+L {MUDFONT NWS} {  NW W} {\u2837}
+L {MUDFONT NWS} {N NW W} {\u283F}
+L {MUDFONT NWS} {       SW} {\u2870}
+L {MUDFONT NWS} {N      SW} {\u2878}
+L {MUDFONT NWS} {  NW   SW} {\u2871}
+L {MUDFONT NWS} {N NW   SW} {\u2879}
+L {MUDFONT NWS} {     W SW} {\u2876}
+L {MUDFONT NWS} {N    W SW} {\u287E}
+L {MUDFONT NWS} {  NW W SW} {\u2877}
+L {MUDFONT NWS} {N NW W SW} {\u287F}
+L {MUDFONT NWS} {          S} {\u28B0}
+L {MUDFONT NWS} {N         S} {\u28B8}
+L {MUDFONT NWS} {  NW      S} {\u28B1}
+L {MUDFONT NWS} {N NW      S} {\u28B9}
+L {MUDFONT NWS} {     W    S} {\u28B6}
+L {MUDFONT NWS} {N    W    S} {\u28BE}
+L {MUDFONT NWS} {  NW W    S} {\u28B7}
+L {MUDFONT NWS} {N NW W    S} {\u28BF}
+L {MUDFONT NWS} {       SW S} {\u28F0}
+L {MUDFONT NWS} {N      SW S} {\u28F8}
+L {MUDFONT NWS} {  NW   SW S} {\u28F1}
+L {MUDFONT NWS} {N NW   SW S} {\u28F9}
+L {MUDFONT NWS} {     W SW S} {\u28F6}
+L {MUDFONT NWS} {N    W SW S} {\u28FE}
+L {MUDFONT NWS} {  NW W SW S} {\u28F7}
+L {MUDFONT NWS} {N NW W SW S} {\u28FF}
+L {MUDFONT NES} {NO EXITS} {\u2806}
+L {MUDFONT NES} {N} {\u2807}
+L {MUDFONT NES} {  NE} {\u280E}
+L {MUDFONT NES} {N NE} {\u280F}
+L {MUDFONT NES} {     W} {\u2836}
+L {MUDFONT NES} {N    W} {\u2837}
+L {MUDFONT NES} {  NE W} {\u283E}
+L {MUDFONT NES} {N NE W} {\u283F}
+L {MUDFONT NES} {       SE} {\u2886}
+L {MUDFONT NES} {N      SE} {\u2887}
+L {MUDFONT NES} {  NE   SE} {\u288E}
+L {MUDFONT NES} {N NE   SE} {\u288F}
+L {MUDFONT NES} {     W SE} {\u28B6}
+L {MUDFONT NES} {N    W SE} {\u28B7}
+L {MUDFONT NES} {  NE W SE} {\u28BE}
+L {MUDFONT NES} {N NE W SE} {\u28BF}
+L {MUDFONT NES} {          S} {\u2846}
+L {MUDFONT NES} {N         S} {\u2847}
+L {MUDFONT NES} {  NE      S} {\u284E}
+L {MUDFONT NES} {N NE      S} {\u284F}
+L {MUDFONT NES} {     W    S} {\u2876}
+L {MUDFONT NES} {N    W    S} {\u2877}
+L {MUDFONT NES} {  NE W    S} {\u287E}
+L {MUDFONT NES} {N NE W    S} {\u287F}
+L {MUDFONT NES} {       SE S} {\u28C6}
+L {MUDFONT NES} {N      SE S} {\u28C7}
+L {MUDFONT NES} {  NE   SE S} {\u28CE}
+L {MUDFONT NES} {N NE   SE S} {\u28CF}
+L {MUDFONT NES} {     W SE S} {\u28F6}
+L {MUDFONT NES} {N    W SE S} {\u28F7}
+L {MUDFONT NES} {  NE W SE S} {\u28FE}
+L {MUDFONT NES} {N NE W SE S} {\u28FF}
+L {MUDFONT VOID NWS} {NO EXITS} {\u2800}
+L {MUDFONT VOID NWS} {N} {\u2808}
+L {MUDFONT VOID NWS} {  NW} {\u2801}
+L {MUDFONT VOID NWS} {N NW} {\u2809}
+L {MUDFONT VOID NWS} {     W} {\u2806}
+L {MUDFONT VOID NWS} {N    W} {\u280E}
+L {MUDFONT VOID NWS} {  NW W} {\u2807}
+L {MUDFONT VOID NWS} {N NW W} {\u280F}
+L {MUDFONT VOID NWS} {       SW} {\u2840}
+L {MUDFONT VOID NWS} {N      SW} {\u2848}
+L {MUDFONT VOID NWS} {  NW   SW} {\u2841}
+L {MUDFONT VOID NWS} {N NW   SW} {\u2849}
+L {MUDFONT VOID NWS} {     W SW} {\u2846}
+L {MUDFONT VOID NWS} {N    W SW} {\u284E}
+L {MUDFONT VOID NWS} {  NW W SW} {\u2847}
+L {MUDFONT VOID NWS} {N NW W SW} {\u284F}
+L {MUDFONT VOID NWS} {          S} {\u2880}
+L {MUDFONT VOID NWS} {N         S} {\u2888}
+L {MUDFONT VOID NWS} {  NW      S} {\u2881}
+L {MUDFONT VOID NWS} {N NW      S} {\u2889}
+L {MUDFONT VOID NWS} {     W    S} {\u2886}
+L {MUDFONT VOID NWS} {N    W    S} {\u288E}
+L {MUDFONT VOID NWS} {  NW W    S} {\u2887}
+L {MUDFONT VOID NWS} {N NW W    S} {\u288F}
+L {MUDFONT VOID NWS} {       SW S} {\u28C0}
+L {MUDFONT VOID NWS} {N      SW S} {\u28C8}
+L {MUDFONT VOID NWS} {  NW   SW S} {\u28C1}
+L {MUDFONT VOID NWS} {N NW   SW S} {\u28C9}
+L {MUDFONT VOID NWS} {     W SW S} {\u28C6}
+L {MUDFONT VOID NWS} {N    W SW S} {\u28CE}
+L {MUDFONT VOID NWS} {  NW W SW S} {\u28C7}
+L {MUDFONT VOID NWS} {N NW W SW S} {\u28CF}
+L {MUDFONT VOID NES} {NO EXITS} {\u2800}
+L {MUDFONT VOID NES} {N} {\u2801}
+L {MUDFONT VOID NES} {  NE} {\u2808}
+L {MUDFONT VOID NES} {N NE} {\u2809}
+L {MUDFONT VOID NES} {     W} {\u2830}
+L {MUDFONT VOID NES} {N    W} {\u2831}
+L {MUDFONT VOID NES} {  NE W} {\u2838}
+L {MUDFONT VOID NES} {N NE W} {\u2839}
+L {MUDFONT VOID NES} {       SE} {\u2880}
+L {MUDFONT VOID NES} {N      SE} {\u2881}
+L {MUDFONT VOID NES} {  NE   SE} {\u2888}
+L {MUDFONT VOID NES} {N NE   SE} {\u2889}
+L {MUDFONT VOID NES} {     W SE} {\u28B0}
+L {MUDFONT VOID NES} {N    W SE} {\u28B1}
+L {MUDFONT VOID NES} {  NE W SE} {\u28B8}
+L {MUDFONT VOID NES} {N NE W SE} {\u28B9}
+L {MUDFONT VOID NES} {          S} {\u2840}
+L {MUDFONT VOID NES} {N         S} {\u2841}
+L {MUDFONT VOID NES} {  NE      S} {\u2848}
+L {MUDFONT VOID NES} {N NE      S} {\u2849}
+L {MUDFONT VOID NES} {     W    S} {\u2870}
+L {MUDFONT VOID NES} {N    W    S} {\u2871}
+L {MUDFONT VOID NES} {  NE W    S} {\u2878}
+L {MUDFONT VOID NES} {N NE W    S} {\u2879}
+L {MUDFONT VOID NES} {       SE S} {\u28C0}
+L {MUDFONT VOID NES} {N      SE S} {\u28C1}
+L {MUDFONT VOID NES} {  NE   SE S} {\u28C8}
+L {MUDFONT VOID NES} {N NE   SE S} {\u28C9}
+L {MUDFONT VOID NES} {     W SE S} {\u28F0}
+L {MUDFONT VOID NES} {N    W SE S} {\u28F1}
+L {MUDFONT VOID NES} {  NE W SE S} {\u28F8}
+L {MUDFONT VOID NES} {N NE W SE S} {\u28F9}
+L {MUDFONT CURVED} {N E} {\u2818}
+L {MUDFONT CURVED} {S E} {\u28A0}
+L {MUDFONT CURVED} {S W} {\u2844}
+L {MUDFONT CURVED} {N W} {\u2803}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {SE} {\u2198}
+L {UNICODE GRAPHICS} {NE} {\u2197}
+L {UNICODE GRAPHICS} {SE NE} {>}
+L {UNICODE GRAPHICS} {SW} {\u2199}
+L {UNICODE GRAPHICS} {SE SW} {\u2E0C\u2E0D}
+L {UNICODE GRAPHICS} {NE SW} {\uFF0F}
+L {UNICODE GRAPHICS} {SE NE SW} {>\u2E0D}
+L {UNICODE GRAPHICS} {NW} {\u2196}
+L {UNICODE GRAPHICS} {SE NW} {\uFF3C}
+L {UNICODE GRAPHICS} {NE NW} {\u2E1D\u2E1C}
+L {UNICODE GRAPHICS} {SE NE NW} {>\u2E1C}
+L {UNICODE GRAPHICS} {SW NW} {<}
+L {UNICODE GRAPHICS} {SE SW NW} {\u2E0C<}
+L {UNICODE GRAPHICS} {NE SW NW} {\u2E1D<}
+L {UNICODE GRAPHICS} {SE NE SW NW} {><}
+L {UNICODE GRAPHICS} {D} {-}
+L {UNICODE GRAPHICS} {N} {\u2191}
+L {UNICODE GRAPHICS} {S} {\u2193}
+L {UNICODE GRAPHICS} {N S} {\u2502}
+L {UNICODE GRAPHICS} {U} {+}
+L {UNICODE GRAPHICS} {E} {\u2192}
+L {UNICODE GRAPHICS} {W} {\u2190}
+L {UNICODE GRAPHICS} {E W} {\u2500}
+L {UNICODE GRAPHICS} {ROOM L} {[}
+L {UNICODE GRAPHICS} {ROOM L CURVED} {(}
+L {UNICODE GRAPHICS} {ROOM R} {]}
+L {UNICODE GRAPHICS} {ROOM R CURVED} {)}
+
+
+
+
+T {} { } {}
+T {CITY} {<FF03A2E>=} {WIDE}
+T {FIELD} {<F9A7D0A>·} {WIDE FADEOUT}
+T {FOREST} {<F0B5345>⍋} {WIDE FADEOUT}
+T {HILLS} {<F7D6608>︵} {DENSE WIDE FADEOUT DOUBLE}
+T {INSIDE} {<F922B21>≡} {}
+T {MIDAIR} {<F6C3483>⊰} {SPARSE WIDE}
+T {MOUNTAINS} {<F935116>◮} {WIDE}
+T {NOSWIM} {<F21618C>~} {}
+T {SWIM} {<F21618C>~} {}
+
+
+
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+
+R {3}{4104}{}{}{ }{}{}{}{FOREST}{}{1.000}{}
+E {2816}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2814}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {4}{4104}{}{}{ }{}{}{}{FOREST}{}{1.000}{}
+E {2808}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2806}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {5}{4104}{}{}{ }{}{}{}{FOREST}{}{1.000}{}
+E {2814}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2813}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6}{4104}{}{}{ }{}{}{}{FOREST}{}{1.000}{}
+E {2819}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2820}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
+E {2846}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2845}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {8}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {2863}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {2851}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {2700}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2710}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {3155}{n}{jt_m_link_action {north} {Midgaard} {3155}}{1}{0}{}{1.000}{}{0.00}
+E {2712}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2711}{0}{<fff>}{Grassy Flat}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2798}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2713}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2712}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2710}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2714}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2713}{0}{<fff>}{Inside the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2711}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2717}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2715}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2714}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2712}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2716}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2715}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2713}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2719}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2716}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2714}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2718}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2717}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2713}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2735}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2718}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2716}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2720}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2719}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2715}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2721}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2720}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2718}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2722}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2721}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2719}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2723}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2722}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2720}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2724}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2723}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2721}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2725}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2724}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2722}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2726}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2725}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2723}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2727}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2726}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2724}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2728}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2727}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2775}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {2729}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2725}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2737}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2728}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2726}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2730}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2729}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2731}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2727}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2730}{0}{<fff>}{Devahn River}{ }{}{Camelot}{}{NOSWIM}{}{1.000}{}
+E {2728}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2881}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2732}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {2731}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2733}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2729}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2732}{0}{<fff>}{Dirt Road}{*}{}{Camelot}{}{CITY}{}{1.000}{}
+E {2730}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2734}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2733}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2735}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2731}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2734}{0}{<fff>}{Dirt Road}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2736}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2732}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2735}{0}{<fff>}{In the Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2717}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2733}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2736}{0}{<fff>}{Dirt Road}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2738}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2796}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2734}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2756}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2737}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2738}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2739}{0}{<fff>}{Merlin's Private Chamber}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2749}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {2741}{0}{<fff>}{Dirt Road}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2743}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2798}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2743}{0}{<fff>}{Dirt Road}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2745}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2802}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {2741}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2745}{0}{<fff>}{Top of the Hill}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2747}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {2700}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {2743}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2747}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2749}{0}{<fff>}{Merlin's Hangout}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2880}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {3001}{n}{jt_m_link_action {north} {Midgaard} {3001}}{1}{0}{}{1.000}{}{0.00}
+E {2739}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {2737}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+
+R {2756}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2775}{0}{<fff>}{Cave of Green Giant}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2777}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {2727}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {2777}{0}{<fff>}{Bat Cave}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2779}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2775}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+
+R {2779}{0}{<fff>}{Mystic Dragon Lair}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2730}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {2796}{0}{<fff>}{Dirt Road}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2798}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2736}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2798}{0}{<fff>}{Dirt Road}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2741}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2796}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2711}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2800}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2802}{0}{<fff>}{At the edge of the Lake}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2800}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2805}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2803}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2804}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2803}{0}{<fff>}{Road to the Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2845}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2802}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2804}{0}{<fff>}{Road to Carteloise Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2802}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2839}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2805}{0}{<fff>}{Entrance to Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2806}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2802}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2806}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {4}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2807}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2805}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2807}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2809}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2806}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2808}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2822}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2809}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2810}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2807}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2810}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2811}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2809}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2811}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2812}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2810}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2812}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2813}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2811}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2813}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2838}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2812}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2814}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {3}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {5}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2815}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2815}{0}{<fff>}{Sir Marhaus' Tent}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2814}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2832}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {2816}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2817}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {3}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2817}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2818}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2816}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2818}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2833}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2819}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2817}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2819}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2818}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2820}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {6}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2821}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2821}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2820}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2831}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2822}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2823}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2808}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2823}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2824}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2822}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2824}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2825}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2823}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2825}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2831}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2826}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2824}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2826}{0}{<fff>}{Entrance to Combat Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2827}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2825}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2827}{0}{<fff>}{White Knight Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2828}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2826}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2828}{0}{<fff>}{Red Knight Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2829}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2827}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2829}{0}{<fff>}{Blue Knight Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2830}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2828}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2830}{0}{<fff>}{Black Knight Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2829}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2831}{0}{<fff>}{Calidone Forest}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2821}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2825}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2832}{0}{<fff>}{Inside Marhaus' Tent}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2815}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+
+R {2833}{0}{<fff>}{Entrance to Magical Combat Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2834}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2818}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2834}{0}{<fff>}{White Mage Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2835}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2833}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2835}{0}{<fff>}{Red Mage Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2836}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2834}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2836}{0}{<fff>}{Blue Mage Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2837}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2835}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2837}{0}{<fff>}{Black Mage Field}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2836}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2838}{0}{<fff>}{Open Field}{ }{}{Camelot}{}{FOREST}{}{1.000}{}
+E {2813}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2839}{0}{<fff>}{Road to Carteloise Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2804}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2840}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2840}{0}{<fff>}{In front of Carteloise Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2841}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2839}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2841}{0}{<fff>}{Main Entrance Hall}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2844}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {2842}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2840}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2843}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2842}{0}{<fff>}{Bedroom}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2841}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2843}{0}{<fff>}{Kitchen}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2841}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {2844}{0}{<fff>}{Private Chamber}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2841}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {2845}{0}{<fff>}{Road to the Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {7}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2803}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2846}{0}{<fff>}{Road to the Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {7}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2847}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2847}{0}{<fff>}{Road to the Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2846}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2848}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2848}{0}{<fff>}{Road to the Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2847}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2849}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2849}{0}{<fff>}{Road to the Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2850}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2848}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2850}{0}{<fff>}{Entrance to Camelot's Castle}{ }{}{Camelot}{}{CITY}{}{1.000}{}
+E {2851}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {2849}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2851}{0}{<fff>}{Grand Hall}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2852}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2860}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2850}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {8}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {2859}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2852}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2859}{0}{<fff>}{Banquet Hall}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2851}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {2860}{0}{<fff>}{Hallway}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2861}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2851}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2861}{0}{<fff>}{Round Table Room}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2862}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2860}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2862}{0}{<fff>}{Throne Room}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2861}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2863}{0}{<fff>}{Upper Part of Grand Hall}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {8}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2867}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2865}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2876}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2864}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2864}{0}{<fff>}{Main Bedroom}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2863}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2866}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2865}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2866}{0}{<fff>}{Balcony}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2864}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2867}{0}{<fff>}{Morgan's bedroom}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2875}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {2863}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2875}{0}{<fff>}{Mordred's Chamber}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2867}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2876}{0}{<fff>}{Castle Library}{ }{}{Camelot}{}{INSIDE}{}{1.000}{}
+E {2877}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {2863}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2877}{0}{<fff>}{Secret Passage}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2876}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {2878}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2878}{0}{<fff>}{Secret Passage}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2877}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2879}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2879}{0}{<fff>}{Secret Passage}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2878}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2880}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {2880}{0}{<fff>}{Merlin's Laboratory}{ }{}{Camelot}{}{FIELD}{}{1.000}{}
+E {2879}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {2749}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+
+R {2881}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {3001}{0}{<fff>}{}{Mid}{}{}{}{INSIDE}{}{1.000}{}
+
+R {3155}{0}{<fff>}{}{Mid}{}{}{}{NOSWIM}{}{1.000}{}

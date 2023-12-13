@@ -1,0 +1,5 @@
+Object 'a JediMud Metropolitan shuttle token', Item type: UNDEFINED
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 0, Value: 500, Rent: 0, Min. level: 0
+-----

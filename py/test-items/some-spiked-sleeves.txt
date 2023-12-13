@@ -1,0 +1,9 @@
+Object 'some spiked sleeves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM !MAGE UNIQUE 
+Weight: 10, Value: 400, Rent: 100, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HITROLL By -1
+Item slot: Arms
+-----

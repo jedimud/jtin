@@ -1,0 +1,9 @@
+Object 'an old leather belt', Item type: WORN
+Item will give you following abilities:  INVIS 
+Item is: INVIS UNIQUE 
+Weight: 2, Value: 5000, Rent: 1600, Min. level: 0
+Can affect you as :
+   Affects: STR By 1
+   Affects: WIS By 1
+Item slot: Waist
+-----

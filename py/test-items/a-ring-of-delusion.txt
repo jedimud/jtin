@@ -1,0 +1,11 @@
+Object 'a ring of delusion', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG UNIQUE 
+Weight: 5, Value: 225, Rent: 100, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: MANA By 1
+   Affects: HIT By 1
+Item slot: Ring
+Item slot: Hold
+-----
