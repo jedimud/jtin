@@ -19,16 +19,16 @@ def find_item(item_name, insure_tag):
     with open("data/item-briefs.json") as f:
         data = json.load(f)
 
-    if item_name in data:
+    item_name_lower = item_name.lower()
+    if item_name_lower in data:
         print(item_name)
-        print(data[item_name]['description']['equipped'])
-        print(data[item_name]['description']['inventory'])
-        print(data[item_name]['description']['sac'])
+        print(data[item_name_lower]['description']['equipped'])
+        print(data[item_name_lower]['description']['inventory'])
+        print(data[item_name_lower]['description']['sac'])
         print(insure_tag)
-        print(data[item_name]['description']['limited'])
-        print(data[item_name]['description']['spells'])
-        print(data[item_name]['description']['value'])
-
+        print(data[item_name_lower]['description']['limited'])
+        print(data[item_name_lower]['description']['spells'])
+        print(data[item_name_lower]['description']['value'])
     else:
         print(item_name)
         print()
@@ -37,7 +37,6 @@ def find_item(item_name, insure_tag):
         print(insure_tag)
         print()
         print()
-
 
 def main():
     item_name = sys.argv[1]

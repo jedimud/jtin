@@ -1,0 +1,17 @@
+#action {Return to continue} {
+    #echo ok;
+}
+
+#action {%1)%2} {
+    #nop #echo {%0};
+    jt_ib_shop_find {%0};
+    #line ignore #show {$item[1] $item[2] $item[4] <afc>$item[3] <acf>$item[7] <fea>$item[11]<099>};
+    #line gag;
+    #unvar $item;
+}
+
+#action {----------------------------------------------------------------------------} {
+    #line gag;
+    #echo {--------------------------------------------------------------------------------------------};
+}
+

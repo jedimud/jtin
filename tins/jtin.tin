@@ -457,12 +457,15 @@
     #class jtin-item-brief kill;
     #class jtin-item-brief-equip kill;
     #class jtin-item-brief-insured kill;
+    #class jtin-item-brief-shop kill;
     #var jt_ib_state disabled;
 }
 
 #alias jt_ib_load {
     #class jtin-item-brief kill;
     #class jtin-item-brief read tins/jtin-item-brief.tin;
+    #class jtin-item-brief-shop kill;
+    #class jtin-item-brief-shop read tins/jtin-item-brief-shop.tin;
     #var jt_ib_state %1;
     jt_ib_refresh;
     jt_ib_print_msg {<afc>$jt_ib_state};

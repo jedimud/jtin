@@ -157,8 +157,9 @@ class ItemBrief():
             description['limited'] = item['brief_limited']
             description['spells'] = item['brief_spells']
             description['value'] = item['value']
-            briefs[item['name']] = {}
-            briefs[item['name']]['description'] = description
+            key = item['name'].lower()
+            briefs[key] = {}
+            briefs[key]['description'] = description
         with open('data/item-briefs.json', 'w') as f:
             json.dump(briefs, f)
 

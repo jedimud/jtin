@@ -13478,3 +13478,410 @@ Can affect you as :
    Affects: CON By 2
    Affects: HIT By 5
 Item slot: Ring
+-----
+Object 'some bronze bladed tips', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 10, Value: 500, Rent: 250, Min. level: 0
+-----
+Object 'a pair of leather gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 3, Value: 75, Rent: 7, Min. level: 0
+AC-apply is 1
+Item slot: Hands
+-----
+Object 'a pair of bronze gauntlets', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !SOHEI !BARD UNIQUE 
+Weight: 8, Value: 1750, Rent: 200, Min. level: 0
+AC-apply is 5
+Item slot: Hands
+-----
+Object 'a pair of leather sleeves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 4, Value: 50, Rent: 5, Min. level: 0
+AC-apply is 1
+Item slot: Arms
+-----
+Object 'a chain mail shirt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !RANGER UNIQUE 
+Weight: 60, Value: 2500, Rent: 250, Min. level: 0
+AC-apply is 15
+Item slot: On Body
+-----
+Object 'a breast plate', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 90, Value: 18000, Rent: 1800, Min. level: 0
+AC-apply is 21
+Item slot: On Body
+-----
+Object 'a leather cap', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 3, Value: 150, Rent: 15, Min. level: 0
+AC-apply is 2
+Item slot: Head
+-----
+Object 'a pair of leather pants', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 8, Value: 100, Rent: 10, Min. level: 0
+AC-apply is 2
+Item slot: Legs
+-----
+Object 'a bouquet of snapdragons', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 200, Rent: 50, Min. level: 0
+Item slot: Hold
+-----
+Object 'a beautiful corsage', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1200, Rent: 400, Min. level: 0
+Item slot: Wrist
+Item slot: Hold
+-----
+Object 'a long-stemmed rose', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 5000, Rent: 1150, Min. level: 0
+Damage Dice is '0D0' for an average per-round damage of 0.0.
+Item slot: Hold
+-----
+Object 'a dozen roses', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 5000, Rent: 1150, Min. level: 0
+Item slot: Hold
+-----
+Object 'an empty flask', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 5, Rent: 2, Min. level: 0
+It can hold approximately 1 units of liquid.
+-----
+Object 'a large box of chocolates', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 50, Rent: 25, Min. level: 0
+-----
+Object 'several solid pieces of wood', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 35, Value: 1000, Rent: 500, Min. level: 0
+-----
+Object 'a small box', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 20, Rent: 15, Min. level: 0
+It can hold approximately 10 units.
+Item slot: Hold
+-----
+Object 'a potion of sanctuary, by "Froboz" (tm)', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 1, Value: 60000, Rent: 15000, Min. level: 0
+This POTION casts:  Level 17 of sanctuary
+Item slot: Hold
+-----
+Object 'a small vial of "Froboz" (tm) liquid strength', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: MAG !RENT UNIQUE 
+Weight: 2, Value: 25000, Rent: 6000, Min. level: 0
+This POTION casts:  Level 20 of strength
+Item slot: Hold
+-----
+Object 'a dragon tooth pendant', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG BLESS !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 300, Rent: 15, Min. level: 6
+AC-apply is 1
+Can affect you as :
+   Affects: HIT_REGEN By 3
+   Affects: STR By 1
+Item slot: Neck
+-----
+Object 'a pair of chainmail gauntlets', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 7, Value: 100, Rent: 200, Min. level: 6
+AC-apply is 4
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: STR By 1
+Item slot: Hands
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a monomolecular sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 10, Value: 25000, Rent: 5750, Min. level: 9
+Damage Dice is '5D4' for an average per-round damage of 12.5.
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HITROLL By 3
+Item slot: Wield
+-----
+Object 'a pair of plain scalemail sleeves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 10, Value: 80, Rent: 160, Min. level: 6
+AC-apply is 8
+Can affect you as :
+   Affects: STR By 1
+   Affects: HIT By 5
+Item slot: Arms
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a pair of plain scalemail sleeves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 10, Value: 80, Rent: 160, Min. level: 6
+AC-apply is 8
+Can affect you as :
+   Affects: STR By 1
+   Affects: HIT By 5
+Item slot: Arms
+-----
+Object 'a pair of chainmail gauntlets', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 7, Value: 100, Rent: 200, Min. level: 6
+AC-apply is 4
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: STR By 1
+Item slot: Hands
+ERROR - IGNORE THIS RECORD
+-----
+Object 'a pair of chainmail gauntlets', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 7, Value: 100, Rent: 200, Min. level: 6
+AC-apply is 4
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: STR By 1
+Item slot: Hands
+-----
+Object 'a plain steel breastplate', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 35, Value: 200, Rent: 400, Min. level: 9
+AC-apply is 33
+Can affect you as :
+   Affects: STR By 1
+   Affects: HIT_REGEN By 3
+Item slot: On Body
+-----
+Object 'a cleric's small box containing holy scripture', Item type: UNDEFINED
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 0, Value: 500, Rent: 25, Min. level: 8
+Can affect you as :
+   Affects: WIS By 2
+   Affects: MANA By 10
+Item slot: Arms
+-----
+Object 'a Cleric's Shield of Faith', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 20, Value: 3000, Rent: 2000, Min. level: 6
+AC-apply is 0
+Can affect you as :
+   Affects: MANA By 5
+   Affects: MANA_REGEN By 2
+Item slot: Shield
+-----
+Object 'a clerical combat collar', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 300, Rent: 15, Min. level: 6
+AC-apply is 3
+Can affect you as :
+   Affects: WIS By 1
+   Affects: MANA By 5
+Item slot: Neck
+-----
+Object 'the Breastplate of Devotion', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 20, Value: 3000, Rent: 150, Min. level: 7
+AC-apply is 24
+Can affect you as :
+   Affects: MANA_REGEN By 2
+   Affects: MANA By 5
+Item slot: On Body
+-----
+Object 'a clerical combat collar', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 300, Rent: 15, Min. level: 6
+AC-apply is 3
+Can affect you as :
+   Affects: WIS By 1
+   Affects: MANA By 5
+Item slot: Neck
+-----
+Object 'a plain clerical gauntlet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 500, Rent: 15, Min. level: 6
+AC-apply is 3
+Can affect you as :
+   Affects: STR By 1
+   Affects: MANA_REGEN By 2
+Item slot: Hands
+-----
+Object 'leather sparring armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !DONATE !RANGER !BARD UNIQUE 
+Weight: 150, Value: 1595, Rent: 160, Min. level: 7
+AC-apply is 75
+Can affect you as :
+   Affects: STR By 1
+   Affects: CON By 1
+Item slot: On Body
+-----
+Object 'Blue silk neckerchief', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !DONATE !RANGER !BARD UNIQUE 
+Weight: 10, Value: 295, Rent: 30, Min. level: 7
+AC-apply is 4
+Can affect you as :
+   Affects: INT By 1
+   Affects: MANA_REGEN By 4
+Item slot: Neck
+-----
+Object 'Leather arm guards', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !DONATE !RANGER !BARD UNIQUE 
+Weight: 25, Value: 1195, Rent: 120, Min. level: 7
+AC-apply is 6
+Can affect you as :
+   Affects: DEX By 1
+   Affects: MANA_REGEN By 3
+Item slot: Arms
+-----
+Object 'a buckler', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !DONATE !RANGER !BARD UNIQUE 
+Weight: 30, Value: 2596, Rent: 260, Min. level: 6
+AC-apply is 7
+Can affect you as :
+   Affects: HIT By 5
+   Affects: STR By 1
+Item slot: Shield
+-----
+Object 'Sohei gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !DONATE !RANGER !BARD UNIQUE 
+Weight: 15, Value: 375, Rent: 38, Min. level: 5
+AC-apply is 3
+Can affect you as :
+   Affects: MANA By 5
+   Affects: MANA_REGEN By 3
+Item slot: Hands
+-----
+Object 'a pair of brilliant orichalcum bands', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 500, Rent: 125, Min. level: 6
+AC-apply is 1
+Can affect you as :
+   Affects: INT By 1
+   Affects: MANA_REGEN By 2
+Item slot: Arms
+-----
+Object 'a pair of wool mittens', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 100, Rent: 12, Min. level: 5
+Can affect you as :
+   Affects: INT By 1
+   Affects: MANA By 5
+Item slot: Hands
+-----
+Object 'a pendant made of amber', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 2000, Rent: 250, Min. level: 9
+AC-apply is 2
+Can affect you as :
+   Affects: WIS By 1
+   Affects: CHARISMA By 1
+Item slot: Neck
+-----
+Object 'a sage's robe', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 2, Value: 800, Rent: 100, Min. level: 8
+Can affect you as :
+   Affects: INT By 1
+   Affects: MANA_REGEN By 2
+Item slot: On Body
+-----
+Object 'a transparent mage shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 0, Value: 1000, Rent: 125, Min. level: 6
+AC-apply is 6
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: MANA By 10
+Item slot: Shield
+-----
+Object 'Padawan Mind Stone', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP GOOD !CLER !THF !WAR !PAL !APAL !NINJA !SOHEI !RANGER !BARD UNIQUE 
+Weight: 11, Value: 500, Rent: 50, Min. level: 6
+AC-apply is 2
+Can affect you as :
+   Affects: INT By 1
+   Affects: WIS By 1
+Item slot: Neck
+-----
+Object 'Padawan body armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !SOHEI !RANGER !BARD UNIQUE 
+Weight: 20, Value: 3000, Rent: 150, Min. level: 7
+AC-apply is 24
+Can affect you as :
+   Affects: MANA_REGEN By 3
+   Affects: STR By 2
+Item slot: On Body
+-----
+Object 'Padawan gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !SOHEI !DONATE !RANGER !BARD UNIQUE 
+Weight: 14, Value: 200, Rent: 20, Min. level: 0
+AC-apply is 5
+Can affect you as :
+   Affects: MANA_REGEN By 2
+   Affects: CON By 2
+Item slot: Hands
+-----
+Object 'padawan arm wrap', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 10, Value: 150, Rent: 15, Min. level: 6
+AC-apply is 8
+Can affect you as :
+   Affects: MANA By 8
+   Affects: STR By 2
+Item slot: Arms
+-----
+Object 'Padawan shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 30, Value: 3000, Rent: 300, Min. level: 6
+AC-apply is 8
+Can affect you as :
+   Affects: HIT By 5
+   Affects: MANA_REGEN By 5
+Item slot: Shield

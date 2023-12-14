@@ -1,0 +1,16 @@
+#action {^ ##   Available   Item                                               Cost} {
+    #echo {};
+    #line ignore #show { ###  Avl     Cost  Item};
+    #line gag;
+    #class jtin-item-brief-shop-action read tins/jtin-item-brief-shop-action.tin;
+    #delay {0.50} {
+        #class jtin-item-brief-shop-action kill;
+    };
+}
+
+#alias jt_ib_shop_find {
+    #var jt_ib_shop_name {%1};
+    #replace jt_ib_shop_name {'} {_};
+    #replace jt_ib_shop_name {"} {\"};
+    #script {item} {sh -c './sh/item-shop-find.sh "$jt_ib_shop_name"'};
+}
