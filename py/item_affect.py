@@ -15,6 +15,7 @@ class ItemAffect(Enum):
 
     AGE = "AGE", "age", False
     HEIGHT = "HEIGHT", "height", False
+    WEIGHT = "WEIGHT", "weight", False
 
     HITROLL = "HITROLL", "hit", True
     DAMROLL = "DAMROLL", "dam", True

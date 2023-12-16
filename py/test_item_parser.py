@@ -2540,6 +2540,28 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_can_of_diet_coke(self):
+        actual = self.read_item_from_file("a-can-of-diet-coke")
+
+        item = Item()
+        item.name = "a can of diet coke"
+        item.type = ItemType.LIQ_CONTAINER
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 1
+        item.value = 10
+        item.rent = 1
+        item.min_level = 0
+        item.liq_units = 3
+        
+        item.affects[ItemAffect.WEIGHT] = -10
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

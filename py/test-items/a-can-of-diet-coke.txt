@@ -1,0 +1,9 @@
+Object 'a can of diet coke', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 1, Min. level: 0
+It can hold approximately 3 units of liquid.
+Can affect you as :
+   Affects: WEIGHT By -10
+Item slot: Hold
+-----
