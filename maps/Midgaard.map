@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 3033
+I 3012
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -263,7 +263,7 @@ T {SWIM} {<F21618C>~} {}
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
-R {2}{8}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+R {2}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
 E {7300}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {3090}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
@@ -741,7 +741,7 @@ E {3010}{n}{n}{1}{0}{}{1.000}{}{0.00}
 R {3042}{0}{<fff>}{The General Store}{#}{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3012}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {3043}{0}{<fff>}{The Pet Shop}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
+R {3043}{0}{<fff>}{The Pet Shop}{#}{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3012}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {3044}{0}{<fff>}{The Weaponsmith's Shop}{#}{}{Midgaard}{}{INSIDE}{}{1.000}{}
