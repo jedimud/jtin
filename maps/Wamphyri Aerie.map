@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 4201
+I 4326
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,7 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {4201}{0}{<fff>}{Entrance to the Aerie}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4202}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
@@ -798,7 +798,7 @@ E {4324}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
 E {4326}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {4326}{0}{<fff>}{Lady Karen's Personal Chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4327}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4327}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
 E {4325}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4327}{0}{<fff>}{The treasure room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
