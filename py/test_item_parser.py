@@ -2487,6 +2487,34 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_pink_wand(self):
+        actual = self.read_item_from_file("a-pink-wand")
+
+        item = Item()
+        item.name = "a pink wand"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemClass.NO_THF)
+        item.tags.append(ItemClass.NO_WAR)
+        item.tags.append(ItemClass.NO_NINJA)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 10
+        item.value = 15000
+        item.rent = 3750
+        item.min_level = 0
+        
+        item.spell_level = 3
+        item.spells.append(ItemSpell.FLAMESTRIKE)
+        item.charge_max = 2
+        item.charge_remain = 2
+
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

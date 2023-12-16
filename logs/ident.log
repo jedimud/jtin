@@ -13962,3 +13962,80 @@ Can affect you as :
    Affects: WIS By -2
    Affects: SAVE_SPELL By -3
 Item slot: Neck
+-----
+Object 'an invitation to the palace', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 0, Value: 100, Rent: 5, Min. level: 0
+-----
+Object 'a black onyx cat', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: MAG LIMITED !DONATE UNIQUE 
+Weight: 1, Value: 7500, Rent: 2500, Min. level: 10
+Can affect you as :
+   Affects: CHARISMA By 2
+Item slot: Light
+-----
+Object 'a long spear', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 10, Value: 300, Rent: 490, Min. level: 0
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Item slot: Wield
+-----
+Object 'some dry rations', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 20, Rent: 1, Min. level: 0
+-----
+Object 'a pair of ringmail pants', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 20, Value: 500, Rent: 25, Min. level: 0
+AC-apply is 6
+Item slot: Legs
+-----
+Object 'some iron rations', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 25, Rent: 2, Min. level: 0
+-----
+Object 'the Staff of Magius', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !DROP !EVIL !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !DONATE UNIQUE 
+Weight: 5, Value: 30000, Rent: 1250, Min. level: 15
+Damage Dice is '7D2' for an average per-round damage of 10.5.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 2
+Item slot: Wield
+-----
+Object 'a copper prayer scroll tube', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !DONATE !RANGER !BARD UNIQUE 
+Weight: 10, Value: 1500, Rent: 150, Min. level: 7
+It can hold approximately 20 units.
+Can affect you as :
+   Affects: MANA_REGEN By 3
+   Affects: MOVE_REGEN By 3
+Item slot: Hold
+-----
+Object 'an oil lamp', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 480, Rent: 50, Min. level: 0
+Item slot: Light
+-----
+Object 'a basket', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 4, Value: 250, Rent: 50, Min. level: 0
+It can hold approximately 50 units.
+-----
+Object 'a pink wand', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG !THF !WAR !NINJA UNIQUE 
+Weight: 10, Value: 15000, Rent: 3750, Min. level: 0
+This WAND casts: flamestrike of level 3
+It has 2 maximum charges and 2 remaining.
+Item slot: Hold

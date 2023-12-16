@@ -35,6 +35,7 @@ class ItemSpell(Enum):
     ENERGY_DRAIN = "energy drain"
     FIREBALL = "fireball"
     FIREBLAST = "fireblast"
+    FLAMESTRIKE = "flamestrike"
     FLY = "fly"
     GROUP_INVISIBIILITY = "group invisibility"
     HARM = "harm"
