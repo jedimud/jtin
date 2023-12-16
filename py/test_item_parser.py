@@ -2463,7 +2463,30 @@ class TestItemParser(unittest.TestCase):
         item.spells.append(ItemSpell.HARM)
 
         self.assert_equals(item, actual)
+
+    def test_parse_file__a_ceramic_flask(self):
+        actual = self.read_item_from_file("a-ceramic-flask")
+
+        item = Item()
+        item.name = "a ceramic flask"
+        item.type = ItemType.POTION
+        item.ability = ItemAbility.NOBITS
         
+        item.tags.append(ItemTag.NO_RENT)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 5
+        item.value = 25000
+        item.rent = 500
+        item.min_level = 0
+        
+        item.spell_level = 0
+        item.spells.append(ItemSpell.BLINDNESS)
+        item.spells.append(ItemSpell.REGENERATE)
+        item.spells.append(ItemSpell.WATERWALK)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

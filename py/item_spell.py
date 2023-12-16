@@ -51,6 +51,7 @@ class ItemSpell(Enum):
     POISON = "poison"
     PROTECTION_FROM_EVIL = "protection from evil"
     PROTECTION_FROM_GOOD = "protection from good"
+    REGENERATE = "regenerate"
     REJUVENTATE = "rejuvenate"
     REMOVE_CURSE = "remove curse"
     REMOVE_PARALYSIS = "remove paralysis"

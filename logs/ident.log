@@ -13885,3 +13885,80 @@ Can affect you as :
    Affects: HIT By 5
    Affects: MANA_REGEN By 5
 Item slot: Shield
+-----
+Object 'a Susan B. Anthony dollar coin', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !EVIL !THF !WAR !NINJA LIMITED UNIQUE 
+Weight: 2, Value: 10000, Rent: 0, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: WIS By 1
+   Affects: CON By 2
+Item slot: Hold
+-----
+Object 'a Puff-Hide Girth', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER UNIQUE 
+Weight: 2, Value: 25000, Rent: 5000, Min. level: 15
+AC-apply is 6
+Can affect you as :
+   Affects: DAMROLL By 2
+   Affects: STR By -1
+Item slot: Waist
+-----
+Object 'a pair of diamond hair pins', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW EVIL MAG !DROP !CLER !THF !WAR !PAL !APAL !NINJA !JEDI UNIQUE 
+Weight: 2, Value: 13000, Rent: 1000, Min. level: 10
+AC-apply is 12
+Can affect you as :
+   Affects: ARMOR By -4
+   Affects: SAVE_SPELL By -2
+Item slot: Head
+Item slot: Hold
+-----
+Object 'a battle draught', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 5, Value: 150000, Rent: 2500, Min. level: 0
+This POTION casts:  Level 5 of armor bless magical vestment
+-----
+Object 'a glittering potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: GLOW !RENT UNIQUE 
+Weight: 5, Value: 3000, Rent: 50, Min. level: 0
+This POTION casts:  Level 15 of harm invisible sleep
+-----
+Object 'a stone flask', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 5, Value: 40000, Rent: 2500, Min. level: 0
+This POTION casts:  Level 0 of blindness strength word of recall
+-----
+Object 'an opaque vial', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 5, Value: 75000, Rent: 2500, Min. level: 0
+This POTION casts:  Level 0 of clone
+-----
+Object 'a ceramic flask', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 5, Value: 25000, Rent: 500, Min. level: 0
+This POTION casts:  Level 0 of blindness regenerate waterwalk
+-----
+Object 'an enlibrite sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA LIMITED UNIQUE 
+Weight: 12, Value: 2675, Rent: 7500, Min. level: 12
+Damage Dice is '6D2' for an average per-round damage of 9.0.
+Item slot: Wield
+-----
+Object 'a small amulet', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 3000, Rent: 25, Min. level: 0
+Can affect you as :
+   Affects: WIS By -2
+   Affects: SAVE_SPELL By -3
+Item slot: Neck
