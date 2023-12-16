@@ -1,0 +1,8 @@
+Object 'a wand of oak', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 5000, Rent: 1250, Min. level: 0
+This WAND casts: infravision of level 5
+It has 10 maximum charges and 10 remaining.
+Item slot: Hold
+-----

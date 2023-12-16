@@ -43,6 +43,7 @@ class ItemSpell(Enum):
     HOLD = "hold"
     ICE_STORM = "ice storm"
     IDENTIFY = "identify"
+    INFRAVISION = "infravision"
     INVISIBLE = "invisible"
     LIGHTNING_BOLT = "lightning bolt"
     MAGIC_MISSILE = "magic missile"

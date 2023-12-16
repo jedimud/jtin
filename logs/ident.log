@@ -14039,3 +14039,48 @@ Weight: 10, Value: 15000, Rent: 3750, Min. level: 0
 This WAND casts: flamestrike of level 3
 It has 2 maximum charges and 2 remaining.
 Item slot: Hold
+-----
+Object 'a canister of purple ink', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 1, Value: 15, Rent: 7, Min. level: 0
+It can hold approximately 1 units of liquid.
+-----
+Object 'a whole chicken', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 12, Rent: 1, Min. level: 0
+-----
+Object 'Padawan focus fob', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 300, Rent: 30, Min. level: 6
+Can affect you as :
+   Affects: MANA By 8
+   Affects: MANA_REGEN By 3
+Item slot: Hold
+-----
+Object 'a belt pouch', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 300, Rent: 20, Min. level: 0
+It can hold approximately 25 units.
+Item slot: Waist
+-----
+Object 'a leg of lamb', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 10, Rent: 1, Min. level: 0
+-----
+Object 'a side of beef', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 20, Rent: 2, Min. level: 0
+-----
+Object 'a wand of oak', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 5000, Rent: 1250, Min. level: 0
+This WAND casts: infravision of level 5
+It has 10 maximum charges and 10 remaining.
+Item slot: Hold
