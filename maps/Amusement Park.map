@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 1400
+I 1466
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -333,6 +333,10 @@ E {1498}{e}{e}{2}{0}{}{1.000}{}{0.00}
 R {20}{4104}{}{}{ }{}{}{}{CITY}{}{1.000}{}
 E {1403}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1404}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {1466}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {1455}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1400}{0}{<fff>}{Dim Alley}{ }{}{Amusement Park}{}{CITY}{}{1.000}{}
 E {12242}{n}{jt_m_link_action {north} {the grand city of New Thalos} {12242}}{1}{0}{}{1.000}{}{0.00}
@@ -571,7 +575,7 @@ E {1467}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1455}{0}{<fff>}{Shop path}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
-E {1464}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {17}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {1456}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {1466}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -615,7 +619,7 @@ E {1456}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {1465}{0}{<fff>}{Soda Shop}{#}{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1456}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
-R {1466}{0}{<fff>}{Souvenir Shop}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
+R {1466}{0}{<fff>}{Souvenir Shop}{#}{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1455}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {1467}{0}{<fff>}{Entrance to Hall of Mirrors}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
