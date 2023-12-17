@@ -2,10 +2,15 @@
     #if {&{jt_m_current}} {
         #map get roomvnum kroomvnum;
         #map get roomarea kroomarea;
-        #line log logs/kill.log {%1,$kroomarea,$kroomvnum};
+
+        #var npcname {%1};
+        #replace {npcname} {,} {_};
+
+        #line log logs/kill.log {$npcname,$kroomarea,$kroomvnum};
         #unvar kroomarea;
         #unvar kroomvnum;
+        #unvar npcname;
     } {
-        #line log logs/kill.log {%1,unknown};
+        jt_dl_l_print_msg {<fca>failed to write logs, unknown room}
     };
 }

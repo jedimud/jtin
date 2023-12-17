@@ -6,27 +6,27 @@ a checkered shirt,John the Lumberjack,Haon-Dor,6013
 ,Guildmaster Sashimi,Haon-Dor,6011
 a long sword,Welmar's Ranger,Midgaard,3123
 a long sword,the Cityguard,Midgaard,3004
-,the large, black wolf,dark Haon-Dor,6103
-,a huge, ancient tree,dark Haon-Dor,6109
-,the large, grey wolf,dark Haon-Dor,6109
-,a huge, ancient tree,dark Haon-Dor,6108
-a big pile of gold coins,the huge, green dragon,dark Haon-Dor,6143
-a big pile of gold coins,the huge, green dragon,dark Haon-Dor,6143
-an iron crown,the huge, green dragon,dark Haon-Dor,6143
-a yellow potion,the huge, green dragon,dark Haon-Dor,6143
+,the large_ black wolf,dark Haon-Dor,6103
+,a huge_ ancient tree,dark Haon-Dor,6109
+,the large_ grey wolf,dark Haon-Dor,6109
+,a huge_ ancient tree,dark Haon-Dor,6108
+a big pile of gold coins,the huge_ green dragon,dark Haon-Dor,6143
+a big pile of gold coins,the huge_ green dragon,dark Haon-Dor,6143
+an iron crown,the huge_ green dragon,dark Haon-Dor,6143
+a yellow potion,the huge_ green dragon,dark Haon-Dor,6143
 ,a shadow guardian,the High Tower of Sorcery,13001
 ,a shadow guardian,the High Tower of Sorcery,13001
-,the large, grey wolf,dark Haon-Dor,6109
-,the large, black wolf,dark Haon-Dor,6109
+,the large_ grey wolf,dark Haon-Dor,6109
+,the large_ black wolf,dark Haon-Dor,6109
 ,the ferocious warg,dark Haon-Dor,6109
 ,the vicious warg,dark Haon-Dor,6108
 the morning star,the Elder Druid,MidenNir,1855
 a staff of curing,the Elder Druid,MidenNir,1855
 a blue potion,the Queen Spider,dark Haon-Dor,6134
 an iron scepter,the Queen Spider,dark Haon-Dor,6134
-,the huge, poisonous spider,dark Haon-Dor,6133
-,the huge, poisonous spider,dark Haon-Dor,6133
-,the huge, poisonous spider,dark Haon-Dor,6133
+,the huge_ poisonous spider,dark Haon-Dor,6133
+,the huge_ poisonous spider,dark Haon-Dor,6133
+,the huge_ poisonous spider,dark Haon-Dor,6133
 ,the Sexton,the southern part of Midgaard,3206
 a cup,the Maid,the southern part of Midgaard,3206
 a cup of coffee,the Maid,the southern part of Midgaard,3206
@@ -66,7 +66,7 @@ a big pile of gold coins,Discord,The Underworld,16135
 ,Discord,The Underworld,16135
 ,Evil Pleasure,The Underworld,16147
 a big pile of gold coins,Hunger,The Underworld,16146
-a thick, juicy steak,Hunger,The Underworld,16146
+a thick_ juicy steak,Hunger,The Underworld,16146
 ,Sleep,The Underworld,16145
 an enormous mound of gold coins,the gargoyle,Enfan City,10011
 an old key,the gargoyle,Enfan City,10011
@@ -113,7 +113,7 @@ a scout's vest,the Imperial Scout,Star Wars,1203
 a keycard,the Imperial Scout,Star Wars,1203
 an enormous mound of gold coins,the dervish,the Great Eastern Desert,5043
 a curved scimitar,the nomad commander,the Great Eastern Desert,5060
-a long, curved sabre,the nomad leader,the Great Eastern Desert,5061
+a long_ curved sabre,the nomad leader,the Great Eastern Desert,5061
 ,the mayor,the grand city of New Thalos,12352
 a huge mound of gold coins,the Black Dragon,the Balor,16614
 the Crystal Sword,the Black Dragon,the Balor,16614
@@ -157,8 +157,8 @@ a pile of gold coins,the rat,The Midgaard Sewers,7301
 a black satin robe,Sholvanna Stark,The Midgaard Sewers,7315
 a pile of gold coins,the windup brass arachnid,The Midgaard Sewers,7346
 a pile of gold coins,the clockwork automaton,The Midgaard Sewers,7346
-a wrench,Namirrah Retlaw, the techanist,The Midgaard Sewers,7346
-the jumpsuit of delving,Namirrah Retlaw, the techanist,The Midgaard Sewers,7346
+a wrench,Namirrah Retlaw_ the techanist,The Midgaard Sewers,7346
+the jumpsuit of delving,Namirrah Retlaw_ the techanist,The Midgaard Sewers,7346
 ,the clockwork automaton,The Midgaard Sewers,7346
 ,the windup brass arachnid,The Midgaard Sewers,7346
 a pile of gold coins,the windup brass arachnid,The Midgaard Sewers,7347
@@ -513,8 +513,8 @@ a big pile of gold coins,Brother Haeckel,The Monastery,5835
 a brown monk's robe,Brother Haeckel,The Monastery,5835
 ,a macabre ghoul,The Monastery,5879
 ,a miserable shade,The Monastery,5886
-,a large, black rat,The Monastery,5886
-,a large, black rat,The Monastery,5886
+,a large_ black rat,The Monastery,5886
+,a large_ black rat,The Monastery,5886
 ,a miserable shade,The Monastery,5881
 ,a miserable shade,The Monastery,5878
 ,a miserable shade,The Monastery,5872
@@ -543,8 +543,8 @@ a pile of gold coins,the skinny kid,Amusement Park,1415
 a black iron key,Mighty Mickey,Amusement Park,1415
 ,the skinny kid,Amusement Park,1415
 ,a running kid,Amusement Park,1415
-a pile of gold coins,Kerang, the wild boy,Amusement Park,1419
-,Kerang, the wild boy,Amusement Park,1419
+a pile of gold coins,Kerang_ the wild boy,Amusement Park,1419
+,Kerang_ the wild boy,Amusement Park,1419
 ,a wiry reflection,Amusement Park,1479
 ,a wiry reflection,Amusement Park,1479
 ,a wiry reflection,Amusement Park,1479
@@ -775,7 +775,7 @@ a big pile of gold coins,an insect swarm,MidenNir Extension,18626
 a big pile of gold coins,an insect swarm,MidenNir Extension,18625
 a big pile of gold coins,a ghost,MidenNir Extension,18656
 a big pile of gold coins,a ghost,MidenNir Extension,18656
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 a big pile of gold coins,an insect swarm,MidenNir Extension,18620
 a gold coin,Sorbus the Hermit,the northern plains,5431
 a scrap from some holy book,Sorbus the Hermit,the northern plains,5431
@@ -850,11 +850,11 @@ a huge mound of gold coins,the knight,the Sieged Castle,14629
 a big pile of gold coins,the archer,the Sieged Castle,14649
 a huge mound of gold coins,the armored fighter,the Sieged Castle,14641
 a big pile of gold coins,Morgan LeFay,Camelot,2749
-a huge mound of gold coins,Yamus, the necromancer,MidenNir Extension,18642
+a huge mound of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
-leather mage pants,Yamus, the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
+leather mage pants,Yamus_ the necromancer,MidenNir Extension,18642
 a shroud of mist,Lord Elgan,MidenNir Extension,18661
 a big pile of gold coins,an angry spirit,MidenNir Extension,18661
 a large heap of gold coins,David,King Welmars Castle,15036
@@ -1022,12 +1022,12 @@ a pile of gold coins,the Royal Guard,the grand city of New Thalos,12323
 a huge mound of gold coins,Esp,the grand city of New Thalos,12323
 ,Esp,the grand city of New Thalos,12323
 ,the Royal Guard,the grand city of New Thalos,12323
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
-a mana stone,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
-a pair of pinstriped trousers,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
-a pair of happy boots,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
-a deep, dark hood,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
-a beautiful bracelet,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
+a mana stone,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
+a pair of pinstriped trousers,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
+a pair of happy boots,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
+a deep_ dark hood,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
+a beautiful bracelet,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 a pile of gold coins,the wandering prophet,the grand city of New Thalos,12261
 a huge mound of gold coins,the Assassin,the grand city of New Thalos,12330
 ,the Assassin,the grand city of New Thalos,12330
@@ -1063,7 +1063,7 @@ a huge mound of gold coins,the Ninja,the grand city of New Thalos,12508
 ,the Tourist,the grand city of New Thalos,12508
 a large heap of gold coins,Fuma Kataro,the grand city of New Thalos,12509
 a huge mound of gold coins,Esp,the grand city of New Thalos,12323
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 a huge mound of gold coins,PinkiE the Knight,the grand city of New Thalos,12324
 an enormous mound of gold coins,Valden the warrior shopkeeper,the grand city of New Thalos,12331
 a huge mound of gold coins,Crafty the Knight Templar,the grand city of New Thalos,12310
@@ -1371,10 +1371,10 @@ a pile of gold coins,a statue of a wolf,Valhalla,8312
 a sword with a pale blue blade,a Valkyrie Warrior,Valhalla,8312
 an iron bustier,a Valkyrie Warrior,Valhalla,8312
 a pile of gold coins,a huge black bird,Valhalla,8313
-a pile of gold coins,a huge, jet-black raven,Valhalla,8313
-a raven's feather,a huge, jet-black raven,Valhalla,8313
+a pile of gold coins,a huge_ jet-black raven,Valhalla,8313
+a raven's feather,a huge_ jet-black raven,Valhalla,8313
 a big pile of gold coins,a Valkyrie Warrior,Valhalla,8313
-a pair of white leather, knee high boots,a Valkyrie Warrior,Valhalla,8313
+a pair of white leather_ knee high boots,a Valkyrie Warrior,Valhalla,8313
 a big pile of gold coins,a Valkyrie Warrior,Valhalla,8313
 a big pile of gold coins,a Valkyrie Warrior,Valhalla,8313
 a sword with a pale blue blade,a Valkyrie Warrior,Valhalla,8313
@@ -1391,7 +1391,7 @@ a big pile of gold coins,Charlie Gordon,Valhalla,8348
 a small brass key,Charlie Gordon,Valhalla,8348
 a big pile of gold coins,a Valkyrie Warrior,Valhalla,8309
 a sword with a pale blue blade,a Valkyrie Warrior,Valhalla,8309
-a pair of white leather, knee high boots,a Valkyrie Warrior,Valhalla,8309
+a pair of white leather_ knee high boots,a Valkyrie Warrior,Valhalla,8309
 a big pile of gold coins,Brynhild,Valhalla,8309
 a bracelet of sleep,Brynhild,Valhalla,8309
 a big pile of gold coins,Vidar,Valhalla,8328
@@ -1421,13 +1421,13 @@ a big pile of gold coins,a dwarven guard,the Dwarven Kingdom,6505
 an old key,a dwarven guard,the Dwarven Kingdom,6505
 a hammer,a dwarven guard,the Dwarven Kingdom,6505
 dwarven plate mail,a dwarven guard,the Dwarven Kingdom,6505
-a long, black stick,a dwarven guard,the Dwarven Kingdom,6505
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18641
+a long_ black stick,a dwarven guard,the Dwarven Kingdom,6505
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18641
 a small pile of gold coins,a zombie gerbil,MidenNir Extension,18641
 ,a bound spirit,MidenNir Extension,18641
 ,a bound spirit,MidenNir Extension,18641
 ,a zombie gerbil,MidenNir Extension,18641
-a steel key,Yamus, the necromancer,MidenNir Extension,18641
+a steel key,Yamus_ the necromancer,MidenNir Extension,18641
 ,Deloria,MidenNir Extension,18666
 a large heap of gold coins,the goblin chief,MidenNir Extension,18604
 ,the goblin chief,MidenNir Extension,18604
@@ -1483,7 +1483,7 @@ an enormous mound of gold coins,Lapatwen,the grand city of New Thalos,12518
 a huge mound of gold coins,the Ninja,the grand city of New Thalos,12508
 a large heap of gold coins,Fuma Kataro,the grand city of New Thalos,12509
 a huge mound of gold coins,Esp,the grand city of New Thalos,12323
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 a huge mound of gold coins,Crafty the Knight Templar,the grand city of New Thalos,12310
 a huge mound of gold coins,PinkiE the Knight,the grand city of New Thalos,12324
 an enormous mound of gold coins,Valden the warrior shopkeeper,the grand city of New Thalos,12331
@@ -1501,10 +1501,10 @@ a pile of gold coins,the sentry,Midgaard,3046
 a large heap of gold coins,the goblin chief,MidenNir Extension,18604
 a silver chain,the goblin chief,MidenNir Extension,18604
 a large heap of gold coins,a zombie nymph,MidenNir Extension,18642
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 ,a zombie nymph,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 a big pile of gold coins,a ghost,MidenNir Extension,18661
@@ -1625,7 +1625,7 @@ a huge mound of gold coins,the Anti-Paladin Skirmisher,the grand city of New Tha
 an enormous mound of gold coins,Lapatwen,the grand city of New Thalos,12518
 a huge mound of gold coins,Fuma Kataro,the grand city of New Thalos,12509
 ,Esp,the grand city of New Thalos,12323
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 an enormous mound of gold coins,Valden the warrior shopkeeper,the grand city of New Thalos,12331
 a huge mound of gold coins,the White Queen,The Chess Board,6360
 the Crown of the White Queen,the White Queen,The Chess Board,6360
@@ -1673,7 +1673,7 @@ a leather change belt,a burly arcade attendant,Amusement Park,1463
 a huge mound of gold coins,the Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 an enormous mound of gold coins,Lapatwen,the grand city of New Thalos,12518
 a huge mound of gold coins,Fuma Kataro,the grand city of New Thalos,12509
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 an enormous mound of gold coins,Valden the warrior shopkeeper,the grand city of New Thalos,12331
 a big pile of gold coins,a White Bishop,The Chess Board,6359
 the Staff of the White Bishop,a White Bishop,The Chess Board,6359
@@ -1806,7 +1806,7 @@ a pair of hobnailed boots,Lapatwen,the grand city of New Thalos,12518
 a brace of desecrated vambrace,Lapatwen,the grand city of New Thalos,12518
 a demon winged helm,Lapatwen,the grand city of New Thalos,12518
 a set of bone greaves,Lapatwen,the grand city of New Thalos,12518
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 an enormous mound of gold coins,Valden the warrior shopkeeper,the grand city of New Thalos,12331
 a large heap of gold coins,the jailor,the grand city of New Thalos,12373
 the jail key,the jailor,the grand city of New Thalos,12373
@@ -1921,7 +1921,7 @@ a huge mound of gold coins,a slave trader,the Wayhouse,3714
 a huge mound of gold coins,the Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 an enormous mound of gold coins,Lapatwen,the grand city of New Thalos,12518
 a huge mound of gold coins,Esp,the grand city of New Thalos,12323
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 a huge mound of gold coins,PinkiE the Knight,the grand city of New Thalos,12324
 an enormous mound of gold coins,Valden the warrior shopkeeper,the grand city of New Thalos,12331
 a big pile of gold coins,a White Bishop,The Chess Board,6360
@@ -1990,7 +1990,7 @@ a huge mound of gold coins,a thief,the grand city of New Thalos,12540
 a huge mound of gold coins,PinkiE the Knight,the grand city of New Thalos,12324
 an enormous mound of gold coins,Valden the warrior shopkeeper,the grand city of New Thalos,12331
 a huge mound of gold coins,Esp,the grand city of New Thalos,12323
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 a huge mound of gold coins,the Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 an enormous mound of gold coins,Lapatwen,the grand city of New Thalos,12518
 a huge mound of gold coins,the Ninja,the grand city of New Thalos,12508
@@ -2141,7 +2141,7 @@ a pile of gold coins,the skinny kid,the grand city of New Thalos,12336
 a huge mound of gold coins,the Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 an enormous mound of gold coins,Lapatwen,the grand city of New Thalos,12518
 a huge mound of gold coins,Esp,the grand city of New Thalos,12323
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 a huge mound of gold coins,PinkiE the Knight,the grand city of New Thalos,12324
 an enormous mound of gold coins,Valden the warrior shopkeeper,the grand city of New Thalos,12331
 a large heap of gold coins,the undead ogre,the Abyss,2040
@@ -2285,18 +2285,18 @@ a mountain of gold coins,Mustafah,the grand city of New Thalos,12517
 a huge mound of gold coins,the Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 an enormous mound of gold coins,Lapatwen,the grand city of New Thalos,12518
 a huge mound of gold coins,Esp,the grand city of New Thalos,12323
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 a huge mound of gold coins,PinkiE the Knight,the grand city of New Thalos,12324
 an enormous mound of gold coins,Valden the warrior shopkeeper,the grand city of New Thalos,12331
-,a huge, ancient tree,dark Haon-Dor,6124
-,a huge, ancient tree,dark Haon-Dor,6119
-,a huge, ancient tree,dark Haon-Dor,6120
-,a huge, ancient tree,dark Haon-Dor,6105
-a big pile of gold coins,the huge, green dragon,dark Haon-Dor,6143
-a big pile of gold coins,the huge, green dragon,dark Haon-Dor,6143
-an iron crown,the huge, green dragon,dark Haon-Dor,6143
-a yellow potion,the huge, green dragon,dark Haon-Dor,6143
-,a huge, ancient tree,dark Haon-Dor,6143
+,a huge_ ancient tree,dark Haon-Dor,6124
+,a huge_ ancient tree,dark Haon-Dor,6119
+,a huge_ ancient tree,dark Haon-Dor,6120
+,a huge_ ancient tree,dark Haon-Dor,6105
+a big pile of gold coins,the huge_ green dragon,dark Haon-Dor,6143
+a big pile of gold coins,the huge_ green dragon,dark Haon-Dor,6143
+an iron crown,the huge_ green dragon,dark Haon-Dor,6143
+a yellow potion,the huge_ green dragon,dark Haon-Dor,6143
+,a huge_ ancient tree,dark Haon-Dor,6143
 a handful of gold coins,Edgar,the High Tower of Sorcery,13003
 a pile of gold coins,a lost adventurer,the High Tower of Sorcery,13003
 a loaf of bread,a lost adventurer,the High Tower of Sorcery,13003
@@ -2452,25 +2452,25 @@ some Russian caviar,the Chef,King Welmars Castle,15005
 a delicious-looking lobster,the Chef,King Welmars Castle,15005
 a small key,the Cook,King Welmars Castle,15005
 ,the Cook,King Welmars Castle,15005
-a big pile of gold coins,Peter, the Captain of the Royal guard,King Welmars Castle,15053
-a large broadsword,Peter, the Captain of the Royal guard,King Welmars Castle,15053
-a guard's chain mail hauberk,Peter, the Captain of the Royal guard,King Welmars Castle,15053
+a big pile of gold coins,Peter_ the Captain of the Royal guard,King Welmars Castle,15053
+a large broadsword,Peter_ the Captain of the Royal guard,King Welmars Castle,15053
+a guard's chain mail hauberk,Peter_ the Captain of the Royal guard,King Welmars Castle,15053
 a little pile of gold coins,the gray dwarf,the Great Eastern Desert,5011
 a huge mound of gold coins,the dracolich,the Great Eastern Desert,5011
 a pile of gold coins,the Drow commoner,Drow City,5101
 a pile of gold coins,the Drow commoner,Drow City,5103
 a big pile of gold coins,Grim,the Wayhouse,3735
 a big pile of gold coins,Farbekrieg the Angry,the Wayhouse,3735
-a big pile of gold coins,Malsid, the vile shapeshifter,the Wayhouse,3735
+a big pile of gold coins,Malsid_ the vile shapeshifter,the Wayhouse,3735
 a big pile of gold coins,the sneaky looking thief,the Wayhouse,3735
 a serrated dagger,the sneaky looking thief,the Wayhouse,3735
-a Jester's Staff,Malsid, the vile shapeshifter,the Wayhouse,3735
+a Jester's Staff,Malsid_ the vile shapeshifter,the Wayhouse,3735
 a two handed sword,Farbekrieg the Angry,the Wayhouse,3735
 a mace,Grim,the Wayhouse,3735
-a big pile of gold coins,Tom, the King's Lifeguard,King Welmars Castle,15017
-a big pile of gold coins,Tim, the King's Lifeguard,King Welmars Castle,15017
-,Tim, the King's Lifeguard,King Welmars Castle,15017
-,Tom, the King's Lifeguard,King Welmars Castle,15017
+a big pile of gold coins,Tom_ the King's Lifeguard,King Welmars Castle,15017
+a big pile of gold coins,Tim_ the King's Lifeguard,King Welmars Castle,15017
+,Tim_ the King's Lifeguard,King Welmars Castle,15017
+,Tom_ the King's Lifeguard,King Welmars Castle,15017
 an enormous mound of gold coins,King Welmar,King Welmars Castle,15017
 a golden sceptre,King Welmar,King Welmars Castle,15017
 a big pile of gold coins,Bertram the Royal guard,King Welmars Castle,15036
@@ -2562,7 +2562,7 @@ a large heap of gold coins,the armored fighter,the Sieged Castle,14625
 a big pile of gold coins,the dwarven archer,the Owlery,8901
 ,the dwarven archer,the Owlery,8901
 a pile of gold coins,an owlet,the Owlery,8900
-a pile of gold coins,Imagunafightu, the goblin ambassador,the Owlery,8903
+a pile of gold coins,Imagunafightu_ the goblin ambassador,the Owlery,8903
 a big pile of gold coins,the pilgrim,the Owlery,8903
 a big pile of gold coins,the pilgrim,the Owlery,8903
 a big pile of gold coins,the owl,the Owlery,8903
@@ -2571,15 +2571,15 @@ a pile of gold coins,the sultan's guard,the Owlery,8903
 a torch of New Thalos,the sultan's guard,the Owlery,8903
 a dark jug of white fluid,an owlet,the Owlery,8903
 ,the owl,the Owlery,8903
-a sandy, silk turban,the pilgrim,the Owlery,8903
-a sandy, silk turban,the pilgrim,the Owlery,8903
+a sandy_ silk turban,the pilgrim,the Owlery,8903
+a sandy_ silk turban,the pilgrim,the Owlery,8903
 ,a worm,the Owlery,8903
-a big pile of gold coins,Willow, the animated tree,the Owlery,8904
-,Willow, the animated tree,the Owlery,8904
+a big pile of gold coins,Willow_ the animated tree,the Owlery,8904
+,Willow_ the animated tree,the Owlery,8904
 a pile of gold coins,an owlet,the Owlery,8905
 ,an owlet,the Owlery,8905
-a large heap of gold coins,Xyzzy, demon-diplomat,the Owlery,8909
-,Xyzzy, demon-diplomat,the Owlery,8909
+a large heap of gold coins,Xyzzy_ demon-diplomat,the Owlery,8909
+,Xyzzy_ demon-diplomat,the Owlery,8909
 a big pile of gold coins,a barred guardian owl,the Owlery,8944
 ,a barred guardian owl,the Owlery,8944
 a big pile of gold coins,the mad archivist,the Owlery,8941
@@ -2657,7 +2657,7 @@ a huge mound of gold coins,the White Queen,The Chess Board,6352
 a huge mound of gold coins,the White King,The Chess Board,6353
 a pile of gold coins,a scruffy looking sailor,The Corsair Citadel,12608
 some stained sailcloth breeches,a scruffy looking sailor,The Corsair Citadel,12608
-a patched, canvas shirt,a scruffy looking sailor,The Corsair Citadel,12608
+a patched_ canvas shirt,a scruffy looking sailor,The Corsair Citadel,12608
 a big pile of gold coins,a corsair swordsman,The Corsair Citadel,12619
 a tiny pile of gold coins,the mangy cur,The Corsair Citadel,12619
 a pile of gold coins,a scruffy looking sailor,The Corsair Citadel,12619
@@ -2665,18 +2665,18 @@ a pile of gold coins,a guardsman,The Corsair Citadel,12619
 a longsword,a guardsman,The Corsair Citadel,12619
 a blue dyed leather jerkin,a guardsman,The Corsair Citadel,12619
 some stained sailcloth breeches,a scruffy looking sailor,The Corsair Citadel,12619
-a patched, canvas shirt,a scruffy looking sailor,The Corsair Citadel,12619
+a patched_ canvas shirt,a scruffy looking sailor,The Corsair Citadel,12619
 ,the mangy cur,The Corsair Citadel,12619
 a longsword,a corsair swordsman,The Corsair Citadel,12619
 a blue dyed leather jerkin,a corsair swordsman,The Corsair Citadel,12619
 a pile of gold coins,a scruffy looking sailor,The Corsair Citadel,12625
 some stained sailcloth breeches,a scruffy looking sailor,The Corsair Citadel,12625
-a patched, canvas shirt,a scruffy looking sailor,The Corsair Citadel,12625
+a patched_ canvas shirt,a scruffy looking sailor,The Corsair Citadel,12625
 a small pile of gold coins,a rowdy sailor,The Corsair Citadel,12748
 a big pile of gold coins,a brawny sailor,The Corsair Citadel,12748
 some stained sailcloth breeches,a brawny sailor,The Corsair Citadel,12748
 some stained sailcloth breeches,a rowdy sailor,The Corsair Citadel,12748
-a patched, canvas shirt,a rowdy sailor,The Corsair Citadel,12748
+a patched_ canvas shirt,a rowdy sailor,The Corsair Citadel,12748
 a big pile of gold coins,a brawny sailor,The Corsair Citadel,12747
 a pile of gold coins,a guardsman,The Corsair Citadel,12747
 a longsword,a guardsman,The Corsair Citadel,12747
@@ -2689,29 +2689,29 @@ a longsword,a guardsman,The Corsair Citadel,12634
 a blue dyed leather jerkin,a guardsman,The Corsair Citadel,12634
 a small pile of gold coins,a rowdy sailor,The Corsair Citadel,12633
 some stained sailcloth breeches,a rowdy sailor,The Corsair Citadel,12633
-a patched, canvas shirt,a rowdy sailor,The Corsair Citadel,12633
+a patched_ canvas shirt,a rowdy sailor,The Corsair Citadel,12633
 a big pile of gold coins,a corsair swordsman,The Corsair Citadel,12686
 a small pile of gold coins,a rowdy sailor,The Corsair Citadel,12622
 a big pile of gold coins,a sinister looking marine,The Corsair Citadel,12622
 a cutlass,a sinister looking marine,The Corsair Citadel,12622
 a blue dyed leather jerkin,a sinister looking marine,The Corsair Citadel,12622
 some stained sailcloth breeches,a rowdy sailor,The Corsair Citadel,12622
-a patched, canvas shirt,a rowdy sailor,The Corsair Citadel,12622
+a patched_ canvas shirt,a rowdy sailor,The Corsair Citadel,12622
 a pile of gold coins,a lookout,The Corsair Citadel,12646
 some stained sailcloth breeches,a lookout,The Corsair Citadel,12646
-a patched, canvas shirt,a lookout,The Corsair Citadel,12646
+a patched_ canvas shirt,a lookout,The Corsair Citadel,12646
 a big pile of gold coins,an artillerist,The Corsair Citadel,12644
 a blue dyed leather jerkin,an artillerist,The Corsair Citadel,12644
 a pile of gold coins,a lookout,The Corsair Citadel,12658
 some stained sailcloth breeches,a lookout,The Corsair Citadel,12658
-a patched, canvas shirt,a lookout,The Corsair Citadel,12658
+a patched_ canvas shirt,a lookout,The Corsair Citadel,12658
 a small pile of gold coins,a sailor,The Corsair Citadel,12742
 a small pile of gold coins,a sailor,The Corsair Citadel,12742
 some stained sailcloth breeches,a sailor,The Corsair Citadel,12742
-a patched, canvas shirt,a sailor,The Corsair Citadel,12742
+a patched_ canvas shirt,a sailor,The Corsair Citadel,12742
 some stained sailcloth breeches,a sailor,The Corsair Citadel,12742
 ,a sailor,The Corsair Citadel,12742
-a patched, canvas shirt,a sailor,The Corsair Citadel,12742
+a patched_ canvas shirt,a sailor,The Corsair Citadel,12742
 a pile of gold coins,a guardsman,The Corsair Citadel,12743
 a longsword,a guardsman,The Corsair Citadel,12743
 a blue dyed leather jerkin,a guardsman,The Corsair Citadel,12743
@@ -2721,11 +2721,11 @@ a longsword,a guardsman,The Corsair Citadel,12629
 a blue dyed leather jerkin,a guardsman,The Corsair Citadel,12629
 a pile of gold coins,a lookout,The Corsair Citadel,12647
 some stained sailcloth breeches,a lookout,The Corsair Citadel,12647
-a patched, canvas shirt,a lookout,The Corsair Citadel,12647
+a patched_ canvas shirt,a lookout,The Corsair Citadel,12647
 a large heap of gold coins,the head artillerist,The Corsair Citadel,12650
 a small pile of gold coins,a sailor,The Corsair Citadel,12650
 some stained sailcloth breeches,a sailor,The Corsair Citadel,12650
-a patched, canvas shirt,a sailor,The Corsair Citadel,12650
+a patched_ canvas shirt,a sailor,The Corsair Citadel,12650
 ,a sailor,The Corsair Citadel,12650
 ,a sailor,The Corsair Citadel,12650
 a blue dyed leather jerkin,the head artillerist,The Corsair Citadel,12650
@@ -2739,11 +2739,11 @@ a longsword,a corsair swordsman,The Corsair Citadel,12745
 a blue dyed leather jerkin,a corsair swordsman,The Corsair Citadel,12745
 a small pile of gold coins,a rowdy sailor,The Corsair Citadel,12744
 some stained sailcloth breeches,a rowdy sailor,The Corsair Citadel,12744
-a patched, canvas shirt,a rowdy sailor,The Corsair Citadel,12744
+a patched_ canvas shirt,a rowdy sailor,The Corsair Citadel,12744
 a small pile of gold coins,a rowdy sailor,The Corsair Citadel,12626
 an enormous mound of gold coins,the bald bartender,The Corsair Citadel,12632
 some stained sailcloth breeches,the bald bartender,The Corsair Citadel,12632
-a patched, canvas shirt,the bald bartender,The Corsair Citadel,12632
+a patched_ canvas shirt,the bald bartender,The Corsair Citadel,12632
 a huge mound of gold coins,the ancient mariner,The Corsair Citadel,12632
 a big pile of gold coins,a brawny sailor,The Corsair Citadel,12632
 a big pile of gold coins,a brawny sailor,The Corsair Citadel,12632
@@ -2753,7 +2753,7 @@ an albatross,the ancient mariner,The Corsair Citadel,12632
 ,a brawny sailor,The Corsair Citadel,12632
 some stained sailcloth breeches,a brawny sailor,The Corsair Citadel,12632
 some stained sailcloth breeches,the ancient mariner,The Corsair Citadel,12632
-a patched, canvas shirt,the ancient mariner,The Corsair Citadel,12632
+a patched_ canvas shirt,the ancient mariner,The Corsair Citadel,12632
 ,the bald bartender,The Corsair Citadel,12632
 a pile of gold coins,a drunk sailor,The Corsair Citadel,12635
 a big pile of gold coins,a sinister looking marine,The Corsair Citadel,12631
@@ -2773,7 +2773,7 @@ a blue dyed leather jerkin,a pikeman,The Corsair Citadel,12693
 ,a pikeman,The Corsair Citadel,12693
 a pike,a pikeman,The Corsair Citadel,12693
 a big pile of gold coins,the captain of the Citadel guardsmen,The Corsair Citadel,12694
-a small, brass key,the captain of the Citadel guardsmen,The Corsair Citadel,12694
+a small_ brass key,the captain of the fCitadel guardsmen,The Corsair Citadel,12694
 a cutlass,the captain of the Citadel guardsmen,The Corsair Citadel,12694
 a blue dyed leather jerkin,the captain of the Citadel guardsmen,The Corsair Citadel,12694
 a blue dyed leather jerkin,the captain of the Citadel guardsmen,The Corsair Citadel,12694
@@ -2782,22 +2782,22 @@ a cutlass,the captain of the Citadel guardsmen,The Corsair Citadel,12694
 a pile of gold coins,a guardsman,The Corsair Citadel,12695
 a longsword,a guardsman,The Corsair Citadel,12695
 a blue dyed leather jerkin,a guardsman,The Corsair Citadel,12695
-a huge mound of gold coins,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a wide, leather swordbelt,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a white linen shirt,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a white linen shirt,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a white linen shirt,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a white linen shirt,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a flowing blue cape,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a flowing blue cape,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
+a huge mound of gold coins,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a wide_ leather swordbelt,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a white linen shirt,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a white linen shirt,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a white linen shirt,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a white linen shirt,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a flowing blue cape,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a flowing blue cape,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
 a large heap of gold coins,Henry Robertson,The Corsair Citadel,12731
 a throwing knife,Henry Robertson,The Corsair Citadel,12731
 a white linen shirt,Henry Robertson,The Corsair Citadel,12731
@@ -2835,7 +2835,7 @@ a razor-sharp falchion,Bilbert the Black,The Corsair Citadel,12732
 a razor-sharp falchion,Bilbert the Black,The Corsair Citadel,12732
 some black leather breeches,Bilbert the Black,The Corsair Citadel,12732
 a pile of gold coins,a guardsman,The Corsair Citadel,12737
-some grungy, tattered rags,the prisoner,The Corsair Citadel,12739
+some grungy_ tattered rags,the prisoner,The Corsair Citadel,12739
 a big pile of gold coins,an exhausted apprentice magician,The Corsair Citadel,12706
 ,an exhausted apprentice magician,The Corsair Citadel,12706
 a big pile of gold coins,an exhausted apprentice magician,The Corsair Citadel,12707
@@ -2850,17 +2850,17 @@ a big pile of gold coins,the apprentice magician,The Corsair Citadel,12710
 ,the apprentice magician,The Corsair Citadel,12710
 a big pile of gold coins,the apprentice magician,The Corsair Citadel,12710
 ,the apprentice magician,The Corsair Citadel,12710
-a huge mound of gold coins,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a feathered headband,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a blue robe,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a feathered headband,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a feathered headband,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a feathered headband,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a feathered headband,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a feathered headband,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a silver pendant,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a silver pendant,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a pair of silver celtic armbands,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
+a huge mound of gold coins,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a feathered headband,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a blue robe,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a feathered headband,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a feathered headband,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a feathered headband,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a feathered headband,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a feathered headband,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a silver pendant,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a silver pendant,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a pair of silver celtic armbands,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
 a big pile of gold coins,an exhausted apprentice magician,The Corsair Citadel,12715
 ,an exhausted apprentice magician,The Corsair Citadel,12715
 a big pile of gold coins,the apprentice magician,The Corsair Citadel,12716
@@ -2877,27 +2877,27 @@ a blue robe,Fabius Pugionis,The Corsair Citadel,12719
 a blue robe,Fabius Pugionis,The Corsair Citadel,12719
 a blue robe,Fabius Pugionis,The Corsair Citadel,12719
 ,Fabius Pugionis,The Corsair Citadel,12719
-an enormous mound of gold coins,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
-a blue, cowled robe,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
-a golden amulet,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
-a blue robe,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
-a blue robe,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
-a blue robe,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
-a blue robe,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
-an elementalist's focus stone,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
+an enormous mound of gold coins,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
+a blue_ cowled robe,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
+a golden amulet,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
+a blue robe,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
+a blue robe,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
+a blue robe,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
+a blue robe,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
+an elementalist's focus stone,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
 a small pile of gold coins,a rowdy sailor,The Corsair Citadel,12617
 a pile of gold coins,a scruffy looking sailor,The Corsair Citadel,12625
 a big pile of gold coins,the captain of the Citadel guardsmen,The Corsair Citadel,12694
-a small, brass key,the captain of the Citadel guardsmen,The Corsair Citadel,12694
+a small_ brass key,the captain of the Citadel guardsmen,The Corsair Citadel,12694
 a cutlass,the captain of the Citadel guardsmen,The Corsair Citadel,12694
 a pile of gold coins,a pikeman,The Corsair Citadel,12695
-a huge mound of gold coins,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a feathered headband,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
-a feathered headband,Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
+a huge mound of gold coins,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a feathered headband,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
+a feathered headband,Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
 a huge mound of gold coins,Fabius Pugionis,The Corsair Citadel,12719
 an elementalist's focus stone,Fabius Pugionis,The Corsair Citadel,12719
 a blue robe,Fabius Pugionis,The Corsair Citadel,12719
-a blue, cowled robe,Fabius Pugionis,The Corsair Citadel,12719
+a blue_ cowled robe,Fabius Pugionis,The Corsair Citadel,12719
 a big pile of gold coins,an exhausted apprentice magician,The Corsair Citadel,12718
 a big pile of gold coins,an exhausted apprentice magician,The Corsair Citadel,12719
 a small pile of gold coins,a rowdy sailor,The Corsair Citadel,12671
@@ -2907,7 +2907,7 @@ a big pile of gold coins,a sinister looking marine,The Corsair Citadel,12668
 a cutlass,a sinister looking marine,The Corsair Citadel,12668
 a blue dyed leather jerkin,a sinister looking marine,The Corsair Citadel,12668
 a big pile of gold coins,the captain of the Citadel guardsmen,The Corsair Citadel,12667
-a small, brass key,the captain of the Citadel guardsmen,The Corsair Citadel,12667
+a small_ brass key,the captain of the Citadel guardsmen,The Corsair Citadel,12667
 a longsword,the captain of the Citadel guardsmen,The Corsair Citadel,12667
 a pile of gold coins,a lookout,The Corsair Citadel,12603
 a pile of gold coins,a lookout,The Corsair Citadel,12603
@@ -3172,7 +3172,7 @@ a bright golden key,a wraith,the Dwarven Kingdom,6527
 a huge mound of gold coins,the Hide & Tooth storekeeper,the Dwarven Kingdom,6516
 a huge mound of gold coins,Granite Head the baker,the Dwarven Kingdom,6535
 a big pile of gold coins,the dwarven doctor,the Dwarven Kingdom,6534
-a long, black stick,the dwarven doctor,the Dwarven Kingdom,6534
+a long_ black stick,the dwarven doctor,the Dwarven Kingdom,6534
 a big pile of gold coins,the dwarf,the Dwarven Kingdom,6523
 a big pile of gold coins,the dwarf,the Dwarven Kingdom,6523
 a big pile of gold coins,the dwarf,the Dwarven Kingdom,6523
@@ -3196,9 +3196,9 @@ rusty chain mail armor,the goblin chief,MidenNir Extension,18604
 a silver chain,the goblin chief,MidenNir Extension,18604
 a silver chain,the goblin chief,MidenNir Extension,18604
 ,a bound spirit,MidenNir Extension,18642
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
-leather mage pants,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
+leather mage pants,Yamus_ the necromancer,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 a big pile of gold coins,an armored wraith,MidenNir Extension,18662
 ,an armored wraith,MidenNir Extension,18662
@@ -3407,7 +3407,7 @@ a bright golden key,a wraith,the Dwarven Kingdom,6527
 a huge mound of gold coins,the Hide & Tooth storekeeper,the Dwarven Kingdom,6516
 a huge mound of gold coins,Granite Head the baker,the Dwarven Kingdom,6535
 a big pile of gold coins,the dwarven doctor,the Dwarven Kingdom,6534
-a long, black stick,the dwarven doctor,the Dwarven Kingdom,6534
+a long_ black stick,the dwarven doctor,the Dwarven Kingdom,6534
 a big pile of gold coins,the dwarf,the Dwarven Kingdom,6523
 ,the dwarf,the Dwarven Kingdom,6523
 a big pile of gold coins,the dwarf,the Dwarven Kingdom,6523
@@ -3436,10 +3436,10 @@ a big pile of gold coins,an insect swarm,MidenNir Extension,18613
 a pile of gold coins,a small viper,MidenNir Extension,18613
 a big pile of gold coins,an insect swarm,MidenNir Extension,18613
 a pile of gold coins,a small viper,MidenNir Extension,18613
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 a big pile of gold coins,an angry spirit,MidenNir Extension,18656
 a big pile of gold coins,an angry spirit,MidenNir Extension,18656
@@ -3875,8 +3875,8 @@ a silver chain,the goblin chief,MidenNir Extension,18604
 a pile of gold coins,a leech,MidenNir Extension,18613
 ,a bound spirit,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 a large heap of gold coins,Lord Elgan,MidenNir Extension,18661
 a big pile of gold coins,an angry spirit,MidenNir Extension,18661
@@ -4112,12 +4112,8 @@ a scroll of identify (x 4),_vendor,Midgaard,3040
 a canteen,_vendor,Midgaard,3047
 a bottle,_vendor,Midgaard,3047
 a cup,_vendor,Midgaard,3047
-a yellow potion of see invisible, by "Froboz, Inc"(tm),_vendor,Midgaard,3039
+a yellow potion of see invisible_ by "Froboz_ Inc"(tm),_vendor,Midgaard,3039
 a white potion of "Froboz" (tm) liquid curing,_vendor,Midgaard,3039
-a small vial of "Froboz" (tm) liquid strength,_vendor,unknown
-a potion of sanctuary, by "Froboz" (tm),_vendor,unknown
-a scroll of identify (x 2),_vendor,unknown
-a large heap of gold coins,the AntiPaladin Guard,unknown
 a tiny pile of gold coins,the message bot,Midgaard,3058
 a large heap of gold coins,the Assassin,Midgaard,3058
 a pile of gold coins,the Cityguard,Midgaard,3104
@@ -4459,14 +4455,6 @@ an enormous mound of gold coins,the assassin,the city of Sanctuary,23073
 an enormous mound of gold coins,the assassin,the city of Sanctuary,23068
 a huge mound of gold coins,the robber,the city of Sanctuary,23068
 a scroll of identify (x 4),_vendor,Midgaard,3040
-a scroll of identify (x 4),_vendor,unknown
-a scroll of identify,_vendor,unknown
-a pile of gold coins,the sentry,unknown
-a huge mound of gold coins,the Bank Guard,unknown
-a pile of gold coins,a citizen of Midgaard,unknown
-a huge mound of gold coins,the Banker,unknown
-,the Banker,unknown
-,the Bank Guard,unknown
 a huge mound of gold coins,the Baker,the city of Sanctuary,23381
 some iron rations,the Baker,the city of Sanctuary,23381
 some dry rations,the Baker,the city of Sanctuary,23381
@@ -4565,12 +4553,11 @@ a padawan's leg wrapping,_vendor,the grand city of New Thalos,12515
 a padawan helmet of mind shielding,_vendor,the grand city of New Thalos,12515
 a scroll of identify (x 5),_vendor,Midgaard,3040
 a scroll of identify (x 10),_vendor,Midgaard,3040
-a scroll of identify (x 4),_vendor,unknown
 a huge mound of gold coins,the Ninja,the grand city of New Thalos,12508
 a shining black ninja star,the Ninja,the grand city of New Thalos,12508
 a huge mound of gold coins,Esp,the grand city of New Thalos,12323
 ,Esp,the grand city of New Thalos,12323
-an enormous mound of gold coins,Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+an enormous mound of gold coins,Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 a huge mound of gold coins,the Assassin,the grand city of New Thalos,12330
 ,the Assassin,the grand city of New Thalos,12330
 a huge mound of gold coins,PinkiE the Knight,the grand city of New Thalos,12324
@@ -4618,7 +4605,6 @@ a suit of brigandine,_vendor,the grand city of New Thalos,12327
 a suit of ringmail,_vendor,the grand city of New Thalos,12327
 a scroll of identify (x 3),_vendor,Midgaard,3040
 a scroll of identify (x 3),_vendor,Midgaard,3040
-a can of diet coke,_vendor,unknown
 a large heap of gold coins,the shooting gallery champion,Amusement Park,1411
 a roman candle,the shooting gallery champion,Amusement Park,1411
 a shooting gallery rifle,the shooting gallery champion,Amusement Park,1411
@@ -4627,7 +4613,6 @@ a small pile of gold coins,a running kid,Amusement Park,1406
 a small pile of gold coins,an obnoxious child,Amusement Park,1413
 a pile of gold coins,a sleazy young man,Amusement Park,1466
 a scroll of identify (x 5),_vendor,Midgaard,3040
-a scroll of identify (x 5),_vendor,unknown
 a bottle of mineral water,_vendor,Midgaard,3047
 a scroll of identify (x 5),_vendor,Midgaard,3040
 a huge mound of gold coins,the Bank Guard,Midgaard,3046
@@ -4659,8 +4644,6 @@ a big pile of gold coins,the robber,the city of Sanctuary,23064
 a big pile of gold coins,the assassin,the city of Sanctuary,23064
 a big pile of gold coins,the assassin,the city of Sanctuary,23064
 a large heap of gold coins,the assassin,the city of Sanctuary,23064
-a big pile of gold coins,the Tinker,unknown
-a rolled piece of paper,the Tinker,unknown
 a pile of gold coins,Marype,the city of Sanctuary,23063
 a huge mound of gold coins,Markmoor,the city of Sanctuary,23063
 a big pile of gold coins,the robber,the city of Sanctuary,23063
@@ -4754,7 +4737,6 @@ a big pile of gold coins,the assassin,the city of Sanctuary,23062
 ,the assassin,the city of Sanctuary,23062
 a pair of diamond hair pins,Cime,the city of Sanctuary,23062
 a scroll of identify,_vendor,Midgaard,3040
-a scroll of identify,_vendor,unknown
 ,the Arm,Camelot,2790
 ,a Water Norker,Camelot,2768
 a big pile of gold coins,the Dryad Mage,Camelot,2799
@@ -4828,8 +4810,8 @@ a large heap of gold coins,Lord Elgan,MidenNir Extension,18661
 battered brown leather gloves,Lord Elgan,MidenNir Extension,18661
 a shroud of mist,Lord Elgan,MidenNir Extension,18661
 a big pile of gold coins,an insect swarm,MidenNir Extension,18623
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 an enormous mound of gold coins,Mercury,Rome,12059
 a pair of winged sandals,Mercury,Rome,12059
@@ -4880,10 +4862,10 @@ an enormous mound of gold coins,Mercury,Rome,12059
 a large heap of gold coins,Lord Elgan,MidenNir Extension,18661
 a shroud of mist,Lord Elgan,MidenNir Extension,18661
 a pile of gold coins,a leech,MidenNir Extension,18667
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
 a large heap of gold coins,a zombie ogre,MidenNir Extension,18642
 ,a zombie ogre,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 a big pile of gold coins,Poopeye,the grand city of New Thalos,12295
@@ -4904,7 +4886,7 @@ a big pile of gold coins,Poopeye,the grand city of New Thalos,12295
 a pile of gold coins,the sultan's guard,the grand city of New Thalos,12363
 an enormous mound of gold coins,Allah,the grand city of New Thalos,12364
 the Wrath of Allah,Allah,the grand city of New Thalos,12364
-a doorknob,a dirty, white door,Sesame Street and Muppet Theatre,3603
+a doorknob,a dirty_ white door,Sesame Street and Muppet Theatre,3603
 giant Froot Loops,Big Bird,Sesame Street and Muppet Theatre,3695
 Big Bird's beak,Big Bird,Sesame Street and Muppet Theatre,3695
 Big Bird's eyes,Big Bird,Sesame Street and Muppet Theatre,3695
@@ -4924,8 +4906,8 @@ a huge mound of gold coins,Beauregarde,Sesame Street and Muppet Theatre,3650
 ,Beauregarde,Sesame Street and Muppet Theatre,3650
 ,a bound spirit,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 a large heap of gold coins,Lord Elgan,MidenNir Extension,18661
 a shroud of mist,Lord Elgan,MidenNir Extension,18661
@@ -4936,12 +4918,12 @@ a big pile of gold coins,an angry spirit,MidenNir Extension,18661
 ,an angry spirit,MidenNir Extension,18661
 a shroud of mist,Lord Elgan,MidenNir Extension,18661
 a big pile of gold coins,an insect swarm,MidenNir Extension,18625
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
 a large heap of gold coins,a zombie ogre,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
 ,a bound spirit,MidenNir Extension,18642
 ,a zombie ogre,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 a huge mound of gold coins,the Mystic Dragon,Camelot,2779
 Mystic Robes,the Mystic Dragon,Camelot,2779
@@ -4962,7 +4944,7 @@ a big pile of gold coins,the drow priestess,Drow City,5124
 a little pile of gold coins,the gray dwarf,the Great Eastern Desert,5006
 an enormous mound of gold coins,Mercury,Rome,12059
 ,Mercury,Rome,12059
-,a dirty, white door,Sesame Street and Muppet Theatre,3603
+,a dirty_ white door,Sesame Street and Muppet Theatre,3603
 giant Froot Loops,Big Bird,Sesame Street and Muppet Theatre,3695
 Big Bird's beak,Big Bird,Sesame Street and Muppet Theatre,3695
 Big Bird's eyes,Big Bird,Sesame Street and Muppet Theatre,3695
@@ -4984,8 +4966,8 @@ a spray bottle of all-purpose cleaner,Beauregarde,Sesame Street and Muppet Theat
 a scroll of identify,_vendor,Midgaard,3040
 a large heap of gold coins,Lord Elgan,MidenNir Extension,18661
 a shroud of mist,Lord Elgan,MidenNir Extension,18661
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 a raft,_vendor,Rome,12059
 an enormous mound of gold coins,Mercury,Rome,12059
@@ -5039,8 +5021,8 @@ a huge mound of gold coins,the Erinyes,the Abyss,2070
 a skirt made of fiend hide,the Erinyes,the Abyss,2070
 a shirt made of fiend hide,the Erinyes,the Abyss,2070
 a big pile of gold coins,an insect swarm,MidenNir Extension,18667
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 ,Deloria,MidenNir Extension,18666
 a big pile of gold coins,an insect swarm,MidenNir Extension,18626
 a pile of gold coins,a small viper,MidenNir Extension,18626
@@ -5166,7 +5148,7 @@ a blue dyed leather jerkin,a pikeman,The Corsair Citadel,12693
 a pike,a pikeman,The Corsair Citadel,12693
 a pike,a pikeman,The Corsair Citadel,12693
 a big pile of gold coins,the captain of the Citadel guardsmen,The Corsair Citadel,12694
-a small, brass key,the captain of the Citadel guardsmen,The Corsair Citadel,12694
+a small_ brass key,the captain of the Citadel guardsmen,The Corsair Citadel,12694
 a cutlass,the captain of the Citadel guardsmen,The Corsair Citadel,12694
 a blue dyed leather jerkin,the captain of the Citadel guardsmen,The Corsair Citadel,12694
 a blue dyed leather jerkin,the captain of the Citadel guardsmen,The Corsair Citadel,12694
@@ -5187,12 +5169,12 @@ a throwing knife,Henry Robertson,The Corsair Citadel,12731
 a crossbow pistol,Henry Robertson,The Corsair Citadel,12731
 a wide-brimmed red velvet hat,Henry Robertson,The Corsair Citadel,12731
 a white linen shirt,Henry Robertson,The Corsair Citadel,12731
-a huge mound of gold coins,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a flowing blue cape,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-some black leather breeches,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a white linen shirt,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a flamboyant blue scarf,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
+a huge mound of gold coins,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a flowing blue cape,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+some black leather breeches,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a white linen shirt,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a flamboyant blue scarf,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
 a big pile of gold coins,a dwarven guard,the Dwarven Kingdom,6505
 an old key,a dwarven guard,the Dwarven Kingdom,6505
 a huge mound of gold coins,the Hide & Tooth storekeeper,the Dwarven Kingdom,6516
@@ -5275,8 +5257,8 @@ a big pile of gold coins,an angry spirit,MidenNir Extension,18658
 ,an angry spirit,MidenNir Extension,18658
 ,a ghost,MidenNir Extension,18658
 ,an angry spirit,MidenNir Extension,18658
-a large heap of gold coins,Yamus, the necromancer,MidenNir Extension,18642
-a steel key,Yamus, the necromancer,MidenNir Extension,18642
+a large heap of gold coins,Yamus_ the necromancer,MidenNir Extension,18642
+a steel key,Yamus_ the necromancer,MidenNir Extension,18642
 a small pile of gold coins,a zombie gerbil,MidenNir Extension,18667
 ,a zombie gerbil,MidenNir Extension,18667
 ,Deloria,MidenNir Extension,18666
@@ -5289,7 +5271,7 @@ a big pile of gold coins,the drow priestess,Drow City,5104
 a big pile of gold coins,the drow warrior noble,Drow City,5104
 a big pile of gold coins,the drow mage noble,Drow City,5104
 a big pile of gold coins,the captain of the Citadel guardsmen,The Corsair Citadel,12694
-a small, brass key,the captain of the Citadel guardsmen,The Corsair Citadel,12694
+a small_ brass key,the captain of the Citadel guardsmen,The Corsair Citadel,12694
 a pile of gold coins,a pikeman,The Corsair Citadel,12693
 a pile of gold coins,a pikeman,The Corsair Citadel,12693
 an enormous mound of gold coins,Bilbert the Black,The Corsair Citadel,12732
@@ -5297,13 +5279,13 @@ a black leather vest,Bilbert the Black,The Corsair Citadel,12732
 a large heap of gold coins,Henry Robertson,The Corsair Citadel,12731
 a wide-brimmed red velvet hat,Henry Robertson,The Corsair Citadel,12731
 a white linen shirt,Henry Robertson,The Corsair Citadel,12731
-a huge mound of gold coins,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a rapier,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a wide, leather swordbelt,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a flowing blue cape,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-some black leather breeches,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a white linen shirt,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
-a flamboyant blue scarf,Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
+a huge mound of gold coins,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a rapier,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a wide_ leather swordbelt,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a flowing blue cape,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+some black leather breeches,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a white linen shirt,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
+a flamboyant blue scarf,Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
 a throwing knife,Henry Robertson,The Corsair Citadel,12731
 a crossbow pistol,Henry Robertson,The Corsair Citadel,12731
 a big pile of gold coins,the apprentice magician,The Corsair Citadel,12701
@@ -5333,9 +5315,9 @@ a huge mound of gold coins,Fabius Pugionis,The Corsair Citadel,12719
 an elementalist's focus stone,Fabius Pugionis,The Corsair Citadel,12719
 a blue robe,Fabius Pugionis,The Corsair Citadel,12719
 a silver pendant,Fabius Pugionis,The Corsair Citadel,12719
-an enormous mound of gold coins,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
-a blue, cowled robe,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
-a golden amulet,Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
+an enormous mound of gold coins,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
+a blue_ cowled robe,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
+a golden amulet,Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
 a huge mound of gold coins,the slimey greza captain,the Wandering Ship,5522
 a slimey key,the slimey greza captain,the Wandering Ship,5522
 a big pile of gold coins,the slimey greza lieutenant,the Wandering Ship,5510

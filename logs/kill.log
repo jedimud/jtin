@@ -4,35 +4,35 @@ Guildmaster Sashimi,Haon-Dor,6011
 Welmar's Ranger,Midgaard,3123
 The Cityguard,Midgaard,3004
 The cute rabbit,Haon-Dor,6001
-The large, grey wolf,dark Haon-Dor,6105
-The large, grey wolf,dark Haon-Dor,6106
-The large, black wolf,dark Haon-Dor,6114
+The large_ grey wolf,dark Haon-Dor,6105
+The large_ grey wolf,dark Haon-Dor,6106
+The large_ black wolf,dark Haon-Dor,6114
 The vicious warg,dark Haon-Dor,6102
-The large, black wolf,dark Haon-Dor,6103
-The large, grey wolf,dark Haon-Dor,6108
-The large, grey wolf,dark Haon-Dor,6109
-The large, black wolf,dark Haon-Dor,6112
-A huge, ancient tree,dark Haon-Dor,6109
-A huge, ancient tree,dark Haon-Dor,6108
+The large_ black wolf,dark Haon-Dor,6103
+The large_ grey wolf,dark Haon-Dor,6108
+The large_ grey wolf,dark Haon-Dor,6109
+The large_ black wolf,dark Haon-Dor,6112
+A huge_ ancient tree,dark Haon-Dor,6109
+A huge_ ancient tree,dark Haon-Dor,6108
 The ferocious warg,dark Haon-Dor,6125
-The large, black wolf,dark Haon-Dor,6126
+The large_ black wolf,dark Haon-Dor,6126
 The ferocious warg,dark Haon-Dor,6126
-The huge, green dragon,dark Haon-Dor,6143
+The huge_ green dragon,dark Haon-Dor,6143
 A shadow guardian,the High Tower of Sorcery,13001
 A shadow guardian,the High Tower of Sorcery,13001
 The vicious warg,dark Haon-Dor,6126
 The ferocious warg,dark Haon-Dor,6109
-The large, black wolf,dark Haon-Dor,6109
-The large, grey wolf,dark Haon-Dor,6109
+The large_ black wolf,dark Haon-Dor,6109
+The large_ grey wolf,dark Haon-Dor,6109
 The vicious warg,dark Haon-Dor,6108
 The Elder Druid,MidenNir,1855
 The ferocious warg,dark Haon-Dor,6126
-The large, black wolf,dark Haon-Dor,6110
-The large, grey wolf,dark Haon-Dor,6130
+The large_ black wolf,dark Haon-Dor,6110
+The large_ grey wolf,dark Haon-Dor,6130
 The Queen Spider,dark Haon-Dor,6134
-The huge, poisonous spider,dark Haon-Dor,6133
-The huge, poisonous spider,dark Haon-Dor,6133
-The huge, poisonous spider,dark Haon-Dor,6133
+The huge_ poisonous spider,dark Haon-Dor,6133
+The huge_ poisonous spider,dark Haon-Dor,6133
+The huge_ poisonous spider,dark Haon-Dor,6133
 The vicious warg,dark Haon-Dor,6101
 The Sexton,the southern part of Midgaard,3206
 The Maid,the southern part of Midgaard,3206
@@ -80,10 +80,10 @@ The drow mage noble,Drow City,5111
 The Swan,the southern part of Midgaard,3214
 The Duckling,the southern part of Midgaard,3214
 The sparrow,the southern part of Midgaard,3214
-The large, black wolf,dark Haon-Dor,6102
-The large, grey wolf,dark Haon-Dor,6102
+The large_ black wolf,dark Haon-Dor,6102
+The large_ grey wolf,dark Haon-Dor,6102
 The ferocious warg,dark Haon-Dor,6112
-The large, black wolf,dark Haon-Dor,6112
+The large_ black wolf,dark Haon-Dor,6112
 Sibyl,The Underworld,16111
 Grief,The Underworld,16134
 Revenge,The Underworld,16136
@@ -139,7 +139,7 @@ The goblin warrior,MidenNir Extension,18604
 The goblin,MidenNir,1802
 The goblin,MidenNir,1802
 A dwarven worker,MidenNir,1802
-The large, grey wolf,dark Haon-Dor,6109
+The large_ grey wolf,dark Haon-Dor,6109
 Eshiay,the Wayhouse,3728
 The woman,the Wayhouse,3727
 A swaggering mercenary,the Wayhouse,3722
@@ -229,7 +229,7 @@ The skinny kid,the grand city of New Thalos,12236
 The raggedy dervish,the grand city of New Thalos,12243
 Popeye,the grand city of New Thalos,12243
 The raggedy dervish,the grand city of New Thalos,12228
-A dirty, white door,Sesame Street and Muppet Theatre,3603
+A dirty_ white door,Sesame Street and Muppet Theatre,3603
 Michael the Royal guard,King Welmars Castle,15008
 Andrew the Royal guard,King Welmars Castle,15008
 A bull,Shire Village,1138
@@ -265,7 +265,7 @@ The city worker,The Midgaard Sewers,7314
 Sholvanna Stark,The Midgaard Sewers,7315
 The windup brass arachnid,The Midgaard Sewers,7346
 The clockwork automaton,The Midgaard Sewers,7346
-Namirrah Retlaw, the techanist,The Midgaard Sewers,7346
+Namirrah Retlaw_ the techanist,The Midgaard Sewers,7346
 The windup brass arachnid,The Midgaard Sewers,7347
 The silvery centipede,The Midgaard Sewers,7349
 The mechanical homunculus,The Midgaard Sewers,7348
@@ -323,7 +323,7 @@ The Giant Snowman,Arctica,663
 The woolly mammoth,Arctica,663
 The Snow Lizard,Arctica,677
 The brown yak,Arctica,622
-The large, black wolf,Arctica,629
+The large_ black wolf,Arctica,629
 The brown bear,Arctica,608
 The peist,Aralu,18501
 The Adorable Princess,Arctica,683
@@ -572,7 +572,7 @@ Capricorn,the Galaxy,5751
 Aries,the Galaxy,5742
 Leo,the Galaxy,5746
 Taurus,the Galaxy,5743
-The large, grey wolf,dark Haon-Dor,6111
+The large_ grey wolf,dark Haon-Dor,6111
 The thug,Weeden and the Western Forest,15446
 The thug,Weeden and the Western Forest,15428
 Goblin warrior,Goblinsville,9223
@@ -729,8 +729,8 @@ The cook,The Monastery,5820
 Brother Haeckel,The Monastery,5835
 A macabre ghoul,The Monastery,5879
 A miserable shade,The Monastery,5886
-A large, black rat,The Monastery,5886
-A large, black rat,The Monastery,5886
+A large_ black rat,The Monastery,5886
+A large_ black rat,The Monastery,5886
 A miserable shade,The Monastery,5881
 A miserable shade,The Monastery,5878
 A miserable shade,The Monastery,5872
@@ -751,7 +751,7 @@ Mr. Tall,Amusement Park,1416
 A running kid,Amusement Park,1415
 The skinny kid,Amusement Park,1415
 Mighty Mickey,Amusement Park,1415
-Kerang, the wild boy,Amusement Park,1419
+Kerang_ the wild boy,Amusement Park,1419
 An obnoxious child,Amusement Park,1462
 An obnoxious child,Amusement Park,1455
 A wiry reflection,Amusement Park,1479
@@ -1043,13 +1043,13 @@ A thief,the grand city of New Thalos,12540
 A thief,the grand city of New Thalos,12540
 The Prison Guard,the grand city of New Thalos,12391
 The jailor,the grand city of New Thalos,12390
-A dirty, white door,Sesame Street and Muppet Theatre,3603
+A dirty_ white door,Sesame Street and Muppet Theatre,3603
 Big Bird,Sesame Street and Muppet Theatre,3695
 Bob,Sesame Street and Muppet Theatre,3603
 The Ixitxachitl,the grand city of New Thalos,12497
 Armad the butler,Cedar Estate Mansion,7430
 The ghost of a maid,Cedar Estate Mansion,7429
-Alfonzo, the crazy scientist,Cedar Estate Mansion,7425
+Alfonzo_ the crazy scientist,Cedar Estate Mansion,7425
 A ghost,Cedar Estate Mansion,7433
 A phantom,Cedar Estate Mansion,7433
 A spectre,Cedar Estate Mansion,7433
@@ -1058,7 +1058,7 @@ A ghost,Cedar Estate Mansion,7437
 A wraith,Cedar Estate Mansion,7439
 A wraith,Cedar Estate Mansion,7441
 A phantom,Cedar Estate Mansion,7442
-Antoine, the mansion chef,Cedar Estate Mansion,7442
+Antoine_ the mansion chef,Cedar Estate Mansion,7442
 A small slime monster,Cedar Estate Mansion,7458
 A small ball of slime,Cedar Estate Mansion,7461
 The large slime monster,Cedar Estate Mansion,7462
@@ -1146,7 +1146,7 @@ An armored wraith,MidenNir Extension,18664
 An insect swarm,MidenNir Extension,18626
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
 A leech,MidenNir Extension,18629
 An insect swarm,MidenNir Extension,18611
@@ -1189,9 +1189,9 @@ An insane ghost,The Monastery,5900
 An insane ghost,The Monastery,5903
 A miserable shade,The Monastery,5903
 The Soul Devourer,The Monastery,5904
-The large, grey wolf,dark Haon-Dor,6102
-The large, black wolf,dark Haon-Dor,6102
-The large, grey wolf,dark Haon-Dor,6108
+The large_ grey wolf,dark Haon-Dor,6102
+The large_ black wolf,dark Haon-Dor,6102
+The large_ grey wolf,dark Haon-Dor,6108
 The vicious warg,dark Haon-Dor,6103
 Frasier,Cheers,2483
 Lilith,Cheers,2483
@@ -1247,7 +1247,7 @@ A grump,Camelot,2749
 A grump,Camelot,2749
 The goblin chief,MidenNir Extension,18604
 The goblin warrior,MidenNir Extension,18601
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
 A leech,MidenNir Extension,18626
@@ -1318,7 +1318,7 @@ The goblin slave,Drow City,5122
 The goblin slave,Drow City,5122
 The goblin slave,Drow City,5122
 The sentry,Midgaard,3003
-The large, grey wolf,dark Haon-Dor,6130
+The large_ grey wolf,dark Haon-Dor,6130
 The dervish,the Great Eastern Desert,5043
 The gray dwarf,the Great Eastern Desert,5010
 The gray dwarf,the Great Eastern Desert,5010
@@ -1385,7 +1385,7 @@ A beggar,the grand city of New Thalos,12261
 The Royal Guard,the grand city of New Thalos,12261
 The Royal Guard,the grand city of New Thalos,12323
 Esp,the grand city of New Thalos,12323
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 The wandering prophet,the grand city of New Thalos,12261
 The Assassin,the grand city of New Thalos,12330
 The raggedy dervish,the grand city of New Thalos,12368
@@ -1410,7 +1410,7 @@ The bodyguard,the grand city of New Thalos,12508
 The Ninja,the grand city of New Thalos,12508
 Fuma Kataro,the grand city of New Thalos,12509
 Esp,the grand city of New Thalos,12323
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 PinkiE the Knight,the grand city of New Thalos,12324
 Valden the warrior shopkeeper,the grand city of New Thalos,12331
 Crafty the Knight Templar,the grand city of New Thalos,12310
@@ -1668,7 +1668,7 @@ A Valkyrie Warrior,Valhalla,8312
 A Valkyrie Warrior,Valhalla,8312
 A statue of a wolf,Valhalla,8312
 A huge black bird,Valhalla,8313
-A huge, jet-black raven,Valhalla,8313
+A huge_ jet-black raven,Valhalla,8313
 A Valkyrie Warrior,Valhalla,8313
 A Valkyrie Warrior,Valhalla,8313
 A Valkyrie Warrior,Valhalla,8313
@@ -1690,7 +1690,7 @@ Fimafeng,Valhalla,8336
 Eldir,Valhalla,8336
 Aegir,Valhalla,8336
 A dwarven guard,the Dwarven Kingdom,6505
-Yamus, the necromancer,MidenNir Extension,18641
+Yamus_ the necromancer,MidenNir Extension,18641
 A zombie gerbil,MidenNir Extension,18641
 A bound spirit,MidenNir Extension,18641
 A bound spirit,MidenNir Extension,18641
@@ -1721,7 +1721,7 @@ Lapatwen,the grand city of New Thalos,12518
 The Ninja,the grand city of New Thalos,12508
 Fuma Kataro,the grand city of New Thalos,12509
 Esp,the grand city of New Thalos,12323
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 Crafty the Knight Templar,the grand city of New Thalos,12310
 PinkiE the Knight,the grand city of New Thalos,12324
 Valden the warrior shopkeeper,the grand city of New Thalos,12331
@@ -1734,7 +1734,7 @@ A citizen of Midgaard,Midgaard,3046
 The sentry,Midgaard,3046
 The goblin chief,MidenNir Extension,18604
 A zombie nymph,MidenNir Extension,18642
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
@@ -1801,7 +1801,7 @@ The skinny kid,the grand city of New Thalos,12264
 The Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 Lapatwen,the grand city of New Thalos,12518
 Fuma Kataro,the grand city of New Thalos,12509
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 Valden the warrior shopkeeper,the grand city of New Thalos,12331
 The White Queen,The Chess Board,6360
 The White King,The Chess Board,6361
@@ -1834,7 +1834,7 @@ A burly arcade attendant,Amusement Park,1463
 The Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 Lapatwen,the grand city of New Thalos,12518
 Fuma Kataro,the grand city of New Thalos,12509
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 Valden the warrior shopkeeper,the grand city of New Thalos,12331
 A White Bishop,The Chess Board,6359
 The White Queen,The Chess Board,6360
@@ -1917,7 +1917,7 @@ The fox,the area near Skara Brae,2313
 An eel,the Dragon Sea,6941
 The Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 Lapatwen,the grand city of New Thalos,12518
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 Valden the warrior shopkeeper,the grand city of New Thalos,12331
 The jailor,the grand city of New Thalos,12373
 The Prison Guard,the grand city of New Thalos,12391
@@ -2005,7 +2005,7 @@ A slave trader,the Wayhouse,3714
 The Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 Lapatwen,the grand city of New Thalos,12518
 Esp,the grand city of New Thalos,12323
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 PinkiE the Knight,the grand city of New Thalos,12324
 Valden the warrior shopkeeper,the grand city of New Thalos,12331
 A White Bishop,The Chess Board,6360
@@ -2075,7 +2075,7 @@ A thief,the grand city of New Thalos,12540
 PinkiE the Knight,the grand city of New Thalos,12324
 Valden the warrior shopkeeper,the grand city of New Thalos,12331
 Esp,the grand city of New Thalos,12323
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 The Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 Lapatwen,the grand city of New Thalos,12518
 The Ninja,the grand city of New Thalos,12508
@@ -2111,7 +2111,7 @@ The demonic reflection,Amusement Park,1480
 The Guardian demon,Amusement Park,1498
 Alice the Goon,the grand city of New Thalos,12296
 The skinny kid,the grand city of New Thalos,12235
-A dirty, white door,Sesame Street and Muppet Theatre,3603
+A dirty_ white door,Sesame Street and Muppet Theatre,3603
 Big Bird,Sesame Street and Muppet Theatre,3695
 Mr. Hooper,Sesame Street and Muppet Theatre,3618
 Barney the Purple Dinosaur,Sesame Street and Muppet Theatre,3697
@@ -2206,7 +2206,7 @@ The skinny kid,the grand city of New Thalos,12336
 The Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 Lapatwen,the grand city of New Thalos,12518
 Esp,the grand city of New Thalos,12323
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 PinkiE the Knight,the grand city of New Thalos,12324
 Valden the warrior shopkeeper,the grand city of New Thalos,12331
 The undead giant,the Abyss,2047
@@ -2321,18 +2321,18 @@ Mustafah,the grand city of New Thalos,12517
 The Anti-Paladin Skirmisher,the grand city of New Thalos,12517
 Lapatwen,the grand city of New Thalos,12518
 Esp,the grand city of New Thalos,12323
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 PinkiE the Knight,the grand city of New Thalos,12324
 Valden the warrior shopkeeper,the grand city of New Thalos,12331
-A huge, ancient tree,dark Haon-Dor,6102
-A huge, ancient tree,dark Haon-Dor,6110
-A huge, ancient tree,dark Haon-Dor,6124
-A huge, ancient tree,dark Haon-Dor,6117
-A huge, ancient tree,dark Haon-Dor,6119
-A huge, ancient tree,dark Haon-Dor,6120
-A huge, ancient tree,dark Haon-Dor,6105
-The huge, green dragon,dark Haon-Dor,6143
-A huge, ancient tree,dark Haon-Dor,6143
+A huge_ ancient tree,dark Haon-Dor,6102
+A huge_ ancient tree,dark Haon-Dor,6110
+A huge_ ancient tree,dark Haon-Dor,6124
+A huge_ ancient tree,dark Haon-Dor,6117
+A huge_ ancient tree,dark Haon-Dor,6119
+A huge_ ancient tree,dark Haon-Dor,6120
+A huge_ ancient tree,dark Haon-Dor,6105
+The huge_ green dragon,dark Haon-Dor,6143
+A huge_ ancient tree,dark Haon-Dor,6143
 A shadow guardian,the High Tower of Sorcery,13001
 A shadow guardian,the High Tower of Sorcery,13001
 A shadow guardian,the High Tower of Sorcery,13001
@@ -2393,7 +2393,7 @@ The Cook,King Welmars Castle,15005
 The Cook,King Welmars Castle,15005
 The Chef,King Welmars Castle,15005
 Jim the Royal guard,King Welmars Castle,15005
-Peter, the Captain of the Royal guard,King Welmars Castle,15053
+Peter_ the Captain of the Royal guard,King Welmars Castle,15053
 The gray dwarf,the Great Eastern Desert,5011
 The dracolich,the Great Eastern Desert,5011
 The goblin slave,Drow City,5122
@@ -2413,10 +2413,10 @@ The Drow commoner,Drow City,5101
 The Drow commoner,Drow City,5103
 Grim,the Wayhouse,3735
 Farbekrieg the Angry,the Wayhouse,3735
-Malsid, the vile shapeshifter,the Wayhouse,3735
+Malsid_ the vile shapeshifter,the Wayhouse,3735
 The sneaky looking thief,the Wayhouse,3735
-Tom, the King's Lifeguard,King Welmars Castle,15017
-Tim, the King's Lifeguard,King Welmars Castle,15017
+Tom_ the King's Lifeguard,King Welmars Castle,15017
+Tim_ the King's Lifeguard,King Welmars Castle,15017
 King Welmar,King Welmars Castle,15017
 Bertram the Royal guard,King Welmars Castle,15036
 Dick,King Welmars Castle,15036
@@ -2487,16 +2487,16 @@ The armored fighter,the Sieged Castle,14625
 The armored fighter,the Sieged Castle,14625
 The dwarven archer,the Owlery,8901
 An owlet,the Owlery,8900
-Imagunafightu, the goblin ambassador,the Owlery,8903
+Imagunafightu_ the goblin ambassador,the Owlery,8903
 A worm,the Owlery,8903
 The pilgrim,the Owlery,8903
 The pilgrim,the Owlery,8903
 The owl,the Owlery,8903
 An owlet,the Owlery,8903
 The sultan's guard,the Owlery,8903
-Willow, the animated tree,the Owlery,8904
+Willow_ the animated tree,the Owlery,8904
 An owlet,the Owlery,8905
-Xyzzy, demon-diplomat,the Owlery,8909
+Xyzzy_ demon-diplomat,the Owlery,8909
 A barred guardian owl,the Owlery,8944
 The mad archivist,the Owlery,8941
 A barred guardian owl,the Owlery,8938
@@ -2584,7 +2584,7 @@ A pikeman,The Corsair Citadel,12693
 A pikeman,The Corsair Citadel,12693
 The captain of the Citadel guardsmen,The Corsair Citadel,12694
 A guardsman,The Corsair Citadel,12695
-Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
+Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
 Henry Robertson,The Corsair Citadel,12731
 Bilbert the Black,The Corsair Citadel,12732
 A guardsman,The Corsair Citadel,12737
@@ -2596,18 +2596,18 @@ The apprentice magician,The Corsair Citadel,12707
 The apprentice magician,The Corsair Citadel,12711
 The apprentice magician,The Corsair Citadel,12710
 The apprentice magician,The Corsair Citadel,12710
-Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
+Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
 An exhausted apprentice magician,The Corsair Citadel,12715
 The apprentice magician,The Corsair Citadel,12716
 The apprentice magician,The Corsair Citadel,12718
 The apprentice magician,The Corsair Citadel,12719
 Fabius Pugionis,The Corsair Citadel,12719
-Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
+Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
 A rowdy sailor,The Corsair Citadel,12617
 A scruffy looking sailor,The Corsair Citadel,12625
 The captain of the Citadel guardsmen,The Corsair Citadel,12694
 A pikeman,The Corsair Citadel,12695
-Procella Fuscus, the Stormseeker of the Circle,The Corsair Citadel,12717
+Procella Fuscus_ the Stormseeker of the Circle,The Corsair Citadel,12717
 Fabius Pugionis,The Corsair Citadel,12719
 An exhausted apprentice magician,The Corsair Citadel,12718
 An exhausted apprentice magician,The Corsair Citadel,12719
@@ -2837,7 +2837,7 @@ The goblin,MidenNir,1820
 The goblin chief,MidenNir Extension,18604
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
 An armored wraith,MidenNir Extension,18662
 An armored wraith,MidenNir Extension,18664
@@ -2980,7 +2980,7 @@ An insect swarm,MidenNir Extension,18613
 A small viper,MidenNir Extension,18613
 An insect swarm,MidenNir Extension,18613
 A small viper,MidenNir Extension,18613
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
@@ -3237,7 +3237,7 @@ The goblin chief,MidenNir Extension,18604
 A leech,MidenNir Extension,18613
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
 Lord Elgan,MidenNir Extension,18661
 An angry spirit,MidenNir Extension,18661
@@ -3389,7 +3389,6 @@ A swaggering mercenary,the Wayhouse,3724
 A chef,the Wayhouse,3726
 Werith,the Wayhouse,3738
 Zoe,the Wayhouse,3736
-The AntiPaladin Guard,unknown
 The message bot,Midgaard,3058
 The Assassin,Midgaard,3058
 The Knight,Midgaard,3054
@@ -3617,10 +3616,6 @@ The assassin,the city of Sanctuary,23073
 The assassin,the city of Sanctuary,23066
 The assassin,the city of Sanctuary,23068
 The robber,the city of Sanctuary,23068
-The sentry,unknown
-The Bank Guard,unknown
-A citizen of Midgaard,unknown
-The Banker,unknown
 The Baker,the city of Sanctuary,23381
 Cusharlain,the city of Sanctuary,23418
 The Weaponsmith,the city of Sanctuary,23382
@@ -3660,7 +3655,7 @@ Luke Skywalker,the grand city of New Thalos,12514
 The vulture,the grand city of New Thalos,12508
 The Ninja,the grand city of New Thalos,12508
 Esp,the grand city of New Thalos,12323
-Pablo, battlemage of New Thalos,the grand city of New Thalos,12315
+Pablo_ battlemage of New Thalos,the grand city of New Thalos,12315
 The Assassin,the grand city of New Thalos,12330
 PinkiE the Knight,the grand city of New Thalos,12324
 Mustafah,the grand city of New Thalos,12310
@@ -3700,7 +3695,6 @@ The robber,the city of Sanctuary,23064
 The assassin,the city of Sanctuary,23064
 The assassin,the city of Sanctuary,23064
 The assassin,the city of Sanctuary,23064
-The Tinker,unknown
 An eel,the grand city of New Thalos,12504
 An eel,the grand city of New Thalos,12504
 Marype,the city of Sanctuary,23063
@@ -3807,7 +3801,7 @@ An angry spirit,MidenNir Extension,18661
 Lord Elgan,MidenNir Extension,18661
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
 A slimeball,Rome,12041
 A slimeball,Rome,12041
@@ -3859,7 +3853,7 @@ Lord Elgan,MidenNir Extension,18661
 A leech,MidenNir Extension,18667
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 A zombie ogre,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
 Poopeye,the grand city of New Thalos,12295
@@ -3874,7 +3868,7 @@ A toy soldier,Andrus Toy Land,7621
 A toy army man,Andrus Toy Land,7608
 The sultan's guard,the grand city of New Thalos,12363
 Allah,the grand city of New Thalos,12364
-A dirty, white door,Sesame Street and Muppet Theatre,3603
+A dirty_ white door,Sesame Street and Muppet Theatre,3603
 Big Bird,Sesame Street and Muppet Theatre,3695
 Mr. Hooper,Sesame Street and Muppet Theatre,3618
 Barney the Purple Dinosaur,Sesame Street and Muppet Theatre,3697
@@ -3883,7 +3877,7 @@ Cookie Monster,Sesame Street and Muppet Theatre,3639
 The chocolate chip cookie,Sesame Street and Muppet Theatre,3641
 The Swedish Chef,Sesame Street and Muppet Theatre,3642
 Beauregarde,Sesame Street and Muppet Theatre,3650
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
@@ -3895,7 +3889,7 @@ The Bat,the Midgaard Temple,158
 Lord Elgan,MidenNir Extension,18661
 An angry spirit,MidenNir Extension,18661
 An insect swarm,MidenNir Extension,18625
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 A zombie ogre,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
 A bound spirit,MidenNir Extension,18642
@@ -3935,7 +3929,7 @@ The drow mage noble,Drow City,5124
 The drow priestess,Drow City,5124
 The gray dwarf,the Great Eastern Desert,5006
 Mercury,Rome,12059
-A dirty, white door,Sesame Street and Muppet Theatre,3603
+A dirty_ white door,Sesame Street and Muppet Theatre,3603
 Big Bird,Sesame Street and Muppet Theatre,3695
 Mr. Hooper,Sesame Street and Muppet Theatre,3618
 Barney the Purple Dinosaur,Sesame Street and Muppet Theatre,3696
@@ -3944,7 +3938,7 @@ A chicken,Sesame Street and Muppet Theatre,3661
 A chicken,Sesame Street and Muppet Theatre,3661
 Beauregarde,Sesame Street and Muppet Theatre,3661
 Lord Elgan,MidenNir Extension,18661
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
 Merlin,Camelot,2879
 A grump,Camelot,2749
@@ -3992,7 +3986,7 @@ Brother Maynard,The Monastery,5847
 An Elven warrior,the Balor,16632
 An Elven warrior,the Balor,16632
 The Erinyes,the Abyss,2070
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 Deloria,MidenNir Extension,18666
 An insect swarm,MidenNir Extension,18626
 A small viper,MidenNir Extension,18626
@@ -4001,7 +3995,7 @@ An angry spirit,MidenNir Extension,18659
 An angry spirit,MidenNir Extension,18656
 An angry spirit,MidenNir Extension,18656
 Lord Elgan,MidenNir Extension,18661
-A dirty, white door,Sesame Street and Muppet Theatre,3603
+A dirty_ white door,Sesame Street and Muppet Theatre,3603
 Mr. Hooper,Sesame Street and Muppet Theatre,3618
 Barney the Purple Dinosaur,Sesame Street and Muppet Theatre,3697
 Cookie Monster,Sesame Street and Muppet Theatre,3639
@@ -4064,7 +4058,7 @@ The captain of the Citadel guardsmen,The Corsair Citadel,12694
 The apprentice magician,The Corsair Citadel,12698
 Bilbert the Black,The Corsair Citadel,12732
 Henry Robertson,The Corsair Citadel,12731
-Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
+Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
 A dwarven guard,the Dwarven Kingdom,6505
 The Hide & Tooth storekeeper,the Dwarven Kingdom,6516
 The yeti,Arctica,674
@@ -4112,7 +4106,7 @@ A ghost,MidenNir Extension,18661
 An angry spirit,MidenNir Extension,18658
 A ghost,MidenNir Extension,18658
 An angry spirit,MidenNir Extension,18658
-Yamus, the necromancer,MidenNir Extension,18642
+Yamus_ the necromancer,MidenNir Extension,18642
 A zombie gerbil,MidenNir Extension,18667
 Deloria,MidenNir Extension,18666
 The goblin slave,Drow City,5122
@@ -4134,7 +4128,7 @@ A pikeman,The Corsair Citadel,12693
 A pikeman,The Corsair Citadel,12693
 Bilbert the Black,The Corsair Citadel,12732
 Henry Robertson,The Corsair Citadel,12731
-Maldric Bluesail, the scourge of the Dragon Sea,The Corsair Citadel,12735
+Maldric Bluesail_ the scourge of the Dragon Sea,The Corsair Citadel,12735
 The apprentice magician,The Corsair Citadel,12701
 An exhausted apprentice magician,The Corsair Citadel,12706
 The apprentice magician,The Corsair Citadel,12705
@@ -4147,7 +4141,7 @@ The apprentice magician,The Corsair Citadel,12716
 The apprentice magician,The Corsair Citadel,12719
 The apprentice magician,The Corsair Citadel,12718
 Fabius Pugionis,The Corsair Citadel,12719
-Salmoneus, the master of the Circle of the Tempest,The Corsair Citadel,12719
+Salmoneus_ the master of the Circle of the Tempest,The Corsair Citadel,12719
 The pile of slime,the Wandering Ship,5522
 The slimey greza captain,the Wandering Ship,5522
 The pile of slime,the Wandering Ship,5510

@@ -23,11 +23,19 @@
     #if {&{jt_m_current}} {
         #map get roomvnum lroomvnum;
         #map get roomarea lroomarea;
-        #line log logs/loot.log {%1,%2,$lroomarea,$lroomvnum};
+       
+        #var itemname {%1};
+        #replace {itemname} {,} {_};
+        #var npcname {%1};
+        #replace {npcname} {,} {_};
+
+        #line log logs/loot.log {$itemname,$npcname,$lroomarea,$lroomvnum};
         #unvar lroomvnum;
         #unvar lroomarea;
+        #unvar itemname;
+        #unvar npcname;
     } {
-        #line log logs/loot.log {%1,%2,unknown};
+        jt_dl_l_print_msg {<fca>failed to write logs, unknown room}
     };
 }
 
