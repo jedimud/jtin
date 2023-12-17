@@ -1,5 +1,4 @@
 import json
-import sys
 from item_type import ItemType
 from item_align import ItemAlign
 from item_class import ItemClass
@@ -74,6 +73,9 @@ class ItemBrief():
                 for key in affect:
                     if int(affect[key]) > 0:
                         affects = affects + '+' + \
+                            str(affect[key]) + ItemAffect[key].brief + ' '
+                    else:
+                        affects = affects + \
                             str(affect[key]) + ItemAffect[key].brief + ' '
 
             item['brief_eq'] = item['brief_eq'] + affects
