@@ -3,8 +3,18 @@
 ## Item-brief
 - Add support for stacked items
 - Add sac count to container
+- Add sac view to shop vendors
+
+## Wiki
+- Add link to loot log of NPC
+- Add loot log to Item
+- Add zone descriptions to templates
+- Add item list to Zone
+- Add npc list to Zone
+- Add initial page
 
 ## Auto-Tank
+ - nps blocking magic prevent auto-cast from resetting
  - auto-cast should just keep firing until all met
  - add support for regenerate
  - refactor auto-grapple and auto-rescue
@@ -12,6 +22,7 @@
 ## Maps
  - Add mapping for White Queen treasury in Chess Board
  - `map locate` should consider sub maps
+ - Handle universe wagon
  - handle Charon flight in UW
  - handle Star Wars flight
  - Missing map links for:
