@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 3001
+I 104
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -512,7 +512,25 @@ E {164}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {155}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
 E {153}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {155}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {155}{0}{<fff>}{Attic Access}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {154}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {156}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+
+R {156}{0}{<fff>}{Attic}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {157}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {155}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+
+R {157}{0}{<fff>}{Attic}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {158}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {156}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {158}{0}{<fff>}{Attic}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {159}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {157}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {159}{0}{<fff>}{Attic above the Library}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {104}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {158}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {160}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {104}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}

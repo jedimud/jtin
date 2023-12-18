@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 618
+I 643
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -259,6 +259,9 @@ T {MOUNTAINS} {<F935116>◮} {WIDE}
 T {NOSWIM} {<F21618C>~} {}
 T {SWIM} {<F21618C>~} {}
 
+
+
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3}{4104}{}{}{ }{}{}{}{FOREST}{}{1.000}{}
 E {649}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -457,7 +460,7 @@ E {646}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {643}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {646}{0}{<fff>}{Xenia's cave}{ }{}{Arctica}{}{FOREST}{}{1.000}{}
-E {655}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {655}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
 E {645}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {647}{0}{<fff>}{Tunnel Bend}{ }{}{Arctica}{}{FOREST}{}{1.000}{}
@@ -480,12 +483,18 @@ E {649}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {650}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {652}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {652}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {652}{0}{<fff>}{The Bend}{ }{}{Arctica}{}{FOREST}{}{1.000}{}
+E {651}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {653}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {653}{0}{<fff>}{Dead End}{ }{}{Arctica}{}{FOREST}{}{1.000}{}
+E {3401}{ne}{jt_m_link_action {open ne;northeast} {Mahn-Tor} {3401}}{3}{0}{}{1.000}{}{0.00}
+E {652}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {654}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {655}{0}{<fff>}{Treasure Room}{ }{}{Arctica}{}{FOREST}{}{1.000}{}
-E {646}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {646}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
 
 R {656}{0}{<fff>}{Overlook}{ }{}{Arctica}{}{MOUNTAINS}{}{1.000}{}
 E {657}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -658,6 +667,8 @@ E {697}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {629}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {699}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {3401}{0}{<fff>}{}{MhT}{}{}{}{INSIDE}{}{1.000}{}
 
 R {4031}{0}{<fff>}{}{Mor}{}{}{}{FIELD}{}{1.000}{}
 

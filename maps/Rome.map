@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 12039
+I 12059
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -528,7 +528,21 @@ E {12048}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {12055}{0}{<fff>}{Judge's Chambers}{ }{}{Rome}{}{INSIDE}{}{1.000}{}
 E {12050}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {12057}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12056}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+
+R {12057}{0}{<fff>}{The Aqueduct}{ }{}{Rome}{}{SWIM}{}{1.000}{}
+E {12054}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {12054}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12058}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {12041}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {12058}{0}{<fff>}{The Valley of the Gods}{ }{}{Rome}{}{HILLS}{}{1.000}{}
+E {12057}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {12059}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {12059}{0}{<fff>}{A Mountain Path}{ }{}{Rome}{}{MOUNTAINS}{}{1.000}{}
+E {12058}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {12056}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {12060}{0}{<fff>}{The Holding Cells}{ }{}{Rome}{}{INSIDE}{}{1.000}{}
 E {12061}{e}{e}{2}{0}{}{1.000}{}{0.00}

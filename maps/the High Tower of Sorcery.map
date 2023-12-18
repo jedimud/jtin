@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 13183
+I 13182
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -263,7 +263,13 @@ T {SWIM} {<F21618C>~} {}
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
+R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {13077}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
 R {3}{0}{}{}{DHa}{}{}{}{FOREST}{}{1.000}{}
+
+R {4}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {13080}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3001}{0}{<fff>}{}{Mid}{}{}{}{CITY}{}{1.000}{}
 
@@ -511,6 +517,7 @@ R {13077}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000
 E {13076}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13078}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13079}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {2}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {13078}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13077}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -524,6 +531,7 @@ E {13081}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {13080}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13078}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13083}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {4}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {13081}{0}{<fff>}{A very hot room}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13078}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
@@ -709,7 +717,56 @@ E {13133}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {13135}{0}{<fff>}{The scrying chamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13134}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
 
-R {13136}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13136}{0}{<fff>}{A corridor}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13133}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13137}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+
+R {13137}{0}{<fff>}{The entrance to the library}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13136}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13139}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13140}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13138}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13138}{0}{<fff>}{In the library}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13137}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13141}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13142}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13143}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13139}{0}{<fff>}{In the library}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13142}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13140}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13137}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13141}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13140}{0}{<fff>}{In the library}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13141}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13137}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13139}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13142}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13141}{0}{<fff>}{In the library}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13139}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13142}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13138}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13140}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13142}{0}{<fff>}{In the library}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13140}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13138}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13141}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13139}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13143}{0}{<fff>}{In the library}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13138}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13144}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13144}{0}{<fff>}{Between the shelves}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13143}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13145}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {13145}{0}{<fff>}{The reading room}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13144}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {13146}{0}{<fff>}{A corridor}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13133}{n}{n}{1}{0}{}{1.000}{}{0.00}

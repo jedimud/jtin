@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 16643
+I 16635
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -392,7 +392,7 @@ E {16632}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {16621}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {16632}{0}{<fff>}{The Dark Doorway}{ }{}{the Balor}{}{INSIDE}{}{1.000}{}
-E {16633}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {16633}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
 E {16631}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {16633}{0}{<fff>}{The Doorway to the Unknown}{ }{}{the Balor}{}{INSIDE}{}{1.000}{}
