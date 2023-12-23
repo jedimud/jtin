@@ -386,10 +386,10 @@ R {3351}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 R {3352}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3353}{0}{<fff>}{The Ice Temple}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
-E {3418}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {3418}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {3355}{0}{<fff>}{The Frigid Wastelands}{ }{}{Mahn-Tor}{}{MOUNTAINS}{}{1.000}{}
-E {3425}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {3425}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {3355}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3351}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3352}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
@@ -405,7 +405,7 @@ R {3359}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3401}{0}{<fff>}{In the Frozen Tunnel}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
 E {3402}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {653}{sw}{jt_m_link_action {open sw;southwest} {Arctica} {653}}{12}{0}{}{1.000}{}{0.00}
+E {653}{sw}{jt_m_link_action {jt_m_open_door {southwest}} {Arctica} {653}}{12}{0}{}{1.000}{}{0.00}
 
 R {3402}{0}{<fff>}{Sloping Passage}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
 E {3403}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -454,11 +454,11 @@ E {3411}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {3413}{0}{<fff>}{Among the Stalagmites}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
 E {3415}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3412}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3414}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {3414}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {3414}{0}{<fff>}{Mining Office}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
-E {3413}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
-E {3422}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {3413}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
+E {3422}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {3415}{0}{<fff>}{Narrow Passage}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
 E {3416}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
@@ -474,7 +474,7 @@ E {3418}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
 R {3418}{0}{<fff>}{Dirty Intersection}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
 E {3419}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3353}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {3353}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 E {3417}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 
 R {3419}{0}{<fff>}{Sloping Passage}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
@@ -489,7 +489,7 @@ R {3421}{0}{<fff>}{Before the Massive Bronze Door}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.
 E {3420}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {3422}{0}{<fff>}{Frozen Passage}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
-E {3414}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {3414}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 E {3423}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {3423}{0}{<fff>}{Sloping Tunnel}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
@@ -502,4 +502,4 @@ E {3425}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {3425}{0}{<fff>}{Before the Massive Bronze Door}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
 E {3424}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3355}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {3355}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}

@@ -263,7 +263,7 @@ R {16701}{0}{<fff>}{}{Drk}{}{}{}{HILLS}{}{1.000}{}
 
 R {16702}{0}{<fff>}{The Beginning of a Hidden Tunnel}{}{}{Drake Isle}{}{HILLS}{}{1.000}{}
 E {16703}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {16701}{n}{jt_m_link_action {unlock north;open north;north} {Drake Isle} {16701}}{1}{0}{}{1.000}{}{0.00}
+E {16701}{n}{jt_m_link_action {jt_m_open_door {north}} {Drake Isle} {16701}}{1}{0}{}{1.000}{}{0.00}
 
 R {16703}{0}{<fff>}{In the Hidden Tunnel}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
 E {16841}{n}{n}{1}{0}{}{1.000}{}{0.00}

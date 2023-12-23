@@ -269,82 +269,82 @@ R {2363}{0}{<fff>}{}{ANS}{}{}{}{INSIDE}{}{1.000}{}
 
 R {3800}{0}{<fff>}{Gyles Keep Gate}{ }{}{Gyles Keep}{}{CITY}{}{1.000}{}
 E {2150}{n}{jt_m_link_action {north} {Skara Brae} {2150}}{1}{0}{}{1.000}{}{0.00}
-E {3801}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3801}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3801}{0}{<fff>}{Great Hall}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
 E {3802}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3800}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {3817}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3800}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {3817}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3802}{0}{<fff>}{Great Hall}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
 E {3803}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3801}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3803}{0}{<fff>}{Great Hall}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3804}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3804}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {3805}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {3802}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3804}{0}{<fff>}{Sash Guard quarters}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3803}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3803}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3805}{0}{<fff>}{Stairway}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
 E {3803}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3806}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3806}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {3807}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3806}{0}{<fff>}{Private Apartment}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3805}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3805}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3807}{0}{<fff>}{Hallway}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
 E {3805}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3808}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3808}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3808}{0}{<fff>}{Solarium}{ }{}{Gyles Keep}{}{CITY}{}{1.000}{}
-E {3807}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {3809}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {3818}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3807}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {3809}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {3818}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3809}{0}{<fff>}{Chapel}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3808}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3808}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3810}{0}{<fff>}{Dungeon}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3813}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
-E {3812}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
-E {3811}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {3813}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {3812}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
+E {3811}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
 E {3815}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3811}{0}{<fff>}{Dungeon Cell}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3810}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {3810}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 
 R {3812}{0}{<fff>}{Dungeon Cell}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3810}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {3810}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {3813}{0}{<fff>}{Dungeon Cell}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3814}{sw}{unl southw;open southw;southw}{12}{0}{}{1.000}{}{0.00}
-E {3810}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3814}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
+E {3810}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3814}{0}{<fff>}{Escape Tunnel}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3813}{ne}{unl northe;open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {3813}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 E {2363}{sw}{jt_m_link_action {southwest} {the area near Skara Brae} {2363}}{12}{0}{}{1.000}{}{0.00}
 
 R {3815}{0}{<fff>}{Dungeon}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
 E {3810}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3816}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3816}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3816}{0}{<fff>}{The bottom of the Keep tower.}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
-E {3815}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3815}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {3817}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {3817}{0}{<fff>}{First floor of the Keep tower.}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
 E {3816}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3801}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3801}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {3820}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3818}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {3818}{0}{<fff>}{The second floor room of the Keep tower.}{ }{}{Gyles Keep}{}{INSIDE}{}{1.000}{}
 E {3817}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3808}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3808}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {3819}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {3819}{0}{<fff>}{Top of the Keep tower.}{ }{}{Gyles Keep}{}{CITY}{}{1.000}{}

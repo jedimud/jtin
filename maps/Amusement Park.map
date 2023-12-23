@@ -422,12 +422,12 @@ E {1418}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {1416}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1418}{0}{<fff>}{A Room of the Side Show}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
-E {1419}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1419}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {1417}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {1413}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1419}{0}{<fff>}{Kerang's Cage}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
-E {1418}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1418}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1420}{0}{<fff>}{Entrance to the Glass Maze}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1426}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
@@ -650,7 +650,7 @@ E {1471}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1473}{0}{<fff>}{Hall of Mirrors}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1474}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {1478}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1478}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {1472}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1474}{0}{<fff>}{Hall of Mirrors}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
@@ -669,7 +669,7 @@ R {1477}{0}{<fff>}{Hall of Mirrors}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1474}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1478}{0}{<fff>}{Hall of Mirrors}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
-E {1473}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1473}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {1479}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1479}{0}{<fff>}{Hall of Mirrors}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
@@ -678,7 +678,7 @@ E {1480}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1480}{0}{<fff>}{Hall of Mirrors}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1479}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1454}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1454}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1481}{0}{<fff>}{Entrance to Haunted House}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1482}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -719,34 +719,34 @@ E {1490}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {1490}{0}{<fff>}{Western Balcony}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1491}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {1493}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1493}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {1489}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1491}{0}{<fff>}{Eastern Balcony}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1492}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {1494}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1494}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {1490}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1492}{0}{<fff>}{East End of Balcony}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1488}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {1495}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1495}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {1491}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1493}{0}{<fff>}{Library}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
-E {1496}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
-E {1490}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1496}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
+E {1490}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {1494}{0}{<fff>}{Master Bedroom}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1495}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {1491}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1491}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {1495}{0}{<fff>}{Master Bathroom}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
-E {1492}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1492}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {1494}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1496}{0}{<fff>}{Behind the bookcase}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1497}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1493}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {1493}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {1497}{0}{<fff>}{Secret Passage}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1496}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -754,6 +754,6 @@ E {1498}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1498}{0}{<fff>}{Hidden Chamber}{ }{}{Amusement Park}{}{INSIDE}{}{1.000}{}
 E {1497}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {19}{w}{jt_m_link_action {open w;west} {Amusement Park} {1400}}{8}{0}{}{1.000}{}{0.00}
+E {19}{w}{jt_m_link_action {jt_m_open_door {west}} {Amusement Park} {1400}}{8}{0}{}{1.000}{}{0.00}
 
 R {12242}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}

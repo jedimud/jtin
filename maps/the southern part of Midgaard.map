@@ -511,13 +511,13 @@ E {3215}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3208}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3210}{0}{<fff>}{Cityguard Head Quarters}{ }{}{the southern part of Midgaard}{}{INSIDE}{}{1.000}{}
-E {3211}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3211}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {3211}{0}{<fff>}{Park Road}{ }{}{the southern part of Midgaard}{}{CITY}{}{1.000}{}
 E {3212}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3231}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3218}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {3210}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3210}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3212}{0}{<fff>}{Western Park Entrance}{ }{}{the southern part of Midgaard}{}{CITY}{}{1.000}{}
 E {3213}{e}{e}{2}{0}{}{1.000}{}{0.00}

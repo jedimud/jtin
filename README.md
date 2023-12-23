@@ -57,6 +57,8 @@ jt state
 
 * MAP: enabled
 
+* IMM: disabled
+
 * ITEM-BRIEF: stats
 
 * DATA LOGS

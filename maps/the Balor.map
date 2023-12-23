@@ -392,24 +392,24 @@ E {16632}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {16621}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {16632}{0}{<fff>}{The Dark Doorway}{ }{}{the Balor}{}{INSIDE}{}{1.000}{}
-E {16633}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {16633}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {16631}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {16633}{0}{<fff>}{The Doorway to the Unknown}{ }{}{the Balor}{}{INSIDE}{}{1.000}{}
-E {16634}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {16632}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {16634}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {16632}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {16634}{0}{<fff>}{The Mini Maze}{ }{}{the Balor}{}{INSIDE}{}{1.000}{}
-E {16635}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {16633}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {16635}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {16633}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {16635}{0}{<fff>}{The Guardians of the Maze}{ }{}{the Balor}{}{INSIDE}{}{1.000}{}
-E {16636}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
-E {16634}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {16636}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {16634}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {16636}{0}{<fff>}{Going down?}{ }{}{the Balor}{}{INSIDE}{}{1.000}{}
 E {16637}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {16635}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {16635}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {16637}{0}{<fff>}{Deeper}{ }{}{the Balor}{}{INSIDE}{}{1.000}{}
 E {16638}{d}{d}{32}{0}{}{1.000}{}{0.00}

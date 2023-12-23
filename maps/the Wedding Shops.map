@@ -275,20 +275,20 @@ E {17801}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3239}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3239}}{4}{0}{}{1.000}{}{0.00}
 
 R {17801}{0}{<fff>}{The Atrium}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17804}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {17804}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {17800}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17803}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
-E {17802}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {17803}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
+E {17802}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {17802}{0}{<fff>}{The Manager's Office}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17801}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {17801}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {17803}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {17804}{0}{<fff>}{The Entrance to the Azure Room}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
 E {17814}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {17816}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17801}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {17801}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {17813}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {17813}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}

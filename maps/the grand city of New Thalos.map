@@ -529,7 +529,7 @@ E {12236}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12211}{0}{<fff>}{Outside the Southern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12572}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {12213}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12213}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {5039}{s}{jt_m_link_action {south} {the Great Eastern Desert} {5039}}{4}{0}{}{1.000}{}{0.00}
 
 R {12212}{0}{<fff>}{The Southern Bridge}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
@@ -539,7 +539,7 @@ E {12213}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {12213}{0}{<fff>}{Inside the South Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12212}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {12211}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12211}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {12214}{0}{<fff>}{The Northwestern Market Square}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12215}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -585,13 +585,13 @@ E {12220}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {12222}{0}{<fff>}{Inside the Northern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12249}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {12365}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12365}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {12221}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {12248}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12223}{0}{<fff>}{Inside the West Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12224}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {12367}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12367}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12224}{0}{<fff>}{West Main Street}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {51}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -632,7 +632,7 @@ E {12498}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {12229}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12231}{0}{<fff>}{Inside the Eastern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12366}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12366}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12230}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12232}{0}{<fff>}{Cassandra's Catch of the Day}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
@@ -764,7 +764,7 @@ E {12246}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12259}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {12259}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12275}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12275}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {12258}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {12260}{0}{<fff>}{Guildsman's Row}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
@@ -820,7 +820,7 @@ E {12270}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12271}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {12270}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12278}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12278}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {12269}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12271}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
@@ -836,12 +836,12 @@ E {12274}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12272}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {12274}{0}{<fff>}{Alley}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12281}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12281}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {12273}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12275}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12276}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12259}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {12259}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {12276}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12275}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -854,7 +854,7 @@ E {12279}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12278}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12257}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12270}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {12270}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {12277}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12279}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
@@ -867,7 +867,7 @@ E {12281}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {12281}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12282}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12280}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {12274}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {12274}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {12282}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12292}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -907,7 +907,7 @@ E {12291}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12289}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12291}{0}{<fff>}{Dark Passage}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12368}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {12368}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {12290}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12292}{0}{<fff>}{Underground}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
@@ -1003,7 +1003,7 @@ E {12214}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12592}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {12320}{0}{<fff>}{The Butchery}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12545}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12545}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {12216}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12321}{0}{<fff>}{The Witch's Brew}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
@@ -1035,7 +1035,7 @@ R {12333}{0}{<fff>}{The Bread Stand}{#}{}{the grand city of New Thalos}{}{INSIDE
 E {12208}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {12334}{0}{<fff>}{Igor's Implements of Destruction}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12448}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {12448}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {12207}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {12335}{0}{<fff>}{Ye Old Leather Shoppe}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
@@ -1081,7 +1081,7 @@ R {12350}{0}{<fff>}{The Dance Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}
 E {12255}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12351}{0}{<fff>}{Jail}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12244}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12244}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {12352}{0}{<fff>}{City Hall}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12245}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -1106,16 +1106,16 @@ E {12256}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {12365}{0}{<fff>}{Outside the Northern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12593}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {12222}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12222}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {10}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12366}{0}{<fff>}{Outside the Eastern Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
 E {12488}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12368}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12231}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12231}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12367}{0}{<fff>}{Outside the West Gate of New Thalos}{ }{}{the grand city of New Thalos}{}{CITY}{}{1.000}{}
-E {12223}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12223}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12416}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12368}{0}{<fff>}{Outside the wall}{ }{}{the grand city of New Thalos}{}{FIELD}{}{1.000}{}
@@ -1298,7 +1298,7 @@ E {23}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12446}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12448}{0}{<fff>}{Igor's Secret Chamber}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12334}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {12334}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {12449}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
 E {12454}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -1313,7 +1313,7 @@ E {12450}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {12449}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12451}{0}{<fff>}{In the mountains}{ }{}{the grand city of New Thalos}{}{MOUNTAINS}{}{1.000}{}
-E {12437}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12437}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12452}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12454}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {12455}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -1506,10 +1506,10 @@ E {12486}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {12496}{0}{<fff>}{Under the dock}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
 E {12506}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {12495}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {12497}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12497}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12497}{0}{<fff>}{Lair of the Ixitxachitl}{ }{}{the grand city of New Thalos}{}{NOSWIM}{}{1.000}{}
-E {12496}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12496}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {12498}{0}{<fff>}{New Thalos Metro Station}{#}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12230}{n}{n}{1}{0}{}{1.000}{}{0.00}

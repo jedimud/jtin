@@ -267,7 +267,7 @@ R {16843}{0}{<fff>}{Inside the Gatehouse}{ }{}{Drake Isle}{}{INSIDE}{}{1.000}{}
 E {16847}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {16861}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {16845}{w}{w}{8}{0}{}{1.000}{}{0.00}
-E {16840}{n}{jt_m_link_action {unl north;open north;north} {Drake Isle} {16840}}{1}{0}{}{1.000}{}{0.00}
+E {16840}{n}{jt_m_link_action {jt_m_open_door {north}} {Drake Isle} {16840}}{1}{0}{}{1.000}{}{0.00}
 
 R {16844}{0}{<fff>}{Inside the Cliff-side Fortress}{ }{}{Drake Isle}{}{INSIDE}{}{1.000}{}
 E {16849}{d}{d}{32}{0}{}{1.000}{}{0.00}

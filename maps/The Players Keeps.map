@@ -278,29 +278,29 @@ E {1902}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3017}{s}{jt_m_link_action {south} {Midgaard} {3017}}{4}{0}{}{1.000}{}{0.00}
 
 R {1902}{0}{<fff>}{Hallway}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1904}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1904}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {1903}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1905}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1905}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 E {1901}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1903}{0}{<fff>}{Gatherings for the Kiss of Death}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1902}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1904}{0}{<fff>}{Bravoman's Room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1902}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1902}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1905}{0}{<fff>}{Azure's Room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1902}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1902}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {1906}{0}{<fff>}{A small hallway}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {3080}{e}{jt_m_link_action {east} {Midgaard} {3080}}{2}{0}{}{1.000}{}{0.00}
-E {1907}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1907}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {1907}{0}{<fff>}{Inside Cirion's Home}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1910}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1909}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1906}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {1908}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1906}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {1908}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1908}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
@@ -316,54 +316,54 @@ E {1912}{e}{touch portal}{2}{0}{}{1.000}{}{0.00}
 
 R {1912}{0}{<fff>}{The Courtyard}{%}{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1913}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1914}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1914}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {1911}{w}{touch portal}{8}{0}{}{1.000}{}{0.00}
 
 R {1913}{0}{<fff>}{The Library}{M}{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1912}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1914}{0}{<fff>}{The Bedroom}{&}{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1912}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1912}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {1915}{0}{<fff>}{Maranta's Chambers}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1917}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1917}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {1916}{0}{<fff>}{The Barracks}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1917}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1917}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {1917}{0}{<fff>}{The Main Hall}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1918}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {1915}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {1919}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {1922}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
-E {1916}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1918}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {1915}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {1919}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {1922}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
+E {1916}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1918}{0}{<fff>}{The War Room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1917}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1917}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1919}{0}{<fff>}{At the Entrance to the Dark Tower}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1917}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1917}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {3141}{s}{jt_m_link_action {south} {Midgaard} {3141}}{4}{0}{}{1.000}{}{0.00}
 
 R {1920}{0}{<fff>}{The Throne Room of [SWANK]}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1922}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1922}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {1921}{0}{<fff>}{Pikkon's Room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1922}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1922}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {1922}{0}{<fff>}{The Upper Hall}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1917}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
-E {1923}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {1920}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {1924}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {1928}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
-E {1921}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1917}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {1923}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {1920}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {1924}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {1928}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
+E {1921}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1923}{0}{<fff>}{The Chamber of Judgment}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1922}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1922}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1924}{0}{<fff>}{The Portal Room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1922}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1922}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {1925}{0}{<fff>}{Entrance to the House that Emphesys Built}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1927}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
@@ -378,22 +378,22 @@ E {1925}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {1928}{0}{<fff>}{The Great Hall}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1922}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {1931}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1931}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {1932}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1930}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {1929}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1930}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {1929}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1929}{0}{<fff>}{Amongst Weeds Botanical Nightmare}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1928}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1928}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {1930}{0}{<fff>}{One's Sanctuary}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1928}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1928}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {1931}{0}{<fff>}{Kierk's War Study}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1928}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1928}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1932}{0}{<fff>}{The Devil's Shrine}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
-E {1928}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1928}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3017}{0}{<fff>}{}{Mid}{}{}{}{INSIDE}{}{1.000}{}
 

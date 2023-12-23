@@ -605,11 +605,11 @@ E {14669}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {14667}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {14669}{0}{<fff>}{Entrance to Vault}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
-E {14670}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {14670}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {14668}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {14670}{0}{<fff>}{King's Vault}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
-E {14669}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {14669}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {14671}{0}{<fff>}{King's Bedroom}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
 E {14673}{e}{e}{2}{0}{}{1.000}{}{0.00}

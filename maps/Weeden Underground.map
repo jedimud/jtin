@@ -407,7 +407,7 @@ E {15536}{n}{open dado}{1}{0}{}{1.000}{}{0.00}
 
 R {15536}{0}{<fff>}{Underground room}{ }{}{Weeden Underground}{}{INSIDE}{}{1.000}{}
 E {15535}{s}{open dado}{4}{0}{}{1.000}{}{0.00}
-E {15454}{u}{jt_m_link_action {open up;up} {Weeden and the Western Forest} {15454}}{16}{0}{}{1.000}{}{0.00}
+E {15454}{u}{jt_m_link_action {jt_m_open_door {up}} {Weeden and the Western Forest} {15454}}{16}{0}{}{1.000}{}{0.00}
 
 R {15550}{0}{<fff>}{Wraith Lair}{ }{}{Weeden Underground}{}{INSIDE}{}{1.000}{}
 E {15551}{e}{e}{2}{0}{}{1.000}{}{0.00}

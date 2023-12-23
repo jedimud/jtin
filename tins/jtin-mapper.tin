@@ -46,6 +46,7 @@
         map show;
         jt_m_msdp_disable; 
         jt_m_print_msg {<efc>found location at $MSDP_ROOM[AREA]($MSDP_ROOM[VNUM])};
+        jt_m_report_map_stats {$MSDP_ROOM[AREA]};
         look;
     };
 }
@@ -262,7 +263,7 @@
 }
 
 #alias jt_m_door_add {
-    #map exit %1 command {open %2;%2};
+    #map exit %1 command {jt_m_open_door {%2}};
     jt_m_print_msg {<efc>added door to %3};
 }
 
@@ -436,6 +437,20 @@
     {River Island Of Minos - The Sea of Dreams} {River Island Of Minos}
 }
 
+
+#nop ----- map functions ----
+
+#alias jt_m_open_door { 
+    #if {"$jt_imm_state" == "enabled"} {
+        jt_m_print_msg {<efc>cannot open door, configured as IMM};
+        jt_m_locate;
+    };
+    #else {
+        unlock %1;
+        open %1;
+        %1;
+    };
+}
 
 #nop ----- mapper defaults -----
 

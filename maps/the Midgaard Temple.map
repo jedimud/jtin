@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8207
+F 8206
 
 G 0
 
-I 104
+I 100
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -284,36 +284,36 @@ E {7}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {105}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {100}{16}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {3001}{e}{jt_m_link_action {open east;east} {Midgaard} {3001}}{2}{0}{}{1.000}{}{0.00}
+E {3001}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {101}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {101}{0}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {5}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {100}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {103}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {103}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {102}{0}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {176}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {104}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {104}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {5}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {103}{0}{<fff>}{Dining Hall}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {101}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {7}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {101}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {7}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {104}{0}{<fff>}{Library}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {161}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {102}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {160}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {102}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {160}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {105}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {8}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {8}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {108}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {107}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {106}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {106}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {106}{0}{<fff>}{The Adept's chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {105}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {105}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {107}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {153}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -321,78 +321,78 @@ E {105}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {108}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {110}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {109}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {109}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {105}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {114}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {109}{0}{<fff>}{The Attendants' Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {126}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {108}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {126}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {108}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {110}{0}{<fff>}{Darkened Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {111}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {113}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {113}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {108}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {111}{0}{<fff>}{Darkened Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {112}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {112}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {110}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {112}{0}{<fff>}{Cellar Access}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {163}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {111}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {111}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {113}{0}{<fff>}{The Acolytes' Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {110}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {110}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {114}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {108}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {115}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {115}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {116}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {115}{0}{<fff>}{Believers' Dormitory}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {114}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {114}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {116}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {114}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {117}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {117}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {118}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {117}{0}{<fff>}{The Deacon's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {116}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {116}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {118}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {116}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {119}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {120}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {119}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {120}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {121}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {119}{0}{<fff>}{The Vicar's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {118}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {118}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {120}{0}{<fff>}{The Priest's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {118}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {118}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {121}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {118}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {122}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {135}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {134}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {134}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {122}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {123}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {121}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {133}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {133}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {123}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {124}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {128}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {128}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {122}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {127}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {127}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {124}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {4}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {129}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {129}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {123}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {125}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
@@ -401,87 +401,87 @@ E {4}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {126}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {3}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {130}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {109}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {130}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {109}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {125}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {127}{0}{<fff>}{The Study}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {123}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {123}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {128}{0}{<fff>}{The Minister's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {123}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {123}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {129}{0}{<fff>}{The Novices' Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {124}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {124}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {130}{0}{<fff>}{The Missionary's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {126}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {126}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {131}{0}{<fff>}{The Missionary's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {132}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {132}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {132}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {160}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {131}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {131}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {3}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {133}{0}{<fff>}{The Canon's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {122}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {122}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {134}{0}{<fff>}{The Levite's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {121}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {121}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {135}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {121}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {137}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {136}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {136}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {136}{0}{<fff>}{The Curate's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {135}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {135}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {137}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {139}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {139}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {135}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {140}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {138}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {138}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {138}{0}{<fff>}{The Healer's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {137}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {137}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {139}{0}{<fff>}{The Monk's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {137}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {137}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {140}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {143}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {137}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {142}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {141}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {142}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {141}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {141}{0}{<fff>}{The Chaplain's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {140}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {140}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {142}{0}{<fff>}{The Expositor's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {140}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {140}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {143}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {145}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {144}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {144}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {140}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {144}{0}{<fff>}{The Bishop's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {143}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {143}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {145}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {148}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {147}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {146}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {148}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {147}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {146}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {143}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {146}{0}{<fff>}{The Patriarch's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {145}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {145}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {147}{0}{<fff>}{The Arch Bishop's Chamber}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {145}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {145}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {148}{0}{<fff>}{The High Priest's Anteroom}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {150}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -496,29 +496,29 @@ R {150}{0}{<fff>}{The Study of the High Priest}{ }{}{the Midgaard Temple}{}{INSI
 E {148}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {151}{0}{<fff>}{The Closet of the High Priest}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {152}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {152}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {149}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {152}{0}{<fff>}{The Secret Chamber of the High Priest}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {165}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {151}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {151}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {153}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {154}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {154}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {107}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {154}{0}{<fff>}{Cellar Access}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {164}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {155}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
-E {153}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {155}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
+E {153}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {155}{0}{<fff>}{Attic Access}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {154}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
-E {156}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {154}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {156}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {156}{0}{<fff>}{Attic}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {157}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {155}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {155}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {157}{0}{<fff>}{Attic}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {158}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -533,14 +533,15 @@ E {104}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {158}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {160}{0}{<fff>}{Western Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {104}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {104}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {132}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {161}{0}{<fff>}{Northern Library}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {104}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {162}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {162}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {162}{0}{<fff>}{Library Second Floor}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
+E {161}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {163}{0}{<fff>}{Cellar}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {112}{u}{u}{16}{0}{}{1.000}{}{0.00}
@@ -556,14 +557,14 @@ E {152}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {166}{0}{<fff>}{A secret passage!}{ }{}{the Midgaard Temple}{}{CITY}{}{1.000}{}
 E {3904}{n}{jt_m_link_action {north} {the trails around Midgaard} {3904}}{1}{0}{}{1.000}{}{0.00}
-E {167}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {167}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {167}{0}{<fff>}{A small stone room}{ }{}{the Midgaard Temple}{}{FIELD}{}{1.000}{}
-E {166}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {168}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {166}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {168}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {168}{0}{<fff>}{Dark passage}{ }{}{the Midgaard Temple}{}{FIELD}{}{1.000}{}
-E {167}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {167}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {165}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {169}{0}{<fff>}{Cellar}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
@@ -572,15 +573,15 @@ E {170}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {170}{0}{<fff>}{Cellar}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {169}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {172}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {172}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {171}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {171}{0}{<fff>}{Cellar}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {170}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {173}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {173}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {172}{0}{<fff>}{Storage room}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {170}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {170}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {173}{0}{<fff>}{Cellar}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {171}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -588,7 +589,7 @@ E {174}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {174}{0}{<fff>}{Cellar}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {175}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {173}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {173}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {175}{0}{<fff>}{Cellar}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
 E {163}{e}{e}{2}{0}{}{1.000}{}{0.00}

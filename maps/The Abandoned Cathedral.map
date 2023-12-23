@@ -264,7 +264,7 @@ T {SWIM} {<F21618C>~} {}
 
 R {500}{0}{<fff>}{The Cathedral Courtyard}{ }{}{The Abandoned Cathedral}{}{FIELD}{}{1.000}{}
 E {501}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {555}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {555}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {501}{0}{<fff>}{The Cathedral Entrance}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {502}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -311,11 +311,11 @@ E {538}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {541}{0}{<fff>}{The Antechamber}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {539}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {542}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {542}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {542}{0}{<fff>}{The Inner Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {543}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {541}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {541}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {543}{0}{<fff>}{The Inner Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {549}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -337,7 +337,7 @@ E {547}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {547}{0}{<fff>}{The Inner Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {546}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {550}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {548}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {548}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {548}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
@@ -363,7 +363,7 @@ R {554}{16384}{<faa>}{Burnt Alive In The Molten Lava}{<faa>DT}{}{The Abandoned C
 E {553}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {555}{0}{<fff>}{An Old Stone Road}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
-E {500}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {500}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {23209}{s}{jt_m_link_action {south} {the city of Sanctuary} {23209}}{4}{0}{}{1.000}{}{0.00}
 
 R {23209}{0}{<fff>}{}{San}{}{}{}{}{}{1.000}{}

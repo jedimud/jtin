@@ -357,7 +357,7 @@ E {6717}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6719}{0}{<fff>}{Along The Shoreline}{ }{}{Lost Isle of Shaedar}{}{FIELD}{}{1.000}{}
 E {6720}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6764}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {6764}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {6718}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6720}{0}{<fff>}{Along The Shoreline}{ }{}{Lost Isle of Shaedar}{}{FIELD}{}{1.000}{}
@@ -416,7 +416,7 @@ E {6800}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6730}{0}{<fff>}{Along The Shoreline}{ }{}{Lost Isle of Shaedar}{}{FIELD}{}{1.000}{}
 E {6731}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6803}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {6803}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {6729}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {6802}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -500,12 +500,12 @@ E {6768}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {6746}{0}{<fff>}{Before A Bamboo Gate}{ }{}{Lost Isle of Shaedar}{}{FIELD}{}{1.000}{}
 E {6827}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6745}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6747}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {6747}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {6769}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6747}{0}{<fff>}{Inside The Village}{ }{}{Lost Isle of Shaedar}{}{CITY}{}{1.000}{}
 E {6831}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6746}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {6746}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {6748}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {6765}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -576,7 +576,7 @@ E {6762}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {6764}{0}{<fff>}{A Bamboo Gate}{ }{}{Lost Isle of Shaedar}{}{FOREST}{}{1.000}{}
 E {6780}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6762}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6719}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {6719}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {6779}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6765}{0}{<fff>}{An Overgrown Path}{ }{}{Lost Isle of Shaedar}{}{FOREST}{}{1.000}{}
@@ -738,11 +738,11 @@ R {6795}{0}{<fff>}{A Small Dark Cave}{ }{}{Lost Isle of Shaedar}{}{INSIDE}{}{1.0
 E {6794}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {6796}{0}{<fff>}{A Towering Rockpile}{ }{}{Lost Isle of Shaedar}{}{FOREST}{}{1.000}{}
-E {6797}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {6797}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {6787}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 
 R {6797}{0}{<fff>}{A Lions Den}{ }{}{Lost Isle of Shaedar}{}{INSIDE}{}{1.000}{}
-E {6796}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {6796}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {6798}{0}{<fff>}{Jungle Wilderness}{ }{}{Lost Isle of Shaedar}{}{FOREST}{}{1.000}{}
 E {6728}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -773,7 +773,7 @@ E {6801}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6803}{0}{<fff>}{A Hidden Cove}{ }{}{Lost Isle of Shaedar}{}{FOREST}{}{1.000}{}
 E {6804}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6730}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {6730}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {6805}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {6804}{0}{<fff>}{The Mud Pit}{ }{}{Lost Isle of Shaedar}{}{FOREST}{}{1.000}{}
@@ -800,11 +800,11 @@ E {6810}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6808}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {6810}{0}{<fff>}{Jungle Wilderness}{ }{}{Lost Isle of Shaedar}{}{FOREST}{}{1.000}{}
-E {6811}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {6811}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 E {6809}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6811}{0}{<fff>}{A Large Clearing}{ }{}{Lost Isle of Shaedar}{}{FOREST}{}{1.000}{}
-E {6810}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {6810}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {6812}{0}{<fff>}{Jungle Wilderness}{ }{}{Lost Isle of Shaedar}{}{FOREST}{}{1.000}{}
 E {6731}{e}{e}{2}{0}{}{1.000}{}{0.00}

@@ -637,7 +637,7 @@ E {9715}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {9707}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {9709}{0}{<fff>}{Approaching the Palace}{ }{}{Imperial Ravenna}{}{CITY}{}{1.000}{}
-E {9746}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9746}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {9708}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {9710}{0}{<fff>}{Inside the Warehouse}{ }{}{Imperial Ravenna}{}{INSIDE}{}{1.000}{}

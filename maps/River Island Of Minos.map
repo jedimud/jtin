@@ -392,7 +392,7 @@ E {921}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {923}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {921}{0}{<fff>}{The Final Trial of Minos}{ }{}{River Island Of Minos}{}{INSIDE}{}{1.000}{}
-E {922}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {922}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {922}{0}{<fff>}{The Royal Chamber}{ }{}{River Island Of Minos}{}{INSIDE}{}{1.000}{}
 E {910}{u}{u}{16}{0}{}{1.000}{}{0.00}

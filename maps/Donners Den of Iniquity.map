@@ -297,7 +297,7 @@ E {2984}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {2988}{0}{<fff>}{Inside the bar}{ }{}{Donners Den of Iniquity}{}{INSIDE}{}{1.000}{}
 E {2986}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {2984}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {2991}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {2991}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {2989}{0}{<fff>}{The back room}{ }{}{Donners Den of Iniquity}{}{INSIDE}{}{1.000}{}
 E {2984}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -306,4 +306,4 @@ R {2990}{0}{<fff>}{The manager's loft}{ }{}{Donners Den of Iniquity}{}{INSIDE}{}
 E {2986}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {2991}{0}{<fff>}{The storeroom}{ }{}{Donners Den of Iniquity}{}{INSIDE}{}{1.000}{}
-E {2988}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {2988}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}

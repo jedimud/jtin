@@ -20,6 +20,8 @@
     #showme ;
     jt_m_print_state;
     #showme ;
+    jt_imm_print_state;
+    #showme ;
     jt_ib_print_state;
     #showme ;
     jt_dl_print_state;
@@ -36,6 +38,9 @@
     #elseif {"%1" == "map"} {
         jt_m {%2};
     };
+    #elseif {"%1" == "imm"} {
+        jt_imm {%2};
+    };
     #elseif {"%1" == "toon"} {
         jt_t {%2} {%3};
     };
@@ -49,7 +54,7 @@
         jt_at {%2} {%3} {%4} {%5};
     };
     #else {
-        jt_print_message_with_buffer {<efc>unknown command, try :: jt (toon|state|map|item-brief|data-logs|auto-tank)};
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt (toon|state|map|imm|item-brief|data-logs|auto-tank)};
     }
 }
 
@@ -501,6 +506,38 @@
     jt_print_message_with_buffer {item-brief :: %1}
 }
 
+#nop ----- imm -----
+
+#alias jt_imm {
+    #if {"%1" == "enabled"} {
+        #var jt_imm_state enabled;
+        jt_imm_print_msg {<afc>enabled};
+    };
+    #elseif {"%1" == "disabled"} {
+        #var jt_imm_state disabled;
+        jt_imm_print_msg {<fca>disabled};
+    };
+    #else {
+        jt_print_message_with_buffer {<efc>unknown command, try :: jt imm (enabled|disabled)};
+    };
+}
+
+#alias jt_imm_default {
+    #var jt_imm_state disabled;
+    jt_imm_print_msg {<fca>disabled};
+}
+
+#alias jt_imm_print_msg {
+    jt_print_message_with_buffer {imm :: %1}
+}
+
+#alias jt_imm_print_state {
+    #if {"$jt_imm_state" == "enabled"} {
+        #showme <fac>* <adf>IMM: <afc>$jt_imm_state;
+    } {
+        #showme <fac>* <adf>IMM: <fca>$jt_imm_state;
+    }
+}
 
 #nop ----- mapper -----
 
@@ -561,6 +598,8 @@
 
 jt_t_default
 jt_m_default;
+jt_imm_default
 jt_ib_default;
 jt_dl_default;
 jt_at_default;
+;

@@ -277,19 +277,19 @@ E {1203}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {1201}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1203}{0}{<fff>}{Outside the Large Building}{ }{}{Star Wars}{}{CITY}{}{1.000}{}
-E {1204}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1204}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {1202}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1204}{0}{<fff>}{Inside the Bunker - Main Lobby}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
 E {1209}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1208}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1203}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1203}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {1205}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {1205}{0}{<fff>}{The Control Tower}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
 E {1204}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {1207}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {1205}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1205}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {1206}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1206}{0}{<fff>}{Communications Room}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
@@ -329,7 +329,7 @@ E {1212}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {1216}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1216}{0}{<fff>}{The Spaceport Inn - Managerial Office}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
-E {1266}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1266}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {1215}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {1266}{0}{<fff>}{Inside the safe}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
@@ -432,28 +432,28 @@ E {1208}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {1392}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {1351}{0}{<fff>}{The Control Room}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
-E {1352}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1352}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1352}{0}{<fff>}{The Private Office of Jabba the Hutt}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
-E {1351}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {1353}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1351}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {1353}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1353}{0}{<fff>}{The Corridor}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
-E {1352}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {1362}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
-E {1354}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1352}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {1362}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
+E {1354}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1354}{0}{<fff>}{The Pantry}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
-E {1353}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {1353}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {1355}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1355}{0}{<fff>}{The Galley}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
 E {1354}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {1356}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {1356}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {1356}{0}{<fff>}{The Lobby}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
-E {1355}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {1365}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {1355}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {1365}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {1357}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1357}{0}{<fff>}{The Observation Cabin and Banquet Room}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
@@ -462,7 +462,7 @@ E {1358}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1358}{0}{<fff>}{The Observation Cabin and Banquet Room}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
 E {1357}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {1367}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {1367}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {1359}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1359}{0}{<fff>}{The Observation Cabin and Banquet Room}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
@@ -477,7 +477,7 @@ R {1361}{0}{<fff>}{The Rounded Bow Section of the Deck}{ }{}{Star Wars}{}{INSIDE
 E {1362}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1362}{0}{<fff>}{On the Deck of Jabba's Sail Barge}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
-E {1353}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {1353}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {1361}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1363}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -490,7 +490,7 @@ E {1363}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1365}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1365}{0}{<fff>}{On the Deck of Jabba's Sail Barge}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
-E {1356}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {1356}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {1364}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1379}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {1366}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -500,7 +500,7 @@ E {1365}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1367}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1367}{0}{<fff>}{On the Deck of Jabba's Sail Barge}{ }{}{Star Wars}{}{INSIDE}{}{1.000}{}
-E {1358}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {1358}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {1366}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {1368}{w}{w}{8}{0}{}{1.000}{}{0.00}
 

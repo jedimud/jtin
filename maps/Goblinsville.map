@@ -342,17 +342,17 @@ E {9215}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {9208}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {9210}{0}{<fff>}{The Temple of Heqt}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {9211}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {4}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {9211}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {4}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {9211}{0}{<fff>}{The Waiting Room}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {9212}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {9210}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9212}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {9210}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9212}{0}{<fff>}{Guard Station}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
 E {9216}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {9205}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {9211}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9211}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9213}{0}{<fff>}{Rock Bridge}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
 E {9212}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -381,24 +381,24 @@ R {9219}{0}{<fff>}{Ice Cavern}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
 E {12}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {9220}{0}{<fff>}{The King's Waiting Room}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {9222}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {9222}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {9217}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {9221}{0}{<fff>}{Secret Room}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {8}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {7}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {8}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {7}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {9222}{0}{<fff>}{The King's Main Hall}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
 E {9223}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9224}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {9224}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {9220}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {11}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {11}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9223}{0}{<fff>}{The King's Harem}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
 E {9222}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {9224}{0}{<fff>}{Treasure Lair}{ }{}{Goblinsville}{}{INSIDE}{}{1.000}{}
-E {9225}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {9225}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 
 R {9225}{0}{<fff>}{Tunnel Under the Mountain}{ }{}{Goblinsville}{}{MOUNTAINS}{}{1.000}{}
 E {9226}{n}{n}{1}{0}{}{1.000}{}{0.00}

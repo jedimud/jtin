@@ -264,13 +264,13 @@ T {SWIM} {<F21618C>~} {}
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {4201}{0}{<fff>}{Entrance to the Aerie}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4202}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4202}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {12404}{s}{jt_m_link_action {south} {the grand city of New Thalos} {12404}}{4}{0}{}{1.000}{}{0.00}
 
 R {4202}{0}{<fff>}{An empty room.}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4211}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4210}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {4201}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4201}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {4203}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4203}{0}{<fff>}{A dusty hallway}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
@@ -283,16 +283,16 @@ E {4205}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4234}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {4205}{0}{<fff>}{A dim passage.}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4206}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4206}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4204}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4206}{0}{<fff>}{In Boris' Den}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4207}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {4205}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4207}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {4205}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {4207}{0}{<fff>}{A dim passage.}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4208}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {4206}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4206}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4208}{0}{<fff>}{An open room.}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4209}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -320,13 +320,13 @@ E {4214}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4212}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4214}{0}{<fff>}{A corner room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4215}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {4215}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {4213}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {4209}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4215}{0}{<fff>}{A storage room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4221}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {4214}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {4214}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {4216}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4216}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
@@ -397,11 +397,11 @@ E {4232}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4230}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {4232}{0}{<fff>}{A smelly passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4233}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4233}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4231}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4233}{0}{<fff>}{The Vats}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4232}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4232}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4234}{0}{<fff>}{Top of a spiral stair}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4204}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -443,7 +443,7 @@ E {4244}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4240}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4243}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4246}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4246}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4238}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4244}{0}{<fff>}{A corner room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
@@ -451,13 +451,13 @@ E {4245}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4242}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4245}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4246}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4246}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4244}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4246}{0}{<fff>}{Entrance to the Level Ferenczy}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4245}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4245}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {4247}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {4243}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4243}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4247}{0}{<fff>}{On the Level Ferenczy}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4246}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -503,17 +503,17 @@ E {4249}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4255}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4257}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4259}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4259}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4255}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4258}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4247}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {4259}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4247}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {4259}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {4259}{0}{<fff>}{Entrance to the Level of the Lower Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4258}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4258}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4260}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {4257}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4257}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4260}{0}{<fff>}{On the level of the Lower Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4259}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -530,7 +530,7 @@ E {4263}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4263}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4262}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {4272}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4272}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4264}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4260}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -542,7 +542,7 @@ E {4266}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4267}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4266}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4272}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4272}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4265}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4267}{0}{<fff>}{A lighted passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
@@ -562,14 +562,14 @@ E {4271}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4269}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4271}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4272}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4272}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4270}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4272}{0}{<fff>}{Entrance to the level of the Mid Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4263}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {4266}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4263}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {4266}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {4273}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {4271}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4271}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4273}{0}{<fff>}{On the floor of the Mid Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4272}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -587,7 +587,7 @@ E {4274}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4276}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4275}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {4277}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4277}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {4277}{0}{<fff>}{The Ferenc's lair}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4276}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -615,16 +615,16 @@ E {4281}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4283}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {4283}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4285}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4285}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4282}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4284}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4273}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {4285}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4285}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4285}{0}{<fff>}{Entrance to the Flyer Stable}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4284}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {4283}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4284}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {4283}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {4286}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {4286}{0}{<fff>}{On the level of the Flyer Stables}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
@@ -650,15 +650,15 @@ E {4291}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4291}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4290}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {4293}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4293}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4292}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4286}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {4293}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4293}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {4293}{0}{<fff>}{Entrance to the level of the High Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4291}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {4292}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4291}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {4292}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4294}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {4294}{0}{<fff>}{On the level of the High Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
@@ -685,7 +685,7 @@ E {4297}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4299}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4300}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {4298}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4298}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {4300}{0}{<fff>}{Wamphyri lieutenants' chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4299}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -693,7 +693,7 @@ E {4301}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4301}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4300}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {4306}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4306}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4302}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4303}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -704,18 +704,18 @@ E {4304}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4302}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4304}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4306}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4306}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4303}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4305}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4306}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4306}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4296}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4306}{0}{<fff>}{Entrance to the level of the Arch Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4301}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {4305}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4301}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {4305}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {4307}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {4304}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4304}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4307}{0}{<fff>}{On the level of the Arch Lords}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4306}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -725,7 +725,7 @@ E {4308}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4308}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4307}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {4319}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4319}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4309}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
 E {4310}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -753,7 +753,7 @@ E {4315}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4316}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4315}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4307}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4307}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4314}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4316}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
@@ -765,12 +765,12 @@ E {4316}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4318}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {4318}{0}{<fff>}{A dark passage}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4319}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4319}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4317}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4319}{0}{<fff>}{Entrance to the upper levels}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4308}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {4318}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4308}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {4318}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {4320}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {4320}{0}{<fff>}{An empty room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
@@ -790,18 +790,18 @@ E {4324}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4322}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4324}{0}{<fff>}{The Personal Guards' chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4325}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {4325}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {4323}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4325}{0}{<fff>}{The Ante-Chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4324}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {4324}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {4326}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {4326}{0}{<fff>}{Lady Karen's Personal Chamber}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4327}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4327}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4325}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4327}{0}{<fff>}{The treasure room}{ }{}{Wamphyri Aerie}{}{INSIDE}{}{1.000}{}
-E {4326}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4326}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12404}{0}{<fff>}{}{NT}{}{}{}{MOUNTAINS}{}{1.000}{}

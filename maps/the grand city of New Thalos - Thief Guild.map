@@ -280,5 +280,5 @@ E {12344}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {12330}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {12344}{0}{<fff>}{The Secret Yard}{M}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12289}{s}{jt_m_link_action {open door;south} {the grand city of New Thalos} {12289}}{4}{0}{}{1.000}{}{0.00}
+E {12289}{s}{jt_m_link_action {jt_m_open_door {south}} {the grand city of New Thalos} {12289}}{4}{0}{}{1.000}{}{0.00}
 E {12337}{u}{u}{16}{0}{}{1.000}{}{0.00}

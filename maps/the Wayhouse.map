@@ -333,7 +333,7 @@ E {3707}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {3700}{0}{<fff>}{Outside the Wayhouse}{ }{}{the Wayhouse}{}{FIELD}{}{1.000}{}
 E {15}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {17}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {5026}{se}{jt_m_link_action {southeast} {the Great Eastern Desert} {5026}}{6}{0}{}{1.000}{}{0.00}
 E {4}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -400,7 +400,7 @@ E {3713}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3715}{0}{<fff>}{Main Room}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3716}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {17}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {3718}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3714}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -478,38 +478,38 @@ E {3731}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3731}{0}{<fff>}{Hallway}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3730}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3738}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {3739}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3738}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {3739}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {3732}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3732}{0}{<fff>}{Hallway}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3731}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3736}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {3737}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3736}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {3737}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {3733}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3733}{0}{<fff>}{Hallway}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3732}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3734}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {3735}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3734}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {3735}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3734}{0}{<fff>}{Private Room}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
-E {3733}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3733}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3735}{0}{<fff>}{The Angry Adventurers}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
-E {3733}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3733}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3736}{0}{<fff>}{Zoe's Room}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
-E {3732}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3732}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3737}{0}{<fff>}{Private Room}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
-E {3732}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3732}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3738}{0}{<fff>}{Werith's Office}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
-E {3731}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3731}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3739}{0}{<fff>}{Private Room}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
-E {3731}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3731}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3740}{0}{<fff>}{Outhouse}{ }{}{the Wayhouse}{}{INSIDE}{}{1.000}{}
 E {3705}{n}{n}{1}{0}{}{1.000}{}{0.00}

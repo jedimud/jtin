@@ -354,7 +354,7 @@ E {1620}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {1609}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1618}{0}{<fff>}{The Beast Master}{ }{}{The Old Elven Village}{}{INSIDE}{}{1.000}{}
-E {1619}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {1619}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {1616}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1619}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
@@ -413,7 +413,7 @@ E {11}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {1633}{0}{<fff>}{Before the Shack}{ }{}{The Old Elven Village}{}{FIELD}{}{1.000}{}
 E {1634}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {1636}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {1636}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {1632}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {1634}{0}{<fff>}{Around the Bend}{ }{}{The Old Elven Village}{}{FIELD}{}{1.000}{}

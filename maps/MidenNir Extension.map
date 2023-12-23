@@ -434,7 +434,7 @@ E {18627}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {18632}{0}{<fff>}{The Tower Entryway}{ }{}{MidenNir Extension}{}{INSIDE}{}{1.000}{}
 E {18633}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {18667}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {18667}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {18633}{0}{<fff>}{A Stairwell}{ }{}{MidenNir Extension}{}{INSIDE}{}{1.000}{}
 E {18632}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -466,11 +466,11 @@ E {18640}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {18640}{0}{<fff>}{A Landing Near the Top of the Tower}{ }{}{MidenNir Extension}{}{INSIDE}{}{1.000}{}
 E {18639}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {18641}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {18641}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {18642}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {18641}{0}{<fff>}{A Large Workroom}{ }{}{MidenNir Extension}{}{INSIDE}{}{1.000}{}
-E {18640}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {18640}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {18642}{0}{<fff>}{The Top of the Tower}{ }{}{MidenNir Extension}{}{INSIDE}{}{1.000}{}
 E {18640}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -536,13 +536,13 @@ E {18655}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {18652}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {18655}{0}{<fff>}{Entrance to a Large Tomb}{ }{}{MidenNir Extension}{}{FIELD}{}{1.000}{}
-E {18656}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {18656}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {18654}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {18656}{0}{<fff>}{Entryway of the Large Tomb}{ }{}{MidenNir Extension}{}{INSIDE}{}{1.000}{}
 E {18659}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {18655}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {18657}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {18655}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {18657}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {18657}{0}{<fff>}{A Room in a Large Tomb.}{ }{}{MidenNir Extension}{}{INSIDE}{}{1.000}{}
 E {18656}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -574,9 +574,9 @@ R {18665}{0}{<fff>}{A Stone Mausoleum}{ }{}{MidenNir Extension}{}{INSIDE}{}{1.00
 E {18652}{e}{open coffin}{2}{0}{}{1.000}{}{0.00}
 
 R {18666}{0}{<fff>}{A Warm, Cozy Bedroom}{ }{}{MidenNir Extension}{}{INSIDE}{}{1.000}{}
-E {18667}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {18667}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {18667}{0}{<fff>}{The Base of the Tower.}{ }{}{MidenNir Extension}{}{FIELD}{}{1.000}{}
-E {18632}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {18632}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {18623}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18666}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {18666}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}

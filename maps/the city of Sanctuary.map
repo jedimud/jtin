@@ -659,7 +659,7 @@ E {23013}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23013}{0}{<fff>}{Within the city walls}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23012}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {23500}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23500}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {23014}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23014}{0}{<fff>}{On the bridge}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -685,7 +685,7 @@ E {23019}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 E {23017}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
 R {23019}{0}{<fff>}{a small pond}{ }{}{the city of Sanctuary}{}{FOREST}{}{1.000}{}
-E {23112}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {23112}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
 E {23018}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
 R {23020}{0}{<fff>}{Wideway}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -872,13 +872,13 @@ E {23068}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {23069}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23062}{0}{<fff>}{Abandoned shack}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23066}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {23066}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {23063}{0}{<fff>}{A sturdy dwelling}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23068}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {23068}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 
 R {23064}{0}{<fff>}{Alchemist's Shop}{#}{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23070}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {23070}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 
 R {23065}{0}{<fff>}{a dark alley}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23068}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -891,7 +891,7 @@ E {23071}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {23072}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23066}{0}{<fff>}{a dark alley}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
-E {23062}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {23062}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {23072}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {23065}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {23071}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
@@ -917,7 +917,7 @@ E {23065}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {23066}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 E {23071}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {23070}{se}{se}{6}{0}{}{1.000}{}{0.00}
-E {23063}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {23063}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 E {23072}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23069}{0}{<fff>}{a dark alley}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -934,7 +934,7 @@ R {23070}{0}{<fff>}{a dark alley}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23069}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {23067}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {23068}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {23064}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {23064}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
 E {23071}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {23066}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {23072}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
@@ -991,7 +991,7 @@ E {23079}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {23082}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 
 R {23082}{0}{<fff>}{Raised Dais}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23083}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {23083}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {23080}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {23081}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
@@ -1027,7 +1027,7 @@ E {23088}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23091}{0}{<fff>}{The Vulgar Unicorn}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23092}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {23093}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {23093}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 E {23090}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {23088}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {23089}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -1051,12 +1051,12 @@ E {87}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {23096}{0}{<fff>}{Wideway}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {75}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {23419}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {23419}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 E {23097}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23097}{0}{<fff>}{Wideway}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23096}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {23418}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23418}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {23098}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23098}{0}{<fff>}{Wideway}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -1129,7 +1129,7 @@ E {50}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {23112}{0}{<fff>}{Large Intersection}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {62}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 E {49}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {23503}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {23503}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 E {46}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23113}{0}{<fff>}{Avenue of Temples}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -1198,7 +1198,7 @@ R {23125}{0}{<fff>}{Governor's Walk}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000
 E {70}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {23341}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {58}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {23416}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {23416}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 E {23126}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23126}{0}{<fff>}{Governor's Walk}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -1213,7 +1213,7 @@ R {23128}{0}{<fff>}{Processional}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23127}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {23219}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {23156}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {23506}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {23506}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 E {23129}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23129}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
@@ -1231,7 +1231,7 @@ E {23132}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23132}{0}{<fff>}{Governor's Walk}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23131}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {23268}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23268}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {23133}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23133}{0}{<fff>}{Governor's Walk}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -1268,7 +1268,7 @@ E {23108}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {23139}{0}{<fff>}{Pyrtanis Street}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {50}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {23338}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23338}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {23141}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23140}{0}{<fff>}{Street of Glass}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -1281,7 +1281,7 @@ R {23141}{0}{<fff>}{Pyrtanis Street}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000
 E {23139}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {48}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {42}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {23380}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {23380}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {23142}{0}{<fff>}{Path of Money}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {53}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -1302,13 +1302,13 @@ E {23145}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {23145}{0}{<fff>}{Street of Glass}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {72}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {23144}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {23382}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {23382}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 E {14}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {86}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23146}{0}{<fff>}{Street of Glass}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {86}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {23417}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23417}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {23148}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23147}{0}{<fff>}{Path of Money}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -1322,7 +1322,7 @@ E {13}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {23153}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23149}{0}{<fff>}{Monger's Road}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
-E {23424}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {23424}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {74}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {77}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {23152}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -1343,7 +1343,7 @@ E {23155}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23153}{0}{<fff>}{Street of Glass}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23148}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {23381}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23381}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {23154}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23154}{0}{<fff>}{Processional}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -1356,7 +1356,7 @@ R {23155}{0}{<fff>}{Processional}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23152}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {69}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {76}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {23384}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {23384}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 E {23158}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23156}{0}{<fff>}{Processional}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
@@ -1447,7 +1447,7 @@ E {23173}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {23173}{0}{<fff>}{Street of Smells}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23172}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {23174}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {23516}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {23516}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {23174}{0}{<fff>}{Street of Smells}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23173}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -1540,7 +1540,7 @@ E {23196}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23194}{0}{<fff>}{The Bazaar}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {10}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {23421}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23421}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {23191}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {23420}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 E {8}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -1548,7 +1548,7 @@ E {23192}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
 R {23195}{0}{<fff>}{Caravan Square}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23208}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {23519}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {23519}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 E {23196}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {23199}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {23200}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -1630,12 +1630,12 @@ E {23208}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {23210}{0}{<fff>}{General's Road}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23214}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {27}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {27}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {23211}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {12}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {23211}{0}{<fff>}{General's Road Bridge}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
-E {23525}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {23525}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {23212}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {23210}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
@@ -1653,17 +1653,17 @@ E {23210}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23215}{0}{<fff>}{Street of Red Lanterns}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23216}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {23422}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {23422}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 E {23214}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {23216}{0}{<fff>}{Street of Red Lanterns}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
-E {23371}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {23371}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {23217}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {23426}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {23426}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 E {23215}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {23217}{0}{<fff>}{Street of Red Lanterns}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
-E {23522}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {23522}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {23300}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {23228}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {23216}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
@@ -1697,23 +1697,23 @@ E {23219}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {23226}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23223}{0}{<fff>}{Royal Stables}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
-E {23226}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23226}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {23224}{0}{<fff>}{Barracks}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
-E {23226}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
-E {23225}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {23226}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
+E {23225}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
 
 R {23225}{0}{<fff>}{Officers' Quarters}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
-E {16}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {23224}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {16}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {23224}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 
 R {23226}{0}{<fff>}{The courtyard}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23222}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {23227}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {23223}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23223}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {23220}{se}{se}{6}{0}{}{1.000}{}{0.00}
-E {23224}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
-E {16}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {23224}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
+E {16}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {23227}{0}{<fff>}{Before the Dungeon}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23226}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -1735,21 +1735,21 @@ E {23219}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 E {20}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23236}{0}{<fff>}{Lobby of the Hall of Justice}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23238}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {23239}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23238}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {23239}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {23229}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {23237}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {23237}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {23237}{0}{<fff>}{Holding Area}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23236}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {23236}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {23238}{0}{<fff>}{Hall of Justice}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23236}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {23236}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {23239}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {23268}{0}{<fff>}{Waiting Room}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23132}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23132}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {23269}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {23269}{0}{<fff>}{Office}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
@@ -1759,10 +1759,10 @@ E {23270}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {23270}{0}{<fff>}{Hallway}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23269}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {23271}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23271}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {23271}{0}{<fff>}{Melilot's Bedroom}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23270}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23270}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {23275}{0}{<fff>}{Governor's Warehouse}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {80}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -1778,48 +1778,48 @@ E {80}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23284}{0}{<fff>}{Before the brass door}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23113}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {23285}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {23285}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 
 R {23285}{0}{<fff>}{Temple of Thufir}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23286}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {23284}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {23284}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {23286}{0}{<fff>}{Altar}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23285}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {23287}{0}{<fff>}{Before the gold door}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23115}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {23288}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {23288}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 
 R {23288}{0}{<fff>}{Temple of Ils}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23289}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {23287}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {23287}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {23289}{0}{<fff>}{Altar}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23288}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
-E {23290}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {23290}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {23290}{0}{<fff>}{In the dome}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23289}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {23289}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 
 R {23291}{0}{<fff>}{Before the platinum door}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23117}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {23292}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {23292}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 
 R {23292}{0}{<fff>}{Temple of Savankala the Thunderer}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23293}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {23291}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {23291}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {23293}{0}{<fff>}{Altar}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23292}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {23294}{0}{<fff>}{Before the silver door}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23119}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {23295}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {23295}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {23295}{0}{<fff>}{Temple of Theba}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23296}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {23294}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {23294}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {23296}{0}{<fff>}{Altar}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23295}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -1896,17 +1896,17 @@ E {23325}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {23325}{0}{<fff>}{Courtyard}{ }{}{the city of Sanctuary}{}{CITY}{}{1.000}{}
 E {23326}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {23324}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {23327}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23327}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {23326}{0}{<fff>}{Slave Pens}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23325}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23327}{0}{<fff>}{Foyer}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23325}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23325}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {23328}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {23328}{0}{<fff>}{Hallway}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23332}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {23332}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {23327}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {23330}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {23329}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
@@ -1924,14 +1924,14 @@ R {23332}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {23335}{0}{<fff>}{Upstairs}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23328}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {23336}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23336}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {23336}{0}{<fff>}{Jubal's Living Quarters}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23335}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23335}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {23338}{0}{<fff>}{Foyer}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23339}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {23139}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23139}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {23339}{0}{<fff>}{Basilisks' Lair}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23340}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -2016,20 +2016,20 @@ E {23350}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 R {23371}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {23380}{0}{<fff>}{Armoury}{#}{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23141}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {23141}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 
 R {23381}{0}{<fff>}{Bakery}{#}{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23153}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23153}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {23382}{0}{<fff>}{Weaponsmith}{#}{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23145}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {23145}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {23384}{0}{<fff>}{General Store}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23155}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {23155}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
 
 R {23385}{0}{<fff>}{Kurd's House}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23386}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {26}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {26}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {23387}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23386}{0}{<fff>}{Laboratory}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
@@ -2039,34 +2039,34 @@ R {23387}{0}{<fff>}{Bedchamber}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23385}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {23416}{0}{<fff>}{Goldsmith Shoppe}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23125}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {23125}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 
 R {23417}{0}{<fff>}{Glassworks}{#}{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23146}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23146}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {23418}{0}{<fff>}{Customs Office}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23097}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23097}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {23419}{0}{<fff>}{Boatworks}{#}{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23096}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {23096}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
 
 R {23420}{0}{<fff>}{Forge}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23421}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {23194}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
 R {23421}{0}{<fff>}{Illyra's Shop}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23194}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23194}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {23420}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {23422}{0}{<fff>}{Lily Garden}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23215}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
-E {23423}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {23215}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
+E {23423}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {23423}{0}{<fff>}{Lady Amoli's Office}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23422}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {23422}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {23424}{0}{<fff>}{Mizraith's Home}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
-E {23149}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {23149}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {23425}{0}{<fff>}{Tiny Shack}{ }{}{the city of Sanctuary}{}{INSIDE}{}{1.000}{}
 E {23016}{w}{w}{8}{0}{}{1.000}{}{0.00}

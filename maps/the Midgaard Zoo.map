@@ -266,7 +266,7 @@ R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 R {3001}{0}{<fff>}{}{ }{}{}{}{INSIDE}{}{1.000}{}
 
 R {9000}{0}{<fff>}{Deadly Creatures Exhibit}{ }{}{the Midgaard Zoo}{}{INSIDE}{}{1.000}{}
-E {9086}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9086}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {9001}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {9001}{0}{<fff>}{Cavern}{ }{}{the Midgaard Zoo}{}{INSIDE}{}{1.000}{}
@@ -469,7 +469,7 @@ E {9084}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {9086}{0}{<fff>}{End of Path}{ }{}{the Midgaard Zoo}{}{CITY}{}{1.000}{}
 E {9082}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9000}{w}{get key;unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9000}{w}{get key;jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9087}{0}{<fff>}{The Gigantopatheticus Exhibit}{ }{}{the Midgaard Zoo}{}{CITY}{}{1.000}{}
 E {9073}{n}{n}{1}{0}{}{1.000}{}{0.00}

@@ -305,12 +305,12 @@ E {6007}{w}{w}{8}{0}{}{1.000}{}{0.00}
 E {6009}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {6009}{0}{<fff>}{Outside a small cabin in the forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
-E {6010}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {6010}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {6014}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {6008}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6010}{0}{}{Inside the cabin}{ }{}{Haon-Dor}{}{INSIDE}{}{1.000}{}
-E {6009}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {6009}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {6011}{0}{<fff>}{A small path through the light forest}{ }{}{Haon-Dor}{}{FOREST}{}{1.000}{}
 E {6002}{n}{n}{1}{0}{}{1.000}{}{0.00}

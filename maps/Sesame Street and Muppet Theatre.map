@@ -320,22 +320,22 @@ E {3602}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3600}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3602}{0}{<fff>}{South End of Sesame Street}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3603}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3603}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {2}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3604}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {3601}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3603}{0}{<fff>}{The Room That Should Not Be}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3695}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3602}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3602}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3604}{0}{<fff>}{On top of Oscar's Can}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3605}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {3605}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {3602}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {3605}{0}{<fff>}{Inside Oscar's can}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3606}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3604}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {3604}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {3606}{0}{<fff>}{In the Mud bath}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3605}{u}{u}{16}{0}{}{1.000}{}{0.00}
@@ -344,51 +344,51 @@ R {3607}{0}{<fff>}{In Front of 123 Sesame Street}{ }{}{Sesame Street and Muppet 
 E {3608}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3619}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {3617}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3617}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3608}{0}{<fff>}{Front Steps of 123 Sesame Street}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3609}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3609}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {3607}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3609}{0}{<fff>}{Lower hall of 123 Sesame Street}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3610}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3610}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {3613}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {3608}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3608}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3610}{0}{<fff>}{Bert and Ernie's Pad}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3611}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {3609}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3611}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {3609}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3611}{0}{<fff>}{Bert and Ernie's Bedroom}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3612}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {3610}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3612}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {3610}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3612}{0}{<fff>}{Bert and Ernie's Scrubby Dubby Bathroom}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3611}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3611}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3613}{0}{<fff>}{Upper Hall of 123 Sesame Street}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3609}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3615}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {3614}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3615}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {3614}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3614}{0}{<fff>}{Olivia and Gordon's Humble Abode}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3613}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3613}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3615}{0}{<fff>}{Maria and Luis's Love Nest}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3616}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3613}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3613}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3616}{0}{<fff>}{Maria and Luis's Kitchen}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3615}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3617}{0}{<fff>}{The Fix-It Shop}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3607}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {3618}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3607}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {3618}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3618}{0}{<fff>}{Hooper's Store}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3619}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3621}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3617}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3617}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3619}{0}{<fff>}{In Front of Hooper's Store}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3620}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -396,19 +396,19 @@ E {3607}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3618}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3620}{0}{<fff>}{The Concrete Alcove}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3622}{ne}{unl northe;open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {3622}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 E {3619}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3621}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3621}{0}{<fff>}{Concrete Alcove}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3693}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {3693}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {3620}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3631}{nw}{unl northw;open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {3631}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
 E {3618}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3622}{0}{<fff>}{On a scary path}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3623}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
-E {3620}{sw}{unl southw;open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {3620}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 
 R {3623}{0}{<fff>}{Near the haunted castle}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3622}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
@@ -416,12 +416,12 @@ E {3624}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {3624}{0}{<fff>}{Entrance to the haunted Castle}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3623}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3625}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3625}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3625}{0}{<fff>}{Entrance Chamber of the Castle}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3626}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3629}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3624}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3624}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {3627}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {3628}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -443,7 +443,7 @@ E {3627}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {3631}{0}{<fff>}{Gates of a Large Mansion}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3632}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3621}{se}{unl southe;open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {3621}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 
 R {3632}{0}{<fff>}{Nearing a Large Mansion}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3633}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -458,19 +458,19 @@ R {3634}{0}{<fff>}{Inside the small gatehouse}{ }{}{Sesame Street and Muppet The
 E {3632}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {3635}{0}{<fff>}{The Doors to the Mansion of Alistair Cookie}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3636}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3636}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {3633}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3636}{0}{<fff>}{The Foyer of the Mansion}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3638}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3640}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3635}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3635}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {3637}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {3639}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3637}{0}{<fff>}{The Upstairs Hallway}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3636}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3645}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3645}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {3646}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3644}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -479,32 +479,32 @@ E {3636}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3639}{0}{<fff>}{The Study of Alistair Cookie}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3636}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3641}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3641}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3640}{0}{<fff>}{The Grand Dining Hall of Mr. Cookie}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3642}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3636}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3641}{0}{<fff>}{The Secret Vault of Cookie Monster}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3639}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3639}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3642}{0}{<fff>}{The Cookie Kitchen}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3699}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {3643}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3699}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {3643}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {3640}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3643}{0}{<fff>}{The Pantry}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3649}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {3642}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3642}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3644}{0}{<fff>}{The Conservatory of Don E. Music}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3637}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {3645}{0}{<fff>}{The Master Sweet (er Suite) of Mr. Cookie}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3637}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3637}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3646}{0}{<fff>}{North End of the Upper Hallway}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3648}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3648}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {3637}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3647}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -512,7 +512,7 @@ R {3647}{0}{<fff>}{The TV Room of Guy Smiley}{ }{}{Sesame Street and Muppet Thea
 E {3646}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {3648}{0}{<fff>}{The Guest Room of the Cookie Estate}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3646}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3646}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3649}{0}{<fff>}{The Darkened Hallway}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3650}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -528,7 +528,7 @@ E {3652}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3653}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {3652}{0}{<fff>}{Backstage}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {4}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {3654}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3651}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
@@ -547,7 +547,7 @@ E {3654}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3657}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3656}{0}{<fff>}{In the Wings (stage left)}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {5}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {5}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {3}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {3660}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
@@ -595,47 +595,47 @@ E {3664}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3668}{0}{<fff>}{Second Floor Walkway}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3653}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3669}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3669}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {3670}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3669}{0}{<fff>}{Dressing Room #1 (guest star Mark Hamill)}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3668}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3668}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3670}{0}{<fff>}{Second Floor Walkway}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3668}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {3671}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3676}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {3672}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3676}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {3672}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3671}{0}{<fff>}{Second Floor Walkway}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3674}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3670}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {3673}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3673}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3672}{0}{<fff>}{Dressing Room #3 (guest star Phyllis Diller)}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3670}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3670}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {3673}{0}{<fff>}{Dressing Room of Miss Piggy}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3671}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3671}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {3674}{0}{<fff>}{Second Floor Walkway}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3675}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3675}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {3671}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {3677}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3677}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3675}{0}{<fff>}{Dressing Room #4 (guest star John Denver)}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3674}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {3674}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {3676}{0}{<fff>}{Dressing Room #2 (guest star C-3PO)}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3670}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {3670}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {3677}{0}{<fff>}{The Costume Shop}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3674}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3674}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {3678}{0}{<fff>}{Front of the House}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3683}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {4}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3679}{0}{<fff>}{Front of the House}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {7}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -645,7 +645,7 @@ E {3659}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {3680}{0}{<fff>}{Front of the House}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3681}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {7}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {5}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3681}{0}{<fff>}{House Right}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {9}{se}{se}{6}{0}{}{1.000}{}{0.00}
@@ -663,11 +663,11 @@ E {3678}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3684}{0}{<fff>}{Second Floor Lobby}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3682}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3685}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {3685}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {3686}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3685}{0}{<fff>}{Up in the Spotlight}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3684}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {3684}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 
 R {3686}{0}{<fff>}{Hallway to Box Seats}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3684}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -689,15 +689,15 @@ R {3691}{0}{<fff>}{Box Seats}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}
 E {3688}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {3692}{0}{<fff>}{The Box Office}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {23}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {23}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {11}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {3693}{0}{<fff>}{The Sewers of Sesame Street}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3694}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {3621}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {3621}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {3694}{0}{<fff>}{The Sewers of Sesame Street}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
-E {3696}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {3696}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {3693}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {3695}{0}{<fff>}{Near a VERY large nest.}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
@@ -705,7 +705,7 @@ E {3603}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {3696}{0}{<fff>}{The Hidden Domain of the Failed Muppets}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3697}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {3694}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {3694}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {3697}{0}{<fff>}{Dank Dungeon of the Failed Muppets}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3698}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -713,7 +713,7 @@ E {3696}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {3698}{0}{<fff>}{Dank Dungeon of the Failed Guest Stars}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3697}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {10}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {10}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {3699}{0}{<fff>}{Inside The Cookie Oven}{ }{}{Sesame Street and Muppet Theatre}{}{INSIDE}{}{1.000}{}
 E {3642}{w}{w}{8}{0}{}{1.000}{}{0.00}

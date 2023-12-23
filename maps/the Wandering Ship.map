@@ -316,39 +316,39 @@ R {5510}{0}{<fff>}{Main Deck}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5502}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {5508}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {5506}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5512}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {5512}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {5507}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {5511}{0}{<fff>}{Bridge}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5512}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {5512}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {5512}{0}{<fff>}{Hallway}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5510}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {5513}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {5514}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {5511}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {5510}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {5513}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {5514}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {5511}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {5513}{0}{<fff>}{Study}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5512}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5512}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {5514}{0}{<fff>}{Office}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5512}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5512}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {5515}{0}{<fff>}{Hallway}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5510}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {5516}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {5518}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {5511}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {5510}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {5516}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {5518}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {5511}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {5516}{0}{<fff>}{Lieutenant's Quarters}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5515}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5515}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {5517}{0}{<fff>}{Officer's Mess}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5519}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5515}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {5515}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {5518}{0}{<fff>}{Officer's Lounge}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5515}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5515}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {5519}{0}{<fff>}{Dumbwaiter}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5528}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -356,29 +356,29 @@ E {5517}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {5520}{0}{<fff>}{Hallway}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5507}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5521}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {5523}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {5522}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {5521}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {5523}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {5522}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {5521}{0}{<fff>}{Warlock's Quarters}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5520}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5520}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {5522}{0}{<fff>}{Captain's Quarters}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5520}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {5558}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5520}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {5558}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {5523}{0}{<fff>}{Quartermaster's Room}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5520}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5520}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {5524}{0}{<fff>}{Battle Deck}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5535}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {5525}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {5525}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {5509}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {5529}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {5525}{0}{<fff>}{Mess Hall}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5526}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5524}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {5524}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {5526}{0}{<fff>}{Galley}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5528}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -417,16 +417,16 @@ E {5532}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {5535}{0}{<fff>}{Hallway}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5548}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {5537}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {5536}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5537}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {5536}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {5524}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {5538}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {5536}{0}{<fff>}{Sick Bay}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5535}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5535}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {5537}{0}{<fff>}{Doctor's Quarters}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5535}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {5535}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {5538}{0}{<fff>}{Hallway}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5535}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -456,7 +456,7 @@ R {5544}{0}{<fff>}{Hallway}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5541}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {5545}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5546}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5547}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {5547}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {5545}{0}{<fff>}{Crew Quarters}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5544}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -465,46 +465,46 @@ R {5546}{0}{<fff>}{Crew Quarters}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5544}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {5547}{0}{<fff>}{Officer's Quarters}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5544}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {5544}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {5548}{0}{<fff>}{Cargo Hold}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5535}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {5535}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {5549}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {5549}{0}{<fff>}{Hallway}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5548}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5550}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {5551}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5550}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {5551}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {5552}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {5550}{0}{<fff>}{Cell}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5549}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5549}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {5551}{0}{<fff>}{Cell}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5549}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5549}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {5552}{0}{<fff>}{Hallway}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5549}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5553}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {5554}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5553}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {5554}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {5555}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {5553}{0}{<fff>}{Cell}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5552}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5552}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {5554}{0}{<fff>}{Cell}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5552}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5552}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {5555}{0}{<fff>}{Hallway}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
 E {5552}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {5556}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {5557}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5556}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {5557}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {5556}{0}{<fff>}{Cell}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5555}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {5555}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {5557}{0}{<fff>}{Cell}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5555}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5555}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {5558}{0}{<fff>}{Captain's Store}{ }{}{the Wandering Ship}{}{INSIDE}{}{1.000}{}
-E {5522}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {5522}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}

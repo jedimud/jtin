@@ -292,29 +292,29 @@ R {2050}{0}{<fff>}{}{Aby}{}{}{}{CITY}{}{1.000}{}
 R {5224}{0}{<fff>}{}{OT}{}{}{}{CITY}{}{1.000}{}
 
 R {9500}{0}{<fff>}{The Entry Way}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9590}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9590}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {9503}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5224}{s}{jt_m_link_action {south} {the lost city of Old Thalos} {5224}}{4}{0}{}{1.000}{}{0.00}
 
 R {9502}{0}{<fff>}{A Small Guard House}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9503}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9503}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {9503}{0}{<fff>}{The Main Hallway}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9504}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9504}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {9506}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {9500}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {9502}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9502}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9504}{0}{<fff>}{A Small Guard House}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9503}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9503}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9505}{0}{<fff>}{The Captain's Quarters}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9506}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9506}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {9506}{0}{<fff>}{The Ante-Chamber}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9507}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9507}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {9503}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {9505}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9505}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9507}{0}{<fff>}{The Secretary's Desk}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {9510}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -325,20 +325,20 @@ E {9509}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {9517}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {9509}{0}{<fff>}{The Parlor}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9510}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9510}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {9508}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {9510}{0}{<fff>}{A Small Waiting Room}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {9507}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {9509}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9509}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9511}{0}{<fff>}{Dimly Lit Corridor}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {8}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {8}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {9514}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {9512}{0}{<fff>}{Sitting Room}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {3}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {7}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {7}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9513}{0}{<fff>}{Personal Library}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {5}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -349,21 +349,21 @@ E {6}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {9511}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {9515}{0}{<fff>}{Secret Entrance}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9516}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9516}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {9525}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {9516}{0}{<fff>}{Alistra's Personal Bed Chambers}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {9519}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {9515}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9515}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9517}{0}{<fff>}{Top of the Stairwell}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {9508}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {9518}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {9518}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {6}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {9518}{0}{<fff>}{A Small Guard Room}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9517}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9517}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9519}{0}{<fff>}{Treasure Room}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {9516}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -373,7 +373,7 @@ E {9523}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {2050}{w}{jt_m_link_action {west} {the Abyss} {2050}}{8}{0}{}{1.000}{}{0.00}
 
 R {9521}{0}{<fff>}{Cell}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
-E {9524}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {9524}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {9522}{0}{<fff>}{Summoning Room}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {9525}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -384,7 +384,7 @@ E {9520}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {9524}{0}{<fff>}{A Dimly Lit Corridor}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {9525}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9521}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {9521}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {9523}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {9525}{0}{<fff>}{Portal Room}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
@@ -394,7 +394,7 @@ E {9524}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {9590}{0}{<fff>}{Garden Entrance}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {9591}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9500}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {9500}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {9591}{0}{<fff>}{Garden Path}{ }{}{the Lichs Tower}{}{INSIDE}{}{1.000}{}
 E {9592}{n}{n}{1}{0}{}{1.000}{}{0.00}

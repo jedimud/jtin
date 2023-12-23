@@ -267,7 +267,7 @@ R {9900}{0}{<fff>}{Inside the Metro Control Room}{ }{}{The Metro}{}{INSIDE}{}{1.
 E {9983}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {9971}{0}{<fff>}{Entrance Platform}{ }{}{The Metro}{}{INSIDE}{}{1.000}{}
-E {2183}{n}{jt_m_link_action {open north;north} {Skara Brae} {2183}}{1}{0}{}{1.000}{}{0.00}
+E {2183}{n}{jt_m_link_action {jt_m_open_door {north}} {Skara Brae} {2183}}{1}{0}{}{1.000}{}{0.00}
 E {9972}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {9972}{0}{<fff>}{Maintenance Platform}{ }{}{The Metro}{}{INSIDE}{}{1.000}{}
@@ -304,14 +304,14 @@ E {9985}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
 R {9979}{0}{<fff>}{Maintenance Depot}{ }{}{The Metro}{}{INSIDE}{}{1.000}{}
 E {9984}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9980}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {9980}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {9977}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 E {9985}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {9978}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {9980}{0}{<fff>}{Supply Center}{ }{}{The Metro}{}{INSIDE}{}{1.000}{}
 E {9982}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {9979}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {9979}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {9981}{0}{<fff>}{Bathroom}{ }{}{The Metro}{}{INSIDE}{}{1.000}{}
 E {9982}{e}{e}{2}{0}{}{1.000}{}{0.00}

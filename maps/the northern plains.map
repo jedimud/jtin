@@ -477,10 +477,10 @@ R {5430}{0}{<fff>}{In front of a hut in the foothills}{ }{}{the northern plains}
 E {5422}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {5423}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {5419}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {5431}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {5431}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {5431}{0}{<fff>}{Hermit's hut}{ }{}{the northern plains}{}{INSIDE}{}{1.000}{}
-E {5430}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {5430}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {5432}{0}{<fff>}{The ancient path}{ }{}{the northern plains}{}{FOREST}{}{1.000}{}
 E {5412}{n}{n}{1}{0}{}{1.000}{}{0.00}

@@ -339,7 +339,7 @@ R {15425}{0}{<fff>}{Weeden Road}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1
 E {15424}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {15442}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {15433}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {15432}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {15432}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {15426}{0}{<fff>}{Key Street}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
 E {15427}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -367,7 +367,7 @@ E {15430}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {15439}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {15432}{0}{<fff>}{The Church of the White Monks}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
-E {15425}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {15425}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {15445}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {15433}{0}{<fff>}{Weeden Square}{ }{}{Weeden and the Western Forest}{}{CITY}{}{1.000}{}
@@ -386,13 +386,13 @@ E {15531}{e}{jt_m_link_action {open secret; #map goto 15531} {Weeden Underground
 R {15436}{0}{<fff>}{Tarle's Tavern}{#}{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
 E {15441}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {15423}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {15440}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {15440}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {15439}{0}{<fff>}{The Adventurers' practice room}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
 E {15431}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {15440}{0}{<fff>}{Tavern storage room}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
-E {15436}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {15436}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {15441}{0}{<fff>}{Wine Cellar}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
 E {15500}{s}{jt_m_link_action {open barrel} {Weeden Underground} {15500}}{4}{0}{}{1.000}{}{0.00}
@@ -445,7 +445,7 @@ R {15453}{0}{<fff>}{Supply store}{#}{}{Weeden and the Western Forest}{}{INSIDE}{
 E {15433}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {15454}{0}{<fff>}{Miserable Chapel}{ }{}{Weeden and the Western Forest}{}{INSIDE}{}{1.000}{}
-E {15536}{d}{jt_m_link_action {open d;down} {Weeden Underground} {15536}}{32}{0}{}{1.000}{}{0.00}
+E {15536}{d}{jt_m_link_action {jt_m_open_door {down}} {Weeden Underground} {15536}}{32}{0}{}{1.000}{}{0.00}
 E {15443}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {15500}{0}{<fff>}{}{WdU}{}{}{}{INSIDE}{}{1.000}{}

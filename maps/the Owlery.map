@@ -388,7 +388,7 @@ E {8911}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {8911}{0}{<fff>}{Outside a Lighthouse}{ }{}{the Owlery}{}{FIELD}{}{1.000}{}
 E {8910}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {8916}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {8916}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {8912}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {3}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -401,16 +401,16 @@ R {8914}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 R {8915}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {8916}{0}{<fff>}{The Rat Hole}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
-E {8911}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {8911}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {8917}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {8917}{0}{<fff>}{A Secret Tunnel}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
 E {8916}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {18}{u}{#delay 0 {open up;up;#map goto 8918}}{16}{0}{}{1.000}{}{0.00}
+E {18}{u}{#delay 0 {jt_m_open_door {up};#map goto 8918}}{16}{0}{}{1.000}{}{0.00}
 
 R {8918}{0}{<fff>}{A Forgotten Storage Room}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
-E {17}{d}{#delay 0 {open down;down;#map goto 8917}}{32}{0}{}{1.000}{}{0.00}
-E {8937}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {17}{d}{#delay 0 {jt_m_open_door {down};#map goto 8917}}{32}{0}{}{1.000}{}{0.00}
+E {8937}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {8936}{0}{<fff>}{In the Basement}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
 E {8939}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -419,10 +419,10 @@ E {16}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {8937}{0}{<fff>}{Basement Storage}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
 E {8940}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {16}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {8918}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {8918}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {8938}{0}{<fff>}{Amongst the Shelves}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
-E {8963}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {8963}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {8941}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {8939}{0}{<fff>}{In the Basement}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
@@ -433,12 +433,12 @@ E {8936}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {8940}{0}{<fff>}{Down in a Dark Basement}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
 E {8943}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {14}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {8941}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {8955}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {8941}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {8955}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {8937}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {8941}{0}{<fff>}{Book Storage}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
-E {8940}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {8940}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {8938}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {8942}{16384}{<faa>}{Torn Apart By Owlets}{<faa>DT}{}{the Owlery}{}{INSIDE}{}{1.000}{}
@@ -470,7 +470,7 @@ E {6}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {8953}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {8955}{0}{<fff>}{A Scholar's Discussion Area}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}
-E {8940}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {8940}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {8958}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
 R {8956}{0}{<fff>}{An Ornate Waiting Area}{ }{}{the Owlery}{}{INSIDE}{}{1.000}{}

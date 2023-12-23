@@ -332,10 +332,10 @@ E {401}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {407}{0}{<fff>}{Entrance Area}{ }{}{Frobozs Factory}{}{INSIDE}{}{1.000}{}
 E {418}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {406}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {15}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {15}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {408}{0}{<fff>}{Lounge}{ }{}{Frobozs Factory}{}{INSIDE}{}{1.000}{}
-E {15}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {15}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {409}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {409}{0}{<fff>}{Hall}{ }{}{Frobozs Factory}{}{INSIDE}{}{1.000}{}
@@ -425,16 +425,16 @@ E {429}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {424}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {428}{0}{<fff>}{Machine Room}{ }{}{Frobozs Factory}{}{INSIDE}{}{1.000}{}
-E {430}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {430}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {427}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {429}{0}{<fff>}{Machine Room}{ }{}{Frobozs Factory}{}{INSIDE}{}{1.000}{}
-E {430}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {430}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {427}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {430}{0}{<fff>}{Welcome to the Machine}{ }{}{Frobozs Factory}{}{INSIDE}{}{1.000}{}
-E {428}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {429}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {428}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {429}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {431}{0}{<fff>}{Catwalks}{ }{}{Frobozs Factory}{}{INSIDE}{}{1.000}{}
 E {424}{d}{d}{32}{0}{}{1.000}{}{0.00}

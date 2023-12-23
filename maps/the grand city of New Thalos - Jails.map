@@ -274,42 +274,42 @@ E {12391}{e}{e}{2}{0}{}{1.000}{}{0.00}
 R {12373}{0}{<fff>}{}{NTP}{}{}{}{}{}{1.000}{}
 
 R {12389}{16}{<fff>}{Jailor's Room}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12390}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
-E {12373}{u}{jt_m_link_action {open u;up} {the grand city of New Thalos - Palace} {12373}}{16}{0}{}{1.000}{}{0.00}
+E {12390}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {12373}{u}{jt_m_link_action {jt_m_open_door {up}} {the grand city of New Thalos - Palace} {12373}}{16}{0}{}{1.000}{}{0.00}
 
 R {12390}{16}{<fff>}{Tunnel in the Dungeon}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {3}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {12400}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
-E {12539}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
-E {12389}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12400}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {12539}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {12389}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12391}{16}{<fff>}{Tunnel in the Dungeon}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12402}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
-E {12401}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
-E {2}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12402}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {12401}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {2}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {3}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12392}{0}{<fff>}{Tunnel in the Dungeon}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12541}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
-E {2}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12541}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {2}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {12393}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12540}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12540}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12393}{0}{<fff>}{Tunnel in the Dungeon}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12543}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12543}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12392}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {12394}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
-E {12542}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12394}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {12542}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12394}{0}{<fff>}{Tunnel in the Dungeon}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12395}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {12393}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
-E {12544}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12395}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {12393}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {12544}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12395}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12396}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12397}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12394}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12394}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12396}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12398}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -320,34 +320,34 @@ E {12398}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12395}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {12398}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12399}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12399}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12396}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12397}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12399}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
 R {12400}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12390}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12390}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {12401}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12391}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12391}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {12402}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12391}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12391}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12539}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12390}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12390}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {12540}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12392}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12392}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {12541}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12392}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12392}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12542}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12393}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12393}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {12543}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
-E {12393}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12393}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12544}{16384}{<faa>}{Chamber of Death}{<faa>DT}{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}

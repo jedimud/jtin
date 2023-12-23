@@ -292,7 +292,7 @@ E {6540}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {6505}{0}{<fff>}{Entrance to Mountain}{ }{}{the Dwarven Kingdom}{}{FIELD}{}{1.000}{}
 E {6503}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6513}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {6513}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {6506}{0}{<fff>}{Bend in Narrow Path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6507}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -307,24 +307,24 @@ E {6509}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {6507}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {6509}{0}{<fff>}{Door to Kingdom}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6510}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {6510}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {6508}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {6522}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6510}{0}{<fff>}{Path to the Castle}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6511}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {6509}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {6509}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {6511}{0}{<fff>}{Still on the path to the Castle}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6512}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {6510}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {6512}{0}{<fff>}{Door to Castle}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6525}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {6525}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {6511}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {6513}{0}{<fff>}{Inside the entrance}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6505}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {6505}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {6514}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {6526}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -359,14 +359,14 @@ E {6521}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {6519}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6521}{0}{<fff>}{Entrance to barracks}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6523}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {6523}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {6520}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6522}{0}{<fff>}{Guard House}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6509}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {6523}{0}{<fff>}{First Barrack room}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6521}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {6521}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {6524}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {6524}{0}{<fff>}{Back of Barracks}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
@@ -374,10 +374,10 @@ E {6523}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {6525}{0}{<fff>}{Inside of Castle Strangelove}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6528}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {6512}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {6512}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {6526}{0}{<fff>}{A store room}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6527}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {6527}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {6513}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {6527}{0}{<fff>}{Wine cellar}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
@@ -396,12 +396,12 @@ E {6529}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {6531}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {6531}{0}{<fff>}{Queen's waiting room}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6532}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {6532}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {6530}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6532}{0}{<fff>}{Bedroom}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6533}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {6531}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {6531}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {6533}{0}{<fff>}{North side of Castle Strangelove}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6532}{u}{u}{16}{0}{}{1.000}{}{0.00}
@@ -413,13 +413,13 @@ R {6535}{0}{<fff>}{Granite Head's Bakery}{#}{}{the Dwarven Kingdom}{}{INSIDE}{}{
 E {6517}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {6540}{0}{<fff>}{Dark path}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6541}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {6541}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {6504}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {6503}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6541}{0}{<fff>}{Mine entrance}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6542}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {6540}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {6540}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {6542}{0}{<fff>}{Inside the mine}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6555}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -431,7 +431,7 @@ E {6555}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6544}{0}{<fff>}{Mine crossroad}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6545}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6546}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {6546}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {6551}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {6543}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -440,7 +440,7 @@ E {6544}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {6546}{0}{<fff>}{Mine Maze}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6547}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {6544}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {6544}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {6547}{0}{<fff>}{Maze inscription}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6544}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -475,7 +475,7 @@ R {6553}{0}{<fff>}{The Mazekeeper's Room}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{
 E {6552}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {6554}{0}{<fff>}{The Vast Pit}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
-E {6554}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {6554}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {6555}{0}{<fff>}{Bottom of the Mine Shaft}{ }{}{the Dwarven Kingdom}{}{INSIDE}{}{1.000}{}
 E {6543}{e}{e}{2}{0}{}{1.000}{}{0.00}

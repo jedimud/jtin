@@ -277,7 +277,7 @@ R {6922}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
 
 R {16701}{0}{<fff>}{The Sandy Cave}{ }{}{Drake Isle}{}{HILLS}{}{1.000}{}
 E {16794}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {16702}{s}{jt_m_link_action {unlock south;open south;south} {Drake Isle - Interior} {16702}}{4}{0}{}{1.000}{}{0.00}
+E {16702}{s}{jt_m_link_action {unlock south;jt_m_open_door {south}} {Drake Isle - Interior} {16702}}{4}{0}{}{1.000}{}{0.00}
 
 R {16702}{0}{<fff>}{The Beginning of a Hidden Tunnel}{DrI}{}{Drake Isle}{}{HILLS}{}{1.000}{}
 
@@ -580,6 +580,6 @@ E {16838}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
 R {16840}{0}{<fff>}{Before the Cliff-side Fortress}{ }{}{Drake Isle}{}{INSIDE}{}{1.000}{}
 E {16839}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
-E {16843}{s}{jt_m_link_action {unl south;open south;south} {Drake Isle - Fortress} {16843}}{4}{0}{}{1.000}{}{0.00}
+E {16843}{s}{jt_m_link_action {jt_m_open_door {south}} {Drake Isle - Fortress} {16843}}{4}{0}{}{1.000}{}{0.00}
 
 R {16843}{0}{<fff>}{}{DrF}{}{}{}{INSIDE}{}{1.000}{}

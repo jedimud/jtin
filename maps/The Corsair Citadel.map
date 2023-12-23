@@ -393,7 +393,7 @@ E {12613}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12615}{0}{<fff>}{On the seawall}{ }{}{The Corsair Citadel}{}{MOUNTAINS}{}{1.000}{}
 E {16}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {9}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {9}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {12616}{0}{<fff>}{In the water next to the quay}{ }{}{The Corsair Citadel}{}{SWIM}{}{1.000}{}
 E {12750}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -428,7 +428,7 @@ E {12621}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12623}{0}{<fff>}{In the northwest tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12624}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {9}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {9}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {12629}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {12624}{0}{<fff>}{In the barracks}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
@@ -470,7 +470,7 @@ E {12625}{n}{n}{1}{0}{}{1.000}{}{0.00}
 R {12632}{0}{<fff>}{The Scarlet Barnacle}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12633}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12626}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {12635}{sw}{open southw;southw}{12}{0}{}{1.000}{}{0.00}
+E {12635}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 E {12681}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {12633}{0}{<fff>}{Bounty Street}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
@@ -482,18 +482,18 @@ R {12634}{0}{<fff>}{A new warehouse}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000
 E {12628}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {12635}{0}{<fff>}{The back room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12663}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
-E {12632}{ne}{open northe;northe}{3}{0}{}{1.000}{}{0.00}
+E {12663}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {12632}{ne}{jt_m_open_door {northeast}}{3}{0}{}{1.000}{}{0.00}
 
 R {12636}{0}{<fff>}{A small courtyard}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
-E {12637}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12637}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12691}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12637}{0}{<fff>}{Bounty Street}{ }{}{The Corsair Citadel}{}{CITY}{}{1.000}{}
 E {12742}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {5}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12636}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12636}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12638}{0}{<fff>}{Dragonship Rigging and Supplies}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12743}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -613,7 +613,7 @@ E {12665}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12667}{0}{<fff>}{The guardpost in the tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12668}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {12671}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12671}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {12666}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12668}{0}{<fff>}{The tunnel intersection}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
@@ -631,7 +631,7 @@ E {12673}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {12671}{0}{<fff>}{Under the mage's tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12736}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {12667}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12667}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {12697}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {12672}{0}{<fff>}{In a tunnel}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
@@ -718,13 +718,13 @@ E {12693}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {12693}{0}{<fff>}{Before the inner portcullis}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12692}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12694}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {12695}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12695}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12694}{0}{<fff>}{The guard station}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12693}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {12695}{0}{<fff>}{Inside the mage's tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12693}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12693}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12697}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12696}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {12698}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
@@ -758,11 +758,11 @@ E {12701}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {12703}{0}{<fff>}{In a hallway in the tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12701}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {12704}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12704}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {12705}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12704}{0}{<fff>}{In a storage room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12703}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12703}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {12705}{0}{<fff>}{At the base of a staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12703}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -775,11 +775,11 @@ E {12707}{e}{e}{2}{0}{}{1.000}{}{0.00}
 R {12707}{0}{<fff>}{In a hallway in the tower}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12710}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {12709}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {12708}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12708}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {12706}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12708}{0}{<fff>}{In the elementalist's chambers}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12707}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12707}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {12714}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {12709}{0}{<fff>}{In the apprentices' sleeping chamber}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
@@ -821,16 +821,16 @@ E {12716}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {12719}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {12719}{0}{<fff>}{The major focus room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12720}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {12720}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {12718}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12720}{0}{<fff>}{The Tempest master's private chamber}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12719}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {12721}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {12719}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {12721}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 
 R {12721}{0}{<fff>}{The steep spiral staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12722}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {12720}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {12720}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
 
 R {12722}{0}{<fff>}{The steep spiral staircase}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12723}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -854,58 +854,58 @@ R {12726}{0}{<fff>}{The armory}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12724}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {12727}{0}{<fff>}{In a hallway}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12729}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12729}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12724}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12730}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12728}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12728}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12728}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12727}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12727}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {12729}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12727}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12727}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12730}{0}{<fff>}{The hallway}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12731}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12731}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12727}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12733}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {12732}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12732}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12731}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12730}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12730}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12732}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12730}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12730}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {12733}{0}{<fff>}{The end of a hallway}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12735}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12735}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12730}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {12734}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12734}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12734}{0}{<fff>}{The guest room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12733}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12733}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {12735}{0}{<fff>}{The Sea Wolf's room}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12733}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12733}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12736}{0}{<fff>}{The stairs into the dungeon}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12737}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {12671}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {12737}{0}{<fff>}{The dungeon}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12740}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {12740}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12736}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {12739}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {12738}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12739}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {12738}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12738}{0}{<fff>}{The cell}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12737}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {12739}{0}{<fff>}{The cell}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12737}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {12737}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {12740}{0}{<fff>}{The cell}{ }{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
-E {12737}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {12737}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12741}{0}{<fff>}{Scar's Swords}{#}{}{The Corsair Citadel}{}{INSIDE}{}{1.000}{}
 E {12743}{s}{s}{4}{0}{}{1.000}{}{0.00}

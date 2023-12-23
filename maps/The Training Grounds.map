@@ -272,12 +272,12 @@ E {21723}{e}{e}{2}{0}{}{1.000}{}{0.00}
 R {15003}{0}{<fff>}{}{Wel}{}{}{}{CITY}{}{1.000}{}
 
 R {21700}{0}{<fff>}{Before a metal gate}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
-E {21701}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {21701}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {15003}{w}{jt_m_link_action {west} {King Welmars Castle} {15003}}{8}{0}{}{1.000}{}{0.00}
 
 R {21701}{0}{<fff>}{Entrance to the Training Grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
 E {21702}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {21700}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {21700}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {21702}{0}{<fff>}{Near the entrance of the Training Grounds.}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
 E {21711}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -338,7 +338,7 @@ E {21715}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {21711}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {21713}{0}{<fff>}{At a gate on the eastern end of the training grounds}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
-E {21722}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {21722}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {21708}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {21714}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {21712}{w}{w}{8}{0}{}{1.000}{}{0.00}
@@ -385,10 +385,10 @@ E {21720}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {21722}{0}{<fff>}{Entrance to the battle fields}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
 E {3}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {21713}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {21713}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {21723}{0}{<fff>}{Central Battlefield}{ }{}{The Training Grounds}{}{FIELD}{}{1.000}{}
-E {21758}{d}{open down;down}{32}{0}{}{1.000}{}{0.00}
+E {21758}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {21730}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {21737}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {21724}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
@@ -529,8 +529,8 @@ R {21757}{0}{<fff>}{High Katana}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
 E {21756}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {21758}{0}{<fff>}{Battle Master's Cage}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
-E {21759}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
-E {21723}{u}{open up;up}{16}{0}{}{1.000}{}{0.00}
+E {21759}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {21723}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {21759}{0}{<fff>}{The Final Challenge}{ }{}{The Training Grounds}{}{INSIDE}{}{1.000}{}
-E {21758}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {21758}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}

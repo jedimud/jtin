@@ -264,14 +264,14 @@ T {SWIM} {<F21618C>~} {}
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {2114}{0}{<fff>}{Skara Brae Thieves' Shop}{#}{}{Skara Brae}{}{INSIDE}{}{1.000}{}
-E {2144}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {2144}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {2116}{u}{jt_m_link_action {up} {Skara Brae} {2116}}{16}{0}{}{1.000}{}{0.00}
 
 R {2116}{0}{<fff>}{}{SkB}{}{}{}{CITY}{}{1.000}{}
 
 R {2144}{0}{<fff>}{Entrance to Thieves' Guild}{ }{}{Skara Brae}{}{INSIDE}{}{1.000}{}
 E {2145}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {2114}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {2114}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {2163}{u}{jt_m_link_action {up} {Skara Brae} {2163}}{16}{0}{}{1.000}{}{0.00}
 
 R {2145}{0}{<fff>}{The Practice Hall}{M}{}{Skara Brae}{}{INSIDE}{}{1.000}{}

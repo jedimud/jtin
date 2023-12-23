@@ -388,7 +388,7 @@ E {4502}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4504}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4504}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{INSIDE}{}{1.000}{}
-E {4566}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4566}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4503}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4505}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
@@ -399,7 +399,7 @@ E {4507}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4506}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{HILLS}{}{1.000}{}
 E {4505}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {4508}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4508}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4507}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
@@ -421,7 +421,7 @@ E {4569}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4571}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4571}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
-E {4578}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4578}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4570}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4572}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
@@ -431,14 +431,14 @@ E {4573}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {4573}{0}{<fff>}{Ancient Road}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
 E {4572}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {4574}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4574}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {4574}{0}{<fff>}{The Northern Gate to the Kingdom of Rhyoden}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
-E {4573}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4573}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {4566}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4578}{0}{<fff>}{The Gatehouse}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
-E {4585}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4585}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4571}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4579}{0}{<fff>}{Infirmary}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
@@ -452,7 +452,7 @@ R {4585}{0}{<fff>}{Mustering Square}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{
 E {4592}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4584}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4586}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {4578}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4578}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4586}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
 E {4585}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -512,11 +512,11 @@ R {4612}{0}{<fff>}{Armory}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
 E {4616}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4613}{0}{<fff>}{Stockade}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
-E {4614}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {4617}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4614}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {4617}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4614}{0}{<fff>}{Cell}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
-E {4613}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4613}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {4615}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
 E {4611}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -530,7 +530,7 @@ E {4617}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {4619}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4617}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
-E {4613}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4613}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4616}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4620}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
@@ -566,16 +566,16 @@ E {4606}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {4622}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {4625}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {4627}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {4631}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {4631}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {4627}{0}{<fff>}{Hallway}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
-E {4623}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {4623}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {4626}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {4628}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {4628}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {4632}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {4628}{0}{<fff>}{Quagar's Quarters}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
-E {4627}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {4627}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {4629}{0}{<fff>}{Kitchen}{ }{}{the Trog Caves and Outpost}{}{CITY}{}{1.000}{}
 E {4630}{s}{s}{4}{0}{}{1.000}{}{0.00}

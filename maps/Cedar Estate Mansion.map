@@ -286,7 +286,7 @@ E {7424}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {7406}{w}{pull fang;get fang;w}{8}{0}{}{1.000}{}{0.00}
 
 R {7405}{0}{<fff>}{Before the mansion doors}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7421}{n}{unl north;open north;north}{1}{0}{}{1.000}{}{0.00}
+E {7421}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {7404}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {7406}{0}{<fff>}{Southern path around the mansion}{ }{}{Cedar Estate Mansion}{}{FIELD}{}{1.000}{}
@@ -349,7 +349,7 @@ E {7419}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {7421}{0}{<fff>}{Inside the great oaken doors}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
 E {7422}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {7405}{s}{unl south;open south;south}{4}{0}{}{1.000}{}{0.00}
+E {7405}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {7422}{0}{<fff>}{At a corner in the hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
 E {7421}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -378,14 +378,14 @@ E {7431}{n}{pull latch}{1}{0}{}{1.000}{}{0.00}
 
 R {7428}{0}{<fff>}{A hallway before some bedchambers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
 E {7427}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {7430}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {7429}{se}{open southe;southe}{6}{0}{}{1.000}{}{0.00}
+E {7430}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {7429}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 
 R {7429}{0}{<fff>}{A maid's bedchamber}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7428}{nw}{open northw;northw}{9}{0}{}{1.000}{}{0.00}
+E {7428}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
 
 R {7430}{0}{<fff>}{The butler's chambers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7428}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {7428}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {7431}{0}{<fff>}{The hidden hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
 E {7432}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -405,7 +405,7 @@ E {7433}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {7435}{0}{<fff>}{Central northern hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
 E {7436}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {7469}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {7469}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {7434}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {7436}{0}{<fff>}{Northeastern bend in the hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
@@ -437,7 +437,7 @@ R {7442}{0}{<fff>}{Mansion Kitchen}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000
 E {7440}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 
 R {7443}{0}{<fff>}{Stairway to the basement}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7453}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
+E {7453}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {7440}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {7444}{0}{<fff>}{In the hedges}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
@@ -473,20 +473,20 @@ E {7452}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {7452}{0}{<fff>}{A tunnel below the mansion}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
 E {7451}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {7453}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {7453}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {7453}{0}{<fff>}{At the base of some dark stairs}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7457}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {7452}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {7443}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {7457}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {7452}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {7443}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {7454}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {7454}{0}{<fff>}{Basement Hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
 E {7453}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {7455}{w}{unl west;open west;west}{8}{0}{}{1.000}{}{0.00}
+E {7455}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {7455}{0}{<fff>}{Mansion Laboratory}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7454}{e}{unl east;open east;east}{2}{0}{}{1.000}{}{0.00}
+E {7454}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {7456}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {7456}{0}{<fff>}{Mansion Laboratory}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
@@ -494,7 +494,7 @@ E {7455}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {7457}{0}{<fff>}{A large slimy sewer tunnel}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
 E {7458}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {7453}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {7453}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {7458}{0}{<fff>}{Slimy sewers}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
 E {7461}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -560,7 +560,7 @@ E {7480}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 E {7468}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {7483}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {7479}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
-E {7489}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
+E {7489}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 E {7472}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {7470}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
@@ -660,24 +660,24 @@ R {7487}{0}{<fff>}{A maze of hallways}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.
 E {7469}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {7488}{0}{<fff>}{A rectangular room - the black box stage}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7489}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
+E {7489}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {7489}{0}{<fff>}{Third floor hallway}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7469}{d}{unl down;open down;down}{32}{0}{}{1.000}{}{0.00}
-E {7491}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
-E {7490}{n}{open north;north}{1}{0}{}{1.000}{}{0.00}
-E {7488}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
-E {7494}{u}{unl up;open up;up}{16}{0}{}{1.000}{}{0.00}
-E {7492}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {7469}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {7491}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {7490}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {7488}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {7494}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
+E {7492}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {7490}{0}{<fff>}{A thrust stage}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7489}{s}{open south;south}{4}{0}{}{1.000}{}{0.00}
+E {7489}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {7491}{0}{<fff>}{An arena stage}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7489}{w}{open west;west}{8}{0}{}{1.000}{}{0.00}
+E {7489}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {7492}{0}{<fff>}{A proscenium stage}{ }{}{Cedar Estate Mansion}{}{INSIDE}{}{1.000}{}
-E {7489}{e}{open east;east}{2}{0}{}{1.000}{}{0.00}
+E {7489}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {7494}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
 
