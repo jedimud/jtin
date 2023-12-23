@@ -42,12 +42,11 @@
 #alias jt_m_locate {
     jt_m_print_msg {<efc>finding location by msdp, standby};
     jt_m_msdp_enable;
-    #delay 3 { 
+    #delay 2 { 
         map show;
         jt_m_msdp_disable; 
         jt_m_print_msg {<efc>found location at $MSDP_ROOM[AREA]($MSDP_ROOM[VNUM])};
         jt_m_report_map_stats {$MSDP_ROOM[AREA]};
-        look;
     };
 }
 
@@ -383,11 +382,47 @@
     #map undo;
 }
 
+#action {^A toy soldier won't let you pass.$} {
+    #map undo;
+}
+ 
+#action {^A bainte won't let you pass.$} {
+    #map undo;
+}
+
+#action {^The tower guard won't let you pass.$} {
+    #map undo;
+}
+
+#action {^The tower receptionist won't let you pass.$} {
+    #map undo;
+}
+
+#action {^Sorry, you're not allowed in that zone.$} {
+    #map undo;
+}
+
+#action {^Mercury won't let you pass.$} {
+    #map undo;
+}
+
+#action {^Mars won't let you pass.$} {
+    #map undo;
+}
+
+#action {^Venus won't let you pass.$} {
+    #map undo;
+}
+
 #action {^You are too exhausted.$} {
     #map undo;
 }
 
 #action {^%1 has summoned you!} {
+    jt_m_locate;
+}
+
+#action {Inside the traveling wagon} {
     jt_m_locate;
 }
 
@@ -449,6 +484,16 @@
         unlock %1;
         open %1;
         %1;
+    };
+}
+
+#nop ----- imm functions -----
+
+#alias goto { 
+    got %1;
+    jt_m_msdp_enable;
+    #delay 1 { 
+        jt_m_msdp_disable; 
     };
 }
 

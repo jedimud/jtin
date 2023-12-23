@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8207
+F 8206
 
 G 0
 
-I 10783
+I 10614
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -268,9 +268,53 @@ E {10659}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {10601}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {10656}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {10601}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10601}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10602}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10600}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {10612}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10602}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10603}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10601}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10603}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10604}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10602}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10604}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10605}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10603}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10605}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10606}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10604}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10606}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10607}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10605}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10607}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10608}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10606}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10608}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10609}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10607}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10609}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10610}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10608}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10610}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10611}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10609}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10611}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10612}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10610}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10612}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10613}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10611}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {10613}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
 E {10614}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}

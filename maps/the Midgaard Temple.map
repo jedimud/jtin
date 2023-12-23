@@ -14,7 +14,7 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -284,7 +284,7 @@ E {7}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {105}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {100}{16}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
-E {3001}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {3001}{e}{jt_m_link_action {jt_m_open_door {east}} {Midgaard} {3001}}{2}{0}{}{1.000}{}{0.00}
 E {101}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {101}{0}{<fff>}{Hallway}{ }{}{the Midgaard Temple}{}{INSIDE}{}{1.000}{}
