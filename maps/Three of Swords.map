@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 13308
+I 13313
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -263,15 +263,15 @@ T {SWIM} {<F21618C>~} {}
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
-R {2}{8}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+R {2}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
 E {13388}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
 E {13387}{se}{se}{6}{0}{}{1.000}{}{0.00}
 
-R {4}{8}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+R {4}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
 E {13373}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13389}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {5}{8}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
+R {5}{4104}{}{}{ }{}{}{}{HILLS}{}{1.000}{}
 E {13384}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13385}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
@@ -515,7 +515,8 @@ E {13358}{u}{u}{16}{0}{}{1.000}{}{0.00}
 R {13357}{0}{<fff>}{Molly's Bakery}{ }{}{Three of Swords}{}{INSIDE}{}{1.000}{}
 E {13356}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13358}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13358}{0}{<fff>}{The Sleeping Loft}{ }{}{Three of Swords}{}{INSIDE}{}{1.000}{}
+E {13356}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {13359}{0}{<fff>}{A Rocky Slope}{ }{}{Three of Swords}{}{MOUNTAINS}{}{1.000}{}
 E {13308}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -526,7 +527,12 @@ E {13361}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {13359}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13363}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {13361}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13361}{0}{<fff>}{Outside of a Cottage}{ }{}{Three of Swords}{}{HILLS}{}{1.000}{}
+E {13360}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {13362}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13362}{0}{<fff>}{Torched Cottage}{ }{}{Three of Swords}{}{INSIDE}{}{1.000}{}
+E {13361}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {13363}{0}{<fff>}{Mountain Trail}{ }{}{Three of Swords}{}{MOUNTAINS}{}{1.000}{}
 E {13360}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -631,7 +637,8 @@ R {13389}{0}{<fff>}{The Sloping Tunnel}{ }{}{Three of Swords}{}{HILLS}{}{1.000}{
 E {4}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13388}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {13390}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13390}{16384}{<faa>}{Plummeting to Your Death}{<faa>DT}{}{Three of Swords}{}{INSIDE}{}{1.000}{}
+E {13313}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {13391}{16384}{<faa>}{Falling into the Volcanic Crater}{<faa>DT}{}{Three of Swords}{}{INSIDE}{}{1.000}{}
 E {13375}{n}{n}{1}{0}{}{1.000}{}{0.00}

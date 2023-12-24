@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8207
+F 8206
 
 G 0
 
-I 13182
+I 13004
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -271,7 +271,22 @@ R {3}{0}{}{}{DHa}{}{}{}{FOREST}{}{1.000}{}
 R {4}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {13080}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {3001}{0}{<fff>}{}{Mid}{}{}{}{CITY}{}{1.000}{}
+R {5}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {13022}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {6}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+E {13024}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13022}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {3001}{0}{<fff>}{}{Mid}{}{}{}{INSIDE}{}{1.000}{}
+
+R {4115}{0}{<fff>}{}{Mor}{}{}{}{FOREST}{}{1.000}{}
+
+R {5120}{0}{<fff>}{}{Dro}{}{}{}{INSIDE}{}{1.000}{}
+
+R {6137}{0}{<fff>}{}{DHa}{}{}{}{FOREST}{}{1.000}{}
+
+R {12066}{0}{<fff>}{}{Rom}{}{}{}{CITY}{}{1.000}{}
 
 R {13000}{0}{<fff>}{Entrance to the Shadow Grove}{*}{}{the High Tower of Sorcery}{}{FOREST}{}{1.000}{}
 E {3}{s}{jt_m_link_action {south} {dark Haon-Dor} {6137}}{4}{0}{}{1.000}{}{0.00}
@@ -293,7 +308,11 @@ E {13004}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13001}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13002}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13004}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13004}{0}{<fff>}{The Shadow Grove}{ }{}{the High Tower of Sorcery}{}{FOREST}{}{1.000}{}
+E {13002}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {21310}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13001}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13003}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {13005}{0}{<fff>}{The Shadow Grove}{ }{}{the High Tower of Sorcery}{}{FOREST}{}{1.000}{}
 E {13004}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -312,9 +331,15 @@ E {13006}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13009}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13010}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13008}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13008}{0}{<fff>}{The Shadow Grove}{ }{}{the High Tower of Sorcery}{}{FOREST}{}{1.000}{}
+E {13003}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13005}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13009}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {13009}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13009}{0}{<fff>}{The Shadow Grove}{ }{}{the High Tower of Sorcery}{}{FOREST}{}{1.000}{}
+E {13008}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13006}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13001}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {13010}{0}{<fff>}{The Shadow Grove}{ }{}{the High Tower of Sorcery}{}{FOREST}{}{1.000}{}
 E {13007}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -335,13 +360,67 @@ E {13014}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13012}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13016}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13014}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13014}{0}{<fff>}{Common Room}{%}{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13018}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13017}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13013}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13019}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {13015}{0}{<fff>}{The hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13030}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13013}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13016}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13016}{0}{<fff>}{Dining Room}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13013}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13020}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {13017}{0}{<fff>}{Dark Hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13021}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {13014}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {13018}{0}{<fff>}{Mages Tavern}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13014}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13019}{0}{<fff>}{The Magic Shop}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13014}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {13020}{0}{<fff>}{The Kitchen}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13016}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {13021}{0}{<fff>}{Below the trapdoor}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13022}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {13017}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
+
+R {13022}{0}{<fff>}{A damp intersection}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {5}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {13023}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13025}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13026}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13023}{0}{<fff>}{A dark passage}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13027}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {13022}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13024}{0}{<fff>}{A dark passage}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13028}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {6}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {13025}{0}{<fff>}{The stagnant pool}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13029}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {13022}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {13026}{0}{<fff>}{A dark passage}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13022}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {13027}{0}{<fff>}{A dark cell}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13023}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {13028}{0}{<fff>}{The Jailor's office}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13024}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {13029}{0}{<fff>}{Below the stagnant pool}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {3001}{u}{jt_m_link_action {up} {Midgaard} {3001}}{16}{0}{}{1.000}{}{0.00}
 
 R {13030}{0}{<fff>}{The hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13031}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -355,9 +434,11 @@ E {13034}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {13035}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {13030}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13032}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13032}{0}{<fff>}{A store room}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13030}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {13033}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13033}{0}{<fff>}{A broom closet}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13030}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {13034}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13037}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
@@ -387,23 +468,29 @@ E {13041}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13042}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {13043}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13041}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13041}{0}{<fff>}{A culdesac}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13040}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13042}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13042}{0}{<fff>}{The Apprentice's Barracks}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13040}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {13044}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {13043}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13040}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13044}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {13045}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13044}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13044}{0}{<fff>}{The Apprentice's barracks}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13042}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13043}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {13045}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13043}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13046}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {13047}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13046}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13046}{0}{<fff>}{The apprentice's workshop}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13045}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {13047}{0}{<fff>}{A bend in the hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13045}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -414,7 +501,8 @@ E {13047}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13050}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13049}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {13049}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13049}{0}{<fff>}{A classroom}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13048}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {13050}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13048}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -426,13 +514,15 @@ E {13050}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13053}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13054}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {13052}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13052}{0}{<fff>}{An empty classroom}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13050}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {13053}{0}{<fff>}{A bend in the hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13055}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13051}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {13054}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13054}{0}{<fff>}{An empty classroom}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13051}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {13055}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13056}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -472,16 +562,19 @@ E {13065}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {13066}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13062}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {13064}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13064}{0}{<fff>}{The spellmasters' lounge}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13062}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {13065}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13065}{0}{<fff>}{A bedroom}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13063}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {13066}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13067}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {13068}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13063}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {13067}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13067}{0}{<fff>}{The study}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13066}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {13068}{0}{<fff>}{Below the stairs}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13066}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -496,18 +589,24 @@ E {13069}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13071}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {13072}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13071}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13071}{0}{<fff>}{A small office}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13070}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {13073}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {13072}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13070}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13074}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13073}{0}{<fff>}{The master scribe's workshop}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13071}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {13074}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13072}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13075}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {13076}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13075}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13075}{0}{<fff>}{A small storeroom}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13074}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {13076}{0}{<fff>}{A bend in the hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13074}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -564,31 +663,47 @@ E {13089}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13090}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {13085}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13088}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13088}{0}{<fff>}{The Mad Alchemist's workroom}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13086}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {13089}{0}{<fff>}{A bend in the hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13091}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13087}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13090}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13090}{0}{<fff>}{The pentagram chamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13087}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {13092}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {13091}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13094}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {13093}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13089}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
+R {13092}{0}{<fff>}{Inside the energy field}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {6137}{d}{jt_m_link_action {down} {dark Haon-Dor} {6137}}{32}{0}{}{1.000}{}{0.00}
+E {4115}{n}{jt_m_link_action {north} {Lower Moria} {4115}}{1}{0}{}{1.000}{}{0.00}
+E {5120}{s}{jt_m_link_action {south} {Drow City} {5120}}{4}{0}{}{1.000}{}{0.00}
+E {6137}{u}{jt_m_link_action {up} {dark Haon-Dor} {6137}}{16}{0}{}{1.000}{}{0.00}
+E {12066}{w}{jt_m_link_action {west} {Rome} {12066}}{8}{0}{}{1.000}{}{0.00}
+
 R {13093}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13095}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {13096}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13091}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {13094}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13094}{0}{<fff>}{An empty room}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13091}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {13095}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13095}{0}{<fff>}{The charm master's chamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13097}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {13093}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {13096}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13098}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13093}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {13097}{0}{<fff>}{The animal pens}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13095}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {13098}{0}{<fff>}{The end of the hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13096}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -603,9 +718,17 @@ E {13099}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13101}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {13104}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13101}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13101}{0}{<fff>}{A large storeroom}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13100}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {13102}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {13103}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13102}{0}{<fff>}{The Master Spellbinder's chamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13101}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {13103}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {13103}{0}{<fff>}{The Spellbinder's Cache}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13102}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {13105}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {13104}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13100}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -629,9 +752,21 @@ E {13107}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13113}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13109}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {13109}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13109}{0}{<fff>}{The golem master's workshop}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13112}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {13108}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {13110}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13111}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {13112}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13110}{0}{<fff>}{A small storeroom}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13109}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {13111}{0}{<fff>}{The golem chamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13109}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {13112}{0}{<fff>}{It is very dark here...}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13081}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {13109}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
 
 R {13113}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13108}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -674,7 +809,16 @@ E {13123}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {13126}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13121}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {13123}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13123}{0}{<fff>}{A dark room}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13124}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13122}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {13124}{0}{<fff>}{A dark room}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13125}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13123}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {13125}{0}{<fff>}{The Necromancer's Lair}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13124}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {13126}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13127}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -791,7 +935,32 @@ E {13173}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13151}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13165}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13151}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13151}{0}{<fff>}{A grey tiled hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13150}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13152}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {13152}{0}{<fff>}{A grey tiled hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13151}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13153}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {13153}{0}{<fff>}{The antechamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13152}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {13154}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {13154}{0}{<fff>}{The main chamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13156}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13153}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13157}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13155}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13155}{0}{<fff>}{The study}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13154}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {13156}{0}{<fff>}{A closet}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13154}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13157}{0}{<fff>}{A bedroom}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13154}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {13158}{0}{<fff>}{A dark hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13159}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -811,13 +980,41 @@ E {13162}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13163}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13160}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {13162}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13162}{0}{<fff>}{It is very dark here...}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13161}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {13163}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13163}{0}{<fff>}{Torture chamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13161}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {13164}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13164}{0}{<fff>}{The inner chamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13161}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13165}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {13165}{0}{<fff>}{A bright hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13150}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13166}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13166}{0}{<fff>}{A bright hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13165}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13167}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {13167}{0}{<fff>}{An antechamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13166}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {13169}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13169}{0}{<fff>}{The chamber of the white light}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13167}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13170}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {13171}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {13172}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {13170}{0}{<fff>}{The meditation chamber}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13169}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {13171}{0}{<fff>}{A study}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13169}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {13172}{0}{<fff>}{A closet}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+E {13169}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {13173}{0}{<fff>}{A wide hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13174}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
@@ -860,3 +1057,5 @@ E {13183}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {13183}{0}{<fff>}{In the light}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {3001}{u}{jt_m_link_action {up} {Midgaard} {3001}}{16}{0}{}{1.000}{}{0.00}
+
+R {21310}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}

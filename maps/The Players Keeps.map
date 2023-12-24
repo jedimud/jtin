@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8207
+F 8206
 
 G 0
 
-I 1911
+I 1908
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -302,7 +302,8 @@ E {1909}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {1906}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {1908}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {1908}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {1908}{0}{<fff>}{Cirion's private chambers}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
+E {1907}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {1909}{0}{<fff>}{A small sitting room}{ }{}{The Players Keeps}{}{INSIDE}{}{1.000}{}
 E {1907}{s}{s}{4}{0}{}{1.000}{}{0.00}

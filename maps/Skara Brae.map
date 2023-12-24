@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 2117
+I 2199
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -615,6 +615,21 @@ E {2139}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {2195}{0}{<fff>}{The main viewing gallery}{ }{}{Skara Brae}{}{INSIDE}{}{1.000}{}
 E {2194}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
+R {2196}{0}{<fff>}{The steep, narrow path}{ }{}{Skara Brae}{}{MOUNTAINS}{}{1.000}{}
+E {6947}{d}{jt_m_link_action {down} {The Dragon Sea} {6947}}{32}{0}{}{1.000}{}{0.00}
+E {2197}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {2197}{0}{<fff>}{The summit of the path}{ }{}{Skara Brae}{}{MOUNTAINS}{}{1.000}{}
+E {2196}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {2198}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {2198}{0}{<fff>}{Within the ancient barrow}{ }{}{Skara Brae}{}{INSIDE}{}{1.000}{}
+E {2199}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {2197}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {2199}{0}{<fff>}{Within the depths of the barrow}{ }{}{Skara Brae}{}{INSIDE}{}{1.000}{}
+E {2198}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
 R {2259}{0}{<fff>}{}{ADF}{}{}{}{INSIDE}{}{1.000}{}
 
 R {2311}{0}{<fff>}{}{ANS}{}{}{}{FIELD}{}{1.000}{}
@@ -628,5 +643,7 @@ R {3800}{0}{<fff>}{}{GyK}{}{}{}{CITY}{}{1.000}{}
 R {5502}{0}{<fff>}{}{WnS}{}{}{}{}{}{1.000}{}
 
 R {6906}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
+
+R {6947}{0}{<fff>}{}{DrS}{}{}{}{NOSWIM}{}{1.000}{}
 
 R {9971}{0}{<fff>}{}{Met}{}{}{}{INSIDE}{}{1.000}{}

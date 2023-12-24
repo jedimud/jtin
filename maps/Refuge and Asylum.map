@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 14333
+I 14302
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,6 +261,17 @@ T {SWIM} {<F21618C>~} {}
 
 
 
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+
+R {2}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {14308}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {3}{4104}{}{}{ }{}{}{}{FOREST}{}{1.000}{}
+E {14341}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14340}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {4}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {14305}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {9469}{0}{<fff>}{}{Flo}{}{}{}{FIELD}{}{1.000}{}
 
@@ -273,10 +284,252 @@ E {14301}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 E {14303}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {14399}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {14303}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {14303}{0}{<fff>}{A narrow path along a cliff}{ }{}{Refuge and Asylum}{}{FOREST}{}{1.000}{}
+E {14340}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14302}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14304}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {14304}{0}{<fff>}{A narrow path along a cliff}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14303}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {14305}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14305}{0}{<fff>}{The crude elevator}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14332}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14304}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {4}{u}{use elevator;#delay {0} {#map goto 14308}}{16}{0}{}{1.000}{}{0.00}
+
+R {14306}{0}{<fff>}{A narrow, windswept ledge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14307}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14308}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14307}{0}{<fff>}{A tiny sleeping chamber}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14306}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14308}{0}{<fff>}{A wide, windswept ledge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14306}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14309}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {2}{d}{use elevator;#delay {0} {#map goto 14305}}{32}{0}{}{1.000}{}{0.00}
+
+R {14309}{0}{<fff>}{A precarious ledge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14310}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14308}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14311}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14310}{0}{<fff>}{The abandoned cavern}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14309}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14311}{0}{<fff>}{A windswept ledge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14312}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14309}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14313}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14312}{0}{<fff>}{A burnt out cavern}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14311}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14313}{0}{<fff>}{The cliff garden}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14314}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14311}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14315}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14314}{0}{<fff>}{A sleeping chamber}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14313}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14315}{0}{<fff>}{The end of a windswept ledge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14322}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {14313}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {14316}{0}{<fff>}{The end of a narrow ledge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14326}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {14317}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14318}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14317}{0}{<fff>}{A homey sleeping chamber}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14316}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14318}{0}{<fff>}{A sheltered platform far above the sea}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14319}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14316}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14322}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14319}{0}{<fff>}{A large cavern}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14320}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {14318}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14320}{0}{<fff>}{The throne room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14321}{se}{jt_m_open_door {southe}}{6}{0}{}{1.000}{}{0.00}
+E {14319}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14321}{0}{<fff>}{The private chamber}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14320}{nw}{jt_m_open_door {northw}}{9}{0}{}{1.000}{}{0.00}
+
+R {14322}{0}{<fff>}{A narrow ledge along the cliff}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14323}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14318}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14315}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {14323}{0}{<fff>}{An empty, dank cavern}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14322}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14324}{0}{<fff>}{Pottery on the verge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14325}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14326}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14325}{0}{<fff>}{A half-finished sleeping chamber}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14324}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14326}{0}{<fff>}{The narrow ledge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14327}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14324}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14328}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14316}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {14327}{0}{<fff>}{A well lit residence}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14326}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14328}{0}{<fff>}{The widening ledge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14326}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14329}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14329}{0}{<fff>}{The sooty ledge}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14330}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14328}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14331}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {14330}{0}{<fff>}{A sandy chamber}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14329}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14331}{0}{<fff>}{Beside a blazing bonfire}{ }{}{Refuge and Asylum}{}{CITY}{}{1.000}{}
+E {14329}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+
+R {14332}{0}{<fff>}{Inside a small shed}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14305}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {14333}{0}{<fff>}{A narrow path}{ }{}{Refuge and Asylum}{}{FOREST}{}{1.000}{}
 E {9469}{e}{jt_m_link_action {east} {Floodland} {9469}}{2}{0}{}{1.000}{}{0.00}
 E {14301}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {14399}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {14340}{0}{<fff>}{A narrow path}{ }{}{Refuge and Asylum}{}{FOREST}{}{1.000}{}
+E {3}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14303}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {14341}{0}{<fff>}{A narrow path}{ }{}{Refuge and Asylum}{}{FOREST}{}{1.000}{}
+E {3}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14342}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {14342}{0}{<fff>}{A narrow path}{ }{}{Refuge and Asylum}{}{FOREST}{}{1.000}{}
+E {14341}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {14343}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14343}{0}{<fff>}{A clearing in front of a large building}{ }{}{Refuge and Asylum}{}{FIELD}{}{1.000}{}
+E {14342}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14344}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {14367}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {14344}{0}{<fff>}{The foyer of the asylum}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14343}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {14347}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14345}{0}{<fff>}{The storeroom}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14348}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14346}{0}{<fff>}{An office}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14347}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {14347}{0}{<fff>}{A long hallway}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14348}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14344}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14350}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14346}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14348}{0}{<fff>}{A modest kitchen}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14345}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14347}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14349}{0}{<fff>}{A small room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14350}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {14350}{0}{<fff>}{A long hallway}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14351}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14347}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14353}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14349}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14351}{0}{<fff>}{A treatment room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14350}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14352}{0}{<fff>}{A small room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14353}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {14353}{0}{<fff>}{The end of the long hallway}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14354}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14350}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14362}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {14352}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14354}{0}{<fff>}{A small room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14353}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14355}{0}{<fff>}{A small room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14356}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {14356}{0}{<fff>}{A long hallway}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14357}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14359}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14364}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
+E {14355}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14357}{0}{<fff>}{A treatment room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14356}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14358}{0}{<fff>}{A small room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14359}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {14359}{0}{<fff>}{A long hallway}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14360}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14356}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14362}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {14358}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14360}{0}{<fff>}{A small room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14359}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14361}{0}{<fff>}{A darkened room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14362}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {14362}{0}{<fff>}{A long hallway}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14353}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {14363}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {14359}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14361}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14363}{0}{<fff>}{A comfortable room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14362}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {14364}{0}{<fff>}{The attic}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14356}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {14365}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14365}{0}{<fff>}{The attic}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14364}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14366}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {14366}{0}{<fff>}{A secret room}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14356}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+
+R {14367}{0}{<fff>}{A garden path}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14343}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {14368}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {14368}{0}{<fff>}{A garden path}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14367}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {14369}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14369}{0}{<fff>}{A garden path}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14368}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14370}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14370}{0}{<fff>}{A tranquil garden}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14369}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {14399}{16384}{<faa>}{Lemmings Leap}{<faa>DT}{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14302}{e}{e}{2}{0}{}{1.000}{}{0.00}

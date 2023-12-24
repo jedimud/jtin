@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 10614
+I 12599
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -325,11 +325,110 @@ E {10670}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {10672}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {10613}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {10615}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10615}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10672}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10616}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {10628}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10616}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10615}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10617}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {10640}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10617}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10616}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10618}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10618}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10617}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10619}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10619}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10618}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10620}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10620}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10619}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10621}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10621}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10620}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10622}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10622}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10621}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10623}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10623}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10622}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10624}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10624}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10623}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10625}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10625}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10624}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10626}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10626}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10625}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10627}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10627}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10626}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10628}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10628}{0}{<fff>}{In the Southeastern Tower}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10713}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {10627}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10629}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10629}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10628}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10630}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10630}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10629}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10631}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10631}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10630}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10632}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10632}{0}{<fff>}{Atop the wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10631}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10633}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10633}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10632}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10634}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10634}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10633}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10635}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10635}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10634}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10636}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10636}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10635}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10637}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10637}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10636}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10638}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10638}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10637}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10639}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10639}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10638}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10640}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10640}{0}{<fff>}{Atop the wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10639}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10641}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {10641}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
 E {10640}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
@@ -344,15 +443,63 @@ R {10643}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
 E {10644}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {10642}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {10644}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10644}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10645}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10643}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {10656}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10645}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10646}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10644}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10646}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10647}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10645}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10647}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10648}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10646}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10648}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10649}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10647}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10649}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10650}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10648}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10650}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10651}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10649}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10651}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10652}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10650}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10652}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10653}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10651}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10653}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10654}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10652}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10654}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10655}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10653}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10655}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10656}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10654}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10656}{0}{<fff>}{Atop the Wall}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10600}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10655}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {10657}{0}{<fff>}{Crossing Amethyst Bridge}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
-E {10659}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
+E {10659}{se}{jt_m_open_door {southe}}{6}{0}{}{1.000}{}{0.00}
 
 R {10658}{0}{<fff>}{Crossing Tourmaline Bridge}{*}{}{Arcadia}{}{INSIDE}{}{1.000}{}
-E {10713}{nw}{jt_m_open_door {northwest}}{9}{0}{}{1.000}{}{0.00}
+E {10713}{nw}{jt_m_open_door {northw}}{9}{0}{}{1.000}{}{0.00}
 E {12599}{w}{jt_m_link_action {west} {the grand city of New Thalos} {12599}}{8}{0}{}{1.000}{}{0.00}
 
 R {10659}{0}{<fff>}{West Tanzanite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
@@ -733,7 +880,29 @@ E {10703}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {10764}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {10738}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {10740}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10740}{0}{<fff>}{Onyx Lane}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10741}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10765}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10675}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10741}{0}{<fff>}{Onyx Lane}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10742}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10766}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {10740}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10742}{0}{<fff>}{Onyx Lane}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10743}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10767}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10741}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10743}{0}{<fff>}{Onyx Lane}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10744}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {10768}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {10742}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10744}{0}{<fff>}{Onyx Lane}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
+E {10769}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10743}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {10745}{0}{<fff>}{Hematite Drive}{ }{}{Arcadia}{}{CITY}{}{1.000}{}
 E {10731}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
@@ -819,6 +988,20 @@ E {10740}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {10815}{se}{jt_m_open_door {southeast}}{6}{0}{}{1.000}{}{0.00}
 E {10816}{sw}{jt_m_open_door {southwest}}{12}{0}{}{1.000}{}{0.00}
 E {10676}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {10766}{0}{<fff>}{Saviour's House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10741}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10803}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10767}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10742}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {10768}{0}{<fff>}{The entrance to Bunny's small home}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10743}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10805}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {10769}{0}{<fff>}{An Empty House}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10744}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {10770}{0}{<fff>}{This And That}{#}{}{Arcadia}{}{INSIDE}{}{1.000}{}
 E {10680}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
@@ -906,12 +1089,64 @@ E {10727}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 R {10798}{0}{<fff>}{First Bank of Arcadia}{$}{}{Arcadia}{}{INSIDE}{}{1.000}{}
 E {10679}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
-R {10813}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10801}{0}{<fff>}{The Inner Sanctum of Saviour}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10803}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10804}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {10802}{nw}{jt_m_open_door {northw}}{9}{0}{}{1.000}{}{0.00}
 
-R {10814}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10802}{0}{<fff>}{The Preparation Room}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10801}{se}{jt_m_open_door {southe}}{6}{0}{}{1.000}{}{0.00}
 
-R {10815}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10803}{0}{<fff>}{A private courtyard}{%}{}{Arcadia}{}{FIELD}{}{1.000}{}
+E {10766}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {10801}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {10816}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {10804}{0}{<fff>}{The Rec Room}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10801}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+
+R {10805}{0}{<fff>}{An opening to a large chamber}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10768}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10807}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {10806}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10806}{0}{<fff>}{In front of a large fire}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10805}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10808}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {10807}{0}{<fff>}{Up on a small stage}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10805}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {10808}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {10808}{0}{<fff>}{At the bar}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10807}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {10806}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {10813}{0}{<fff>}{Air's Armor Storage Room and Northwest Tower}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10765}{se}{se}{6}{0}{}{1.000}{}{0.00}
+E {10818}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {10814}{0}{<fff>}{Air's Lightsaber Construction Room and Northeast Tower}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10765}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {10817}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {10815}{0}{<fff>}{Air's Training in the use of the Force Room and Southeast Tower}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10765}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {10819}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {10816}{0}{<fff>}{Air's Jedi Combat Training room and Southwest Tower}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10765}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
+E {10820}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {10817}{0}{<fff>}{Air's Bedroom}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10814}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {10818}{0}{<fff>}{Kender clan guest bedroom}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10813}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {10819}{0}{<fff>}{Air's special guest bedroom}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10815}{d}{d}{32}{0}{}{1.000}{}{0.00}
+
+R {10820}{0}{<fff>}{Air's combined Kitchen and Dining Room}{ }{}{Arcadia}{}{INSIDE}{}{1.000}{}
+E {10816}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {12599}{0}{<fff>}{}{NT}{}{}{}{CITY}{}{1.000}{}

@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 1602
+I 1636
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,7 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3}{4104}{}{}{ }{}{}{}{FIELD}{}{1.000}{}
 E {1635}{s}{s}{4}{0}{}{1.000}{}{0.00}
@@ -357,7 +357,8 @@ R {1618}{0}{<fff>}{The Beast Master}{ }{}{The Old Elven Village}{}{INSIDE}{}{1.0
 E {1619}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {1616}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {1619}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {1619}{0}{<fff>}{In the Back}{ }{}{The Old Elven Village}{}{INSIDE}{}{1.000}{}
+E {1618}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {1620}{0}{<fff>}{Amidst the Tomes}{ }{}{The Old Elven Village}{}{INSIDE}{}{1.000}{}
 E {1616}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -424,7 +425,8 @@ R {1635}{0}{<fff>}{The End of the Path}{ }{}{The Old Elven Village}{}{FIELD}{}{1
 E {3}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {1637}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {1636}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {1636}{0}{<fff>}{Inside the Shack}{ }{}{The Old Elven Village}{}{INSIDE}{}{1.000}{}
+E {1633}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {1637}{0}{<fff>}{Behind the Shack}{ }{}{The Old Elven Village}{}{FIELD}{}{1.000}{}
 E {1635}{e}{e}{2}{0}{}{1.000}{}{0.00}

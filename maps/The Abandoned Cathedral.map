@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 553
+I 527
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,6 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {500}{0}{<fff>}{The Cathedral Courtyard}{ }{}{The Abandoned Cathedral}{}{FIELD}{}{1.000}{}
 E {501}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -272,34 +273,156 @@ E {504}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {500}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {503}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {502}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {502}{0}{<fff>}{An Alcove}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {513}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {501}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {503}{0}{<fff>}{An Alcove}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {501}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {512}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {504}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {504}{0}{<fff>}{The Aisle Of Pews}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {505}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {501}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {505}{0}{<fff>}{The Worship Hall}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {507}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {508}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {504}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {506}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {506}{0}{<fff>}{The Confessional}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {505}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {507}{0}{<fff>}{The Confessional}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {505}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {508}{0}{<fff>}{The High Pews}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {509}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {505}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {509}{0}{<fff>}{At The Altar}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {510}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {508}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {510}{0}{<fff>}{The Clergical Chambers}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {511}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {509}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {511}{0}{<fff>}{The Inner Sanctum}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {510}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {512}{0}{<fff>}{A Spiral Stairway}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {532}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {503}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {516}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {516}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {513}{0}{<fff>}{A Spiral Stairway}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {534}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {514}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {502}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {514}{16384}{<faa>}{A Gaping Chasm in the Spiral Stairway}{<faa>DT}{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {513}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {515}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {515}{0}{<fff>}{The Bell Tower}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {514}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {518}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {516}{0}{<fff>}{A Spiral Stairway}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {512}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {519}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {517}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {517}{0}{<fff>}{The Bell Tower}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {516}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {518}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {518}{0}{<fff>}{The Bell Room}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {515}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {517}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {519}{0}{<fff>}{The Cloister Hall}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {523}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {520}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {516}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {520}{0}{<fff>}{The End Of The Dark Hall}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {521}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {519}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {522}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {521}{0}{<fff>}{A Monk's Room}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {520}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {522}{0}{<fff>}{The Abbott's Room}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {520}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {523}{0}{<fff>}{A Cloistered Hall}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {525}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {526}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {519}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {524}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {524}{0}{<fff>}{A Monk's Room}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {523}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {525}{0}{<fff>}{A Monk's Room}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {523}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {526}{0}{<fff>}{A Cloistered Hall}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {529}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {527}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {523}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {528}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {527}{0}{<fff>}{A Cloistered Hall}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {531}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {526}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {530}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {528}{0}{<fff>}{A Nun's Room}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {526}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {529}{0}{<fff>}{A Nun's Room}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {526}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {530}{0}{<fff>}{A Nun's Room}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {527}{e}{e}{2}{0}{}{1.000}{}{0.00}
+
+R {531}{0}{<fff>}{Mother Superior's Room}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {527}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {532}{0}{<fff>}{A Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {533}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {535}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {512}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {533}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {533}{0}{<fff>}{A Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {534}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {536}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {532}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {534}{0}{<fff>}{A Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {537}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {513}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {533}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {535}{0}{<fff>}{A Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {536}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {532}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {538}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {536}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {536}{0}{<fff>}{A Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {537}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {533}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {535}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {537}{0}{<fff>}{A Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {534}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {540}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {536}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {538}{0}{<fff>}{A Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {539}{e}{e}{2}{0}{}{1.000}{}{0.00}
@@ -308,6 +431,9 @@ E {535}{n}{n}{1}{0}{}{1.000}{}{0.00}
 R {539}{0}{<fff>}{A Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {541}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {538}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {540}{0}{<fff>}{A Crypt}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {537}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {541}{0}{<fff>}{The Antechamber}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {539}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -339,9 +465,11 @@ E {546}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {550}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {548}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {548}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {548}{0}{<fff>}{The Tomb Of Princess Evalynn}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {547}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
-R {549}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {549}{0}{<fff>}{The Large Cavern}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
+E {543}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {550}{0}{<fff>}{A Bottomless Pit}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}
 E {551}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -359,7 +487,7 @@ R {553}{0}{<fff>}{Above The Molten Lava}{ }{}{The Abandoned Cathedral}{}{CITY}{}
 E {554}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {552}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {554}{16384}{<faa>}{Burnt Alive In The Molten Lava}{<faa>DT}{}{The Abandoned Cathedral}{}{INSIDE}{}{1.000}{}
+R {554}{16384}{<fff>}{Burnt Alive In The Molten Lava}{<faa>DT}{}{The Abandoned Cathedral}{}{INSIDE}{}{1.000}{}
 E {553}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {555}{0}{<fff>}{An Old Stone Road}{ }{}{The Abandoned Cathedral}{}{CITY}{}{1.000}{}

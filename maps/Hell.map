@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8207
+F 8206
 
 G 0
 
-I 17801
+I 6652
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -263,111 +263,198 @@ T {SWIM} {<F21618C>~} {}
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
-R {3237}{0}{<fff>}{}{SoM}{}{}{}{INSIDE}{}{1.000}{}
+R {6299}{0}{<fff>}{The Lair of Arachnos}{Ara}{}{Arachnos}{}{FIELD}{}{1.000}{}
 
-R {3239}{0}{<fff>}{}{SoM}{}{}{}{CITY}{}{1.000}{}
+R {6600}{0}{<fff>}{Under the Den of the Queen Spider}{ }{}{Hell}{}{MOUNTAINS}{}{1.000}{}
+E {6601}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {6299}{u}{jt_m_link_action {up} {Arachnos} {6299}}{16}{0}{}{1.000}{}{0.00}
 
-R {3240}{0}{<fff>}{}{SoM}{}{}{}{CITY}{}{1.000}{}
+R {6601}{0}{<fff>}{The Mine Shaft}{ }{}{Hell}{}{MOUNTAINS}{}{1.000}{}
+E {6602}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {6600}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {3241}{0}{<fff>}{}{SoM}{}{}{}{CITY}{}{1.000}{}
+R {6602}{0}{<fff>}{The Ferry Area}{ }{}{Hell}{}{MOUNTAINS}{}{1.000}{}
+E {6601}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {6655}{w}{blow conch}{8}{0}{}{1.000}{}{0.00}
 
-R {17800}{0}{<fff>}{The Entrance to The Jade Manor}{ }{}{the Wedding Shops}{}{CITY}{}{1.000}{}
-E {17801}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3239}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3239}}{4}{0}{}{1.000}{}{0.00}
+R {6603}{0}{<fff>}{On the River Styx}{ }{}{Hell}{}{NOSWIM}{}{1.000}{}
+E {6604}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6602}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {17801}{0}{<fff>}{The Atrium}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17804}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
-E {17800}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17803}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
-E {17802}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+R {6604}{0}{<fff>}{On the River Styx}{ }{}{Hell}{}{NOSWIM}{}{1.000}{}
+E {6605}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6603}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {17802}{0}{<fff>}{The Manager's Office}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17801}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+R {6605}{0}{<fff>}{Close to the Shore}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6606}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6604}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {17803}{0}{<fff>}{The Entrance to the Golden Terrace}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17801}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
-E {17806}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {6606}{0}{<fff>}{Hell}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6607}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6605}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {17804}{0}{<fff>}{The Entrance to the Azure Room}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17814}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17816}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17801}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
-E {17813}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {6607}{0}{<fff>}{Rocky Crag}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6608}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6606}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {17805}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17806}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17808}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {6608}{0}{<fff>}{Hell's Gate}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6609}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17806}{0}{<fff>}{The Northern Dance Floor}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17807}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17803}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17809}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17805}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {6609}{0}{<fff>}{The Entrance to the Thousand Rooms}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6610}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17807}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17810}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17806}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {6610}{0}{<fff>}{The Liar's Room}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6611}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17808}{0}{<fff>}{The Food Service Table}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17809}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17805}{n}{n}{1}{0}{}{1.000}{}{0.00}
+R {6611}{0}{<fff>}{The Lazy Room}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6612}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17809}{0}{<fff>}{The Southern Dance Floor}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17810}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17806}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17811}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17812}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {17808}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {6612}{0}{<fff>}{The Room of Avarice}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6613}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17810}{0}{<fff>}{The Bar}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17807}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17809}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {6613}{0}{<fff>}{The Aisle of Sloth}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6614}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17811}{0}{<fff>}{The Balcony}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17809}{n}{n}{1}{0}{}{1.000}{}{0.00}
+R {6614}{0}{<fff>}{The Lusty Lane}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6615}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17812}{0}{<fff>}{The Bandstand}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17809}{d}{d}{32}{0}{}{1.000}{}{0.00}
+R {6615}{0}{<fff>}{The Pride Room}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6616}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17813}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17804}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17815}{n}{n}{1}{0}{}{1.000}{}{0.00}
+R {6616}{0}{<fff>}{mooR derorriM ehT}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6617}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17814}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17817}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17804}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {6617}{0}{<fff>}{The UnMirrored Room}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6618}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17815}{0}{<fff>}{The Bar}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17816}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17813}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {6618}{0}{<fff>}{The Shole}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6619}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17816}{0}{<fff>}{The Dance Floor}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17817}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17818}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17804}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17815}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {6619}{0}{<fff>}{The Gluttonous Pit}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6620}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17817}{0}{<fff>}{The Buffet Table}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17814}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17816}{w}{w}{8}{0}{}{1.000}{}{0.00}
+R {6620}{0}{<fff>}{The Angry Room}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6621}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17818}{0}{<fff>}{The DJ's Stand}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17816}{s}{s}{4}{0}{}{1.000}{}{0.00}
+R {6621}{0}{<fff>}{The Dark Room}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6622}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17819}{0}{<fff>}{The Bridal Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3240}{w}{jt_m_link_action {west} {the southern part of Midgaard} {3240}}{8}{0}{}{1.000}{}{0.00}
+R {6622}{0}{<fff>}{The War Room}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6623}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17820}{0}{<fff>}{The Suitmakers}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3241}{w}{jt_m_link_action {west} {the southern part of Midgaard} {3241}}{8}{0}{}{1.000}{}{0.00}
+R {6623}{0}{<fff>}{The Bridge}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6624}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17821}{0}{<fff>}{The Jeweler's Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3240}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3240}}{1}{0}{}{1.000}{}{0.00}
+R {6624}{0}{<fff>}{A Link in the Bridge}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6625}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17822}{0}{<fff>}{The Jeweler's Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3239}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3239}}{1}{0}{}{1.000}{}{0.00}
+R {6625}{0}{<fff>}{The Leap of Faith}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6626}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17823}{0}{<fff>}{The Marriage Registry}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3237}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3237}}{1}{0}{}{1.000}{}{0.00}
+R {6626}{0}{<fff>}{The Leap of Faith}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6627}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {17824}{0}{<fff>}{The Immigration Office}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3237}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3237}}{4}{0}{}{1.000}{}{0.00}
+R {6627}{0}{<fff>}{The Leap of Faith}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6628}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6628}{0}{<fff>}{The Leap of Faith}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6629}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6629}{0}{<fff>}{The Leap of Faith}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6630}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6630}{0}{<fff>}{At the Base of Sisyphus Hill}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6638}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6631}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {6631}{0}{<fff>}{One-half}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6630}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {6632}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {6632}{0}{<fff>}{One-fourth}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6630}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {6633}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {6633}{0}{<fff>}{One-fourth}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6630}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {6634}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {6634}{0}{<fff>}{One-eighth}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6630}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {6635}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {6635}{0}{<fff>}{One-eighth}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6630}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {6636}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {6636}{0}{<fff>}{At the Top of the Hill}{ }{}{Hell}{}{MOUNTAINS}{}{1.000}{}
+E {6637}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {6637}{0}{<fff>}{The Sand Dunes}{ }{}{Hell}{}{MOUNTAINS}{}{1.000}{}
+E {6639}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6638}{0}{<fff>}{The True Lair of Tiamat}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6630}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6639}{0}{<fff>}{The Tundra}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6640}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6640}{0}{<fff>}{Moebius Strip}{ }{}{Hell}{}{FOREST}{}{1.000}{}
+E {6609}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {6641}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6619}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {6629}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {6641}{0}{<fff>}{The Rift}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6642}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6640}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6642}{0}{<fff>}{Asmodeus's Pentagram}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6643}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6643}{0}{<fff>}{The First Triangle}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6644}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6644}{0}{<fff>}{The Second Triangle}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6645}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6645}{0}{<fff>}{The Third Triangle}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6646}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6646}{0}{<fff>}{The Fourth Triangle}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+E {6647}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6647}{0}{<fff>}{The Fifth Triangle}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6648}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6648}{0}{<fff>}{The long road}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6649}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {6649}{0}{<fff>}{The long road}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6651}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {6650}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6649}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6650}{0}{<fff>}{Floating in Air}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6651}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6649}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6651}{0}{<fff>}{Floating in Air}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6652}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6650}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6652}{0}{<fff>}{Floating in Air}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6606}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {6653}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6651}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6653}{0}{<fff>}{Asmodeus' Throne Room}{ }{}{Hell}{}{HILLS}{}{1.000}{}
+E {6654}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {6652}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {6654}{0}{<fff>}{The Bottom of Hell}{ }{}{Hell}{}{SWIM}{}{1.000}{}
+
+R {6655}{0}{<fff>}{Aboard Charon's Ferry}{ }{}{Hell}{}{INSIDE}{}{1.000}{}
+
+R {6656}{0}{<fff>}{Aboard Charon's Ferry}{ }{}{Hell}{}{INSIDE}{}{1.000}{}
+E {6606}{w}{pay charon}{8}{0}{}{1.000}{}{0.00}

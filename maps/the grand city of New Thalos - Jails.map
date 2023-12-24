@@ -324,7 +324,8 @@ E {12399}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {12396}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {12397}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {12399}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {12399}{0}{<fff>}{Ahmad's Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
+E {12398}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {12400}{0}{<fff>}{Dungeon Cell}{ }{}{the grand city of New Thalos}{}{INSIDE}{}{1.000}{}
 E {12390}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}

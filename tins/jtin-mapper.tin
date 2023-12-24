@@ -46,7 +46,6 @@
         map show;
         jt_m_msdp_disable; 
         jt_m_print_msg {<efc>found location at $MSDP_ROOM[AREA]($MSDP_ROOM[VNUM])};
-        jt_m_report_map_stats {$MSDP_ROOM[AREA]};
     };
 }
 
@@ -191,7 +190,7 @@
     #map set roomcolor <faa>;
     #map set roomsymbol <faa>DT;
     #map goto $MSDP_ROOM[VNUM];
-    jt_m_print_msg {<efc>added DT room to %1};
+    jt_m_print_msg {<efc>added DT room to $MSDP_ROOM[NAME]($MSDP_ROOM[VNUM])};
 }
 
 #alias jt_m_void {
@@ -378,39 +377,36 @@
 
 #nop ------ undo map -------
 
-#action {^The guard humiliates you, and blocks your way.$} {
+#action {^%1 humiliates you, and blocks your way.$} {
     #map undo;
 }
 
-#action {^A toy soldier won't let you pass.$} {
-    #map undo;
-}
- 
-#action {^A bainte won't let you pass.$} {
-    #map undo;
-}
-
-#action {^The tower guard won't let you pass.$} {
-    #map undo;
-}
-
-#action {^The tower receptionist won't let you pass.$} {
-    #map undo;
-}
 
 #action {^Sorry, you're not allowed in that zone.$} {
     #map undo;
 }
 
-#action {^Mercury won't let you pass.$} {
+#action {^%1 won't let you pass.$} {
     #map undo;
 }
 
-#action {^Mars won't let you pass.$} {
+#action {^%1 stops you from leaving!$} {
     #map undo;
 }
 
-#action {^Venus won't let you pass.$} {
+#action {The Mos Eisley Customs Office} {
+    #map goto 1211;
+}
+
+#action {Departure Zone / Arrival Area} {
+    #map goto 1208;
+}
+
+#action {^No sound is heard as the ferry moves foward... none at all...$} {
+    #map goto 6656;
+}
+
+#action {^Alas, you cannot go that way...$} {
     #map undo;
 }
 
@@ -420,6 +416,10 @@
 
 #action {^%1 has summoned you!} {
     jt_m_locate;
+}
+
+#action {^You are not godly enough to use that room!$} {
+    #map undo;
 }
 
 #action {Inside the traveling wagon} {
@@ -472,6 +472,7 @@
     {River Island Of Minos - The Sea of Dreams} {River Island Of Minos}
 }
 
+#highlight {DEATH} {<fca>}
 
 #nop ----- map functions ----
 
@@ -501,8 +502,8 @@
 
 
 #var jt_m_current {};
-#var jt_m_display[split] {#split 0 0 0 -92};
-#var jt_m_display[offset] {#map offset 1 92 -1 -1};
+#var jt_m_display[split] {#split 0 0 0 -90};
+#var jt_m_display[offset] {#map offset 1 91 -1 -1};
 #var jt_m_display[center] {#map center 0 0 0};
 
 
