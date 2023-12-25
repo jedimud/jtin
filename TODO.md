@@ -20,18 +20,18 @@
  - refactor auto-grapple and auto-rescue
 
 ## Maps
- - Add mapping for White Queen treasury in Chess Board
+ - Handle metro line
+ - add links for NT to newbie zones
+ - add links for SB to newbie zones
+ - Refactor The Emerald Maze as NT
  - `map locate` should consider sub maps
- - Handle universe wagon
  - handle Charon flight in UW
  - handle Star Wars flight
  - Missing map links for:
-   - Goth Camps
    - Golden Pagoda
-   - Hell
    - Rhyoden Kingdom
    - Scipio Dreaming
-   - Shadow Rift
+   - Shadow Rift - 21310 from 13004 in HT
    - Shadow Storm
 - Add common paths:
    - ged -> star Wars
