@@ -1,0 +1,1 @@
+This is an "all levels" area written especially for JediMUD. Please note that this area makes extensive use of the non-cardinal directions (nw, se, ne, sw). The park is located to the south of the post office in New Thalos.

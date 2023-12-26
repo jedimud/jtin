@@ -1,0 +1,1 @@
+West of Midgaard lies the sprawling forest of Haon-Dor. Home to many creatures, its pathways lead to many different places. Those who enter the forest must be cautious: it is easy to become lost underneath the trees, and when night falls, fell creatures stalk the hidden paths. 

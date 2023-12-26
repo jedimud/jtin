@@ -20,6 +20,7 @@
  - refactor auto-grapple and auto-rescue
 
 ## Maps
+ - Room stats should not include R {1}{0}
  - Handle metro line
  - add links for NT to newbie zones
  - add links for SB to newbie zones

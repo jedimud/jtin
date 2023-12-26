@@ -1,0 +1,3 @@
+With the dawn of the new age of exploration, and the opening of land routes to Sanctuary City and Skara Brae, the old imperial city of Rome became strategically less important, and the modern emperors moved their glorious capital to a more powerful location. Now, the seat of Roman imperial authority rests near the eastern coasts of the Great Sea, within a day's sail from the forests that surround Skara.
+
+Weakening in its old age, the glory of the Roman Empire has been enfeebled both from within and without, rebellious garrisons breaking out in riot at the slightest excuse, and hungry Gothic hordes beating down the city gates. Even so, the beauty and majesty of the city survive, and its call is powerful to all who will listen.

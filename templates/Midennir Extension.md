@@ -1,0 +1,1 @@
+South of the Miden'Nir and the swamps lies the cemetery. Seemingly inhabited by none but the dead, a dark tower stands here, rumored to have once been the home of a powerful mage. Perhaps this mage still lives... Adventurers daring this dark realm have brought back tales of specters and wraiths, and of horrible, enormous vipers. Beware, all those fearless enough to tread here!

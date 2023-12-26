@@ -1,0 +1,1 @@
+A newbie zone written specifically to help new players adapt to a mud environment, Froboz's Factory is a small zone accessible via the newbie transporter two up from the Temple of Midgaard. The mobs in this zone load gear as well as canned magic, specifically designed towards helping newbies boost their stats and power, so don't junk it--use it.

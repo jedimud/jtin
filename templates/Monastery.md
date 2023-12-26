@@ -1,0 +1,1 @@
+Something evil lurks under the remote mountain monastery of the New Thalosian Church. For years, ever since the death of the monastery's founder, a malignant evil presence has grown under this peaceful place. Several times the Church of New Thalos has tried to stomp out this lingering evil... it only grows stronger with each failed attempt.

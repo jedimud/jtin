@@ -1,0 +1,1 @@
+A bard-only zone that has remained one of Jedi's most challenging, the colleges were written specifically to train bards in the use of their skills. Bards seeking information about the zone would be advised to read the room description of their guild.

@@ -1,0 +1,1 @@
+Every great city has a few less than scenic locales. The sewers under Midgaard are one of those places. Closed off and abandoned for centuries, they have been reopened by order of King Welmar. Workers from the city have begun the laborious process of rebuilding the badly deteriorated sewers to stave off their imminent collapse.

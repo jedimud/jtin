@@ -1,0 +1,1 @@
+A newbie zone written specifically to help new players adapt to a mud environment, the Midgaard Zoo is a small zone accessible via the newbie transporter two up from the Temple of Midgaard. The mobs in this zone load gear specifically designed towards helping newbies boost their stats and power, so don't junk the gear--use it.

@@ -1,0 +1,1 @@
+King Welmar, beneficent ruler of Midgaard and guardian of the western realms, has placed his castle northeast of the city's walls. A many-roomed palace, it is heavily guarded by his elite officers, all of whom would sacrifice themselves to save their sire. Would-be thieves are strongly cautioned, as the king is stern and very strict about enforcing the laws of the realm.

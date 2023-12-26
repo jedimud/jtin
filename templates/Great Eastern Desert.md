@@ -1,0 +1,1 @@
+A vast, sprawling waste, the Eastern Desert lies east of the mountains of Midgaard. Its eastern border is the Dragon Sea, and many cities and realms also border this immense stretch of land. Adventurers should be wary: the desert is not a place for the faint of heart, and many a foolish person has met his or her doom due to careless exploration.

@@ -1,0 +1,1 @@
+1350 years ago, the grand city of Thalos stood gleaming over the Eastern Desert. Today, it is a crumbled ruin, ruled only by evil lamias and a dread monster. Adventurers daring to enter the desecrated city are warned to take precautions to protect themselves from the advances of the lamias, who delight in ambushing and waylaying travelers.

@@ -1,0 +1,1 @@
+Providing a welcomed rest from the heat and dangers of the Eastern Desert is Werith's Wayhouse. Formerly a legendary campaigner, Werith has retired to the genteel lifestyle of managing a wayhouse. Don't let his retirement fool you, though -- this man is still as strong as ever, and he takes a dim view of thieves and other miscreants in his common room. 

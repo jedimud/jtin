@@ -1,0 +1,1 @@
+North of Old Thalos an undead sorcerer noted for his ability to summon demons has built a tower. Filled with vile creatures under his control, few are brave enough to venture in, and those who have survived a journey through the tower speak of a dreadful sorceress and a great demon hidden deep within the tower.

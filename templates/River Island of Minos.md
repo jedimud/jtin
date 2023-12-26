@@ -1,0 +1,1 @@
+West of Midgaard and through the forests of Haon-Dor near the shores of thegreat ocean lies the River Island of Minos. A land of the dead, it is a mystical place, full of many unexplained occurrences. Whispered rumors speak of a strange, animal-like king ruling the land, and also of a mystical sea, into which many have disappeared...and none return. Beware!

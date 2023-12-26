@@ -1,0 +1,1 @@
+Southeast of Midgaard lies the Miden'Nir. A fell land in the foothills of the eastern mountains, it is inhabited only by goblins and the occasional wyvern. Travelers are warned to proceed with caution here, for the goblins delight in waylaying unwary adventurers, and the swamps to the south are said to be dangerous as well.

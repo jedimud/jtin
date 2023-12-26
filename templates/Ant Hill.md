@@ -1,0 +1,1 @@
+Somewhere to the east of Midgaard, there have been rumors of giant ants raiding kitchens, pantries, and nurseries. Rumor has it that some of these ants are large enough to carry off a full grown troll! So beware if you go searching for this hidden lair -- greater warriors than you have never returned!

@@ -1,0 +1,1 @@
+Nearly a suburb, the Shire is home to a peace-loving race known as halflings. The bloodthirsty youth of the realm have been coming here for 150 years to kill and plunder, but the halflings remain calm, smoking their pipeweed and occasionally venturing to nearby Midgaard for supplies. This area is essentially a newbie area, suitable for newer players and those of a lower level.
