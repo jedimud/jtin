@@ -3,7 +3,8 @@ __pycache__/
 
 # tintin
 *.tin
-!tins/*.tin
+!tins/**.tin
+!scratch/**.tin
 data/~*.xlsx
 .DS_Store
 
