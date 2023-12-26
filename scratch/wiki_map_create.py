@@ -1,12 +1,13 @@
 import os
 import re
+import json
 
 def normalize_zone_name(zone_name):
     if zone_name.lower().startswith("the "):
         zone_name = zone_name[3:]
     elif zone_name.startswith("The "):
         zone_name = zone_name[4:]
-    zone_name = zone_name.strip()
+    zone_name = zone_name.strip().lower()
     words = zone_name.split()
     normalized_words = [word.capitalize() if word.lower() not in {"the", "of", "and"} else word for word in words]
     return ' '.join(normalized_words)
@@ -23,6 +24,7 @@ def get_zone_names(directory_path):
         if os.path.isfile(filepath):
             zone_name, _ = os.path.splitext(os.path.basename(filename))
             zone_name = normalize_zone_name(zone_name)
+            print(zone_name)
             zones_list.append({"zone_name": zone_name, "filename": filename})
     return zones_list
 
@@ -34,6 +36,7 @@ def create_zone_files(zones_list, target_path):
             with open(template_path, 'r') as template_file:
                 file_content = template_file.read()
         else:
+            print("No template found: " + zone_name)
             file_content = "No description\n"
 
         file_name = f"Zone: {zone_name}.md"
@@ -76,6 +79,36 @@ def filter_child_zones(zone_list):
     filtered_zones = [zone for zone in zone_list if " - " not in zone["zone_name"]]
     return filtered_zones
 
+def load_npc_data(file_path):
+    with open(file_path, 'r') as json_file:
+        npc_data = json.load(json_file)
+    return npc_data
+
+def add_npcs_section(file_path, npc_data, zone_name):
+    with open(file_path, 'a') as file:
+        file.write("\n## NPCs\n\n")
+        file.write("| Name | Room | Drop |\n")
+        file.write("| :--- | :--- | :--- |\n")
+
+        if zone_name in npc_data:
+            for npc_entry in npc_data[zone_name]:
+                npc_name = npc_entry["npc_name"]
+                room_name = npc_entry["room_name"]
+                room_num = npc_entry["room_num"]
+
+                # Check if "loot" is not None before accessing its elements
+                loot_entry = npc_entry.get("loot")
+                if loot_entry:
+                    item_name = loot_entry.get("item", "")
+                    # Exclude entries where "item_name" contains "gold coins"
+                    if "gold coins" not in item_name:
+                        # Format the "Room" column as "{room_name}({room_num})"
+                        room_column = f"{room_name}({room_num})"
+                        file.write(f"| {npc_name} | {room_column} | {item_name} |\n")
+                else:
+                    # Leave the "Drop" column empty when "loot" is None
+                    file.write(f"| {npc_name} | {room_name}({room_num}) | |\n")
+
 def main(directory_path, target_path):
     os.makedirs(target_path, exist_ok=True)
 
@@ -84,6 +117,17 @@ def main(directory_path, target_path):
 
     create_zone_files(filtered_zones, target_path)
     append_connected_zones(filtered_zones, target_path)
+
+    # Load NPC data from JSON file
+    npc_data_file_path = "./data/wiki_map_npc_briefs.json"
+    npc_data = load_npc_data(npc_data_file_path)
+
+    # Add NPCs section to each file
+    for zone_info in filtered_zones:
+        zone_name = zone_info["zone_name"]
+        file_name = f"Zone: {zone_name}.md"
+        file_path = os.path.join(target_path, file_name.replace(" ", "-"))
+        add_npcs_section(file_path, npc_data, zone_name)
 
 if __name__ == "__main__":
     directory_path = "./maps"
