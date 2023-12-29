@@ -7,4 +7,3 @@ Can affect you as :
    Affects: MANA By 10
    Affects: MOVE_REGEN By -4
 Item slot: Ring
------

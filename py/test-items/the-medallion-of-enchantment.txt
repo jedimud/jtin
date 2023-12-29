@@ -10,4 +10,3 @@ Can affect you as :
 This item has a maximum level of 20.
 Item slot: Neck
 Item slot: Hold
------

@@ -6,4 +6,3 @@ Can affect you as :
    Affects: SAVE_ROD By -2
    Affects: SAVE_SPELL By -2
 Item slot: Neck
------

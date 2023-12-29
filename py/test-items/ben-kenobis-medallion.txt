@@ -6,4 +6,3 @@ Can affect you as :
    Affects: WIS By 3
    Affects: MANA By 15
 Item slot: Neck
------

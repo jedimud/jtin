@@ -6,7 +6,7 @@
     jt_dl_l_write_log_wrapper {} {%1};
 }
 
-#action {^You get %1 from the corpse of %2.$} {
+#action {^You get %1 from %2.$} {
     jt_dl_l_write_log_wrapper {%1} {%2};
 }
 
@@ -26,7 +26,7 @@
        
         #var itemname {%1};
         #replace {itemname} {,} {_};
-        #var npcname {%1};
+        #var npcname {%2};
         #replace {npcname} {,} {_};
 
         #line log logs/loot.log {$itemname,$npcname,$lroomarea,$lroomvnum};

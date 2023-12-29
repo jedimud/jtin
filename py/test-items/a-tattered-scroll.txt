@@ -15,4 +15,3 @@ The scroll contains the following spell:
 enchant weapon      
 
 
------

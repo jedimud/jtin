@@ -3,4 +3,3 @@ Item will give you following abilities:  NOBITS
 Item is: MAG !RENT UNIQUE 
 Weight: 10, Value: 25000, Rent: 0, Min. level: 0
 This POTION casts:  Level 15 of sanctuary remove poison cause serious
------

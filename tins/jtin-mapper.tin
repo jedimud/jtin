@@ -406,11 +406,11 @@
     #map goto 6656;
 }
 
-#action {^Alas, you cannot go that way...$} {
+#action {^You are too exhausted.$} {
     #map undo;
 }
 
-#action {^You are too exhausted.$} {
+#action {^You don't seem to have the proper key.$} {
     #map undo;
 }
 

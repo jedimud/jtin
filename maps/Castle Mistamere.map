@@ -261,7 +261,7 @@ T {SWIM} {<F21618C>~} {}
 
 
 
-
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3}{0}{<fff>}{}{Mid}{}{}{}{}{}{1.000}{}
 E {19203}{u}{u}{16}{0}{}{1.000}{}{0.00}
@@ -308,9 +308,17 @@ E {19226}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {19213}{se}{se}{6}{0}{}{1.000}{}{0.00}
 E {19208}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {19212}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19212}{0}{<fff>}{A hallway}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19210}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {19223}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {19214}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
+E {19221}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {19213}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19213}{0}{<fff>}{The southeastern tower}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19211}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+
+R {19214}{0}{<fff>}{The southwestern tower}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19212}{ne}{ne}{3}{0}{}{1.000}{}{0.00}
 
 R {19215}{0}{<fff>}{The courtyard}{ }{}{Castle Mistamere}{}{FIELD}{}{1.000}{}
 E {19239}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
@@ -337,16 +345,35 @@ E {19251}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {19219}{0}{<fff>}{A bedroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
 E {19208}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {19220}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19220}{0}{<fff>}{A bedroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19210}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {19225}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19221}{0}{<fff>}{The kitchen}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19212}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {19222}{0}{<fff>}{The pantry}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19223}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {19223}{0}{<fff>}{The hallway}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19224}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {19212}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {19222}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {19224}{0}{<fff>}{The hallway}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19245}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {19223}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {19244}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {19225}{0}{<fff>}{A utility room}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19211}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {19226}{0}{<fff>}{The hallway}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
 E {19227}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {19229}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {19211}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {19227}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19227}{0}{<fff>}{A storeroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19226}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
 R {19228}{0}{<fff>}{A storeroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
 E {19229}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
@@ -380,17 +407,68 @@ E {19236}{w}{w}{8}{0}{}{1.000}{}{0.00}
 R {19235}{0}{<fff>}{The northeastern tower}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
 E {19234}{sw}{sw}{12}{0}{}{1.000}{}{0.00}
 
-R {19236}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19236}{0}{<fff>}{The hallway}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19234}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {19243}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {19237}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {19218}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {19238}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19237}{0}{<fff>}{A bedroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19236}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
-R {19239}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19238}{0}{<fff>}{A bedroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19216}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {19240}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19239}{0}{<fff>}{A bedroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19215}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
 
-R {19242}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19240}{0}{<fff>}{A bedroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19216}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
-R {19251}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {19241}{0}{<fff>}{A bedroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19251}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+
+R {19242}{0}{<fff>}{A bedroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19215}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {19243}{0}{<fff>}{A utility room}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19236}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {19244}{0}{<fff>}{A library}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19224}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {19245}{0}{<fff>}{The hallway}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19248}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {19224}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {19246}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {19246}{0}{<fff>}{A storeroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19245}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {19247}{0}{<fff>}{A utility room}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19248}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+
+R {19248}{0}{<fff>}{The hallway}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19249}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {19245}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {19247}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {19249}{0}{<fff>}{The hallway}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19251}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {19250}{nw}{nw}{9}{0}{}{1.000}{}{0.00}
+E {19248}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {19250}{0}{<fff>}{The northwestern tower}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19249}{se}{se}{6}{0}{}{1.000}{}{0.00}
+
+R {19251}{0}{<fff>}{The hallway}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19218}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {19252}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {19241}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {19249}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {19252}{0}{<fff>}{A guardroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
+E {19251}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {19253}{0}{<fff>}{A storeroom}{ }{}{Castle Mistamere}{}{INSIDE}{}{1.000}{}
 E {19218}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}

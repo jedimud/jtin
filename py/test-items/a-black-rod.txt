@@ -1,0 +1,7 @@
+Object 'a black rod', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 4, Value: 2200, Rent: 550, Min. level: 0
+This WAND casts: color spray of level 20
+It has 3 maximum charges and 3 remaining.
+Item slot: Hold

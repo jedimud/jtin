@@ -6,4 +6,4 @@ AC-apply is 0
 Can affect you as :
    Affects: CON By 1
 Item slot: Earring
------
+

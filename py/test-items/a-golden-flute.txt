@@ -1,0 +1,9 @@
+Object 'a golden flute', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG UNIQUE 
+Weight: 4, Value: 1250, Rent: 312, Min. level: 0
+This STAFF casts: charm person of level 22
+It has 1 maximum charge and 1 remaining.
+Can affect you as :
+   Affects: INT By -3
+Item slot: Hold

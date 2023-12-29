@@ -2,4 +2,3 @@ Object 'a raft', Item type: BOAT
 Item will give you following abilities:  NOBITS 
 Item is: !RENT !DONATE UNIQUE ASSM 
 Weight: 75, Value: 400, Rent: 0, Min. level: 0
------

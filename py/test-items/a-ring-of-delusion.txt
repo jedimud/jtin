@@ -8,4 +8,3 @@ Can affect you as :
    Affects: HIT By 1
 Item slot: Ring
 Item slot: Hold
------

@@ -1,7 +1,7 @@
-Object 'a wooden stick', Item type: WAND
+Object 'a metal wand', Item type: WAND
 Item will give you following abilities:  NOBITS 
 Item is: MAG UNIQUE 
-Weight: 4, Value: 35000, Rent: 8000, Min. level: 0
-This WAND casts: fly of level 20
+Weight: 5, Value: 2000, Rent: 500, Min. level: 0
+This WAND casts: banishment of level 20
 It has 4 maximum charges and 4 remaining.
 Item slot: Hold

@@ -3,4 +3,3 @@ Item will give you following abilities:  NOBITS
 Item is: UNIQUE ASSM 
 Weight: 0, Value: 10000, Rent: 10000, Min. level: 0
 This POTION casts:  Level 30 of restore sanctuary
------

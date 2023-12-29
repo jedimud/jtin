@@ -326,7 +326,7 @@ class ItemParser():
         """It has 3 maximum charges and 3 remaining."""
         """It has 1 maximum charge and 1 remaining."""
         """It has 1 maximum charges and 1 remaining."""
-
+        
         max = line[7:]
         i = max.find(" maximum")
         item.charge_max = int(max[:i])

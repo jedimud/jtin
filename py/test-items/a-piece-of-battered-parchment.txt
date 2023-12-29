@@ -4,4 +4,3 @@ Item is: MAG !RENT !DONATE UNIQUE
 Weight: 1, Value: 4000, Rent: 0, Min. level: 0
 This SCROLL casts:  Level 0 of bless magical vestment
 Item slot: Hold
------

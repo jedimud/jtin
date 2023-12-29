@@ -5,4 +5,3 @@ Weight: 12, Value: 10000, Rent: 5000, Min. level: 0
 This STAFF casts: create water of level 5
 It has 10 maximum charges and 10 remaining.
 Item slot: Hold
------

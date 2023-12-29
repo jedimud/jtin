@@ -3,4 +3,3 @@ Item will give you following abilities:  NOBITS
 Item is: UNIQUE 
 Weight: 1, Value: 0, Rent: 0, Min. level: 0
 Item slot: Hold
------

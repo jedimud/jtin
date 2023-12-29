@@ -5,4 +5,3 @@ Weight: 1, Value: 1500, Rent: 750, Min. level: 5
 This WAND casts: slay of level 20
 It has 3 maximum charges and 3 remaining.
 Item slot: Hold
------

@@ -7,4 +7,3 @@ It has 1 maximum charge and 1 remaining.
 Can affect you as :
    Affects: DEX By -3
 Item slot: Hold
------

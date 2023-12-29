@@ -9,4 +9,3 @@ Item slot: Hold
 It looks rather strange!
 
 
------

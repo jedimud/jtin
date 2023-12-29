@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 8336
+I 8346
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -439,9 +439,47 @@ R {8336}{0}{<fff>}{The Brewery}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
 E {8337}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {8334}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
-R {8337}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {8337}{0}{<fff>}{The Foyer}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8336}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
+E {8338}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {8342}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {8347}{0}{<fff>}{The Well of Mimir}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+R {8338}{0}{<fff>}{Glitner}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8337}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {8340}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {8339}{0}{<fff>}{Breidabilk}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8340}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {8341}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+E {8343}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
+
+R {8340}{0}{<fff>}{Alfheim}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8338}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {8339}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {8341}{0}{<fff>}{Folkvang}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8342}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {8339}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+
+R {8342}{0}{<fff>}{The Hall of Tyr}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8337}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {8341}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {8343}{0}{<fff>}{Elvidnir}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8344}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {8344}{0}{<fff>}{Fensalir}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8343}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {8345}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {8345}{0}{<fff>}{Thruthheim}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8344}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {8346}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
+
+R {8346}{0}{<fff>}{Valaskjalf}{ }{}{Valhalla}{}{INSIDE}{}{1.000}{}
+E {8345}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {8347}{0}{<fff>}{The Well of Mimir}{%}{}{Valhalla}{}{INSIDE}{}{1.000}{}
 E {8312}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 E {8348}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 

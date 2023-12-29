@@ -9,4 +9,3 @@ Can affect you as :
    Affects: HITROLL By -1
 Item slot: Neck
 Item slot: Hold
------

@@ -7,4 +7,3 @@ Can affect you as :
    Affects: MANA By 6
    Affects: DAMROLL By 1
 Item slot: Ring
------

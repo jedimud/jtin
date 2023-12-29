@@ -2,4 +2,4 @@ Object 'a crumpled piece of paper', Item type: NOTE
 Item will give you following abilities:  NOBITS 
 Item is: UNIQUE 
 Weight: 1, Value: 1, Rent: 100000, Min. level: 0
------
+

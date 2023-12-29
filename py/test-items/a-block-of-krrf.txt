@@ -3,4 +3,3 @@ Item will give you following abilities:  NOBITS
 Item is: INVIS UNIQUE 
 Weight: 5, Value: 2000, Rent: 12, Min. level: 0
 It can hold approximately 50 units of liquid.
------

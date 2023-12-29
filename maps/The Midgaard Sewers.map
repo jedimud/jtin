@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 7320
+I 7341
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -261,15 +261,16 @@ T {SWIM} {<F21618C>~} {}
 
 
 
+R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
 R {3}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 E {7310}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
-R {4}{8}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+R {4}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
 E {3241}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {5}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
-R {5}{8}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+R {5}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
 E {4}{u}{u}{16}{0}{}{1.000}{}{0.00}
 E {7320}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
@@ -321,8 +322,27 @@ E {7308}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {7310}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
 E {3}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {7311}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {7311}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7310}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7312}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7312}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7311}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7313}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7313}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7314}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {7312}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7314}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7315}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
+E {7313}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {7315}{0}{<fff>}{The hidden chamber}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7346}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {7314}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {7316}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
 E {7331}{d}{d}{32}{0}{}{1.000}{}{0.00}
@@ -442,3 +462,26 @@ E {7342}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {7344}{0}{<fff>}{The sewers under Midgaard}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
 E {7343}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {7330}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {7345}{0}{<fff>}{The arcane storeroom}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7346}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {7346}{0}{<fff>}{a chamber deep underground}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7345}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {7347}{s}{s}{4}{0}{}{1.000}{}{0.00}
+E {7315}{u}{u}{16}{0}{}{1.000}{}{0.00}
+
+R {7347}{0}{<fff>}{A chamber deep underground}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7348}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {7346}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {7349}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {7348}{0}{<fff>}{A tiny private chamber}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7347}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
+
+R {7349}{0}{<fff>}{A large chamber deep underground}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7350}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
+E {7347}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {7350}{0}{<fff>}{The Gate Room}{ }{}{The Midgaard Sewers}{}{INSIDE}{}{1.000}{}
+E {7349}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}

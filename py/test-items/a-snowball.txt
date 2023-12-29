@@ -5,4 +5,3 @@ Weight: 1, Value: 750, Rent: 400, Min. level: 0
 This WAND casts: chill touch of level 15
 It has 1 maximum charge and 1 remaining.
 Item slot: Hold
------

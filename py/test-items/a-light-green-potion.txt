@@ -3,4 +3,3 @@ Item will give you following abilities:  NOBITS
 Item is: GLOW HUM MAG BLESS UNIQUE 
 Weight: 2, Value: 5000, Rent: 2500, Min. level: 0
 This POTION casts:  Level 20 of rejuvenate remove curse
------

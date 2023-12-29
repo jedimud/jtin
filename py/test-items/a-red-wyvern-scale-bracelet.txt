@@ -7,4 +7,3 @@ Can affect you as :
    Affects: HITROLL By 2
    Affects: DAMROLL By 1
 Item slot: Wrist
------

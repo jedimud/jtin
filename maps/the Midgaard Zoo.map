@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 9056
+I 3001
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -263,7 +263,7 @@ T {SWIM} {<F21618C>~} {}
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
-R {3001}{0}{<fff>}{}{ }{}{}{}{INSIDE}{}{1.000}{}
+R {3001}{0}{<fff>}{}{Mid}{}{}{}{CITY}{}{1.000}{}
 
 R {9000}{0}{<fff>}{Deadly Creatures Exhibit}{ }{}{the Midgaard Zoo}{}{INSIDE}{}{1.000}{}
 E {9086}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
@@ -348,7 +348,7 @@ R {9056}{0}{<fff>}{Midgaard Zoo}{M}{}{the Midgaard Zoo}{}{CITY}{}{1.000}{}
 E {9057}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {9058}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {9059}{w}{w}{8}{0}{}{1.000}{}{0.00}
-E {3001}{d}{d}{32}{0}{}{1.000}{}{0.00}
+E {3001}{d}{jt_m_link_action {down} {Midgaard} {3001}}{32}{0}{}{1.000}{}{0.00}
 
 R {9057}{0}{<fff>}{Petting Zoo}{ }{}{the Midgaard Zoo}{}{CITY}{}{1.000}{}
 E {9056}{w}{w}{8}{0}{}{1.000}{}{0.00}

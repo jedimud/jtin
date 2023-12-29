@@ -2562,6 +2562,56 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_black_rod(self):
+        actual = self.read_item_from_file("a-black-rod")
+
+        item = Item()
+        item.name = "a black rod"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 4
+        item.value = 2200
+        item.rent = 550
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.COLOR_SPRAY)
+        item.charge_max = 3
+        item.charge_remain = 3
+        
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__a_metal_wand(self):
+        actual = self.read_item_from_file("a-metal-wand")
+
+        item = Item()
+        item.name = "a metal wand"
+        item.type = ItemType.WAND
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 5
+        item.value = 2000
+        item.rent = 500
+        item.min_level = 0
+
+        item.spell_level = 20
+        item.spells.append(ItemSpell.BANISHMENT)
+        item.charge_max = 4
+        item.charge_remain = 4
+        
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

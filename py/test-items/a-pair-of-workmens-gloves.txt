@@ -7,4 +7,3 @@ Can affect you as :
    Affects: SAVE_PETRI By -1
    Affects: CON By 1
 Item slot: Hands
------

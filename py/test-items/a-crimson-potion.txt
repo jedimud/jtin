@@ -6,4 +6,3 @@ This POTION casts:  Level 0 of armor bless magical vestment
 Can affect you as :
    Affects: ARMOR By -4
 Item slot: Hold
------

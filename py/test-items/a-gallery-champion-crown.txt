@@ -7,4 +7,3 @@ Can affect you as :
    Affects: HITROLL By 1
    Affects: HIT_REGEN By 10
 Item slot: Head
------

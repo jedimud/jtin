@@ -2,4 +2,3 @@ Object 'a small leaflet', Item type: TRASH
 Item will give you following abilities:  NOBITS 
 Item is: !DONATE UNIQUE 
 Weight: 1, Value: 1, Rent: 0, Min. level: 0
------

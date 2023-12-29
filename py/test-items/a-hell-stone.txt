@@ -5,4 +5,3 @@ Weight: 10, Value: 10, Rent: 5000, Min. level: 0
 This STAFF casts: curse of level 20
 It has 1 maximum charges and 1 remaining.
 Item slot: Hold
------

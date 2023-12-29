@@ -7,4 +7,4 @@ Can affect you as :
    Affects: STR By 1
    Affects: CHARISMA By 1
 Item slot: Waist
------
+

@@ -4,4 +4,3 @@ Item is: MAG UNIQUE ASSM
 Weight: 1, Value: 2000, Rent: 250, Min. level: 0
 This SCROLL casts:  Level 12 of identify
 Item slot: Hold
------

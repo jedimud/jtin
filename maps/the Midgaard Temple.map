@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 100
+I 167
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -556,7 +556,7 @@ E {168}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {152}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
 R {166}{0}{<fff>}{A secret passage!}{ }{}{the Midgaard Temple}{}{CITY}{}{1.000}{}
-E {3904}{n}{jt_m_link_action {north} {the trails around Midgaard} {3904}}{1}{0}{}{1.000}{}{0.00}
+E {3904}{n}{jt_m_link_action {jt_m_open_door {north}} {the trails around Midgaard} {3904}}{1}{0}{}{1.000}{}{0.00}
 E {167}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
 R {167}{0}{<fff>}{A small stone room}{ }{}{the Midgaard Temple}{}{FIELD}{}{1.000}{}

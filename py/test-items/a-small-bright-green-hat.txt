@@ -7,4 +7,3 @@ Can affect you as :
    Affects: MOVE_REGEN By 5
    Affects: HEIGHT By 20
 Item slot: Head
------

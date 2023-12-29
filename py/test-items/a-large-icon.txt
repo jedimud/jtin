@@ -5,4 +5,3 @@ Weight: 10, Value: 5000, Rent: 1250, Min. level: 0
 This WAND casts: magic missile of level 35
 It has 10 maximum charges and 10 remaining.
 Item slot: Hold
------

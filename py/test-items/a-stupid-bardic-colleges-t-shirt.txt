@@ -6,4 +6,3 @@ Can affect you as :
    Affects: MANA_REGEN By 5
    Affects: MOVE By -99
 Item slot: On Body
------

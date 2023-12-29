@@ -6,4 +6,3 @@ It can hold approximately 500 units.
 Can affect you as :
    Affects: HIT By 50
    Affects: MANA By 50
------

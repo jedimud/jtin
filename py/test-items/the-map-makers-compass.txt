@@ -6,4 +6,3 @@ Can affect you as :
    Affects: MOVE By 15
    Affects: AGE By 5
 Item slot: Light
------

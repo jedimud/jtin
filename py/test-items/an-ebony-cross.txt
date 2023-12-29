@@ -5,4 +5,4 @@ Weight: 0, Value: 3000, Rent: 1500, Min. level: 0
 This WAND casts: dispel evil of level 15
 It has 4 maximum charges and 4 remaining.
 Item slot: Hold
------
+

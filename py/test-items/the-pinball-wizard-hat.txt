@@ -7,4 +7,3 @@ Can affect you as :
    Affects: MANA By 8
    Affects: INT By 1
 Item slot: Head
------

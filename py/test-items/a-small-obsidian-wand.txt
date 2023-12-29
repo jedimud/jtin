@@ -5,4 +5,3 @@ Weight: 2, Value: 1500, Rent: 750, Min. level: 0
 This WAND casts: cause light of level 20
 It has 2 maximum charges and 2 remaining.
 Item slot: Hold
------

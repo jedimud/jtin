@@ -6,4 +6,3 @@ This WAND casts: rejuvenate of level 5
 It has 3 maximum charges and 3 remaining.
 Item slot: About Body
 Item slot: Hold
------

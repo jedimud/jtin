@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 14302
+I 14344
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -530,6 +530,16 @@ E {14370}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {14370}{0}{<fff>}{A tranquil garden}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
 E {14369}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {14371}{0}{<fff>}{In a surreal hallway}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14372}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14372}{0}{<fff>}{In a surreal hallway}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14371}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {14373}{s}{s}{4}{0}{}{1.000}{}{0.00}
+
+R {14373}{0}{<fff>}{In a surreal hallway}{ }{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
+E {14372}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {14399}{16384}{<faa>}{Lemmings Leap}{<faa>DT}{}{Refuge and Asylum}{}{INSIDE}{}{1.000}{}
 E {14302}{e}{e}{2}{0}{}{1.000}{}{0.00}

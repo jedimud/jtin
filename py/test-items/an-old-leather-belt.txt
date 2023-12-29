@@ -6,4 +6,3 @@ Can affect you as :
    Affects: STR By 1
    Affects: WIS By 1
 Item slot: Waist
------

@@ -6,4 +6,3 @@ AC-apply is 5
 Can affect you as :
    Affects: SAVE_SPELL By -2
 Item slot: Shield
------

@@ -6,6 +6,7 @@ class ItemSpell(Enum):
 
     AID = "aid"
     ARMOR = "armor"
+    BANISHMENT = "banishment"
     BLESS = "bless"
     BLINDNESS = "blindness"
     CALL_LIGHTNING = "call lightning"
@@ -16,6 +17,7 @@ class ItemSpell(Enum):
     CHARM_PERSON = "charm person"
     CHILL_TOUCH = "chill touch"
     CLONE = "clone"
+    COLOR_SPRAY = "color spray"
     CONTROL_WEATHER = "control weather"
     CREATE_WATER = "create water"
     CREATE_LIGHT = "create light"

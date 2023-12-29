@@ -7,4 +7,3 @@ Can affect you as :
    Affects: MANA By 20
    Affects: STR By -1
 Item slot: On Body
------

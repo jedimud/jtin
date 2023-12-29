@@ -6,4 +6,3 @@ It can hold approximately 3 units of liquid.
 Can affect you as :
    Affects: WEIGHT By -10
 Item slot: Hold
------

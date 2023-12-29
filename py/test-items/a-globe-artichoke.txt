@@ -2,4 +2,3 @@ Object 'a globe artichoke', Item type: FOOD
 Item will give you following abilities:  NOBITS 
 Item is: NOBITS 
 Weight: 1, Value: 30, Rent: 30, Min. level: 0
------

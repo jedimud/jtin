@@ -4,4 +4,3 @@ Item is: MAG UNIQUE
 Weight: 1, Value: 2500, Rent: 1250, Min. level: 0
 This SCROLL casts:  Level 20 of strength aid blindness
 Item slot: Hold
------

@@ -6,4 +6,3 @@ AC-apply is 2
 Can affect you as :
    Affects: HITROLL By -1
 Item slot: Arms
------

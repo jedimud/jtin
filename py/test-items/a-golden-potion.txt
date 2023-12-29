@@ -5,4 +5,3 @@ Weight: 1, Value: 100, Rent: 50, Min. level: 0
 This POTION casts:  Level 12 of heal
 This item has a maximum level of 10.
 Item slot: Hold
------
