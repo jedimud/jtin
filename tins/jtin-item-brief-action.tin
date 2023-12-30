@@ -31,6 +31,12 @@
                 #elseif {"$item_var" == " key"} {
                     #line ignore #show <fbc>$item[1] <acf>$item[3]<099>;
                 };
+                #elseif {"$item_var" == " device"} {
+                    #line ignore #show <fbc>$item[1] <acf>$item[3]<099>;
+                };
+                #elseif {"$item_var" == " device(hold)"} {
+                    #line ignore #show <fbc>$item[1] <acf>$item[3]<099>;
+                };
                 #else {
                     #line ignore #show <afc>$item[1] <acf>$item[3] <ebe>$item[7]<feb>$item[8]g<099>;
                 }
