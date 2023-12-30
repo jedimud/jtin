@@ -15192,3 +15192,96 @@ Item is: UNIQUE
 Weight: 1, Value: 20, Rent: 10, Min. level: 0
 It can hold approximately 75 units.
 Item slot: Hold
+-----
+Object 'a pair of spandex shorts', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !NEUTRAL LIMITED UNIQUE 
+Weight: 1, Value: 5000, Rent: 750, Min. level: 5
+AC-apply is 4
+Can affect you as :
+   Affects: WEIGHT By -3
+   Affects: MOVE_REGEN By 2
+Item slot: Waist
+-----
+Object 'boots of stealth', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !GOOD !NEUTRAL !MAGE !CLER !WAR !PAL !APAL !JEDI !SOHEI LIMITED UNIQUE 
+Weight: 2, Value: 7500, Rent: 1000, Min. level: 5
+AC-apply is -1
+Can affect you as :
+   Affects: DEX By 2
+   Affects: MOVE_REGEN By 5
+Item slot: Feet
+-----
+Object 'a black tunic', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 6, Value: 5000, Rent: 250, Min. level: 0
+AC-apply is 18
+Can affect you as :
+   Affects: CHARISMA By -4
+Item slot: On Body
+-----
+Object 'the Innkeeper's Diary', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 10, Rent: 5, Min. level: 0
+-----
+Object 'a loaf of wheat bread', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 2, Min. level: 0
+-----
+Object 'a crusty roll', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 4, Value: 5, Rent: 2, Min. level: 0
+-----
+Object 'a badly burned manuscript', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 10, Rent: 250, Min. level: 0
+Item slot: Hold
+-----
+Object 'a ruby red potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3000, Rent: 1000, Min. level: 0
+This POTION casts:  Level 20 of detect invisibility detect magic
+-----
+Object 'a long sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !DROP !EVIL !MAGE !CLER !THF !NINJA !JEDI !RANGER !BARD UNIQUE 
+Weight: 15, Value: 25000, Rent: 5000, Min. level: 5
+Damage Dice is '2D7' for an average per-round damage of 8.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: STR By 1
+Item slot: Wield
+-----
+Object 'an azure vial', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 3500, Rent: 1250, Min. level: 0
+This POTION casts:  Level 20 of infravision sense life
+-----
+Object 'a lumpy grey potion', Item type: POTION
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1000, Rent: 500, Min. level: 0
+This POTION casts:  Level 20 of armor
+-----
+Object 'a grubby piece of parchment', Item type: TRASH
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 5, Rent: 2, Min. level: 0
+-----
+Object 'a bronze belt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS !MAGE !THF !NINJA UNIQUE 
+Weight: 5, Value: 10000, Rent: 2050, Min. level: 0
+AC-apply is 4
+Can affect you as :
+   Affects: STR By -1
+   Affects: HITROLL By 1
+Item slot: Waist

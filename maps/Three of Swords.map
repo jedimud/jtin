@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 13313
+I 13345
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -457,10 +457,10 @@ E {13344}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13345}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13342}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13344}{0}{<fff>}{The Mountain Tavern}{ }{}{Three of Swords}{}{INSIDE}{}{1.000}{}
+R {13344}{0}{<fff>}{The Mountain Tavern}{#}{}{Three of Swords}{}{INSIDE}{}{1.000}{}
 E {13343}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {13345}{0}{<fff>}{Jared's General Store}{ }{}{Three of Swords}{}{INSIDE}{}{1.000}{}
+R {13345}{0}{<fff>}{Jared's General Store}{#}{}{Three of Swords}{}{INSIDE}{}{1.000}{}
 E {13343}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {13346}{0}{<fff>}{Main Road}{ }{}{Three of Swords}{}{CITY}{}{1.000}{}
@@ -482,7 +482,7 @@ E {13351}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13348}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13350}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13350}{0}{<fff>}{Caleb and Emma's Market}{ }{}{Three of Swords}{}{INSIDE}{}{1.000}{}
+R {13350}{0}{<fff>}{Caleb and Emma's Market}{#}{}{Three of Swords}{}{INSIDE}{}{1.000}{}
 E {13349}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {13351}{0}{<fff>}{Small Road}{ }{}{Three of Swords}{}{CITY}{}{1.000}{}
@@ -497,7 +497,7 @@ R {13353}{0}{<fff>}{Small Road}{ }{}{Three of Swords}{}{CITY}{}{1.000}{}
 E {13348}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13354}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 
-R {13354}{0}{<fff>}{Chloe's Cottage}{ }{}{Three of Swords}{}{INSIDE}{}{1.000}{}
+R {13354}{0}{<fff>}{Chloe's Cottage}{#}{}{Three of Swords}{}{INSIDE}{}{1.000}{}
 E {13353}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 
 R {13355}{0}{<fff>}{Main Road}{ }{}{Three of Swords}{}{CITY}{}{1.000}{}
@@ -512,7 +512,7 @@ E {13392}{n}{jt_m_open_door {north}}{1}{0}{}{1.000}{}{0.00}
 E {13355}{s}{jt_m_open_door {south}}{4}{0}{}{1.000}{}{0.00}
 E {13358}{u}{u}{16}{0}{}{1.000}{}{0.00}
 
-R {13357}{0}{<fff>}{Molly's Bakery}{ }{}{Three of Swords}{}{INSIDE}{}{1.000}{}
+R {13357}{0}{<fff>}{Molly's Bakery}{#}{}{Three of Swords}{}{INSIDE}{}{1.000}{}
 E {13356}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
 R {13358}{0}{<fff>}{The Sleeping Loft}{ }{}{Three of Swords}{}{INSIDE}{}{1.000}{}
