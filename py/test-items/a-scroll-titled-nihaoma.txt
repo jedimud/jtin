@@ -1,0 +1,6 @@
+Object 'a scroll titled Nihaoma', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 4, Value: 500, Rent: 200, Min. level: 0
+This SCROLL casts:  Level 10 of cause light cause light create food
+Item slot: Hold
