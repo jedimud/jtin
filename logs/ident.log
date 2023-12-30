@@ -15285,3 +15285,109 @@ Can affect you as :
    Affects: STR By -1
    Affects: HITROLL By 1
 Item slot: Waist
+-----
+Object 'a very large sack', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 20, Rent: 3, Min. level: 0
+It can hold approximately 80 units.
+Item slot: Hold
+-----
+Object 'a mystery bag', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 50000, Rent: 10, Min. level: 0
+It can hold approximately 40 units.
+Item slot: Hold
+-----
+Object 'Water Containment Unit', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 60, Value: 300, Rent: 200, Min. level: 0
+It can hold approximately 50 units of liquid.
+Item slot: Hold
+-----
+Object 'a pallie', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 35, Rent: 5, Min. level: 0
+-----
+Object 'a bowl of womprat stew', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 60, Rent: 5, Min. level: 0
+-----
+Object 'a light pen', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 750, Rent: 1000, Min. level: 0
+Item slot: Light
+-----
+Object 'a nylon backpack', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 300, Rent: 100, Min. level: 0
+It can hold approximately 100 units.
+Item slot: About Body
+-----
+Object 'a Tatooine flatbread', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 40, Rent: 5, Min. level: 0
+-----
+Object 'a handful of jerked bantha meat', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 55, Rent: 5, Min. level: 0
+-----
+Object 'a bloddle', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 45, Rent: 5, Min. level: 0
+-----
+Object 'a scroll titled Nihaoma', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 4, Value: 500, Rent: 200, Min. level: 0
+This SCROLL casts:  Level 10 of cause light cause light create food
+Item slot: Hold
+-----
+Object 'a wooden chest', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 40, Value: 100, Rent: 60, Min. level: 0
+It can hold approximately 100 units.
+-----
+Object 'the Butler's key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 3, Value: 0, Rent: 0, Min. level: 0
+Item slot: Hold
+-----
+Object 'a human skull helmet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE UNIQUE 
+Weight: 3, Value: 1250, Rent: 250, Min. level: 0
+AC-apply is 8
+Item slot: Head
+-----
+Object 'a steel bastard sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 16, Value: 5000, Rent: 1800, Min. level: 0
+Damage Dice is '2D7' for an average per-round damage of 8.0.
+Can affect you as :
+   Affects: HITROLL By -1
+Item slot: Wield
+-----
+Object 'a thick leather skin', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE UNIQUE 
+Weight: 10, Value: 500, Rent: 100, Min. level: 0
+AC-apply is 6
+Item slot: On Body
+-----
+Object 'a slender golden wedding ring', Item type: DEVICE
+Item will give you following abilities:  NOBITS 
+Item is: GLOW BLESS UNIQUE 
+Weight: 1, Value: 500, Rent: 500, Min. level: 0

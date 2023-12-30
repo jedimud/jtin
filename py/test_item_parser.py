@@ -2612,6 +2612,30 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+    def test_parse_file__a_scroll_title_nihaoma(self):
+        actual = self.read_item_from_file("a-scroll-titled-nihaoma")
+
+        item = Item()
+        item.name = "a scroll titled Nihaoma"
+        item.type = ItemType.SCROLL
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 4
+        item.value = 500
+        item.rent = 200
+        item.min_level = 0
+
+        item.spell_level = 10
+        item.spells.append(ItemSpell.CAUSE_LIGHT)
+        item.spells.append(ItemSpell.CAUSE_LIGHT)
+        item.spells.append(ItemSpell.CREATE_FOOD)
+        
+        item.slots.append(ItemSlot.HOLD)
+
+        self.assert_equals(item, actual)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)
