@@ -15391,3 +15391,37 @@ Object 'a slender golden wedding ring', Item type: DEVICE
 Item will give you following abilities:  NOBITS 
 Item is: GLOW BLESS UNIQUE 
 Weight: 1, Value: 500, Rent: 500, Min. level: 0
+-----
+Object 'a battered iron breast plate', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 125, Value: 36000, Rent: 7200, Min. level: 0
+AC-apply is 30
+Can affect you as :
+   Affects: HITROLL By -4
+Item slot: On Body
+-----
+Object 'a golden key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: !RENT !DONATE UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a two-handed dwarven axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 5, Value: 2500, Rent: 900, Min. level: 5
+Damage Dice is '2D7' for an average per-round damage of 8.0.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: STR By 1
+Item slot: Wield
+-----
+Object 'a pair of striped stockings', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG LIMITED UNIQUE 
+Weight: 5, Value: 100000, Rent: 1250, Min. level: 0
+AC-apply is 20
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: MOVE_REGEN By 5
+Item slot: Legs

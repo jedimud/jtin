@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 17802
+I 21310
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -263,111 +263,10 @@ T {SWIM} {<F21618C>~} {}
 
 R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 
-R {3237}{0}{<fff>}{}{SoM}{}{}{}{INSIDE}{}{1.000}{}
+R {13004}{0}{<fff>}{}{HTS}{}{}{}{FOREST}{}{1.000}{}
 
-R {3239}{0}{<fff>}{}{SoM}{}{}{}{CITY}{}{1.000}{}
+R {21310}{0}{<fff>}{An Overgrown Path in the Shadow Grove}{ }{}{The Shadows}{}{FOREST}{}{1.000}{}
+E {21311}{e}{e}{2}{0}{}{1.000}{}{0.00}
+E {13004}{s}{jt_m_link_action {south} {the High Tower of Sorcery} {13004}}{4}{0}{}{1.000}{}{0.00}
 
-R {3240}{0}{<fff>}{}{SoM}{}{}{}{CITY}{}{1.000}{}
-
-R {3241}{0}{<fff>}{}{SoM}{}{}{}{CITY}{}{1.000}{}
-
-R {17800}{0}{<fff>}{The Entrance to The Jade Manor}{ }{}{the Wedding Shops}{}{CITY}{}{1.000}{}
-E {17801}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {3239}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3239}}{4}{0}{}{1.000}{}{0.00}
-
-R {17801}{0}{<fff>}{The Atrium}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17804}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
-E {17800}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17803}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
-E {17802}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
-
-R {17802}{0}{<fff>}{The Manager's Office}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17801}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
-
-R {17803}{0}{<fff>}{The Entrance to the Golden Terrace}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17801}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
-E {17806}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {17804}{0}{<fff>}{The Entrance to the Azure Room}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17814}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17816}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17801}{u}{jt_m_open_door {up}}{16}{0}{}{1.000}{}{0.00}
-E {17813}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {17805}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17806}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17808}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {17806}{0}{<fff>}{The Northern Dance Floor}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17807}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17803}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17809}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17805}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {17807}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17810}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17806}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {17808}{0}{<fff>}{The Food Service Table}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17809}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17805}{n}{n}{1}{0}{}{1.000}{}{0.00}
-
-R {17809}{0}{<fff>}{The Southern Dance Floor}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17810}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17806}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17811}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17812}{u}{u}{16}{0}{}{1.000}{}{0.00}
-E {17808}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {17810}{0}{<fff>}{The Bar}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17807}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17809}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {17811}{0}{<fff>}{The Balcony}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17809}{n}{n}{1}{0}{}{1.000}{}{0.00}
-
-R {17812}{0}{<fff>}{The Bandstand}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17809}{d}{d}{32}{0}{}{1.000}{}{0.00}
-
-R {17813}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17804}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17815}{n}{n}{1}{0}{}{1.000}{}{0.00}
-
-R {17814}{0}{<fff>}{The Seating Area}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17817}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17804}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {17815}{0}{<fff>}{The Bar}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17816}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17813}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {17816}{0}{<fff>}{The Dance Floor}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17817}{e}{e}{2}{0}{}{1.000}{}{0.00}
-E {17818}{n}{n}{1}{0}{}{1.000}{}{0.00}
-E {17804}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17815}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {17817}{0}{<fff>}{The Buffet Table}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17814}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {17816}{w}{w}{8}{0}{}{1.000}{}{0.00}
-
-R {17818}{0}{<fff>}{The DJ's Stand}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {17816}{s}{s}{4}{0}{}{1.000}{}{0.00}
-
-R {17819}{0}{<fff>}{The Bridal Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3240}{w}{jt_m_link_action {west} {the southern part of Midgaard} {3240}}{8}{0}{}{1.000}{}{0.00}
-
-R {17820}{0}{<fff>}{The Suitmakers}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3241}{w}{jt_m_link_action {west} {the southern part of Midgaard} {3241}}{8}{0}{}{1.000}{}{0.00}
-
-R {17821}{0}{<fff>}{The Jeweler's Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3240}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3240}}{1}{0}{}{1.000}{}{0.00}
-
-R {17822}{0}{<fff>}{The Jeweler's Shop}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3239}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3239}}{1}{0}{}{1.000}{}{0.00}
-
-R {17823}{0}{<fff>}{The Marriage Registry}{#}{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3237}{n}{jt_m_link_action {north} {the southern part of Midgaard} {3237}}{1}{0}{}{1.000}{}{0.00}
-
-R {17824}{0}{<fff>}{The Immigration Office}{ }{}{the Wedding Shops}{}{INSIDE}{}{1.000}{}
-E {3237}{s}{jt_m_link_action {south} {the southern part of Midgaard} {3237}}{4}{0}{}{1.000}{}{0.00}
+R {21311}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
