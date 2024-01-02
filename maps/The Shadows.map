@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -269,4 +269,8 @@ R {21310}{0}{<fff>}{An Overgrown Path in the Shadow Grove}{ }{}{The Shadows}{}{F
 E {21311}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {13004}{s}{jt_m_link_action {south} {the High Tower of Sorcery} {13004}}{4}{0}{}{1.000}{}{0.00}
 
-R {21311}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}
+R {21311}{0}{<fff>}{An Interminable Stretch of Deadwood Forest}{ }{}{The Shadows}{}{FOREST}{}{1.000}{}
+E {21312}{n}{n}{1}{0}{}{1.000}{}{0.00}
+E {21310}{w}{w}{8}{0}{}{1.000}{}{0.00}
+
+R {21312}{0}{<efa>}{}{ }{}{}{}{}{}{1.000}{}

@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 13011
+I 13164
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -378,10 +378,10 @@ R {13017}{0}{<fff>}{Dark Hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.
 E {13021}{d}{jt_m_open_door {down}}{32}{0}{}{1.000}{}{0.00}
 E {13014}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {13018}{0}{<fff>}{Mages Tavern}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+R {13018}{0}{<fff>}{Mages Tavern}{#}{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13014}{w}{w}{8}{0}{}{1.000}{}{0.00}
 
-R {13019}{0}{<fff>}{The Magic Shop}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
+R {13019}{0}{<fff>}{The Magic Shop}{#}{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13014}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {13020}{0}{<fff>}{The Kitchen}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
@@ -616,7 +616,6 @@ R {13077}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000
 E {13076}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13078}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {13079}{w}{jt_m_open_door {west}}{8}{0}{}{1.000}{}{0.00}
-E {2}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {13078}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13077}{n}{n}{1}{0}{}{1.000}{}{0.00}
@@ -630,7 +629,6 @@ E {13081}{s}{s}{4}{0}{}{1.000}{}{0.00}
 R {13080}{0}{<fff>}{A hallway}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13078}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {13083}{s}{s}{4}{0}{}{1.000}{}{0.00}
-E {4}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {13081}{0}{<fff>}{A very hot room}{ }{}{the High Tower of Sorcery}{}{INSIDE}{}{1.000}{}
 E {13078}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
