@@ -736,7 +736,7 @@ E {3397}{e}{jt_m_open_door {east}}{2}{0}{}{1.000}{}{0.00}
 
 R {3401}{0}{<fff>}{In the Frozen Tunnel}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
 E {3402}{d}{d}{32}{0}{}{1.000}{}{0.00}
-E {653}{sw}{jt_m_link_action {jt_m_open_door {southwest}} {Arctica} {3401}}{12}{0}{}{1.000}{}{0.00}
+E {653}{sw}{jt_m_link_action {open southw;southwest} {Arctica} {653}}{12}{0}{}{1.000}{}{0.00}
 
 R {3402}{0}{<fff>}{Sloping Passage}{ }{}{Mahn-Tor}{}{INSIDE}{}{1.000}{}
 E {3403}{e}{e}{2}{0}{}{1.000}{}{0.00}

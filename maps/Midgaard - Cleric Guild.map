@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} {}
+L {UNICODE GRAPHICS} {NO DIAGONAL} { }
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -269,9 +269,9 @@ R {3060}{0}{<fff>}{Entrance to the Clerics' Guild}{ }{}{Midgaard}{}{INSIDE}{}{1.
 E {3100}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3020}{s}{jt_m_link_action {south} {Midgaard} {3020}}{4}{0}{}{1.000}{}{0.00}
 
-R {3061}{0}{<fff>}{Cleric's Inner Sanctum}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
+R {3061}{0}{<fff>}{Cleric's Inner Sanctum}{M}{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3100}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
-R {3100}{0}{<fff>}{The Clerics' Bar}{ }{}{Midgaard}{}{INSIDE}{}{1.000}{}
+R {3100}{0}{<fff>}{The Clerics' Bar}{#}{}{Midgaard}{}{INSIDE}{}{1.000}{}
 E {3061}{n}{n}{1}{0}{}{1.000}{}{0.00}
 E {3060}{s}{s}{4}{0}{}{1.000}{}{0.00}

@@ -14,11 +14,11 @@ CROOMS <178>
 CSYMBOLS <128>
 CUSER <258>
 
-F 8206
+F 8207
 
 G 0
 
-I 5312
+I 5319
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -266,6 +266,9 @@ R {1}{0}{}{}{ }{}{}{}{}{}{1.000}{}
 R {2}{4104}{}{}{ }{}{}{}{INSIDE}{}{1.000}{}
 E {5336}{s}{s}{4}{0}{}{1.000}{}{0.00}
 E {5342}{n}{n}{1}{0}{}{1.000}{}{0.00}
+
+R {3}{0}{}{}{ }{}{}{}{}{}{1.000}{}
+E {5319}{d}{d}{32}{0}{}{1.000}{}{0.00}
 
 R {5035}{0}{<fff>}{}{GED}{}{}{}{FIELD}{}{1.000}{}
 

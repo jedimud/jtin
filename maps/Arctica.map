@@ -503,7 +503,7 @@ E {651}{e}{e}{2}{0}{}{1.000}{}{0.00}
 E {653}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {653}{0}{<fff>}{Dead End}{ }{}{Arctica}{}{FOREST}{}{1.000}{}
-E {3401}{ne}{jt_m_link_action {northeast} {Mahn-Tor} {3401}}{3}{0}{}{1.000}{}{0.00}
+E {3401}{ne}{jt_m_link_action {open northe;northeast} {Mahn-Tor} {3401}}{3}{0}{}{1.000}{}{0.00}
 E {652}{s}{s}{4}{0}{}{1.000}{}{0.00}
 
 R {654}{0}{<fff>}{Glass Maze}{ }{}{Arctica}{}{FOREST}{}{1.000}{}
