@@ -18,7 +18,7 @@ F 8207
 
 G 0
 
-I 14669
+I 14638
 
 L {ASCII NESW LINE} {NO EXITS} {x}
 L {ASCII NESW LINE} {N} {o}
@@ -216,7 +216,7 @@ L {MUDFONT CURVED} {N E} {\u2818}
 L {MUDFONT CURVED} {S E} {\u28A0}
 L {MUDFONT CURVED} {S W} {\u2844}
 L {MUDFONT CURVED} {N W} {\u2803}
-L {UNICODE GRAPHICS} {NO DIAGONAL} { }
+L {UNICODE GRAPHICS} {NO DIAGONAL} {}
 L {UNICODE GRAPHICS} {SE} {\u2198}
 L {UNICODE GRAPHICS} {NE} {\u2197}
 L {UNICODE GRAPHICS} {SE NE} {>}
@@ -628,8 +628,8 @@ E {14675}{d}{d}{32}{0}{}{1.000}{}{0.00}
 E {14627}{e}{e}{2}{0}{}{1.000}{}{0.00}
 
 R {14675}{0}{<fff>}{Under the Moat}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
-E {15}{n}{#delay 0 {n;#map goto 14638;}}{1}{0}{}{1.000}{}{0.00}
 E {14674}{u}{u}{16}{0}{}{1.000}{}{0.00}
+E {14638}{n}{n}{1}{0}{}{1.000}{}{0.00}
 
 R {14676}{0}{<fff>}{Top of Stairs}{ }{}{the Sieged Castle}{}{INSIDE}{}{1.000}{}
 E {14665}{d}{d}{32}{0}{}{1.000}{}{0.00}

@@ -361,6 +361,7 @@
         map show;
         #variable jt_m_current %2;
         jt_m_print_msg {<efc>now entering $jt_m_current(%3)};
+        title;
         jt_m_report_map_stats {%2};
     };
 }
@@ -391,6 +392,10 @@
 }
 
 #action {^%1 stops you from leaving!$} {
+    #map undo;
+}
+
+#action {Your feet are rooted to the ground!$} {
     #map undo;
 }
 
