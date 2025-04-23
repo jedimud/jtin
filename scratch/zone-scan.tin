@@ -1,3 +1,0 @@
-#alias begin { #log append {rooms.txt}; #ticker {scan} { #show {CHECKING: $idx}; stat room $idx; #math {idx} {$idx + 1}; #show $idx; } {.2} }
-
- #alias end { #log off; #unticker scan; }

@@ -1,0 +1,9 @@
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD !NEUTRAL !MAGE !CLER !THF !PAL LIMITED !RANGER !BARD UNIQUE 
+Weight: 30, Value: 6000, Rent: 1500, Min. level: 15
+AC-apply is 1
+Can affect you as :
+   Affects: SAVE_PARA By -2
+   Affects: DAMROLL By 1
+Item slot: Neck

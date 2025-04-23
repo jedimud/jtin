@@ -12,8 +12,6 @@ class ItemRace(Enum):
     NO_GOBLIN = "!GOBLIN"
     NO_URUKHAI = "!URUKHAI"
     NO_HALF_ELF = "!HALF_ELF"
-
-    # NO_GNOME = "!GNOME"
-    # NO_HOBBIT = "!HOBBIT"
-    # NO_KENDER = "!KENDER"
-    # NO_TROLL = "!TROLL"
+    NO_GNOME = "!GNOME"
+    NO_HOBBIT = "!HOBBIT"
+    NO_KENDER = "!KENDER"

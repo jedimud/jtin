@@ -15285,3 +15285,1181 @@ Can affect you as :
    Affects: STR By -1
    Affects: HITROLL By 1
 Item slot: Waist
+-----
+Object 'a sapphire amulet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 10, Value: 2000, Rent: 1000, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: DEX By -1
+   Affects: CON By 1
+Item slot: Neck
+-----
+Object 'a giant halberd', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER UNIQUE 
+Weight: 30, Value: 800, Rent: 15, Min. level: 0
+Damage Dice is '2D8' for an average per-round damage of 9.0.
+Can affect you as :
+   Affects: HITROLL By -2
+   Affects: DAMROLL By 3
+Item slot: Wield
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'a thick marble bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 8, Value: 3000, Rent: 1000, Min. level: 0
+AC-apply is 4
+Can affect you as :
+   Affects: CON By 1
+Item slot: Wrist
+-----
+Object 'a shimmering cloak of many colors', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG UNIQUE 
+Weight: 8, Value: 25000, Rent: 2750, Min. level: 0
+It can hold approximately 100 units.
+Can affect you as :
+   Affects: ARMOR By -6
+   Affects: SAVE_SPELL By -5
+Item slot: Neck
+-----
+Object 'a Museum of the Gods Souvenir Beltpack', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 10, Rent: 500, Min. level: 0
+It can hold approximately 200 units.
+Can affect you as :
+   Affects: HIT_REGEN By 5
+Item slot: Waist
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'a talisman of the void', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD LIMITED !RANGER UNIQUE 
+Weight: 1, Value: 6000, Rent: 1000, Min. level: 0
+AC-apply is 5
+Can affect you as :
+   Affects: HIT_REGEN By 5
+   Affects: MANA_REGEN By 10
+Item slot: Neck
+-----
+Object 'mystical silk netting', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW INVIS !DROP !CLER !THF !WAR !NINJA LIMITED UNIQUE 
+Weight: 10, Value: 2500, Rent: 5000, Min. level: 8
+Damage Dice is '1D1' for an average per-round damage of 1.0.
+Can affect you as :
+   Affects: STR By -4
+   Affects: DAMROLL By -4
+This item has a maximum level of 20.
+Item slot: Wield
+-----
+Object 'the Feathered Vestment', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !NEUTRAL !MAGE !CLER !THF !WAR !NINJA !SOHEI !RANGER UNIQUE 
+Weight: 0, Value: 0, Rent: 0, Min. level: 10
+AC-apply is 1
+Can affect you as :
+   Affects: WIS By 1
+   Affects: MANA_REGEN By 2
+Item slot: About Body
+-----
+Object 'a flowing woolen cape', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !THF !WAR !NINJA UNIQUE 
+Weight: 2, Value: 50, Rent: 0, Min. level: 3
+AC-apply is 2
+Can affect you as :
+   Affects: WIS By 1
+   Affects: MANA By 8
+Item slot: About Body
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'a mink fur belt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !GOOD UNIQUE 
+Weight: 7, Value: 3000, Rent: 1000, Min. level: 10
+AC-apply is 4
+Can affect you as :
+   Affects: CON By 2
+Item slot: Waist
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'a leather band watch', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !WAR !PAL !APAL LIMITED UNIQUE 
+Weight: 2, Value: 20500, Rent: 7500, Min. level: 15
+Can affect you as :
+   Affects: MOVE_REGEN By 10
+Item slot: Wrist
+-----
+Object 'a leather band watch', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !WAR !PAL !APAL LIMITED UNIQUE 
+Weight: 2, Value: 12500, Rent: 3750, Min. level: 15
+Can affect you as :
+   Affects: CHARISMA By 2
+   Affects: MOVE_REGEN By 10
+Item slot: Wrist
+-----
+Object 'a leather band watch', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !WAR !PAL !APAL LIMITED UNIQUE 
+Weight: 2, Value: 12500, Rent: 3750, Min. level: 15
+Can affect you as :
+   Affects: CHARISMA By 2
+   Affects: MOVE_REGEN By 10
+Item slot: Wrist
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'a golden holy symbol', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 3, Value: 1000, Rent: 1000, Min. level: 3
+AC-apply is 2
+Can affect you as :
+   Affects: MANA By 10
+Item slot: Neck
+-----
+Object 'a huge morningstar', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 15, Value: 2500, Rent: 5500, Min. level: 12
+Damage Dice is '7D3' for an average per-round damage of 14.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 2
+Item slot: Wield
+-----
+Object 'some huge spiked brass knuckles', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !RANGER !BARD UNIQUE 
+Weight: 9, Value: 1500, Rent: 3500, Min. level: 5
+Damage Dice is '4D3' for an average per-round damage of 8.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: HIT By 10
+Item slot: Hands
+-----
+Object 'a heavy woolen robe', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 7, Value: 150, Rent: 100, Min. level: 0
+AC-apply is 6
+Item slot: On Body
+-----
+Object 'a suit of spiked garde armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !RANGER !BARD UNIQUE 
+Weight: 8, Value: 5000, Rent: 500, Min. level: 3
+AC-apply is 21
+Can affect you as :
+   Affects: CHARISMA By 2
+   Affects: SAVE_SPELL By -3
+Item slot: On Body
+-----
+Object 'a carved wooden ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !RANGER !BARD UNIQUE 
+Weight: 3, Value: 2500, Rent: 2300, Min. level: 5
+AC-apply is 1
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Ring
+-----
+Object 'a huge tower shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 14, Value: 1000, Rent: 1500, Min. level: 5
+AC-apply is 10
+Item slot: Shield
+-----
+Object 'a blood red stone', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 2, Value: 4500, Rent: 3500, Min. level: 0
+Can affect you as :
+   Affects: HIT By 20
+   Affects: MANA By -15
+Item slot: Hold
+-----
+Object 'a brooch of life', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 5, Value: 500, Rent: 5000, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HIT By 12
+Item slot: Neck
+-----
+Object 'a rye roll', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1, Rent: 1, Min. level: 0
+-----
+Object 'a pumpernickel roll', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 40, Rent: 1, Min. level: 0
+-----
+Object 'a pair of black minotaur greaves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 4, Value: 2500, Rent: 250, Min. level: 3
+AC-apply is 18
+Item slot: Legs
+-----
+Object 'a pair of black minotaur vambraces', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 4, Value: 2500, Rent: 250, Min. level: 3
+AC-apply is 9
+Item slot: Arms
+-----
+Object 'a billowing white cape', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !RANGER !BARD UNIQUE 
+Weight: 5, Value: 1500, Rent: 3500, Min. level: 0
+AC-apply is 5
+Can affect you as :
+   Affects: DEX By 1
+Item slot: About Body
+-----
+Object 'a gilded gold breast plate', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 18, Value: 3500, Rent: 6500, Min. level: 5
+AC-apply is 45
+Can affect you as :
+   Affects: HIT By 15
+Item slot: On Body
+-----
+Object 'a huge mace named 'Dawnbringer'', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !NEUTRAL !MAGE !THF !WAR !APAL !NINJA !JEDI LIMITED !RANGER !BARD UNIQUE 
+Weight: 14, Value: 5000, Rent: 10000, Min. level: 15
+Damage Dice is '5D4' for an average per-round damage of 12.5.
+Can affect you as :
+   Affects: HITROLL By 3
+   Affects: DAMROLL By 2
+Item slot: Wield
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'the keep key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a ripe, red apple', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 1, Rent: 1, Min. level: 0
+-----
+Object 'the rod of weaponry', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !THF !RANGER !BARD UNIQUE 
+Weight: 10, Value: 4000, Rent: 1000, Min. level: 6
+Damage Dice is '3D5' for an average per-round damage of 9.0.
+Item slot: Wield
+-----
+Object 'a wheel of farmer's cheese', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 1, Rent: 1, Min. level: 0
+-----
+Object 'a red fragment of the Maze Key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a green fragment of the Maze Key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a white fragment of the Maze Key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a huge halberd', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !CLER !THF !RANGER !BARD UNIQUE 
+Weight: 18, Value: 2000, Rent: 1500, Min. level: 5
+Damage Dice is '6D3' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a pair of crimson steel vambraces', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 8, Value: 4000, Rent: 2500, Min. level: 0
+AC-apply is 10
+Item slot: Arms
+-----
+Object 'a crimson steel helm and visor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 8, Value: 4000, Rent: 2500, Min. level: 0
+AC-apply is 20
+Item slot: Head
+-----
+Object 'a pair of crimson steel greaves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 8, Value: 4000, Rent: 2500, Min. level: 0
+AC-apply is 20
+Item slot: Legs
+-----
+Object 'a black fragment of the Maze Key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD !NEUTRAL !MAGE !CLER !THF !PAL LIMITED !RANGER !BARD UNIQUE 
+Weight: 30, Value: 6000, Rent: 1500, Min. level: 15
+AC-apply is 1
+Can affect you as :
+   Affects: SAVE_PARA By -2
+   Affects: DAMROLL By 1
+Item slot: Neck
+-----
+Object 'an emerald bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 5, Value: 11000, Rent: 1785, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: INT By 1
+   Affects: MANA By 10
+Item slot: Wrist
+-----
+Object 'a Black Coral Bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER !THF !WAR !NINJA !JEDI !SOHEI LIMITED !RANGER UNIQUE 
+Weight: 1, Value: 16000, Rent: 2750, Min. level: 10
+AC-apply is -3
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HIT By 10
+Item slot: Wrist
+-----
+Object 'a gnarled magius staff', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 10, Value: 3500, Rent: 7000, Min. level: 10
+Damage Dice is '4D4' for an average per-round damage of 10.0.
+Can affect you as :
+   Affects: MANA By 10
+   Affects: DAMROLL By 3
+Item slot: Wield
+-----
+Object 'a shortsword named 'Nightbringer'', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: EVIL !MAGE !CLER !THF !WAR !PAL !SOHEI LIMITED UNIQUE 
+Weight: 9, Value: 7500, Rent: 10000, Min. level: 18
+Damage Dice is '5D5' for an average per-round damage of 15.0.
+Can affect you as :
+   Affects: HITROLL By 3
+   Affects: HIT By 8
+Item slot: Wield
+-----
+Object 'a suit of black minotaur chainmail', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 12, Value: 1000, Rent: 5000, Min. level: 3
+AC-apply is 45
+Can affect you as :
+   Affects: STR By 1
+   Affects: CON By 1
+Item slot: On Body
+-----
+Object 'a spiked buckler', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !RANGER !BARD UNIQUE 
+Weight: 5, Value: 2250, Rent: 3000, Min. level: 3
+AC-apply is 10
+Can affect you as :
+   Affects: HITROLL By 2
+Item slot: Shield
+-----
+Object 'a tiny key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a yellow fragment of the Maze Key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a kopesh sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !CLER !THF !RANGER !BARD UNIQUE 
+Weight: 13, Value: 1000, Rent: 1000, Min. level: 3
+Damage Dice is '2D3' for an average per-round damage of 4.0.
+Item slot: Wield
+-----
+Object 'a runed key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DROP UNIQUE 
+Weight: 5, Value: 0, Rent: 0, Min. level: 0
+AC-apply is -10
+Can affect you as :
+   Affects: CON By -2
+Item slot: Neck
+-----
+Object 'an onyx necklace', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD !NEUTRAL !MAGE !CLER !THF !PAL LIMITED !RANGER !BARD UNIQUE 
+Weight: 30, Value: 6000, Rent: 1500, Min. level: 15
+AC-apply is 1
+Can affect you as :
+   Affects: SAVE_PARA By -2
+   Affects: DAMROLL By 1
+Item slot: Neck
+-----
+Object 'a wooden staff', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !RANGER !BARD UNIQUE 
+Weight: 5, Value: 350, Rent: 700, Min. level: 0
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Can affect you as :
+   Affects: HITROLL By 1
+Item slot: Wield
+-----
+Object 'a maroon fragment of the Maze Key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a girdle of many pouches', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 5, Value: 1500, Rent: 5000, Min. level: 0
+It can hold approximately 100 units.
+Item slot: Waist
+-----
+Object 'a black plate neckguard', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !RANGER !BARD UNIQUE 
+Weight: 7, Value: 1000, Rent: 150, Min. level: 3
+AC-apply is 9
+Can affect you as :
+   Affects: WIS By 1
+Item slot: Neck
+-----
+Object 'a battle axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD !MAGE !CLER !THF !RANGER !BARD UNIQUE 
+Weight: 18, Value: 7500, Rent: 1250, Min. level: 7
+Damage Dice is '4D4' for an average per-round damage of 10.0.
+Item slot: Wield
+-----
+Object 'a pair of spiked gauntlets', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 3, Value: 1500, Rent: 500, Min. level: 10
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By 2
+Item slot: Hands
+-----
+Object 'a pair of minotaur combat gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !RANGER !BARD UNIQUE 
+Weight: 2, Value: 1000, Rent: 250, Min. level: 3
+AC-apply is 8
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: STR By 1
+Item slot: Hands
+-----
+Object 'a serrated dagger named +2/+2', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER UNIQUE 
+Weight: 3, Value: 3000, Rent: 1000, Min. level: 5
+Damage Dice is '5D4' for an average per-round damage of 12.5.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 2
+Item slot: Wield
+-----
+Object 'GI Joe's Eagle Eyes', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !DONATE !JUNK UNIQUE INSURED 
+Weight: 0, Value: 0, Rent: 0, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: INT By 1
+   Affects: WIS By 1
+   Affects: CON By 1
+Item slot: Face
+-----
+Object 'a glinting silver bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI LIMITED UNIQUE 
+Weight: 5, Value: 3500, Rent: 350, Min. level: 12
+AC-apply is 3
+Can affect you as :
+   Affects: HIT By 10
+   Affects: HITROLL By 1
+Item slot: Wrist
+-----
+Object 'a silver coin', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 10, Rent: 10, Min. level: 1
+-----
+Object 'a pair of clawed gauntlets', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !DROP !GOOD !CLER !THF !PAL UNIQUE 
+Weight: 12, Value: 15000, Rent: 5000, Min. level: 10
+AC-apply is 2
+Can affect you as :
+   Affects: DEX By -1
+   Affects: DAMROLL By 1
+Item slot: Hands
+-----
+Object 'a green visor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 500, Rent: 125, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: INT By 1
+Item slot: Head
+-----
+Object 'an ivory hilted dagger', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS GOOD !CLER UNIQUE 
+Weight: 8, Value: 18000, Rent: 4500, Min. level: 10
+Damage Dice is '2D7' for an average per-round damage of 8.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 2
+Item slot: Wield
+-----
+Object 'a white robe', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: MAG !EVIL !NEUTRAL UNIQUE 
+Weight: 7, Value: 7500, Rent: 1625, Min. level: 0
+It can hold approximately 50 units.
+Can affect you as :
+   Affects: ARMOR By -2
+Item slot: About Body
+-----
+Object 'a grey robe', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: MAG !EVIL UNIQUE 
+Weight: 8, Value: 5000, Rent: 750, Min. level: 0
+It can hold approximately 50 units.
+Can affect you as :
+   Affects: ARMOR By -4
+   Affects: SAVE_SPELL By -2
+Item slot: About Body
+-----
+Object 'a ward minor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG UNIQUE 
+Weight: 5, Value: 625, Rent: 75, Min. level: 0
+AC-apply is 3
+Item slot: Hold
+-----
+Object 'a white cloak', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !EVIL !NEUTRAL UNIQUE 
+Weight: 7, Value: 35000, Rent: 5000, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: SAVE_SPELL By -4
+Item slot: Neck
+-----
+Object 'a white gold bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 5, Value: 1782, Rent: 250, Min. level: 0
+AC-apply is 2
+Can affect you as :
+   Affects: HITROLL By 2
+Item slot: Wrist
+-----
+Object 'a box carved from creamy, white ivory', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !RENT UNIQUE 
+Weight: 2, Value: 300, Rent: 200, Min. level: 0
+It can hold approximately 5 units.
+-----
+Object 'a banded ring', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 2, Value: 2500, Rent: 150, Min. level: 0
+Can affect you as :
+   Affects: CON By 1
+   Affects: HITROLL By 1
+Item slot: Ring
+-----
+Object 'a jacket fashioned from green silk', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 3, Value: 200, Rent: 350, Min. level: 0
+It can hold approximately 2 units.
+Item slot: On Body
+-----
+Object 'Mage Bracers', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !CLER !THF !WAR !PAL !APAL !NINJA !JEDI LIMITED UNIQUE 
+Weight: 1, Value: 9000, Rent: 5000, Min. level: 10
+AC-apply is 5
+Can affect you as :
+   Affects: MANA By 15
+Item slot: Arms
+-----
+Object 'a long grey cloak', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD !EVIL UNIQUE 
+Weight: 7, Value: 3700, Rent: 550, Min. level: 0
+AC-apply is 4
+Can affect you as :
+   Affects: SAVE_SPELL By -3
+Item slot: Neck
+-----
+Object 'an iron shod staff', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 7, Value: 10000, Rent: 2500, Min. level: 0
+Damage Dice is '2D7' for an average per-round damage of 8.0.
+Item slot: Wield
+-----
+Object 'a sharp shard of obsidian', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !CLER UNIQUE 
+Weight: 8, Value: 1500, Rent: 300, Min. level: 0
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Can affect you as :
+   Affects: DAMROLL By 1
+Item slot: Wield
+Item slot: Hold
+-----
+Object 'a dark black cloak', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !GOOD UNIQUE 
+Weight: 8, Value: 10000, Rent: 1250, Min. level: 0
+AC-apply is 6
+Can affect you as :
+   Affects: SAVE_SPELL By -3
+Item slot: Neck
+-----
+Object 'a pair of striped stockings', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG LIMITED UNIQUE 
+Weight: 5, Value: 100000, Rent: 1250, Min. level: 0
+AC-apply is 20
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: MOVE_REGEN By 5
+Item slot: Legs
+-----
+Object 'a mystery bag', Item type: CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 50000, Rent: 10, Min. level: 0
+It can hold approximately 40 units.
+Item slot: Hold
+-----
+Object 'a carved dragon bone earring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG BLESS LIMITED !DONATE !JUNK UNIQUE INSURED 
+Weight: 2, Value: 200000, Rent: 2500, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: INT By 2
+Item slot: Earring
+-----
+Object 'a gold 10-point Quest Token', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG BLESS UNIQUE 
+Weight: 1, Value: 200000, Rent: 1000, Min. level: 0
+Item slot: Hold
+-----
+Object 'Ubese Battle Visor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !WAR !PAL !APAL !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 15, Value: 10000, Rent: 2500, Min. level: 6
+AC-apply is 10
+Can affect you as :
+   Affects: DEX By 2
+   Affects: STR By 1
+Item slot: Head
+-----
+Object 'a thermal detonator', Item type: WAND
+Item will give you following abilities:  NOBITS 
+Item is: HUM !DROP !GOOD !RANGER !BARD UNIQUE 
+Weight: 5, Value: 23500, Rent: 50000, Min. level: 25
+This WAND casts: flamestrike of level 0
+It has 1 maximum charge and 1 remaining.
+Item slot: Hold
+-----
+Object 'a Molybdenum wrist guard', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 3, Value: 15000, Rent: 6000, Min. level: 10
+AC-apply is 3
+Can affect you as :
+   Affects: HIT By 13
+   Affects: HIT_REGEN By 10
+Item slot: Wrist
+-----
+Object 'Earplugs', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !DROP !MAGE !CLER !THF !WAR !PAL !APAL !NINJA !JEDI !SOHEI !RANGER UNIQUE 
+Weight: 1, Value: 10, Rent: 10, Min. level: 0
+AC-apply is -4
+Can affect you as :
+   Affects: CHARISMA By -3
+Item slot: Neck
+-----
+Object 'a lightstick', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW BLESS GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 5000, Rent: 750, Min. level: 10
+Can affect you as :
+   Affects: HIT_REGEN By 7
+   Affects: WIS By 1
+Item slot: Light
+-----
+Object 'Mandalorian Battle Armor', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !CLER !THF !PAL !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 45, Value: 15000, Rent: 9999, Min. level: 10
+AC-apply is 30
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: STR By 2
+Item slot: On Body
+-----
+Object 'Boba Fett's Targeting Computer', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 2, Value: 5000, Rent: 500, Min. level: 0
+Can affect you as :
+   Affects: HITROLL By 3
+   Affects: ARMOR By -3
+Item slot: Wrist
+-----
+Object 'a jewelled skull spike', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM MAG !DROP !MAGE !CLER !PAL !NINJA LIMITED !RANGER !BARD UNIQUE 
+Weight: 10, Value: 100000, Rent: 25000, Min. level: 20
+Damage Dice is '8D3' for an average per-round damage of 16.0.
+Can affect you as :
+   Affects: DAMROLL By 3
+   Affects: STR By 2
+Item slot: Wield
+-----
+Object 'a worn staff', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 2, Value: 5000, Rent: 1000, Min. level: 15
+Damage Dice is '1D10' for an average per-round damage of 5.5.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a worn bastard sword', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 6, Value: 5000, Rent: 1000, Min. level: 15
+Damage Dice is '2D5' for an average per-round damage of 6.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a brown fragment of the Maze Key', Item type: KEY
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 0, Rent: 0, Min. level: 0
+-----
+Object 'a minotaur glaive', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !CLER !THF !RANGER !BARD UNIQUE 
+Weight: 19, Value: 4500, Rent: 5000, Min. level: 7
+Damage Dice is '7D2' for an average per-round damage of 10.5.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'a blood red shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG !GOOD !NINJA LIMITED !RANGER !BARD UNIQUE 
+Weight: 4, Value: 4500, Rent: 750, Min. level: 5
+AC-apply is 5
+Can affect you as :
+   Affects: MANA_REGEN By 2
+   Affects: HIT_REGEN By 2
+Item slot: Shield
+-----
+Object 'a shining breastplate', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !EVIL !MAGE !CLER !THF !APAL !NINJA LIMITED !RANGER !BARD UNIQUE 
+Weight: 7, Value: 4500, Rent: 500, Min. level: 7
+AC-apply is 18
+Can affect you as :
+   Affects: DAMROLL By 1
+   Affects: HIT_REGEN By 3
+Item slot: On Body
+-----
+Object 'a black demon blade', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !NEUTRAL !MAGE !CLER !WAR !PAL !APAL !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 8, Value: 4900, Rent: 2450, Min. level: 0
+Damage Dice is '3D4' for an average per-round damage of 7.5.
+Item slot: Wield
+-----
+Object 'a scroll which reads "ysafg"', Item type: SCROLL
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 1, Value: 1500, Rent: 750, Min. level: 0
+This SCROLL casts:  Level 12 of identify
+-----
+Object 'a red jade ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD UNIQUE 
+Weight: 1, Value: 5000, Rent: 3000, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: INT By 1
+   Affects: WIS By 1
+Item slot: Ring
+-----
+Object 'a ward major', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !CLER !THF !WAR !PAL UNIQUE 
+Weight: 6, Value: 18550, Rent: 5000, Min. level: 0
+AC-apply is 7
+Can affect you as :
+   Affects: MANA_REGEN By 5
+Item slot: Shield
+-----
+Object 'swordsmen's gloves', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !GOOD !MAGE !CLER !THF !PAL !NINJA !JEDI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1275, Rent: 4000, Min. level: 10
+AC-apply is 3
+Can affect you as :
+   Affects: DAMROLL By 2
+Item slot: Hands
+-----
+Object 'a small ring', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !EVIL UNIQUE 
+Weight: 1, Value: 5000, Rent: 3000, Min. level: 0
+AC-apply is -4
+Can affect you as :
+   Affects: INT By 1
+   Affects: WIS By 1
+Item slot: Ring
+-----
+Object 'Moonbeam's Magic Wand', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: GLOW HUM !EVIL UNIQUE 
+Weight: 2, Value: 8000, Rent: 5000, Min. level: 0
+This STAFF casts: restore of level 0
+It has 4 maximum charges and 4 remaining.
+Item slot: Hold
+-----
+Object 'an emerald and ivory bracelet', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !EVIL !MAGE !THF !WAR !APAL !NINJA !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 1, Value: 10520, Rent: 1050, Min. level: 13
+AC-apply is 7
+Can affect you as :
+   Affects: MANA_REGEN By 5
+   Affects: HIT By -5
+Item slot: Wrist
+-----
+Object 'Woody's Red Bandana', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !EVIL !NEUTRAL !MAGE !CLER !PAL !APAL !NINJA !RANGER !BARD UNIQUE 
+Weight: 5, Value: 25000, Rent: 0, Min. level: 0
+AC-apply is 0
+Can affect you as :
+   Affects: CON By 2
+   Affects: DEX By 1
+Item slot: Neck
+-----
+Object 'a blue dragonscale shield', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: GLOW NEUTRAL !MAGE !THF !WAR !NINJA !JEDI !SOHEI LIMITED !RANGER !BARD UNIQUE 
+Weight: 4, Value: 20000, Rent: 0, Min. level: 16
+AC-apply is 3
+Can affect you as :
+   Affects: MANA_REGEN By 1
+Item slot: Shield
+-----
+Object 'a squeeze bottle', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 15, Value: 60, Rent: 60, Min. level: 0
+It can hold approximately 45 units of liquid.
+-----
+Object 'a blowgun', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !DONATE UNIQUE 
+Weight: 1, Value: 800, Rent: 2, Min. level: 0
+Damage Dice is '6D3' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 2
+Item slot: Wield
+-----
+Object 'Shield of the Righteous', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !EVIL !NEUTRAL GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 20, Value: 3000, Rent: 150, Min. level: 6
+AC-apply is 5
+Can affect you as :
+   Affects: HIT By 5
+   Affects: HIT_REGEN By 2
+Item slot: Shield
+-----
+Object 'a set of blessed vambraces', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 4, Value: 10, Rent: 500, Min. level: 8
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Wrist
+-----
+Object 'a one million dollar bill', Item type: TREASURE
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS !MAGE !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 1, Value: 1, Rent: 0, Min. level: 0
+Can affect you as :
+   Affects: MANA_REGEN By 2
+   Affects: MOVE_REGEN By 2
+Item slot: Hold
+-----
+Object 'a single lower open cannon', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !DONATE !RANGER !BARD UNIQUE 
+Weight: 8, Value: 400, Rent: 50, Min. level: 5
+AC-apply is 3
+Can affect you as :
+   Affects: HITROLL By 2
+   Affects: DAMROLL By 1
+Item slot: Wrist
+-----
+Object 'a pair of army boots', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !DONATE !RANGER !BARD UNIQUE 
+Weight: 5, Value: 2000, Rent: 250, Min. level: 6
+AC-apply is 3
+Can affect you as :
+   Affects: DEX By 1
+   Affects: CON By 1
+Item slot: Feet
+-----
+Object 'a crystal repository of hard-won knowledge', Item type: LIGHT
+Item will give you following abilities:  NOBITS 
+Item is: GLOW MAG !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !DONATE !RANGER !BARD UNIQUE 
+Weight: 2, Value: 40, Rent: 5, Min. level: 7
+Can affect you as :
+   Affects: HIT By 10
+   Affects: HIT_REGEN By 3
+Item slot: Light
+-----
+Object 'a double shot glass', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: !DONATE UNIQUE 
+Weight: 1, Value: 300, Rent: 30, Min. level: 0
+It can hold approximately 8 units of liquid.
+-----
+Object 'a paladin's Girdle of Truth', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: HUM MAG BLESS !EVIL !NEUTRAL !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 6, Value: 2000, Rent: 100, Min. level: 7
+AC-apply is 6
+Can affect you as :
+   Affects: HIT By 5
+   Affects: STR By 1
+Item slot: Waist
+-----
+Object 'a righteous Sword of the Spirit', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 15, Value: 2000, Rent: 100, Min. level: 9
+Damage Dice is '3D7' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 4
+   Affects: MOVE_REGEN By 2
+Item slot: Wield
+-----
+Object 'a white-hooded prayer cloak', Item type: WORN
+Item will give you following abilities:  NOBITS 
+Item is: MAG BLESS GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 8, Value: 200, Rent: 10, Min. level: 9
+Can affect you as :
+   Affects: WIS By 1
+   Affects: ARMOR By 6
+Item slot: About Body
+-----
+Object 'a righteous Sword of the Spirit', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GOOD !MAGE !CLER !THF !WAR !APAL !NINJA !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 15, Value: 2000, Rent: 100, Min. level: 9
+Damage Dice is '3D7' for an average per-round damage of 12.0.
+Can affect you as :
+   Affects: HITROLL By 4
+   Affects: MOVE_REGEN By 2
+Item slot: Wield
+-----
+Object 'a simple blade', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !CLER !THF !PAL !APAL !NINJA !JEDI !SOHEI !DONATE !RANGER !BARD UNIQUE 
+Weight: 8, Value: 0, Rent: 5, Min. level: 0
+Damage Dice is '1D8' for an average per-round damage of 4.5.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Wield
+-----
+Object 'black rose petals', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 1, Value: 100, Rent: 5, Min. level: 0
+Item slot: Hold
+-----
+Object 'a cube of stone', Item type: OTHER
+Item will give you following abilities:  NOBITS 
+Item is: MAG LIMITED UNIQUE 
+Weight: 12, Value: 40, Rent: 40, Min. level: 0
+Item slot: Hold
+-----
+Object 'a serpent's fang', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: EVIL !MAGE !CLER !JEDI !SOHEI !RANGER !BARD UNIQUE 
+Weight: 5, Value: 50, Rent: 10, Min. level: 15
+Damage Dice is '2D4' for an average per-round damage of 5.0.
+Item slot: Wield
+-----
+Object 'a human skull', Item type: LIQ-CONTAINER
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 3, Value: 20, Rent: 20, Min. level: 0
+It can hold approximately 5 units of liquid.
+-----
+Object 'Mace of the Ebony Skull', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW EVIL !MAGE !THF !NINJA !JEDI !DONATE !RANGER !BARD UNIQUE !GNOME !HOBBIT !ORC !GOBLIN !KENDER !SELL 
+Weight: 50, Value: 150000, Rent: 95000, Min. level: 0
+Damage Dice is '2D13' for an average per-round damage of 14.0.
+Item slot: Wield
+-----
+Object 'a tight-fitting green dragon scale shirt', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: MAG UNIQUE 
+Weight: 9, Value: 15225, Rent: 2500, Min. level: 0
+AC-apply is 23
+Can affect you as :
+   Affects: DEX By 3
+   Affects: ARMOR By -5
+Item slot: On Body
+-----
+Object 'a broken easy bake oven', Item type: DEVICE
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 5, Value: 1000, Rent: 0, Min. level: 0

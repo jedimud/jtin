@@ -1,0 +1,6 @@
+Object 'Mace of the Ebony Skull', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: GLOW EVIL !MAGE !THF !NINJA !JEDI !DONATE !RANGER !BARD UNIQUE !GNOME !HOBBIT !ORC !GOBLIN !KENDER !SELL 
+Weight: 50, Value: 150000, Rent: 95000, Min. level: 0
+Damage Dice is '2D13' for an average per-round damage of 14.0.
+Item slot: Wield

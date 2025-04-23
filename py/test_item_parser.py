@@ -2612,6 +2612,80 @@ class TestItemParser(unittest.TestCase):
 
         self.assert_equals(item, actual)
 
+
+    def test_parse_file__an_onyx_necklace(self):
+        actual = self.read_item_from_file("an-onyx-necklace")
+
+        item = Item()
+        item.name = "an onyx necklace"
+        item.type = ItemType.ARMOR
+        item.ability = ItemAbility.NOBITS
+        
+        item.tags.append(ItemTag.MAG)
+        item.tags.append(ItemAlign.NO_GOOD)
+        item.tags.append(ItemAlign.NO_NEUTRAL)
+        item.tags.append(ItemClass.NO_MAGE)
+        item.tags.append(ItemClass.NO_CLER)
+        item.tags.append(ItemClass.NO_THF)
+        item.tags.append(ItemClass.NO_PAL)
+        item.tags.append(ItemTag.LIMITED)
+        item.tags.append(ItemClass.NO_RANGER)
+        item.tags.append(ItemClass.NO_BARD)
+        item.tags.append(ItemTag.UNIQUE)
+
+        item.weight = 30
+        item.value = 6000
+        item.rent = 1500
+        item.min_level = 15
+        item.ac = 1
+
+        item.affects[ItemAffect.SAVE_PARA] = -2
+        item.affects[ItemAffect.DAMROLL] = 1
+
+        item.slots.append(ItemSlot.NECK)
+
+        self.assert_equals(item, actual)
+
+    def test_parse_file__mace_of_the_ebony_skull(self):
+        actual = self.read_item_from_file('mace-of-the-ebony-skull')
+
+        item = Item()
+        item.name = "Mace of the Ebony Skull"
+        item.type = ItemType.WEAPON
+        item.ability = ItemAbility.NOBITS
+     
+
+        item.tags.append(ItemTag.GLOW)
+        item.tags.append(ItemTag.NO_DONATE)
+        item.tags.append(ItemTag.UNIQUE)
+        item.tags.append(ItemTag.NO_SELL)
+
+        item.tags.append(ItemAlign.EVIL)
+        
+        item.tags.append(ItemClass.NO_MAGE)
+        item.tags.append(ItemClass.NO_THF)
+        item.tags.append(ItemClass.NO_NINJA)
+        item.tags.append(ItemClass.NO_JEDI)
+        item.tags.append(ItemClass.NO_RANGER)
+        item.tags.append(ItemClass.NO_BARD)
+
+        item.tags.append(ItemRace.NO_GNOME)
+        item.tags.append(ItemRace.NO_HOBBIT)
+        item.tags.append(ItemRace.NO_ORC)
+        item.tags.append(ItemRace.NO_GOBLIN)
+        item.tags.append(ItemRace.NO_KENDER)
+
+        item.weight = 50
+        item.value = 150000
+        item.rent = 95000
+        item.min_level = 0
+
+        item.dice_count = 2
+        item.dice_face = 13
+        item.average_dmg = 14.0
+
+        item.slots.append(ItemSlot.WIELD)
+
     def assert_equals(self, expected, actual):
         self.assertEqual(expected.name, actual.name)
         self.assertEqual(expected.ability, actual.ability)

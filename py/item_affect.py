@@ -33,6 +33,7 @@ class ItemAffect(Enum):
     SAVE_BREATH = "SAVE_BREATH", "sb", False
     SAVE_PETRI = "SAVE_PETRI", "sp", False
     SAVE_ROD = "SAVE_ROD", "sr", False
+    SAVE_PARA = "SAVE_PARA", "sp", False
 
     def __new__(cls, *args, **kwds):
         obj = object.__new__(cls)

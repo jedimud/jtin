@@ -21,3 +21,4 @@ class ItemTag(Enum):
     NO_PURGE = "!PURGE"
     NOBITS = "NOBITS"
     NO_MORT = "!MORT"
+    NO_SELL = "!SELL"
