@@ -21,7 +21,7 @@
     };
     
     #map get worldflags jt_m_flags;
-    #if {"$jt_m_flags" == "8206" || "$jt_m_flags" == "262"} { 
+    #if {"$jt_m_flags" == "8206" || "$jt_m_flags" == "262" || "$jt_m_flags" == "1056782"} { 
         #showme $MSDP_ROOM;
         #map goto {$MSDP_ROOM[VNUM]} {dig};
         #map set roomarea $MSDP_ROOM[AREA];

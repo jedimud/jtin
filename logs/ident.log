@@ -16463,3 +16463,45 @@ Object 'a broken easy bake oven', Item type: DEVICE
 Item will give you following abilities:  NOBITS 
 Item is: UNIQUE 
 Weight: 5, Value: 1000, Rent: 0, Min. level: 0
+-----
+Object 'a two-handed dwarven axe', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !NINJA UNIQUE 
+Weight: 5, Value: 2500, Rent: 900, Min. level: 5
+Damage Dice is '2D7' for an average per-round damage of 8.0.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: STR By 1
+Item slot: Wield
+-----
+Object 'a rotten arm', Item type: FOOD
+Item will give you following abilities:  NOBITS 
+Item is: UNIQUE 
+Weight: 20, Value: 1, Rent: 1, Min. level: 0
+-----
+Object 'a green serpentine staff', Item type: STAFF
+Item will give you following abilities:  NOBITS 
+Item is: INVIS MAG !THF !WAR !NINJA UNIQUE 
+Weight: 18, Value: 7500, Rent: 3600, Min. level: 0
+This STAFF casts: earthquake of level 15
+It has 2 maximum charges and 2 remaining.
+Item slot: Hold
+-----
+Object 'a battered iron breast plate', Item type: ARMOR
+Item will give you following abilities:  NOBITS 
+Item is: !MAGE !THF !NINJA !RANGER !BARD UNIQUE 
+Weight: 125, Value: 36000, Rent: 7200, Min. level: 0
+AC-apply is 30
+Can affect you as :
+   Affects: HITROLL By -4
+Item slot: On Body
+-----
+Object 'a Practice Sword of the Blasphemer', Item type: WEAPON
+Item will give you following abilities:  NOBITS 
+Item is: MAG !MAGE !CLER !THF !WAR !PAL !NINJA !JEDI !SOHEI !DONATE !RANGER !BARD UNIQUE 
+Weight: 8, Value: 0, Rent: 5, Min. level: 0
+Damage Dice is '1D8' for an average per-round damage of 4.5.
+Can affect you as :
+   Affects: HITROLL By 1
+   Affects: DAMROLL By 1
+Item slot: Wield
