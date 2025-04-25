@@ -1,0 +1,132 @@
+VNum  Zone Name                      Builder(s)
+----- ------------------------------ --------------------------------------
+[  0] Limbo                          None
+[  1] The Midgaard Temple            DIKU
+[  2] The God Complex                Rasmussen Taz
+[  3] The Crystal Caves              Prospero Kailyn
+[  4] Froboz's Factory               C.A.W Kailyn
+[  5] The Abandoned Cathedral        C.A.W
+[  6] Arctica                        Duke Triana
+[  7] Interstellar Space             None
+[  9] River Island Of Minos          Mahatma Tam
+[ 10] God Complex Extension          None
+[ 11] Shire Village                  C.A.W
+[ 12] Star Wars                      Cogitasne Cthulhu
+[ 14] Amusement Park                 Prospero
+[ 15] The Straight Path              Steppin
+[ 16] The Old Elven Village          Steppin
+[ 18] Miden'Nir                      Copper II VampLestat
+[ 19] The Player's Keeps             None
+[ 20] The Abyss                      Chris Boggs
+[ 21] Skara Brae                     Gyles
+[ 22] The Abandoned Ship and the Deep Forest Gyles Steppin
+[ 23] Outskirts of Skara Brae        None
+[ 24] Cheers                         Naved
+[ 25] The Arctic Empire              Chris Boggs
+[ 27] Camelot                        Loki
+[ 29] Donner's Den of Iniquity       Cogitasne
+[ 30] Midgaard                       None
+[ 32] Midgaard Park South            None
+[ 33] Mahn-Tor                       Ragnarok Valaria
+[ 35] Outskirts of Midgaard          None
+[ 36] Sesame Street and Muppet Theatre Kaeli Kinski Moonbeam
+[ 37] The Wayhouse                   C.A.W
+[ 38] Gyles Keep                     Asdf
+[ 39] Midgaard Countryside           None
+[ 40] Moria                          Redferne
+[ 41] Lower Moria                    None
+[ 42] Wamphyri Aerie                 Thibor
+[ 44] The Trog Caves and Outpost     Heimdall. Revised by Infoteq Dranor Lifetaker
+[ 47] The Bardic Colleges            Tam
+[ 50] The Great Eastern Desert       Rorschach
+[ 51] Drow City                      Rorschach
+[ 52] The Lost City of Old Thalos    Rorschach
+[ 53] The Great Pyramid              Shoes
+[ 54] The Northern Plains            Raven
+[ 55] The Wandering Ship             Aramina
+[ 57] The Galaxy                     Doctor
+[ 58] The Monastery                  Cognitasne
+[ 60] Light Haon-Dor                 Quifael
+[ 61] Dark Haon-Dor                  Derkhil
+[ 62] Arachnos                       Mahatma
+[ 63] The Chess Board                Exxon
+[ 65] The Dwarven Kingdom            Depeche
+[ 66] Hell                           Mahatma
+[ 67] Lost Isle of Shaedar           Myst
+[ 69] The Dragon Sea                 Cogitasne
+[ 71] Scipio Dreaming                Steppin
+[ 73] The Midgaard Sewers            Cogitasne
+[ 74] Cedar Estate Mansion           Anton
+[ 75] The Nightmire                  Cogitasne
+[ 76] Andrus' Toy Land               Anton Hurin
+[ 78] The Wedding of Oreshkigal and Elish Angstrom
+[ 79] July 4th quest zone            Hurin
+[ 80] Independence Day Extension     Hurin
+[ 81] Christmas 2018                 Hurin
+[ 82] Christmas 2018 Part II         Hurin
+[ 83] Valhalla                       Gordo
+[ 84] Xmas 2017                      Hurin
+[ 89] The Parliament of Owls         ProtoClown
+[ 90] The Midgaard Zoo               Maynard Kailyn
+[ 92] Goblinsville                   Manx of SillyMUD
+[ 93] Floodlands                     Steppin
+[ 95] The Lich Tower                 SillyMUD
+[ 96] Imperial Ravenna               Steppin
+[ 98] The Golden Pagoda              Fakir Guts Gambler
+[ 99] The Metro                      Steppin
+[100] Enfan City                     Rorschach
+[101] Hellas                         Jo Gorgon
+[103] Monopoly Quest                 LordWilliam Despair Hurin
+[104] Easter 2019                    Despair Lordwilliam
+[106] Arcadia                        Ciara Arizhel
+[111] Quest Items                    None
+[118] The Dollhouse                  Detta
+[120] Rome                           Onivel
+[121] The Museum of the Gods         Ching
+[122] New Thalos                     Duke
+[126] The Corsair Citadel            Cogitasne
+[128] The Emerald Maze               Cogitasne
+[130] The High Tower of Sorcery      Skylar
+[133] Three of Swords                Valaria
+[139] The Ant Hill                   Labrat
+[140] The Amber Forest               Scarabus Nymphia Onivel
+[143] Refuge and Asylum              Cogitasne
+[146] The Sieged Castle              Eagle
+[150] King Welmar's Castle           Pjotr Sapowox
+[154] Weeden and the Western Forest  Doc Steppin
+[155] Weeden Underground             None
+[161] The Underworld                 Shoes
+[166] The Balor                      Chris Boggs
+[167] Drake Isle                     Cogitasne
+[170] The Death Star                 Pabs Guts
+[178] The Wedding Shops              None
+[179] Tir na nOg                     Mandragora Kailyn
+[183] Jedimud old folks home.        None
+[184] Limbo                          None
+[185] Aralu                          Raid
+[186] Miden'Nir Extension            None
+[192] Castle Mistamere               SillyMUD
+[193] Newbie Trog caves and outpost  Heimdall Infoteq Dranor Lifetaker
+[210] The Shadows                    Mandragora
+[216] Dragon City                    Anton
+[217] The Training Grounds           Anton
+[230] The City of Sanctuary          n
+[235] The Watch Towers               None
+[236] Pyramid of DOOM!               Cogitasne Valaria
+[238] Pyramid of DOOM!               Cogitasne Valaria
+[240] The Darkspine Mountains        Valaria
+[249] New Zone                       None
+[250] Gauntlet                       Cogitasne Valaria
+[253] The Quest Chute                Hurin LordWilliam
+[254] Quest Zone                     None
+[255] Halloween 2019 and Dragon Quest LordWilliam Despair
+[256] Independence Day 2020          Despair Hurin LordWilliam
+[257] Toyland Extensions             Warrim
+[259] Doom Isle                      Despair LordWilliam
+[350] The Ice Fortress of Razakasch  Angstrom Aegon
+[360] Shifting Sands                 Zhi
+[370] Elias' Ascendant               Anton Augustus
+[390] The Tower of Shadows           Augustus, Anton
+[400] Guts new zone                  Guts
+[444] The Legend of Zelda            Warrim
+[50000] New Zone                       None

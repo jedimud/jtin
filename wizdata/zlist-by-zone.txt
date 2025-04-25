@@ -1,0 +1,3250 @@
+[0mCHECKING: 0[0m
+Virtual Number = 0
+Name of zone   = Limbo
+Builders       = None
+Lifespan       = 120
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 0
+Top of Zone    = 99
+Reset Mode     = Never reset
+Zone Flags     = OPEN GRID !OLC 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = 7
+Imm Max Level  = -1
+Size
+   Rooms       = 8
+   Objects     = 39
+   Mobiles     = 43
+   Shops       = 0
+   Triggers    = 7
+   Quests      = 1
+
+>[0;00m
+[0mCHECKING: 1[0m
+
+Virtual Number = 1
+Name of zone   = The Midgaard Temple
+Builders       = DIKU
+Lifespan       = 25
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 100
+Top of Zone    = 199
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID EASY 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 77
+   Objects     = 26
+   Mobiles     = 42
+   Shops       = 0
+   Triggers    = 100
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 2[0m
+
+Virtual Number = 2
+Name of zone   = The God Complex
+Builders       = Rasmussen Taz
+Lifespan       = 96
+AutoExists     = Yes
+Age            = 27
+Bottom of Zone = 200
+Top of Zone    = 299
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 100
+   Objects     = 97
+   Mobiles     = 32
+   Shops       = 0
+   Triggers    = 19
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 3[0m
+
+Virtual Number = 3
+Name of zone   = The Crystal Caves
+Builders       = Prospero Kailyn
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 300
+Top of Zone    = 399
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID NEWBIE 
+Min Level      = -1
+Max Level      = 8
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 41
+   Objects     = 14
+   Mobiles     = 10
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 4[0m
+
+Virtual Number = 4
+Name of zone   = Froboz's Factory
+Builders       = C.A.W Kailyn
+Lifespan       = 15
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 400
+Top of Zone    = 499
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID NEWBIE 
+Min Level      = -1
+Max Level      = 8
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 39
+   Objects     = 14
+   Mobiles     = 14
+   Shops       = 1
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 5[0m
+
+Virtual Number = 5
+Name of zone   = The Abandoned Cathedral
+Builders       = C.A.W
+Lifespan       = 28
+AutoExists     = Yes
+Age            = 11
+Bottom of Zone = 500
+Top of Zone    = 599
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 56
+   Objects     = 22
+   Mobiles     = 15
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 6[0m
+
+Virtual Number = 6
+Name of zone   = Arctica
+Builders       = Duke Triana
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 600
+Top of Zone    = 699
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID EASYMID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 100
+   Objects     = 18
+   Mobiles     = 31
+   Shops       = 0
+   Triggers    = 5
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 7[0m
+
+Virtual Number = 7
+Name of zone   = Interstellar Space
+Builders       = None
+Lifespan       = 37
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 700
+Top of Zone    = 899
+Reset Mode     = Never reset
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 27
+   Objects     = 105
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 9[0m
+
+Virtual Number = 9
+Name of zone   = River Island Of Minos
+Builders       = Mahatma Tam
+Lifespan       = 40
+AutoExists     = Yes
+Age            = 35
+Bottom of Zone = 900
+Top of Zone    = 999
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 100
+   Objects     = 19
+   Mobiles     = 19
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 10[0m
+
+Virtual Number = 10
+Name of zone   = God Complex Extension
+Builders       = None
+Lifespan       = 120
+AutoExists     = Yes
+Age            = 115
+Bottom of Zone = 1000
+Top of Zone    = 1099
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 10
+   Objects     = 3
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 11[0m
+
+Virtual Number = 11
+Name of zone   = Shire Village
+Builders       = C.A.W
+Lifespan       = 12
+AutoExists     = Yes
+Age            = 7
+Bottom of Zone = 1100
+Top of Zone    = 1199
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID NEWBIE 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 57
+   Objects     = 19
+   Mobiles     = 33
+   Shops       = 5
+   Triggers    = 25
+   Quests      = 3
+
+>[0;00m
+[0mCHECKING: 12[0m
+
+Virtual Number = 12
+Name of zone   = Star Wars
+Builders       = Cogitasne Cthulhu
+Lifespan       = 63
+AutoExists     = Yes
+Age            = 46
+Bottom of Zone = 1200
+Top of Zone    = 1399
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 199
+   Objects     = 81
+   Mobiles     = 93
+   Shops       = 4
+   Triggers    = 12
+   Quests      = 6
+
+>[0;00m
+[0mCHECKING: 14[0m
+
+Virtual Number = 14
+Name of zone   = Amusement Park
+Builders       = Prospero
+Lifespan       = 60
+AutoExists     = Yes
+Age            = 55
+Bottom of Zone = 1400
+Top of Zone    = 1498
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 99
+   Objects     = 31
+   Mobiles     = 49
+   Shops       = 3
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 15[0m
+
+Virtual Number = 15
+Name of zone   = The Straight Path
+Builders       = Steppin
+Lifespan       = 52
+AutoExists     = Yes
+Age            = 49
+Bottom of Zone = 1500
+Top of Zone    = 1599
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 40
+   Objects     = 17
+   Mobiles     = 24
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 16[0m
+
+Virtual Number = 16
+Name of zone   = The Old Elven Village
+Builders       = Steppin
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 1600
+Top of Zone    = 1799
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 36
+   Objects     = 19
+   Mobiles     = 8
+   Shops       = 1
+   Triggers    = 6
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 18[0m
+
+Virtual Number = 18
+Name of zone   = Miden'Nir
+Builders       = Copper II VampLestat
+Lifespan       = 48
+AutoExists     = Yes
+Age            = 43
+Bottom of Zone = 1800
+Top of Zone    = 1899
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID EASYMID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 27
+   Objects     = 3
+   Mobiles     = 4
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 19[0m
+
+Virtual Number = 19
+Name of zone   = The Player's Keeps
+Builders       = None
+Lifespan       = 100
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 1900
+Top of Zone    = 1999
+Reset Mode     = Never reset
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 32
+   Objects     = 74
+   Mobiles     = 12
+   Shops       = 0
+   Triggers    = 13
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 20[0m
+
+Virtual Number = 20
+Name of zone   = The Abyss
+Builders       = Chris Boggs
+Lifespan       = 48
+AutoExists     = Yes
+Age            = 43
+Bottom of Zone = 2000
+Top of Zone    = 2099
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID HIGHLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 99
+   Objects     = 32
+   Mobiles     = 23
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 2
+
+>[0;00m
+[0mCHECKING: 21[0m
+
+Virtual Number = 21
+Name of zone   = Skara Brae
+Builders       = Gyles
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 2100
+Top of Zone    = 2199
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 99
+   Objects     = 100
+   Mobiles     = 86
+   Shops       = 24
+   Triggers    = 14
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 22[0m
+
+Virtual Number = 22
+Name of zone   = The Abandoned Ship and the Deep Forest
+Builders       = Gyles Steppin
+Lifespan       = 23
+AutoExists     = Yes
+Age            = 16
+Bottom of Zone = 2200
+Top of Zone    = 2299
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 63
+   Objects     = 44
+   Mobiles     = 25
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 23[0m
+
+Virtual Number = 23
+Name of zone   = Outskirts of Skara Brae
+Builders       = None
+Lifespan       = 15
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 2300
+Top of Zone    = 2399
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 62
+   Objects     = 9
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 24[0m
+
+Virtual Number = 24
+Name of zone   = Cheers
+Builders       = Naved
+Lifespan       = 52
+AutoExists     = Yes
+Age            = 27
+Bottom of Zone = 2400
+Top of Zone    = 2499
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 14
+   Objects     = 2
+   Mobiles     = 16
+   Shops       = 1
+   Triggers    = 3
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 25[0m
+
+Virtual Number = 25
+Name of zone   = The Arctic Empire
+Builders       = Chris Boggs
+Lifespan       = 40
+AutoExists     = Yes
+Age            = 35
+Bottom of Zone = 2500
+Top of Zone    = 2699
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 172
+   Objects     = 28
+   Mobiles     = 24
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 27[0m
+
+Virtual Number = 27
+Name of zone   = Camelot
+Builders       = Loki
+Lifespan       = 26
+AutoExists     = Yes
+Age            = 11
+Bottom of Zone = 2700
+Top of Zone    = 2899
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 186
+   Objects     = 38
+   Mobiles     = 46
+   Shops       = 0
+   Triggers    = 9
+   Quests      = 1
+
+>[0;00m
+[0mCHECKING: 29[0m
+
+Virtual Number = 29
+Name of zone   = Donner's Den of Iniquity
+Builders       = Cogitasne
+Lifespan       = 40
+AutoExists     = Yes
+Age            = 35
+Bottom of Zone = 2900
+Top of Zone    = 2999
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 10
+   Objects     = 4
+   Mobiles     = 10
+   Shops       = 1
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 30[0m
+
+Virtual Number = 30
+Name of zone   = Midgaard
+Builders       = None
+Lifespan       = 25
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 3000
+Top of Zone    = 3199
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID !MSDP 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 162
+   Objects     = 133
+   Mobiles     = 89
+   Shops       = 28
+   Triggers    = 47
+   Quests      = 6
+
+>[0;00m
+[0mCHECKING: 32[0m
+
+Virtual Number = 32
+Name of zone   = Midgaard Park South
+Builders       = None
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 3200
+Top of Zone    = 3299
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 42
+   Objects     = 12
+   Mobiles     = 12
+   Shops       = 0
+   Triggers    = 3
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 33[0m
+
+Virtual Number = 33
+Name of zone   = Mahn-Tor
+Builders       = Ragnarok Valaria
+Lifespan       = 40
+AutoExists     = Yes
+Age            = 35
+Bottom of Zone = 3300
+Top of Zone    = 3454
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 153
+   Objects     = 83
+   Mobiles     = 36
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 35[0m
+
+Virtual Number = 35
+Name of zone   = Outskirts of Midgaard
+Builders       = None
+Lifespan       = 10
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 3500
+Top of Zone    = 3599
+Reset Mode     = Never reset
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 8
+   Objects     = 0
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 36[0m
+
+Virtual Number = 36
+Name of zone   = Sesame Street and Muppet Theatre
+Builders       = Kaeli Kinski Moonbeam
+Lifespan       = 60
+AutoExists     = Yes
+Age            = 55
+Bottom of Zone = 3600
+Top of Zone    = 3699
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 99
+   Objects     = 77
+   Mobiles     = 78
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 37[0m
+
+Virtual Number = 37
+Name of zone   = The Wayhouse
+Builders       = C.A.W
+Lifespan       = 18
+AutoExists     = Yes
+Age            = 11
+Bottom of Zone = 3700
+Top of Zone    = 3740
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 41
+   Objects     = 41
+   Mobiles     = 41
+   Shops       = 3
+   Triggers    = 10
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 38[0m
+
+Virtual Number = 38
+Name of zone   = Gyles Keep
+Builders       = Asdf
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 3800
+Top of Zone    = 3899
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID NEWBIE 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 21
+   Objects     = 3
+   Mobiles     = 8
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 39[0m
+
+Virtual Number = 39
+Name of zone   = Midgaard Countryside
+Builders       = None
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 3900
+Top of Zone    = 3999
+Reset Mode     = Never reset
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 9
+   Objects     = 0
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 40[0m
+
+Virtual Number = 40
+Name of zone   = Moria
+Builders       = Redferne
+Lifespan       = 18
+AutoExists     = Yes
+Age            = 1
+Bottom of Zone = 4000
+Top of Zone    = 4099
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 50
+   Objects     = 6
+   Mobiles     = 13
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 41[0m
+
+Virtual Number = 41
+Name of zone   = Lower Moria
+Builders       = None
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 4100
+Top of Zone    = 4199
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 50
+   Objects     = 9
+   Mobiles     = 18
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 42[0m
+
+Virtual Number = 42
+Name of zone   = Wamphyri Aerie
+Builders       = Thibor
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 27
+Bottom of Zone = 4200
+Top of Zone    = 4399
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 129
+   Objects     = 30
+   Mobiles     = 29
+   Shops       = 0
+   Triggers    = 3
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 44[0m
+
+Virtual Number = 44
+Name of zone   = The Trog Caves and Outpost
+Builders       = Heimdall. Revised by Infoteq Dranor Lifetaker
+Lifespan       = 45
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 4400
+Top of Zone    = 4699
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID HIGHLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 240
+   Objects     = 136
+   Mobiles     = 62
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 47[0m
+
+Virtual Number = 47
+Name of zone   = The Bardic Colleges
+Builders       = Tam
+Lifespan       = 45
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 4700
+Top of Zone    = 4999
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 254
+   Objects     = 108
+   Mobiles     = 36
+   Shops       = 2
+   Triggers    = 4
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 50[0m
+
+Virtual Number = 50
+Name of zone   = The Great Eastern Desert
+Builders       = Rorschach
+Lifespan       = 25
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 5000
+Top of Zone    = 5099
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 71
+   Objects     = 29
+   Mobiles     = 17
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 51[0m
+
+Virtual Number = 51
+Name of zone   = Drow City
+Builders       = Rorschach
+Lifespan       = 25
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 5100
+Top of Zone    = 5199
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 51
+   Objects     = 15
+   Mobiles     = 24
+   Shops       = 1
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 52[0m
+
+Virtual Number = 52
+Name of zone   = The Lost City of Old Thalos
+Builders       = Rorschach
+Lifespan       = 25
+AutoExists     = Yes
+Age            = 13
+Bottom of Zone = 5200
+Top of Zone    = 5299
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 50
+   Objects     = 45
+   Mobiles     = 12
+   Shops       = 0
+   Triggers    = 4
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 53[0m
+
+Virtual Number = 53
+Name of zone   = The Great Pyramid
+Builders       = Shoes
+Lifespan       = 26
+AutoExists     = Yes
+Age            = 16
+Bottom of Zone = 5300
+Top of Zone    = 5399
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 63
+   Objects     = 34
+   Mobiles     = 19
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 54[0m
+
+Virtual Number = 54
+Name of zone   = The Northern Plains
+Builders       = Raven
+Lifespan       = 33
+AutoExists     = Yes
+Age            = 6
+Bottom of Zone = 5400
+Top of Zone    = 5499
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 51
+   Objects     = 18
+   Mobiles     = 10
+   Shops       = 2
+   Triggers    = 5
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 55[0m
+
+Virtual Number = 55
+Name of zone   = The Wandering Ship
+Builders       = Aramina
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 5500
+Top of Zone    = 5599
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 59
+   Objects     = 25
+   Mobiles     = 10
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 1
+
+>[0;00m
+[0mCHECKING: 57[0m
+
+Virtual Number = 57
+Name of zone   = The Galaxy
+Builders       = Doctor
+Lifespan       = 35
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 5700
+Top of Zone    = 5799
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 61
+   Objects     = 35
+   Mobiles     = 32
+   Shops       = 1
+   Triggers    = 16
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 58[0m
+
+Virtual Number = 58
+Name of zone   = The Monastery
+Builders       = Cognitasne
+Lifespan       = 18
+AutoExists     = Yes
+Age            = 12
+Bottom of Zone = 5800
+Top of Zone    = 5999
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 106
+   Objects     = 45
+   Mobiles     = 30
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 2
+
+>[0;00m
+[0mCHECKING: 60[0m
+
+Virtual Number = 60
+Name of zone   = Light Haon-Dor
+Builders       = Quifael
+Lifespan       = 15
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 6000
+Top of Zone    = 6099
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 24
+   Objects     = 12
+   Mobiles     = 6
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 61[0m
+
+Virtual Number = 61
+Name of zone   = Dark Haon-Dor
+Builders       = Derkhil
+Lifespan       = 17
+AutoExists     = Yes
+Age            = 11
+Bottom of Zone = 6100
+Top of Zone    = 6199
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 51
+   Objects     = 14
+   Mobiles     = 10
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 62[0m
+
+Virtual Number = 62
+Name of zone   = Arachnos
+Builders       = Mahatma
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 6200
+Top of Zone    = 6299
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 56
+   Objects     = 6
+   Mobiles     = 17
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 63[0m
+
+Virtual Number = 63
+Name of zone   = The Chess Board
+Builders       = Exxon
+Lifespan       = 25
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 6300
+Top of Zone    = 6399
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 67
+   Objects     = 17
+   Mobiles     = 12
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 65[0m
+
+Virtual Number = 65
+Name of zone   = The Dwarven Kingdom
+Builders       = Depeche
+Lifespan       = 24
+AutoExists     = Yes
+Age            = 19
+Bottom of Zone = 6500
+Top of Zone    = 6599
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 52
+   Objects     = 24
+   Mobiles     = 21
+   Shops       = 2
+   Triggers    = 3
+   Quests      = 2
+
+>[0;00m
+[0mCHECKING: 66[0m
+
+Virtual Number = 66
+Name of zone   = Hell
+Builders       = Mahatma
+Lifespan       = 60
+AutoExists     = Yes
+Age            = 55
+Bottom of Zone = 6600
+Top of Zone    = 6656
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 57
+   Objects     = 14
+   Mobiles     = 20
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 67[0m
+
+Virtual Number = 67
+Name of zone   = Lost Isle of Shaedar
+Builders       = Myst
+Lifespan       = 50
+AutoExists     = Yes
+Age            = 35
+Bottom of Zone = 6700
+Top of Zone    = 6899
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID EASYMID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 151
+   Objects     = 30
+   Mobiles     = 39
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 69[0m
+
+Virtual Number = 69
+Name of zone   = The Dragon Sea
+Builders       = Cogitasne
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 6900
+Top of Zone    = 6999
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID EASYMID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 100
+   Objects     = 32
+   Mobiles     = 9
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 71[0m
+
+Virtual Number = 71
+Name of zone   = Scipio Dreaming
+Builders       = Steppin
+Lifespan       = 60
+AutoExists     = Yes
+Age            = 55
+Bottom of Zone = 7100
+Top of Zone    = 7299
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN !IMMORT GRID !OLC 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = 7
+Imm Max Level  = -1
+Size
+   Rooms       = 115
+   Objects     = 65
+   Mobiles     = 46
+   Shops       = 0
+   Triggers    = 5
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 73[0m
+
+Virtual Number = 73
+Name of zone   = The Midgaard Sewers
+Builders       = Cogitasne
+Lifespan       = 15
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 7300
+Top of Zone    = 7350
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID NEWBIE 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 51
+   Objects     = 19
+   Mobiles     = 23
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 74[0m
+
+Virtual Number = 74
+Name of zone   = Cedar Estate Mansion
+Builders       = Anton
+Lifespan       = 47
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 7400
+Top of Zone    = 7499
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 99
+   Objects     = 31
+   Mobiles     = 39
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 75[0m
+
+Virtual Number = 75
+Name of zone   = The Nightmire
+Builders       = Cogitasne
+Lifespan       = 25
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 7500
+Top of Zone    = 7560
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 60
+   Objects     = 22
+   Mobiles     = 35
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 76[0m
+
+Virtual Number = 76
+Name of zone   = Andrus' Toy Land
+Builders       = Anton Hurin
+Lifespan       = 72
+AutoExists     = Yes
+Age            = 13
+Bottom of Zone = 7600
+Top of Zone    = 7799
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 179
+   Objects     = 153
+   Mobiles     = 89
+   Shops       = 1
+   Triggers    = 63
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 78[0m
+
+Virtual Number = 78
+Name of zone   = The Wedding of Oreshkigal and Elish
+Builders       = Angstrom
+Lifespan       = 2
+AutoExists     = Yes
+Age            = 1
+Bottom of Zone = 7800
+Top of Zone    = 7899
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 87
+   Objects     = 70
+   Mobiles     = 90
+   Shops       = 1
+   Triggers    = 22
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 79[0m
+
+Virtual Number = 79
+Name of zone   = July 4th quest zone
+Builders       = Hurin
+Lifespan       = 46
+AutoExists     = Yes
+Age            = 27
+Bottom of Zone = 7900
+Top of Zone    = 7999
+Reset Mode     = Normal reset.
+Zone Flags     = NOBITS 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 1
+   Objects     = 100
+   Mobiles     = 4
+   Shops       = 0
+   Triggers    = 44
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 80[0m
+
+Virtual Number = 80
+Name of zone   = Independence Day Extension
+Builders       = Hurin
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 8000
+Top of Zone    = 8099
+Reset Mode     = Normal reset.
+Zone Flags     = GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 1
+   Objects     = 54
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 81[0m
+
+Virtual Number = 81
+Name of zone   = Christmas 2018
+Builders       = Hurin
+Lifespan       = 0
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 8100
+Top of Zone    = 8199
+Reset Mode     = Never reset
+Zone Flags     = !ASTRAL !SHSTRM 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 42
+   Objects     = 92
+   Mobiles     = 25
+   Shops       = 0
+   Triggers    = 18
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 82[0m
+
+Virtual Number = 82
+Name of zone   = Christmas 2018 Part II
+Builders       = Hurin
+Lifespan       = 23
+AutoExists     = Yes
+Age            = 3
+Bottom of Zone = 8200
+Top of Zone    = 8299
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = !ASTRAL !SHSTRM 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 1
+   Objects     = 4
+   Mobiles     = 2
+   Shops       = 0
+   Triggers    = 10
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 83[0m
+
+Virtual Number = 83
+Name of zone   = Valhalla
+Builders       = Gordo
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 8300
+Top of Zone    = 8399
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = 25
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 49
+   Objects     = 58
+   Mobiles     = 40
+   Shops       = 1
+   Triggers    = 10
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 84[0m
+
+Virtual Number = 84
+Name of zone   = Xmas 2017
+Builders       = Hurin
+Lifespan       = 15
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 8400
+Top of Zone    = 8599
+Reset Mode     = Normal reset.
+Zone Flags     = !ASTRAL !SHSTRM 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 13
+   Objects     = 200
+   Mobiles     = 4
+   Shops       = 1
+   Triggers    = 32
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 89[0m
+
+Virtual Number = 89
+Name of zone   = The Parliament of Owls
+Builders       = ProtoClown
+Lifespan       = 43
+AutoExists     = Yes
+Age            = 20
+Bottom of Zone = 8900
+Top of Zone    = 8999
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 76
+   Objects     = 62
+   Mobiles     = 38
+   Shops       = 0
+   Triggers    = 10
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 90[0m
+
+Virtual Number = 90
+Name of zone   = The Midgaard Zoo
+Builders       = Maynard Kailyn
+Lifespan       = 15
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 9000
+Top of Zone    = 9099
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID NEWBIE 
+Min Level      = -1
+Max Level      = 8
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 54
+   Objects     = 22
+   Mobiles     = 59
+   Shops       = 0
+   Triggers    = 8
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 92[0m
+
+Virtual Number = 92
+Name of zone   = Goblinsville
+Builders       = Manx of SillyMUD
+Lifespan       = 38
+AutoExists     = Yes
+Age            = 7
+Bottom of Zone = 9200
+Top of Zone    = 9299
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 30
+   Objects     = 46
+   Mobiles     = 23
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 93[0m
+
+Virtual Number = 93
+Name of zone   = Floodlands
+Builders       = Steppin
+Lifespan       = 15
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 9300
+Top of Zone    = 9499
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 169
+   Objects     = 37
+   Mobiles     = 29
+   Shops       = 1
+   Triggers    = 2
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 95[0m
+
+Virtual Number = 95
+Name of zone   = The Lich Tower
+Builders       = SillyMUD
+Lifespan       = 35
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 9500
+Top of Zone    = 9599
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 30
+   Objects     = 11
+   Mobiles     = 8
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 96[0m
+
+Virtual Number = 96
+Name of zone   = Imperial Ravenna
+Builders       = Steppin
+Lifespan       = 58
+AutoExists     = Yes
+Age            = 48
+Bottom of Zone = 9600
+Top of Zone    = 9799
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 148
+   Objects     = 68
+   Mobiles     = 78
+   Shops       = 5
+   Triggers    = 9
+   Quests      = 1
+
+>[0;00m
+[0mCHECKING: 98[0m
+
+Virtual Number = 98
+Name of zone   = The Golden Pagoda
+Builders       = Fakir Guts Gambler
+Lifespan       = 799
+AutoExists     = Yes
+Age            = 235
+Bottom of Zone = 9800
+Top of Zone    = 9899
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 64
+   Objects     = 19
+   Mobiles     = 13
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 99[0m
+
+Virtual Number = 99
+Name of zone   = The Metro
+Builders       = Steppin
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 9900
+Top of Zone    = 9999
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID EASYMID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 40
+   Objects     = 15
+   Mobiles     = 19
+   Shops       = 1
+   Triggers    = 9
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 100[0m
+
+Virtual Number = 100
+Name of zone   = Enfan City
+Builders       = Rorschach
+Lifespan       = 27
+AutoExists     = Yes
+Age            = 19
+Bottom of Zone = 10000
+Top of Zone    = 10099
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 59
+   Objects     = 15
+   Mobiles     = 12
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 101[0m
+
+Virtual Number = 101
+Name of zone   = Hellas
+Builders       = Jo Gorgon
+Lifespan       = 36
+AutoExists     = Yes
+Age            = 17
+Bottom of Zone = 10100
+Top of Zone    = 10299
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 182
+   Objects     = 60
+   Mobiles     = 88
+   Shops       = 3
+   Triggers    = 7
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 103[0m
+
+Virtual Number = 103
+Name of zone   = Monopoly Quest
+Builders       = LordWilliam Despair Hurin
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 10300
+Top of Zone    = 10399
+Reset Mode     = Normal reset.
+Zone Flags     = GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 4
+   Objects     = 62
+   Mobiles     = 4
+   Shops       = 0
+   Triggers    = 23
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 104[0m
+
+Virtual Number = 104
+Name of zone   = Easter 2019
+Builders       = Despair Lordwilliam
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 10400
+Top of Zone    = 10499
+Reset Mode     = Normal reset.
+Zone Flags     = GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 1
+   Objects     = 40
+   Mobiles     = 13
+   Shops       = 0
+   Triggers    = 22
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 106[0m
+
+Virtual Number = 106
+Name of zone   = Arcadia
+Builders       = Ciara Arizhel
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 10600
+Top of Zone    = 10899
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 227
+   Objects     = 68
+   Mobiles     = 36
+   Shops       = 2
+   Triggers    = 11
+   Quests      = 1
+
+>[0;00m
+[0mCHECKING: 111[0m
+
+Virtual Number = 111
+Name of zone   = Quest Items
+Builders       = None
+Lifespan       = 60
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 11100
+Top of Zone    = 11199
+Reset Mode     = Never reset
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 0
+   Objects     = 19
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 118[0m
+
+Virtual Number = 118
+Name of zone   = The Dollhouse
+Builders       = Detta
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 11800
+Top of Zone    = 11899
+Reset Mode     = Normal reset.
+Zone Flags     = NOBITS 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 99
+   Objects     = 77
+   Mobiles     = 50
+   Shops       = 2
+   Triggers    = 94
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 120[0m
+
+Virtual Number = 120
+Name of zone   = Rome
+Builders       = Onivel
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 12000
+Top of Zone    = 12099
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 71
+   Objects     = 34
+   Mobiles     = 37
+   Shops       = 4
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 121[0m
+
+Virtual Number = 121
+Name of zone   = The Museum of the Gods
+Builders       = Ching
+Lifespan       = 27
+AutoExists     = Yes
+Age            = 23
+Bottom of Zone = 12100
+Top of Zone    = 12199
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 12
+   Objects     = 37
+   Mobiles     = 5
+   Shops       = 0
+   Triggers    = 17
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 122[0m
+
+Virtual Number = 122
+Name of zone   = New Thalos
+Builders       = Duke
+Lifespan       = 25
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 12200
+Top of Zone    = 12599
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 395
+   Objects     = 214
+   Mobiles     = 167
+   Shops       = 25
+   Triggers    = 19
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 126[0m
+
+Virtual Number = 126
+Name of zone   = The Corsair Citadel
+Builders       = Cogitasne
+Lifespan       = 35
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 12600
+Top of Zone    = 12755
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 152
+   Objects     = 33
+   Mobiles     = 29
+   Shops       = 3
+   Triggers    = 4
+   Quests      = 2
+
+>[0;00m
+[0mCHECKING: 128[0m
+
+Virtual Number = 128
+Name of zone   = The Emerald Maze
+Builders       = Cogitasne
+Lifespan       = 25
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 12800
+Top of Zone    = 12999
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN !IMMORT GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = 7
+Imm Max Level  = -1
+Size
+   Rooms       = 200
+   Objects     = 53
+   Mobiles     = 33
+   Shops       = 0
+   Triggers    = 14
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 130[0m
+
+Virtual Number = 130
+Name of zone   = The High Tower of Sorcery
+Builders       = Skylar
+Lifespan       = 35
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 13000
+Top of Zone    = 13199
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 184
+   Objects     = 107
+   Mobiles     = 68
+   Shops       = 2
+   Triggers    = 7
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 133[0m
+
+Virtual Number = 133
+Name of zone   = Three of Swords
+Builders       = Valaria
+Lifespan       = 55
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 13300
+Top of Zone    = 13392
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 93
+   Objects     = 41
+   Mobiles     = 39
+   Shops       = 2
+   Triggers    = 3
+   Quests      = 3
+
+>[0;00m
+[0mCHECKING: 139[0m
+
+Virtual Number = 139
+Name of zone   = The Ant Hill
+Builders       = Labrat
+Lifespan       = 30
+AutoExists     = No
+Age            = 25
+Bottom of Zone = 13900
+Top of Zone    = 13999
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 56
+   Objects     = 10
+   Mobiles     = 14
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 140[0m
+
+Virtual Number = 140
+Name of zone   = The Amber Forest
+Builders       = Scarabus Nymphia Onivel
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 14000
+Top of Zone    = 14199
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN !IMMORT GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = 7
+Imm Max Level  = -1
+Size
+   Rooms       = 85
+   Objects     = 15
+   Mobiles     = 15
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 143[0m
+
+Virtual Number = 143
+Name of zone   = Refuge and Asylum
+Builders       = Cogitasne
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 14300
+Top of Zone    = 14399
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 69
+   Objects     = 44
+   Mobiles     = 57
+   Shops       = 0
+   Triggers    = 28
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 146[0m
+
+Virtual Number = 146
+Name of zone   = The Sieged Castle
+Builders       = Eagle
+Lifespan       = 66
+AutoExists     = Yes
+Age            = 2
+Bottom of Zone = 14600
+Top of Zone    = 14699
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 96
+   Objects     = 21
+   Mobiles     = 28
+   Shops       = 0
+   Triggers    = 6
+   Quests      = 1
+
+>[0;00m
+[0mCHECKING: 150[0m
+
+Virtual Number = 150
+Name of zone   = King Welmar's Castle
+Builders       = Pjotr Sapowox
+Lifespan       = 40
+AutoExists     = Yes
+Age            = 35
+Bottom of Zone = 15000
+Top of Zone    = 15055
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 54
+   Objects     = 18
+   Mobiles     = 26
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 154[0m
+
+Virtual Number = 154
+Name of zone   = Weeden and the Western Forest
+Builders       = Doc Steppin
+Lifespan       = 50
+AutoExists     = Yes
+Age            = 35
+Bottom of Zone = 15400
+Top of Zone    = 15499
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID EASYMID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 43
+   Objects     = 21
+   Mobiles     = 18
+   Shops       = 3
+   Triggers    = 6
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 155[0m
+
+Virtual Number = 155
+Name of zone   = Weeden Underground
+Builders       = None
+Lifespan       = 45
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 15500
+Top of Zone    = 15599
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 41
+   Objects     = 9
+   Mobiles     = 10
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 161[0m
+
+Virtual Number = 161
+Name of zone   = The Underworld
+Builders       = Shoes
+Lifespan       = 42
+AutoExists     = Yes
+Age            = 17
+Bottom of Zone = 16100
+Top of Zone    = 16250
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 115
+   Objects     = 48
+   Mobiles     = 43
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 166[0m
+
+Virtual Number = 166
+Name of zone   = The Balor
+Builders       = Chris Boggs
+Lifespan       = 24
+AutoExists     = Yes
+Age            = 19
+Bottom of Zone = 16600
+Top of Zone    = 16699
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 45
+   Objects     = 12
+   Mobiles     = 14
+   Shops       = 0
+   Triggers    = 7
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 167[0m
+
+Virtual Number = 167
+Name of zone   = Drake Isle
+Builders       = Cogitasne
+Lifespan       = 45
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 16700
+Top of Zone    = 16899
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 169
+   Objects     = 67
+   Mobiles     = 35
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 170[0m
+
+Virtual Number = 170
+Name of zone   = The Death Star
+Builders       = Pabs Guts
+Lifespan       = 59
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 17000
+Top of Zone    = 17499
+Reset Mode     = Never reset
+Zone Flags     = !ASTRAL VERYHIGH !OLC 
+Min Level      = -1
+Max Level      = 30
+Imm Min Level  = 7
+Imm Max Level  = 10
+Size
+   Rooms       = 301
+   Objects     = 65
+   Mobiles     = 368
+   Shops       = 0
+   Triggers    = 21
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 178[0m
+
+Virtual Number = 178
+Name of zone   = The Wedding Shops
+Builders       = None
+Lifespan       = 27
+AutoExists     = Yes
+Age            = 19
+Bottom of Zone = 17800
+Top of Zone    = 17899
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 25
+   Objects     = 59
+   Mobiles     = 18
+   Shops       = 11
+   Triggers    = 4
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 179[0m
+
+Virtual Number = 179
+Name of zone   = Tir na nOg
+Builders       = Mandragora Kailyn
+Lifespan       = 0
+AutoExists     = No
+Age            = 0
+Bottom of Zone = 17900
+Top of Zone    = 18199
+Reset Mode     = Never reset
+Zone Flags     = OPEN !IMMORT QUEST !ASTRAL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 267
+   Objects     = 71
+   Mobiles     = 50
+   Shops       = 6
+   Triggers    = 4
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 183[0m
+
+Virtual Number = 183
+Name of zone   = Jedimud old folks home.
+Builders       = None
+Lifespan       = 101
+AutoExists     = Yes
+Age            = 5
+Bottom of Zone = 18300
+Top of Zone    = 18399
+Reset Mode     = Normal reset.
+Zone Flags     = NOBITS 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 34
+   Objects     = 0
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 184[0m
+
+Virtual Number = 184
+Name of zone   = Limbo
+Builders       = None
+Lifespan       = 120
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 18400
+Top of Zone    = 18499
+Reset Mode     = Never reset
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 1
+   Objects     = 25
+   Mobiles     = 22
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 185[0m
+
+Virtual Number = 185
+Name of zone   = Aralu
+Builders       = Raid
+Lifespan       = 45
+AutoExists     = Yes
+Age            = 10
+Bottom of Zone = 18500
+Top of Zone    = 18589
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 90
+   Objects     = 46
+   Mobiles     = 29
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 186[0m
+
+Virtual Number = 186
+Name of zone   = Miden'Nir Extension
+Builders       = None
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 18600
+Top of Zone    = 18667
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID EASYMID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 68
+   Objects     = 27
+   Mobiles     = 22
+   Shops       = 0
+   Triggers    = 4
+   Quests      = 1
+
+>[0;00m
+[0mCHECKING: 192[0m
+
+Virtual Number = 192
+Name of zone   = Castle Mistamere
+Builders       = SillyMUD
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 19200
+Top of Zone    = 19299
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID NEWBIE 
+Min Level      = 0
+Max Level      = 8
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 51
+   Objects     = 13
+   Mobiles     = 15
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 193[0m
+
+Virtual Number = 193
+Name of zone   = Newbie Trog caves and outpost
+Builders       = Heimdall Infoteq Dranor Lifetaker
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 19300
+Top of Zone    = 19599
+Reset Mode     = Normal reset.
+Zone Flags     = NEWBIE !SHSTRM 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 240
+   Objects     = 24
+   Mobiles     = 50
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 210[0m
+
+Virtual Number = 210
+Name of zone   = The Shadows
+Builders       = Mandragora
+Lifespan       = 45
+AutoExists     = No
+Age            = 10
+Bottom of Zone = 21000
+Top of Zone    = 21399
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN !IMMORT GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = 7
+Imm Max Level  = -1
+Size
+   Rooms       = 46
+   Objects     = 16
+   Mobiles     = 8
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 216[0m
+
+Virtual Number = 216
+Name of zone   = Dragon City
+Builders       = Anton
+Lifespan       = 45
+AutoExists     = No
+Age            = 10
+Bottom of Zone = 21600
+Top of Zone    = 21699
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN !IMMORT GRID VERYHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 52
+   Objects     = 20
+   Mobiles     = 26
+   Shops       = 0
+   Triggers    = 3
+   Quests      = 2
+
+>[0;00m
+[0mCHECKING: 217[0m
+
+Virtual Number = 217
+Name of zone   = The Training Grounds
+Builders       = Anton
+Lifespan       = 20
+AutoExists     = Yes
+Age            = 15
+Bottom of Zone = 21700
+Top of Zone    = 21799
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID EASYMID 
+Min Level      = -1
+Max Level      = 20
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 60
+   Objects     = 31
+   Mobiles     = 69
+   Shops       = 0
+   Triggers    = 2
+   Quests      = 10
+
+>[0;00m
+[0mCHECKING: 230[0m
+
+Virtual Number = 230
+Name of zone   = The City of Sanctuary
+Builders       = n
+Lifespan       = 40
+AutoExists     = Yes
+Age            = 35
+Bottom of Zone = 23000
+Top of Zone    = 23499
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID MIDHIGH 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 355
+   Objects     = 71
+   Mobiles     = 73
+   Shops       = 8
+   Triggers    = 9
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 235[0m
+
+Virtual Number = 235
+Name of zone   = The Watch Towers
+Builders       = None
+Lifespan       = 60
+AutoExists     = No
+Age            = 55
+Bottom of Zone = 23500
+Top of Zone    = 23599
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 29
+   Objects     = 0
+   Mobiles     = 1
+   Shops       = 0
+   Triggers    = 7
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 236[0m
+
+Virtual Number = 236
+Name of zone   = Pyramid of DOOM!
+Builders       = Cogitasne Valaria
+Lifespan       = 205
+AutoExists     = Yes
+Age            = 30
+Bottom of Zone = 23600
+Top of Zone    = 23799
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN !IMMORT GRID !OLC 
+Min Level      = 21
+Max Level      = -1
+Imm Min Level  = 7
+Imm Max Level  = -1
+Size
+   Rooms       = 184
+   Objects     = 0
+   Mobiles     = 79
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 238[0m
+
+Virtual Number = 238
+Name of zone   = Pyramid of DOOM!
+Builders       = Cogitasne Valaria
+Lifespan       = 0
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 23800
+Top of Zone    = 23999
+Reset Mode     = Never reset
+Zone Flags     = OPEN !IMMORT GRID !OLC 
+Min Level      = 21
+Max Level      = -1
+Imm Min Level  = 7
+Imm Max Level  = -1
+Size
+   Rooms       = 141
+   Objects     = 100
+   Mobiles     = 32
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 240[0m
+
+Virtual Number = 240
+Name of zone   = The Darkspine Mountains
+Builders       = Valaria
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 24000
+Top of Zone    = 24020
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID EASY 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 21
+   Objects     = 0
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 249[0m
+
+Virtual Number = 249
+Name of zone   = New Zone
+Builders       = None
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 24900
+Top of Zone    = 24999
+Reset Mode     = Normal reset.
+Zone Flags     = NOBITS 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 1
+   Objects     = 20
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 250[0m
+
+Virtual Number = 250
+Name of zone   = Gauntlet
+Builders       = Cogitasne Valaria
+Lifespan       = 60
+AutoExists     = Yes
+Age            = 55
+Bottom of Zone = 25000
+Top of Zone    = 25299
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = CLOSED QUEST GRID !ASTRAL VERYHIGH !SHSTRM 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = 7
+Imm Max Level  = -1
+Size
+   Rooms       = 241
+   Objects     = 252
+   Mobiles     = 51
+   Shops       = 1
+   Triggers    = 24
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 253[0m
+
+Virtual Number = 253
+Name of zone   = The Quest Chute
+Builders       = Hurin LordWilliam
+Lifespan       = 85
+AutoExists     = No
+Age            = 7
+Bottom of Zone = 25300
+Top of Zone    = 25399
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID !OLC 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 100
+   Objects     = 91
+   Mobiles     = 82
+   Shops       = 0
+   Triggers    = 4
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 254[0m
+
+Virtual Number = 254
+Name of zone   = Quest Zone
+Builders       = None
+Lifespan       = 27
+AutoExists     = Yes
+Age            = 19
+Bottom of Zone = 25400
+Top of Zone    = 25499
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN !IMMORT GRID 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 0
+   Objects     = 100
+   Mobiles     = 5
+   Shops       = 0
+   Triggers    = 3
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 255[0m
+
+Virtual Number = 255
+Name of zone   = Halloween 2019 and Dragon Quest
+Builders       = LordWilliam Despair
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 25500
+Top of Zone    = 25599
+Reset Mode     = Normal reset.
+Zone Flags     = !ASTRAL !SHSTRM 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 2
+   Objects     = 65
+   Mobiles     = 29
+   Shops       = 0
+   Triggers    = 51
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 256[0m
+
+Virtual Number = 256
+Name of zone   = Independence Day 2020
+Builders       = Despair Hurin LordWilliam
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 25600
+Top of Zone    = 25699
+Reset Mode     = Normal reset.
+Zone Flags     = NOBITS 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 2
+   Objects     = 4
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 257[0m
+
+Virtual Number = 257
+Name of zone   = Toyland Extensions
+Builders       = Warrim
+Lifespan       = 51
+AutoExists     = Yes
+Age            = 49
+Bottom of Zone = 25700
+Top of Zone    = 25899
+Reset Mode     = Normal reset.
+Zone Flags     = OPEN GRID HIGHLVL 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 151
+   Objects     = 1
+   Mobiles     = 1
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 259[0m
+
+Virtual Number = 259
+Name of zone   = Doom Isle
+Builders       = Despair LordWilliam
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 25900
+Top of Zone    = 25999
+Reset Mode     = Normal reset.
+Zone Flags     = CLOSED !IMMORT QUEST GODONLY VERYHIGH !SHSTRM 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 51
+   Objects     = 0
+   Mobiles     = 5
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 350[0m
+
+Virtual Number = 350
+Name of zone   = The Ice Fortress of Razakasch
+Builders       = Angstrom Aegon
+Lifespan       = 53
+AutoExists     = Yes
+Age            = 39
+Bottom of Zone = 35000
+Top of Zone    = 35199
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID HIGHLVL 
+Min Level      = 15
+Max Level      = -1
+Imm Min Level  = 6
+Imm Max Level  = -1
+Size
+   Rooms       = 180
+   Objects     = 197
+   Mobiles     = 135
+   Shops       = 2
+   Triggers    = 166
+   Quests      = 13
+
+>[0;00m
+[0mCHECKING: 360[0m
+
+Virtual Number = 360
+Name of zone   = Shifting Sands
+Builders       = Zhi
+Lifespan       = 1
+AutoExists     = Yes
+Age            = 0
+Bottom of Zone = 36000
+Top of Zone    = 36199
+Reset Mode     = Normal reset.
+Zone Flags     = NEWBIE EASY 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 24
+   Objects     = 11
+   Mobiles     = 10
+   Shops       = 0
+   Triggers    = 5
+   Quests      = 9
+
+>[0;00m
+[0mCHECKING: 370[0m
+
+Virtual Number = 370
+Name of zone   = Elias' Ascendant
+Builders       = Anton Augustus
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 37000
+Top of Zone    = 37199
+Reset Mode     = Reset when no  are in zone.
+Zone Flags     = OPEN GRID VERYHIGH 
+Min Level      = 1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 150
+   Objects     = 49
+   Mobiles     = 32
+   Shops       = 0
+   Triggers    = 60
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 390[0m
+
+Virtual Number = 390
+Name of zone   = The Tower of Shadows
+Builders       = Augustus, Anton
+Lifespan       = 10
+AutoExists     = Yes
+Age            = 5
+Bottom of Zone = 39000
+Top of Zone    = 39199
+Reset Mode     = Normal reset.
+Zone Flags     = NOBITS 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 26
+   Objects     = 14
+   Mobiles     = 13
+   Shops       = 0
+   Triggers    = 12
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 400[0m
+
+Virtual Number = 400
+Name of zone   = Guts new zone
+Builders       = Guts
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 40000
+Top of Zone    = 40199
+Reset Mode     = Normal reset.
+Zone Flags     = NOBITS 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 24
+   Objects     = 0
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 1
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 444[0m
+
+Virtual Number = 444
+Name of zone   = The Legend of Zelda
+Builders       = Warrim
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 444001
+Top of Zone    = 444999
+Reset Mode     = Normal reset.
+Zone Flags     = NOBITS 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 1
+   Objects     = 0
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: 50000[0m
+
+Virtual Number = 50000
+Name of zone   = New Zone
+Builders       = None
+Lifespan       = 30
+AutoExists     = Yes
+Age            = 25
+Bottom of Zone = 5000000
+Top of Zone    = 5000999
+Reset Mode     = Normal reset.
+Zone Flags     = NOBITS 
+Min Level      = -1
+Max Level      = -1
+Imm Min Level  = -1
+Imm Max Level  = -1
+Size
+   Rooms       = 1
+   Objects     = 1
+   Mobiles     = 0
+   Shops       = 0
+   Triggers    = 0
+   Quests      = 0
+
+>[0;00m
+[0mCHECKING: [0m

@@ -1,0 +1,2021 @@
+[0mCHECKING: 0[0m
+[0mCHECKING: 1[0m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [    3] George Bush speech                            mob Random 
+   2) [    4] John Kerry Speech                             mob Random 
+   3) [    5] Darth Vader Speech                            mob Random 
+   4) [   11] new trigger                                   mob Greet 
+   5) [   41] waving a claw                                 mob Random 
+   6) [   52] kenku mimic proc                              mob Speech 
+   7) [   61] mob poison gas proc                           mob Fight 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [  100] Obj Command 100 - portal to Midgaard          obj Command 
+   2) [  101] Room Command - portal to Midgaard             wld Command 
+   3) [  102] Mob Command - portal to Midgaard              mob Command 
+   4) [  103] Mob Greet Newbie Guide - 196                  mob Greet 
+   5) [  104] dg_cast fireball                              mob Fight 
+   6) [  105] Mob Greet Hannibal - 140                      mob Greet 
+   7) [  106] Mob Greet Carpenter - 197                     mob Greet 
+   8) [  107] Mob Greet Shiro - 103                         mob Greet 
+   9) [  108] Mob Greet Rhian - 104                         mob Greet 
+  10) [  109] Mob Greet Sarge - 109                         mob Greet 
+  11) [  110] Mob Greet Logan - 110                         mob Greet 
+  12) [  111] Mob Greet Branwen - 111                       mob Greet 
+  13) [  112] Mob Greet Morgan - 184                        mob Greet 
+  14) [  113] Mob Greet Ingrid - 182                        mob Greet 
+  15) [  114] Mob Greet Corwin - 110                        mob Greet 
+  16) [  115] Mob Greet Banker - 119                        mob Greet 
+  17) [  116] Mob Greet Hazel - 109                         mob Greet 
+  18) [  117] Mob Greet Carla - 158                         mob Greet 
+  19) [  118] Mob Greet Ian - 101                           mob Greet 
+  20) [  119] Mob Greet Liam - 119                          mob Greet 
+  21) [  120] Mob Greet Baker - 187                         mob Greet 
+  22) [  121] Mob Greet Butcher - 199                       mob Greet 
+  23) [  122] Mob Greet Rowan - 111                         mob Greet 
+  24) [  123] Mob Greet Fiona - 124                         mob Greet 
+  25) [  124] Mob Greet Lugdach - 106                       mob Greet 
+  26) [  125] Mob Greet Healer - 186                        mob Greet 
+  27) [  126] Mob Greet Sareth - 185                        mob Greet 
+  28) [  127] Mob Act - 156 speaker greet                   mob Act 
+  29) [  128] Mob Act - 156 speaker goodbye                 mob Act 
+  30) [  129] Mob Greet Beggar - 165                        mob Greet 
+  31) [  130] Mob Bribe Beggar - 165                        mob Bribe 
+  32) [  131] Room Command 365 - Jump                       wld Command 
+  33) [  132] dg_cast by level                              mob Fight 
+  34) [  133] Warrior Guildguard - 127                      mob Leave 
+  35) [  134] Mage Guildguard - 173                         mob Leave 
+  36) [  135] Cleric Guildguard - 174                       mob Leave 
+  37) [  136] Thief Guildguard - 177                        mob Leave 
+  38) [  137] Thief Guildmaster Steals - M122               mob Random 
+  39) [  138] Questmaster Greet - 3                         mob Greet 
+  40) [  139] Questmaster Quest Assignment - 3              mob Speech 
+  41) [  140] Quest Timer - 16                              obj Command 
+  42) [  141] Quest 10 min Purge - 15, 16, 17               obj Timer 
+  43) [  142] Quest Timer Random - 16                       obj Random 
+  44) [  143] Questmaster Receive - 3                       mob Receive 
+  45) [  144] Quest Mob Loads Head - 15                     mob Load 
+  46) [  145] Dove - 193                                    mob Random 
+  47) [  146] Apprentice healer - 201                       mob Random 
+  48) [  147] Black Magi Spell - 144                        mob Fight 
+  49) [  148] Mouse Emote - 194                             mob Random 
+  50) [  149] Cat Emote - 139                               mob Random 
+  51) [  150] Dog Emote - 192                               mob Random 
+  52) [  151] Townsman Emote - 170                          mob Random 
+  53) [  152] Angel Receives Treats - 207                   mob Receive 
+  54) [  153] Angel Follows Masters Commands - 207          mob Speech 
+  55) [  154] rubber chicken squeeze - 172                  obj Command 
+  56) [  155] Check for treats - 207                        mob Greet 
+  57) [  156] Angel plays with chicken - 207                mob Random 
+  58) [  157] 10 sided die roll - 173                       obj Command 
+  59) [  158] Bell Toll - 101                               wld Command UNDEFINED 
+  60) [  159] Cancer Stick Smoking - 176                    obj Command 
+  61) [  160] Puppy plays - 191                             mob Greet 
+  62) [  161] Annoying Kid - 117                            mob Random 
+  63) [  162] Picking Mushrooms                             wld Command 
+  64) [  163] Room Heals - 101                              wld Random 
+  65) [  164] Beggin Strips - 164                           obj Consume 
+  66) [  165] Thief - 129, 183                              mob Random 
+  67) [  166] Cast spells on Greet - M135                   mob Greet 
+  68) [  167] Mob Questshop Example                         mob Command 
+  69) [  168] Questpoint Setter - 44                        obj Command 
+  70) [  169] Quest Token check if player is on quest - 15  obj Get 
+  71) [  170] Load Tapcode Paper - 97                       wld Command 
+  72) [  171] Tapcode Say Stuff - 97-93                     wld Random 
+  73) [  172] Prison Teleport 97-91                         wld Speech 
+  74) [  173] Prison Commissar M31                          mob Random 
+  75) [  174] Underground Spy M30 T174                      mob Random 
+  76) [  175] Chuck Norris - 34                             mob Global Random 
+  77) [  176] Teleporter Recall - O82                       obj Command 
+  78) [  177] Kick Me Sign - O197                           obj Random 
+  79) [  178] Homer's Advice M33                            mob Random 
+  80) [  179] Streetsweeper Ramblings M161                  mob Random 
+  81) [  180] Shackle Lock Pick O89                         wld Command 
+  82) [  181] Epictetus M29                                 mob Random 
+  83) [  182] Clausewitz M28                                mob Random 
+  84) [  183] Socrates - 17                                 mob Random 
+  85) [  184] Plato - 21                                    mob Random 
+  86) [  185] Aristotle - 22                                mob Random 
+  87) [  186] Confucius - 23                                mob Random 
+  88) [  187] James Stockdale - 27                          mob Random 
+  89) [  188] TBA Magic Eight Ball Check - 26               mob Leave 
+  90) [  189] Mob Quest Example Load 8ball - 22             wld Enter 
+  91) [  190] Mob Quest Tutorial Example Quest completion - mob Receive 
+  92) [  191] Mob Quest Tutorial Example Quest accepted - 2 mob Speech 
+  93) [  192] Mob Quest Tutorial Example Quest starter - 25 mob Greet 
+  94) [  193] TBA Object Get Coins Reload - 45              obj Get 
+  95) [  194] JediMUD Greeting - Borrowed from TBAMUD - upd mob Act 
+  96) [  195] Stayalive idleout bracelet - 88               obj Random 
+  97) [  196] TBA Capital Letters Test - 17                 mob Command 
+  98) [  197] TBA Hallway - 22                              mob Greet 
+  99) [  198] TBA Give Suggestions - 21                     mob Greet 
+ 100) [  199] TBA Welcome - 18                              wld Login 
+
+>[0;00m
+[0mCHECKING: 2[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [  201] give golden ticket                            mob Command 
+   2) [  202] librarian's assistant speech block            mob Random 
+   3) [  220] office visits                                 wld Enter Login 
+   4) [  224] librarian performances                        mob Random 
+   5) [  225] Minstrel Speech                               mob Random 
+   6) [  246] gal friday                                    mob Greet 
+   7) [  247] bestowing graces                              obj Command 
+   8) [  248] secret santa                                  mob Receive 
+   9) [  249] xerox copies                                  mob Receive 
+  10) [  250] scarlett johannson                            mob Random 
+  11) [  251] the social experiment                         mob Random 
+  12) [  252] console panel menu                            wld Command 
+  13) [  253] reset char globals                            obj Command 
+  14) [  254] slay the beasts                               obj Command 
+  15) [  255] cattle drive                                  mob Command 
+  16) [  256] pet trauma                                    mob Receive 
+  17) [  257] set legacy race tag                           obj Command 
+  18) [  258] no gates pls                                  mob Command 
+  19) [  259] dwarf!                                        obj Wear 
+
+>[0;00m
+[0mCHECKING: 3[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [  313] loki's caprice spell generator                obj Wear 
+
+>[0;00m
+[0mCHECKING: 4[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #4
+
+>[0;00m
+[0mCHECKING: 5[0m
+[0mCHECKING: 6[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [  511] wight Speech                                  mob Random 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [  627] Elsa Speech                                   mob Random 
+   2) [  628] Anna Speech                                   mob Random 
+   3) [  629] Kristoff Speech                               mob Random 
+   4) [  631] Olaf Speech                                   mob Random 
+   5) [  632] Snow-Golem Speech                             mob Random 
+
+>[0;00m
+[0mCHECKING: 7[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [  701] test gauntlet teleport                        obj Command 
+   2) [  899] prevent quit                                  wld Command Enter 
+
+>[0;00m
+[0mCHECKING: 9[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #9
+
+>[0;00m
+[0mCHECKING: 10[0m
+[0mCHECKING: 11[0m
+[0mCHECKING: 12[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 1001] test                                          mob Receive 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 1100] Elven wizard Speech                           mob Greet 
+   2) [ 1101] Keeper of the ring speech                     mob Random 
+   3) [ 1102] Farner gamgee speech                          mob Random 
+   4) [ 1105] cow speech                                    mob Random 
+   5) [ 1106] pig speech                                    mob Random 
+   6) [ 1107] chicken speech                                mob Random 
+   7) [ 1108] bull speech                                   mob Random 
+   8) [ 1109] horse speech                                  mob Random 
+   9) [ 1110] my precious                                   obj Random 
+  10) [ 1111] orcs be about! wear                           obj Wear 
+  11) [ 1112] Thain speech                                  mob Random 
+  12) [ 1113] Innkeeper speech                              mob Random 
+  13) [ 1114] Miller halfling speech                        mob Random 
+  14) [ 1115] o elbereth!                                   obj Command 
+  15) [ 1116] elven warrior speech                          mob Random 
+  16) [ 1117] elven prince speech                           mob Random 
+  17) [ 1118] shopkeeper speech                             mob Random 
+  18) [ 1119] Grocer speech                                 mob Random 
+  19) [ 1120] orcs be about! look                           obj Command 
+  20) [ 1128] Country bumpkin speech                        mob Random 
+  21) [ 1130] Innkeeper speech                              mob Greet 
+  22) [ 1131] Local Gossip speech                           mob Greet 
+  23) [ 1132] nazgul                                        obj Random 
+  24) [ 1133] one ring sneak on                             obj Wear 
+  25) [ 1134] roomflag check                                obj Random 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 1208] tyderium shuttle main travel loop             wld Global Random Enter 
+   2) [ 1211] imperial shuttle main travel loop             mob Command 
+   3) [ 1212] Imperial travel on orders                     obj Leave 
+   4) [ 1254] Obi-Wan Kenobi speech                         mob Random 
+   5) [ 1269] Han Solo speech                               mob Random 
+   6) [ 1275] tyderium token retrieval at boarding          obj Leave 
+   7) [ 1276] buy Tydirium Boarding Pass                    obj Command 
+   8) [ 1280] this is the way of mandalore                  obj Wear 
+   9) [ 1284] Marvin speech                                 mob Random 
+  10) [ 1289] Yoda Greet                                    mob Random 
+  11) [ 1292] make a forcesaber                             mob Command 
+  12) [ 1399] escape pod                                    wld Command 
+
+>[0;00m
+[0mCHECKING: 14[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 1481] halloween quest turnstile                     wld Enter 
+
+>[0;00m
+[0mCHECKING: 15[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 1503] gabriel angel speech                          mob Random 
+
+>[0;00m
+[0mCHECKING: 16[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 1601] the anguished scribe speech                   mob Random 
+   2) [ 1603] An elvish child speech                        mob Random 
+   3) [ 1606] A stately elven princess speech               mob Random 
+   4) [ 1607] disarming disarm                              mob Fight 
+   5) [ 1608] a warning                                     mob Random 
+   6) [ 1618] shriek of the damned                          obj Random 
+
+>[0;00m
+[0mCHECKING: 18[0m
+[0mCHECKING: 19[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #18
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 1900] make a key with odd teeth and a skull handle  obj Command 
+   2) [ 1901] make skeleton key                             obj Command 
+   3) [ 1902] universal pick lock skill                     obj Wear 
+   4) [ 1903] remove pick lock skill                        obj Remove 
+   5) [ 1904] EQ Damage Calculation Test                    obj Wear 
+   6) [ 1905] voila a red chair                             wld Enter 
+   7) [ 1906] au revoir chaise!                             wld Leave 
+   8) [ 1907] faux inner gateway                            obj Command 
+   9) [ 1908] clue for skeleton key existence               mob Random Command Speech 
+  10) [ 1909] clue for the key make                         mob Random Command Speech 
+  11) [ 1919] showtime at swank tower                       wld Command 
+  12) [ 1920] show's over                                   wld Zone Reset 
+  13) [ 1976] cursed stone of cthulhu                       obj Command 
+
+>[0;00m
+[0mCHECKING: 20[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 2024] i'm a dt and i'm ok!                          wld Enter 
+   2) [ 2099] stuck in a maw                                mob Fight 
+
+>[0;00m
+[0mCHECKING: 21[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 2101] Baker speech                                  mob Random 
+   2) [ 2122] Drunk speech                                  mob Random 
+   3) [ 2125] Wilbur speech                                 mob Random 
+   4) [ 2131] Florist speech                                mob Random 
+   5) [ 2133] absolutely no pets allowed upstairs!          wld Enter 
+   6) [ 2153] minstrel speech                               mob Random 
+   7) [ 2154] minstrel shifty speech                        mob Random 
+   8) [ 2161] Drunk sailor speech                           mob Random 
+   9) [ 2176] Patrick Paladin speech                        mob Greet 
+  10) [ 2179] Michael lynn speech                           mob Greet 
+  11) [ 2180] johnson thief speech                          mob Greet 
+  12) [ 2181] skara warrior shopkeeper performance          mob Greet 
+  13) [ 2187] Sanctuary Newbie Transporter                  wld Global Command 
+  14) [ 2190] benita cleric speech                          mob Greet 
+
+>[0;00m
+[0mCHECKING: 22[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #22
+
+>[0;00m
+[0mCHECKING: 23[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #23
+
+>[0;00m
+[0mCHECKING: 24[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 2401] that refreshing taste                         obj Command 
+   2) [ 2405] secret panel                                  wld Command 
+   3) [ 2488] npcs playin' the slots                        wld Enter 
+
+>[0;00m
+[0mCHECKING: 25[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #25
+
+>[0;00m
+[0mCHECKING: 27[0m
+[0mCHECKING: 29[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 2754] Delroon speech                                mob Greet 
+   2) [ 2755] Delroon speech 2                              mob Random 
+   3) [ 2859] nineve's reward                               mob Receive 
+   4) [ 2862] the sword and the stone                       obj Get 
+   5) [ 2863] king calling                                  mob Command 
+   6) [ 2864] the code of chivalry                          mob Random 
+   7) [ 2865] a king's proclamation                         mob Random 
+   8) [ 2880] Merlin speech                                 mob Random 
+   9) [ 2881] merlin's reward                               mob Receive 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #29
+
+>[0;00m
+[0mCHECKING: 30[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 3001] Baker Greet                                   mob Random 
+   2) [ 3003] falce oblivio                                 obj Command 
+   3) [ 3005] bribing the travel agent                      mob Bribe 
+   4) [ 3006] fort nox                                      mob Command 
+   5) [ 3007] jump scare                                    wld Enter 
+   6) [ 3017] soothsayer performance                        mob Random 
+   7) [ 3019] electric company                              mob Greet 
+   8) [ 3020] tinkering with the philo stone                mob Command 
+   9) [ 3021] merchandise exchange                          mob Receive 
+  10) [ 3022] tinkering with a portable hole                mob Command 
+  11) [ 3028] antipaladin destroyer  performance            mob Greet 
+  12) [ 3043] no pets allowed in the pet store              wld Enter 
+  13) [ 3044] intercept buy command                         mob Command 
+  14) [ 3064] Drunk Greet                                   mob Random 
+  15) [ 3070] Odin's Quest Suggestion                       wld Enter 
+  16) [ 3071] Odin's bad commands                           wld Command 
+  17) [ 3072] Odin's good commands                          wld Command 
+  18) [ 3073] Odin's statue command                         wld Command 
+  19) [ 3074] Odin's Quest Initiator                        wld Command 
+  20) [ 3075] Odin's Quest Speech Trigger                   wld Command 
+  21) [ 3076] Odin Quest Acceptance                         wld Speech 
+  22) [ 3077] Odin Quest Decline                            wld Speech 
+  23) [ 3078] Odin Quest Complete                           obj Drop 
+  24) [ 3080] the hall of failure                           mob Act 
+  25) [ 3081] minstrel Greet                                mob Random 
+  26) [ 3082] troubadour Greet                              mob Random 
+  27) [ 3086] JediMUD Historian - Updates characters on cha mob Act 
+  28) [ 3095] unused                                        obj Command 
+  29) [ 3096] unused                                        obj Command 
+  30) [ 3097] quest point convert                           obj Command 
+  31) [ 3098] quest point revert                            obj Command 
+  32) [ 3150] prop weapons for the guards                   mob Death 
+  33) [ 3151] test - solo hyperloop not used                obj Command 
+  34) [ 3152] test - buy tokens not used                    obj Command 
+  35) [ 3158] millions served                               wld Enter 
+  36) [ 3160] Newbie Teleporter                             wld Command 
+  37) [ 3161] ballys slot machine                           obj Command 
+  38) [ 3162] look slot machine                             obj Command 
+  39) [ 3163] training day                                  mob Command 
+  40) [ 3165] pitt the bouncer speech                       mob Random 
+  41) [ 3167] geneaologies                                  wld Command 
+  42) [ 3168] bank calendar                                 wld Command 
+  43) [ 3169] what social was that?                         mob Command 
+  44) [ 3170] dupe detector for the rest of us              mob Receive 
+  45) [ 3171] a public service announcement                 mob Greet 
+  46) [ 3172] hungry hungry hippos                          obj Global Random 
+  47) [ 3175] commit heresy                                 obj Command 
+
+>[0;00m
+[0mCHECKING: 32[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 3242] secretary speech                              mob Random 
+   2) [ 3244] no news is good news                          mob Random 
+   3) [ 3245] don't feed the birds                          obj Command 
+
+>[0;00m
+[0mCHECKING: 33[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #33
+
+>[0;00m
+[0mCHECKING: 35[0m
+[0mCHECKING: 36[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #35
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 3665] swedish chef speech                           mob Random 
+   2) [ 3670] honker speech                                 mob Random 
+
+>[0;00m
+[0mCHECKING: 37[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 3703] Drogo speech                                  mob Random 
+   2) [ 3705] Dog speech                                    mob Random 
+   3) [ 3706] Airden speech                                 mob Random 
+   4) [ 3710] Horse speech                                  mob Random 
+   5) [ 3711] waiter speech                                 mob Random 
+   6) [ 3712] waitress speech                               mob Random 
+   7) [ 3717] adventurer speech                             mob Random 
+   8) [ 3718] adventurer speech                             mob Random 
+   9) [ 3723] Farbekrieg speech                             mob Random 
+  10) [ 3734] a cleric's gift                               mob Command 
+
+>[0;00m
+[0mCHECKING: 38[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #38
+
+>[0;00m
+[0mCHECKING: 39[0m
+[0mCHECKING: 40[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #39
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #40
+
+>[0;00m
+[0mCHECKING: 41[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 4100] mage speech                                   mob Random 
+
+>[0;00m
+[0mCHECKING: 42[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 4214] vampire slumber                               mob Global Time 
+   2) [ 4215] vampire awakens                               mob Global Time 
+   3) [ 4229] return of the masters                         obj Command 
+
+>[0;00m
+[0mCHECKING: 44[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 4438] lieutenant ghost speech                       mob Random 
+
+>[0;00m
+[0mCHECKING: 47[0m
+[0mCHECKING: 50[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 4700] Bardic Transporter                            wld Command 
+   2) [ 4701] Bardic college down                           wld Global Command 
+   3) [ 4712] cyrix speech                                  mob UNDEFINED 
+   4) [ 4892] give ilwar a flute to sell                    wld Zone Reset 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #50
+
+>[0;00m
+[0mCHECKING: 51[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #51
+
+>[0;00m
+[0mCHECKING: 52[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 5201] lamia speech                                  mob Random 
+   2) [ 5202] mimic <mobs> speech                           mob Random 
+   3) [ 5210] kobold speech                                 mob Random 
+   4) [ 5250] strum the mandolin                            obj Command 
+
+>[0;00m
+[0mCHECKING: 53[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 5313] i dream of jeannie                            obj Command 
+   2) [ 5318] wandering djinn                               mob Random 
+
+>[0;00m
+[0mCHECKING: 54[0m
+[0mCHECKING: 55[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 5401] Marvin speech                                 mob Greet 
+   2) [ 5407] single druish                                 obj Drop 
+   3) [ 5408] goth reaper                                   obj Random 
+   4) [ 5409] dwarven runes                                 obj Command 
+   5) [ 5454] pet the magic dragon                          mob Global Random 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 5502] greza sailor speech                           mob Random 
+
+>[0;00m
+[0mCHECKING: 57[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 5701] a palm reading railrod                        mob Random 
+   2) [ 5702] palm sunday                                   mob Command 
+   3) [ 5715] aries                                         mob Greet 
+   4) [ 5716] taurus                                        mob Greet 
+   5) [ 5717] gemini - castor                               mob Greet 
+   6) [ 5718] gemini - pollux                               mob Greet 
+   7) [ 5719] cancer                                        mob Greet 
+   8) [ 5720] leo                                           mob Greet 
+   9) [ 5721] virgo                                         mob Greet 
+  10) [ 5722] libra                                         mob Greet 
+  11) [ 5723] scorpio                                       mob Greet 
+  12) [ 5724] sagittarius                                   mob Greet 
+  13) [ 5725] capricorn                                     mob Greet 
+  14) [ 5726] aquarius                                      mob Greet 
+  15) [ 5727] pisces - mermaid                              mob Greet 
+  16) [ 5728] pisces                                        mob Greet 
+
+>[0;00m
+[0mCHECKING: 58[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #58
+
+>[0;00m
+[0mCHECKING: 60[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #60
+
+>[0;00m
+[0mCHECKING: 61[0m
+[0mCHECKING: 62[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 6110] speech of the ents                            mob Random 
+   2) [ 6131] huge poisonous spiders                        wld Enter 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #62
+
+>[0;00m
+[0mCHECKING: 63[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #63
+
+>[0;00m
+[0mCHECKING: 65[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 6508] dying password                                mob Death 
+   2) [ 6509] make a door                                   wld Command 
+   3) [ 6510] loose lips                                    mob Greet 
+
+>[0;00m
+[0mCHECKING: 66[0m
+[0mCHECKING: 67[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 6617] asmodeus speech                               mob Greet 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 6700] sandflea speech                               mob Random 
+   2) [ 6701] Pteranodon dive bomb                          mob Random 
+
+>[0;00m
+[0mCHECKING: 69[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #69
+
+>[0;00m
+[0mCHECKING: 71[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 7100] Onophrio Panuinio speech                      mob Random 
+   2) [ 7102] happy valentines day                          obj Command 
+   3) [ 7109] skull and crossbones                          wld Zone Reset 
+   4) [ 7119] choir boy speech                              mob Random 
+   5) [ 7125] The girl speech                               mob Random 
+
+>[0;00m
+[0mCHECKING: 73[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 7300] repair gate                                   obj Command 
+
+>[0;00m
+[0mCHECKING: 74[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 7433] ghost maid speech                             mob Random 
+
+>[0;00m
+[0mCHECKING: 75[0m
+[0mCHECKING: 76[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #75
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 7600] transfer players to toyland                   obj Global 
+   2) [ 7601] set var if circled                            mob Act 
+   3) [ 7602] Notna blocks backstab                         mob Command 
+   4) [ 7603] chucky's voodoo blade                         obj Command 
+   5) [ 7612] mob restore unless circled                    mob CombatDamage 
+   6) [ 7613] on hamm load - magnifying and gold            mob Greet-All 
+   7) [ 7620] he-man blocks entrance                        obj Leave 
+   8) [ 7621] make powersword                               obj Command 
+   9) [ 7622] test - totDam for eq                          mob Greet 
+  10) [ 7623] heman blocks leave                            mob Leave 
+  11) [ 7624] Load Adam if !prince !Heman                   wld Zone Reset 
+  12) [ 7625] new trigger test                              mob Death 
+  13) [ 7628] make multi-colored rubber armlets             obj Command 
+  14) [ 7629] Bank opens 9am                                wld Global Random 
+  15) [ 7630] call orko during fight                        mob Fight 
+  16) [ 7631] not used                                      obj Command 
+  17) [ 7632] set gem for sheras                            obj Command 
+  18) [ 7633] shera group all on load                       mob Act 
+  19) [ 7639] baker stainless steel clue                    mob Random 
+  20) [ 7640] make easy make oven with speck                obj Command 
+  21) [ 7642] easy bake oven purge self                     obj Timer 
+  22) [ 7643] playdough shield assembly                     obj Command 
+  23) [ 7644] make flawless sapphires                       obj Command 
+  24) [ 7645] remote oven_timer to player                   obj Command 
+  25) [ 7646] make easy bake oven with batteries            obj Command 
+  26) [ 7647] easy bake oven get food                       obj Command 
+  27) [ 7648] update oven on rent                           obj Command 
+  28) [ 7649] lego factory mgr give master key              mob Greet 
+  29) [ 7652] check for union card                          obj Command 
+  30) [ 7656] unfold paper                                  obj Command 
+  31) [ 7693] play-dough monster loads                      wld Zone Reset 
+  32) [ 7698] heman junks power sword on death              mob Death 
+  33) [ 7699] PrinceAdam to Heman and load chest plate      mob Receive 
+  34) [ 7700] prince adam protects shera                    mob Command 
+  35) [ 7701] playdough shield assembly                     obj Command 
+  36) [ 7704] play dough recombines                         mob Global Random Greet-All 
+  37) [ 7706] Bank opens 9am                                wld Global Random 
+  38) [ 7707] bank closes 17:00                             wld Global Random 
+  39) [ 7708] mobs drop bank key                            mob Death 
+  40) [ 7709] load can to shopkeeper if in room             wld Zone Reset 
+  41) [ 7710] Assemble functional communiucations headset   obj Command 
+  42) [ 7711] punish the non-believers                      obj Wear 
+  43) [ 7720] potato head summons up to 5 army men          mob Fight 
+  44) [ 7721] mob dodges                                    mob Bribe 
+  45) [ 7729] toy owner goes into store                     wld Global Random 
+  46) [ 7730] toy shopkeeper enters backrooms               wld Global Random 
+  47) [ 7731] sell lacquer if in backroom                   mob Command 
+  48) [ 7732] toy shopkeeper greeting                       mob Act 
+  49) [ 7735] toykenstein drops part on death               mob Death 
+  50) [ 7736] move chess pieces from control to board       wld Zone Reset 
+  51) [ 7737] Army captain lost brief speech                mob Greet-All 
+  52) [ 7738] Toy captain receives mission brief            mob Receive 
+  53) [ 7739] Make shroud of mystique                       obj Command 
+  54) [ 7740] Echo door shut in room 7711                   wld Leave 
+  55) [ 7741] Make Clasp From Broach of Supremacy           obj Command 
+  56) [ 7761] random teleport && and ||s for diff rooms     mob Global Random Load 
+  57) [ 7762] skeletor emotes lightning                     mob Fight 
+  58) [ 7763] Blinding Glory Sword Assembly                 obj Command 
+  59) [ 7764] give chucky kitchen knife - load voodoo       mob Receive 
+  60) [ 7765] chucky junks knife on death                   mob Death 
+  61) [ 7777] test script for serenity                      obj Command 
+  62) [ 7778] object container chest for serenity           obj Command 
+  63) [ 7799] lego trip dex trigger                         wld Leave 
+
+>[0;00m
+[0mCHECKING: 78[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 7800] Zombie speech                                 mob Random 
+   2) [ 7801] Zombie warrior speech                         mob Random 
+   3) [ 7802] Zombie ninja speech                           mob Random 
+   4) [ 7803] Zombie cleric speech                          mob Random 
+   5) [ 7804] Zombie mage speech                            mob Random 
+   6) [ 7805] Zombie thief speech                           mob Random 
+   7) [ 7806] Zombie paladin speech                         mob Random 
+   8) [ 7807] Zombie Apaladin speech                        mob Random 
+   9) [ 7808] Zombie sohei speech                           mob Random 
+  10) [ 7809] Zombie ranger speech                          mob Random 
+  11) [ 7810] Zombie jedi speech                            mob Random 
+  12) [ 7811] Zombie dark jedi speech                       mob Random 
+  13) [ 7812] Zombie bard speech                            mob Random 
+  14) [ 7816] chosen one warior speech                      mob Greet 
+  15) [ 7818] zombie <undeads> speech                       mob Random 
+  16) [ 7819] new trigger                                   mob Greet Time 
+  17) [ 7820] Summon the Zombies!!!                         obj Command 
+  18) [ 7821] torch reanimate corpse                        obj Random 
+  19) [ 7859] load a golden casket                          wld Zone Reset 
+  20) [ 7890] zombie flea speech                            mob Greet 
+  21) [ 7891] lwa give poison herb to players and force eat mob Fight 
+  22) [ 7892] papa loko makes a player drink a potion       mob Fight 
+
+>[0;00m
+[0mCHECKING: 79[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 7900] sam drop on death                             mob Death 
+   2) [ 7901] random teleport and load scrolls              mob Load 
+   3) [ 7902] random teleport for mini sam                  mob Global Random Load 
+   4) [ 7903] drop perma spell parts                        mob Death 
+   5) [ 7904] mini sam drop on death                        mob Death 
+   6) [ 7905] make molle bracelets                          obj Command 
+   7) [ 7906] make molle belt                               obj Command 
+   8) [ 7907] light firework                                obj Command 
+   9) [ 7908] make red white and blue token                 obj Command 
+  10) [ 7910] block strike                                  mob Command 
+  11) [ 7925] feel free to use                              obj Command 
+  12) [ 7950] combine +1dam scrolls                         obj Command 
+  13) [ 7952] combine +1str scrolls                         obj Command 
+  14) [ 7954] combine +1int scrolls                         obj Command 
+  15) [ 7956] combine +1wis scrolls                         obj Command 
+  16) [ 7958] combine +1dex scrolls                         obj Command 
+  17) [ 7960] combine +1con scrolls                         obj Command 
+  18) [ 7962] combine +1cha scrolls                         obj Command 
+  19) [ 7964] combine -1align scrolls                       obj Command 
+  20) [ 7966] combine +1xp scrolls                          obj Command 
+  21) [ 7968] combine +1hr scrolls                          obj Command 
+  22) [ 7970] combine +1m_regen scrolls                     obj Command 
+  23) [ 7972] combine 1hp_regen scrolls                     obj Command 
+  24) [ 7973] combine +5hp_regen scrolls                    obj Command 
+  25) [ 7975] combine 1move_regen scrolls                   obj Command 
+  26) [ 7976] combine +5move_regen scrolls                  obj Command 
+  27) [ 7978] combine +1ac scrolls                          obj Command 
+  28) [ 7979] combine +5ac scrolls                          obj Command 
+  29) [ 7981] combine +1hp scrolls                          obj Command 
+  30) [ 7982] combine +5hp scrolls                          obj Command 
+  31) [ 7984] combine +1mana scrolls                        obj Command 
+  32) [ 7985] combine +5mana scrolls                        obj Command 
+  33) [ 7987] combine +1move scrolls                        obj Command 
+  34) [ 7988] combine +5move scrolls                        obj Command 
+  35) [ 7990] make perma pfe                                obj Command 
+  36) [ 7991] make perma pfg                                obj Command 
+  37) [ 7992] make perma detect invisibility                obj Command 
+  38) [ 7993] make perma infravision                        obj Command 
+  39) [ 7994] make perma bless scroll                       obj Command 
+  40) [ 7995] make perma aid scroll                         obj Command 
+  41) [ 7996] make perma armor scroll                       obj Command 
+  42) [ 7997] make perma stone skin scroll                  obj Command 
+  43) [ 7998] make perma regeneration scroll                obj Command 
+  44) [ 7999] make perma invisibility scroll                obj Command 
+
+>[0;00m
+[0mCHECKING: 80[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #80
+
+>[0;00m
+[0mCHECKING: 81[0m
+[0mCHECKING: 82[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 8100] random attach 8299 NOT accounced              mob Load 
+   2) [ 8101] drop christmas parts on death                 mob Death 
+   3) [ 8102] to load cheer                                 mob Load 
+   4) [ 8103] elf random teleport                           mob Global Random Load 
+   5) [ 8104] elf drop christmast parts death               mob Death 
+   6) [ 8108] frost recbomines                              wld Enter 
+   7) [ 8109] room connection                               wld Enter 
+   8) [ 8110] ice cave room connection                      wld Enter 
+   9) [ 8111] purge exit ice cave                           wld Leave 
+  10) [ 8112] combine and tape gauntlet ticket              obj Command 
+  11) [ 8113] combine and tape raffle clue                  obj Command 
+  12) [ 8119] unwrap old halloween candy                    obj Command 
+  13) [ 8120] purge candy on timer end                      obj Timer 
+  14) [ 8195] purge exit to ice cavern                      wld Enter 
+  15) [ 8196] ice cave infine connection                    wld Enter 
+  16) [ 8197] connect unique rooms wonderland               wld Enter 
+  17) [ 8198] buddy unlocks door for you                    mob Speech 
+  18) [ 8199] worshop door purge                            wld Leave 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 8200] random attach 8299 Announced                  mob Load 
+   2) [ 8201] new trigger                                   mob Global Random Load 
+   3) [ 8202] random stat generator mask                    obj Command 
+   4) [ 8203] Not used mask change                          obj Timer 
+   5) [ 8204] not used - cause damage if your vnum doesnt m obj Global Random 
+   6) [ 8205] mask transforms                               obj Timer 
+   7) [ 8206] mask timer ends                               obj Timer 
+   8) [ 8207] new trigger                                   obj Command 
+   9) [ 8298] on load goto room 8100                        mob Load 
+  10) [ 8299] droponDeath MemorialDay20                     mob Death 
+
+>[0;00m
+[0mCHECKING: 83[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 8300] Vidar speech                                  mob Greet 
+   2) [ 8304] Idun speech                                   mob Greet 
+   3) [ 8305] Magni speech                                  mob Greet 
+   4) [ 8306] Bragi speech                                  mob Random 
+   5) [ 8307] Aegir speech                                  mob Random 
+   6) [ 8311] Balder speech                                 mob Greet 
+   7) [ 8315] Tyr speech                                    mob Random 
+   8) [ 8316] Hel speech                                    mob Greet 
+   9) [ 8318] Thor speech                                   mob Greet 
+  10) [ 8339] Charlie Gordon speech                         mob Greet 
+
+>[0;00m
+[0mCHECKING: 84[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 8400] mob block spells                              mob Cast 
+   2) [ 8401] block grapple                                 mob UNDEFINED 
+   3) [ 8402] general xmas elf no clues                     mob Random 
+   4) [ 8403] load coal on death attached to santa 8400     mob Death 
+   5) [ 8404] santa drop on death either coal or snout      mob Death 
+   6) [ 8405] load santa on death attached to elfs          mob Death 
+   7) [ 8406] load 1 qp on death elf 8403                   mob Death 
+   8) [ 8407] load 5 qp on death elf 8403                   mob Death 
+   9) [ 8408] load 10 qp on death elf 8403                  mob Death 
+  10) [ 8409] load 50qp on death elf 8403                   mob Death 
+  11) [ 8411] load cha wish on death - stilicho             mob Death 
+  12) [ 8412] load dex wish on death TIAMAT                 mob Death 
+  13) [ 8413] load int wish on death Andrus                 mob Death 
+  14) [ 8414] load str wish on death                        mob Death 
+  15) [ 8415] load wis wish on death Zeus                   mob Death 
+  16) [ 8420] test - room connection                        wld Enter 
+  17) [ 8421] test trigger enter character                  wld Enter 
+  18) [ 8422] global random test                            wld Global Random Enter 
+  19) [ 8423] transform mob -1                              mob Greet 
+  20) [ 8470] assemble Xmas2017 reindeer bracelet 8471      obj Command 
+  21) [ 8497] purge obj trigger self                        obj Timer 
+  22) [ 8498] new trigger                                   obj Command 
+  23) [ 8499] on load put all bag                           mob Load 
+  24) [ 8501] mob block spells                              mob Cast 
+  25) [ 8507] random tree load - object 807                 obj Command 
+  26) [ 8516] xmas 2017 assemble baseblood necklace 8512 at obj Command 
+  27) [ 8576] xmas 2017 assemble base weapon solid block of obj Command 
+  28) [ 8595] test assemble mask                            obj Command 
+  29) [ 8596] xmas 2017 aseemble rudolphs base mask attache obj Command 
+  30) [ 8597] xmas 2017 assemble christmas miracle 8597 att obj Command 
+  31) [ 8598] assemble xmas2017 reindeer bracelet 8598      obj Command 
+  32) [ 8599] assemble xmas2017 reindeer bracelet 8599      obj Command 
+
+>[0;00m
+[0mCHECKING: 89[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 8900] wealtheo speech                               mob Greet 
+   2) [ 8901] demon xyzzy speech                            mob Random 
+   3) [ 8902] dwarven archer speech                         mob Random 
+   4) [ 8903] imagunafightu speech                          mob Random 
+   5) [ 8904] solo hyperloop travel fob                     obj Command 
+   6) [ 8905] poof you're a bitch!                          obj Command 
+   7) [ 8906] size matters                                  obj Wear 
+   8) [ 8919] vole rebel speech                             mob Greet 
+   9) [ 8929] chaucer owl speech                            mob Greet 
+  10) [ 8931] vole speech                                   mob Random 
+
+>[0;00m
+[0mCHECKING: 90[0m
+[0mCHECKING: 92[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 9070] gigantopatheticus speech                      mob Random 
+   2) [ 9071] gigantopatheticus speech                      mob Random 
+   3) [ 9078] zookeeper speech                              mob Random 
+   4) [ 9079] panicked man speech                           mob Random 
+   5) [ 9080] panicked woman speech                         mob Random 
+   6) [ 9081] crying toddler speech                         mob Random 
+   7) [ 9082] panicked man speech                           mob Random 
+   8) [ 9083] frightened woman speech                       mob Random 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 9201] stop strike!                                  mob Command 
+
+>[0;00m
+[0mCHECKING: 93[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 9308] arsenius hermit speech                        mob Greet 
+   2) [ 9320] Prosper speech                                mob Random 
+
+>[0;00m
+[0mCHECKING: 95[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #95
+
+>[0;00m
+[0mCHECKING: 96[0m
+[0mCHECKING: 98[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 9605] ambrose                                       mob Random 
+   2) [ 9612] pope innocent I speech                        mob Random 
+   3) [ 9642] gothic warrior speech and performance         mob Random 
+   4) [ 9651] Renatus speech                                mob Random 
+   5) [ 9660] imperial ravenna beggar speech                mob Random 
+   6) [ 9661] imperial ravenna beggar reward                mob Bribe 
+   7) [ 9662] dog performances                              mob Random 
+   8) [ 9677] papal blessing                                mob Command 
+   9) [ 9730] testing time                                  wld Command 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #98
+
+>[0;00m
+[0mCHECKING: 99[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [ 9900] passenger performances                        mob Random 
+   2) [ 9901] solo hyperloop                                obj Command 
+   3) [ 9902] token trigger for train                       obj Leave 
+   4) [ 9903] passenger debarcation                         mob Leave 
+   5) [ 9904] hype the loop                                 mob Random 
+   6) [ 9905] metro tourist performances                    mob Random 
+   7) [ 9906] the governor calls in the national guard      wld Random Enter 
+   8) [ 9907] red button surprise                           wld Command 
+   9) [ 9917] blue line metro movement                      wld Global Random 
+
+>[0;00m
+[0mCHECKING: 100[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #100
+
+>[0;00m
+[0mCHECKING: 101[0m
+[0mCHECKING: 103[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [10110] socrates' speech                              mob Random 
+   2) [10111] plato speech                                  mob Random 
+   3) [10112] aristotle speech                              mob Random 
+   4) [10113] diogenes speech                               mob Random 
+   5) [10184] Mouse speech                                  mob Random 
+   6) [10186] Desperate bum speech                          mob Random 
+   7) [10187] Desperate bum leader speech                   mob Random 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [10300] Combine Monopoly tokens to make mustache      obj Command 
+   2) [10301] Turn Monopoly card to create random card      obj Command 
+   3) [10302] Build green house from property cards         obj Command 
+   4) [10303] Build brown house from property cards         obj Command 
+   5) [10304] Monopoly - Transform Evening Suit to Morning  obj Command 
+   6) [10305] Build pink house from property cards          obj Command 
+   7) [10306] Build orange house from property cards        obj Command 
+   8) [10307] Build light blue house from property cards    obj Command 
+   9) [10308] Build yellow house from property cards        obj Command 
+  10) [10309] Build red house from property cards           obj Command 
+  11) [10310] Build dark blue house from property cards     obj Command 
+  12) [10311] Transfer to jail                              wld Enter 
+  13) [10312] Jail - Prevent Quit                           wld Command 
+  14) [10313] Jailor Speech - Monopoly                      mob Random Greet 
+  15) [10314] Turn Community Chest Card Over                obj Command 
+  16) [10315] Jail Timer                                    wld Random 
+  17) [10316] Machine sells bribe                           obj Command 
+  18) [10317] Give GOOJF Card to Jailor                     mob Receive 
+  19) [10318] Turn Chance Card Over                         obj Command 
+  20) [10319] Jail - Trap all cmds                          wld Command 
+  21) [10320] Jail - Prevent exit with trump card           wld Command 
+  22) [10321] Ruby slipper fix                              wld Command 
+  23) [10322] Bribe the Jailor                              mob Bribe 
+
+>[0;00m
+[0mCHECKING: 104[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [10400] Make gloves from eggs and silver basket       obj Command 
+   2) [10401] Make bonnet from eggs peeps gold basket       obj Command 
+   3) [10402] Easter Bonnet Reversible Trig                 obj Command 
+   4) [10403] Blue Peeps load on death trig                 mob Death 
+   5) [10404] Red Peeps load on death trig                  mob Death 
+   6) [10405] Yellow Peeps load on death trig               mob Death 
+   7) [10406] Mid Sized Bunny Egg and Qp Drop Trig          mob Death 
+   8) [10407] Crazy Sized Bunny Egg and Qp Drop Trig        mob Death 
+   9) [10408] Small Sized Bunny Egg and Qp Drop Trig        mob Death 
+  10) [10409] Make slippers from eggs and peeps             obj Command 
+  11) [10410] Crazy Bunny Demi Eq Drop Trig                 mob Death 
+  12) [10411] activate timer                                obj Command 
+  13) [10412] purge timer                                   obj Timer 
+  14) [10413] sphere drop                                   mob Death 
+  15) [10414] show time remaining                           obj Wear 
+  16) [10415] mantle of heroes - summon soldier             obj Command 
+  17) [10416] soldier farewell                              mob Act 
+  18) [10421] fourth of july bomb pop                       obj Command 
+  19) [10440] portable wormhole recall                      obj Command 
+  20) [10441] portable wormhole recall - NT                 obj Command 
+  21) [10442] portable wormhole recall - Skara              obj Command 
+  22) [10443] sap test                                      obj Command 
+
+>[0;00m
+[0mCHECKING: 106[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [10600] pry jewel                                     obj Command 
+   2) [10601] Arcadian sentry Speech                        mob Random 
+   3) [10602] Arcadian man Speech                           mob Random 
+   4) [10603] Arcadian woman Speech                         mob Random 
+   5) [10607] Arcadian woman Speech                         mob Random 
+   6) [10608] The Heretical Rant                            mob Random 
+   7) [10630] holy hand grenade                             obj Command 
+   8) [10707] gone fishin                                   obj Command 
+   9) [10708] gone fishing test                             obj Command 
+  10) [10712] a heretical rant                              mob Random 
+  11) [10714] assemble the tiara of arcadia                 mob Greet 
+
+>[0;00m
+[0mCHECKING: 111[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #111
+
+>[0;00m
+[0mCHECKING: 118[0m
+[0mCHECKING: 120[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [11800] (01) shopwoman greets                         mob Greet Greet-All 
+   2) [11801] (01) shopwoman comments on looking            mob Command 
+   3) [11802] (06) shopwoman comments on examination        mob Command 
+   4) [11803] (09) doll teleports when taken                obj Get 
+   5) [11804] (00) closed-eye girl greets                   mob Command 
+   6) [11805] (05) opening eye teleports in                 obj Command 
+   7) [11806] (05) closing eye teleports out                obj Command 
+   8) [11807] (04) 4-yr-old gives different messages        mob Command 
+   9) [11808] 4-yr-old loads on entry                       wld Enter 
+  10) [11809] (13) bird appears when taken                  obj Get 
+  11) [11810] crunch                                        obj Consume 
+  12) [11811] (39) grave quest                              mob Receive 
+  13) [11812] pinball - shoot                               obj Command 
+  14) [11813] random messages                               wld Random 
+  15) [11814] (02) colouring message                        mob Greet Greet-All 
+  16) [11815] shadow mobs won't take journal                mob Receive 
+  17) [11816] certain mobs won't take journal               mob Receive 
+  18) [11817] incorrect mobs refuse journal                 mob Receive 
+  19) [11818] (02) crayon child quest                       mob Receive 
+  20) [11819] (71) bloodstone amulet awaken                 obj Command 
+  21) [11820] (09) bird quest                               mob Receive 
+  22) [11821] (09) playing message                          mob Greet Greet-All 
+  23) [11822] new trigger                                   mob Death 
+  24) [11823] test                                          obj Command 
+  25) [11824] (17) clapping game 1                          mob Speech 
+  26) [11825] (16) clapping game 2                          mob Speech 
+  27) [11826] (16) random clapping game                     mob Random 
+  28) [11827] (11) when Ridley receives                     mob Receive 
+  29) [11828] (11) Ridley gives box                         mob Speech 
+  30) [11829] (21) insect can be captured                   mob Command 
+  31) [11830] (33) insect escapes after while               obj Timer 
+  32) [11831] (21) insect loads self on death               mob Death 
+  33) [11832] (22) score of secrets killed                  mob Death 
+  34) [11833] (22) tunnel-man quest                         mob Receive 
+  35) [11834] (31) enter vortex teleports                   wld Command 
+  36) [11835] (23) running girl runs                        mob Global Random 
+  37) [11836] (23) running girl does what told              mob Speech 
+  38) [11837] test missile                                  obj Command 
+  39) [11838] test missile condensed                        obj Command 
+  40) [11839] test bow/quiver                               obj Command 
+  41) [11840] test improved bow                             obj Command 
+  42) [11841] test asound                                   obj Command 
+  43) [11842] (23) running quest given                      mob Receive 
+  44) [11843] (73) examining walls reveals word             wld Command 
+  45) [11844] new trigger                                   wld Command 
+  46) [11845] test                                          wld Command 
+  47) [11846] (24) blind quest given                        mob Receive 
+  48) [11847] (24) blind girl checks matching word          mob Speech 
+  49) [11848] (51) wearing eyes teleports                   obj Wear 
+  50) [11849] (51) removing eyes teleports                  obj Remove 
+  51) [11850] (24/25) cannot leave with eyes                mob Leave 
+  52) [11851] (25) reacts to journal                        mob Receive 
+  53) [11852] (29) cup and ball game                        mob Speech 
+  54) [11853] mob does not load if already present          mob Fight 
+  55) [11854] test death                                    mob Death 
+  56) [11855] new trigger                                   mob Greet 
+  57) [11856] (96) quiet room prevents player interacting   wld Command 
+  58) [11857] new trigger                                   mob Command 
+  59) [11858] while loop example                            mob Command 
+  60) [11859] (52) mirror gives reflection                  obj Command 
+  61) [11860] (27) weeping quest given                      mob Receive 
+  62) [11861] (28) death completes quest                    mob Death 
+  63) [11862] (29) knife quest                              mob Receive 
+  64) [11863] (33) Ruth quest                               mob Receive 
+  65) [11864] different corpses loaded                      mob Death 
+  66) [11865] obj corpses decay                             obj Timer 
+  67) [11866] room obeys mob trigger                        wld Command 
+  68) [11867] (11) Ridley responds to asking                mob Command 
+  69) [11868] (70) Hiding girl beckons                      wld Enter 
+  70) [11869] (70/71) crawling takes you under bed          wld Command 
+  71) [11870] (34) random mumblings                         mob Random 
+  72) [11871] (60) hotdog damages when eaten                obj Command 
+  73) [11872] (34) girl restores from death                 mob Command 
+  74) [11873] (34) emaciated quest                          mob Receive 
+  75) [11874] (35) mute quest                               mob Receive 
+  76) [11875] (35) cut command allows speaking              mob Command 
+  77) [11876] (36) angry girl talks while fighting          mob Receive 
+  78) [11877] (36) angry girl attacks                       mob Greet Greet-All 
+  79) [11878] (36) hug for angry girl                       mob Command 
+  80) [11879] (37) serpent loads tongue on death            mob Death 
+  81) [11880] (62) egg hatches into serpent                 obj Timer 
+  82) [11881] (65) pines burn into page                     obj Timer 
+  83) [11882] (65) pines send burning messages              obj Random 
+  84) [11883] (61) pines can be burned with candle          obj Command 
+  85) [11884] (38) scarred quest                            mob Receive 
+  86) [11891] (07) journal entries                          obj Command 
+  87) [11892] (69) corpse can be buried                     obj Command 
+  88) [11893] (40) final quest                              mob Command 
+  89) [11894] (71) bloodstone amulet focus                  obj Command 
+  90) [11895] (40) woman exchanges amulet for journal       mob Receive 
+  91) [11896] (05) humming bird purges after while          mob Load 
+  92) [11897] (33/62/65) sets timer on load                 obj Load 
+  93) [11898] (56,57,58,69,70) otimer set                   obj Load 
+  94) [11899] (96) focus room heals                         wld Command 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [12001] find a zone                                   wld Command 
+
+>[0;00m
+[0mCHECKING: 121[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [12114] say cheese                                    obj Command 
+   2) [12115] the mighty polaroid                           obj Command 
+   3) [12116] giving the untakeable                         mob Command 
+   4) [12117] secret santa                                  mob Receive 
+   5) [12118] charming disarm                               mob Fight 
+   6) [12119] fresh film                                    obj Command 
+   7) [12120] eat a fist                                    mob Command 
+   8) [12121] the tesla coil                                mob Global Random 
+   9) [12122] tribute for the gods                          mob Greet 
+  10) [12123] e mori memoriam                               mob Death 
+  11) [12124] auld lang syne                                mob Greet 
+  12) [12125] modulus test                                  mob Command 
+  13) [12126] sands through an hourglass                    mob Greet 
+  14) [12127] GutsStatue - Transfer PC to Chamber M12118    mob Fight 
+  15) [12128] GutsStatue - Reset Delay on Death M12118      mob Death 
+  16) [12129] GutsStatue - toss everyone out R12119         wld Random 
+  17) [12137] hurl when worn                                obj Wear 
+
+>[0;00m
+[0mCHECKING: 122[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [12212] Ahkeem speech                                 mob Random 
+   2) [12221] bribe the minstrel                            mob Bribe 
+   3) [12239] kitty performances                            mob Random 
+   4) [12240] kitty reward                                  mob Command 
+   5) [12241] kitty death purges reward                     mob Death 
+   6) [12242] dogs chase cats!                              mob Entry 
+   7) [12317] zedit all crash cleric bar zload workaround   wld Zone Reset 
+   8) [12350] Struggling musician speech                    mob Random 
+   9) [12351] Struggling female musician speech             mob Random 
+  10) [12352] Ahmad drops note on death                     mob Death 
+  11) [12359] Pablo speech                                  mob Greet 
+  12) [12366] fuma kataro performance                       mob Greet 
+  13) [12368] AustinPowers Assembly trigger                 wld Speech 
+  14) [12498] zedit all crash hyperLoop assoc zload workaro wld Zone Reset 
+  15) [12501] New Thalos Newbie Transporter                 wld Command 
+  16) [12512] zedit all crash sohei bar zload workaround    wld Zone Reset 
+  17) [12515] zedit all crash jedi bar zload workaround     wld Zone Reset 
+  18) [12528] keypad entry                                  wld Command 
+  19) [12529] set door keycode                              wld Command 
+
+>[0;00m
+[0mCHECKING: 126[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [12601] a mariner's wager                             mob Act 
+   2) [12602] liar's dice                                   mob Greet 
+   3) [12603] liar's accounting                             mob Command 
+   4) [12604] the mariner is out                            mob Time 
+
+>[0;00m
+[0mCHECKING: 128[0m
+[0mCHECKING: 130[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [12804] Edwin speech                                  mob Random 
+   2) [12813] Hand Troll speech                             mob Random 
+   3) [12818] Rubicon speech                                mob Random 
+   4) [12819] Emerald butterfly speech                      mob Random 
+   5) [12820] yellow butterfly speech                       mob Random 
+   6) [12821] crimson butterfly speech                      mob Random 
+   7) [12822] tiger swallowtail butterfly speech            mob Random 
+   8) [12824] long-eared rabbit speech                      mob Random 
+   9) [12825] long-eared rabbit speech                      mob Random 
+  10) [12826] long-eared rabbit speech                      mob Random 
+  11) [12827] long-eared rabbit speech                      mob Random 
+  12) [12828] jeweled hummingbird speech                    mob Random 
+  13) [12875] blind gardener speech                         mob Random 
+  14) [12890] garbage golem speech                          mob Random 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [13028] spell teacher speech                          mob Greet 
+   2) [13048] master of illusion                            mob Fight 
+   3) [13049] necromancer speech                            mob Random 
+   4) [13053] high librarian performance                    mob Random 
+   5) [13064] coffee maker                                  obj Command 
+   6) [13067] which hag speech                              mob Random 
+   7) [13101] green dragonscale shirt                       obj Command 
+
+>[0;00m
+[0mCHECKING: 133[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [13309] lorelei avenged                               obj Command 
+   2) [13311] Nicholas speech                               mob Random 
+   3) [13338] load the march hare!                          mob Command 
+
+>[0;00m
+[0mCHECKING: 139[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [13908] Driver ant speech                             mob Random 
+   2) [13911] Young boy speech                              mob Random 
+
+>[0;00m
+[0mCHECKING: 140[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #140
+
+>[0;00m
+[0mCHECKING: 143[0m
+[0mCHECKING: 146[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [14301] leper speech                                  mob Random 
+   2) [14303] leper speech                                  mob Random 
+   3) [14304] teenage leper speech                          mob Random 
+   4) [14305] disfigured leper speech                       mob Random 
+   5) [14306] girl leper speech                             mob Random 
+   6) [14307] girl leper speech                             mob Random 
+   7) [14317] king zymosis leper speech                     mob Random 
+   8) [14319] cream and grey cat speech                     mob Random 
+   9) [14322] nun speech                                    mob Random 
+  10) [14325] doctor speech                                 mob Random 
+  11) [14326] humanoid god speech                           mob Random 
+  12) [14327] judoon speech                                 mob Random 
+  13) [14338] make a wish                                   obj Command 
+  14) [14350] the captive speech                            mob Random 
+  15) [14355] inmate speech                                 mob Random 
+  16) [14356] inmate speech                                 mob Random 
+  17) [14357] inmate speech                                 mob Random 
+  18) [14358] sarah inmate speech                           mob Random 
+  19) [14359] inmate speech                                 mob Random 
+  20) [14380] bedraggled leper speech                       mob Random 
+  21) [14381] angry man speech                              mob Random 
+  22) [14382] scared woman speech                           mob Random 
+  23) [14383] victim bedraggled leper speech                mob Random 
+  24) [14384] angry man speech                              mob Random 
+  25) [14385] scared woman speech                           mob Random 
+  26) [14386] victim bedraggled leper speech                mob Random 
+  27) [14387] angry man speech                              mob Random 
+  28) [14388] scared woman speech                           mob Random 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [14603] the nurse speech                              mob Random 
+   2) [14604] King de Grance speech                         mob Random 
+   3) [14605] the elixir of life                            obj Command 
+   4) [14606] benjamin button                               obj Wear 
+   5) [14607] benjamin unbutton                             obj Remove 
+   6) [14608] accio grygylynum vol 3                        mob Greet 
+
+>[0;00m
+[0mCHECKING: 150[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #150
+
+>[0;00m
+[0mCHECKING: 154[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [15423] fisherman speech                              mob Random 
+   2) [15425] the holy man speech                           mob Random 
+   3) [15427] the high priest speech                        mob Random 
+   4) [15435] the Portmaster speech                         mob Greet 
+   5) [15436] jannie waitress speech                        mob Random 
+   6) [15437] the troubadour speech                         mob Random 
+
+>[0;00m
+[0mCHECKING: 155[0m
+[0mCHECKING: 161[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [15504] the high priest speech                        mob Random 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [16164] moving room fix redux                         wld Random 
+
+>[0;00m
+[0mCHECKING: 166[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [16613] sacrifice yourself                            wld Drop 
+   2) [16614] acid trap                                     wld Random 
+   3) [16645] the diploma                                   obj Wear 
+   4) [16646] diploma int check                             obj Random 
+   5) [16650] High Priest speech                            mob Random 
+   6) [16660] Minotaur Quest Greeting                       mob Greet 
+   7) [16661] Death of the Minotaur                         mob Death 
+
+>[0;00m
+[0mCHECKING: 167[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #167
+
+>[0;00m
+[0mCHECKING: 170[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [17021] tractor beam mob control                      wld Enter 
+   2) [17022] flip the tractor beam lever                   obj Command 
+   3) [17023] test damroll                                  obj Wear 
+   4) [17024] kill pc just entered                          mob Greet 
+   5) [17030] test format                                   obj Wear 
+   6) [17031] Test Ansi                                     obj Wear 
+   7) [17032] unused                                        mob NOBITS 
+   8) [17033] unused                                        mob NOBITS 
+   9) [17034] unused                                        mob NOBITS 
+  10) [17035] unused                                        mob NOBITS 
+  11) [17036] unused                                        mob NOBITS 
+  12) [17050] march platoon leaders                         mob Random 
+  13) [17051] Lord Gravitron Toss Random                    wld Random 
+  14) [17052] unused                                        mob NOBITS 
+  15) [17053] unused                                        mob NOBITS 
+  16) [17054] unused                                        mob NOBITS 
+  17) [17055] unused                                        mob NOBITS 
+  18) [17056] Gravitron Toss Random Valid Direction         wld Enter 
+  19) [17060] Stores Purge                                  mob Death 
+  20) [17401] unused                                        mob NOBITS 
+  21) [17402] unused                                        mob NOBITS 
+
+>[0;00m
+[0mCHECKING: 178[0m
+[0mCHECKING: 179[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [17811] bottled charisma                              obj Command 
+   2) [17813] Jewler speech                                 mob Random 
+   3) [17820] load sewing kit to tailor                     wld Zone Reset 
+   4) [17821] load jeweler kit to jeweler                   wld Zone Reset 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [17915] the General of the Red Army speech            mob Random 
+   2) [17924] the General of the Blue Army speech           mob Random 
+   3) [17933] the General of the Black Army speech          mob Random 
+   4) [17942] the General of the White Army speech          mob Random 
+
+>[0;00m
+[0mCHECKING: 183[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #183
+
+>[0;00m
+[0mCHECKING: 184[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [18403] General Bunny speech                          mob Random 
+   2) [18412] Questing beast speech                         mob Random 
+
+>[0;00m
+[0mCHECKING: 185[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #185
+
+>[0;00m
+[0mCHECKING: 186[0m
+[0mCHECKING: 192[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [18601] viper call                                    obj Command 
+   2) [18602] vipers farewell                               mob Act 
+   3) [18610] Yamus speech                                  mob Global 
+   4) [18621] amulet of chaos                               mob Receive 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #192
+
+>[0;00m
+[0mCHECKING: 193[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [19300] ephemeral eq fades                            obj Timer 
+   2) [19301] ephemeral timer on wear                       obj Wear 
+
+>[0;00m
+[0mCHECKING: 210[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #210
+
+>[0;00m
+[0mCHECKING: 216[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [21600] vive la resistance!                           mob Greet 
+   2) [21601] smile you're on candid camera                 mob Command 
+   3) [21629] worship and tribute                           wld Enter 
+
+>[0;00m
+[0mCHECKING: 217[0m
+[0mCHECKING: 230[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [21767] mantle of the honorary master                 mob Command 
+   2) [21768] indian giving                                 mob Receive 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [23001] Glowing Philosopher Stone exchange            mob Command 
+   2) [23002] door closes behind you                        wld Enter 
+   3) [23003] Open Sesame Code                              mob Entry 
+   4) [23004] divulge ranthir store pw                      mob Fight 
+   5) [23005] Cappen Varra speech                           mob Random 
+   6) [23008] Hakiem speech                                 mob Random 
+   7) [23067] Beggar speech                                 mob Random 
+   8) [23068] beggar's master                               mob Bribe 
+   9) [23088] load some patrons to the vulgar uni           wld Zone Reset 
+
+>[0;00m
+[0mCHECKING: 235[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [23501] practice makes perfect                        mob Fight 
+   2) [23503] trapping strikes and backstabs                wld Command 
+   3) [23504] follow the combat leader                      mob Command 
+   4) [23505] scaring the shit out of them                  wld Random 
+   5) [23506] experience of a lifetime                      wld Enter 
+   6) [23507] loss of innocence                             wld Leave 
+   7) [23508] bossing the magic dummies                     mob Command 
+
+>[0;00m
+[0mCHECKING: 236[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [23639] Gravely wounded minotaur speech               mob Random 
+
+>[0;00m
+[0mCHECKING: 238[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #238
+
+>[0;00m
+[0mCHECKING: 240[0m
+[0mCHECKING: 249[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #240
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #249
+
+>[0;00m
+[0mCHECKING: 250[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [25040] dt jump scare hallway                         wld Enter 
+   2) [25080] dt jump scare cornfields                      wld Enter 
+   3) [25150] check for a shovel, spade or pick             wld Enter 
+   4) [25151] dt jump scare graveyard                       wld Enter 
+   5) [25153] you moved the headstones but you didn't move  wld Zone Reset 
+   6) [25154] yeet the boy scouters                         wld Zone Reset 
+   7) [25165] purge and reset the witches                   wld Zone Reset 
+   8) [25166] replace one bitch with another witch          wld Zone Reset 
+   9) [25167] replace one bitch with another witch          wld Zone Reset 
+  10) [25168] replace one bitch with another witch          wld Zone Reset 
+  11) [25178] dt jump scare cauldron room                   wld Enter 
+  12) [25200] the horseman cracks the whip                  wld Zone Reset 
+  13) [25201] upperlevel                                    wld Enter 
+  14) [25202] mazenpcs                                      mob Greet 
+  15) [25204] Reversable Trigger - 2024 Halloween Quest Shi obj Command 
+  16) [25210] make a spade or a pick                        mob Command 
+  17) [25219] noxious mist                                  mob Greet 
+  18) [25220] spawn a good witch                            mob Death 
+  19) [25277] check for a shovel, spade or pick             mob Leave 
+  20) [25278] dig grave boss room transport                 obj Command 
+  21) [25279] dig grave dead end room transport             obj Command 
+  22) [25283] ticket transporter                            obj Command 
+  23) [25298] room moves a warrior on entrance              wld Enter 
+  24) [25299] Bull hurts warriors                           mob Greet 
+
+>[0;00m
+[0mCHECKING: 253[0m
+[0mCHECKING: 254[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [25301] Bazalel craftsman speech                      mob Random 
+   2) [25314] general bunny speech                          mob Random 
+   3) [25331] Robot Santa speech                            mob Random 
+   4) [25341] George Bush preseident speech                 mob Random 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [25405] Saiwyn speech                                 mob Random 
+   2) [25411] Tiamat speech                                 mob Random 
+   3) [25420] Gingerbread man speech                        mob Random 
+
+>[0;00m
+[0mCHECKING: 255[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [25500] Spider Speech Trigger                         mob Random Speech Greet 
+   2) [25501] Spider Trick Trig Level 1                     mob Speech Load 
+   3) [25502] Spider Treat Trig Level 1                     mob Speech Load 
+   4) [25503] Spider Trick Trig Level 2                     mob Speech Load 
+   5) [25504] Spider Treat Trig Level 2                     mob Speech Load 
+   6) [25505] Spider Trick Trig Level 3                     mob Speech Load 
+   7) [25506] Spider Treat Trig Level 3                     mob Speech Load 
+   8) [25507] Spider Trick Trig Level 4                     mob Speech Load 
+   9) [25508] Spider Treat Trig Level 4                     mob Speech Load 
+  10) [25509] Spider Trick Trig Level 5                     mob Speech Load 
+  11) [25510] Spider Treat Trig Level 5                     mob Speech Load 
+  12) [25516] sew american flag                             obj Command 
+  13) [25517] sew betsy ross                                obj Command 
+  14) [25518] sew star spangled banner                      obj Command 
+  15) [25520] Emerald dragon Baby to B1                     obj Command 
+  16) [25521] Emerald dragon B1 to B2                       obj Command 
+  17) [25522] Emerald dragon B2 to Small                    obj Command 
+  18) [25523] Emerald dragon small to S1                    obj Command 
+  19) [25524] Emerald dragon S1 to S2                       obj Command 
+  20) [25525] Emerald dragon S2 to Large                    obj Command 
+  21) [25526] Emerald Dragon Large to +INT                  obj Command 
+  22) [25527] Emerald Dragon Large to +WIS                  obj Command 
+  23) [25528] Emerald Dragon Large to +CHA                  obj Command 
+  24) [25529] Hatch egg mana                                obj Command 
+  25) [25530] Hatch egg dam                                 obj Command 
+  26) [25531] Obsidian dragon Baby to B1                    obj Command 
+  27) [25532] Obsidian dragon B1 to B2                      obj Command 
+  28) [25533] Obsidian dragon B2 to Small                   obj Command 
+  29) [25534] Obsidian dragon Small to S1                   obj Command 
+  30) [25535] Obsidian dragon S1 to S2                      obj Command 
+  31) [25536] Obsidian dragon S2 to Large                   obj Command 
+  32) [25537] Obsidian Dragon Large to +INT                 obj Command 
+  33) [25538] Obsidian Dragon Large to +WIS                 obj Command 
+  34) [25539] Obsidian Dragon Large to +STR                 obj Command 
+  35) [25540] Obsidian Dragon Large to +DEX                 obj Command 
+  36) [25541] Obsidian Dragon Large to +CHA                 obj Command 
+  37) [25542] Both Large Dragons to +WIS                    obj Command 
+  38) [25543] Both Large Dragons to +INT                    obj Command 
+  39) [25544] Both Large Dragons to +CHA                    obj Command 
+  40) [25545] Pumpkin Speech Trigger Halloween 2021         mob Random Speech Greet 
+  41) [25546] Pumpkin Trick Trig Level 1                    mob Speech Load 
+  42) [25547] Pumpkin Treat Trig Level 1                    mob Speech Load 
+  43) [25548] Pumpkin Trick Trig Level 2                    mob Speech Load 
+  44) [25549] Pumpkin Treat Trig Level 2                    mob Speech Load 
+  45) [25550] Pumpkin Trick Trig Level 3                    mob Speech Load 
+  46) [25551] Pumpkin Treat Trig L3                         mob Speech Load 
+  47) [25552] Pumpkin Trick Trig L4                         mob Speech Load 
+  48) [25553] Pumpkin Treat Trig L4                         mob Speech Load 
+  49) [25554] Pumpkin Trick Trig L5                         mob Speech Load 
+  50) [25555] Pumpkin Treat Trig L5                         mob Speech Load 
+  51) [25556] Exchange bronze for silver qp                 obj Command 
+
+>[0;00m
+[0mCHECKING: 256[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #256
+
+>[0;00m
+[0mCHECKING: 257[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #257
+
+>[0;00m
+[0mCHECKING: 259[0m
+[0mCHECKING: 350[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #259
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [35000] second_chances                                mob Death 
+   2) [35001] bridge_collapse                               wld Enter 
+   3) [35002] taunting_call                                 wld Enter 
+   4) [35003] vampire_chamber                               wld Random 
+   5) [35004] I am the Walrus                               obj Get 
+   6) [35005] diagon alley key                              obj Consume 
+   7) [35006] empty_stomach                                 obj Get 
+   8) [35007] trap damage                                   obj Command 
+   9) [35008] free_phenia                                   mob Command 
+  10) [35009] tallins_plea                                  mob Greet 
+  11) [35010] free_dariano                                  mob Command 
+  12) [35011] return_of_the_prodigal_daughter               wld Enter 
+  13) [35012] free aniadia                                  mob Command 
+  14) [35013] melt_the_horde                                wld Drop 
+  15) [35014] kazirasch's_hawkmask_quest                    wld Drop 
+  16) [35015] pray_to_the_avatar_of_fire                    wld Command 
+  17) [35016] jazaraki_awakens                              mob Command 
+  18) [35017] jazaraki_assassinate_royals                   mob Command 
+  19) [35018] crystal_heart_portal_device                   obj Command 
+  20) [35019] dragon_resurrected                            wld Drop 
+  21) [35020] searching_for_spies                           wld Drop 
+  22) [35021] killing_the_royals                            wld Drop 
+  23) [35022] another_candle                                mob Greet 
+  24) [35023] too_tall                                      wld Leave 
+  25) [35024] assassin_disarm                               mob Fight 
+  26) [35025] curfew                                        mob Global Time 
+  27) [35026] night_gong                                    wld Time 
+  28) [35027] free_barrizan                                 wld Command 
+  29) [35028] phenia's_plea                                 mob Greet 
+  30) [35029] dariano's rant                                mob Greet 
+  31) [35030] tiny_big_foot_travel_itinerary                mob Global Random 
+  32) [35031] alarum!_alarum!                               mob Fight 
+  33) [35032] heeding_the_call!                             mob Speech 
+  34) [35033] fountain_drinks                               obj Consume 
+  35) [35034] you_may_pass                                  wld Enter 
+  36) [35035] restore the ice bridge                        wld Zone Reset 
+  37) [35036] cincture clue                                 wld Enter 
+  38) [35037] felling angels                                wld Drop 
+  39) [35038] secret tunnel                                 wld Command 
+  40) [35039] hide the secret tunnel                        wld Zone Reset 
+  41) [35040] crate and barrel                              mob Global Entry 
+  42) [35041] mummy's_little_helper                         mob Random 
+  43) [35042] scepter of the earth avatar !undead           obj Random 
+  44) [35043] a little side hustle                          mob Bribe 
+  45) [35044] beware the balrog                             wld Leave 
+  46) [35045] dwarven miner performances                    mob Greet 
+  47) [35046] quest for the arkenstone                      wld Enter 
+  48) [35047] the gates of khazad dum                       wld Command 
+  49) [35048] ice choker                                    obj Get 
+  50) [35049] ring around the collar                        wld Command 
+  51) [35050] time time time is on our side                 obj Wear 
+  52) [35051] free the miners                               mob Command 
+  53) [35052] mine maze                                     wld Zone Reset 
+  54) [35053] this side up                                  obj Get 
+  55) [35054] liberate the slaves                           mob Command 
+  56) [35055] sentient dagger rxn roll                      obj Wear 
+  57) [35056] sentient dagger record xp                     obj Remove 
+  58) [35057] phenia's command                              mob Global Random 
+  59) [35058] pop a phenia                                  wld Global Zone Reset 
+  60) [35059] ranged_weapon_attack                          wld Random Enter 
+  61) [35060] the skin game                                 mob Receive 
+  62) [35061] just digging yourself deeper                  obj Command 
+  63) [35062] scepter of the fire avatar !drake             obj Random 
+  64) [35063] the mantle of mourning                        wld Enter 
+  65) [35064] yol_karzurgh-uk's_message                     mob Greet 
+  66) [35065] free yol                                      wld Command 
+  67) [35066] reveille                                      wld Time 
+  68) [35067] flights of icarus                             obj Wear 
+  69) [35068] chilly willy                                  wld Enter Leave 
+  70) [35069] pool of memories                              mob Greet 
+  71) [35070] the ultimate sacrifice                        wld Command 
+  72) [35071] death pool                                    obj Consume 
+  73) [35072] everyone needs a thneed                       obj Wear 
+  74) [35073] everyone needs a thneed redux                 obj Remove 
+  75) [35074] console panel menu                            wld Command 
+  76) [35075] koofy's phylactery                            mob Command 
+  77) [35076] goofy koofy                                   mob Greet 
+  78) [35077] one adam twelve                               mob Random 
+  79) [35078] the night's watch                             mob Time 
+  80) [35079] pop a thrall                                  wld Zone Reset 
+  81) [35080] the_collar_of_eternity                        obj Wear 
+  82) [35081] falce oblivio                                 obj Command 
+  83) [35082] the perry is IN                               mob Global Time 
+  84) [35083] the perry is OUT                              mob Global Time 
+  85) [35084] whack-a-mole!                                 obj Command 
+  86) [35085] baby fat                                      obj Command 
+  87) [35086] pop a dariano                                 wld Zone Reset 
+  88) [35087] weave a little dream for me                   obj Command 
+  89) [35088] fight club                                    mob Fight 
+  90) [35089] masochist's folly                             obj Random 
+  91) [35090] durin's door dump                             wld Zone Reset 
+  92) [35091] follow the leader                             mob Command 
+  93) [35092] proselytizing the proletariat                 mob Greet 
+  94) [35093] lead the follower                             mob Command 
+  95) [35094] playing with atoms                            obj Command 
+  96) [35095] the perry is IN redux                         mob Global Time 
+  97) [35096] the perry is OUT redux                        mob Global Time 
+  98) [35097] hello, my name is saraka                      mob Random 
+  99) [35098] reset aniadia                                 wld Zone Reset 
+ 100) [35099] reset dariano                                 wld Zone Reset 
+ 101) [35100] reset phenia                                  wld Zone Reset 
+ 102) [35101] nankarza's badge quest                        mob Command 
+ 103) [35102] banatak's sacrifice                           mob Receive 
+ 104) [35103] monsum mommy!                                 obj Random 
+ 105) [35104] bertie botts every flavor bean bag            obj Command 
+ 106) [35105] get random bean                               obj Consume 
+ 107) [35106] panakalas quest                               mob Command 
+ 108) [35107] dajdajs quest                                 mob Command 
+ 109) [35108] kasrazas quest                                mob Command 
+ 110) [35109] rinse and reaper eat                          mob Death 
+ 111) [35110] bajj baji's instrument quest                  mob Command 
+ 112) [35111] bajj-bajis musical chairs                     mob Receive 
+ 113) [35112] martkza's anti-paladin quest                  mob Command 
+ 114) [35113] zombie dawn                                   mob Time 
+ 115) [35114] hawking_the_hawkmasks                         mob Command 
+ 116) [35115] free cmd trap                                 mob Command 
+ 117) [35116] unl cmd trap                                  mob Command 
+ 118) [35117] i'll always love you                          mob Greet 
+ 119) [35118] the land of nod                               wld Command 
+ 120) [35119] oakenshield's revenge                         obj Get 
+ 121) [35120] A flair for flair                             obj Command 
+ 122) [35121] dariano's command                             mob Global Random 
+ 123) [35122] seven years bad luck                          obj Command 
+ 124) [35123] learn a subject                               obj Command 
+ 125) [35124] razakasch diminished                          mob Global Random 
+ 126) [35125] pop a barrizan                                wld Zone Reset 
+ 127) [35126] playing with fire                             obj Random 
+ 128) [35127] flag a camper                                 mob Death 
+ 129) [35128] yeet the boy scout                            wld Zone Reset 
+ 130) [35129] razakasch enfeebled                           wld Zone Reset 
+ 131) [35130] reset barrizan                                wld Zone Reset 
+ 132) [35131] the final facing                              wld Enter 
+ 133) [35132] double tap the link dead                      wld Command 
+ 134) [35133] practice commit heresy                        mob Command 
+ 135) [35134] the grim reaper                               mob Memory 
+ 136) [35135] the room that time forgot                     mob Death 
+ 137) [35136] you_got_reaped!                               mob Act 
+ 138) [35137] secret_santa                                  mob Receive 
+ 139) [35138] gimme_gimme                                   mob Greet 
+ 140) [35139] giving_the_untakeable                         mob Command 
+ 141) [35140] panakala's_challenge                          mob Global Act 
+ 142) [35141] a_death_certificate                           mob Death 
+ 143) [35142] visitors not welcome                          wld Enter 
+ 144) [35143] the_sands_of_un-time                          obj Give 
+ 145) [35144] salt_in_the_wound                             wld Command 
+ 146) [35145] yol_at_your_cervix                            mob Receive 
+ 147) [35146] flagging_duplicates                           mob Receive 
+ 148) [35147] don't kill the miners                         mob Death 
+ 149) [35148] accio succubae                                obj Command 
+ 150) [35149] giving_the_untakeable                         obj Command 
+ 151) [35150] using the force                               wld Command 
+ 152) [35151] stop the zombies                              mob Greet-All 
+ 153) [35152] eat a fist                                    mob Command 
+ 154) [35153] shore party                                   mob Memory 
+ 155) [35154] hail friend                                   mob Greet 
+ 156) [35155] imperial skirmishers                          mob Greet-All Entry 
+ 157) [35156] experience of a liftetime                     wld Enter 
+ 158) [35157] practice makes perfect                        mob Fight 
+ 159) [35158] bossing the dummies                           mob Command 
+ 160) [35159] acquiring skills                              obj Wear 
+ 161) [35160] loss of innocence                             wld Leave 
+ 162) [35161] liberating the wind avatars                   mob Death 
+ 163) [35162] pet damage only                               mob Fight 
+ 164) [35163] repair badge records                          obj Command 
+ 165) [35164] wipe badge records                            obj Command 
+ 166) [35165] when you wish upon a star                     obj Command 
+
+>[0;00m
+[0mCHECKING: 360[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [36001] Layla - Elixir                                mob Command 
+   2) [36002] Ahmed's Stolen Supplies - Purge               obj Random 
+   3) [36003] Dustclaw Scorpion Barb - Purge                obj Random 
+   4) [36004] Scorpion's Tear Elixir - Purge                obj Random 
+   5) [36010] Serpents' Eye - Purge                         obj Random 
+
+>[0;00m
+[0mCHECKING: 370[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [37000] LL F 1 West TP to R37029. O37000 R37007       obj Command 
+   2) [37001] LL F 1 North TP to R37026. O37001 R37004      obj Command 
+   3) [37002] LL F 1 South TP to R37023. O37002 R37005      obj Command 
+   4) [37003] LL F 1 East TP to R37032. O37003 R37006       obj Command 
+   5) [37004] LL F 2 South TP to R37035. O37004 R37010      obj Command 
+   6) [37005] LL F 2 East TP to R37043. O37005 R37011       obj Command 
+   7) [37006] LL F 2 North TP to R37047. O37006 R37009      obj Command 
+   8) [37007] LL F 2 West TP to R37039. O37007 R37012       obj Command 
+   9) [37008] LL F 3 South TP to R37051. O37008 R37015      obj Command 
+  10) [37009] LL F 3 West TP to R37060. O37009 R37017       obj Command 
+  11) [37010] LL F 3 East TP to R37054. O37010 R37016       obj Command 
+  12) [37011] LL F 3 North TP to R37057. O37011 R37014      obj Command 
+  13) [37012] LL F 4 South TP to R37063. O37012 R37020      obj Command 
+  14) [37013] LL F 4 East TP to R37067. O37013 R37021       obj Command 
+  15) [37014] LL F 4 North TP to R37071. O37014 R37019      obj Command 
+  16) [37015] LL F 4 West TP to R37075. O37015 R37022       obj Command 
+  17) [37016] UL F 1 North TP to R37096. O37016 R37080      obj Command 
+  18) [37017] UL F 1 West TP to R37100. O37017 R37083       obj Command 
+  19) [37018] UL F 1 South TP to R37104. O37018 R37081      obj Command 
+  20) [37019] UL F 1 East TP to R37108. O37019 R37082       obj Command 
+  21) [37020] UL F 2 North TP to R37118. O37020 R37085      obj Command 
+  22) [37021] UL F 2 South TP to R37112. O37021 R37086      obj Command 
+  23) [37022] UL F 2 East TP to R37115. O37022 R37087       obj Command 
+  24) [37023] UL F 2 West TP to R37121. O37023 R37088       obj Command 
+  25) [37024] UL F 3 North TP to R37132. O37024 R37090      obj Command 
+  26) [37025] UL F 3 South TP to R37124. O37025 R37091      obj Command 
+  27) [37026] UL F 3 East TP to R37128. O37026 R37092       obj Command 
+  28) [37027] UL F 3 West TP to R37136. O37027 R37093       obj Command 
+  29) [37028] UL F 4 North TP to R37140. O37028 R37095.     obj Command 
+  30) [37029] Assemble Ethereal Cores O-37049               obj Command 
+  31) [37030] Assemble Terrene Cores O-37050                obj Command 
+  32) [37031] Raphael's AOE - Paladins Block - M-37033      mob Fight 
+  33) [37032] Assemble Hydra Hide Bracers O-37095           obj Command 
+  34) [37033] Ride The Dolphin - M-37043                    mob Command 
+  35) [37034] The Dolphin Lives Forever M-37043             mob Death 
+  36) [37035] Blue Elemental Throws Ninjas M-37040          mob Fight 
+  37) [37036] Russ Strongley Blocks going UP M-37044        mob Leave 
+  38) [37037] Blue Elemental Load on Death M-37040          mob Death 
+  39) [37038] Veda Load on Death M-37035                    mob Death 
+  40) [37039] Assemble Cuffs of the Abyssal Monarch O-37098 obj Command 
+  41) [37040] Raphael Load on Death M-37033                 mob Death 
+  42) [37041] Attach core to Tentacle Shield O-37103        obj Command 
+  43) [37042] Maynika Load on Death M-37032                 mob Death 
+  44) [37043] X-Wing Replica Teleport O-37107               obj Command 
+  45) [37044] **Example**Fight type triggers once per round mob Fight 
+  46) [37045] NPC DAMAGE ONLY. M-37049                      mob Fight 
+  47) [37046] Kill Mob below 1% health. M-37049             mob HitPrcnt 
+  48) [37047] Russ load potion on death M-37044             mob Death 
+  49) [37048] No Strikes Allowed - Multiple Mobs            mob Command 
+  50) [37049] Eruantano Ice Drake Throws Ninjas M-37049     mob Fight 
+  51) [37050] Eli Load on Death M-37034                     mob Death 
+  52) [37051] Jedi Only In these Rooms R-                   wld Enter 
+  53) [37052] Jedi Only in these Rooms scan                 wld Global Random 
+  54) [37093] Set HP                                        wld Command 
+  55) [37094] UNUSED                                        mob Fight 
+  56) [37095] Set Char to 30 and stats to max and load SAC  wld Command 
+  57) [37096] Set Char to Level 30 for testing              wld Command 
+  58) [37097] Set char level,hp,mana for testing            wld Command 
+  59) [37098] Restore HP, MANA, MOVES for testing           wld Command 
+  60) [37099] R37018 O37099. Block moving U to upper levels obj Leave 
+
+>[0;00m
+[0mCHECKING: 390[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [39001] Shopkeeper Gets a Key on Reset - All Levels   wld Zone Reset 
+   2) [39002] Echo door shut in room 39005                  wld Leave 
+   3) [39003] Block Retreat - All rooms                     wld Global Command 
+   4) [39004] Increase Key Cost - R39018                    mob Command 
+   5) [39005] Increase Key Cost p2 R39018                   mob Command 
+   6) [39006] UNUSED                                        wld Global Random Command 
+   7) [39098] Tombstone interaction rnum 39004 - corpse ret obj Command 
+   8) [39099] Caretaker Corpse Transport - All combat rooms mob Global Speech 
+   9) [39100] For playtesting - Super EQ Loader 4000        obj Command 
+  10) [39110] set max hp mana moves                         wld Command 
+  11) [39111] set max mana                                  wld Command 
+  12) [39112] set max moves                                 wld Command 
+
+>[0;00m
+[0mCHECKING: 400[0m
+[0mCHECKING: 444[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+   1) [40000] How do you delete a trigger                   wld Enter 
+
+>[0;00m
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #444
+
+>[0;00m
+[0mCHECKING: 50000[0m
+
+Index VNum    Trigger Name                                  Type
+----- ------- --------------------------------------------- ---------
+No triggers found for zone #50000
