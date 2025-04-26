@@ -1,0 +1,954 @@
+[0mCHECKING: 0[0m
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [1    [0;00m] Kill the Black Enfan                        [0;00m [    0][0;00m
+
+>[0;00m
+[0mCHECKING: 1[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 2[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 3[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 4[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 5[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 6[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 7[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 9[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 10[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 11[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [1100 [0;00m] Return Narya!                               [0;00m [ 1100][0;00m
+   2[0;00m) [1101 [0;00m] Return Nenya                                [0;00m [ 1100][0;00m
+   3[0;00m) [1102 [0;00m] Return Vilya!                               [0;00m [ 1100][0;00m
+
+>[0;00m
+[0mCHECKING: 12[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [1220 [0;00m] Hurry Padawan!                              [0;00m [ 1220][0;00m
+   2[0;00m) [1254 [0;00m] Avoid the Dark Side!                        [0;00m [ 1254][0;00m
+   3[0;00m) [1255 [0;00m] Arrange Travel Off-World!                   [0;00m [ 1255][0;00m
+   4[0;00m) [1269 [0;00m] Find Jabba the Hutt!                        [0;00m [ 1269][0;00m
+   5[0;00m) [1270 [0;00m] Your Journey Begins!                        [0;00m [ 1270][0;00m
+   6[0;00m) [1289 [0;00m] Obtain the Plans!                           [0;00m [ 1289][0;00m
+
+>[0;00m
+[0mCHECKING: 14[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 15[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 16[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 18[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 19[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 20[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [2020 [0;00m] Destroy the Fiend!                          [0;00m [ 2020][0;00m
+   2[0;00m) [2021 [0;00m] Stem the Tide                               [0;00m [ 2020][0;00m
+
+>[0;00m
+[0mCHECKING: 21[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 22[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 23[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 24[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 25[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 27[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [2859 [0;00m] The True Excalibur                          [0;00m [ 2859][0;00m
+
+>[0;00m
+[0mCHECKING: 29[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 30[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [3001 [0;00m] Help is on its way!                         [0;00m [ 3080][0;00m
+   2[0;00m) [3002 [0;00m] Enlisting the help of Luke Skywalker        [0;00m [ 3080][0;00m
+   3[0;00m) [3003 [0;00m] Find Han Solo!                              [0;00m [ 3080][0;00m
+   4[0;00m) [3004 [0;00m] Find the Mandalorian's Stick                [0;00m [ 3080][0;00m
+   5[0;00m) [3005 [0;00m] Eliminate the Imperial Spies                [0;00m [ 3080][0;00m
+   6[0;00m) [3006 [0;00m] A Vital Mission                             [0;00m [ 3080][0;00m
+
+>[0;00m
+[0mCHECKING: 32[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 33[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 35[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 36[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 37[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 38[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 39[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 40[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 41[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 42[0m
+[0mCHECKING: 44[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 47[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 50[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 51[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 52[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 53[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 54[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 55[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [5507 [0;00m] A Dying Wish                                [0;00m [ 5507][0;00m
+
+>[0;00m
+[0mCHECKING: 57[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 58[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [5822 [0;00m] Assistance for the Valorous                 [0;00m [ 5822][0;00m
+   2[0;00m) [5823 [0;00m] Tempus Fugit                                [0;00m [ 5822][0;00m
+
+>[0;00m
+[0mCHECKING: 60[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 61[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 62[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 63[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 65[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [6520 [0;00m] The Birth Patrol                            [0;00m [ 6520][0;00m
+   2[0;00m) [6521 [0;00m] Bone of Contention                          [0;00m [ 6520][0;00m
+
+>[0;00m
+[0mCHECKING: 66[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 67[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 69[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 71[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 73[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 74[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 75[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 76[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 78[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 79[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 80[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 81[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 82[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 83[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 84[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 89[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 90[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 92[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 93[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 95[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 96[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [9615 [0;00m] A Vast Northern Army                        [0;00m [ 9615][0;00m
+
+>[0;00m
+[0mCHECKING: 98[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 99[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 100[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 101[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 103[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 104[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 106[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [10750[0;00m] Find the jewels!  Make a tiara!             [0;00m [ 2166][0;00m
+
+>[0;00m
+[0mCHECKING: 111[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 118[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 120[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 121[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 122[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 126[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [12732[0;00m] A Milliner's Dream                          [0;00m [12605][0;00m
+   2[0;00m) [12733[0;00m] A Pirate's Parrot                           [0;00m [12605][0;00m
+
+>[0;00m
+[0mCHECKING: 128[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 130[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 133[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [13309[0;00m] The Innkeeper's Revenge                     [0;00m [13309][0;00m
+   2[0;00m) [13310[0;00m] Bring me the Crown of Aglandiir             [0;00m [13309][0;00m
+   3[0;00m) [13311[0;00m] Return of the Prodigal Daughter             [0;00m [13309][0;00m
+
+>[0;00m
+[0mCHECKING: 139[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 140[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 143[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 146[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [14605[0;00m] Elixir Vitae!                               [0;00m [14605][0;00m
+
+>[0;00m
+[0mCHECKING: 150[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 154[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 155[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 161[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 166[0m
+[0mCHECKING: 167[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 170[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 178[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 179[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 183[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 184[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 185[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 186[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [18601[0;00m] Escaping Un-Death                           [0;00m [18621][0;00m
+
+>[0;00m
+[0mCHECKING: 192[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 193[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 210[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 216[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [21621[0;00m] Clear the Way!                              [0;00m [21622][0;00m
+   2[0;00m) [21622[0;00m] Assassin for the Assassin                   [0;00m [21622][0;00m
+
+>[0;00m
+[0mCHECKING: 217[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [21768[0;00m] Assist the Training Master                  [0;00m [21768][0;00m
+   2[0;00m) [21769[0;00m] Assist the Training Master                  [0;00m [21768][0;00m
+   3[0;00m) [21770[0;00m] Assist the Training Master                  [0;00m [21768][0;00m
+   4[0;00m) [21771[0;00m] Assist the Training Master                  [0;00m [21768][0;00m
+   5[0;00m) [21772[0;00m] Assist the Training Master                  [0;00m [21768][0;00m
+   6[0;00m) [21773[0;00m] Assist the Training Master                  [0;00m [21768][0;00m
+   7[0;00m) [21774[0;00m] Assist the Training Master                  [0;00m [21768][0;00m
+   8[0;00m) [21775[0;00m] Assist the Training Master                  [0;00m [21768][0;00m
+   9[0;00m) [21776[0;00m] A Reward For Service                        [0;00m [21768][0;00m
+  10[0;00m) [21777[0;00m] Assist the Training Master                  [0;00m [21768][0;00m
+
+>[0;00m
+[0mCHECKING: 230[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 235[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 236[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 238[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 240[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 249[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 250[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 253[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 254[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 255[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 256[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 257[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 259[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 350[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [35002[0;00m] the necromancer's necromancer               [0;00m [35002][0;00m
+   2[0;00m) [35003[0;00m] killing me softly with his song             [0;00m [35002][0;00m
+   3[0;00m) [35008[0;00m] an antipaladin's pet peeve                  [0;00m [35008][0;00m
+   4[0;00m) [35009[0;00m] an antipaladin's pet peeve redux            [0;00m [35008][0;00m
+   5[0;00m) [35010[0;00m] the ghosts of the dead                      [0;00m [35008][0;00m
+   6[0;00m) [35023[0;00m] Bring Me His Head!                          [0;00m [35023][0;00m
+   7[0;00m) [35032[0;00m] spy vs spy                                  [0;00m [35032][0;00m
+   8[0;00m) [35036[0;00m] assassinate the assassins                   [0;00m [35036][0;00m
+   9[0;00m) [35042[0;00m] to catch a thief                            [0;00m [35042][0;00m
+  10[0;00m) [35066[0;00m] lord of the dance                           [0;00m [35066][0;00m
+  11[0;00m) [35067[0;00m] a questionable ally                         [0;00m [35066][0;00m
+  12[0;00m) [35068[0;00m] abandoned weapon                            [0;00m [35066][0;00m
+  13[0;00m) [35122[0;00m] Bring me the head of Katri!                 [0;00m [35122][0;00m
+
+>[0;00m
+[0mCHECKING: 360[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+   1[0;00m) [36001[0;00m] Desperate at the Dunes                      [0;00m [36001][0;00m
+   2[0;00m) [36002[0;00m] Return to Layla                             [0;00m [36002][0;00m
+   3[0;00m) [36003[0;00m] Scorpion's Sting                            [0;00m [36001][0;00m
+   4[0;00m) [36004[0;00m] Serpent's Gaze                              [0;00m [36001][0;00m
+   5[0;00m) [36005[0;00m] Elixir of Life                              [0;00m [36001][0;00m
+   6[0;00m) [36006[0;00m] The Fang That Tore Us                       [0;00m [36002][0;00m
+   7[0;00m) [36007[0;00m] The Dust Hasn't Settled                     [0;00m [36002][0;00m
+   8[0;00m) [36008[0;00m] Fleetfoot's Haul                            [0;00m [36002][0;00m
+   9[0;00m) [36009[0;00m] The Man He Was                              [0;00m [36002][0;00m
+
+>[0;00m
+[0mCHECKING: 370[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 390[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 400[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 444[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+
+>[0;00m
+[0mCHECKING: 50000[0m
+
+Index VNum    Description                                  Questmaster
+----- ------- -------------------------------------------- -----------
+None found.
+

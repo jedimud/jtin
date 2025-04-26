@@ -1,0 +1,1882 @@
+[0mCHECKING: 0[0m
+Zone 0 is linked to the following zones:
+ 30 Midgaard                       at     0 (up   ) --->  3001
+
+>[0;00m
+[0mCHECKING: 1[0m
+
+Zone 1 is linked to the following zones:
+ 30 Midgaard                       at   100 (east ) --->  3001
+ 39 Midgaard Countryside           at   166 (north) --->  3904
+
+>[0;00m
+[0mCHECKING: 2[0m
+
+Zone 2 is linked to the following zones:
+ 10 God Complex Extension          at   200 (west ) --->  1011
+ 30 Midgaard                       at   224 (down ) --->  3001
+ 30 Midgaard                       at   262 (north) --->  3001
+ 21 Skara Brae                     at   262 (east ) --->  2112
+122 New Thalos                     at   262 (west ) ---> 12206
+179 Tir na nOg                     at   282 (northwest) ---> 18156
+250 Gauntlet                       at   289 (north) ---> 25000
+179 Tir na nOg                     at   289 (south) ---> 18000
+
+>[0;00m
+[0mCHECKING: 3[0m
+
+Zone 3 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 4[0m
+
+Zone 4 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 5[0m
+
+Zone 5 is linked to the following zones:
+230 The City of Sanctuary          at   555 (south) ---> 23209
+
+>[0;00m
+[0mCHECKING: 6[0m
+
+Zone 6 is linked to the following zones:
+ 40 Moria                          at   601 (south) --->  4031
+ 33 Mahn-Tor                       at   653 (northeast) --->  3401
+185 Aralu                          at   682 (south) ---> 18500
+100 Enfan City                     at   684 (east ) ---> 10049
+
+>[0;00m
+[0mCHECKING: 7[0m
+
+Zone 7 is linked to the following zones:
+ 12 Star Wars                      at   701 (east ) --->  1223
+ 12 Star Wars                      at   721 (south) --->  1270
+
+>[0;00m
+[0mCHECKING: 9[0m
+
+Zone 9 is linked to the following zones:
+ 61 Dark Haon-Dor                  at   900 (east ) --->  6152
+
+>[0;00m
+[0mCHECKING: 10[0m
+
+Zone 10 is linked to the following zones:
+  2 The God Complex                at  1000 (north) --->   220
+  2 The God Complex                at  1000 (up   ) --->   200
+ 30 Midgaard                       at  1000 (down ) --->  3001
+  2 The God Complex                at  1001 (up   ) --->   220
+  2 The God Complex                at  1001 (down ) --->   219
+  2 The God Complex                at  1011 (east ) --->   200
+
+>[0;00m
+[0mCHECKING: 11[0m
+
+Zone 11 is linked to the following zones:
+ 39 Midgaard Countryside           at  1100 (east ) --->  3901
+154 Weeden and the Western Forest  at  1100 (west ) ---> 15400
+ 30 Midgaard                       at  1150 (up   ) --->  3001
+
+>[0;00m
+[0mCHECKING: 12[0m
+
+Zone 12 is linked to the following zones:
+ 50 The Great Eastern Desert       at  1200 (north) --->  5037
+ 50 The Great Eastern Desert       at  1209 (southeast) --->  5037
+ 50 The Great Eastern Desert       at  1399 (south) --->  5048
+
+>[0;00m
+[0mCHECKING: 14[0m
+
+Zone 14 is linked to the following zones:
+122 New Thalos                     at  1400 (north) ---> 12242
+
+>[0;00m
+[0mCHECKING: 15[0m
+
+Zone 15 is linked to the following zones:
+122 New Thalos                     at  1501 (south) ---> 12434
+
+>[0;00m
+[0mCHECKING: 16[0m
+
+Zone 16 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 18[0m
+[0mCHECKING: 19[0m
+
+Zone 18 is linked to the following zones:
+ 35 Outskirts of Midgaard          at  1802 (north) --->  3502
+ 65 The Dwarven Kingdom            at  1802 (down ) --->  6500
+186 Miden'Nir Extension            at  1821 (south) ---> 18600
+ 61 Dark Haon-Dor                  at  1850 (south) --->  6102
+
+>[0;00m
+Zone 19 is linked to the following zones:
+ 30 Midgaard                       at  1901 (south) --->  3017
+ 30 Midgaard                       at  1906 (east ) --->  3080
+ 30 Midgaard                       at  1911 (west ) --->  3031
+ 30 Midgaard                       at  1919 (south) --->  3141
+ 30 Midgaard                       at  1925 (south) --->  3082
+
+>[0;00m
+[0mCHECKING: 20[0m
+
+Zone 20 is linked to the following zones:
+166 The Balor                      at  2000 (northeast) ---> 16643
+ 30 Midgaard                       at  2063 (west ) --->  3001
+
+>[0;00m
+[0mCHECKING: 21[0m
+
+Zone 21 is linked to the following zones:
+ 69 The Dragon Sea                 at  2105 (north) --->  6906
+ 55 The Wandering Ship             at  2107 (up   ) --->  5502
+ 23 Outskirts of Skara Brae        at  2127 (east ) --->  2312
+ 23 Outskirts of Skara Brae        at  2138 (west ) --->  2311
+ 22 The Abandoned Ship and the Deep Forest at  2148 (up   ) --->  2259
+ 38 Gyles Keep                     at  2150 (south) --->  3800
+ 29 Donner's Den of Iniquity       at  2153 (west ) --->  2982
+ 99 The Metro                      at  2183 (south) --->  9971
+ 47 The Bardic Colleges            at  2185 (east ) --->  4700
+ 69 The Dragon Sea                 at  2189 (north) --->  6906
+121 The Museum of the Gods         at  2195 (east ) ---> 12114
+121 The Museum of the Gods         at  2195 (south) ---> 12120
+ 69 The Dragon Sea                 at  2196 (down ) --->  6947
+
+>[0;00m
+[0mCHECKING: 22[0m
+
+Zone 22 is linked to the following zones:
+ 23 Outskirts of Skara Brae        at  2200 (south) --->  2300
+ 96 Imperial Ravenna               at  2247 (east ) --->  9603
+ 96 Imperial Ravenna               at  2247 (northeast) --->  9604
+ 21 Skara Brae                     at  2259 (down ) --->  2148
+ 89 The Parliament of Owls         at  2262 (southeast) --->  8900
+
+>[0;00m
+[0mCHECKING: 23[0m
+
+Zone 23 is linked to the following zones:
+ 22 The Abandoned Ship and the Deep Forest at  2300 (north) --->  2200
+ 93 Floodlands                     at  2309 (west ) --->  9469
+ 21 Skara Brae                     at  2311 (east ) --->  2138
+ 21 Skara Brae                     at  2312 (west ) --->  2127
+146 The Sieged Castle              at  2313 (north) ---> 14628
+ 25 The Arctic Empire              at  2343 (west ) --->  2500
+140 The Amber Forest               at  2360 (north) ---> 14100
+
+>[0;00m
+[0mCHECKING: 24[0m
+
+Zone 24 is linked to the following zones:
+ 30 Midgaard                       at  2482 (south) --->  3016
+
+>[0;00m
+[0mCHECKING: 25[0m
+
+Zone 25 is linked to the following zones:
+ 23 Outskirts of Skara Brae        at  2500 (east ) --->  2343
+350 The Ice Fortress of Razakasch  at  2505 (north) ---> 35098
+ 30 Midgaard                       at  2664 (west ) --->  3001
+
+>[0;00m
+[0mCHECKING: 27[0m
+[0mCHECKING: 29[0m
+
+Zone 27 is linked to the following zones:
+ 30 Midgaard                       at  2710 (north) --->  3155
+ 30 Midgaard                       at  2749 (north) --->  3001
+ 30 Midgaard                       at  2889 (north) --->  3001
+ 50 The Great Eastern Desert       at  2889 (east ) --->  5001
+
+>[0;00m
+Zone 29 is linked to the following zones:
+ 21 Skara Brae                     at  2982 (east ) --->  2153
+
+>[0;00m
+[0mCHECKING: 30[0m
+
+Zone 30 is linked to the following zones:
+  1 The Midgaard Temple            at  3001 (west ) --->   100
+ 24 Cheers                         at  3016 (north) --->  2482
+ 19 The Player's Keeps             at  3017 (north) --->  1901
+ 19 The Player's Keeps             at  3031 (east ) --->  1911
+ 19 The Player's Keeps             at  3080 (west ) --->  1906
+ 19 The Player's Keeps             at  3082 (north) --->  1925
+ 73 The Midgaard Sewers            at  3090 (down ) --->  7300
+ 32 Midgaard Park South            at  3106 (south) --->  3200
+ 39 Midgaard Countryside           at  3107 (north) --->  3900
+ 60 Light Haon-Dor                 at  3107 (west ) --->  6000
+ 39 Midgaard Countryside           at  3108 (north) --->  3908
+ 35 Outskirts of Midgaard          at  3108 (east ) --->  3503
+ 39 Midgaard Countryside           at  3119 (north) --->  3904
+ 19 The Player's Keeps             at  3141 (north) --->  1919
+ 47 The Bardic Colleges            at  3145 (west ) --->  4700
+166 The Balor                      at  3153 (south) ---> 16601
+ 50 The Great Eastern Desert       at  3155 (east ) --->  5001
+ 27 Camelot                        at  3155 (south) --->  2710
+ 50 The Great Eastern Desert       at  3163 (north) --->  5053
+
+>[0;00m
+[0mCHECKING: 32[0m
+
+Zone 32 is linked to the following zones:
+ 30 Midgaard                       at  3200 (north) --->  3106
+178 The Wedding Shops              at  3237 (north) ---> 17824
+178 The Wedding Shops              at  3237 (south) ---> 17823
+178 The Wedding Shops              at  3239 (north) ---> 17800
+178 The Wedding Shops              at  3239 (south) ---> 17822
+178 The Wedding Shops              at  3240 (east ) ---> 17819
+178 The Wedding Shops              at  3240 (south) ---> 17821
+178 The Wedding Shops              at  3241 (east ) ---> 17820
+ 73 The Midgaard Sewers            at  3241 (down ) --->  7320
+
+>[0;00m
+[0mCHECKING: 33[0m
+[0mCHECKING: 35[0m
+
+Zone 33 is linked to the following zones:
+230 The City of Sanctuary          at  3300 (northwest) ---> 23299
+  6 Arctica                        at  3401 (southwest) --->   653
+
+>[0;00m
+Zone 35 is linked to the following zones:
+ 40 Moria                          at  3500 (north) --->  4000
+ 18 Miden'Nir                      at  3502 (south) --->  1802
+ 30 Midgaard                       at  3503 (west ) --->  3108
+100 Enfan City                     at  3506 (north) ---> 10001
+139 The Ant Hill                   at  3507 (south) ---> 13944
+
+>[0;00m
+[0mCHECKING: 36[0m
+
+Zone 36 is linked to the following zones:
+122 New Thalos                     at  3600 (south) ---> 12489
+
+>[0;00m
+[0mCHECKING: 37[0m
+
+Zone 37 is linked to the following zones:
+ 50 The Great Eastern Desert       at  3700 (southeast) --->  5026
+
+>[0;00m
+[0mCHECKING: 38[0m
+
+Zone 38 is linked to the following zones:
+ 21 Skara Brae                     at  3800 (north) --->  2150
+ 23 Outskirts of Skara Brae        at  3814 (southwest) --->  2363
+
+>[0;00m
+[0mCHECKING: 39[0m
+
+Zone 39 is linked to the following zones:
+ 30 Midgaard                       at  3900 (south) --->  3107
+ 11 Shire Village                  at  3901 (west ) --->  1100
+ 54 The Northern Plains            at  3904 (north) --->  5400
+ 30 Midgaard                       at  3904 (south) --->  3119
+150 King Welmar's Castle           at  3906 (northeast) ---> 15001
+ 30 Midgaard                       at  3908 (south) --->  3108
+
+>[0;00m
+[0mCHECKING: 40[0m
+
+Zone 40 is linked to the following zones:
+ 35 Outskirts of Midgaard          at  4000 (south) --->  3500
+ 41 Lower Moria                    at  4021 (down ) --->  4115
+  6 Arctica                        at  4031 (north) --->   601
+ 41 Lower Moria                    at  4052 (east ) --->  4100
+ 65 The Dwarven Kingdom            at  4059 (down ) --->  6545
+ 41 Lower Moria                    at  4074 (down ) --->  4171
+
+>[0;00m
+[0mCHECKING: 41[0m
+
+Zone 41 is linked to the following zones:
+ 40 Moria                          at  4115 (up   ) --->  4021
+ 42 Wamphyri Aerie                 at  4126 (up   ) --->  4201
+ 40 Moria                          at  4171 (up   ) --->  4074
+
+>[0;00m
+[0mCHECKING: 42[0m
+[0mCHECKING: 44[0m
+
+Zone 42 is linked to the following zones:
+122 New Thalos                     at  4201 (south) ---> 12404
+
+>[0;00m
+Zone 44 is linked to the following zones:
+ 50 The Great Eastern Desert       at  4400 (west ) --->  5037
+ 50 The Great Eastern Desert       at  4405 (south) --->  5055
+ 50 The Great Eastern Desert       at  4405 (west ) --->  5029
+
+>[0;00m
+[0mCHECKING: 47[0m
+
+Zone 47 is linked to the following zones:
+ 30 Midgaard                       at  4700 (down ) --->  3001
+
+>[0;00m
+[0mCHECKING: 50[0m
+
+Zone 50 is linked to the following zones:
+ 30 Midgaard                       at  5001 (west ) --->  3155
+ 51 Drow City                      at  5011 (down ) --->  5100
+ 37 The Wayhouse                   at  5026 (northwest) --->  3700
+120 Rome                           at  5027 (west ) ---> 12067
+ 44 The Trog Caves and Outpost     at  5037 (east ) --->  4400
+122 New Thalos                     at  5039 (north) ---> 12211
+ 53 The Great Pyramid              at  5040 (north) --->  5300
+ 53 The Great Pyramid              at  5040 (up   ) --->  5300
+ 52 The Lost City of Old Thalos    at  5044 (west ) --->  5200
+ 12 Star Wars                      at  5054 (north) --->  1200
+ 53 The Great Pyramid              at  5071 (up   ) --->  5300
+
+>[0;00m
+[0mCHECKING: 51[0m
+
+Zone 51 is linked to the following zones:
+ 50 The Great Eastern Desert       at  5100 (up   ) --->  5011
+
+>[0;00m
+[0mCHECKING: 52[0m
+
+Zone 52 is linked to the following zones:
+ 50 The Great Eastern Desert       at  5200 (east ) --->  5044
+ 95 The Lich Tower                 at  5224 (north) --->  9500
+
+>[0;00m
+[0mCHECKING: 53[0m
+
+Zone 53 is linked to the following zones:
+ 50 The Great Eastern Desert       at  5300 (east ) --->  5040
+ 50 The Great Eastern Desert       at  5300 (south) --->  5050
+ 50 The Great Eastern Desert       at  5300 (west ) --->  5035
+
+>[0;00m
+[0mCHECKING: 54[0m
+
+Zone 54 is linked to the following zones:
+ 39 Midgaard Countryside           at  5400 (south) --->  3904
+ 11 Shire Village                  at  5401 (north) --->  1100
+
+>[0;00m
+[0mCHECKING: 55[0m
+
+Zone 55 is linked to the following zones:
+ 21 Skara Brae                     at  5502 (down ) --->  2107
+
+>[0;00m
+[0mCHECKING: 57[0m
+
+Zone 57 is linked to the following zones:
+ 30 Midgaard                       at  5730 (down ) --->  3001
+
+>[0;00m
+[0mCHECKING: 58[0m
+
+Zone 58 is linked to the following zones:
+122 New Thalos                     at  5862 (south) ---> 12426
+
+>[0;00m
+[0mCHECKING: 60[0m
+
+Zone 60 is linked to the following zones:
+ 30 Midgaard                       at  6000 (east ) --->  3107
+ 61 Dark Haon-Dor                  at  6004 (west ) --->  6100
+
+>[0;00m
+[0mCHECKING: 61[0m
+
+Zone 61 is linked to the following zones:
+ 60 Light Haon-Dor                 at  6100 (east ) --->  6004
+ 18 Miden'Nir                      at  6102 (north) --->  1850
+ 62 Arachnos                       at  6132 (up   ) --->  6201
+130 The High Tower of Sorcery      at  6137 (north) ---> 13000
+ 32 Midgaard Park South            at  6146 (east ) --->  3200
+ 92 Goblinsville                   at  6150 (west ) --->  9201
+  9 River Island Of Minos          at  6152 (east ) --->   900
+
+>[0;00m
+[0mCHECKING: 62[0m
+
+Zone 62 is linked to the following zones:
+ 61 Dark Haon-Dor                  at  6201 (down ) --->  6132
+ 61 Dark Haon-Dor                  at  6217 (west ) --->  6130
+ 66 Hell                           at  6299 (down ) --->  6600
+
+>[0;00m
+[0mCHECKING: 63[0m
+
+Zone 63 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 65[0m
+
+Zone 65 is linked to the following zones:
+ 18 Miden'Nir                      at  6500 (up   ) --->  1802
+ 40 Moria                          at  6545 (up   ) --->  4059
+
+>[0;00m
+[0mCHECKING: 66[0m
+
+Zone 66 is linked to the following zones:
+ 62 Arachnos                       at  6600 (up   ) --->  6299
+
+>[0;00m
+[0mCHECKING: 67[0m
+
+Zone 67 is linked to the following zones:
+122 New Thalos                     at  6700 (northwest) ---> 12495
+
+>[0;00m
+[0mCHECKING: 69[0m
+
+Zone 69 is linked to the following zones:
+ 21 Skara Brae                     at  6906 (south) --->  2105
+ 93 Floodlands                     at  6913 (west ) --->  9375
+167 Drake Isle                     at  6917 (south) ---> 16786
+167 Drake Isle                     at  6921 (north) ---> 16831
+167 Drake Isle                     at  6922 (north) ---> 16826
+ 93 Floodlands                     at  6926 (west ) --->  9347
+ 93 Floodlands                     at  6928 (northwest) --->  9347
+ 93 Floodlands                     at  6929 (west ) --->  9341
+230 The City of Sanctuary          at  6930 (north) ---> 23177
+230 The City of Sanctuary          at  6931 (north) ---> 23184
+ 21 Skara Brae                     at  6947 (north) --->  2196
+122 New Thalos                     at  6947 (west ) ---> 12503
+122 New Thalos                     at  6961 (west ) ---> 12502
+122 New Thalos                     at  6973 (west ) ---> 12505
+126 The Corsair Citadel            at  6984 (south) ---> 12602
+122 New Thalos                     at  6985 (west ) ---> 12504
+
+>[0;00m
+[0mCHECKING: 71[0m
+[0mCHECKING: 73[0m
+
+Zone 71 is linked to the following zones:
+122 New Thalos                     at  7270 (north) ---> 12202
+ 52 The Lost City of Old Thalos    at  7270 (east ) --->  5242
+ 93 Floodlands                     at  7270 (south) --->  9317
+230 The City of Sanctuary          at  7270 (west ) ---> 23211
+ 21 Skara Brae                     at  7270 (northeast) --->  2128
+ 50 The Great Eastern Desert       at  7270 (northwest) --->  5041
+
+>[0;00m
+Zone 73 is linked to the following zones:
+ 30 Midgaard                       at  7300 (up   ) --->  3090
+ 32 Midgaard Park South            at  7320 (up   ) --->  3241
+
+>[0;00m
+[0mCHECKING: 74[0m
+
+Zone 74 is linked to the following zones:
+101 Hellas                         at  7400 (south) ---> 10281
+
+>[0;00m
+[0mCHECKING: 75[0m
+
+Zone 75 is linked to the following zones:
+122 New Thalos                     at  7518 (north) ---> 12441
+
+>[0;00m
+[0mCHECKING: 76[0m
+
+Zone 76 is linked to the following zones:
+257 Toyland Extensions             at  7662 (east ) ---> 25860
+
+>[0;00m
+[0mCHECKING: 78[0m
+
+Zone 78 is linked to the following zones:
+ 93 Floodlands                     at  7844 (northeast) --->  9331
+ 21 Skara Brae                     at  7845 (northwest) --->  2140
+ 54 The Northern Plains            at  7860 (up   ) --->  5415
+ 54 The Northern Plains            at  7861 (up   ) --->  5415
+ 54 The Northern Plains            at  7862 (up   ) --->  5415
+ 54 The Northern Plains            at  7863 (up   ) --->  5415
+122 New Thalos                     at  7865 (down ) ---> 12455
+ 50 The Great Eastern Desert       at  7867 (east ) --->  5029
+ 50 The Great Eastern Desert       at  7868 (northeast) --->  5029
+ 50 The Great Eastern Desert       at  7869 (southeast) --->  5029
+ 22 The Abandoned Ship and the Deep Forest at  7871 (north) --->  2244
+ 22 The Abandoned Ship and the Deep Forest at  7871 (east ) --->  2244
+ 22 The Abandoned Ship and the Deep Forest at  7871 (west ) --->  2244
+ 22 The Abandoned Ship and the Deep Forest at  7872 (north) --->  2244
+ 22 The Abandoned Ship and the Deep Forest at  7872 (south) --->  2244
+ 22 The Abandoned Ship and the Deep Forest at  7872 (west ) --->  2244
+ 22 The Abandoned Ship and the Deep Forest at  7873 (north) --->  2244
+ 22 The Abandoned Ship and the Deep Forest at  7873 (east ) --->  2244
+ 22 The Abandoned Ship and the Deep Forest at  7873 (south) --->  2244
+133 Three of Swords                at  7874 (south) ---> 13351
+ 25 The Arctic Empire              at  7879 (southeast) --->  2561
+
+>[0;00m
+[0mCHECKING: 79[0m
+[0mCHECKING: 80[0m
+
+Zone 79 is linked to the following zones:
+253 The Quest Chute                at  7900 (down ) ---> 25300
+
+>[0;00m
+Zone 80 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 81[0m
+
+Zone 81 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 82[0m
+
+Zone 82 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 83[0m
+
+Zone 83 is linked to the following zones:
+122 New Thalos                     at  8300 (south) ---> 12481
+
+>[0;00m
+[0mCHECKING: 84[0m
+
+Zone 84 is linked to the following zones:
+253 The Quest Chute                at  8400 (down ) ---> 25300
+
+>[0;00m
+[0mCHECKING: 89[0m
+
+Zone 89 is linked to the following zones:
+ 22 The Abandoned Ship and the Deep Forest at  8900 (northwest) --->  2262
+
+>[0;00m
+[0mCHECKING: 90[0m
+[0mCHECKING: 92[0m
+
+Zone 90 is linked to the following zones:
+
+>[0;00m
+Zone 92 is linked to the following zones:
+ 61 Dark Haon-Dor                  at  9201 (east ) --->  6150
+
+>[0;00m
+[0mCHECKING: 93[0m
+
+Zone 93 is linked to the following zones:
+230 The City of Sanctuary          at  9301 (southwest) ---> 23000
+238 Pyramid of DOOM!               at  9322 (northeast) ---> 23890
+ 69 The Dragon Sea                 at  9341 (east ) --->  6929
+ 69 The Dragon Sea                 at  9347 (southeast) --->  6928
+ 69 The Dragon Sea                 at  9375 (east ) --->  6913
+ 23 Outskirts of Skara Brae        at  9469 (east ) --->  2309
+143 Refuge and Asylum              at  9469 (west ) ---> 14333
+
+>[0;00m
+[0mCHECKING: 95[0m
+
+Zone 95 is linked to the following zones:
+ 52 The Lost City of Old Thalos    at  9500 (south) --->  5224
+ 20 The Abyss                      at  9520 (west ) --->  2050
+
+>[0;00m
+[0mCHECKING: 96[0m
+
+Zone 96 is linked to the following zones:
+ 22 The Abandoned Ship and the Deep Forest at  9603 (west ) --->  2247
+ 22 The Abandoned Ship and the Deep Forest at  9604 (southwest) --->  2247
+
+>[0;00m
+[0mCHECKING: 98[0m
+
+Zone 98 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 99[0m
+
+Zone 99 is linked to the following zones:
+122 New Thalos                     at  9917 (west ) ---> 12498
+ 21 Skara Brae                     at  9971 (north) --->  2183
+
+>[0;00m
+[0mCHECKING: 100[0m
+
+Zone 100 is linked to the following zones:
+ 35 Outskirts of Midgaard          at 10001 (south) --->  3506
+
+>[0;00m
+[0mCHECKING: 101[0m
+
+Zone 101 is linked to the following zones:
+122 New Thalos                     at 10100 (east ) ---> 12413
+122 New Thalos                     at 10279 (south) ---> 12412
+ 74 Cedar Estate Mansion           at 10281 (north) --->  7401
+
+>[0;00m
+[0mCHECKING: 103[0m
+
+Zone 103 is linked to the following zones:
+ 30 Midgaard                       at 10302 (north) --->  3001
+
+>[0;00m
+[0mCHECKING: 104[0m
+
+Zone 104 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 106[0m
+[0mCHECKING: 111[0m
+
+Zone 106 is linked to the following zones:
+122 New Thalos                     at 10658 (west ) ---> 12599
+
+>[0;00m
+Zone 111 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 118[0m
+
+Zone 118 is linked to the following zones:
+ 11 Shire Village                  at 11800 (east ) --->  1100
+ 27 Camelot                        at 11800 (west ) --->  2700
+
+>[0;00m
+[0mCHECKING: 120[0m
+[0mCHECKING: 121[0m
+
+Zone 120 is linked to the following zones:
+ 50 The Great Eastern Desert       at 12067 (east ) --->  5027
+
+>[0;00m
+Zone 121 is linked to the following zones:
+122 New Thalos                     at 12110 (south) ---> 12302
+122 New Thalos                     at 12111 (east ) ---> 12309
+122 New Thalos                     at 12112 (south) ---> 12314
+ 21 Skara Brae                     at 12114 (west ) --->  2195
+ 21 Skara Brae                     at 12115 (south) --->  2195
+122 New Thalos                     at 12116 (west ) ---> 12309
+122 New Thalos                     at 12117 (east ) ---> 12546
+122 New Thalos                     at 12117 (south) ---> 12314
+ 21 Skara Brae                     at 12120 (north) --->  2195
+
+>[0;00m
+[0mCHECKING: 122[0m
+
+Zone 122 is linked to the following zones:
+ 50 The Great Eastern Desert       at 12211 (south) --->  5039
+ 14 Amusement Park                 at 12242 (south) --->  1400
+121 The Museum of the Gods         at 12309 (east ) ---> 12116
+121 The Museum of the Gods         at 12309 (west ) ---> 12111
+121 The Museum of the Gods         at 12314 (north) ---> 12117
+121 The Museum of the Gods         at 12314 (west ) ---> 12112
+ 42 Wamphyri Aerie                 at 12404 (north) --->  4201
+240 The Darkspine Mountains        at 12410 (northwest) ---> 24001
+101 Hellas                         at 12412 (north) ---> 10279
+101 Hellas                         at 12413 (west ) ---> 10100
+ 58 The Monastery                  at 12426 (north) --->  5862
+ 15 The Straight Path              at 12434 (north) --->  1501
+ 75 The Nightmire                  at 12441 (south) --->  7518
+ 32 Midgaard Park South            at 12469 (west ) --->  3205
+ 32 Midgaard Park South            at 12470 (east ) --->  3200
+ 61 Dark Haon-Dor                  at 12473 (west ) --->  6145
+ 83 Valhalla                       at 12481 (north) --->  8300
+ 36 Sesame Street and Muppet Theatre at 12489 (north) --->  3600
+ 67 Lost Isle of Shaedar           at 12495 (southeast) --->  6700
+ 99 The Metro                      at 12498 (east ) --->  9917
+ 47 The Bardic Colleges            at 12500 (south) --->  4700
+ 69 The Dragon Sea                 at 12502 (east ) --->  6961
+ 69 The Dragon Sea                 at 12503 (east ) --->  6947
+ 69 The Dragon Sea                 at 12504 (east ) --->  6985
+ 69 The Dragon Sea                 at 12505 (east ) --->  6973
+121 The Museum of the Gods         at 12546 (west ) ---> 12117
+ 30 Midgaard                       at 12585 (north) --->  3059
+106 Arcadia                        at 12599 (east ) ---> 10658
+
+>[0;00m
+[0mCHECKING: 126[0m
+
+Zone 126 is linked to the following zones:
+ 69 The Dragon Sea                 at 12602 (north) --->  6984
+ 69 The Dragon Sea                 at 12659 (north) --->  6900
+
+>[0;00m
+[0mCHECKING: 128[0m
+[0mCHECKING: 130[0m
+
+Zone 128 is linked to the following zones:
+
+>[0;00m
+Zone 130 is linked to the following zones:
+ 61 Dark Haon-Dor                  at 13000 (south) --->  6137
+210 The Shadows                    at 13004 (north) ---> 21310
+ 30 Midgaard                       at 13029 (up   ) --->  3001
+ 41 Lower Moria                    at 13092 (north) --->  4115
+ 51 Drow City                      at 13092 (south) --->  5120
+120 Rome                           at 13092 (west ) ---> 12066
+ 61 Dark Haon-Dor                  at 13092 (up   ) --->  6137
+ 61 Dark Haon-Dor                  at 13092 (down ) --->  6137
+ 30 Midgaard                       at 13183 (up   ) --->  3001
+ 30 Midgaard                       at 13199 (down ) --->  3001
+
+>[0;00m
+[0mCHECKING: 133[0m
+
+Zone 133 is linked to the following zones:
+240 The Darkspine Mountains        at 13300 (down ) ---> 24020
+
+>[0;00m
+[0mCHECKING: 139[0m
+
+Zone 139 is linked to the following zones:
+150 King Welmar's Castle           at 13921 (up   ) ---> 15005
+ 35 Outskirts of Midgaard          at 13944 (north) --->  3507
+
+>[0;00m
+[0mCHECKING: 140[0m
+
+Zone 140 is linked to the following zones:
+ 30 Midgaard                       at 14034 (north) --->  3001
+ 23 Outskirts of Skara Brae        at 14100 (south) --->  2360
+146 The Sieged Castle              at 14103 (east ) ---> 14614
+170 The Death Star                 at 14105 (east ) ---> 17048
+186 Miden'Nir Extension            at 14106 (west ) ---> 18661
+235 The Watch Towers               at 14107 (north) ---> 23517
+216 Dragon City                    at 14107 (east ) ---> 21626
+ 11 Shire Village                  at 14108 (west ) --->  1119
+ 76 Andrus' Toy Land               at 14109 (west ) --->  7737
+ 76 Andrus' Toy Land               at 14111 (north) --->  7616
+ 42 Wamphyri Aerie                 at 14111 (east ) --->  4248
+ 36 Sesame Street and Muppet Theatre at 14111 (south) --->  3666
+101 Hellas                         at 14111 (west ) ---> 10262
+ 32 Midgaard Park South            at 14112 (west ) --->  3210
+122 New Thalos                     at 14113 (north) ---> 12506
+ 32 Midgaard Park South            at 14113 (south) --->  3241
+216 Dragon City                    at 14113 (west ) ---> 21631
+ 65 The Dwarven Kingdom            at 14114 (north) --->  6528
+122 New Thalos                     at 14114 (east ) ---> 12370
+118 The Dollhouse                  at 14114 (south) ---> 11841
+ 76 Andrus' Toy Land               at 14115 (west ) --->  7705
+257 Toyland Extensions             at 14117 (north) ---> 25775
+ 30 Midgaard                       at 14117 (west ) --->  3047
+118 The Dollhouse                  at 14118 (west ) ---> 11844
+ 67 Lost Isle of Shaedar           at 14119 (north) --->  6818
+ 33 Mahn-Tor                       at 14119 (west ) --->  3344
+ 30 Midgaard                       at 14120 (north) --->  3142
+ 22 The Abandoned Ship and the Deep Forest at 14121 (north) --->  2262
+ 44 The Trog Caves and Outpost     at 14121 (east ) --->  4473
+ 67 Lost Isle of Shaedar           at 14121 (south) --->  6808
+ 23 Outskirts of Skara Brae        at 14122 (north) --->  2353
+ 44 The Trog Caves and Outpost     at 14122 (south) --->  4405
+
+>[0;00m
+[0mCHECKING: 143[0m
+
+Zone 143 is linked to the following zones:
+ 93 Floodlands                     at 14333 (east ) --->  9469
+
+>[0;00m
+[0mCHECKING: 146[0m
+
+Zone 146 is linked to the following zones:
+ 23 Outskirts of Skara Brae        at 14628 (south) --->  2313
+
+>[0;00m
+[0mCHECKING: 150[0m
+[0mCHECKING: 154[0m
+
+Zone 150 is linked to the following zones:
+ 39 Midgaard Countryside           at 15001 (southwest) --->  3906
+217 The Training Grounds           at 15003 (east ) ---> 21700
+
+>[0;00m
+Zone 154 is linked to the following zones:
+ 11 Shire Village                  at 15400 (east ) --->  1100
+155 Weeden Underground             at 15435 (east ) ---> 15531
+155 Weeden Underground             at 15441 (south) ---> 15500
+155 Weeden Underground             at 15454 (down ) ---> 15536
+
+>[0;00m
+[0mCHECKING: 155[0m
+
+Zone 155 is linked to the following zones:
+154 Weeden and the Western Forest  at 15500 (north) ---> 15441
+154 Weeden and the Western Forest  at 15531 (west ) ---> 15435
+154 Weeden and the Western Forest  at 15536 (up   ) ---> 15454
+
+>[0;00m
+[0mCHECKING: 161[0m
+[0mCHECKING: 166[0m
+
+Zone 161 is linked to the following zones:
+ 61 Dark Haon-Dor                  at 16100 (north) --->  6154
+
+>[0;00m
+Zone 166 is linked to the following zones:
+ 30 Midgaard                       at 16601 (north) --->  3153
+ 20 The Abyss                      at 16643 (southwest) --->  2000
+
+>[0;00m
+[0mCHECKING: 167[0m
+
+Zone 167 is linked to the following zones:
+  2 The God Complex                at 16700 (north) --->   282
+ 69 The Dragon Sea                 at 16786 (north) --->  6917
+ 69 The Dragon Sea                 at 16813 (east ) --->  6919
+ 69 The Dragon Sea                 at 16826 (south) --->  6922
+ 69 The Dragon Sea                 at 16831 (south) --->  6921
+
+>[0;00m
+[0mCHECKING: 170[0m
+
+Zone 170 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 178[0m
+
+Zone 178 is linked to the following zones:
+ 32 Midgaard Park South            at 17800 (south) --->  3239
+ 32 Midgaard Park South            at 17819 (west ) --->  3240
+ 32 Midgaard Park South            at 17820 (west ) --->  3241
+ 32 Midgaard Park South            at 17821 (north) --->  3240
+ 32 Midgaard Park South            at 17822 (north) --->  3239
+ 32 Midgaard Park South            at 17823 (north) --->  3237
+ 32 Midgaard Park South            at 17824 (south) --->  3237
+
+>[0;00m
+[0mCHECKING: 179[0m
+
+Zone 179 is linked to the following zones:
+ 30 Midgaard                       at 18171 (down ) --->  3001
+ 30 Midgaard                       at 18172 (down ) --->  3001
+
+>[0;00m
+[0mCHECKING: 183[0m
+
+Zone 183 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 184[0m
+[0mCHECKING: 185[0m
+
+Zone 184 is linked to the following zones:
+ 84 Xmas 2017                      at 18475 (north) --->  8404
+
+>[0;00m
+Zone 185 is linked to the following zones:
+  6 Arctica                        at 18500 (north) --->   682
+
+>[0;00m
+[0mCHECKING: 186[0m
+
+Zone 186 is linked to the following zones:
+ 18 Miden'Nir                      at 18600 (north) --->  1821
+
+>[0;00m
+[0mCHECKING: 192[0m
+
+Zone 192 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 193[0m
+
+Zone 193 is linked to the following zones:
+ 44 The Trog Caves and Outpost     at 19301 (north) --->  4400
+ 44 The Trog Caves and Outpost     at 19301 (east ) --->  4402
+ 44 The Trog Caves and Outpost     at 19301 (south) --->  4406
+ 44 The Trog Caves and Outpost     at 19301 (west ) --->  4400
+ 44 The Trog Caves and Outpost     at 19302 (north) --->  4405
+ 44 The Trog Caves and Outpost     at 19302 (east ) --->  4402
+ 44 The Trog Caves and Outpost     at 19302 (south) --->  4402
+ 44 The Trog Caves and Outpost     at 19302 (west ) --->  4400
+ 44 The Trog Caves and Outpost     at 19303 (north) --->  4404
+ 44 The Trog Caves and Outpost     at 19303 (east ) --->  4408
+ 44 The Trog Caves and Outpost     at 19303 (south) --->  4404
+ 44 The Trog Caves and Outpost     at 19303 (west ) --->  4402
+ 44 The Trog Caves and Outpost     at 19304 (north) --->  4407
+ 44 The Trog Caves and Outpost     at 19304 (east ) --->  4403
+ 44 The Trog Caves and Outpost     at 19304 (south) --->  4403
+ 44 The Trog Caves and Outpost     at 19304 (west ) --->  4404
+ 44 The Trog Caves and Outpost     at 19305 (north) --->  4400
+ 44 The Trog Caves and Outpost     at 19305 (east ) --->  4406
+ 50 The Great Eastern Desert       at 19305 (south) --->  5055
+ 50 The Great Eastern Desert       at 19305 (west ) --->  5029
+ 44 The Trog Caves and Outpost     at 19306 (north) --->  4401
+ 44 The Trog Caves and Outpost     at 19306 (east ) --->  4407
+ 44 The Trog Caves and Outpost     at 19306 (south) --->  4402
+ 44 The Trog Caves and Outpost     at 19306 (west ) --->  4405
+ 44 The Trog Caves and Outpost     at 19307 (north) --->  4401
+ 44 The Trog Caves and Outpost     at 19307 (east ) --->  4404
+ 44 The Trog Caves and Outpost     at 19307 (south) --->  4404
+ 44 The Trog Caves and Outpost     at 19307 (west ) --->  4406
+ 44 The Trog Caves and Outpost     at 19308 (north) --->  4401
+ 44 The Trog Caves and Outpost     at 19308 (east ) --->  4409
+ 44 The Trog Caves and Outpost     at 19308 (south) --->  4400
+ 44 The Trog Caves and Outpost     at 19309 (north) --->  4410
+ 44 The Trog Caves and Outpost     at 19309 (east ) --->  4415
+ 44 The Trog Caves and Outpost     at 19309 (south) --->  4411
+ 44 The Trog Caves and Outpost     at 19309 (west ) --->  4408
+ 44 The Trog Caves and Outpost     at 19310 (east ) --->  4412
+ 44 The Trog Caves and Outpost     at 19310 (south) --->  4409
+ 44 The Trog Caves and Outpost     at 19311 (north) --->  4409
+ 44 The Trog Caves and Outpost     at 19311 (east ) --->  4412
+ 44 The Trog Caves and Outpost     at 19311 (down ) --->  4641
+ 44 The Trog Caves and Outpost     at 19312 (east ) --->  4412
+ 44 The Trog Caves and Outpost     at 19312 (south) --->  4412
+ 44 The Trog Caves and Outpost     at 19312 (west ) --->  4410
+ 44 The Trog Caves and Outpost     at 19313 (north) --->  4412
+ 44 The Trog Caves and Outpost     at 19313 (east ) --->  4413
+ 44 The Trog Caves and Outpost     at 19313 (west ) --->  4411
+ 44 The Trog Caves and Outpost     at 19314 (east ) --->  4412
+ 44 The Trog Caves and Outpost     at 19314 (south) --->  4415
+ 44 The Trog Caves and Outpost     at 19314 (west ) --->  4410
+ 44 The Trog Caves and Outpost     at 19315 (north) --->  4414
+ 44 The Trog Caves and Outpost     at 19315 (east ) --->  4412
+ 44 The Trog Caves and Outpost     at 19315 (south) --->  4416
+ 44 The Trog Caves and Outpost     at 19315 (west ) --->  4409
+ 44 The Trog Caves and Outpost     at 19316 (north) --->  4415
+ 44 The Trog Caves and Outpost     at 19316 (east ) --->  4412
+ 44 The Trog Caves and Outpost     at 19316 (south) --->  4417
+ 44 The Trog Caves and Outpost     at 19316 (west ) --->  4411
+ 44 The Trog Caves and Outpost     at 19317 (north) --->  4416
+ 44 The Trog Caves and Outpost     at 19317 (east ) --->  4413
+ 44 The Trog Caves and Outpost     at 19317 (south) --->  4418
+ 44 The Trog Caves and Outpost     at 19317 (down ) --->  4458
+ 44 The Trog Caves and Outpost     at 19318 (north) --->  4417
+ 44 The Trog Caves and Outpost     at 19318 (south) --->  4419
+ 44 The Trog Caves and Outpost     at 19319 (north) --->  4418
+ 44 The Trog Caves and Outpost     at 19319 (south) --->  4420
+ 44 The Trog Caves and Outpost     at 19320 (north) --->  4419
+ 44 The Trog Caves and Outpost     at 19320 (south) --->  4421
+ 44 The Trog Caves and Outpost     at 19320 (west ) --->  4422
+ 44 The Trog Caves and Outpost     at 19321 (north) --->  4420
+ 44 The Trog Caves and Outpost     at 19321 (south) --->  4500
+ 44 The Trog Caves and Outpost     at 19322 (east ) --->  4420
+ 44 The Trog Caves and Outpost     at 19322 (west ) --->  4423
+ 44 The Trog Caves and Outpost     at 19323 (east ) --->  4422
+ 44 The Trog Caves and Outpost     at 19323 (south) --->  4425
+ 44 The Trog Caves and Outpost     at 19323 (west ) --->  4424
+ 44 The Trog Caves and Outpost     at 19324 (east ) --->  4423
+ 44 The Trog Caves and Outpost     at 19325 (north) --->  4423
+ 44 The Trog Caves and Outpost     at 19325 (up   ) --->  4426
+ 44 The Trog Caves and Outpost     at 19326 (west ) --->  4428
+ 44 The Trog Caves and Outpost     at 19326 (down ) --->  4425
+ 44 The Trog Caves and Outpost     at 19327 (east ) --->  4428
+ 44 The Trog Caves and Outpost     at 19327 (up   ) --->  4429
+ 44 The Trog Caves and Outpost     at 19328 (east ) --->  4426
+ 44 The Trog Caves and Outpost     at 19328 (west ) --->  4427
+ 44 The Trog Caves and Outpost     at 19329 (south) --->  4430
+ 44 The Trog Caves and Outpost     at 19329 (down ) --->  4427
+ 44 The Trog Caves and Outpost     at 19330 (north) --->  4429
+ 44 The Trog Caves and Outpost     at 19330 (east ) --->  4431
+ 44 The Trog Caves and Outpost     at 19331 (west ) --->  4430
+ 44 The Trog Caves and Outpost     at 19331 (down ) --->  4432
+ 44 The Trog Caves and Outpost     at 19332 (up   ) --->  4431
+ 44 The Trog Caves and Outpost     at 19332 (down ) --->  4433
+ 44 The Trog Caves and Outpost     at 19333 (north) --->  4437
+ 44 The Trog Caves and Outpost     at 19333 (east ) --->  4435
+ 44 The Trog Caves and Outpost     at 19333 (south) --->  4434
+ 44 The Trog Caves and Outpost     at 19333 (west ) --->  4438
+ 44 The Trog Caves and Outpost     at 19333 (up   ) --->  4432
+ 44 The Trog Caves and Outpost     at 19334 (north) --->  4433
+ 44 The Trog Caves and Outpost     at 19334 (east ) --->  4435
+ 44 The Trog Caves and Outpost     at 19334 (west ) --->  4439
+ 44 The Trog Caves and Outpost     at 19335 (north) --->  4436
+ 44 The Trog Caves and Outpost     at 19335 (south) --->  4434
+ 44 The Trog Caves and Outpost     at 19335 (west ) --->  4433
+ 44 The Trog Caves and Outpost     at 19336 (north) --->  4440
+ 44 The Trog Caves and Outpost     at 19336 (south) --->  4435
+ 44 The Trog Caves and Outpost     at 19336 (west ) --->  4437
+ 44 The Trog Caves and Outpost     at 19337 (east ) --->  4436
+ 44 The Trog Caves and Outpost     at 19337 (south) --->  4433
+ 44 The Trog Caves and Outpost     at 19337 (west ) --->  4438
+ 44 The Trog Caves and Outpost     at 19338 (north) --->  4437
+ 44 The Trog Caves and Outpost     at 19338 (east ) --->  4433
+ 44 The Trog Caves and Outpost     at 19338 (south) --->  4439
+ 44 The Trog Caves and Outpost     at 19338 (west ) --->  4486
+ 44 The Trog Caves and Outpost     at 19339 (north) --->  4438
+ 44 The Trog Caves and Outpost     at 19339 (east ) --->  4434
+ 44 The Trog Caves and Outpost     at 19339 (south) --->  4442
+ 44 The Trog Caves and Outpost     at 19339 (northeast) --->  4441
+ 44 The Trog Caves and Outpost     at 19340 (south) --->  4436
+ 44 The Trog Caves and Outpost     at 19341 (west ) --->  4439
+ 44 The Trog Caves and Outpost     at 19342 (north) --->  4439
+ 44 The Trog Caves and Outpost     at 19342 (south) --->  4443
+ 44 The Trog Caves and Outpost     at 19343 (north) --->  4442
+ 44 The Trog Caves and Outpost     at 19343 (south) --->  4444
+ 44 The Trog Caves and Outpost     at 19344 (north) --->  4443
+ 44 The Trog Caves and Outpost     at 19344 (south) --->  4460
+ 44 The Trog Caves and Outpost     at 19344 (up   ) --->  4445
+ 44 The Trog Caves and Outpost     at 19345 (west ) --->  4446
+ 44 The Trog Caves and Outpost     at 19345 (down ) --->  4444
+ 44 The Trog Caves and Outpost     at 19346 (east ) --->  4445
+ 44 The Trog Caves and Outpost     at 19346 (south) --->  4447
+ 44 The Trog Caves and Outpost     at 19347 (north) --->  4446
+ 44 The Trog Caves and Outpost     at 19347 (west ) --->  4448
+ 44 The Trog Caves and Outpost     at 19348 (east ) --->  4447
+ 44 The Trog Caves and Outpost     at 19348 (up   ) --->  4449
+ 44 The Trog Caves and Outpost     at 19349 (north) --->  4450
+ 44 The Trog Caves and Outpost     at 19349 (down ) --->  4448
+ 44 The Trog Caves and Outpost     at 19350 (east ) --->  4451
+ 44 The Trog Caves and Outpost     at 19350 (south) --->  4449
+ 44 The Trog Caves and Outpost     at 19351 (west ) --->  4450
+ 44 The Trog Caves and Outpost     at 19351 (up   ) --->  4452
+ 44 The Trog Caves and Outpost     at 19352 (up   ) --->  4453
+ 44 The Trog Caves and Outpost     at 19352 (down ) --->  4451
+ 44 The Trog Caves and Outpost     at 19353 (up   ) --->  4454
+ 44 The Trog Caves and Outpost     at 19353 (down ) --->  4452
+ 44 The Trog Caves and Outpost     at 19354 (north) --->  4455
+ 44 The Trog Caves and Outpost     at 19354 (west ) --->  4457
+ 44 The Trog Caves and Outpost     at 19354 (down ) --->  4453
+ 44 The Trog Caves and Outpost     at 19355 (south) --->  4454
+ 44 The Trog Caves and Outpost     at 19355 (west ) --->  4456
+ 44 The Trog Caves and Outpost     at 19356 (east ) --->  4455
+ 44 The Trog Caves and Outpost     at 19356 (south) --->  4457
+ 44 The Trog Caves and Outpost     at 19356 (west ) --->  4459
+ 44 The Trog Caves and Outpost     at 19357 (north) --->  4456
+ 44 The Trog Caves and Outpost     at 19357 (east ) --->  4454
+ 44 The Trog Caves and Outpost     at 19357 (west ) --->  4458
+ 44 The Trog Caves and Outpost     at 19358 (north) --->  4551
+ 44 The Trog Caves and Outpost     at 19358 (east ) --->  4457
+ 44 The Trog Caves and Outpost     at 19358 (south) --->  4552
+ 44 The Trog Caves and Outpost     at 19358 (up   ) --->  4417
+ 44 The Trog Caves and Outpost     at 19359 (east ) --->  4456
+ 44 The Trog Caves and Outpost     at 19360 (north) --->  4444
+ 44 The Trog Caves and Outpost     at 19360 (south) --->  4461
+ 44 The Trog Caves and Outpost     at 19361 (north) --->  4460
+ 44 The Trog Caves and Outpost     at 19361 (south) --->  4462
+ 44 The Trog Caves and Outpost     at 19362 (north) --->  4461
+ 44 The Trog Caves and Outpost     at 19362 (south) --->  4463
+ 44 The Trog Caves and Outpost     at 19363 (north) --->  4462
+ 44 The Trog Caves and Outpost     at 19363 (south) --->  4464
+ 44 The Trog Caves and Outpost     at 19363 (up   ) --->  4515
+ 44 The Trog Caves and Outpost     at 19364 (north) --->  4463
+ 44 The Trog Caves and Outpost     at 19364 (south) --->  4465
+ 44 The Trog Caves and Outpost     at 19365 (north) --->  4464
+ 44 The Trog Caves and Outpost     at 19365 (south) --->  4467
+ 44 The Trog Caves and Outpost     at 19365 (west ) --->  4468
+ 44 The Trog Caves and Outpost     at 19365 (up   ) --->  4466
+ 44 The Trog Caves and Outpost     at 19366 (down ) --->  4465
+ 44 The Trog Caves and Outpost     at 19367 (north) --->  4465
+ 44 The Trog Caves and Outpost     at 19368 (north) --->  4469
+ 44 The Trog Caves and Outpost     at 19368 (east ) --->  4465
+ 44 The Trog Caves and Outpost     at 19369 (south) --->  4468
+ 44 The Trog Caves and Outpost     at 19369 (up   ) --->  4470
+ 44 The Trog Caves and Outpost     at 19370 (east ) --->  4484
+ 44 The Trog Caves and Outpost     at 19370 (down ) --->  4469
+ 44 The Trog Caves and Outpost     at 19371 (west ) --->  4484
+ 44 The Trog Caves and Outpost     at 19371 (down ) --->  4472
+ 44 The Trog Caves and Outpost     at 19372 (east ) --->  4473
+ 44 The Trog Caves and Outpost     at 19372 (up   ) --->  4471
+ 44 The Trog Caves and Outpost     at 19373 (east ) --->  4474
+ 44 The Trog Caves and Outpost     at 19373 (west ) --->  4472
+ 44 The Trog Caves and Outpost     at 19374 (east ) --->  4483
+ 44 The Trog Caves and Outpost     at 19374 (west ) --->  4473
+ 44 The Trog Caves and Outpost     at 19374 (up   ) --->  4475
+ 44 The Trog Caves and Outpost     at 19375 (east ) --->  4476
+ 44 The Trog Caves and Outpost     at 19375 (south) --->  4478
+ 44 The Trog Caves and Outpost     at 19375 (west ) --->  4477
+ 44 The Trog Caves and Outpost     at 19375 (up   ) --->  4485
+ 44 The Trog Caves and Outpost     at 19375 (down ) --->  4474
+ 44 The Trog Caves and Outpost     at 19376 (east ) --->  4483
+ 44 The Trog Caves and Outpost     at 19376 (west ) --->  4475
+ 44 The Trog Caves and Outpost     at 19376 (up   ) --->  4485
+ 44 The Trog Caves and Outpost     at 19377 (east ) --->  4475
+ 44 The Trog Caves and Outpost     at 19377 (south) --->  4478
+ 44 The Trog Caves and Outpost     at 19377 (up   ) --->  4485
+ 44 The Trog Caves and Outpost     at 19378 (north) --->  4477
+ 44 The Trog Caves and Outpost     at 19378 (south) --->  4479
+ 44 The Trog Caves and Outpost     at 19378 (up   ) --->  4485
+ 44 The Trog Caves and Outpost     at 19379 (north) --->  4478
+ 44 The Trog Caves and Outpost     at 19379 (east ) --->  4480
+ 44 The Trog Caves and Outpost     at 19379 (up   ) --->  4485
+ 44 The Trog Caves and Outpost     at 19380 (north) --->  4478
+ 44 The Trog Caves and Outpost     at 19380 (south) --->  4481
+ 44 The Trog Caves and Outpost     at 19380 (west ) --->  4479
+ 44 The Trog Caves and Outpost     at 19380 (up   ) --->  4485
+ 44 The Trog Caves and Outpost     at 19381 (north) --->  4480
+ 44 The Trog Caves and Outpost     at 19382 (east ) --->  4485
+ 44 The Trog Caves and Outpost     at 19382 (west ) --->  4531
+ 44 The Trog Caves and Outpost     at 19383 (west ) --->  4476
+ 44 The Trog Caves and Outpost     at 19384 (east ) --->  4471
+ 44 The Trog Caves and Outpost     at 19384 (west ) --->  4470
+ 44 The Trog Caves and Outpost     at 19385 (west ) --->  4482
+ 44 The Trog Caves and Outpost     at 19385 (down ) --->  4475
+ 44 The Trog Caves and Outpost     at 19386 (east ) --->  4438
+ 44 The Trog Caves and Outpost     at 19386 (west ) --->  4487
+ 44 The Trog Caves and Outpost     at 19387 (east ) --->  4486
+ 44 The Trog Caves and Outpost     at 19387 (south) --->  4488
+ 44 The Trog Caves and Outpost     at 19388 (north) --->  4487
+ 44 The Trog Caves and Outpost     at 19388 (down ) --->  4489
+ 44 The Trog Caves and Outpost     at 19389 (west ) --->  4490
+ 44 The Trog Caves and Outpost     at 19389 (up   ) --->  4488
+ 44 The Trog Caves and Outpost     at 19390 (east ) --->  4489
+ 44 The Trog Caves and Outpost     at 19390 (west ) --->  4491
+ 44 The Trog Caves and Outpost     at 19391 (east ) --->  4490
+ 44 The Trog Caves and Outpost     at 19391 (west ) --->  4492
+ 44 The Trog Caves and Outpost     at 19392 (east ) --->  4491
+ 44 The Trog Caves and Outpost     at 19392 (west ) --->  4493
+ 44 The Trog Caves and Outpost     at 19393 (east ) --->  4492
+ 44 The Trog Caves and Outpost     at 19393 (down ) --->  4494
+ 44 The Trog Caves and Outpost     at 19394 (west ) --->  4495
+ 44 The Trog Caves and Outpost     at 19394 (up   ) --->  4493
+ 44 The Trog Caves and Outpost     at 19395 (east ) --->  4494
+ 44 The Trog Caves and Outpost     at 19395 (west ) --->  4496
+ 44 The Trog Caves and Outpost     at 19396 (east ) --->  4495
+ 44 The Trog Caves and Outpost     at 19396 (west ) --->  4497
+ 44 The Trog Caves and Outpost     at 19397 (east ) --->  4496
+ 44 The Trog Caves and Outpost     at 19397 (west ) --->  4498
+ 44 The Trog Caves and Outpost     at 19398 (east ) --->  4497
+ 44 The Trog Caves and Outpost     at 19398 (south) --->  4499
+ 44 The Trog Caves and Outpost     at 19399 (north) --->  4498
+ 44 The Trog Caves and Outpost     at 19400 (north) --->  4421
+ 44 The Trog Caves and Outpost     at 19400 (south) --->  4501
+ 44 The Trog Caves and Outpost     at 19401 (north) --->  4500
+ 44 The Trog Caves and Outpost     at 19401 (south) --->  4502
+ 44 The Trog Caves and Outpost     at 19402 (north) --->  4501
+ 44 The Trog Caves and Outpost     at 19402 (south) --->  4503
+ 44 The Trog Caves and Outpost     at 19403 (north) --->  4502
+ 44 The Trog Caves and Outpost     at 19403 (south) --->  4504
+ 44 The Trog Caves and Outpost     at 19404 (north) --->  4503
+ 44 The Trog Caves and Outpost     at 19404 (east ) --->  4566
+ 44 The Trog Caves and Outpost     at 19404 (south) --->  4505
+ 44 The Trog Caves and Outpost     at 19405 (north) --->  4504
+ 44 The Trog Caves and Outpost     at 19405 (south) --->  4506
+ 44 The Trog Caves and Outpost     at 19405 (west ) --->  4507
+ 44 The Trog Caves and Outpost     at 19406 (north) --->  4505
+ 44 The Trog Caves and Outpost     at 19406 (west ) --->  4508
+ 44 The Trog Caves and Outpost     at 19407 (east ) --->  4505
+ 44 The Trog Caves and Outpost     at 19408 (east ) --->  4506
+ 44 The Trog Caves and Outpost     at 19408 (south) --->  4519
+ 44 The Trog Caves and Outpost     at 19408 (west ) --->  4519
+ 44 The Trog Caves and Outpost     at 19408 (northwest) --->  4509
+ 44 The Trog Caves and Outpost     at 19409 (north) --->  4510
+ 44 The Trog Caves and Outpost     at 19409 (east ) --->  4514
+ 44 The Trog Caves and Outpost     at 19409 (south) --->  4512
+ 44 The Trog Caves and Outpost     at 19409 (west ) --->  4511
+ 44 The Trog Caves and Outpost     at 19409 (southeast) --->  4508
+ 44 The Trog Caves and Outpost     at 19410 (north) --->  4511
+ 44 The Trog Caves and Outpost     at 19410 (east ) --->  4514
+ 44 The Trog Caves and Outpost     at 19410 (south) --->  4512
+ 44 The Trog Caves and Outpost     at 19410 (west ) --->  4513
+ 44 The Trog Caves and Outpost     at 19411 (north) --->  4511
+ 44 The Trog Caves and Outpost     at 19411 (east ) --->  4520
+ 44 The Trog Caves and Outpost     at 19411 (south) --->  4513
+ 44 The Trog Caves and Outpost     at 19411 (west ) --->  4512
+ 44 The Trog Caves and Outpost     at 19412 (north) --->  4511
+ 44 The Trog Caves and Outpost     at 19412 (south) --->  4514
+ 44 The Trog Caves and Outpost     at 19412 (west ) --->  4518
+ 44 The Trog Caves and Outpost     at 19413 (north) --->  4512
+ 44 The Trog Caves and Outpost     at 19413 (east ) --->  4521
+ 44 The Trog Caves and Outpost     at 19413 (south) --->  4515
+ 44 The Trog Caves and Outpost     at 19413 (west ) --->  4513
+ 44 The Trog Caves and Outpost     at 19414 (north) --->  4514
+ 44 The Trog Caves and Outpost     at 19414 (east ) --->  4519
+ 44 The Trog Caves and Outpost     at 19414 (south) --->  4516
+ 44 The Trog Caves and Outpost     at 19414 (west ) --->  4511
+ 44 The Trog Caves and Outpost     at 19415 (north) --->  4512
+ 44 The Trog Caves and Outpost     at 19415 (east ) --->  4523
+ 44 The Trog Caves and Outpost     at 19415 (south) --->  4513
+ 44 The Trog Caves and Outpost     at 19415 (west ) --->  4514
+ 44 The Trog Caves and Outpost     at 19415 (down ) --->  4463
+ 44 The Trog Caves and Outpost     at 19416 (north) --->  4513
+ 44 The Trog Caves and Outpost     at 19416 (east ) --->  4514
+ 44 The Trog Caves and Outpost     at 19416 (south) --->  4522
+ 44 The Trog Caves and Outpost     at 19416 (west ) --->  4508
+ 44 The Trog Caves and Outpost     at 19417 (north) --->  4516
+ 44 The Trog Caves and Outpost     at 19417 (east ) --->  4517
+ 44 The Trog Caves and Outpost     at 19417 (south) --->  4519
+ 44 The Trog Caves and Outpost     at 19417 (west ) --->  4522
+ 44 The Trog Caves and Outpost     at 19418 (north) --->  4514
+ 44 The Trog Caves and Outpost     at 19418 (east ) --->  4522
+ 44 The Trog Caves and Outpost     at 19418 (south) --->  4518
+ 44 The Trog Caves and Outpost     at 19418 (west ) --->  4511
+ 44 The Trog Caves and Outpost     at 19419 (north) --->  4508
+ 44 The Trog Caves and Outpost     at 19419 (east ) --->  4519
+ 44 The Trog Caves and Outpost     at 19419 (south) --->  4517
+ 44 The Trog Caves and Outpost     at 19419 (west ) --->  4509
+ 44 The Trog Caves and Outpost     at 19420 (west ) --->  4511
+ 44 The Trog Caves and Outpost     at 19421 (south) --->  4513
+ 44 The Trog Caves and Outpost     at 19422 (north) --->  4518
+ 44 The Trog Caves and Outpost     at 19422 (east ) --->  4516
+ 44 The Trog Caves and Outpost     at 19422 (south) --->  4517
+ 44 The Trog Caves and Outpost     at 19422 (west ) --->  4523
+ 44 The Trog Caves and Outpost     at 19423 (east ) --->  4518
+ 44 The Trog Caves and Outpost     at 19423 (west ) --->  4524
+ 44 The Trog Caves and Outpost     at 19424 (north) --->  4525
+ 44 The Trog Caves and Outpost     at 19424 (east ) --->  4523
+ 44 The Trog Caves and Outpost     at 19424 (west ) --->  4527
+ 44 The Trog Caves and Outpost     at 19425 (south) --->  4524
+ 44 The Trog Caves and Outpost     at 19425 (west ) --->  4526
+ 44 The Trog Caves and Outpost     at 19426 (east ) --->  4525
+ 44 The Trog Caves and Outpost     at 19426 (south) --->  4527
+ 44 The Trog Caves and Outpost     at 19427 (north) --->  4526
+ 44 The Trog Caves and Outpost     at 19427 (east ) --->  4524
+ 44 The Trog Caves and Outpost     at 19427 (south) --->  4528
+ 44 The Trog Caves and Outpost     at 19428 (north) --->  4527
+ 44 The Trog Caves and Outpost     at 19428 (east ) --->  4528
+ 44 The Trog Caves and Outpost     at 19428 (south) --->  4529
+ 44 The Trog Caves and Outpost     at 19428 (west ) --->  4530
+ 44 The Trog Caves and Outpost     at 19429 (north) --->  4528
+ 44 The Trog Caves and Outpost     at 19429 (east ) --->  4530
+ 44 The Trog Caves and Outpost     at 19429 (south) --->  4532
+ 44 The Trog Caves and Outpost     at 19429 (west ) --->  4540
+ 44 The Trog Caves and Outpost     at 19430 (north) --->  4529
+ 44 The Trog Caves and Outpost     at 19430 (east ) --->  4528
+ 44 The Trog Caves and Outpost     at 19430 (south) --->  4531
+ 44 The Trog Caves and Outpost     at 19430 (west ) --->  4532
+ 44 The Trog Caves and Outpost     at 19431 (north) --->  4531
+ 44 The Trog Caves and Outpost     at 19431 (east ) --->  4482
+ 44 The Trog Caves and Outpost     at 19431 (south) --->  4532
+ 44 The Trog Caves and Outpost     at 19431 (west ) --->  4530
+ 44 The Trog Caves and Outpost     at 19432 (north) --->  4529
+ 44 The Trog Caves and Outpost     at 19432 (east ) --->  4533
+ 44 The Trog Caves and Outpost     at 19432 (south) --->  4536
+ 44 The Trog Caves and Outpost     at 19432 (west ) --->  4534
+ 44 The Trog Caves and Outpost     at 19433 (north) --->  4540
+ 44 The Trog Caves and Outpost     at 19433 (east ) --->  4530
+ 44 The Trog Caves and Outpost     at 19433 (south) --->  4534
+ 44 The Trog Caves and Outpost     at 19433 (west ) --->  4532
+ 44 The Trog Caves and Outpost     at 19434 (north) --->  4536
+ 44 The Trog Caves and Outpost     at 19434 (east ) --->  4532
+ 44 The Trog Caves and Outpost     at 19434 (south) --->  4535
+ 44 The Trog Caves and Outpost     at 19434 (west ) --->  4534
+ 44 The Trog Caves and Outpost     at 19435 (north) --->  4534
+ 44 The Trog Caves and Outpost     at 19435 (east ) --->  4531
+ 44 The Trog Caves and Outpost     at 19435 (west ) --->  4538
+ 44 The Trog Caves and Outpost     at 19436 (north) --->  4532
+ 44 The Trog Caves and Outpost     at 19436 (east ) --->  4536
+ 44 The Trog Caves and Outpost     at 19436 (south) --->  4535
+ 44 The Trog Caves and Outpost     at 19436 (west ) --->  4529
+ 44 The Trog Caves and Outpost     at 19437 (north) --->  4538
+ 44 The Trog Caves and Outpost     at 19437 (east ) --->  4539
+ 44 The Trog Caves and Outpost     at 19437 (south) --->  4535
+ 44 The Trog Caves and Outpost     at 19437 (west ) --->  4536
+ 44 The Trog Caves and Outpost     at 19438 (north) --->  4537
+ 44 The Trog Caves and Outpost     at 19438 (east ) --->  4531
+ 44 The Trog Caves and Outpost     at 19438 (south) --->  4538
+ 44 The Trog Caves and Outpost     at 1**OVERFLOW**
+
+>[0;00m
+[0mCHECKING: 210[0m
+
+Zone 210 is linked to the following zones:
+130 The High Tower of Sorcery      at 21310 (south) ---> 13004
+
+>[0;00m
+[0mCHECKING: 216[0m
+
+Zone 216 is linked to the following zones:
+240 The Darkspine Mountains        at 21600 (down ) ---> 24013
+
+>[0;00m
+[0mCHECKING: 217[0m
+
+Zone 217 is linked to the following zones:
+150 King Welmar's Castle           at 21700 (west ) ---> 15003
+
+>[0;00m
+[0mCHECKING: 230[0m
+
+Zone 230 is linked to the following zones:
+235 The Watch Towers               at 23000 (down ) ---> 23530
+ 93 Floodlands                     at 23000 (northeast) --->  9301
+235 The Watch Towers               at 23013 (south) ---> 23500
+235 The Watch Towers               at 23112 (southwest) ---> 23503
+235 The Watch Towers               at 23128 (southeast) ---> 23506
+235 The Watch Towers               at 23164 (southeast) ---> 23513
+235 The Watch Towers               at 23173 (west ) ---> 23516
+ 69 The Dragon Sea                 at 23177 (south) --->  6930
+ 69 The Dragon Sea                 at 23184 (south) --->  6931
+235 The Watch Towers               at 23195 (northeast) ---> 23519
+235 The Watch Towers               at 23198 (northwest) ---> 23510
+  5 The Abandoned Cathedral        at 23209 (north) --->   555
+235 The Watch Towers               at 23211 (east ) ---> 23525
+235 The Watch Towers               at 23217 (east ) ---> 23522
+ 33 Mahn-Tor                       at 23299 (southeast) --->  3300
+
+>[0;00m
+[0mCHECKING: 235[0m
+
+Zone 235 is linked to the following zones:
+230 The City of Sanctuary          at 23500 (north) ---> 23013
+230 The City of Sanctuary          at 23503 (northeast) ---> 23112
+230 The City of Sanctuary          at 23506 (northwest) ---> 23128
+230 The City of Sanctuary          at 23510 (southeast) ---> 23198
+230 The City of Sanctuary          at 23513 (northwest) ---> 23164
+230 The City of Sanctuary          at 23516 (east ) ---> 23173
+230 The City of Sanctuary          at 23519 (southwest) ---> 23195
+230 The City of Sanctuary          at 23522 (west ) ---> 23217
+230 The City of Sanctuary          at 23525 (west ) ---> 23211
+230 The City of Sanctuary          at 23530 (up   ) ---> 23000
+
+>[0;00m
+[0mCHECKING: 236[0m
+
+Zone 236 is linked to the following zones:
+ 18 Miden'Nir                      at 23799 (north) --->  1850
+ 96 Imperial Ravenna               at 23799 (east ) --->  9619
+ 93 Floodlands                     at 23799 (south) --->  9451
+ 23 Outskirts of Skara Brae        at 23799 (west ) --->  2303
+ 54 The Northern Plains            at 23799 (up   ) --->  5432
+ 12 Star Wars                      at 23799 (down ) --->  1269
+240 The Darkspine Mountains        at 23799 (northeast) ---> 24005
+
+>[0;00m
+[0mCHECKING: 238[0m
+
+Zone 238 is linked to the following zones:
+ 93 Floodlands                     at 23890 (southwest) --->  9322
+
+>[0;00m
+[0mCHECKING: 240[0m
+[0mCHECKING: 249[0m
+
+Zone 240 is linked to the following zones:
+122 New Thalos                     at 24001 (southeast) ---> 12410
+370 Elias' Ascendant               at 24008 (north) ---> 37000
+216 Dragon City                    at 24013 (up   ) ---> 21600
+133 Three of Swords                at 24020 (up   ) ---> 13300
+
+>[0;00m
+Zone 249 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 250[0m
+
+Zone 250 is linked to the following zones:
+ 30 Midgaard                       at 25199 (down ) --->  3001
+
+>[0;00m
+[0mCHECKING: 253[0m
+
+Zone 253 is linked to the following zones:
+  1 The Midgaard Temple            at 25311 (north) --->   105
+  1 The Midgaard Temple            at 25311 (east ) --->   109
+  1 The Midgaard Temple            at 25311 (south) --->   115
+  1 The Midgaard Temple            at 25311 (west ) --->   123
+  1 The Midgaard Temple            at 25311 (up   ) --->   135
+  1 The Midgaard Temple            at 25311 (down ) --->   144
+  1 The Midgaard Temple            at 25311 (northeast) --->   152
+  1 The Midgaard Temple            at 25311 (southeast) --->   156
+  1 The Midgaard Temple            at 25311 (southwest) --->   169
+  1 The Midgaard Temple            at 25311 (northwest) --->   176
+  5 The Abandoned Cathedral        at 25312 (north) --->   500
+  5 The Abandoned Cathedral        at 25312 (east ) --->   504
+  5 The Abandoned Cathedral        at 25312 (south) --->   510
+  5 The Abandoned Cathedral        at 25312 (west ) --->   516
+  5 The Abandoned Cathedral        at 25312 (up   ) --->   522
+  5 The Abandoned Cathedral        at 25312 (down ) --->   530
+  5 The Abandoned Cathedral        at 25312 (northeast) --->   531
+  5 The Abandoned Cathedral        at 25312 (southeast) --->   540
+  5 The Abandoned Cathedral        at 25312 (southwest) --->   549
+  5 The Abandoned Cathedral        at 25312 (northwest) --->   551
+  6 Arctica                        at 25313 (north) --->   600
+  6 Arctica                        at 25313 (east ) --->   610
+  6 Arctica                        at 25313 (south) --->   623
+  6 Arctica                        at 25313 (west ) --->   631
+  6 Arctica                        at 25313 (up   ) --->   645
+  6 Arctica                        at 25313 (down ) --->   659
+  6 Arctica                        at 25313 (northeast) --->   666
+  6 Arctica                        at 25313 (southeast) --->   672
+  6 Arctica                        at 25313 (southwest) --->   684
+  6 Arctica                        at 25313 (northwest) --->   699
+  9 River Island Of Minos          at 25314 (north) --->   907
+  9 River Island Of Minos          at 25314 (east ) --->   916
+  9 River Island Of Minos          at 25314 (south) --->   923
+  9 River Island Of Minos          at 25314 (west ) --->   930
+  9 River Island Of Minos          at 25314 (up   ) --->   945
+  9 River Island Of Minos          at 25314 (down ) --->   954
+  9 River Island Of Minos          at 25314 (northeast) --->   964
+  9 River Island Of Minos          at 25314 (southeast) --->   979
+  9 River Island Of Minos          at 25314 (southwest) --->   988
+  9 River Island Of Minos          at 25314 (northwest) --->   999
+ 11 Shire Village                  at 25315 (north) --->  1103
+ 11 Shire Village                  at 25315 (east ) --->  1109
+ 11 Shire Village                  at 25315 (south) --->  1111
+ 11 Shire Village                  at 25315 (west ) --->  1116
+ 11 Shire Village                  at 25315 (up   ) --->  1120
+ 11 Shire Village                  at 25315 (down ) --->  1125
+ 11 Shire Village                  at 25315 (northeast) --->  1139
+ 11 Shire Village                  at 25315 (southeast) --->  1145
+ 11 Shire Village                  at 25315 (southwest) --->  1150
+ 11 Shire Village                  at 25315 (northwest) --->  1156
+ 12 Star Wars                      at 25316 (north) --->  1205
+ 12 Star Wars                      at 25316 (east ) --->  1211
+ 12 Star Wars                      at 25316 (south) --->  1228
+ 12 Star Wars                      at 25316 (west ) --->  1234
+ 12 Star Wars                      at 25316 (up   ) --->  1248
+ 12 Star Wars                      at 25316 (down ) --->  1251
+ 12 Star Wars                      at 25316 (northeast) --->  1269
+ 12 Star Wars                      at 25316 (southeast) --->  1276
+ 12 Star Wars                      at 25316 (southwest) --->  1281
+ 12 Star Wars                      at 25316 (northwest) --->  1297
+ 14 Amusement Park                 at 25317 (north) --->  1402
+ 14 Amusement Park                 at 25317 (east ) --->  1410
+ 14 Amusement Park                 at 25317 (south) --->  1426
+ 14 Amusement Park                 at 25317 (west ) --->  1435
+ 14 Amusement Park                 at 25317 (up   ) --->  1447
+ 14 Amusement Park                 at 25317 (down ) --->  1452
+ 14 Amusement Park                 at 25317 (northeast) --->  1461
+ 14 Amusement Park                 at 25317 (southeast) --->  1479
+ 14 Amusement Park                 at 25317 (southwest) --->  1483
+ 14 Amusement Park                 at 25317 (northwest) --->  1498
+ 15 The Straight Path              at 25318 (north) --->  1501
+ 15 The Straight Path              at 25318 (east ) --->  1505
+ 15 The Straight Path              at 25318 (south) --->  1509
+ 15 The Straight Path              at 25318 (west ) --->  1514
+ 15 The Straight Path              at 25318 (up   ) --->  1521
+ 15 The Straight Path              at 25318 (down ) --->  1523
+ 15 The Straight Path              at 25318 (northeast) --->  1526
+ 15 The Straight Path              at 25318 (southeast) --->  1531
+ 15 The Straight Path              at 25318 (southwest) --->  1539
+ 15 The Straight Path              at 25318 (northwest) --->  1540
+ 16 The Old Elven Village          at 25319 (north) --->  1601
+ 16 The Old Elven Village          at 25319 (east ) --->  1604
+ 16 The Old Elven Village          at 25319 (south) --->  1609
+ 16 The Old Elven Village          at 25319 (west ) --->  1611
+ 16 The Old Elven Village          at 25319 (up   ) --->  1615
+ 16 The Old Elven Village          at 25319 (down ) --->  1619
+ 16 The Old Elven Village          at 25319 (northeast) --->  1623
+ 16 The Old Elven Village          at 25319 (southeast) --->  1626
+ 16 The Old Elven Village          at 25319 (southwest) --->  1631
+ 16 The Old Elven Village          at 25319 (northwest) --->  1637
+ 18 Miden'Nir                      at 25320 (north) --->  1802
+ 18 Miden'Nir                      at 25320 (east ) --->  1805
+ 18 Miden'Nir                      at 25320 (south) --->  1807
+ 18 Miden'Nir                      at 25320 (west ) --->  1810
+ 18 Miden'Nir                      at 25320 (up   ) --->  1812
+ 18 Miden'Nir                      at 25320 (down ) --->  1815
+ 18 Miden'Nir                      at 25320 (northeast) --->  1818
+ 18 Miden'Nir                      at 25320 (southeast) --->  1820
+ 18 Miden'Nir                      at 25320 (southwest) --->  1850
+ 18 Miden'Nir                      at 25320 (northwest) --->  1855
+ 19 The Player's Keeps             at 25321 (north) --->  1901
+ 19 The Player's Keeps             at 25321 (east ) --->  1905
+ 19 The Player's Keeps             at 25321 (south) --->  1911
+ 19 The Player's Keeps             at 25321 (west ) --->  1916
+ 19 The Player's Keeps             at 25321 (up   ) --->  1919
+ 19 The Player's Keeps             at 25321 (down ) --->  1922
+ 19 The Player's Keeps             at 25321 (northeast) --->  1925
+ 19 The Player's Keeps             at 25321 (southeast) --->  1926
+ 19 The Player's Keeps             at 25321 (southwest) --->  1929
+ 19 The Player's Keeps             at 25321 (northwest) --->  1932
+ 20 The Abyss                      at 25322 (north) --->  2000
+ 20 The Abyss                      at 25322 (east ) --->  2009
+ 20 The Abyss                      at 25322 (south) --->  2015
+ 20 The Abyss                      at 25322 (west ) --->  2022
+ 20 The Abyss                      at 25322 (up   ) --->  2036
+ 20 The Abyss                      at 25322 (down ) --->  2049
+ 20 The Abyss                      at 25322 (northeast) --->  2061
+ 20 The Abyss                      at 25322 (southeast) --->  2074
+ 20 The Abyss                      at 25322 (southwest) --->  2087
+ 20 The Abyss                      at 25322 (northwest) --->  2098
+ 21 Skara Brae                     at 25323 (north) --->  2103
+ 21 Skara Brae                     at 25323 (east ) --->  2111
+ 21 Skara Brae                     at 25323 (south) --->  2125
+ 21 Skara Brae                     at 25323 (west ) --->  2134
+ 21 Skara Brae                     at 25323 (up   ) --->  2146
+ 21 Skara Brae                     at 25323 (down ) --->  2150
+ 21 Skara Brae                     at 25323 (northeast) --->  2162
+ 21 Skara Brae                     at 25323 (southeast) --->  2177
+ 21 Skara Brae                     at 25323 (southwest) --->  2184
+ 21 Skara Brae                     at 25323 (northwest) --->  2199
+ 22 The Abandoned Ship and the Deep Forest at 25324 (north) --->  2200
+ 22 The Abandoned Ship and the Deep Forest at 25324 (east ) --->  2209
+ 22 The Abandoned Ship and the Deep Forest at 25324 (south) --->  2215
+ 22 The Abandoned Ship and the Deep Forest at 25324 (west ) --->  2221
+ 22 The Abandoned Ship and the Deep Forest at 25324 (up   ) --->  2230
+ 22 The Abandoned Ship and the Deep Forest at 25324 (down ) --->  2236
+ 22 The Abandoned Ship and the Deep Forest at 25324 (northeast) --->  2240
+ 22 The Abandoned Ship and the Deep Forest at 25324 (southeast) --->  2249
+ 22 The Abandoned Ship and the Deep Forest at 25324 (southwest) --->  2253
+ 22 The Abandoned Ship and the Deep Forest at 25324 (northwest) --->  2262
+ 23 Outskirts of Skara Brae        at 25325 (north) --->  2300
+ 23 Outskirts of Skara Brae        at 25325 (east ) --->  2306
+ 23 Outskirts of Skara Brae        at 25325 (south) --->  2313
+ 23 Outskirts of Skara Brae        at 25325 (west ) --->  2319
+ 23 Outskirts of Skara Brae        at 25325 (up   ) --->  2325
+ 23 Outskirts of Skara Brae        at 25325 (down ) --->  2331
+ 23 Outskirts of Skara Brae        at 25325 (northeast) --->  2339
+ 23 Outskirts of Skara Brae        at 25325 (southeast) --->  2346
+ 23 Outskirts of Skara Brae        at 25325 (southwest) --->  2352
+ 23 Outskirts of Skara Brae        at 25325 (northwest) --->  2363
+ 24 Cheers                         at 25326 (north) --->  2482
+ 24 Cheers                         at 25326 (east ) --->  2484
+ 24 Cheers                         at 25326 (south) --->  2486
+ 24 Cheers                         at 25326 (west ) --->  2488
+ 24 Cheers                         at 25326 (up   ) --->  2490
+ 25 The Arctic Empire              at 25326 (down ) --->  2501
+ 25 The Arctic Empire              at 25326 (northeast) --->  2519
+ 25 The Arctic Empire              at 25326 (southeast) --->  2524
+ 25 The Arctic Empire              at 25326 (southwest) --->  2536
+ 25 The Arctic Empire              at 25326 (northwest) --->  2549
+ 25 The Arctic Empire              at 25327 (north) --->  2550
+ 25 The Arctic Empire              at 25327 (east ) --->  2567
+ 25 The Arctic Empire              at 25327 (south) --->  2579
+ 25 The Arctic Empire              at 25327 (west ) --->  2588
+ 25 The Arctic Empire              at 25327 (up   ) --->  2591
+ 25 The Arctic Empire              at 25327 (down ) --->  2601
+ 25 The Arctic Empire              at 25327 (northeast) --->  2615
+ 25 The Arctic Empire              at 25327 (southeast) --->  2626
+ 25 The Arctic Empire              at 25327 (southwest) --->  2646
+ 25 The Arctic Empire              at 25327 (northwest) --->  2663
+ 27 Camelot                        at 25328 (north) --->  2700
+ 27 Camelot                        at 25328 (east ) --->  2720
+ 27 Camelot                        at 25328 (south) --->  2735
+ 27 Camelot                        at 25328 (west ) --->  2750
+ 27 Camelot                        at 25328 (up   ) --->  2769
+ 27 Camelot                        at 25328 (down ) --->  2780
+ 27 Camelot                        at 25328 (northeast) --->  2802
+ 27 Camelot                        at 25328 (southeast) --->  2830
+ 27 Camelot                        at 25328 (southwest) --->  2850
+ 27 Camelot                        at 25328 (northwest) --->  2880
+ 29 Donner's Den of Iniquity       at 25329 (north) --->  2982
+ 29 Donner's Den of Iniquity       at 25329 (east ) --->  2983
+ 29 Donner's Den of Iniquity       at 25329 (south) --->  2984
+ 29 Donner's Den of Iniquity       at 25329 (west ) --->  2985
+ 29 Donner's Den of Iniquity       at 25329 (up   ) --->  2986
+ 29 Donner's Den of Iniquity       at 25329 (down ) --->  2987
+ 29 Donner's Den of Iniquity       at 25329 (northeast) --->  2988
+ 29 Donner's Den of Iniquity       at 25329 (southeast) --->  2989
+ 29 Donner's Den of Iniquity       at 25329 (southwest) --->  2990
+ 29 Donner's Den of Iniquity       at 25329 (northwest) --->  2991
+ 30 Midgaard                       at 25330 (north) --->  3001
+ 30 Midgaard                       at 25330 (east ) --->  3014
+ 30 Midgaard                       at 25330 (south) --->  3022
+ 30 Midgaard                       at 25330 (west ) --->  3036
+ 30 Midgaard                       at 25330 (up   ) --->  3047
+ 30 Midgaard                       at 25330 (down ) --->  3059
+ 30 Midgaard                       at 25330 (northeast) --->  3062
+ 30 Midgaard                       at 25330 (southeast) --->  3077
+ 30 Midgaard                       at 25330 (southwest) --->  3081
+ 30 Midgaard                       at 25330 (northwest) --->  3090
+ 30 Midgaard                       at 25331 (north) --->  3105
+ 30 Midgaard                       at 25331 (east ) --->  3113
+ 30 Midgaard                       at 25331 (south) --->  3125
+ 30 Midgaard                       at 25331 (west ) --->  3132
+ 30 Midgaard                       at 25331 (up   ) --->  3140
+ 32 Midgaard Park South            at 25331 (down ) --->  3208
+ 32 Midgaard Park South            at 25331 (northeast) --->  3216
+ 32 Midgaard Park South            at 25331 (southeast) --->  3224
+ 32 Midgaard Park South            at 25331 (southwest) --->  3230
+ 32 Midgaard Park South            at 25331 (northwest) --->  3235
+ 33 Mahn-Tor                       at 25332 (north) --->  3300
+ 33 Mahn-Tor                       at 25332 (east ) --->  3316
+ 33 Mahn-Tor                       at 25332 (south) --->  3323
+ 33 Mahn-Tor                       at 25332 (west ) --->  3339
+ 33 Mahn-Tor                       at 25332 (up   ) --->  3345
+ 33 Mahn-Tor                       at 25332 (down ) --->  3350
+ 33 Mahn-Tor                       at 25332 (northeast) --->  3361
+ 33 Mahn-Tor                       at 25332 (southeast) --->  3374
+ 33 Mahn-Tor                       at 25332 (southwest) --->  3383
+ 33 Mahn-Tor                       at 25332 (northwest) --->  3393
+ 35 Outskirts of Midgaard          at 25333 (north) --->  3500
+ 35 Outskirts of Midgaard          at 25333 (east ) --->  3501
+ 35 Outskirts of Midgaard          at 25333 (south) --->  3502
+ 35 Outskirts of Midgaard          at 25333 (west ) --->  3503
+ 35 Outskirts of Midgaard          at 25333 (up   ) --->  3504
+ 35 Outskirts of Midgaard          at 25333 (down ) --->  3505
+ 35 Outskirts of Midgaard          at 25333 (northeast) --->  3506
+ 35 Outskirts of Midgaard          at 25333 (southeast) --->  3507
+ 36 Sesame Street and Muppet Theatre at 25333 (southwest) --->  3600
+ 36 Sesame Street and Muppet Theatre at 25333 (northwest) --->  3605
+ 36 Sesame Street and Muppet Theatre at 25334 (north) --->  3610
+ 36 Sesame Street and Muppet Theatre at 25334 (east ) --->  3616
+ 36 Sesame Street and Muppet Theatre at 25334 (south) --->  3627
+ 36 Sesame Street and Muppet Theatre at 25334 (west ) --->  3634
+ 36 Sesame Street and Muppet Theatre at 25334 (up   ) --->  3641
+ 36 Sesame Street and Muppet Theatre at 25334 (down ) --->  3652
+ 36 Sesame Street and Muppet Theatre at 25334 (northeast) --->  3660
+ 36 Sesame Street and Muppet Theatre at 25334 (southeast) --->  3674
+ 36 Sesame Street and Muppet Theatre at 25334 (southwest) --->  3682
+ 36 Sesame Street and Muppet Theatre at 25334 (northwest) --->  3698
+ 37 The Wayhouse                   at 25335 (north) --->  3700
+ 37 The Wayhouse                   at 25335 (east ) --->  3704
+ 37 The Wayhouse                   at 25335 (south) --->  3708
+ 37 The Wayhouse                   at 25335 (west ) --->  3712
+ 37 The Wayhouse                   at 25335 (up   ) --->  3716
+ 37 The Wayhouse                   at 25335 (down ) --->  3720
+ 37 The Wayhouse                   at 25335 (northeast) --->  3724
+ 37 The Wayhouse                   at 25335 (southeast) --->  3728
+ 37 The Wayhouse                   at 25335 (southwest) --->  3732
+ 37 The Wayhouse                   at 25335 (northwest) --->  3740
+ 39 Midgaard Countryside           at 25336 (north) --->  3900
+ 39 Midgaard Countryside           at 25336 (east ) --->  3901
+ 39 Midgaard Countryside           at 25336 (south) --->  3902
+ 39 Midgaard Countryside           at 25336 (west ) --->  3903
+ 39 Midgaard Countryside           at 25336 (up   ) --->  3904
+ 39 Midgaard Countryside           at 25336 (down ) --->  3905
+ 39 Midgaard Countryside           at 25336 (northeast) --->  3906
+ 39 Midgaard Countryside           at 25336 (southeast) --->  3907
+ 39 Midgaard Countryside           at 25336 (southwest) --->  3908
+ 39 Midgaard Countryside           at 25336 (northwest) --->  3900
+ 40 Moria                          at 25337 (north) --->  4000
+ 40 Moria                          at 25337 (east ) --->  4011
+ 40 Moria                          at 25337 (south) --->  4025
+ 40 Moria                          at 25337 (west ) --->  4030
+ 40 Moria                          at 25337 (up   ) --->  4072
+ 40 Moria                          at 25337 (down ) --->  4019
+ 40 Moria                          at 25337 (northeast) --->  4053
+ 40 Moria                          at 25337 (southeast) --->  4060
+ 40 Moria                          at 25337 (southwest) --->  4069
+ 40 Moria                          at 25337 (northwest) --->  4074
+ 41 Lower Moria                    at 25338 (north) --->  4100
+ 41 Lower Moria                    at 25338 (east ) --->  4119
+ 41 Lower Moria                    at 25338 (south) --->  4125
+ 41 Lower Moria                    at 25338 (west ) --->  4150
+ 41 Lower Moria                    at 25338 (up   ) --->  4155
+ 41 Lower Moria                    at 25338 (down ) --->  4158
+ 41 Lower Moria                    at 25338 (northeast) --->  4160
+ 41 Lower Moria                    at 25338 (southeast) --->  4165
+ 41 Lower Moria                    at 25338 (southwest) --->  4170
+ 41 Lower Moria                    at 25338 (northwest) --->  4172
+ 42 Wamphyri Aerie                 at 25339 (north) --->  4201
+ 42 Wamphyri Aerie                 at 25339 (east ) --->  4215
+ 42 Wamphyri Aerie                 at 25339 (south) --->  4223
+ 42 Wamphyri Aerie                 at 25339 (west ) --->  4235
+ 42 Wamphyri Aerie                 at 25339 (up   ) --->  4244
+ 42 Wamphyri Aerie                 at 25339 (down ) --->  4258
+ 42 Wamphyri Aerie                 at 25339 (northeast) --->  4262
+ 42 Wamphyri Aerie                 at 25339 (southeast) --->  4275
+ 42 Wamphyri Aerie                 at 25339 (southwest) --->  4287
+ 42 Wamphyri Aerie                 at 25339 (northwest) --->  4299
+ 44 The Trog Caves and Outpost     at 25340 (north) --->  4400
+ 44 The Trog Caves and Outpost     at 25340 (east ) --->  4413
+ 44 The Trog Caves and Outpost     at 25340 (south) --->  4421
+ 44 The Trog Caves and Outpost     at 25340 (west ) --->  4435
+ 44 The Trog Caves and Outpost     at 25340 (up   ) --->  4444
+ 44 The Trog Caves and Outpost     at 25340 (down ) --->  4458
+ 44 The Trog Caves and Outpost     at 25340 (northeast) --->  4469
+ 44 The Trog Caves and Outpost     at 25340 (southeast) --->  4476
+ 44 The Trog Caves and Outpost     at 25340 (southwest) --->  4482
+ 44 The Trog Caves and Outpost     at 25340 (northwest) --->  4499
+ 50 The Great Eastern Desert       at 25341 (north) --->  5001
+ 50 The Great Eastern Desert       at 25341 (east ) --->  5009
+ 50 The Great Eastern Desert       at 25341 (south) --->  5016
+ 50 The Great Eastern Desert       at 25341 (west ) --->  5021
+ 50 The Great Eastern Desert       at 25341 (up   ) --->  5028
+ 50 The Great Eastern Desert       at 25341 (down ) --->  5035
+ 50 The Great Eastern Desert       at 25341 (northeast) --->  5042
+ 50 The Great Eastern Desert       at 25341 (southeast) --->  5050
+ 50 The Great Eastern Desert       at 25341 (southwest) --->  5065
+ 50 The Great Eastern Desert       at 25341 (northwest) --->  5070
+ 51 Drow City                      at 25342 (north) --->  5101
+ 51 Drow City                      at 25342 (east ) --->  5108
+ 51 Drow City                      at 25342 (south) --->  5116
+ 51 Drow City                      at 25342 (west ) --->  5119
+ 51 Drow City                      at 25342 (up   ) --->  5124
+ 51 Drow City                      at 25342 (down ) --->  5129
+ 51 Drow City                      at 25342 (northeast) --->  5136
+ 51 Drow City                      at 25342 (southeast) --->  5141
+ 51 Drow City                      at 25342 (southwest) --->  5148
+ 51 Drow City                      at 25342 (northwest) --->  5150
+ 52 The Lost City of Old Thalos    at 25343 (north) --->  5200
+ 52 The Lost City of Old Thalos    at 25343 (east ) --->  5205
+ 52 The Lost City of Old Thalos    at 25343 (south) --->  5210
+ 52 The Lost City of Old Thalos    at 25343 (west ) --->  5215
+ 52 The Lost City of Old Thalos    at 25343 (up   ) --->  5220
+ 52 The Lost City of Old Thalos    at 25343 (down ) --->  5225
+ 52 The Lost City of Old Thalos    at 25343 (northeast) --->  5230
+ 52 The Lost City of Old Thalos    at 25343 (southeast) --->  5235
+ 52 The Lost City of Old Thalos    at 25343 (southwest) --->  5240
+ 52 The Lost City of Old Thalos    at 25343 (northwest) --->  5250
+ 53 The Great Pyramid              at 25344 (north) --->  5300
+ 53 The Great Pyramid              at 25344 (east ) --->  5308
+ 53 The Great Pyramid              at 25344 (south) --->  5314
+ 53 The Great Pyramid              at 25344 (west ) --->  5320
+ 53 The Great Pyramid              at 25344 (up   ) --->  5325
+ 53 The Great Pyramid              at 25344 (down ) --->  5331
+ 53 The Great Pyramid              at 25344 (northeast) --->  5340
+ 53 The Great Pyramid              at 25344 (southeast) --->  5347
+ 53 The Great Pyramid              at 25344 (southwest) --->  5352
+ 53 The Great Pyramid              at 25344 (northwest) --->  5361
+ 54 The Northern Plains            at 25345 (north) --->  5400
+ 54 The Northern Plains            at 25345 (east ) --->  5411
+ 54 The Northern Plains            at 25345 (south) --->  5419
+ 54 The Northern Plains            at 25345 (west ) --->  5423
+ 54 The Northern Plains            at 25345 (up   ) --->  5430
+ 54 The Northern Plains            at 25345 (down ) --->  5435
+ 54 The Northern Plains            at 25345 (northeast) --->  5441
+ 54 The Northern Plains            at 25345 (southeast) --->  5445
+ 54 The Northern Plains            at 25345 (southwest) --->  5450
+ 54 The Northern Plains            at 25345 (northwest) --->  5456
+ 55 The Wandering Ship             at 25346 (north) --->  5500
+ 55 The Wandering Ship             at 25346 (east ) --->  5508
+ 55 The Wandering Ship             at 25346 (south) --->  5512
+ 55 The Wandering Ship             at 25346 (west ) --->  5519
+ 55 The Wandering Ship             at 25346 (up   ) --->  5525
+ 55 The Wandering Ship             at 25346 (down ) --->  5531
+ 55 The Wandering Ship             at 25346 (northeast) --->  5537
+ 55 The Wandering Ship             at 25346 (southeast) --->  5540
+ 55 The Wandering Ship             at 25346 (southwest) --->  5546
+ 55 The Wandering Ship             at 25346 (northwest) --->  5558
+ 57 The Galaxy                     at 25347 (north) --->  5701
+ 57 The Galaxy                     at 25347 (east ) --->  5710
+ 57 The Galaxy                     at 25347 (south) --->  5718
+ 57 The Galaxy                     at 25347 (west ) --->  5724
+ 57 The Gal**OVERFLOW**
+
+>[0;00m
+[0mCHECKING: 254[0m
+
+Zone 254 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 255[0m
+
+Zone 255 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 256[0m
+
+Zone 256 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 257[0m
+[0mCHECKING: 259[0m
+
+Zone 257 is linked to the following zones:
+ 76 Andrus' Toy Land               at 25860 (west ) --->  7662
+
+>[0;00m
+Zone 259 is linked to the following zones:
+106 Arcadia                        at 25951 (west ) ---> 10700
+
+>[0;00m
+[0mCHECKING: 350[0m
+
+Zone 350 is linked to the following zones:
+ 25 The Arctic Empire              at 35028 (southeast) --->  2598
+ 25 The Arctic Empire              at 35028 (southwest) --->  2598
+  6 Arctica                        at 35066 (northwest) --->   623
+133 Three of Swords                at 35069 (north) ---> 13375
+216 Dragon City                    at 35070 (northeast) ---> 21644
+ 53 The Great Pyramid              at 35071 (west ) --->  5360
+193 Newbie Trog caves and outpost  at 35073 (east ) ---> 19527
+ 67 Lost Isle of Shaedar           at 35074 (southwest) --->  6811
+ 74 Cedar Estate Mansion           at 35075 (south) --->  7498
+146 The Sieged Castle              at 35076 (southeast) ---> 14682
+ 25 The Arctic Empire              at 35098 (south) --->  2505
+ 30 Midgaard                       at 35105 (down ) --->  3001
+ 96 Imperial Ravenna               at 35106 (north) --->  9619
+ 33 Mahn-Tor                       at 35106 (south) --->  3392
+ 20 The Abyss                      at 35106 (west ) --->  2051
+ 12 Star Wars                      at 35106 (up   ) --->  1221
+ 37 The Wayhouse                   at 35106 (down ) --->  3729
+ 61 Dark Haon-Dor                  at 35106 (northeast) --->  6126
+120 Rome                           at 35106 (southeast) ---> 12030
+140 The Amber Forest               at 35106 (southwest) ---> 14111
+  9 River Island Of Minos          at 35107 (north) --->   977
+ 67 Lost Isle of Shaedar           at 35107 (south) --->  6724
+126 The Corsair Citadel            at 35107 (west ) ---> 12671
+216 Dragon City                    at 35107 (up   ) ---> 21629
+ 69 The Dragon Sea                 at 35107 (down ) --->  6900
+133 Three of Swords                at 35107 (northeast) ---> 13374
+167 Drake Isle                     at 35107 (southeast) ---> 16784
+ 75 The Nightmire                  at 35107 (southwest) --->  7522
+ 32 Midgaard Park South            at 35108 (east ) --->  3207
+146 The Sieged Castle              at 35108 (up   ) ---> 14678
+122 New Thalos                     at 35108 (down ) ---> 12376
+ 14 Amusement Park                 at 35108 (northeast) --->  1401
+ 15 The Straight Path              at 35108 (southeast) --->  1516
+126 The Corsair Citadel            at 35108 (southwest) ---> 12613
+ 21 Skara Brae                     at 35108 (northwest) --->  2142
+122 New Thalos                     at 35114 (north) ---> 12493
+ 66 Hell                           at 35114 (south) --->  6610
+230 The City of Sanctuary          at 35114 (west ) ---> 23184
+ 55 The Wandering Ship             at 35114 (up   ) --->  5500
+ 96 Imperial Ravenna               at 35114 (down ) --->  9623
+ 22 The Abandoned Ship and the Deep Forest at 35114 (northeast) --->  2249
+ 61 Dark Haon-Dor                  at 35114 (southwest) --->  6150
+ 30 Midgaard                       at 35114 (northwest) --->  3153
+ 93 Floodlands                     at 35120 (south) --->  9322
+ 40 Moria                          at 35126 (northeast) --->  4023
+ 92 Goblinsville                   at 35126 (southeast) --->  9230
+ 65 The Dwarven Kingdom            at 35126 (northwest) --->  6555
+ 33 Mahn-Tor                       at 35136 (northeast) --->  3353
+ 65 The Dwarven Kingdom            at 35152 (up   ) --->  6551
+ 93 Floodlands                     at 35159 (south) --->  9322
+
+>[0;00m
+[0mCHECKING: 360[0m
+
+Zone 360 is linked to the following zones:
+ 50 The Great Eastern Desert       at 36001 (north) --->  5029
+
+>[0;00m
+[0mCHECKING: 370[0m
+[0mCHECKING: 390[0m
+
+Zone 370 is linked to the following zones:
+240 The Darkspine Mountains        at 37000 (south) ---> 24008
+
+>[0;00m
+Zone 390 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 400[0m
+
+Zone 400 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 444[0m
+
+Zone 444 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: 50000[0m
+
+Zone 50000 is linked to the following zones:
+
+>[0;00m
+[0mCHECKING: [0m
+
+Zone 360 is linked to the following zones:
+ 50 The Great Eastern Desert       at 36001 (north) --->  5029
+
+>[0;00m
+[0mCHECKING: [0m
+
+Zone 360 is linked to the following zones:
+ 50 The Great Eastern Desert       at 36001 (north) --->  5029
+
+>[0;00m
+[0mCHECKING: [0m
+
+Zone 360 is linked to the following zones:
+ 50 The Great Eastern Desert       at 36001 (north) --->  5029
+
+>[0;00m
+[0mCHECKING: [0m
+
+Zone 360 is linked to the following zones:
+ 50 The Great Eastern Desert       at 36001 (north) --->  5029
+
+>[0;00m
+[0mCHECKING: [0m
+
+Zone 360 is linked to the following zones:
+ 50 The Great Eastern Desert       at 36001 (north) --->  5029
+
+>[0;00m
+[0mCHECKING: [0m
+
+Zone 360 is linked to the following zones:
+ 50 The Great Eastern Desert       at 36001 (north) --->  5029
+
+>[0;00m
+[0mCHECKING: [0m
+
+Zone 360 is linked to the following zones:
+ 50 The Great Eastern Desert       at 36001 (north) --->  5029
+
+>[0;00m
+[0mCHECKING: [0m
+
+Zone 360 is linked to the following zones:
+ 50 The Great Eastern Desert       at 36001 (north) --->  5029
+
+>[0;00m
+[0mCHECKING: [0m

@@ -1,0 +1,1273 @@
+-- Mob Number:  [36199]
+1) Sex: Neuter         2) Keywords: mob unfinished
+3) S-Desc: the unfinished mob
+4) L-Desc:-
+An unfinished mob stands here.
+
+5) D-Desc:-
+It looks unfinished.
+
+6) Position  : Standing
+7) Default   : Standing
+8) Attack    : hit
+9) Stats Menu...
+A) NPC Flags : ISNPC 
+B) AFF Flags : NOBITS 
+R) Race      : Unknown
+D) SubRace   : Unknown
+C) Class     : Magic User
+H) Feats     : None
+I) Size      : Fine
+P) SpecProcs : Not Set.
+S) Script    : Not Set.
+W) Copy mob
+X) Delete mob
+Q) Quit
+
+Enter choice : 1
+ 1) Neuter  2) Male    3) Female
+
+ Enter choice : 6
+ 1) Dead                   4) Stunned                7) Sitting               
+ 2) Mortally wounded       5) Sleeping               8) Fighting              
+ 3) Incapacitated          6) Resting                9) Standing              
+
+ Enter choice : 7
+ 1) Dead                   4) Stunned                7) Sitting               
+ 2) Mortally wounded       5) Sleeping               8) Fighting              
+ 3) Incapacitated          6) Resting                9) Standing      
+
+ Enter choice : 8
+ 0) hit
+ 1) pound
+ 2) pierce
+ 3) slash
+ 4) whip
+ 5) claw
+ 6) bite
+ 7) sting
+ 8) crush
+ 9) gore
+10) chop
+11) blast
+12) spray
+13) club
+14) hammer
+15) smite
+16) smash
+17) stab
+
+Enter choice : 9
+-- Mob Number:  [36199]
+(1) Level:       [   0]    AdmLevel:     [   0]
+(2) Auto Set Stats (based on level)
+
+Hit Points  (xdy+z):        Bare Hand Damage (xdy+z): 
+(3) HP NumDice:  [    1]    (6) BHD NumDice:  [    1]
+(4) HP SizeDice: [    1]    (7) BHD SizeDice: [    1]
+(5) HP Addition: [    0]    (8) DamRoll:      [    0]
+(range 1 to 1)              (range 1 to 1)
+
+(A) Armor Class: [ 100]        (D) Hitroll:   [    0]
+(B) Exp Points:  [         0]  (E) Alignment: [    0]
+(C) Gold:        [         0]
+
+(F) Str: [11/  0]   Saving Throws
+(G) Int: [ 11]      (L) Paralysis     [  0]
+(H) Wis: [ 11]      (M) Rods/Staves   [  0]
+(I) Dex: [ 11]      (N) Petrification [  0]
+(J) Con: [ 11]      (O) Breath        [  0]
+(K) Cha: [ 11]      (P) Spells        [  0]
+(R) Intensity: [  0]   (S) Serenity   [  0]
+
+Enter choice : a
+ 1) SPC                    2) SNTNL                 
+ 3) SCAV                   4) N-THF                 
+ 5) AGR                    6) ST-ZNE                
+ 7) WIMP                   8) !SUMMON               
+ 9) MH0                   10) MH1                   
+11) MEM                   12) CLONE                 
+13) !SGGST                14) !PURGE                
+15) EXTRA                 16) USE_EQUIP             
+17) !SLEEP                18) NOTUSED2              
+19) NOTUSED3              20) !CHARM                
+21) FIDO                  22) JANITOR               
+23) CGUARD                24) QHEAL                 
+25) !CALM                 26) !NUKE                 
+27) SPC_CHARM             28) GHOST                 
+29) NOKILL                30) AGR-GOOD              
+31) AGR-EVIL              32) AGR-NEUT        
+
+
+
+
+Enter choice : b
+ 1) BLIND                 27) !TRACK                53) UU_16                 
+ 2) INVIS                 28) PLAGUE                54) UU_17                 
+ 3) DET-ALIGN             29) HASTE                 55) UU_18                 
+ 4) DET-INVIS             30) DARK-VISION           56) UU_19                 
+ 5) DET-MAG               31) LOW-LIGHT             57) UU_20                 
+ 6) SENSE-LIFE            32) BLESS                 58) UU_21                 
+ 7) HOLD                  33) REGENERATE            59) UU_22                 
+ 8) SANCT                 34) WILDSHAPE             60) UU_23                 
+ 9) GRP                   35) BLOCK                 61) UU_24                 
+10) CURSE                 36) NOHIT                 62) UU_25                 
+11) INFL                  37) GRAPPLE               63) UU_26                 
+12) POISON                38) DODGE                 64) UU_27                 
+13) PR-EVIL               39) DISARMED              65) ILLUSION              
+14) PARALYSIS             40) CHARISMA              66) INSPIRE               
+15) INFRA                 41) RESONANCE             67) MIRROR                
+16) FLAMING-SWORD         42) ANARCHY               68) SLOW                  
+17) SLEEP                 43) AURA OF DARKNESS      69) HOPELESS              
+18) FLY                   44) GR_ELIGHTEN           70) PETRIFY               
+19) SNEAK                 45) UU_8                  71) FUMBLE                
+20) HIDE                  46) UU_9                  72) ORB                   
+21) PR-GOOD               47) UU_10                 73) ENRAGE                
+22) CHARM                 48) UU_11                 74) BOTD                  
+23) FOLLOW                49) UU_12                 75) SPEC_OBJ              
+24) WIMPY                 50) UU_13                 76) DT                    
+25) WEB                   51) UU_14                 
+26) WWALK                 52) UU_15                 
+
+
+Enter choice : r
+ 0) Unknown               1) Humanoid              2) Undead               
+ 3) Animal                4) Dragon                5) Giant                
+ 6) Aberration            7) Construct             8) Elemental            
+ 9) Fey                  10) Magical Beast        11) Monstrous Humanoid   
+12) Ooze                 13) Outsider             14) Plant                
+15) Vermin               16) Lycanthrope          
+(You can choose 99 for random)
+
+
+Enter choice : d
+ 0) Unknown               1) Air                   2) Angelic              
+ 3) Aquatic               4) Archon                5) Augmented            
+ 6) Chaotic               7) Cold                  8) Earth                
+ 9) Evil                 10) Extraplanar          11) Fire                 
+12) Goblinoid            13) Good                 14) Incorporeal          
+15) Lawful               16) Native               17) Reptilian            
+18) Shapechanger         19) Swarm                20) Water                
+21) Darkling             22) Vampire              
+(You can choose 99 for random)
+
+Enter choice : c
+ 0) Magic User            1) Cleric                2) Thief                
+ 3) Warrior               4) Paladin               5) AntiPaladin          
+ 6) Ninja                 7) Jedi                  8) Sohei                
+ 9) Ranger               10) Bard                 
+(You can choose 99 for random)
+(Set the classless MOBFLAG to turn off the class)
+
+Enter choice : i
+ 1) Fine                   2) Diminutive            
+ 3) Tiny                   4) Small                 
+ 5) Medium                 6) Large                 
+ 7) Huge                   8) Gargantuan            
+ 9) Colossal              
+Enter size number (-1 for default): 
+
+
+Special Procedure menu:
+   Procedure                Freq   Type  Term  Num1  Num2 Num3 Num4 Num5  Resist
+   ---------                ----   ----  ----  ----  ---- ---- ---- ----  ------
+0 - <END OF LIST>
+N) Insert new command.
+E) Edit a command.
+D) Delete a command.
+Q) Quit
+Enter your choice : n
+
+21) CastleGuard               22) DicknDavid                23) James                     
+24) Ambrose                   25) Cleaning                  26) Dist_damage               
+27) New_dist_damage           28) Dockworker                29) Claudian                  
+30) Mob_homba                 31) Mob_minos_lizard          32) Mob_minos_general         
+33) HansAndFranz              34) Mob_drakken               35) Mob_minos_mummy           
+36) Mob_swordsman             37) Gen_block_w               38) Gen_block_e               
+39) Gen_block_n               40) Gen_block_ne              41) Gen_block_nw              
+42) Gen_block_s               43) Gen_block_se              44) Gen_block_sw              
+45) Gen_block_u               46) Gen_block_d               47) Hell_nymph                
+48) jerry                     49) King_welmar               50) Mob_area_attack           
+51) Mob_cleric                52) Mob_conductor             53) Mob_cryogenicist          
+54) * Mob_defender            55) Mob_demon                 56) Mob_doc_statue            
+57) Mob_energy_drain          58) Mob_firedrake             59) Mob_guild                 
+60) Mob_guild_guard           61) Mob_heads_of_tiamat       62) Mob_healer                
+63) Mob_kailyn_guard          64) Mob_magic_user            65) Mob_mayor                 
+66) Mob_midgaard_citizen      67) Mob_miss_piggy            68) Mob_monster_leech         
+69) Mob_nt_elite_guard        70) Mob_ninja                 71) Mob_nt_dock_workers       
+72) Mob_onivel                73) Mob_onivel_honor_gua      74) Mob_phrenologist          
+75) Mob_puff                  76) Mob_Receptionist          77) Mob_snake                 
+78) Mob_thief                 79) Mob_use_held              80) Mob_vampire               
+81) Mob_wandering_prophe      82) Mob_warrior               83) Mob_paladin               
+84) Mob_antipaladin           85) Mob_wraith                86) Pet_shops                 
+87) Peter                     88) Postmaster                89) Stock_speech              
+90) Tim                       91) Tom                       92) Training_master           
+93) Immigrate_mid             94) Immigrate_nt              95) Immigrate_skara           
+96) Mob_buy_happyhour         97) Mob_quest_tokens          98) Mob_unaffects_self        
+99) Shadow_nymph              100) No_flee                   101) Hate_bard                 
+102) Hate_cleric               103) Hate_mage                 104) Hate_weakling             
+105) Random_entropy            106) Entropy_tank              107) Area_attack               
+108) Random_throw              109) Throw_tank                110) Pzar_max                  
+111) Purge_pets                112) Armies                    113) Reanimate                 
+114) Master                    115) Slave                     116) Eats_object               
+117) Eats_object_in_inv        118) Coward                    119) Assist_mob                
+120) Assist_player             121) Plague                    122) Gate_in_mob               
+123) Cast_heal_on_group        124) Scipio_dreaming           125) Load_item_on_death        
+126) Load_mob_on_death         127) Explode_on_death          128) Drain_mana_on_death       
+129) Gain_exp_on_death         130) End_happy_hour_on_de      131) Resist_damage             
+132) Reduce_damage             133) Heal_from_damage          134) Cap_damage                
+135) Reflect_damage            136) Reflect_damage_to_ma      137) Quest_block_w             
+138) Quest_block_e             139) Quest_block_n             140) Quest_block_ne            
+141) Quest_block_nw            142) Quest_block_s             143) Quest_block_se            
+144) Quest_block_sw            145) Quest_block_u             146) Quest_block_d             
+148) Shop_keeper               149) Questmaster               152) Special_block_w           
+153) Special_block_e           154) Special_block_n           155) Special_block_ne          
+156) Special_block_nw          157) Special_block_s           158) Special_block_se          
+159) Special_block_sw          160) Special_block_u           161) Special_block_d           
+177) Mob_Moonbeam              178) Mob_Raid                  179) Mob_Steppin               
+180) Mob_Unicorn               181) Mob_Cosmo                 182) Mob_defend_obj            
+183) Mob_puff_interaction      
+
+Select Spec Proc: 21
+
+Please enter the percentage the SpecProc will fire: 100
+If SpecProc fires, terminate all other procs 0 - No, 1 - Yes: 0
+
+
+
+
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+
+
+-- Item number : [36199]
+0) Version  : 1
+1) Keywords : unfinished object
+2) S-Desc   : an unfinished object
+3) L-Desc   :-
+An unfinished object is lying here.
+4) A-Desc   :-
+Not Set.
+5) Type        : UNDEFINED
+6) Extra flags : NOBITS 
+7) Wear flags  : TAKE 
+8) Weight      : 0
+9) Cost        : 0
+A) Cost/Day    : 0
+B) Timer       : 0
+C) Values      : 0 0 0 0 0 0
+D) Applies menu
+E) Extra descriptions menu: Not Set.
+F) Material    : None
+G) Spellbook menu
+H) Adm Level   : 0
+M) Min Level   : 0
+N) Max Level   : 0
+P) Perm Affects: NOBITS 
+O) Obj Spells  : None
+S) Script      : Not Set.
+T) Spec procs  : Not Set.
+W) Copy object
+X) Delete object
+Q) Quit
+
+
+
+Enter choice : 5
+ 0) UNDEFINED             1) LIGHT                
+ 2) SCROLL                3) WAND                 
+ 4) STAFF                 5) WEAPON               
+ 6) FIRE-WEAPON           7) MISSILE              
+ 8) TREASURE              9) ARMOR                
+10) POTION               11) WORN                 
+12) OTHER                13) TRASH                
+14) TRAP                 15) CONTAINER            
+16) NOTE                 17) LIQ-CONTAINER        
+18) KEY                  19) FOOD                 
+20) MONEY                21) PEN                  
+22) BOAT                 23) FOUNTAIN             
+24) AIRSHIP              25) INSTRUMENT           
+26) DEVICE               27) SPECPROC_DEVICE      
+28) BOARD                29) SPELLBOOK            
+30) PHAPPY               31) PORTAL      
+
+
+
+Enter choice : 6
+ 1) GLOW                  2) HUM                  
+ 3) DARK                  4) QUEST                
+ 5) EVIL                  6) INVIS                
+ 7) MAG                   8) !DROP                
+ 9) BLESS                10) !GOOD                
+11) !EVIL                12) !NEUTRAL             
+13) NEUTRAL              14) GOOD                 
+15) !MORT                16) !MAGE                
+17) !CLER                18) !THF                 
+19) !WAR                 20) !PAL                 
+21) !APAL                22) !NINJA               
+23) !JEDI                24) !SOHEI               
+25) LIMITED              26) !PURGE               
+27) !RENT                28) SPEC                 
+29) !DONATE              30) !RANGER              
+31) !BARD                32) HIDDEN               
+33) VOLATILE             34) !JUNK                
+35) UNIQUE               36) !HUMAN               
+37) !ELF                 38) !DWARF               
+39) !GNOME               40) !HOBBIT              
+41) !ORC                 42) !HALF-ORC            
+43) !GOBLIN              44) !KENDER              
+45) !URUKHAI             46) INSURED              
+47) !SELL                48) !LOCATE              
+49) ASSM                 50) CINSURED             
+51) !HALF_ELF            52) !MYSTIC_THEURGE      
+53) !ALCHEMIST           54) !ASSASSIN            
+55) !BLACKGUARD          56) !WEAPON_MASTER       
+57) !DRAGON_DISCIPLE     58) !ELDRITCH_KNIGHT     
+59) !SHADOW_DANCER       60) !PSIONICIST          
+61) !SACRED_FIST         62) !LOREMASTER          
+63) !DROW                64) !OGRE                
+65) !CENTAUR             66) !DRAGON              
+67) !HALF_DRAGON         
+Object flags: NOBITS 
+
+
+Enter choice : 7
+ 1) TAKE                  2) FINGER               
+ 3) NECK                  4) BODY                 
+ 5) HEAD                  6) LEGS                 
+ 7) FEET                  8) HANDS                
+ 9) ARMS                 10) SHIELD               
+11) ABOUT                12) WAIST                
+13) WRIST                14) WIELD                
+15) HOLD                 16) THROW                
+17) FACE                 18) EARS                 
+19) OFFHAND              20) WINGS                
+
+Wear flags: TAKE 
+
+
+Enter choice : f
+ 0) None                 1) bone                
+ 2) ceramic              3) copper              
+ 4) diamond              5) gold                
+ 6) iron                 7) leather             
+ 8) mithril              9) obsidian            
+10) steel               11) stone               
+12) silver              13) wood                
+14) glass               15) organic             
+16) currency            17) paper               
+18) cotton              19) satin               
+20) silk                21) burlap              
+22) velvet              23) platinum            
+24) adamantine          25) wool                
+26) onyx                27) ivory               
+28) brass               29) marble              
+30) bronze              31) pewter              
+32) ruby                33) sapphire            
+34) emerald             35) gemstone            
+36) granite             37) energy              
+38) hemp                39) crystal             
+40) earth               41) liquid              
+42) cloth               43) metal               
+44) wax                 45) other               
+46) food                47) oil              
+
+
+Enter spell to modify (0 to quit) : 1
+ 1) aerial servant        2) aid                   3) animate dead         
+ 4) armor                 5) banishment            6) bless                
+ 7) blindness             8) burning hands         9) call lightning       
+10) calm                 11) cause critic         12) cause light          
+13) cause serious        14) charm person         15) chill touch          
+16) clone                17) color spray          18) conjure elemental    
+19) control weather      20) create food          21) create water         
+22) cure blind           23) cure critic          24) cure light           
+25) cure serious         26) curse                27) deaths door          
+28) detect alignment     29) detect invisibility  30) detect magic         
+31) detect poison        32) disintegrate         33) dispel evil          
+34) dispel good          35) earthquake           36) enchant armor        
+37) enchant weapon       38) energy drain         39) blur                 
+40) group armor          41) fireball             42) fireblast            
+43) flamestrike          44) gate one             45) gate two             
+46) group heal           47) group infravision    48) group invisibility   
+49) harm                 50) fly                  51) heal                 
+52) hold                 53) ice storm            54) infravision          
+55) invisible            56) lightning bolt       57) locate object        
+58) magic missile        59) magical vestment     60) meteor swarm         
+61) monsum one           62) monsum two           63) monsum three         
+64) petrification        65) poison               66) fission bomb         
+67) atomic blast         68) thermonuclear holoca 69) illusion             
+70) protection from evil 71) protection from good 72) reanimate            
+73) regenerate           74) rejuvenate           75) remove curse         
+76) remove paralysis     77) remove poison        78) restore              
+79) resurrect            80) sanctuary            81) sense life           
+82) shocking grasp       83) slay                 84) sleep                
+85) gate three           86) stone skin           87) strength             
+88) summon               89) teleport             90) information          
+91) create light         92) waterwalk            93) web                  
+94) word of death        95) word of recall       96) unconscious          
+97) friends              98) inspire              99) mirror image         
+100) scare                101) confusion            102) group recall         
+103) slow                 104) forget               105) hopelessness         
+107) mass charm           108) petrify              109) suggestion           
+110) night vision         111) creature lore        112) animal call one      
+113) animal call two      114) animal call three    115) stampede             
+116) fumble               117) orb                  118) inner gateway        
+119) mana channel         120) directed teleport    121) charisma             
+122) mental vigor         123) flaming sword        124) choking claw         
+125) brain implosion      126) searing gaze         127) force lightning      
+128) remove invisible     129) group fly            130) group inspire        
+131) pax                  132) enrage               133) resonance            
+134) blessing of the divi 137) aura of protection   138) aura of darkness     
+139) bless weapon         140) curse good           141) judgment of the gods 
+142) protection from anar 143) unholy strength      144) holy strength        
+145) turn undead          147) communal prayer      148) cleanse heresy       
+149) enlightenment        150) holy explosion       151) haste                
+161) identify             162) Constitution         163) Intelligence         
+164) Wisdom               
+
+
+
+Enter choice : d
+ 1) None.
+ 2) None.
+ 3) None.
+ 4) None.
+ 5) None.
+ 6) None.
+
+Enter affection to modify (0 to quit) : 1
+ 1) NONE         8) CLASS       15) MOVE        22) SAVE_ROD    29) MANA_REGEN  
+ 2) STR          9) LEVEL       16) GOLD        23) SAVE_PETRI  30) MOVE_REGEN  
+ 3) DEX         10) AGE         17) EXP         24) SAVE_BREATH 31) ALIGNMENT   
+ 4) INT         11) WEIGHT      18) ARMOR       25) SAVE_SPELL  32) ESS         
+ 5) WIS         12) HEIGHT      19) HITROLL     26) INFRAVISION 33) SEREN       
+ 6) CON         13) MANA        20) DAMROLL     27) CHARISMA    34) INTENSE     
+ 7) SEX         14) HIT         21) SAVE_PARA   28) HIT_REGEN   35) 
+           
+Enter choice : p
+ 1) BLIND                 2) INVIS                
+ 3) DET-ALIGN             4) DET-INVIS            
+ 5) DET-MAG               6) SENSE-LIFE           
+ 7) HOLD                  8) SANCT                
+ 9) GRP                  10) CURSE                
+11) INFL                 12) POISON               
+13) PR-EVIL              14) PARALYSIS            
+15) INFRA                16) FLAMING-SWORD        
+17) SLEEP                18) FLY                  
+19) SNEAK                20) HIDE                 
+21) PR-GOOD              22) CHARM                
+23) FOLLOW               24) WIMPY                
+25) WEB                  26) WWALK                
+27) !TRACK               28) PLAGUE               
+29) HASTE                30) DARK-VISION          
+31) LOW-LIGHT            32) BLESS                
+33) REGENERATE           34) WILDSHAPE            
+35) BLOCK                36) NOHIT                
+37) GRAPPLE              38) DODGE                
+39) DISARMED             40) CHARISMA             
+41) RESONANCE            42) ANARCHY              
+43) AURA OF DARKNESS     44) GR_ELIGHTEN          
+45) UU_8                 46) UU_9                 
+47) UU_10                48) UU_11                
+49) UU_12                50) UU_13                
+51) UU_14                52) UU_15                
+53) UU_16                54) UU_17                
+55) UU_18                56) UU_19                
+57) UU_20                58) UU_21                
+59) UU_22                60) UU_23                
+61) UU_24                62) UU_25                
+63) UU_26                64) UU_27                
+65) ILLUSION             66) INSPIRE              
+67) MIRROR               68) SLOW                 
+69) HOPELESS             70) PETRIFY              
+71) FUMBLE               72) ORB                  
+73) ENRAGE               74) BOTD                 
+75) SPEC_OBJ             76) DT               
+
+
+Enter choice : o
+[1] Spell:             !UNUSED! Level:   0 Percent:   0 Combat:   0 
+[2] Spell:             !UNUSED! Level:   0 Percent:   0 Combat:   0 
+[3] Spell:             !UNUSED! Level:   0 Percent:   0 Combat:   0 
+
+Enter spell to edit (-1 for none) : 1
+ 1) aerial servant        2) aid                   3) animate dead         
+ 4) armor                 5) banishment            6) bless                
+ 7) blindness             8) burning hands         9) call lightning       
+10) calm                 11) cause critic         12) cause light          
+13) cause serious        14) charm person         15) chill touch          
+16) clone                17) color spray          18) conjure elemental    
+19) control weather      20) create food          21) create water         
+22) cure blind           23) cure critic          24) cure light           
+25) cure serious         26) curse                27) deaths door          
+28) detect alignment     29) detect invisibility  30) detect magic         
+31) detect poison        32) disintegrate         33) dispel evil          
+34) dispel good          35) earthquake           36) enchant armor        
+37) enchant weapon       38) energy drain         39) blur                 
+40) group armor          41) fireball             42) fireblast            
+43) flamestrike          44) gate one             45) gate two             
+46) group heal           47) group infravision    48) group invisibility   
+49) harm                 50) fly                  51) heal                 
+52) hold                 53) ice storm            54) infravision          
+55) invisible            56) lightning bolt       57) locate object        
+58) magic missile        59) magical vestment     60) meteor swarm         
+61) monsum one           62) monsum two           63) monsum three         
+64) petrification        65) poison               66) fission bomb         
+67) atomic blast         68) thermonuclear holoca 69) illusion             
+70) protection from evil 71) protection from good 72) reanimate            
+73) regenerate           74) rejuvenate           75) remove curse         
+76) remove paralysis     77) remove poison        78) restore              
+79) resurrect            80) sanctuary            81) sense life           
+82) shocking grasp       83) slay                 84) sleep                
+85) gate three           86) stone skin           87) strength             
+88) summon               89) teleport             90) information          
+91) create light         92) waterwalk            93) web                  
+94) word of death        95) word of recall       96) unconscious          
+97) friends              98) inspire              99) mirror image         
+100) scare                101) confusion            102) group recall         
+103) slow                 104) forget               105) hopelessness         
+107) mass charm           108) petrify              109) suggestion           
+110) night vision         111) creature lore        112) animal call one      
+113) animal call two      114) animal call three    115) stampede             
+116) fumble               117) orb                  118) inner gateway        
+119) mana channel         120) directed teleport    121) charisma             
+122) mental vigor         123) flaming sword        124) choking claw         
+125) brain implosion      126) searing gaze         127) force lightning      
+128) remove invisible     129) group fly            130) group inspire        
+131) pax                  132) enrage               133) resonance            
+134) blessing of the divi 137) aura of protection   138) aura of darkness     
+139) bless weapon         140) curse good           141) judgment of the gods 
+142) protection from anar 143) unholy strength      144) holy strength        
+145) turn undead          147) communal prayer      148) cleanse heresy       
+149) enlightenment        150) holy explosion       151) haste                
+161) identify             162) Constitution         163) Intelligence         
+164) Wisdom               
+Enter spell choice (-1 for none) : 1
+At what level should it be cast (-1 to exit) : 12
+What percent of rounds should it go off (-1 to exit) : 199
+Invalid percent, must be 1-100.
+Please enter the percent (-1 to exit) : 100
+1 for Combat, 0 for Non-Combat spell: 1
+[1] Spell:       aerial servant Level:  12 Percent: 100 Combat:   1 
+[2] Spell:             !UNUSED! Level:   0 Percent:   0 Combat:   0 
+[3] Spell:             !UNUSED! Level:   0 Percent:   0 Combat:   0 
+
+
+Enter choice : t
+
+
+Special Procedure menu:
+   Procedure                Freq   Type  Term  Num1  Num2 Num3 Num4 Num5  Resist
+   ---------                ----   ----  ----  ----  ---- ---- ---- ----  ------
+0 - <END OF LIST>
+N) Insert new command.
+E) Edit a command.
+D) Delete a command.
+Q) Quit
+Enter your choice : n
+ 1) Device_cast_spell          2) Device_purge_object       
+ 3) Banking                    4) Send_money                
+ 5) Obj_system_map            147) Device_load_mob           
+150) Gateway                   163) ATM                       
+164) Device_send_to_new_l      165) Device_kill               
+166) Device_load_object        167) Device_purge_mob          
+168) Device_echo               169) Device_unlock_door        
+170) Device_toggle_door        171) Device_adjust_align       
+172) Device_do_damage          173) Item_perfect_damage       
+174) Item_modify_damage        184) Board                     
+
+Select Spec Proc: 3
+
+Please enter the percentage the SpecProc will fire: 100
+If SpecProc fires, terminate all other procs 0 - No, 1 - Yes: 0
+
+
+Special Procedure menu:
+   Procedure                Freq   Type  Term  Num1  Num2 Num3 Num4 Num5  Resist
+   ---------                ----   ----  ----  ----  ---- ---- ---- ----  ------
+ 0) Banking                 100    Normal     No     0     0    0    0    0   None       
+1 - <END OF LIST>
+N) Insert new command.
+E) Edit a command.
+D) Delete a command.
+Q) Quit
+
+
+-----
+5) Type        : LIGHT
+Enter choice : c
+Number of hours (0 = burnt, -1 is infinite) : 0
+C) Values      : 0 0 -1 0 0 0
+
+
+5) Type        : SCROLL
+Enter choice : c
+Spell level : 12
+C) Values      : 12 13 14 15 0 0
+level, spell, spell, spell
+
+
+5) Type        : WAND
+Spell level : 12
+Max number of charges : 2
+Number of charges remaining : 4
+C) Values      : 12 2 4 1 0 0
+level, max num, remining, spell
+
+5) Type        : STAFF
+Spell level : 12
+Max number of charges : 2
+Number of charges remaining : 3
+C) Values      : 12 2 3 1 0 0
+level, max, remain, spell
+
+
+5) Type        : WEAPON
+Enter choice : c
+ 0) undefined             1) unarmed               2) dagger               
+ 3) mace                  4) sickle                5) spear                
+ 6) staff                 7) crossbow              8) longbow              
+ 9) shortbow             10) sling                11) thrown               
+12) hammer               13) lance                14) flail                
+15) longsword            16) shortsword           17) greatsword           
+18) rapier               19) scimitar             20) phaser               
+21) club                 22) bastard sword        23) monk weapon          
+24) double weapon        25) axe                  26) whip                 
+27) bat                  28) claw                 29) water                
+30) magical              31) electrical           32) chisel               
+33) Not-Defined          
+Enter the weapon type for determining proficiencies: 
+3
+Number of damage dice : 4
+Size of damage dice : Size of damage dice : 5
+ 0) hit                   1) pound                
+ 2) pierce                3) slash                
+ 4) whip                  5) claw                 
+ 6) bite                  7) sting                
+ 8) crush                 9) gore                 
+10) chop                 11) blast                
+12) spray                13) club                 
+14) hammer               15) smite                
+16) smash                17) stab                 
+
+Enter weapon type : 6
+C) Values      : 3 4 5 6 0 0
+proficiency type, num of dice, size of dice, weapon type
+
+5) Type        : ARMOR
+C) Values      : 12 0 0 0 0 0
+ac-apply
+
+5) Type        : POTION
+C) Values      : 12 1 2 3 0 0
+spell level, spell 1, spell 2, spell 3
+
+
+5) Type        : CONTAINER
+Max weight to contain (-1 for unlimited) : 13
+1) CLOSEABLE (1)
+2) PICKPROOF (2)
+3) CLOSED (4)
+4) LOCKED (8)
+Container flags: PICKPROOF CLOSED 
+Vnum of key to open container (-1 for no key) : 36
+C) Values      : 13 6 36 0 0 0
+max weight, sum of flags, vnum of key
+
+
+5) Type        : LIQ-CONTAINER
+Enter choice : C
+Max drink units (-1 for unlimited) : 12
+Initial drink units : 4
+ 1) water                  8) firebreather          15) salt water            
+ 2) beer                   9) local speciality      16) coca cola             
+ 3) wine                  10) slime mold juice      17) champagne             
+ 4) ale                   11) milk                  18) ink                   
+ 5) dark ale              12) tea                   19) eggnog                
+ 6) whiskey               13) coffee                
+ 7) lemonade              14) blood                 
+
+Enter drink type : 5
+Poisoned (0 = not poison) : -1
+C) Values      : 12 4 4 -1 0 0
+max units, initial units, drink type, poisoned
+
+
+5) Type        : FOOD
+Hours to fill stomach : 4
+Poisoned (0 = not poison) : -1
+C) Values      : 4 0 0 -1 0 0
+HOURS, not used, not used, poisoned
+
+5) Type        : MONEY
+Number of gold coins : 500
+C) Values      : 500 0 0 0 0 0
+
+5) Type        : FOUNTAIN
+Max drink units (-1 for unlimited) : 3
+Initial drink units : 4
+ 1) water                  8) firebreather          15) salt water            
+ 2) beer                   9) local speciality      16) coca cola             
+ 3) wine                  10) slime mold juice      17) champagne             
+ 4) ale                   11) milk                  18) ink                   
+ 5) dark ale              12) tea                   19) eggnog                
+ 6) whiskey               13) coffee                
+ 7) lemonade              14) blood                 
+
+Enter drink type : 5
+Poisoned (0 = not poison) : 6
+C) Values      : 3 4 4 6 0 0
+max units, initial units, type, poison
+
+
+5) Type        : BOARD
+Enter the minimum admin level to read this board (0 for mortals) :30
+Minimum admin level to write (0 for mortals) : 31
+Minimum admin level to remove messages (0 for mortals) : 32
+C) Values      : 30 31 32 0 0 0
+read, write, remove
+
+no config
+FIREWEAPON, MISSILE, TREASURE, WORN, OTHER, TRASH, TRAP, NOTE, KEY, PEN, BOAT, AIRSHIP, INSTRUMENT, SPECPROC_DEVICE, SPELLBOOK, PHAPPY, PORTAL
+
+5) Type        : DEVICE
+Device Types
+1) Send Everyone in room to new location.
+2) Send user of device to new location.
+3) Kill everyone in room.
+4) Kill user of device.
+7) Load obj in the room.
+8) Purge item from room.
+9) Load mob to room.
+10) Purge mob from room.
+11) Room Echo.
+12) Zone Echo.
+13) Transfer group (only if leader uses device).
+14) Toggle new device, deactivate this device.
+15) Load obj to 
+16) Unlock door in specific room and direction.
+17) Open door in specific room and direction.
+18) Cast spell in Room.
+19) Cast spell on user.
+20) Cast spell on group (only if leader uses device).
+21) For use with Ruby Slippers. Send user to room if worn on feet.
+
+C) Values      : 1 3003 0 0 0 0
+Please enter vnum of room: 3003
+1, vnum
+
+C) Values      : 2 3003 0 0 0 0
+Please enter vnum of room: 3003
+2, vnum
+
+C) Values      : 3 0 0 0 0 0
+C) Values      : 4 0 0 0 0 0
+
+Please enter vnum of object to load: 3
+C) Values      : 7 3 0 0 0 0
+
+Please enter vnum of object to purge: 3
+C) Values      : 8 3 0 0 0 0
+
+Please enter vnum of mobile to load: 36001
+C) Values      : 9 36001 0 0 0 0
+
+Please enter vnum of mobile to purge: 36001
+C) Values      : 10 36001 0 0 0 0
+
+C) Values      : 11 0 0 0 0 0
+C) Values      : 12 0 0 0 0 0
+
+Please enter vnum of room: 3
+C) Values      : 13 3 0 0 0 0
+
+C) Values      : 14 0 0 0 0 0
+
+Please enter vnum of object to load: 36001
+C) Values      : 15 36001 0 0 0 0
+
+Please enter vnum of room: 36001
+Please enter the direction of the door (-1 to exit): 3
+C) Values      : 16 36001 3 0 0 0
+
+Please enter vnum of room: 36001
+Please enter the direction of the door (-1 to exit): 2
+C) Values      : 17 36001 2 0 0 0
+
+
+Enter spell choice (-1 for none) : 2
+Please enter the level of the spell (0 - 40): 10
+C) Values      : 18 2 10 0 0 0
+18, spell, level
+
+
+Enter spell choice (-1 for none) : 2
+Please enter the level of the spell (0 - 40): 10
+C) Values      : 19 2 10 0 0 0
+19, spell, level
+
+Enter spell choice (-1 for none) : 2
+C) Values      : 20 2 0 0 0 0
+20, spell
+
+C) Values      : 21 3003 0 0 0 0
+Please enter vnum of room: 3003
+
+
+
+
+Enter choice : d
+ 1) None.
+ 2) None.
+ 3) None.
+ 4) None.
+ 5) None.
+ 6) None.
+
+Enter affection to modify (0 to quit) : 1
+ 1) NONE         8) CLASS       15) MOVE        22) SAVE_ROD    29) MANA_REGEN  
+ 2) STR          9) LEVEL       16) GOLD        23) SAVE_PETRI  30) MOVE_REGEN  
+ 3) DEX         10) AGE         17) EXP         24) SAVE_BREATH 31) ALIGNMENT   
+ 4) INT         11) WEIGHT      18) ARMOR       25) SAVE_SPELL  32) ESS         
+ 5) WIS         12) HEIGHT      19) HITROLL     26) INFRAVISION 33) SEREN       
+ 6) CON         13) MANA        20) DAMROLL     27) CHARISMA    34) INTENSE     
+ 7) SEX         14) HIT         21) SAVE_PARA   28) HIT_REGEN   35) 
+           
+
+Enter apply type (0 is no apply) : 3
+Modifier : 4
+ 1) +4 to DEX
+ 2) None.
+ 3) None.
+ 4) None.
+ 5) None.
+ 6) None.
+
+
+
+
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+
+
+
+-- Room number : [36199] Room zone: [360]
+1) Name        : An unfinished room
+2) Description :
+You are in an unfinished room.
+3) Room flags  : NOBITS 
+4) Sector type : INSIDE
+5) Exit north  : -1    ,  B) Exit northwest : -1
+6) Exit east   : -1    ,  C) Exit northeast : -1
+7) Exit south  : -1    ,  D) Exit southeast : -1
+8) Exit west   : -1    ,  E) Exit southwest : -1
+9) Exit up     : -1
+A) Exit down   : -1
+F) Extra descriptions menu : Not Set.
+M) Motion Menu : Not Set.
+P) SpecProcs   : Not Set.
+S) Script      : Not Set.
+W) Copy Room
+X) Delete Room
+Q) Quit
+
+
+
+Enter choice : 3
+ 1) DARK         9) MOB_MAGIC   17) SHADOW      25) WORLDMAP    33) !ASTRAL     
+ 2) DEATH       10) PRIVATE     18) MDARK       26) CURRENT     34) !ARCANE     
+ 3) !MOB        11) PEACEFUL    19) NPC_DEATH   27) NOTRACK     35) !DIVINE     
+ 4) INDOORS     12) GODROOM     20) OVER_EVIL   28) HOUSE       36) HAPPY_HOUR  
+ 5) !SHSTRM     13) !CRIME      21) OVER_GOOD   29) HCRSH       
+ 6) DUMP        14) CAMPSITE    22) NO_SLEEP    30) ATRIUM      
+ 7) MOVING      15) SOUNDPROOF  23) TIMED_DT    31) OLC         
+ 8) !MAGIC      16) BFS_MARK    24) LOW_LIGHT   32) !TELEPORT   
+
+Room flags: DARK INDOORS 
+
+
+Enter choice : 4
+ 1) INSIDE       5) HILLS        9) MIDAIR      13) JUNGLE      17) RIVER       
+ 2) CITY         6) MOUNTAINS   10) UNDERWATER  14) CAVE        18) OCEAN       
+ 3) FIELD        7) SWIM        11) OUTDOORS    15) BEACH       19) MARSHLAND   
+ 4) FOREST       8) NOSWIM      12) DESERT      16) LAVA        
+
+
+Motion Menu
+1) Motion Text: You float down the river
+
+2) To room: 0
+3) Time per Move: 10
+4) Ignore boat: No
+5) Ignore fly: No
+
+Enter choice : 5
+1) Exit to     : -1
+2) Description :-
+its a door
+
+3) Door name   : le door
+4) Key         : 4
+5) Door flags  : No door
+6) Purge exit.
+
+
+
+Special Procedure menu:
+   Procedure                Freq   Type  Term  Num1  Num2 Num3 Num4 Num5  Resist
+   ---------                ----   ----  ----  ----  ---- ---- ---- ----  ------
+0 - <END OF LIST>
+N) Insert new command.
+E) Edit a command.
+D) Delete a command.
+Q) Quit
+Enter your choice : n
+
+ 6) Dump                       7) Stop_spell                 8) *Train_car                
+ 9) Room_restore_good         10) Room_restore_neutral      11) Room_restore_evil         
+12) Pet_shops                 13) * Train_station           14) Room_sticky               
+15) Worm_ritual               16) Room_heal_good            17) Room_heal_neutral         
+18) Room_heal_evil            19) * Shuttle_station         20) Bardic_entrance           
+151) Special_exit              162) Campsite                  175) Room_heal_all             
+176) Room_restore_all          
+* - Not in use anymore.
+
+
+
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+
+
+Room number: 36001 Room zone: 360
+1) Builders       : Zhi
+Z) Zone name      : Shifting Sands
+L) Lifespan       : 1 minutes
+2) Lifespan min   : -1 minutes
+3) Lifespan max   : -1 minutes
+B) Bottom of zone : 36000
+T) Top of zone    : 36199
+R) Reset Mode     : Normal reset.
+A) AutoExits      : Yes
+F) Zone Flags     : NEWBIE EASY 
+M) Mort Level Range : <Not Set!>
+O) Imm Level Range  : <Not Set!>
+H) Zone History     : 
+None
+[Command list]
+0 - <END OF LIST>
+N) Insert new command.
+E) Edit a command.
+D) Delete a command.
+Q) Quit
+
+
+Enter your choice : r
+
+0) Never reset
+1) Reset only when no  in zone
+2) Normal reset
+
+Enter your choice : f
+ 1) OPEN         6) !BUILD      11) NEWBIE      16) REMORT      21) !OLC        
+ 2) CLOSED       7) !MAGIC      12) GODONLY     17) BARD_ONLY   22) RAND_RST    
+ 3) !IMMORT      8) !ASTRAL     13) EASY        18) WMAP        23) !MSDP       
+ 4) QUEST        9) HIGHLVL     14) MIDHIGH     19) VERYHIGH    24) !ARCANE     
+ 5) GRID        10) MIDLVL      15) EASYMID     20) !SHSTRM     25) !DIVINE     
+
+Zone flags: NEWBIE EASY 
+
+
+Enter your choice : m
+
+1) Set minimum level recommendation
+2) Set maximum level recommendation
+3) Clear level recommendations
+4) Set minimum Imm level recommendation
+5) Set maximum Imm level recommendation
+6) Clear Imm level recommendations
+
+Enter your choice : o
+
+1) Set minimum level recommendation
+2) Set maximum level recommendation
+3) Clear level recommendations
+4) Set minimum Imm level recommendation
+5) Set maximum Imm level recommendation
+6) Clear Imm level recommendations
+
+0) Quit to main menu
+Current Mortal Setting: <Not Set!>
+Current Immortal Setting: <Not Set!>
+
+
+
+Enter your choice : n
+
+M) Load Mobile to room
+O) Load Object to room
+E) Equip mobile with object
+G) Give an object to a mobile
+P) Put object in another object
+D) Open/Close/Lock a Door
+R) Remove an object from the room
+A) Remove a mobile from the room
+T) Assign a trigger
+V) Set a global variable
+
+Input mob's vnum : 36001
+Input the maximum number that can exist on the mud : 3
+Input the percentage chance of the load occurring : 100
+0 - Load Layla Al-Nazih [36001], Max : 3, % 100
+
+0) Execute no matter what.
+1) Execute only if the last command was successful.
+2) Execute only if the last command was NOT successful.
+3) Execute only if last mobile load command was successful.
+4) Execute only if last mobile failed percentage load.
+5) Execute only if last mobile load command was successful.
+6) Execute only if last mobile failed to load.
+7) Execute only if last mobile loaded and last object failed to load.
+8) Execute only if this is a MOB loading based on previous mob failed load.
+Enter your choice : 0
+Input object vnum : 36001
+Input the maximum number that can exist on the mud : 3
+1 - Load a weathered sign [36001], Max : 3, % 75
+
+
+
+
+0) Execute no matter what.
+1) Execute only if the last command was successful.
+2) Execute only if the last command was NOT successful.
+3) Execute only if last mobile load command was successful.
+4) Execute only if last mobile failed percentage load.
+5) Execute only if last mobile load command was successful.
+6) Execute only if last mobile failed to load.
+7) Execute only if last mobile loaded and last object failed to load.
+8) Execute only if this is a MOB loading based on previous mob failed load.
+Enter your choice : 0
+Input object vnum : 36001
+Input the maximum number that can exist on the mud : 3
+ 1) Used as light                       12) Worn as shield                      
+ 2) Worn on right finger                13) Worn about body                     
+ 3) Worn on left finger                 14) Worn around waist                   
+ 4) First worn around Neck              15) Worn around right wrist             
+ 5) Second worn around Neck             16) Worn around left wrist              
+ 6) Worn on body                        17) Wielded                             
+ 7) Worn on head                        18) Held                                
+ 8) Worn on legs                        19) Worn on face                        
+ 9) Worn on feet                        20) Worn on ears                        
+10) Worn on hands                       21) Dwielded                            
+11) Worn on arms                        22) Wings                               
+Location to equip : 1
+Input the percentage chance of the load occurring : 75
+2 - Equip with a weathered sign [36001], Used as light, Max : 3, % 75
+
+
+
+
+What sort of command will this be? : g
+Choose a load command.
+0) Execute no matter what.
+1) Execute only if the last command was successful.
+2) Execute only if the last command was NOT successful.
+3) Execute only if last mobile load command was successful.
+4) Execute only if last mobile failed percentage load.
+5) Execute only if last mobile load command was successful.
+6) Execute only if last mobile failed to load.
+7) Execute only if last mobile loaded and last object failed to load.
+8) Execute only if this is a MOB loading based on previous mob failed load.
+Enter your choice : 0
+Input object vnum : 36001
+Input the maximum number that can exist on the mud : 3
+Input the percentage chance of the load occurring : 10
+3 - Give it a weathered sign [36001], Max : 3, % 10
+
+What sort of command will this be? : p
+Choose a load command.
+0) Execute no matter what.
+1) Execute only if the last command was successful.
+2) Execute only if the last command was NOT successful.
+3) Execute only if last mobile load command was successful.
+4) Execute only if last mobile failed percentage load.
+5) Execute only if last mobile load command was successful.
+6) Execute only if last mobile failed to load.
+7) Execute only if last mobile loaded and last object failed to load.
+8) Execute only if this is a MOB loading based on previous mob failed load.
+Enter your choice : 0
+Input object vnum : 36001
+Input the maximum number that can exist on the mud : 3
+Virtual number of the container : 36002
+Input the percentage chance of the load occurring : 10
+4 - Put a weathered sign [36001] in a worn sign [36002], Max : 3, % 10
+
+
+
+
+What sort of command will this be? : d
+Choose a load command.
+0) Execute no matter what.
+1) Execute only if the last command was successful.
+2) Execute only if the last command was NOT successful.
+3) Execute only if last mobile load command was successful.
+4) Execute only if last mobile failed percentage load.
+5) Execute only if last mobile load command was successful.
+6) Execute only if last mobile failed to load.
+7) Execute only if last mobile loaded and last object failed to load.
+8) Execute only if this is a MOB loading based on previous mob failed load.
+Enter your choice : 0
+0) Exit north.
+1) Exit east.
+2) Exit south.
+3) Exit west.
+4) Exit up.
+5) Exit down.
+6) Exit northeast.
+7) Exit southeast.
+8) Exit southwest.
+9) Exit northwest.
+Enter exit number for door : 0
+0)  Door open
+1)  Door closed
+2)  Door locked
+Enter state of the door : 1
+5 - Set door north as closed.
+
+
+
+What number in the list should the new command be? : 6
+
+M) Load Mobile to room
+O) Load Object to room
+E) Equip mobile with object
+G) Give an object to a mobile
+P) Put object in another object
+D) Open/Close/Lock a Door
+R) Remove an object from the room
+A) Remove a mobile from the room
+T) Assign a trigger
+V) Set a global variable
+
+What sort of command will this be? : r
+Choose a load command.
+0) Execute no matter what.
+1) Execute only if the last command was successful.
+2) Execute only if the last command was NOT successful.
+3) Execute only if last mobile load command was successful.
+4) Execute only if last mobile failed percentage load.
+5) Execute only if last mobile load command was successful.
+6) Execute only if last mobile failed to load.
+7) Execute only if last mobile loaded and last object failed to load.
+8) Execute only if this is a MOB loading based on previous mob failed load.
+Enter your choice : 0
+Input object's vnum : 3003
+6 - Remove a shot glass [3003] from room.
+
+
+What sort of command will this be? : a
+Choose a load command.
+0) Execute no matter what.
+1) Execute only if the last command was successful.
+2) Execute only if the last command was NOT successful.
+3) Execute only if last mobile load command was successful.
+4) Execute only if last mobile failed percentage load.
+5) Execute only if last mobile load command was successful.
+6) Execute only if last mobile failed to load.
+7) Execute only if last mobile loaded and last object failed to load.
+8) Execute only if this is a MOB loading based on previous mob failed load.
+Enter your choice : 0
+Input mobile's vnum : 36001
+7 - Remove Layla Al-Nazih [36001] from room.
+
+
+What sort of command will this be? : t
+Input trigger type (0:mob, 1:obj, 2:room) :0
+Enter the trigger VNum : 36001
+8 -  then Attach trigger Layla - Elixir [36001] to mobile
+
+
+
+What sort of command will this be? : v
+Input trigger type (0:mob, 1:obj, 2:room) :0
+Global's context (0 for none) : 36001
+Enter the global name : foo
+Enter the global value : bar
+9 -  then Assign global foo:36001 to mobile = bar
+
+
+
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+
+
+
+Trigger Editor [36199]
+
+1) Name         : new trigger
+2) Intended for : Mobiles
+3) Trigger types: Greet 
+4) Numeric Arg  : 100
+5) Arguments    : 
+6) Commands:
+%echo% This trigger commandlist is not complete!
+
+W) Copy Trigger
+Q) Quit
+
+
+
+Enter Choice :2
+0: Mobiles, 1: Objects, 2: Rooms: 0
+
+
+**when mobiles**
+Enter Choice :3
+ 1) Global                 2) Random                
+ 3) Command                4) Speech                
+ 5) Act                    6) Death                 
+ 7) Greet                  8) Greet-All             
+ 9) Entry                 10) Receive               
+11) Fight                 12) HitPrcnt              
+13) Bribe                 14) Load                  
+15) Memory                16) Cast                  
+17) Leave                 18) Door                  
+19) CombatDamage          20) Time   
+
+**when objects**
+Enter Choice :3
+ 1) Global                 2) Random                
+ 3) Command                4) UNUSED1               
+ 5) UNUSED2                6) Timer                 
+ 7) Get                    8) Drop                  
+ 9) Give                  10) Wear                  
+11) UNUSED3               12) Remove                
+13) UNUSED4               14) Load                  
+15) UNUSED5               16) Cast                  
+17) Leave                 18) UNUSED6               
+19) Consume               20) Time     
+
+**when room*
+Enter Choice :3
+ 1) Global                 2) Random                
+ 3) Command                4) Speech                
+ 5) UNUSED1                6) Zone Reset            
+ 7) Enter                  8) Drop                  
+ 9) UNUSED2               10) UNUSED3               
+11) UNUSED4               12) UNUSED5               
+13) UNUSED6               14) UNUSED7               
+15) UNUSED8               16) Cast                  
+17) Leave                 18) Door                  
+19) Login                 20) Time   
