@@ -1,0 +1,519 @@
+Name of zone   = Limbo
+Bottom of Zone = 0
+Top of Zone    = 99
+
+Name of zone   = The Midgaard Temple
+Bottom of Zone = 100
+Top of Zone    = 199
+
+Name of zone   = The God Complex
+Bottom of Zone = 200
+Top of Zone    = 299
+
+Name of zone   = The Crystal Caves
+Bottom of Zone = 300
+Top of Zone    = 399
+
+Name of zone   = Froboz's Factory
+Bottom of Zone = 400
+Top of Zone    = 499
+
+Name of zone   = The Abandoned Cathedral
+Bottom of Zone = 500
+Top of Zone    = 599
+
+Name of zone   = Arctica
+Bottom of Zone = 600
+Top of Zone    = 699
+
+Name of zone   = Interstellar Space
+Bottom of Zone = 700
+Top of Zone    = 899
+
+Name of zone   = River Island Of Minos
+Bottom of Zone = 900
+Top of Zone    = 999
+
+Name of zone   = God Complex Extension
+Bottom of Zone = 1000
+Top of Zone    = 1099
+
+Name of zone   = Shire Village
+Bottom of Zone = 1100
+Top of Zone    = 1199
+
+Name of zone   = Star Wars
+Bottom of Zone = 1200
+Top of Zone    = 1399
+
+Name of zone   = Amusement Park
+Bottom of Zone = 1400
+Top of Zone    = 1498
+
+Name of zone   = The Straight Path
+Bottom of Zone = 1500
+Top of Zone    = 1599
+
+Name of zone   = The Old Elven Village
+Bottom of Zone = 1600
+Top of Zone    = 1799
+
+Name of zone   = Miden'Nir
+Bottom of Zone = 1800
+Top of Zone    = 1899
+
+Name of zone   = The Player's Keeps
+Bottom of Zone = 1900
+Top of Zone    = 1999
+
+Name of zone   = The Abyss
+Bottom of Zone = 2000
+Top of Zone    = 2099
+
+Name of zone   = Skara Brae
+Bottom of Zone = 2100
+Top of Zone    = 2199
+
+Name of zone   = The Abandoned Ship and the Deep Forest
+Bottom of Zone = 2200
+Top of Zone    = 2299
+
+Name of zone   = Outskirts of Skara Brae
+Bottom of Zone = 2300
+Top of Zone    = 2399
+
+Name of zone   = Cheers
+Bottom of Zone = 2400
+Top of Zone    = 2499
+
+Name of zone   = The Arctic Empire
+Bottom of Zone = 2500
+Top of Zone    = 2699
+
+Name of zone   = Camelot
+Bottom of Zone = 2700
+Top of Zone    = 2899
+
+Name of zone   = Donner's Den of Iniquity
+Bottom of Zone = 2900
+Top of Zone    = 2999
+
+Name of zone   = Midgaard
+Bottom of Zone = 3000
+Top of Zone    = 3199
+
+Name of zone   = Midgaard Park South
+Bottom of Zone = 3200
+Top of Zone    = 3299
+
+Name of zone   = Mahn-Tor
+Bottom of Zone = 3300
+Top of Zone    = 3454
+
+Name of zone   = Outskirts of Midgaard
+Bottom of Zone = 3500
+Top of Zone    = 3599
+
+Name of zone   = Sesame Street and Muppet Theatre
+Bottom of Zone = 3600
+Top of Zone    = 3699
+
+Name of zone   = The Wayhouse
+Bottom of Zone = 3700
+Top of Zone    = 3740
+
+Name of zone   = Gyles Keep
+Bottom of Zone = 3800
+Top of Zone    = 3899
+
+Name of zone   = Midgaard Countryside
+Bottom of Zone = 3900
+Top of Zone    = 3999
+
+Name of zone   = Moria
+Bottom of Zone = 4000
+Top of Zone    = 4099
+
+Name of zone   = Lower Moria
+Bottom of Zone = 4100
+Top of Zone    = 4199
+
+Name of zone   = Wamphyri Aerie
+Bottom of Zone = 4200
+Top of Zone    = 4399
+
+Name of zone   = The Trog Caves and Outpost
+Bottom of Zone = 4400
+Top of Zone    = 4699
+
+Name of zone   = The Bardic Colleges
+Bottom of Zone = 4700
+Top of Zone    = 4999
+
+Name of zone   = The Great Eastern Desert
+Bottom of Zone = 5000
+Top of Zone    = 5099
+
+Name of zone   = Drow City
+Bottom of Zone = 5100
+Top of Zone    = 5199
+
+Name of zone   = The Lost City of Old Thalos
+Bottom of Zone = 5200
+Top of Zone    = 5299
+
+Name of zone   = The Great Pyramid
+Bottom of Zone = 5300
+Top of Zone    = 5399
+
+Name of zone   = The Northern Plains
+Bottom of Zone = 5400
+Top of Zone    = 5499
+
+Name of zone   = The Wandering Ship
+Bottom of Zone = 5500
+Top of Zone    = 5599
+
+Name of zone   = The Galaxy
+Bottom of Zone = 5700
+Top of Zone    = 5799
+
+Name of zone   = The Monastery
+Bottom of Zone = 5800
+Top of Zone    = 5999
+
+Name of zone   = Light Haon-Dor
+Bottom of Zone = 6000
+Top of Zone    = 6099
+
+Name of zone   = Dark Haon-Dor
+Bottom of Zone = 6100
+Top of Zone    = 6199
+
+Name of zone   = Arachnos
+Bottom of Zone = 6200
+Top of Zone    = 6299
+
+Name of zone   = The Chess Board
+Bottom of Zone = 6300
+Top of Zone    = 6399
+
+Name of zone   = The Dwarven Kingdom
+Bottom of Zone = 6500
+Top of Zone    = 6599
+
+Name of zone   = Hell
+Bottom of Zone = 6600
+Top of Zone    = 6656
+
+Name of zone   = Lost Isle of Shaedar
+Bottom of Zone = 6700
+Top of Zone    = 6899
+
+Name of zone   = The Dragon Sea
+Bottom of Zone = 6900
+Top of Zone    = 6999
+
+Name of zone   = Scipio Dreaming
+Bottom of Zone = 7100
+Top of Zone    = 7299
+
+Name of zone   = The Midgaard Sewers
+Bottom of Zone = 7300
+Top of Zone    = 7350
+
+Name of zone   = Cedar Estate Mansion
+Bottom of Zone = 7400
+Top of Zone    = 7499
+
+Name of zone   = The Nightmire
+Bottom of Zone = 7500
+Top of Zone    = 7560
+
+Name of zone   = Andrus' Toy Land
+Bottom of Zone = 7600
+Top of Zone    = 7799
+
+Name of zone   = The Wedding of Oreshkigal and Elish
+Bottom of Zone = 7800
+Top of Zone    = 7899
+
+Name of zone   = July 4th quest zone
+Bottom of Zone = 7900
+Top of Zone    = 7999
+
+Name of zone   = Independence Day Extension
+Bottom of Zone = 8000
+Top of Zone    = 8099
+
+Name of zone   = Christmas 2018
+Bottom of Zone = 8100
+Top of Zone    = 8199
+
+Name of zone   = Christmas 2018 Part II
+Bottom of Zone = 8200
+Top of Zone    = 8299
+
+Name of zone   = Valhalla
+Bottom of Zone = 8300
+Top of Zone    = 8399
+
+Name of zone   = Xmas 2017
+Bottom of Zone = 8400
+Top of Zone    = 8599
+
+Name of zone   = The Parliament of Owls
+Bottom of Zone = 8900
+Top of Zone    = 8999
+
+Name of zone   = The Midgaard Zoo
+Bottom of Zone = 9000
+Top of Zone    = 9099
+
+Name of zone   = Goblinsville
+Bottom of Zone = 9200
+Top of Zone    = 9299
+
+Name of zone   = Floodlands
+Bottom of Zone = 9300
+Top of Zone    = 9499
+
+Name of zone   = The Lich Tower
+Bottom of Zone = 9500
+Top of Zone    = 9599
+
+Name of zone   = Imperial Ravenna
+Bottom of Zone = 9600
+Top of Zone    = 9799
+
+Name of zone   = The Golden Pagoda
+Bottom of Zone = 9800
+Top of Zone    = 9899
+
+Name of zone   = The Metro
+Bottom of Zone = 9900
+Top of Zone    = 9999
+
+Name of zone   = Enfan City
+Bottom of Zone = 10000
+Top of Zone    = 10099
+
+Name of zone   = Hellas
+Bottom of Zone = 10100
+Top of Zone    = 10299
+
+Name of zone   = Monopoly Quest
+Bottom of Zone = 10300
+Top of Zone    = 10399
+
+Name of zone   = Easter 2019
+Bottom of Zone = 10400
+Top of Zone    = 10499
+
+Name of zone   = Arcadia
+Bottom of Zone = 10600
+Top of Zone    = 10899
+
+Name of zone   = Quest Items
+Bottom of Zone = 11100
+Top of Zone    = 11199
+
+Name of zone   = The Dollhouse
+Bottom of Zone = 11800
+Top of Zone    = 11899
+
+Name of zone   = Rome
+Bottom of Zone = 12000
+Top of Zone    = 12099
+
+Name of zone   = The Museum of the Gods
+Bottom of Zone = 12100
+Top of Zone    = 12199
+
+Name of zone   = New Thalos
+Bottom of Zone = 12200
+Top of Zone    = 12599
+
+Name of zone   = The Corsair Citadel
+Bottom of Zone = 12600
+Top of Zone    = 12755
+
+Name of zone   = The Emerald Maze
+Bottom of Zone = 12800
+Top of Zone    = 12999
+
+Name of zone   = The High Tower of Sorcery
+Bottom of Zone = 13000
+Top of Zone    = 13199
+
+Name of zone   = Three of Swords
+Bottom of Zone = 13300
+Top of Zone    = 13392
+
+Name of zone   = The Ant Hill
+Bottom of Zone = 13900
+Top of Zone    = 13999
+
+Name of zone   = The Amber Forest
+Bottom of Zone = 14000
+Top of Zone    = 14199
+
+Name of zone   = Refuge and Asylum
+Bottom of Zone = 14300
+Top of Zone    = 14399
+
+Name of zone   = The Sieged Castle
+Bottom of Zone = 14600
+Top of Zone    = 14699
+
+Name of zone   = King Welmar's Castle
+Bottom of Zone = 15000
+Top of Zone    = 15055
+
+Name of zone   = Weeden and the Western Forest
+Bottom of Zone = 15400
+Top of Zone    = 15499
+
+Name of zone   = Weeden Underground
+Bottom of Zone = 15500
+Top of Zone    = 15599
+
+Name of zone   = The Underworld
+Bottom of Zone = 16100
+Top of Zone    = 16250
+
+Name of zone   = The Balor
+Bottom of Zone = 16600
+Top of Zone    = 16699
+
+Name of zone   = Drake Isle
+Bottom of Zone = 16700
+Top of Zone    = 16899
+
+Name of zone   = The Death Star
+Bottom of Zone = 17000
+Top of Zone    = 17499
+
+Name of zone   = The Wedding Shops
+Bottom of Zone = 17800
+Top of Zone    = 17899
+
+Name of zone   = Tir na nOg
+Bottom of Zone = 17900
+Top of Zone    = 18199
+
+Name of zone   = Jedimud old folks home.
+Bottom of Zone = 18300
+Top of Zone    = 18399
+
+Name of zone   = Limbo
+Bottom of Zone = 18400
+Top of Zone    = 18499
+
+Name of zone   = Aralu
+Bottom of Zone = 18500
+Top of Zone    = 18589
+
+Name of zone   = Miden'Nir Extension
+Bottom of Zone = 18600
+Top of Zone    = 18667
+
+Name of zone   = Castle Mistamere
+Bottom of Zone = 19200
+Top of Zone    = 19299
+
+Name of zone   = Newbie Trog caves and outpost
+Bottom of Zone = 19300
+Top of Zone    = 19599
+
+Name of zone   = The Shadows
+Bottom of Zone = 21000
+Top of Zone    = 21399
+
+Name of zone   = Dragon City
+Bottom of Zone = 21600
+Top of Zone    = 21699
+
+Name of zone   = The Training Grounds
+Bottom of Zone = 21700
+Top of Zone    = 21799
+
+Name of zone   = The City of Sanctuary
+Bottom of Zone = 23000
+Top of Zone    = 23499
+
+Name of zone   = The Watch Towers
+Bottom of Zone = 23500
+Top of Zone    = 23599
+
+Name of zone   = Pyramid of DOOM!
+Bottom of Zone = 23600
+Top of Zone    = 23799
+
+Name of zone   = Pyramid of DOOM!
+Bottom of Zone = 23800
+Top of Zone    = 23999
+
+Name of zone   = The Darkspine Mountains
+Bottom of Zone = 24000
+Top of Zone    = 24020
+
+Name of zone   = New Zone
+Bottom of Zone = 24900
+Top of Zone    = 24999
+
+Name of zone   = Gauntlet
+Bottom of Zone = 25000
+Top of Zone    = 25299
+
+Name of zone   = The Quest Chute
+Bottom of Zone = 25300
+Top of Zone    = 25399
+
+Name of zone   = Quest Zone
+Bottom of Zone = 25400
+Top of Zone    = 25499
+
+Name of zone   = Halloween 2019 and Dragon Quest
+Bottom of Zone = 25500
+Top of Zone    = 25599
+
+Name of zone   = Independence Day 2020
+Bottom of Zone = 25600
+Top of Zone    = 25699
+
+Name of zone   = Toyland Extensions
+Bottom of Zone = 25700
+Top of Zone    = 25899
+
+Name of zone   = Doom Isle
+Bottom of Zone = 25900
+Top of Zone    = 25999
+
+Name of zone   = The Ice Fortress of Razakasch
+Bottom of Zone = 35000
+Top of Zone    = 35199
+
+Name of zone   = Shifting Sands
+Bottom of Zone = 36000
+Top of Zone    = 36199
+
+Name of zone   = Elias' Ascendant
+Bottom of Zone = 37000
+Top of Zone    = 37199
+
+Name of zone   = The Tower of Shadows
+Bottom of Zone = 39000
+Top of Zone    = 39199
+
+Name of zone   = Guts new zone
+Bottom of Zone = 40000
+Top of Zone    = 40199
+
+Name of zone   = The Legend of Zelda
+Bottom of Zone = 444001
+Top of Zone    = 444999
+
+Name of zone   = New Zone
+Bottom of Zone = 5000000
+Top of Zone    = 5000999

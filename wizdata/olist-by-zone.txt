@@ -656,7 +656,6 @@ Index VNum    Object Name                                  Object Type
   31) [1932 ] Heartsong the Sword of Harmony               [WEAPON]
   32) [1933 ] Soulsong the Sword of Destiny                [WEAPON]
   33) [1934 ] Earyende, the bracelet of Aistaraina         [ARMOR]
-  34) [1935 ] Shroud of Darkness                           [ARMOR]
   35) [1936 ] Adamantium Bracer                            [ARMOR]
   36) [1937 ] Lamp of Iniquity                             [LIGHT]
   37) [1938 ] Pants of Prosperity                          [ARMOR]
